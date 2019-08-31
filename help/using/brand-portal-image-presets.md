@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_ EXPERIENCEMANAGER/Brand_ Portal
 discoiquuid: a 512 dfa 0-fef 3-4 c 3 f-a 389-a 0 a 3 a 7415 bac
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: c0169450c5cf1d8c99f8604df3bd2667445ff1ed
 
 ---
 
@@ -41,8 +41,6 @@ Remarque : seuls les administrateurs peuvent créer des paramètres d’image p
 Le mode hybride de Media Dynamic doit être activé sur AEM (auteur) pour créer un rendu ptiff d’une ressource. Lorsqu'un tel fichier est publié sur le portail de marque, les paramètres d'image prédéfinis sont appliqués et les rendus dynamiques sont affichés.
 
 1. Dans la barre d'outils AEM en haut, cliquez sur le logo Adobe pour accéder aux outils d'administration.
-
-   ![](assets/AEMlogo.png)
 
 2. From the administrative tools panel, click **[!UICONTROL Image Presets]**.
 
