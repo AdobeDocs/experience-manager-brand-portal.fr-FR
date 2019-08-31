@@ -10,17 +10,17 @@ content-type: référence
 products: SG_ EXPERIENCEMANAGER/Brand_ Portal
 discoiquuid: b 9 e 9 fe 7 b -0373-42 d 1-851 b -7 c 76 b 47657 c 2
 translation-type: tm+mt
-source-git-commit: 770c353b1143d879280df310012ce9d4d30b40c9
+source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 ---
 
 
 # Accès des invités à Brand Portal {#guest-access-to-brand-portal}
 
-[!DNL AEM Brand portal] permet aux invités d'accéder à Portal. Un utilisateur invité n’a pas besoin d’informations d’identification pour accéder au portail et a accès aux ressources (et aux collections) publiques du portail. Users in the guest session can add assets to their lightbox (private collection) and download the same until their session lasts, which is 2 hours from the beginning of the session unless the guest user chooses to [End Session](#exit-guest-session).
+AEM Brand Portal permet à des invités d’accéder au portail. Un utilisateur invité n’a pas besoin d’informations d’identification pour accéder au portail et a accès aux ressources (et aux collections) publiques du portail. Users in the guest session can add assets to their lightbox (private collection) and download the same until their session lasts, which is 2 hours from the beginning of the session unless the guest user chooses to [[!UICONTROL End Session]](#exit-guest-session).
 
-Guest access functionality enables organizations to [quickly share approved assets](../using/brand-portal-sharing-folders.md#how-to-share-folders) with the intended audience at scale without having to onboard them. [!DNL Brand Portal]À compter de la version 6.4.2,  est capable de servir plusieurs utilisateurs invités simultanés sans dépasser 10 % du nombre total d’utilisateurs par entreprise. Allowing guest access saves time to manage and on-board scores of users who need to use limited functionalities on [!DNL Brand Portal].\
-Les organisations peuvent activer (ou désactiver) l'accès aux invités au [!DNL Brand Portal] compte de l'organisation à l'aide **de l'option Autoriser l'accès** des invités à partir **des paramètres d'accès** dans le panneau Outils d'administration.
+Guest access functionality enables organizations to [quickly share approved assets](../using/brand-portal-sharing-folders.md#how-to-share-folders) with the intended audience at scale without having to onboard them. À compter de la version 6.4.2, Brand Portal est capable de servir plusieurs utilisateurs invités simultanés sans dépasser 10 % du nombre total d’utilisateurs par entreprise. L'autorisation d'accès des invités permet de gagner du temps à gérer et à identifier des scores d'utilisateurs qui doivent utiliser des fonctionnalités limitées sur le portail de marque.\
+Les organisations peuvent activer (ou désactiver) l'accès aux invités sur le compte de portail de marque de l'organisation à l'aide **[!UICONTROL de l'option Autoriser les]** invités à accéder aux **[!UICONTROL paramètres d'accès]** dans le panneau Outils d'administration.
 
 <!--
 Comment Type: annotation
@@ -33,32 +33,32 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 ## Démarrage d’une session d’invité {#begin-guest-session}
 
-Pour accéder à Brand Portal de manière anonyme, sélectionnez **[!UICONTROL Cliquez ici]** en regard de **Accès d’invité ?** sur [!DNL Brand Portal] l'écran de bienvenue. Les utilisateurs n’ont pas besoin de demander l’accès et d’attendre que l’administrateur les authentifie pour leur accorder l’accès à [!DNL Brand Portal].
+Pour accéder à Brand Portal de manière anonyme, sélectionnez **[!UICONTROL Cliquez ici]** en regard de **Accès d’invité ?** sur l'écran de bienvenue de Brand Portal. Les utilisateurs n’ont pas besoin de demander l’accès et d’attendre que l’administrateur les authentifie pour leur accorder l’accès à Brand Portal.
 
 ![](assets/bp-login-screen.png)
 
 ## Durée d’une session d’invité {#guest-session-duration}
 
-Une session d’utilisateur invité reste active pendant deux heures. This means that the state of the [!UICONTROL lightbox] is preserved until 1 hour from the session start time, and after 2 hours the current guest session restarts so the lightbox state is lost.\
-For example, a guest user logs in to the [!DNL Brand Portal] at 1500 hours and adds assets to lightbox for download at 16:50 hours. If the user doesn't download the [!UICONTROL lightbox collection] (or its assets) before 17:00 hours, the [!UICONTROL lightbox] will become empty as the user will have to restart the session at the end of 1 hour (that is 1700 hours).
+Une session d’utilisateur invité reste active pendant deux heures. This means that the state of the [!UICONTROL Lightbox] is preserved until 1 hour from the session start time, and after 2 hours the current guest session restarts so the Lightbox state is lost.\
+Par exemple, un utilisateur invité se connecte à la marque à 1 500 heures et ajoute des ressources à Lightbox en téléchargement à 16:50 heures. If the user doesn't download the [!UICONTROL Lightbox] collection (or its assets) before 17:00 hours, the [!UICONTROL Lightbox] will become empty as the user will have to restart the session at the end of 1 hour (that is 1700 hours).
 
 ## Sessions d’invités simultanées permises {#concurrent-guest-sessions-allowed}
 
-Le nombre de sessions d'invités simultanées est limité à 10 % du quota total d'utilisateurs par organisation. Ainsi, pour une organisation disposant du quota d'utilisateurs de 200, 20 utilisateurs invités maximum peuvent travailler simultanément. L'accès à la 21 e utilisateur est refusé et ne pourra accéder qu'en tant qu'invité lorsque la session de l'un des 20 utilisateurs invités actifs se termine.
+Le nombre de sessions d'invités simultanées est limité à 10 % du quota total d'utilisateurs par organisation. Ainsi, pour une organisation disposant du quota d'utilisateurs de 200, 20 utilisateurs invités maximum peuvent travailler simultanément. L'accès à la 21 e utilisateur est refusé et peut accéder en tant qu'invité uniquement si la session de l'un des 20 utilisateurs invités actifs se termine.
 
 ## Interaction des utilisateurs invités avec Brand Portal {#guest-user-interaction-with-brand-portal}
 
 ### Navigation dans l’IU pour les invités
 
-On entering the [!DNL Brand Portal] as the guest, users are able to see all the [assets and folders shared](../using/brand-portal-sharing-folders.md#sharefolders) publicly or with guest users exclusively. Réservée au contenu, cette vue affiche les ressources dans les dispositions Carte, Liste ou Colonnes.
+On entering the Brand Portal as the guest, users can see all the [assets and folders shared](../using/brand-portal-sharing-folders.md#sharefolders) publicly or with guest users exclusively. Réservée au contenu, cette vue affiche les ressources dans les dispositions Carte, Liste ou Colonnes.
 
 ![](assets/disabled-folder-hierarchy1.png)
 
-However, Guest Users see the folder tree (starting from the root folder) and the shared folders arranged within their respective parent folders on logging in to the [!DNL Brand Portal], if administrators have enabled [Enable Folder Hierarchy](../using/brand-portal-general-configuration.md#main-pars-header-1621071021) configuration.
+However, the guest users see the folder tree (starting from the root folder) and the shared folders arranged within their respective parent folders on logging in to the Brand Portal, if administrators have enabled [Enable Folder Hierarchy](../using/brand-portal-general-configuration.md#main-pars-header-1621071021) configuration.
 
 Ces dossiers parents sont des dossiers virtuels et ne peuvent faire l’objet d’aucune action. Vous pouvez identifier ces dossiers virtuels grâce à leur icône de verrou.
 
-Aucune tâche d’action n’est visible lorsque vous les survolez ou les sélectionnez en mode Carte, à la différence des dossiers partagés. Le bouton Aperçu apparaît lorsque vous sélectionnez un dossier virtuel dans les modes Colonnes et Liste.
+No action tasks are visible on hovering or selecting them in [!UICONTROL Card View], unlike the shared folders. [!UICONTROL Le] bouton Aperçu s'affiche lors de la sélection d'un dossier virtuel en mode [!UICONTROL Colonnes] et [!UICONTROL Affichage par liste].
 
 >[!NOTE]
 >
@@ -66,66 +66,66 @@ Aucune tâche d’action n’est visible lorsque vous les survolez ou les sélec
 
 ![](assets/enabled-hierarchy1.png) ![](assets/hierarchy1-nonadmin.png) ![](assets/hierarchy-nonadmin.png) ![](assets/hierarchy2-nonadmin.png)
 
-L’option Paramètres permet aux utilisateurs invités d’ajuster les formats de carte en mode Carte ou les colonnes à afficher en mode Liste.
+[!UICONTROL L'option Paramètres] d'affichage permet aux utilisateurs invités d'ajuster les tailles de carte dans [!UICONTROL l'Affichage] Carte ou les colonnes à afficher en [!UICONTROL mode Liste].
 
 ![](assets/nav-guest-user.png)
 
-L'arborescence de contenu vous permet de parcourir la hiérarchie des ressources.
+The [!UICONTROL Content tree] lets you move through assets hierarchy.
 
 ![](assets/guest-login-ui.png)
 
-[!DNL Brand Portal] propose l'option **Aperçu** aux utilisateurs invités pour afficher les propriétés de ressource des fichiers/dossiers sélectionnés. L’option Aperçu est visible :
+Brand Portal provides [!UICONTROL Overview] option to guest users to view [!UICONTROL Asset Properties] of selected assets/folders. The [!UICONTROL Overview] option is visible:
 
-1. dans la barre d’outils supérieure lors de la sélection d’une ressource/d’un dossier ;
-2. dans le menu déroulant, lors de la sélection du sélecteur de rail.
+* dans la barre d’outils supérieure lors de la sélection d’une ressource/d’un dossier ;
+* dans le menu déroulant, lors de la sélection du sélecteur de rail.
 
-S’ils choisissent l’option Aperçu lorsqu’une ressource/un dossier est sélectionné, les utilisateurs peuvent voir le titre, le chemin et l’heure de création de la ressource. En revanche, sur la page des détails de la ressource, l’option Aperçu permet aux utilisateurs d’afficher les métadonnées de la ressource.
+On selecting the [!UICONTROL Overview] option while an asset/folder is selected, users can see the title, path, and time of asset creation. Whereas, on asset detail page selecting [!UICONTROL Overview] option lets the users see metadata of the asset.
 
 ![](assets/overview-option-1.png)
 
 ![](assets/overview-rail-selector-1.png)
 
-**[!UICONTROL L'option de navigation]** dans la barre de navigation gauche permet de naviguer entre les fichiers vers [!UICONTROL les collections] et de revenir à la session d'invités afin que les utilisateurs puissent parcourir les fichiers dans des fichiers ou [!UICONTROL des collections].
+**[!UICONTROL L'option de navigation]** dans la barre de navigation gauche permet de naviguer entre les fichiers vers les collections et de revenir à la session d'invités afin que les utilisateurs puissent parcourir les fichiers dans des fichiers ou des collections.
 
-**L'option Filtre** permet aux utilisateurs invités de filtrer les fichiers et dossiers de fichiers à l'aide de prédicats de recherche définis par l'administrateur.
+**[!UICONTROL L'option Filtre]** permet aux utilisateurs invités de filtrer les fichiers et dossiers de fichiers à l'aide de prédicats de recherche définis par l'administrateur.
 
 ### Fonctions offertes aux utilisateurs invités
 
-Guest users can access public assets on [!DNL Brand Portal], and also have few restrictions as discussed further.
+Les utilisateurs invités peuvent accéder aux ressources publiques sur Brand Portal et ont également quelques restrictions comme décrit plus loin.
 
 Les utilisateurs invités peuvent :
 
-* access all the public folders and [!UICONTROL collections] meant for all the [!DNL Brand Portal] users.
-* browse members, detail page, and have full asset view of the members of all the public folders and [!UICONTROL collections].
-* search assets across public folders and [!UICONTROL collections].
-* add assets to lightbox [!UICONTROL collection]. These changes to the [!UICONTROL collection] persist during the session.
-* download assets directly or through lightbox [!UICONTROL collection].
+* accéder à tous les dossiers et collections publics destinés à tous les utilisateurs de Brand Portal ;
+* parcourir les membres et la page de détails, et disposer d’une vue complète des ressources des membres de tous les dossiers et collections publics ;
+* rechercher des ressources au sein des dossiers et collections publics ;
+* ajouter des ressources à la collection Lightbox. Les modifications apportées à la collection persistent pendant la session.
+* télécharger des ressources directement ou via la collection Lightbox.
 
 Les utilisateurs invités ne peuvent pas :
 
-* create [!UICONTROL collections] and saved searches, or share them further.
-* access folder and [!UICONTROL collections] settings.
+* créer des collections et des recherches enregistrées, ni les partager ;
+* accéder aux paramètres des dossiers et collections ;
 * partager des ressources sous la forme de liens.
 
 ### Téléchargement de ressources au cours d’une session d’invité
 
-Les utilisateurs invités peuvent télécharger directement les ressources partagées publiquement ou exclusivement avec les utilisateurs invités sur [!DNL Brand Portal]. Guest users can also add assets to [!UICONTROL Lightbox] (public [!UICONTROL collection]), and download the [!UICONTROL lightbox collection] before their session expires.
+Les utilisateurs invités peuvent télécharger directement les ressources partagées publiquement ou exclusivement avec les utilisateurs invités sur Brand Portal. Guest users can also add assets to [!UICONTROL Lightbox] (public collection), and download the [!UICONTROL Lightbox] collection before their session expires.
 
-To download assets and [!UICONTROL collections], use the download icon from:
+Pour télécharger des fichiers et des collections, utilisez l'icône de téléchargement de :
 
-* quick action thumbnails, which appear on hovering over the asset or [!UICONTROL collection]
-* the toolbar at the top, which appears on selecting the asset or [!UICONTROL collection]
+* miniatures d'action rapide, qui apparaissent lorsque vous passez la souris sur le fichier ou la collection
+* la barre d'outils en haut, qui s'affiche lors de la sélection du fichier ou de la collection
 
 ![](assets/download-on-guest.png)
 
-Sélectionnez **Activer l’accélération des téléchargements** dans la boîte de dialogue Téléchargement afin d’[améliorer les performances de téléchargement](../using/accelerated-download.md).
+Sélectionnez **[!UICONTROL Activer l’accélération des téléchargements]**[!UICONTROL  dans la boîte de dialogue Téléchargement afin d’]améliorer les performances de téléchargement[.](../using/accelerated-download.md)
 
 ## Quitter une session d’invité {#exit-guest-session}
 
-To exit a guest session, use **End Session** from the options available in the header. Cependant, si le navigateur utilisé pour la session invité est inactif, la session expire automatiquement après deux heures d'inactivité.
+To exit a guest session, use **[!UICONTROL End Session]** from the options available in the header. Cependant, si le navigateur utilisé pour la session invité est inactif, la session expire automatiquement après deux heures d'inactivité.
 
 ![](assets/end-guest-session.png)
 
 ## Surveillance des activités des utilisateurs invités {#monitoring-guest-user-activities}
 
-Les administrateurs peuvent suivre l’interaction des utilisateurs invités avec [!DNL Brand Portal]. Reports generated in [!DNL Brand Portal] can provide key insights into guest user activities. Par exemple, le rapport **Téléchargement** peut être utilisé pour le suivi du nombre de ressources téléchargées par un utilisateur invité. **Le rapport Connexion** utilisateur peut informer le dernier utilisateur connecté au portail et la fréquence des connexions d'une durée spécifiée.
+Les administrateurs peuvent suivre l’interaction des utilisateurs invités avec Brand Portal. Les rapports générés dans Brand Portal peuvent fournir des informations clés sur les activités des utilisateurs invités. Par exemple, le rapport **[!UICONTROL Téléchargement]peut être utilisé pour le suivi du nombre de ressources téléchargées par un utilisateur invité.** **[!UICONTROL Le rapport Connexion]** utilisateur peut informer le dernier utilisateur connecté au portail et la fréquence des connexions d'une durée spécifiée.
