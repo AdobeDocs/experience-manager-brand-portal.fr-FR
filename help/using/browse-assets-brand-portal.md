@@ -9,16 +9,16 @@ content-type: référence
 topic-tags: introduction
 discoiquuid: a 70 ce 694-81 d 1-4829-9 e 61-b 6412 e 013 e 5 c
 translation-type: tm+mt
-source-git-commit: 770c353b1143d879280df310012ce9d4d30b40c9
+source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 ---
 
 
 # Exploration des ressources sur Brand Portal {#browsing-assets-on-brand-portal}
 
-[!DNL AEM] Ressources [! DNL Brand Portal offre différentes fonctionnalités et différents éléments d'interface utilisateur qui facilitent la navigation dans les ressources, la navigation dans les hiérarchies de ressources et la recherche de fichiers lors de l'utilisation d'options d'affichage différentes.
+AEM Assets Brand Portal fournit plusieurs fonctionnalités et éléments d’IU pour faciliter l’exploration des ressources, la navigation à travers les hiérarchies de ressources et la recherche de ressources en utilisant différentes options de modes.
 
-[!DNL AEM][!DNL AEM]Le logo  dans la barre d’outils  supérieure permet aux utilisateurs administrateurs d’accéder au panneau des outils d’administration.
+Le logo AEM dans la barre d’outils AEM supérieure permet aux utilisateurs administrateurs d’accéder au panneau des outils d’administration.
 
 ![](assets/aemlogo.png)
 
@@ -26,17 +26,17 @@ source-git-commit: 770c353b1143d879280df310012ce9d4d30b40c9
 
 ![](assets/bp_subheader.png)
 
-Rail selector at the upper left in [!DNL Brand Portal] drops-down to expose options to navigate into asset hierarchies, streamline your search, and display resources.
+Le sélecteur de rail dans la partie supérieure gauche de Brand Portal se déroule pour afficher les options permettant de naviguer au sein des hiérarchies de ressources, de simplifier la recherche et d’afficher les ressources.
 
 ![](assets/siderail-1.png)
 
-Vous pouvez afficher, parcourir et sélectionner les ressources à l’aide de l’un des modes disponibles (Carte, Colonnes et Liste) dans le sélecteur de mode dans la partie supérieure droite de [!DNL Brand Portal].
+Vous pouvez afficher, parcourir et sélectionner les ressources à l’aide de l’un des modes disponibles (Carte, Colonnes et Liste) dans le sélecteur de mode dans la partie supérieure droite de Brand Portal.
 
 ![](assets/viewselector.png)
 
 ## Affichage et sélection de ressources {#viewing-and-selecting-resources}
 
-L’affichage, la navigation et la sélection sont identiques sur le plan conceptuel dans tous les modes, mais leur manipulation comporte de légères variations en fonction du mode utilisé.
+L'affichage, la navigation et la sélection sont les mêmes pour toutes les vues, mais avec de petites variations de traitement, selon la vue que vous utilisez.
 
 Vous pouvez afficher, parcourir et sélectionner (pour action ultérieure) vos ressources dans les modes disponibles :
 
@@ -54,7 +54,7 @@ Le mode Carte affiche les cartes d’informations de chaque élément au niveau 
 * Type
 * Titre
 * Nom
-* Date et heure de publication de la fichier a été publié [!DNL Brand Portal] à partir de [!DNL AEM]
+* Date et heure de publication de la ressource sur Brand Portal à partir d’AEM
 * Taille
 * Dimensions
 
@@ -67,7 +67,7 @@ You can navigate down the hierarchy by tapping/clicking cards (taking care to av
 Les cartes des dossiers, dans l'Affichage Carte, affichent les informations de hiérarchie des dossiers à des utilisateurs non administrateurs (éditeur, observateur et utilisateur invité). Cette fonctionnalité permet aux utilisateurs de connaître l'emplacement des dossiers, y accède par rapport à la hiérarchie parent.
 Les informations sur la hiérarchie des dossiers sont particulièrement utiles pour différencier les dossiers dont les noms sont similaires à ceux d'autres dossiers partagés à partir d'une hiérarchie de dossiers différente. Si les utilisateurs non administrateurs ne connaissent pas la structure de dossiers des ressources partagées avec eux, les ressources/dossiers aux noms similaires peuvent sembler confus.
 
-* Les chemins affichés sur les cartes correspondantes sont tronqués pour s'adapter aux tailles de carte. Cependant, les utilisateurs peuvent voir le chemin d'accès complet en tant qu'horodatage sur le chemin tronqué.
+* Les chemins affichés sur les cartes correspondantes sont tronqués pour s'adapter aux tailles de carte. Cependant, les utilisateurs peuvent voir le chemin complet en tant qu'info-bulle lorsque vous pointez sur le chemin tronqué.
 
 ![](assets/folder-hierarchy1.png)
 
@@ -75,10 +75,10 @@ Les informations sur la hiérarchie des dossiers sont particulièrement utiles p
 
 L'option Aperçu est disponible pour les utilisateurs non administrateurs (Editeurs, Visionneuses et Utilisateurs invités) pour afficher les propriétés de ressource des fichiers/dossiers sélectionnés. L’option Aperçu est visible :
 
-1. dans la barre d’outils supérieure lors de la sélection d’une ressource/d’un dossier ;
-2. dans le menu déroulant, lors de la sélection du sélecteur de rail.
+* dans la barre d'outils en haut lors de la sélection d'un fichier/dossier.
+* dans la liste déroulante lors de la sélection du Sélecteur de rail.
 
-S’ils choisissent l’option Aperçu lorsqu’une ressource/un dossier est sélectionné, les utilisateurs peuvent voir le titre, le chemin et l’heure de création de la ressource. En revanche, sur la page des détails de la ressource, l’option Aperçu permet aux utilisateurs d’afficher les métadonnées de la ressource.
+On selecting the [!UICONTROL Overview] option while an asset/folder is selected, users can see the title, path, and time of asset creation. En revanche, sur la page des détails de la ressource, l’option Aperçu permet aux utilisateurs d’afficher les métadonnées de la ressource.
 
 ![](assets/overview-option.png)
 
@@ -86,7 +86,7 @@ S’ils choisissent l’option Aperçu lorsqu’une ressource/un dossier est sé
 
 #### Paramètres d’affichage en mode Carte
 
-La boîte de dialogue Paramètres d’affichage s’ouvre lors de la sélection de Paramètres d’affichage dans le sélecteur de vue. Il vous permet de redimensionner les vignettes de fichiers en mode Carte. De cette façon, vous pouvez personnaliser votre affichage et contrôler le nombre de miniatures qui s’affiche.
+[!UICONTROL La boîte de dialogue Paramètres d’affichage s’ouvre lors de la sélection de Paramètres d’affichage dans le sélecteur de vue. ]**** Il vous permet de redimensionner les vignettes de fichiers en mode Carte. De cette façon, vous pouvez personnaliser votre affichage et contrôler le nombre de miniatures qui s’affiche.
 
 ![](assets/cardviewsettings.png)
 
@@ -115,7 +115,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### Paramètres d’affichage en mode Liste
 
-List view shows asset **Name** as the first column by default. Des informations complémentaires, telles que le titre, les paramètres régionaux, le type, les dimensions, la taille, l’évaluation et l’état de publication sont également affichées. Toutefois, vous pouvez choisir les colonnes à afficher à l’aide de Paramètres d’affichage.
+List view shows asset [!UICONTROL Name] as the first column by default. Additional information, such as asset [!UICONTROL Title], [!UICONTROL Locale], [!UICONTROL Type], [!UICONTROL Dimensions], [!UICONTROL Size], [!UICONTROL Rating], publish status are also shown. However, you can select the columns to be shown using [!UICONTROL View Settings].
 
 ![](assets/list-view-setting.png)
 
@@ -139,7 +139,7 @@ Lorsqu’une ressource est sélectionnée en mode Colonne, sa représentation vi
 * Titre
 * Nom
 * Dimensions
-* Date and time when asset was published to [!DNL Brand Portal] from [!DNL AEM]
+* Date et heure de publication de la ressource sur Brand Portal à partir d’AEM
 * Taille
 * Type
 * Option Plus de détails pour accéder à la page de détails de la ressource
@@ -232,7 +232,7 @@ Comment Type: draft
 
 Outre ces vues, utilisez l'arborescence pour explorer la hiérarchie des ressources pendant que vous affichez et sélectionnez les éléments ou dossiers souhaités.
 
-To open the tree view, tap/click the rail selector at upper left and select the **Content tree** from the menu.
+To open the tree view, tap/click the rail selector at upper left and select the **[!UICONTROL Content tree]** from the menu.
 
 ![](assets/contenttree.png)
 
@@ -246,7 +246,7 @@ La page Détails de la ressource permet d’afficher une ressource, de la télé
 
 ![](assets/asset-detail.png)
 
-Pour consulter les métadonnées de la ressource, ou afficher ses différents rendus, utilisez le sélecteur de rail sur la page Détails de la ressource.
+Pour afficher les métadonnées du fichier ou afficher ses différents rendus, utilisez le sélecteur de rail sur la page des détails de la ressource.
 
 ![](assets/asset-overview.png)
 
@@ -254,8 +254,8 @@ Vous pouvez afficher tous les rendus disponibles de la ressource sur la page Dé
 
 ![](assets/renditions.png)
 
-To open the asset properties page, use *Properties (p)* option on the top bar.
+To open the asset properties page, use **[!UICONTROL Properties (p)]** option from the top bar.
 
 ![](assets/asset-properties.png)
 
-You can also view a list of all its related assets (source or derived assets on AEM) on an asset's properties page, as asset relationship is also published from [!DNL AEM] to [!DNL Brand Portal].
+Vous pouvez également afficher la liste de toutes ses ressources associées (ressources sources ou dérivées sur AEM) sur la page des propriétés de la ressource, car les relations de la ressource sont également publiées d’AEM vers Brand Portal.
