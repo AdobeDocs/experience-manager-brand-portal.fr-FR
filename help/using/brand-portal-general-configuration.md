@@ -10,30 +10,30 @@ content-type: référence
 products: SG_ EXPERIENCEMANAGER/Brand_ Portal
 discoiquuid: f 4 c 237 bc-f 6 a 4-4 bc 4-af 56-3 d 9 c 3027 daf 4
 translation-type: tm+mt
-source-git-commit: ea7fdd2df0696ed309227fa77e3f79d0141bcb58
+source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 ---
 
 
 # Administration des configurations générales du client {#administer-general-tenant-configurations}
 
-[!DNL AEM] Les ressources [!DNL Brand Portal] permettent aux entreprises de configurer les fonctionnalités suivantes pour des destinataires spécifiques :
+AEM Assets Brand Portal permet aux organisations de configurer les fonctionnalités suivantes pour des clients spécifiques :
 
 * Suppression des ressources par les administrateurs
-* Public [!UICONTROL collection] creation by non-admin users
-* Public smart [!UICONTROL collection] creation by non-admin users
+* Création de collections publiques par les utilisateurs non administrateurs
+* Création de collections dynamiques publiques par les utilisateurs non administrateurs
 * Accélération des téléchargements
 * Hiérarchie parente des dossiers partagés visible pour les utilisateurs non-administrateurs
 
-These configurations have been provided as **General Settings** configurations on the administrative tools panel.
+These configurations have been provided as **[!UICONTROL General Settings]** configurations on the administrative tools panel.
 
 ![](assets/general-configs.png)
 
-**** Configuration permettant aux administrateurs de supprimer des fichiers [!DNL Brand Portal]. (activée par défaut)
+**** Configuration permettant aux administrateurs de supprimer des fichiers de Brand Portal. (activée par défaut)
 
-**Configuration B** pour permettre aux utilisateurs non administrateurs de créer [!UICONTROL des collections publiques]. (La valeur par défaut est activée)
+**Configuration B** pour permettre aux utilisateurs non administrateurs de créer des collections publiques. (activée par défaut)
 
-**Configuration C** pour permettre aux utilisateurs non administrateurs de créer des collections dynamiques [!UICONTROL publiques]. (La valeur par défaut est activée)
+**C** Configuration autorisant les utilisateurs non administrateurs à créer des collections dynamiques publiques. (activée par défaut)
 
 **Configuration D** pour permettre l'accélération de téléchargement des fichiers téléchargés depuis le portail et depuis les liens partagés. (désactivée par défaut)
 
@@ -44,28 +44,28 @@ These configurations have been provided as **General Settings** configurations o
 Pour activer/désactiver chacune de ces configurations :
 
 1. Connectez-vous avec les privilèges d’administrateur.
-2. Select the [!DNL AEM] logo to access administrative tools, from the toolbar at the top.
-3. From the administrative tools panel, select **General** to open the **General Settings** page.
+2. Sélectionnez le logo AEM pour accéder aux outils d’administration dans la barre d’outils supérieure.
+3. From the administrative tools panel, select **[!UICONTROL General]** to open the **[!UICONTROL General Settings]** page.
 4. Utilisez le commutateur respectif pour activer/désactiver chacune des configurations générales.
-5. **Enregistrez les modifications.**
+5. **[!UICONTROL Enregistrez les modifications.]**
 6. Déconnectez-vous pour que les modifications soient appliquées.
 
-## Allow admin users to delete assets from [!DNL Brand Portal] {#allow-admin-users-to-delete-assets-from-brand-portal}
+## Autorisation de la suppression des ressources de Brand Portal par les utilisateurs administrateurs {#allow-admin-users-to-delete-assets-from-brand-portal}
 
-**Autoriser les utilisateurs à supprimer** la configuration permet aux entreprises d'autoriser (ou limiter) les utilisateurs disposant de droits d'administrateur à supprimer des fichiers et des dossiers [!DNL Brand Portal].
+**[!UICONTROL Autoriser les utilisateurs à configurer]** la configuration permet aux entreprises d'autoriser (ou limiter) les utilisateurs disposant de droits d'administrateur à supprimer des fichiers et des dossiers de Brand Portal.
 
 ## Autorisation de la création de collections publiques par les utilisateurs non administrateurs {#allow-public-collections-creation-by-non-admins}
 
-[Autoriser la création de [!UICONTROL collections]publiques] (../using/brand-portal-share-[!UICONTROL collection]. md # main-pars-text -1915052376) Contrôle si les administrateurs peuvent créer [!UICONTROL des collections publiques]sur [!DNL Brand Portal]. La configuration est activée par défaut. By disabling the configuration organizations can prevent having numerous public [!UICONTROL collection]s on their portal so that system space can be saved.
+[[! UICONTP Autorisation de création des collections](../using/brand-portal-share-collection.md#main-pars-text-1915052376) publiques contrôle si les administrateurs peuvent créer des collections publiques sur le portail de marque. La configuration est activée par défaut. En la désactivant, les organisations peuvent éviter d’avoir de nombreuses collections publiques sur leur portail afin d’économiser l’espace du système.
 
 ## Autorisation de la création de collections dynamiques publiques par les utilisateurs non-administrateurs {#allow-public-smart-collections-creation-by-non-admins}
 
-[La configuration de la création](../using/brand-portal-searching.md#main-pars-header-500620467) de collections dynamiques publiques contrôle si les non-administrateurs peuvent enregistrer leurs recherches en [!UICONTROL tant que collections] dynamiques et les rendre publiques pour ce client. La configuration est activée par défaut. By disabling the configuration organizations can prevent having a huge number of public smart [!UICONTROL collections] created by non-admin users on organization's [!DNL Brand Portal].
+[[! UICONTP Autoriser la création de collections dynamiques](../using/brand-portal-searching.md#main-pars-header-500620467) publiques contrôle si les administrateurs peuvent enregistrer leurs recherches en tant que collections dynamiques et les rendre publiques pour ce client. La configuration est activée par défaut. En la désactivant, les organisations peuvent éviter la création d’un nombre très important de collections dynamiques publiques par les utilisateurs non-administrateurs sur le Brand Portal de l’organisation.
 
 ## Autorisation de l’accélération des téléchargements {#allow-download-acceleration}
 
-La configuration [Autoriser l’accélération des téléchargements](../using/accelerated-download.md)[!DNL Brand Portal] permet aux organisations d’autoriser l’accélération des téléchargements des ressources à partir de et des liens partagés, grâce à l’intégration à IBM Aspera Connect, une application qui s’installe à la demande. L’application utilise une technologie propriétaire pour supprimer les en-têtes TCP.
+[[! UICONTP La configuration de l'accélération de téléchargement]](../using/accelerated-download.md) permet aux entreprises d'autoriser les téléchargements accélérés des ressources à partir du portail de marque et des liens partagés en s'intégrant à IBM Aspera Connect qui est une application à la demande. L’application utilise une technologie propriétaire pour supprimer les en-têtes TCP.
 
 ## Activation de la hiérarchie de dossiers {#enable-folder-hierarchy}
 
-La configuration [Activer la hiérarchie de dossiers](../using/brand-portal-sharing-folders.md#non-admin-user-access-to-shared-folders) permet aux administrateurs de contrôler la façon dont les utilisateurs non-administrateurs (éditeurs, observateurs et utilisateurs invités) voient les dossiers partagés après connexion.
+[[! La configuration de la hiérarchie des dossiers UICONTP]](../using/brand-portal-sharing-folders.md#non-admin-user-access-to-shared-folders) permet aux administrateurs de contrôler la manière dont les utilisateurs non administrateurs (Editeurs, Lecteurs et Utilisateurs invités) visualisent les dossiers partagés après la connexion.
