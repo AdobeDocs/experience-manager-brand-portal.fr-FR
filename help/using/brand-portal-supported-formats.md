@@ -9,12 +9,12 @@ products: SG_ EXPERIENCEMANAGER/Brand_ Portal
 topic-tags: introduction
 discoiquuid: fe 1 c 2 df 8-39 f 4-4 d 5 c -91 d 1-7 b 6 cd 4 f 1 f 589
 translation-type: tm+mt
-source-git-commit: 0b70e82d034ce56fcfc5b49396e6d3a9da4b49d4
+source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 ---
 
 
-# Formats de fichiers pris en charge{#supported-file-formats}
+# Formats de fichiers pris en charge {#supported-file-formats}
 
 Chaque AEM Assets Brand Portal prend en charge des formats de fichiers spécifiques, comme indiqué dans le tableau.
 
@@ -82,7 +82,7 @@ La légende suivante explique les symboles utilisés dans le tableau :
 
 | Symbole | Signification |
 |--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| ✓ | Ce format de fichier prend en charge cette fonctionnalité |
-| ✕ | Ce format de fichier ne prend pas en charge cette fonctionnalité. |
-| s.o. | Cette fonctionnalité ne s’applique pas à ce format de fichier. |
-| * | Cette fonctionnalité requiert la prise en charge d’un module complémentaire pour ce format de fichier sur une instance de création AEM, mais pas sur Brand Portal une fois que les ressources ont été publiées sur Brand Portal. |
+| ✓ | Ce format de fichier prend en charge cette fonctionnalité. |
+| ✕ | Ce format de fichier ne prend pas en charge cette fonctionnalité.. |
+| s.o. | Cette fonctionnalité ne s’applique pas à ce format de fichier.. |
+| * | Cette fonctionnalité requiert la prise en charge d’un module complémentaire pour ce format de fichier sur une instance de création AEM, mais pas sur Brand Portal une fois que les ressources ont été publiées sur Brand Portal.. |
