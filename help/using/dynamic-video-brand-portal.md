@@ -3,21 +3,21 @@ title: Prise en charge de la vidéo dynamique sur Brand Portal
 seo-title: Prise en charge de la vidéo dynamique sur Brand Portal
 description: Prise en charge de la vidéo dynamique sur Brand Portal
 seo-description: Prise en charge de la vidéo dynamique sur Brand Portal
-uuid: a 3502 a 4 d -3971-4 ea 4-953 c -44 ba 04446269
+uuid: a3502a4d-3971-4ea4-953c-44ba04446269
 contentOwner: mgulati
-products: SG_ EXPERIENCEMANAGER/Brand_ Portal
-content-type: référence
-topic-tags: téléchargement-install
-discoiquuid: e 18 d 992 a-a 3 b 5-45 f 2-9696-8161993213 ee
+products: SG_EXPERIENCEMANAGER/Brand_Portal
+content-type: référencereference
+topic-tags: download-install
+discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 translation-type: tm+mt
-source-git-commit: d605cdd0083e8e222a3c937ea91d2c04201ab99b
+source-git-commit: d584ccb4d50f62ec70dabc39be2b17acaba47140
 
 ---
 
 
 # Prise en charge de la vidéo dynamique sur Brand Portal {#dynamic-video-support-on-brand-portal}
 
-Prévisualisez et lisez des vidéos de manière adaptative sur Brand Portal grâce à la prise en charge de Dynamic Media. Téléchargez également les rendus dynamiques depuis le portail et les liens partagés.
+Prévisualisez et lisez des vidéos de manière adaptative sur Brand Portal grâce à la prise en charge de Dynamic Media. Téléchargez également les rendus dynamiques à partir du portail et des liens partagés.
  Les utilisateurs de Brand Portal peuvent effectuer les opérations suivantes :
 
 * prévisualiser des vidéos sur la page des détails de la ressource, en mode Carte et sur la page d’aperçu du partage de liens ;
@@ -31,17 +31,15 @@ Prévisualisez et lisez des vidéos de manière adaptative sur Brand Portal grâ
 
 Pour prévisualiser, lire et télécharger des vidéos, Brand Portal expose les deux configurations suivantes aux administrateurs :
 
-* [Configuration
-hybride multimédia dynamique](#configure-dm-hybrid-settings)si l'instance d'auteur AEM est en cours d'exécution sur le mode Hybrid Media hybride.
-* [Contenu multimédia dynamique [! Configuration
-DNL Scene 7]](#configure-dm-scene7-settings)si l'instance d'auteur AEM est en cours d'exécution sur le[!DNL Scene 7] mode multimédia dynamique.
+* [Configuration](#configure-dm-hybrid-settings)hybride média dynamique Si l’instance Auteur AEM est en cours d’exécution en mode hybride média dynamique.
+* [Configuration](#configure-dm-scene7-settings)du média dynamique [!DNL Scene7] si l’instance d’auteur AEM est en cours d’exécution en mode multimédia[!DNL Scene 7] dynamique.
 Définissez l’une de ces configurations selon les configurations définies dans votre instance d’auteur AEM avec laquelle le client Brand Portal est répliqué.
 
 >[!NOTE]
 >
 >Dynamic videos are not supported on Brand Portal tenants integrated with AEM Author running on [!UICONTROL Scene7Connect] runmode.
 
-## How are dynamic videos played? {#how-are-dynamic-videos-played}
+## Comment les vidéos dynamiques sont-elles lues ?{#how-are-dynamic-videos-played}
 
 ![Les codes vidéo sont récupérés à partir du cloud](assets/VideoEncodes.png)
 
@@ -57,22 +55,18 @@ As video encodes are not stored in Brand Portal repository and are fetched from 
 
 Pour utiliser des vidéos dynamiques sur Brand Portal, veillez à :
 
-* **Démarrage de l'auteur AEM sur le mode
-DM (Dynamic Media)** Démarrez l'instance d'auteur AEM (avec laquelle Brand Portal est intégré) soit sur [le mode Hybrid Media hybride,](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dynamic.html#EnablingDynamicMedia) soit [sur Dynamic Media [! DNL Scene 7]](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#EnablingDynamicMediainScene7mode).
-* **Configuration des services Cloud de médias dynamiques sur l'auteur
-AEM** en fonction du mode de média dynamique en cours d'exécution par AEM Author, définissez les services Cloud de médias [dynamiques](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dynamic.html#ConfiguringDynamicMediaCloudServices) ou [[! ! Services Cloud DNL Scene 7]](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) sur AEM Author à partir **d'outils** | **Services Cloud** | **Contenu multimédia dynamique**.
-* **Configuration du contenu multimédia dynamique sur le portail**
-de marque en fonction des configurations de cloud Dynamic Media sur l'auteur AEM, configurez [les paramètres Médias dynamiques](#configure-dm-hybrid-settings) ou [[! Paramètres DNL Scene 7]](#configure-dm-scene7-settings) des outils administratifs de Brand Portal.
+* **Démarrez AEM Author en mode** DM (Contenu multimédia dynamique) Démarrez l’instance AEM Author (avec laquelle le portail de marque est intégré) en mode [hybride](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dynamic.html#EnablingDynamicMedia) Contenu multimédia ou en mode [Contenu multimédia](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#EnablingDynamicMediainScene7mode)dynamique [!DNL Scene7].
+* **Configuration des services de cloud de médias dynamiques sur AEM Author** en fonction du mode de média dynamique sur lequel AEM Author est en cours d’exécution, définissez les services [de cloud de médias](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dynamic.html#ConfiguringDynamicMediaCloudServices) dynamiques ou les services [de cloud](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) [!DNL Scene7] sur AEM Author à partir des **outils** .| Services **** Cloud| Contenu multimédia **dynamique**.
+* **Configurez Contenu multimédia dynamique sur le portail** de marque en fonction des configurations du cloud Contenu multimédia dynamique dans AEM Author, configurez les paramètres [Contenu multimédia](#configure-dm-hybrid-settings) dynamique ou les paramètres [](#configure-dm-scene7-settings) [!DNL Scene7] à partir des outils d’administration du portail de marque.
 Make sure that [separate Brand Portal tenants](#separate-tenants) are used for AEM Author instances configured with Dynamic Media Hybrid and Dynamic Media [!UICONTROL Scene7] modes, if you are using functionalities of Dynamic Media Hybrid and Dynamic Media [!UICONTROL S7].
-* **Publier des dossiers avec des codages vidéo appliqués au portail
-de marque** Appliquez [des encodages vidéo](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html) et publiez le dossier contenant des ressources multimédias enrichies depuis l'instance d'auteur AEM vers Brand Portal.
-* **La liste blanche Egalise les IPS dans SPS si l'aperçu sécurisé est activé** Si l'option Média dynamique est[!DNL Scene 7] activée
-(avec [l'option d'aperçu sécurisé activée](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html) pour une entreprise), il est conseillé aux administrateurs [!DNL Scene 7] d'entreprise [de liste blanche des adresses IP](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service) d'egalisation publique pour les régions respectives utilisant SPS ([!UICONTROL Scene 7] Publishing System) Flash UI.
- Les adresses IP sortantes sont les suivantes :
+* **Publiez des dossiers avec des encodages vidéo appliqués au portail** de marque Appliquez des codages [](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html) vidéo et publiez le dossier contenant des fichiers de média enrichi de l’instance Auteur AEM vers le portail de marque.
+* **Les adresses IP d’entrée de liste blanche dans SPS si l’aperçu sécurisé est activé** Si vous utilisez Contenu multimédia dynamique[!DNL Scene 7] (avec l’aperçu [sécurisé activé](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html) pour une entreprise), il est conseillé aux administrateurs [!DNL Scene 7] d’entreprise d’ [autoriser le public à accéder aux adresses IP](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service) d’entrée pour les régions respectives à l’aide de l’interface utilisateur Flash de SPS (Scene 7 Publishing System).
 
-| **Région géographique** | **Adresse IP sortante** |
+Les adresses IP sortantes sont les suivantes :
+
+| **RégionZone géographique** | **Adresse IP sortante** |
 |--- |--- |
-| s.o. | 192.243.237.86 |
+| N/A | 192.243.237.86 |
 | EMEA | 185.34.189.4 |
 | APAC | 63.140.44.54 |
 
@@ -82,25 +76,26 @@ To whitelist either of these egress IPs, see [prepare your account for secure te
 
 Pour vérifier que vos ressources vidéo dynamiques sont prévisualisées, lues et téléchargées depuis Brand Portal (et les liens partagés), suivez ces pratiques :
 
-### Clients distincts pour les modes Multimédia dynamique et Média dynamique Scene 7 {#separate-tenants}
+### Sséparezr les clients pour les modes hybride Dynamic Media et Scene  7 Dynamic Media {#separate-tenants}
 
-Si vous utilisez les fonctions Dynamic Media [!DNL Scene 7] et Dynamic Media Hybride, il est conseillé d'utiliser différents clients de portail de marque pour les instances d'auteur AEM configurées avec les [!DNL Scene 7] modes Dynamic Media Hybride et Dynamic Media.
+If you are using both Dynamic Media [!DNL Scene 7] and Dynamic Media Hybrid features, it is advised that you use different Brand Portal tenants for AEM Author instances configured with Dynamic Media Hybrid and Dynamic Media [!DNL Scene 7] modes.
+
 ![Mappage un-à-un Auteur et Brand Portal](assets/BPDynamicMedia.png)
 
-### Même détails de configuration sur l'instance d'auteur AEM et le portail de marque
+### Même détails de configuration sur l’'instance d’'auteur AEM et Brand  Portal
 
 Ensure that the configuration details–such as [!UICONTROL Title], [!UICONTROL Registration ID], [!UICONTROL Video Service URL] (in [!UICONTROL Dynamic Media Hybrid]) and [!UICONTROL Title], credentials ([!UICONTROL Email] and Password), [!UICONTROL Region], [!UICONTROL Company] (in Dynamic Media [!DNL Scene 7])–are the same in Brand Portal and [!UICONTROL AEM cloud configuration].
 
-### Liste blanche de l'egalisation publique des ips pour le mode Scene 7 Dynamic Media
+### Mettre sur liste blanche les adresses IP sortantes publiques pour le mode Scene  7 Dynamic Media
 
 If Dynamic Media [!UICONTROL Scene 7]–having [secure preview enabled](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html)–is used to serve video assets to Brand Portal, then [!UICONTROL Scene 7] establishes a dedicated image server for staging environments or internal applications. Toute requête à ce serveur vérifie l’adresse IP d’origine. Si la requête entrante ne figure pas dans la liste approuvée des adresses IP, une réponse d’échec est renvoyée.
-The [!UICONTROL Scene-7] Company Administrator, therefore, configures an approved list of IP addresses for their company’s [!UICONTROL Secure Testing] environment, through [!UICONTROL SPS] (Scene-7 Publishing System) flash UI. Vérifiez que l’adresse IP sortante pour votre région géographique respective (parmi les suivantes) est ajoutée à cette liste approuvée.
+The [!UICONTROL Scene-7] Company Administrator, therefore, configures an approved list of IP addresses for their company’s [!UICONTROL Secure Testing] environment, through [!UICONTROL SPS] (Scene-7 Publishing System) flash UI. Vérifiez que l’adresse IP sortante pour votre régionzone géographique respective (parmi les suivantes) est ajoutée à cette liste approuvée.
 To whitelist either of these egress IPs, see [prepare your account for secure testing service](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service).
-Les adresses IP egales sont les suivantes :
+Les adresses IP sortantes sont les suivantes :
 
-| **Région géographique** | **Adresse IP sortante** |
+| **RégionZone géographique** | **Adresse IP sortante** |
 |--- |--- |
-| s.o. | 192.243.237.86 |
+| N/A | 192.243.237.86 |
 | EMEA | 185.34.189.4 |
 | APAC | 63.140.44.54 |
 
@@ -116,7 +111,7 @@ Pour définir les configurations Dynamic Media sur des clients Brand Portal :
 
 2. From the administrative tools panel, select the **[!UICONTROL Video]** tile.<br />
    ![Configuration du mode hybride Dynamic Media sur Brand Portal](assets/DMHybrid-Video.png)
-   **[!UICONTROL La page Modifier la configuration]** du média dynamique s'ouvre.<br />
+   **[!UICONTROL La page Modifier la configuration Dynamic Media]** s’ouvre.<br />
    ![Configuration du mode hybride Dynamic Media sur Brand Portal](assets/edit-dynamic-media-config.png)
 
 3. Specify **[!UICONTROL Registration ID]** and **[!UICONTROL Video Service URL]** (DM-Gateway URL). Vérifiez que ces détails sont identiques à ceux dans **[!UICONTROL Outils &gt; Services cloud]dans votre instance d’auteur AEM.**
@@ -133,15 +128,14 @@ To set up Dynamic Media [!UICONTROL Scene 7] configurations on Brand Portal tena
 
 2. From the administrative tools panel, select the **[!UICONTROL Dynamic Media Configuration]** tile.<br />
    ![[!UICONTROL Configuration de Scene 7 Dynamic Media sur Brand Portal]](assets/DMS7-Tile.png)
-   [!UICONTROL La page Modifier la configuration] du média dynamique s'ouvre.<br />
+   La page [!UICONTROL Modifier la configuration Dynamic Media] s’ouvre.<br />
    ![Configuration de Scene 7 sur Brand Portal](assets/S7Config.png)
 
 3. Fournissez les détails suivants :
    * [!UICONTROL Titre]
    * Credentials ([!UICONTROL Email ID] and [!UICONTROL Password]) to access the Scene 7 server
-   * [!UICONTROL Région]
-Vérifiez que ces valeurs sont identiques à celles de votre instance d'auteur AEM.
+   * [!UICONTROL Région]Assurez-vous que ces valeurs sont identiques à celles de votre instance d’auteur AEM.
 
 4. Sélectionnez **[!UICONTROL Connexion à Dynamic Media]**.
 
-5. Provide the **[!UICONTROL Company name]**, and **[!UICONTROL Save]** the configuration.
+5. Indiquez le **[!UICONTROL nom de la société]** et **eEnregistrez] la configuration.[!UICONTROL **
