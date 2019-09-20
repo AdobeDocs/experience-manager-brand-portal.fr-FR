@@ -5,11 +5,11 @@ solution-hub-url: https://helpx.adobe.com/support/experience-manager.html
 solution-image: null
 getting-started-title: Prise en main
 getting-started-url: https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html
-tutorials-title: Tutoriels
+tutorials-title: DidacticielsTutoriels
 tutorials-url: https://guided.adobe.com/#recommended/solutions/experience-manager
 git-repo: https://github.com/AdobeDocs/experience-manager-brand-portal.en
 index: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ceccf2b6b7052c79d993bcba793a25973d819d9b
 
 ---
