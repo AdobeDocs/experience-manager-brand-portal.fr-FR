@@ -1,6 +1,6 @@
 ---
 source-git-commit: 0b70e82d034ce56fcfc5b49396e6d3a9da4b49d4
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # Code de conduite d’Adobe
@@ -47,8 +47,8 @@ menaçants, injurieux ou nuisibles.
 
 ## Portée
 
-Ce code de conduite s’applique à la fois aux espaces du projet et
-publics lorsqu’une personne représente le projet ou sa communauté. Parmi les exemples de représentation d’un projet ou d’une communauté, citons l’utilisation d’une adresse électronique officielle de projet, la publication par le biais d’un compte de réseau social officiel ou l’agissement en tant que représentant désigné à l’occasion d’un événement en ligne ou hors ligne. La représentation d’un projet peut être définie plus précisément et clarifiée par les responsables du projet.
+Ce code de conduite s’applique à la fois à l’'espace du projet et
+aux environnements publics lorsqu’une personne représente le projet ou sa communauté. Parmi les exemples de représentation d’un projet ou d’une communauté, citons l’utilisation d’une adresse électronique officielle de projet, la publication par le biais d’un compte de réseau social officiel ou l’agissement en tant que représentant désigné à l’occasion d’un événement en ligne ou hors ligne. La représentation d’un projet peut être définie plus précisément et clarifiée par les responsables du projet.
 
 ## Application
 
@@ -62,5 +62,5 @@ foi s’exposent temporairement ou de façon permanente à des répercussions d�
 
 ## Attribution
 
-This Code of Conduct is adapted from the [Contributor Covenant](https://contributor-covenant.org), version 1.4,
-available at [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)
+Ce code de conduite provient de l’'adaptation de la [Charte du contributeur ](https://contributor-covenant.org), version 1.4,
+disponible à l’adresse [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/).
