@@ -1,13 +1,13 @@
 ---
 title: Formats de fichiers pris en charge
 seo-title: Formats de fichiers pris en charge
-description: 'Chaque AEM Assets Brand Portal prend en charge des formats de fichiers spécifiques, comme indiqué dans le tableau. '
-seo-description: 'Chaque AEM Assets Brand Portal prend en charge des formats de fichiers spécifiques, comme indiqué dans le tableau. '
-uuid: c 92 ada 3 a -6 fc 3-4 ef 2-88 ff -8 e 67 a 50 c 8 c 95
-content-type: référence
-products: SG_ EXPERIENCEMANAGER/Brand_ Portal
+description: 'Chaque portail AEM Assets Brand Portal prend en charge des formats de fichiers spécifiques, comme indiqué dans le tableau. '
+seo-description: 'Chaque portail AEM Assets Brand Portal prend en charge des formats de fichiers spécifiques, comme indiqué dans le tableau. '
+uuid: c92ada3a-6fc3-4ef2-88ff-8e67a50c8c95
+content-type: référencereference
+products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
-discoiquuid: fe 1 c 2 df 8-39 f 4-4 d 5 c -91 d 1-7 b 6 cd 4 f 1 f 589
+discoiquuid: fe1c2df8-39f4-4d5c-91d1-7b6cd4f1f589
 translation-type: tm+mt
 source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
@@ -16,9 +16,9 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 # Formats de fichiers pris en charge {#supported-file-formats}
 
-Chaque AEM Assets Brand Portal prend en charge des formats de fichiers spécifiques, comme indiqué dans le tableau.
+Chaque portail AEM Assets Brand Portal prend en charge des formats de fichiers spécifiques, comme indiqué dans le tableau.
 
-| Format de fichier | Ressources publiées sur Brand Portal | Rendus publiés sur Brand Portal | Métadonnées publiées sur Brand Portal | Miniatures publiées sur Brand Portal | Pages des détails des ressources publiées sur Brand Portal pour personnaliser le portail | Partage de liens | Miniatures des partages de lien | Aperçus des partages de lien  |
+| Format de fichier | Ressources publiées sur Brand Portal | Rendus publiés sur Brand Portal | Métadonnées publiées sur Brand Portal | Miniatures publiées sur Brand Portal | Pages des détails des ressources publiées sur Brand Portal | Partages de liens | Miniatures des partages de liens | Aperçus des partages de liens |
 |-------------|----------------------------------|--------------------------------------|------------------------------------|--------------------------------------|-----------------------------------------------|-------------|-----------------------|---------------------|
 | PNG | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | GIF | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
@@ -82,7 +82,7 @@ La légende suivante explique les symboles utilisés dans le tableau :
 
 | Symbole | Signification |
 |--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| ✓ | Ce format de fichier prend en charge cette fonctionnalité. |
+| ✓ | Ce format de fichier prend en charge cette fonctionnalité.. |
 | ✕ | Ce format de fichier ne prend pas en charge cette fonctionnalité.. |
 | s.o. | Cette fonctionnalité ne s’applique pas à ce format de fichier.. |
 | * | Cette fonctionnalité requiert la prise en charge d’un module complémentaire pour ce format de fichier sur une instance de création AEM, mais pas sur Brand Portal une fois que les ressources ont été publiées sur Brand Portal.. |
