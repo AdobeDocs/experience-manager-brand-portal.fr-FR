@@ -4,7 +4,7 @@ product: adobe experience manager
 sub-product: experience manager brand portal
 audience: end-user
 user-guide-title: Brand Portal AEM Brand Portal
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 4548a365fc2240ace6e8e17d51507d697edbe130
 
 ---
@@ -19,12 +19,12 @@ source-git-commit: 4548a365fc2240ace6e8e17d51507d697edbe130
    + [Notes de mise à jour](using/brand-portal-release-notes.md)
    + [Formats de fichiers pris en charge](using/brand-portal-supported-formats.md)
    + [Accès des invités à Brand Portal](using/guest-access.md)
-   + [CompréhensionPrésentation de Brand Portal avec AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
+   + [Understanding Brand Portal with AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
    + [Exploration des ressources sur Brand Portal](using/browse-assets-brand-portal.md)
 + Publication de ressources à partir d’AEM Assets sur Brand Portal {#publish}
-   + [Configuration de l'’intégration d’'AEM  Assets avec à Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
-   + [Publication des collections danssur Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
-   + [Publication des dossiers danssur Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
+   + [Configuration de l’intégration d’AEM Assets avec Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
+   + [Publication de collections sur Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
+   + [Publication de dossiers sur Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
    + [Dépannage des problèmes de publication en parallèle sur Brand Portal](using/troubleshoot-parallel-publishing.md)
    + [Publication de balises sur Brand Portal](using/brand-portal-publish-tags.md)
    + [Publication de paramètres prédéfinis, de schémas et de facettes sur Brand Portal](using/publish-schema-search-facets-presets.md)
