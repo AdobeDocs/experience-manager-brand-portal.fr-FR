@@ -3,11 +3,11 @@ title: Publication de balises sur Brand Portal
 seo-title: Publication de balises sur Brand Portal
 description: Découvrez comment publier des balises à partir d’AEM Assets sur Brand Portal.
 seo-description: Découvrez comment publier des balises à partir d’AEM Assets sur Brand Portal.
-uuid: 4167367 e -1 af 8-476 b -97 a 5-730 c 43 bd 0816
+uuid: 4167367e-1af8-476b-97a5-730c43bd0816
 topic-tags: 'serveur '
-products: SG_ EXPERIENCEMANAGER/Brand_ Portal
-content-type: référence
-discoiquuid: 3 c 8 e 9251-195 d -4 c 56-a 9 a 9-27 bc 8 b 2 a 82 a 4
+products: SG_EXPERIENCEMANAGER/Brand_Portal
+content-type: référencereference
+discoiquuid: 3c8e9251-195d-4c56-a9a9-27bc8b2a82a4
 translation-type: tm+mt
 source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
@@ -20,13 +20,13 @@ Découvrez comment publier des balises à partir d’AEM Assets sur Brand Port
 
 Les balises sont utiles pour organiser les ressources et faciliter la recherche des ressources auxquelles elles sont associées. Les balises peuvent être considérées comme des mots-clés ou des étiquettes (métadonnées) qui sont attachés aux ressources, et permettent de les trouver rapidement suite à une recherche. Pour savoir comment affecter des balises aux ressources dans AEM Assets, voir [Utilisation de balises pour organiser des ressources](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets).
 
-Les balises (liées aux ressources et aux collections dans AEM) sont publiées automatiquement sur Brand Portal quand les ressources (et les collections) avec les balises associées sont publiées. sur Brand Portal. Les balises publiées sont utiles pour rechercher et trouver les ressources associées.
+Les balises (liées aux ressources et aux collections dans AEM) sont publiées automatiquement sur Brand Portal quand les ressources (et les collections) avec les balises associées sont publiées. to Brand Portal. Les balises publiées sont utiles pour retrouver les ressources associées.
 
 >[!NOTE]
 >
 >Toutefois, il est recommandé de publier les balises exclusivement sur Brand Portal avant de publier les ressources (et les collections) auxquelles elles sont associées. Cela assure une publication plus rapide des ressources (et des collections) sur Brand Portal.
 
-## Manage tags {#manage-tags}
+## Gérer les balises {#manage-tags}
 
 Vous pouvez joindre les balises préexistantes à une ressource ou créer des balises à partir de la console Balises AEM (**[!UICONTROL Outils | Balisage | Balises AEM]**). Dans les deux scénarios, vous devez d’abord publier les balises sur Brand Portal et les associer ensuite aux ressources appropriées.
 
@@ -41,28 +41,29 @@ Sign in to AEM Author instance with administrative privileges, and access **[!UI
 
    3. Select **[!UICONTROL Tagging]**
 
-2. Select **[!UICONTROL Create]** and then select **[!UICONTROL Create Tag]** option.
-3. Spécifiez les paramètres suivants :
+2. Sélectionner **[!UICONTROL Créer]** et ensuite l’option **Créer une balise[!UICONTROL .]**
+3. Précisez les paramètres suivants :
 
    * **[!UICONTROL Titre]**
-      *(obligatoire)* Titre d'affichage de la balise.
+      *(obligatoire)* Titre affiché pour la balise.
    * **[!UICONTROL Nom]**
-      *(Obligatoire)* Nom de la balise. Si aucun nom n’est spécifié, un nom de nœud valide est créé à partir du titre. See [TagID](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/framework.html#TagID).
+      *(obligatoire)* Nom de la balise. Si aucun nom n’est spécifié, un nom de nœud valide est créé à partir du titre. See [TagID](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/framework.html#TagID).
    * **Description**
-      *(Facultatif)* Description de la balise.
-   * **Chemin d’accès aux balises** Chemin JCR de la balise.
+      *(facultative)* Description de la balise.
+   * **Chemin d’accès aux balises** 
+Chemin JCR de la balise.
 
-4. Sélectionnez **[!UICONTROL Envoyer]pour créer la balise.**
+4. Sélectionner **[!UICONTROL Envoyer]pour créer la balise.**
 
-   Une fois que vous avez créé une balise sur l'instance AEM, la balise sera disponible pour être jointe à un fichier (à l'aide de la section Propriétés ou de la section Gérer les balises de ce fichier).
+   Une fois que vous avez créé une balise sur l’instance AEM, la balise peut être jointe à une ressource (à l’aide de la section Propriétés ou de la section Gérer les balises de cette ressource).
 
 5. **Publiez la balise sur Brand Portal**.
 
    Go to **[!UICONTROL AEM Tags]** console ([!UICONTROL Tools | Tagging | AEM Tags]), select the desired tag and Publish to Brand Portal.
 
-6. **Joignez la balise à une ressource (ou collection)**.
+6. **JoindreAssocier la balise à une ressource (ou collection)**.
 
-   Sélectionnez une ressource (ou collection) et joignez la balise désirée en utilisant la section Propriétés ou Gérer les balises de cette ressource. To know more about how to assign tags to assets in AEM Assets, refer [use tags to organize assets](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets).
+   Sélectionnez une ressource (ou collection) et joignezassociez la balise désirée en utilisant la section Propriétés ou Gérer les balises de cette ressource. To know more about how to assign tags to assets in AEM Assets, refer [use tags to organize assets](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets).
 
 7. **Publiez les ressources (ou les collections) sur Brand Portal**.\
    Quand vous publiez une ressource (ou collection) sur Brand Portal, la balise jointe est également disponible sur Brand Portal.
@@ -77,11 +78,11 @@ Pour promouvoir une ressource pour un mot-clé de recherche, suivez ces étapes�
 
 1. Ouvrez la page **[!UICONTROL Propriétés]d’une ressource sur l’instance d’auteur AEM.**
 2. Accédez à l’onglet **[!UICONTROL Avancé].**
-3. In **[!UICONTROL Search Promote]** within **[!UICONTROL Elevate for search keywords]** section, select **[!UICONTROL Add]** to add the search keywords or tags.
+3. Dans **[!UICONTROL Rechercher une promotion]** au sein de la section **[!UICONTROL Élever pour les mots-clés de recherche], sélectionnez** Ajouter] afin d’ajouter les mots-clés ou les balises de recherche.**[!UICONTROL **
 
    ![](assets/search-promote.png)
 
 4. Enregistrez les modifications.
 5. Publiez la ressource sur Brand Portal.
 6. Connectez-vous à Brand Portal. Consultez l’onglet **[!UICONTROL Avancé]** dans la section **Propriétés]de la ressource.[!UICONTROL **
-Note that the **[!UICONTROL Search Promote]** keyword is also visible in the Properties of that asset.
+Notez que le mot-clé **[!UICONTROL Rechercher une promotion]est également visible dans les propriétés de cette ressource.**
