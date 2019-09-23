@@ -8,7 +8,7 @@ content-type: référencereference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: aa710fa7c482be517e9df0b0ddaac0fbeca90265
 
 ---
@@ -65,13 +65,13 @@ Pour vérifier quelles sont les plates-formes certifiées pour exécuter cette v
 
 ## Liens {#links}
 
-* [Page produit Adobe Experience Manager sur adobe. com](http://www.adobe.com/in/marketing-cloud/experience-manager.html)
-* [Documentation Assets Brand Portal](https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html)
+* [Page du produit Adobe Experience Manager sur adobe.com](http://www.adobe.com/in/marketing-cloud/experience-manager.html)
+* [Documentation Assets Brand Portal](https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html)
 
 ## Assistance technique et accès au produit (sites à accès limité) {#product-access-and-support-restricted-sites}
 
 Ces sites sont réservés aux clients. Si vous êtes client et avez besoin d’un accès, contactez votre responsable de compte Adobe.
 
-* [](https://daycare.day.com) [Accès au produit](https://login.marketing.adobe.com)
+* [](https://daycare.day.com) [Accès aux produits](https://login.marketing.adobe.com)
 
-* [Adobe Customer Care](https://helpx.adobe.com/contact.html)
+* [Assistance clientèle d’Adobe](https://helpx.adobe.com/contact.html)
