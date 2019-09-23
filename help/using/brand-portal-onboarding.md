@@ -3,11 +3,11 @@ title: Première connexion
 seo-title: Première connexion
 description: La première connexion est identique pour tous les nouveaux utilisateurs d’AEM Assets Brand Portal, y compris les administrateurs. Une fois que l’administrateur vous a ajouté au compte Brand Portal de l’entreprise, vous n’avez pas besoin d’accepter d’invitations ; vous êtes automatiquement ajouté. Vous recevez un e-mail de bienvenue contenant un lien vers le compte Brand Portal de l’entreprise.
 seo-description: La première connexion est identique pour tous les nouveaux utilisateurs d’AEM Assets Brand Portal, y compris les administrateurs. Une fois que l’administrateur vous a ajouté au compte Brand Portal de l’entreprise, vous n’avez pas besoin d’accepter d’invitations ; vous êtes automatiquement ajouté. Vous recevez un e-mail de bienvenue contenant un lien vers le compte Brand Portal de l’entreprise.
-uuid: 654 bmort -2 fd 9-4 b 9 b -9272-21 fd 7 c 4 df 066
-content-type: référence
-products: SG_ EXPERIENCEMANAGER/Brand_ Portal
+uuid: 654bdead-2fd9-4b9b-9272-21fd7c4df066
+content-type: référencereference
+products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
-discoiquuid: e 8 d 06818-29 c 7-4810-bff 1-40 b 3 e 2818114
+discoiquuid: e8d06818-29c7-4810-bff1-40b3e2818114
 translation-type: tm+mt
 source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
@@ -18,9 +18,9 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 La première connexion est identique pour tous les nouveaux utilisateurs d’AEM Assets Brand Portal, y compris les administrateurs. Une fois que l’administrateur vous a ajouté au compte Brand Portal de l’entreprise, vous n’avez pas besoin d’accepter d’invitations ; vous êtes automatiquement ajouté. Vous recevez un e-mail de bienvenue contenant un lien vers le compte Brand Portal de l’entreprise.
 
-Lorsqu'un administrateur ajoute de nouveaux utilisateurs, ils n'ont pas besoin d'accepter les invitations à ajouter au compte de portail de marque. Ils sont ajoutés automatiquement.
+After an Administrator adds new users, they need not accept invitations to get added to the Brand Portal account, they are added automatically.
 
-Pour vous connecter à Brand Portal pour la première fois, procédez comme suit :
+To log in to Brand Portal for the first time, do the following:
 
 1. Ouvrez l’e-mail de bienvenue et cliquez sur **[!UICONTROL Commencer]**.
 
@@ -36,8 +36,8 @@ Pour vous connecter à Brand Portal pour la première fois, procédez comme suit
 3. Click **[!UICONTROL Continue]** to proceed to your organization's Brand Portal page.
 4. Dans la page de connexion de Brand Portal, cliquez sur **[!UICONTROL Se connecter]pour vous connecter à Brand Portal.**
 
-   ![Page Sign Portal Sign in](assets/signin-onboarding.png)
+   ![Brand Portal Sign in page](assets/signin-onboarding.png)
 
    >[!NOTE]
    >
-   >Vous ne pouvez pas accéder au portail de marque si vous n'êtes associé à aucun profil de produit. Pour vous connecter à Brand Portal, vous devez être associé à au moins un profil de produits AEM.
+   >Vous ne pouvez pas accéder au portail de marque si vous n’êtes associé à aucun profil de produit. Pour vous connecter à Brand Portal, vous devez être associé à au moins un profil de produits AEM.
