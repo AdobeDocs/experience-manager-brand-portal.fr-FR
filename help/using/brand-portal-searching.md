@@ -21,7 +21,7 @@ La fonctionnalité de recherche de Brand Portal vous permet de rechercher rapid
 
 ## Recherche de ressources à l’aide de l’omni-recherche {#search-assets-using-omnisearch}
 
-Pour rechercher des ressources sur le portail de marque :
+To search for assets on Brand Portal:
 
 1. From the toolbar, click the **[!UICONTROL Search]** icon, or press the "**[!UICONTROL /]**" key to launch Omnisearch.
 
