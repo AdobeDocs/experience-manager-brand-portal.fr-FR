@@ -9,7 +9,7 @@ content-type: référencereference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 ---
 
@@ -24,7 +24,7 @@ Le logo AEM dans la barre d’outils AEM supérieure permet aux utilisateurs a
 
 ![](assets/admin-tools-panel-2.png)
 
-![](assets/bp_subheader.png)
+![](assets/bp_subheader.png)<br />
 
 Le sélecteur de rail dans la partie supérieure gauche de Brand Portal se déroule pour afficher les options permettant de naviguer au sein des hiérarchies de ressources, de simplifier la recherche et d’afficher les ressources.
 
@@ -54,7 +54,7 @@ Le mode Carte affiche les cartes d’informations de chaque élément au niveau 
 * Type
 * Titre
 * Nom
-* Date et heure de   La ressource a été publiée sur le portail de marque à partir d’AEM
+* Date et heure de   asset was published to Brand Portal from AEM
 * Taille
 * Dimensions
 
@@ -67,7 +67,7 @@ You can navigate down the hierarchy by tapping/clicking cards (taking care to av
 En mode Carte, les cartes de dossiers affichent les informations sur la hiérarchie des dossiers d’affichage aux utilisateurs non-administrateurs (éditeur, observateur et utilisateur invité). Cette fonctionnalité permet aux utilisateurs de connaître l’emplacement des dossiers auxquels ils accèdent par rapport à la hiérarchie parente.
 Les informations sur la hiérarchie de dossiers sont particulièrement utiles pour différencier des dossiers ayantportant des noms similaires à d’autres dossiers partagés à partir d’une hiérarchie de dossiers distincte. Si les utilisateurs non-administrateurs ne connaissent pas la structure de dossiers des ressources partagées avec eux, les ressources/dossiers aux noms similaires peuvent paraître déroutants.
 
-* Les chemins affichés sur les cartes respectives sont tronqués pour s’adapter à la taille des cartesde celles-ci. However, users can see the full path as a tool-tip on hovering over the truncated path.
+* Les chemins affichés sur les cartes respectives sont tronqués pour s’adapter à la taille des cartesde celles-ci. Toutefois, les utilisateurs peuvent voir le chemin complet comme une info-bulle lorsqu’ils survolent le chemin tronqué.
 
 ![](assets/folder-hierarchy1.png)
 
@@ -76,7 +76,7 @@ Les informations sur la hiérarchie de dossiers sont particulièrement utiles po
 L’option Aperçu est proposée aux utilisateurs non-administrateurs (éditeurs, observateurs et utilisateurs invités) pour leur permettre d’afficher les propriétés des ressources/dossiers sélectionnés. L’option Aperçu est visible :
 
 * dans la barre d’outils en haut de la page lors de la sélection d’un fichier/dossier.
-* in the drop-down on selecting the rail Selector.
+* dans la liste déroulante lors de la sélection du sélecteur de rail.
 
 On selecting the [!UICONTROL Overview] option while an asset/folder is selected, users can see the title, path, and time of asset creation. En revanche, sur la page des détails de la ressource, l’option Aperçu permet aux utilisateurs d’afficher les métadonnées de la ressource.
 
@@ -246,7 +246,7 @@ La page Détails de la ressource permet d’afficher une ressource, de la télé
 
 ![](assets/asset-detail.png)
 
-To view the asset's metadata, or view its various renditions, use the rail selector on asset detail page.
+Pour afficher les métadonnées du fichier ou afficher ses différents rendus, utilisez le sélecteur de rail sur la page des détails du fichier.
 
 ![](assets/asset-overview.png)
 
