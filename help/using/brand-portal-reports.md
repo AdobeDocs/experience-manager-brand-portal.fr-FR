@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 ---
 
@@ -44,7 +44,7 @@ Pour afficher un rapport, procédez comme suit :
 
    ![](assets/usage-report.png)
 
-   Le rapport [!UICONTROL Connexions des utilisateurs] fournit des informations concernant les utilisateurs qui se sont connectés à Brand Portal. The report shows display names, email IDs, personas (admin, viewer, editor, guest), groups, last login, activity status, and login count of each user from Brand Portal 6.4.2 deployment until the time of report generation.
+   Le rapport [!UICONTROL Connexions des utilisateurs] fournit des informations concernant les utilisateurs qui se sont connectés à Brand Portal. Le rapport affiche les noms d’affichage, les ID de courrier électronique, les personnalités (administrateur, lecteur, éditeur, invité), les groupes, la dernière connexion, l’état d’activité et le nombre de connexions de chaque utilisateur depuis le déploiement de Portal 6.4.2 jusqu’à la génération du rapport.
 
    ![](assets/user-logins.png)
 
@@ -95,7 +95,7 @@ L’'affichage des colonnes des rapports Téléchargement, Expiration et Publica
 
    ![](assets/aemlogo.png)
 
-2. Dans le panneau des outils d’administration, appuyez/cliquez sur **[!UICONTROL Créer/gérer des rapports]pour ouvrir la page Rapports de ressources.**
+2. From the administrative tools panel, tap/click **[!UICONTROL Create/Manage Reports]** to open **[!UICONTROL Asset Reports]** page.
 
    ![](assets/asset-reports.png)
 
