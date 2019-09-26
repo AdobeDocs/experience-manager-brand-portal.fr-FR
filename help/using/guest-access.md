@@ -10,7 +10,7 @@ content-type: référencereference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 ---
 
@@ -40,7 +40,7 @@ Pour accéder à Brand Portal de manière anonyme, sélectionnez **[!UICONTROL 
 ## Durée d’une session d’invité {#guest-session-duration}
 
 Une session d’utilisateur invité reste active pendant deux heures. This means that the state of the [!UICONTROL Lightbox] is preserved until 1 hour from the session start time, and after 2 hours the current guest session restarts so the Lightbox state is lost.\
-For example, a guest user logs in to the Brand Portal at 1500 hours and adds assets to Lightbox for download at 16:50 hours. If the user doesn't download the [!UICONTROL Lightbox] collection (or its assets) before 17:00 hours, the [!UICONTROL Lightbox] will become empty as the user will have to restart the session at the end of 1 hour (that is 1700 hours).
+Par exemple, un utilisateur invité se connecte au portail de marque à 15 h et ajoute des ressources à Lightbox pour téléchargement à 16 h 50. If the user doesn't download the [!UICONTROL Lightbox] collection (or its assets) before 17:00 hours, the [!UICONTROL Lightbox] will become empty as the user will have to restart the session at the end of 1 hour (that is 1700 hours).
 
 ## Sessions d’invités simultanées permises {#concurrent-guest-sessions-allowed}
 
@@ -83,7 +83,7 @@ On selecting the [!UICONTROL Overview] option while an asset/folder is selected,
 
 ![](assets/overview-option-1.png)
 
-![](assets/overview-rail-selector-1.png)
+![](assets/overview-rail-selector-1.png)<br />
 
 L’option **[!UICONTROL Navigation]** dans le rail de gauche permet de naviguerpasser des fichiers aux collections, et inversement, lors d’une session d’invité afin de permettre aux utilisateurs de parcourir les ressources dans les fichiers ou les collections.
 
