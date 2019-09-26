@@ -1,8 +1,8 @@
 ---
 title: Nouveautés d’AEM Assets Brand Portal
 seo-title: Nouveautés d’AEM Assets Brand Portal
-description: Découvrez les nouvelles fonctionnalités et améliorations de la version 6.4.4.
-seo-description: Découvrez les nouvelles fonctionnalités et améliorations de la version 6.4.4.
+description: Découvrez les nouvelles fonctionnalités et améliorations de la version 6.4.5.
+seo-description: Découvrez les nouvelles fonctionnalités et améliorations de la version 6.4.5.
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 contentOwner: bdhar
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -10,7 +10,7 @@ content-type: référencereference
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
+source-git-commit: 94a3183f42e232f841a07644a89817591ca2d521
 
 ---
 
@@ -19,7 +19,51 @@ source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de contrôler et de distribuer facilement et en toute sécurité des ressources créatives approuvées destinées à des tiers externes et aux collaborateurs de l’entreprise sur différents appareils. Brand Portal améliore l’efficacité du partage des ressources, accélère la mise sur le marché des ressources et réduit les risques de non-conformité et d’accès non autorisé. Adobe a pour objectif d’améliorer l’expérience globale de Brand Portal. Vous trouverez ci-dessous un aperçu des nouvelles fonctionnalités et améliorations.
 
-## Changements dans la version 6.4.4 {#what-is-changing-in}
+## Changements dans la version 6.4.5  {#what-changed-in-645}
+
+Le portail de marque 6.4.5 est une version de fonctionnalités qui se concentre sur la fourniture d’une plate-forme de collaboration aux utilisateurs actifs du portail de marque (agences/équipes externes) pour télécharger des ressources dans le portail de marque et les publier dans les ressources AEM sans avoir à accéder à l’environnement de création AEM. La fonction est nommée **Ressource des ressources dans le portail** de la marque. Cette fonctionnalité améliore les expériences des clients en fournissant un mécanisme bidirectionnel de contribution et de partage des ressources avec d’autres utilisateurs du portail de marque distribués globalement.
+
+### Ressource dans le portail de marque {#asset-sourcing-in-bp}
+
+La fonction d’origine des ressources permet aux administrateurs AEM de créer de nouveaux dossiers avec une propriété supplémentaire nommée Contribution **des** ressources. Le nouveau dossier créé est appelé Contribution *des* ressources (alias "Asset Contribution"). Dossier *Contribution* . Lorsqu’un dossier de contribution est créé dans AEM, un processus interne se déclenche, ce qui crée ensuite deux sous-dossiers sous le dossier de contribution, à savoir : NOUVEAU et PARTAGÉ.
+
+L’administrateur d’AEM définit les exigences en téléchargeant un résumé sur le dossier des contributions, en téléchargeant la ressource de base dans le dossier **PARTAGÉ** pour référence, en attribuant aux utilisateurs actifs du portail de marque l’accès au dossier des contributions et en publiant le dossier des contributions sur le portail de marque. Une fois le dossier de contribution publié, les utilisateurs du portail de marque ayant accès au dossier de contribution peuvent se connecter à leur instance du portail de marque et commencer à contribuer en téléchargeant du contenu/des ressources (fichiers ou dossiers) sous le dossier **NEW** . Après avoir téléchargé tout le contenu, les utilisateurs du portail de marque publient manuellement le dossier de contributions dans AEM. L’importation et le reflet du contenu/des ressources publiés dans AEM Assets peuvent prendre quelques minutes.
+
+La fonctionnalité existante reste en place, les utilisateurs du portail de marque peuvent afficher, rechercher et télécharger des fichiers à partir du dossier de contributions et des autres dossiers autorisés. Les administrateurs peuvent également partager le dossier des contributions, modifier les propriétés et ajouter des ressources aux collections. Consultez les dernières [Notes de mise à jour de Brand  Portal](brand-portal-release-notes.md).
+
+>[!NOTE]
+>
+>Les utilisateurs du portail de marque peuvent télécharger du contenu/des fichiers uniquement vers le dossier **NEW** .
+
+>[!NOTE]
+>
+>La limite de téléchargement maximale pour tout compte/client du portail de marque est de **10** Go.
+
+
+
+![](assets/asset-sourcing.png)
+
+### Téléchargement de fichiers dans Brand Portal {#upload-assets-in-bp}
+
+Les utilisateurs actifs du portail de marque reçoivent une notification par impulsion et par courrier électronique chaque fois qu’un dossier de contribution est partagé avec eux. Ils peuvent télécharger le bref document joint au dossier des contributions et télécharger le contenu/les ressources de base du dossier **PARTAGÉ** pour comprendre les besoins.
+
+Les utilisateurs du portail de marque autorisés à accéder au dossier de contributions peuvent uniquement télécharger des fichiers vers le dossier **NEW** . Toutefois, ils peuvent télécharger plusieurs fichiers ou dossiers contenant plusieurs fichiers.
+
+![](assets/upload-asset6.png)
+
+![](assets/upload-asset4.png)
+
+>[!NOTE]
+>
+>Brand Portal users do not have permission to delete an uploaded asset.
+
+### Publier le dossier de contributions dans AEM Assets {#publish-assets-to-aem}
+
+After uploading the assets in the **NEW** folder, Brand Portal user manually publishes the contribution folder to AEM. It may take few minutes to import and reflect the published content/assets in AEM Assets. The Brand Portal user and AEM administrator receive pulse/email notifications at the beginning and completion of the publishing event along with the job status (Queued/In-progress/Success). AEM and Brand Portal administrators can also view the job status from their respective interfaces.
+
+![](assets/upload-asset5.png)
+
+## Changements dans la version 6.4.4 {#what-changed-in-644}
 
 La version 6.4.4 de Brand Portal est axée sur les améliorations apportées à la recherche de texte et les principales requêtesdemandes des clients. Consultez les dernières [Notes de mise à jour de Brand  Portal](brand-portal-release-notes.md).
 
@@ -61,7 +105,7 @@ De même, la spécification de :
 >
 >Lorsque vous cochez la case **Recherche partielle**, l’option **Ignorer la casse** est sélectionnée par défaut.
 
-[![](assets/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
+[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
 
 ## Changements dans la version 6.4.3 {#what-changed-in}
 
@@ -86,7 +130,7 @@ Notez que la miniature par défaut des dossiers virtuels est l’image de miniat
 
 ![](assets/hierarchy1-nonadmin-2.png)
 
-[![](assets/see-the-guide.png)](../using/brand-portal-general-configuration.md)
+[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-general-configuration.md)
 
 ### Recherche dans un chemin ou une hiérarchie de dossiers spécifique
 
@@ -106,7 +150,7 @@ Notez que la recherche sous ces dossiers renvoie des résultats provenant seulem
 
 ![](assets/filter-panel.png)
 
-[![](assets/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
+[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
 
 ### Prise en charge des rendus vidéo Dynamic Media
 
@@ -128,7 +172,7 @@ Les codes des vidéos Dynamic Media peuvent être téléchargés à partir de 
 
 ![](assets/edit-dynamic-media-config.png)
 
-[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### Publication planifiée sur Brand Portal
 
@@ -139,7 +183,7 @@ De façon similaire, les ressources publiées peuvent être supprimées du porta
 ![](assets/schedule-publish.png)
 ![](assets/publishlater-workflow.png)
 
-[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### Alias de client configurable dans l’URL
 
@@ -153,7 +197,7 @@ Cependant, l’instance d’auteur AEM peut uniquement être [configurée](https
 **Le cas d’utilisation**
 Les organisations peuvent répondre à leurs besoins de brandingvalorisation de marque en faisant personnaliser l’URL de leur portail, au lieu de se contenter de l’URL fournie par Adobe.
 
-[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### Amélioration de l’expérience de téléchargement
 
