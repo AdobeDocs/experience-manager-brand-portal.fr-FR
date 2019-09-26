@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: d584ccb4d50f62ec70dabc39be2b17acaba47140
+source-git-commit: f9397850937a5adb01ec41bc3b60afa712a4ddc3
 
 ---
 
@@ -108,7 +108,7 @@ En plus des tâches mentionnées ci-dessus, un auteur dans AEM Assets peut effe
 
 ## Autre Alias alias alternatif pour l’'URL de Brand Portal {#tenant-alias-for-portal-url}
 
-A partir de la version 6.4.3 du portail de marque, les entreprises peuvent avoir une URL alternative (alias) pour l’URL existante de leur locataire du portail de marque. L’URL d’alias peut être créé avec un préfixe alternatif dans l’URL.\
+Brand Portal 6.4.3 onwards, organizations can have one alternate (alias) URL for existing URL of their Brand Portal tenant. L’URL d’alias peut être créé avec un préfixe alternatif dans l’URL.\
 Notez que seul le préfixe de l’URL Brand Portal peut être personnalisé et non l’URL entière. Par exemple, une organisation avec le domaine existant **[!UICONTROL geomettrix.brand-portal.adobe.com]** peut demander et obtenir la création de **geomettrixinc.brand-portal.adobe.com].[!UICONTROL **
 
 Cependant, l’instance d’auteur AEM peut uniquement être [configurée](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) avec l’URL d’ID client et non avec l’URL (alternative) d’alias de client.
@@ -169,6 +169,19 @@ Alternatively, product administrators can follow the link provided in the access
 ![](assets/bplogin_request_access_8.png)
 
 You are redirected to the [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) home page. Use Adobe [!UICONTROL Admin Console] to create users and assign them to product profiles (formerly known as product configurations), which show as groups in Brand Portal. For more information about adding users in [!UICONTROL Admin Console], see [Add a user](brand-portal-adding-users.md#add-a-user) (follow Steps 4-7 in the procedure to add a user).
+
+## Langues du portail de marque {#brand-portal-language}
+
+Vous pouvez modifier la langue du portail de marque à partir des paramètres [!UICONTROL d’Adobe]Experience Cloud.
+
+![Notification de demande d’'accès](assets/BPLang.png)
+
+To change the language:
+
+1. Sélectionnez [!UICONTROL Utilisateur] &gt; [!UICONTROL Modifier le profil] dans le menu supérieur.
+   ![Modifier le profil](assets/EditBPProfile.png)
+
+2. Sur la page Paramètres [!UICONTROL d’] Experience Cloud, sélectionnez une langue dans le menu déroulant [!UICONTROL Langue] .
 
 ## Notification de maintenance de Brand Portal {#brand-portal-maintenance-notification}
 
