@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: f9397850937a5adb01ec41bc3b60afa712a4ddc3
+source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 ---
 
@@ -26,7 +26,7 @@ L’environnement de portail de type navigateur permet de télécharger, parcour
 
 ## Différents types d’'utilisateurs de Brand Portal {#Personas}
 
-Le portail de marque prend en charge les rôles utilisateur suivants :
+Brand Portal supports the following user roles:
 
 * Utilisateur invité
 * Observateur
@@ -108,7 +108,7 @@ En plus des tâches mentionnées ci-dessus, un auteur dans AEM Assets peut effe
 
 ## Autre Alias alias alternatif pour l’'URL de Brand Portal {#tenant-alias-for-portal-url}
 
-Brand Portal 6.4.3 onwards, organizations can have one alternate (alias) URL for existing URL of their Brand Portal tenant. L’URL d’alias peut être créé avec un préfixe alternatif dans l’URL.\
+A partir de la version 6.4.3 du portail de marque, les entreprises peuvent avoir une URL alternative (alias) pour l’URL existante de leur locataire du portail de marque. L’URL d’alias peut être créé avec un préfixe alternatif dans l’URL.\
 Notez que seul le préfixe de l’URL Brand Portal peut être personnalisé et non l’URL entière. Par exemple, une organisation avec le domaine existant **[!UICONTROL geomettrix.brand-portal.adobe.com]** peut demander et obtenir la création de **geomettrixinc.brand-portal.adobe.com].[!UICONTROL **
 
 Cependant, l’instance d’auteur AEM peut uniquement être [configurée](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) avec l’URL d’ID client et non avec l’URL (alternative) d’alias de client.
@@ -133,7 +133,7 @@ Pour demander l’accès, procédez comme suit :
 
 2. To request access to an organization’s Brand Portal, you must have a valid [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID], or [!UICONTROL Federated ID].
 
-   Dans la page [!UICONTROL Demander l’accès], connectez-vous à l’aide de votre ID (scénario 1) ou créez un [!UICONTROL Adobe ID] (scénario 2) :
+   Dans la page [!UICONTROL Demander l’accès], connectez-vous à l’aide de votre ID (scénario 1) ou créez un [!UICONTROL Adobe ID] (scénario 2) :<br />
    ![[!UICONTROL Demander l’accès]](assets/bplogin_request_access_2.png)
 
    **Scénario 1**
@@ -142,19 +142,19 @@ La page [!UICONTROL Se connecter] s’affiche.
    2. Saisissez votre [!UICONTROL Adobe ID], puis cliquez sur **[!UICONTROL Se connecter]**.<br />
    ![Connexion à Adobe](assets/bplogin_request_access_3.png)
 
-   Vous êtes redirigé vers la page [!UICONTROL Demander l’accès].
+   Vous êtes redirigé vers la page [!UICONTROL Demander l’accès].<br />
    **Scénario 2**
    1. Si vous ne possédez pas d’[!UICONTROL Adobe ID], pour en créer un, cliquez sur **[!UICONTROL Obtenir un Adobe ID]** dans la page [!UICONTROL Demander l’accès].
 La page [!UICONTROL Se connecter] s’affiche.
    2. Click **[!UICONTROL Get an Adobe ID]**.
 La page [!UICONTROL Se connecter] s’affiche.
    3. Saisissez vos nom et prénom, e-mail et mot de passe.
-   4. Sélectionnez **[!UICONTROL S’inscrire]**.<br />
+   4. Select Sign up.****<br />
    ![](assets/bplogin_request_access_5.png)
 
    Vous êtes redirigé vers la page [!UICONTROL Demander l’accès].
 
-3. La page suivante affiche vos nom et e-mail utilisés pour la demande d’accès. Faites part de vos commentaires à l’administrateur, puis cliquez sur **[!UICONTROL Envoyer]**.
+3. La page suivante affiche vos nom et e-mail utilisés pour la demande d’accès. Faites part de vos commentaires à l’administrateur, puis cliquez sur **[!UICONTROL Envoyer]**.<br />
 
    ![](assets/bplogin-request-access.png)
 
@@ -166,22 +166,21 @@ Les administrateurs de produits du portail de marque reçoivent des demandes d�
 
 To grant access, product administrators need to click the relevant notification in Brand Portal notification area and then click **[!UICONTROL Grant Access]**.
 Alternatively, product administrators can follow the link provided in the access request email to visit Adobe [!UICONTROL Admin Console] and add the user to the relevant product configuration.
-![](assets/bplogin_request_access_8.png)
 
 You are redirected to the [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) home page. Use Adobe [!UICONTROL Admin Console] to create users and assign them to product profiles (formerly known as product configurations), which show as groups in Brand Portal. For more information about adding users in [!UICONTROL Admin Console], see [Add a user](brand-portal-adding-users.md#add-a-user) (follow Steps 4-7 in the procedure to add a user).
 
-## Langues du portail de marque {#brand-portal-language}
+## Brand Portal languages {#brand-portal-language}
 
-Vous pouvez modifier la langue du portail de marque à partir des paramètres [!UICONTROL d’Adobe]Experience Cloud.
+You can change Brand Portal language from Adobe Experience Cloud Settings.
 
 ![Notification de demande d’'accès](assets/BPLang.png)
 
-To change the language:
+Pour modifier la langue :
 
-1. Sélectionnez [!UICONTROL Utilisateur] &gt; [!UICONTROL Modifier le profil] dans le menu supérieur.
+1. Select User &gt; Edit Profile from the top menu.<br />
    ![Modifier le profil](assets/EditBPProfile.png)
 
-2. Sur la page Paramètres [!UICONTROL d’] Experience Cloud, sélectionnez une langue dans le menu déroulant [!UICONTROL Langue] .
+2. On Experience Cloud Settings page, select a language from the Language drop-down menu.
 
 ## Notification de maintenance de Brand Portal {#brand-portal-maintenance-notification}
 
@@ -193,7 +192,7 @@ Vous pouvez ignorer cette notification et continuer à utiliser Brand Portal. C
 
 ## Version et informations système {#release-and-system-information}
 
-<!--* [What's new](../using/whats-new.md)-->
+* [Nouveautés](whats-new.md)
 * [Notes de mise à jour](brand-portal-release-notes.md)
 * [Formats de fichiers pris en charge](brand-portal-supported-formats.md)
 
