@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 translation-type: tm+mt
-source-git-commit: 27bc26e0146013c3948a15d7c3ce865be4d789bd
+source-git-commit: 201ca4c0df9016929d63b4f41f570903a59f7ebf
 
 ---
 
@@ -41,13 +41,15 @@ To search for assets on Brand Portal:
 
    *Recherche de ressources à l’aide de l’omni-recherche*
 
+To know about search behaviour with smart tagged assets, see [understand search results and behavior](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-assets.html).
+
 ## Recherche à l’aide des facettes du panneau Filtres   {#search-using-facets-in-filters-panel}
 
 Les facettes de recherche du panneau Filtres ajoutent de la granularité à votre expérience de recherche et optimisent la fonctionnalité de recherche. Elles utilisent plusieurs dimensions (prédicats) qui vous permettent d’effectuer des recherches complexes. Vous pouvez facilement descendre dans la hiérarchie jusqu’au niveau de détail souhaité pour effectuer une recherche plus précise.
 
 Par exemple, si vous recherchez une image, vous pouvez indiquer si vous souhaitez une image bitmap ou vectorielle. Vous pouvez réduire davantage la portée de la recherche en spécifiant le type MIME de l’image dans la facette de recherche Type de fichier. De même, lors de la recherche de documents, vous pouvez spécifier le format, par exemple PDF ou MS Word.
 
-![Panneau Filtres dans le panneau](assets/file-type-search.png "PortalFiltres de marque dans le portail de marque")
+![Filters panel in Brand Portal](assets/file-type-search.png "Filters panel in Brand Portal")
 
 The [!UICONTROL Filters] panel includes a few standard facets, such as- [!UICONTROL Path Browser], [!UICONTROL File Type], [!UICONTROL File Size], [!UICONTROL Status], and [!UICONTROL Orientation]. Vous pouvez toutefois [ajouter des facettes de recherche personnalisées](../using/brand-portal-search-facets.md) ou supprimer des facettes de recherche spécifiques du panneau [!UICONTROL Filtres] en ajoutant ou en supprimant des prédicats dans le formulaire de recherche sous-jacent. Consultez la liste des [prédicats de recherche disponibles et utilisables sur Brand Portal](../using/brand-portal-search-facets.md#list-of-search-predicates).
 
