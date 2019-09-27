@@ -10,7 +10,7 @@ content-type: référencereference
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 94a3183f42e232f841a07644a89817591ca2d521
+source-git-commit: f5318420b4598ece27d8dfac4f4e7e0c5a02753d
 
 ---
 
@@ -21,15 +21,17 @@ Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de con
 
 ## Changements dans la version 6.4.5  {#what-changed-in-645}
 
-Le portail de marque 6.4.5 est une version de fonctionnalités qui se concentre sur la fourniture d’une plate-forme de collaboration aux utilisateurs actifs du portail de marque (agences/équipes externes) pour télécharger des ressources dans le portail de marque et les publier dans les ressources AEM sans avoir à accéder à l’environnement de création AEM. La fonction est nommée **Ressource des ressources dans le portail** de la marque. Cette fonctionnalité améliore les expériences des clients en fournissant un mécanisme bidirectionnel de contribution et de partage des ressources avec d’autres utilisateurs du portail de marque distribués globalement.
+Brand Portal 6.4.5 is a feature release that focuses on providing Brand Portal users (external agencies/teams) with the ability to upload content to Brand Portal and publish to AEM Assets, without needing access to the author environment. This feature is called **Asset Sourcing in Brand Portal**, and will improve customer experiences by providing a two-way mechanism for users to both contribute and share assets with other globally distributed Brand Portal users.
 
-### Ressource dans le portail de marque {#asset-sourcing-in-bp}
+### Asset Sourcing in Brand Portal {#asset-sourcing-in-bp}
 
-La fonction d’origine des ressources permet aux administrateurs AEM de créer de nouveaux dossiers avec une propriété supplémentaire nommée Contribution **des** ressources. Le nouveau dossier créé est appelé Contribution *des* ressources (alias "Asset Contribution"). Dossier *Contribution* . Lorsqu’un dossier de contribution est créé dans AEM, un processus interne se déclenche, ce qui crée ensuite deux sous-dossiers sous le dossier de contribution, à savoir : NOUVEAU et PARTAGÉ.
+Asset Sourcing allows AEM administrators to create new folders with an additional **Asset Contribution** property, ensuring the new folder created open to asset submission by Brand Portal users. This automatically triggers a workflow which creates two additional sub folders, called NEW and SHARED, within the newly created Contribution folder.****
 
-L’administrateur d’AEM définit les exigences en téléchargeant un résumé sur le dossier des contributions, en téléchargeant la ressource de base dans le dossier **PARTAGÉ** pour référence, en attribuant aux utilisateurs actifs du portail de marque l’accès au dossier des contributions et en publiant le dossier des contributions sur le portail de marque. Une fois le dossier de contribution publié, les utilisateurs du portail de marque ayant accès au dossier de contribution peuvent se connecter à leur instance du portail de marque et commencer à contribuer en téléchargeant du contenu/des ressources (fichiers ou dossiers) sous le dossier **NEW** . Après avoir téléchargé tout le contenu, les utilisateurs du portail de marque publient manuellement le dossier de contributions dans AEM. L’importation et le reflet du contenu/des ressources publiés dans AEM Assets peuvent prendre quelques minutes.
+The AEM Administrator then defines the requirement by uploading a brief about the types of assets that should be added to the contribution folder, as well as a set of baseline assets, to the SHARED folder to ensure BP users have the reference information they need. **** The administrator can then grant active Brand Portal users access to the contribution folder before publishing the newly created Contribution folder to Brand Portal.****
 
-La fonctionnalité existante reste en place, les utilisateurs du portail de marque peuvent afficher, rechercher et télécharger des fichiers à partir du dossier de contributions et des autres dossiers autorisés. Les administrateurs peuvent également partager le dossier des contributions, modifier les propriétés et ajouter des ressources aux collections. Consultez les dernières [Notes de mise à jour de Brand  Portal](brand-portal-release-notes.md).
+Once the user is finished adding content in the NEW folder, they can publish the contribution folder back to the AEM author environment. **** Please note that it may take a few minutes to complete the import and reflect the newly published content within AEM Assets.
+
+Additionally, all existing functionality remains unchanged. Brand Portal users can view, search, and download assets from the contribution folder as well as from the other permitted folders. And administrators can further share the contribution folder, modify properties and add assets to collections. Consultez les dernières [Notes de mise à jour de Brand  Portal](brand-portal-release-notes.md).
 
 >[!NOTE]
 >
@@ -43,11 +45,11 @@ La fonctionnalité existante reste en place, les utilisateurs du portail de marq
 
 ![](assets/asset-sourcing.png)
 
-### Téléchargement de fichiers dans Brand Portal {#upload-assets-in-bp}
+### Upload assets in Brand Portal {#upload-assets-in-bp}
 
-Les utilisateurs actifs du portail de marque reçoivent une notification par impulsion et par courrier électronique chaque fois qu’un dossier de contribution est partagé avec eux. Ils peuvent télécharger le bref document joint au dossier des contributions et télécharger le contenu/les ressources de base du dossier **PARTAGÉ** pour comprendre les besoins.
+Les utilisateurs du portail de marque reçoivent automatiquement des notifications par pulsation/courrier électronique chaque fois qu’un dossier de contribution est partagé, ce qui leur permet de télécharger le bref document, ainsi que le contenu de la ligne de base, depuis le dossier **PARTAGÉ** pour s’assurer qu’ils comprennent les exigences du projet.
 
-Les utilisateurs du portail de marque autorisés à accéder au dossier de contributions peuvent uniquement télécharger des fichiers vers le dossier **NEW** . Toutefois, ils peuvent télécharger plusieurs fichiers ou dossiers contenant plusieurs fichiers.
+Les utilisateurs du portail de marque disposant des autorisations appropriées peuvent télécharger plusieurs fichiers ou dossiers contenant plusieurs fichiers vers le dossier de contributions. Toutefois, notez que les utilisateurs du portail de marque peuvent uniquement télécharger des fichiers vers le sous-dossier **NOUVEAU** . Le dossier **PARTAGÉ** est destiné à la distribution des détails du projet et des ressources de base.
 
 ![](assets/upload-asset6.png)
 
@@ -55,11 +57,13 @@ Les utilisateurs du portail de marque autorisés à accéder au dossier de contr
 
 >[!NOTE]
 >
->Brand Portal users do not have permission to delete an uploaded asset.
+>Les utilisateurs du portail de marque ne sont pas autorisés à supprimer un fichier téléchargé.
 
 ### Publier le dossier de contributions dans AEM Assets {#publish-assets-to-aem}
 
-After uploading the assets in the **NEW** folder, Brand Portal user manually publishes the contribution folder to AEM. It may take few minutes to import and reflect the published content/assets in AEM Assets. The Brand Portal user and AEM administrator receive pulse/email notifications at the beginning and completion of the publishing event along with the job status (Queued/In-progress/Success). AEM and Brand Portal administrators can also view the job status from their respective interfaces.
+Une fois le téléchargement terminé dans le dossier **NOUVEAU** , les utilisateurs du portail de marque peuvent publier le dossier de contributions dans AEM. L’importation et le reflet du contenu/des ressources publiés dans AEM Assets peuvent prendre quelques minutes.
+
+L’utilisateur du portail de marque et l’administrateur AEM recevront des notifications Push/par courrier électronique au début et à la fin de l’action de publication, ainsi que l’état de progression de la tâche (En file d’attente/En cours/Réussite). Les administrateurs d’AEM et du portail de marques peuvent également afficher l’état de la tâche à partir de leurs interfaces respectives.
 
 ![](assets/upload-asset5.png)
 
