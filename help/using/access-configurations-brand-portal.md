@@ -10,7 +10,7 @@ content-type: référencereference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 393025b4-722d-4e81-8a47-f83415d0b9b6
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -30,10 +30,10 @@ Le portail de marque AEM Assets version 6.4.2 permet aux administrateurs de conf
 Pour autoriser l’accès des invités sur le portail de marque, de sorte que les utilisateurs n’aient pas besoin de se connecter pour accéder aux ressources publiques, les administrateurs doivent :
 
 1. Sélectionnez le logo AEM pour accéder aux outils d’administration dans la barre d’outils supérieure.
-2. À partir du panneau des outils d’administration, sélectionnez **[!UICONTROL Accès]** pour ouvrir la page **Paramètres d’accès[!UICONTROL .]**
-3. Activez la configuration **[!UICONTROL Autoriser l’accès des invités].**
-4. **[!UICONTROL Enregistrez les modifications.]**
-5. Déconnectez-vous pour que les modifications soient appliquées.
+1. À partir du panneau des outils d’administration, sélectionnez **[!UICONTROL Accès]** pour ouvrir la page **Paramètres d’accès[!UICONTROL .]**
+1. Activez la configuration **[!UICONTROL Autoriser l’accès des invités].**
+1. **[!UICONTROL Enregistrez les modifications.]**
+1. Déconnectez-vous pour que les modifications soient appliquées.
 
 ![](assets/bp-welcome-screen.png)
 
@@ -44,7 +44,7 @@ Les administrateurs peuvent autoriser les utilisateurs de l’organisation à de
 Pour permettre aux utilisateurs de l’entreprise de demander l’accès sur le portail de marque, les administrateurs doivent :
 
 1. Sélectionnez le logo AEM pour accéder aux outils d’administration dans la barre d’outils supérieure.
-2. À partir du panneau des outils d’administration, sélectionnez **[!UICONTROL Accès]** pour ouvrir la page **Paramètres d’accès[!UICONTROL .]**
-3. Activez la configuration **[!UICONTROL Autoriser les utilisateurs à demander l’accès].**
-4. **[!UICONTROL Enregistrez les modifications.]**
-5. Déconnectez-vous pour que les modifications soient appliquées.
+1. À partir du panneau des outils d’administration, sélectionnez **[!UICONTROL Accès]** pour ouvrir la page **Paramètres d’accès[!UICONTROL .]**
+1. Activez la configuration **[!UICONTROL Autoriser les utilisateurs à demander l’accès].**
+1. **[!UICONTROL Enregistrez les modifications.]**
+1. Déconnectez-vous pour que les modifications soient appliquées.
