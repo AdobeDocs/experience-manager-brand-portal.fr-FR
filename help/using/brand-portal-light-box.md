@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: ed79b120-a1c1-479c-a843-6546dcc660d7
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -26,17 +26,17 @@ To add assets to [!UICONTROL Lightbox], do the following:
 
    ![](assets/link_sharing_assetselection.png)
 
-2. Dans la barre d’outils supérieure, cliquez sur l’icône Ajouter à la collection.
+1. Dans la barre d’outils supérieure, cliquez sur l’icône Ajouter à la collection.
 
    ![](assets/add_to_collection.png)
 
-3. Dans la page **[!UICONTROL Ajouter à la collection], la collection Lightbox est sélectionnée par défaut.**
+1. Dans la page **[!UICONTROL Ajouter à la collection], la collection Lightbox est sélectionnée par défaut.**
 
    Cliquez sur **[!UICONTROL Ajouter]**. The selected assets are added to the [!UICONTROL Lightbox].
 
    ![](assets/add_to_collectionlightbox.png)
 
-4. To review the assets added to [!UICONTROL Lightbox], click **[!UICONTROL Collections]** on the left rail, and then click the **[!UICONTROL Lightbox]** collection.
+1. To review the assets added to [!UICONTROL Lightbox], click **[!UICONTROL Collections]** on the left rail, and then click the **[!UICONTROL Lightbox]** collection.
 
    ![](assets/collections_lightbox.png)
 
@@ -50,10 +50,10 @@ To add assets to [!UICONTROL Lightbox], do the following:
 
    ![](assets/collections_lightbox-1.png)
 
-2. Sélectionnez le dossier à supprimer de la collection, puis cliquez sur **[!UICONTROL Supprimer]dans la barre d’outils supérieure.**
+1. Sélectionnez le dossier à supprimer de la collection, puis cliquez sur **[!UICONTROL Supprimer]dans la barre d’outils supérieure.**
 
    ![](assets/collections_lightboxdelete.png)
 
-3. Dans la boîte de message d’avertissement, cliquez sur **[!UICONTROL Supprimer]pour confirmer la suppression.**
+1. Dans la boîte de message d’avertissement, cliquez sur **[!UICONTROL Supprimer]pour confirmer la suppression.**
 
 The folder is deleted from the [!UICONTROL Lightbox] collection.
