@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -28,15 +28,15 @@ Pour créer un formulaire de schéma de métadonnées, procédez comme suit :
 
    ![](assets/aemlogo.png)
 
-2. Dans le panneau des outils d’administration, cliquez sur **[!UICONTROL Schémas de métadonnées]**.
+1. Dans le panneau des outils d’administration, cliquez sur **[!UICONTROL Schémas de métadonnées]**.
 
    ![](assets/navigation-panel.png)
 
-3. Dans la page **[!UICONTROL Formulaires de schéma de métadonnées]**, cliquez sur **[!UICONTROL Créer]**.
+1. Dans la page **[!UICONTROL Formulaires de schéma de métadonnées]**, cliquez sur **[!UICONTROL Créer]**.
 
    ![](assets/create-metadata-schema-form.png)
 
-4. Dans la boîte de dialogue **[!UICONTROL Créer un formulaire de schéma]**, indiquez le titre du formulaire de schéma, puis cliquez sur **Créer] pour terminer la création du formulaire.[!UICONTROL **
+1. Dans la boîte de dialogue **[!UICONTROL Créer un formulaire de schéma]**, indiquez le titre du formulaire de schéma, puis cliquez sur **Créer] pour terminer la création du formulaire.[!UICONTROL **
 
    ![](assets/create-schema-form.png)
 
@@ -52,24 +52,24 @@ Pour modifier un formulaire de schéma de métadonnées, procédez comme suit :
 
    ![](assets/aemlogo.png)
 
-2. Dans le panneau des outils d’administration, cliquez sur **[!UICONTROL Schémas de métadonnées]**.
-3. Dans la page **[!UICONTROL Formulaires de schéma de métadonnées]**, sélectionnez un formulaire de schéma pour modifier ses propriétés, par exemple, **[!UICONTROL collection]**.
+1. Dans le panneau des outils d’administration, cliquez sur **[!UICONTROL Schémas de métadonnées]**.
+1. Dans la page **[!UICONTROL Formulaires de schéma de métadonnées]**, sélectionnez un formulaire de schéma pour modifier ses propriétés, par exemple, **[!UICONTROL collection]**.
 
    ![](assets/metadata-schema-forms.png)
 
    >[!NOTE]
    >
-   >Unedited templates display a lock symbol before them. Si vous personnalisez l’un des modèles, le symbole représentant un cadenas disparaît devant le modèle.
+   >Les modèles non modifiés affichent un symbole de verrou avant eux. Si vous personnalisez l’un des modèles, le symbole représentant un cadenas disparaît devant le modèle.
 
-4. Dans la barre d’outils supérieure, cliquez sur **[!UICONTROL Modifier]**.
+1. Dans la barre d’outils supérieure, cliquez sur **[!UICONTROL Modifier]**.
 
    La page **[!UICONTROL Éditeur de schéma de métadonnées]** s’ouvre avec l’onglet **[!UICONTROL De base]affiché à gauche et l’onglet** Créer le formulaire] affiché à droite.**[!UICONTROL **
 
-5. Sur la page **[!UICONTROL Éditeur de schéma de métadonnées]**, personnalisez la page **[!UICONTROL Propriétés]** de la ressource en faisant glisser un ou plusieurs composants de la liste des types de composants dans le sous-onglet **Créer le formulaire[!UICONTROL  vers l’onglet]De base**.****
+1. Sur la page **[!UICONTROL Éditeur de schéma de métadonnées]**, personnalisez la page **[!UICONTROL Propriétés]** de la ressource en faisant glisser un ou plusieurs composants de la liste des types de composants dans le sous-onglet **Créer le formulaire[!UICONTROL  vers l’onglet]De base**.****
 
    ![](assets/metadata-schemaeditor-page.png)
 
-6. Pour configurer un composant, sélectionnez-le et modifiez ses propriétés dans l’onglet **[!UICONTROL Paramètres].**
+1. Pour configurer un composant, sélectionnez-le et modifiez ses propriétés dans l’onglet **[!UICONTROL Paramètres].**
 
 ### Composants de l’onglet Créer le formulaire {#components-in-the-build-form-tab}
 
@@ -144,19 +144,19 @@ Pour appliquer un formulaire de schéma de métadonnées à un dossier, procéde
 
    ![](assets/aemlogo.png)
 
-2. Dans le panneau des outils d’administration, cliquez sur **[!UICONTROL Schémas de métadonnées]**.
+1. Dans le panneau des outils d’administration, cliquez sur **[!UICONTROL Schémas de métadonnées]**.
 
-3. Dans la page **[!UICONTROL Formulaires de schéma de métadonnées]**, sélectionnez le formulaire de schéma que vous souhaitez appliquer à une ressource, par exemple [!UICONTROL vêtements].
+1. Dans la page **[!UICONTROL Formulaires de schéma de métadonnées]**, sélectionnez le formulaire de schéma que vous souhaitez appliquer à une ressource, par exemple [!UICONTROL vêtements].
 
    ![](assets/apply-metadata-schema-form-to-folder.png)
 
-4. Dans la barre d’outils supérieure, cliquez sur **[!UICONTROL Appliquer au(x) dossier(s)]**.
+1. Dans la barre d’outils supérieure, cliquez sur **[!UICONTROL Appliquer au(x) dossier(s)]**.
 
-5. From the **[!UICONTROL Select Folder(s)]** page, navigate to the folder to which you want to apply the **[!UICONTROL clothing]** metadata schema, for example, **[!UICONTROL Gloves]**.
+1. From the **[!UICONTROL Select Folder(s)]** page, navigate to the folder to which you want to apply the **[!UICONTROL clothing]** metadata schema, for example, **[!UICONTROL Gloves]**.
 
    ![](assets/apply_metadata_schemaformtofoldergloves.png)
 
-6. Cliquez sur **[!UICONTROL Appliquer]pour appliquer le formulaire de schéma de métadonnées au dossier.**
+1. Cliquez sur **[!UICONTROL Appliquer]pour appliquer le formulaire de schéma de métadonnées au dossier.**
 
    Les métadonnées disponibles dans le formulaire de schéma de métadonnées **[!UICONTROL vêtements]** sont appliquées au dossier **[!UICONTROL Gants]et visibles dans la page** Propriétés] du dossier.**[!UICONTROL **
 
