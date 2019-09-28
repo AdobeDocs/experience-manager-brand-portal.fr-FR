@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 translation-type: tm+mt
-source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -28,11 +28,11 @@ Pour afficher un rapport, procédez comme suit :
 
    ![](assets/aemlogo.png)
 
-2. From the administrative tools panel, click **[!UICONTROL Create/Manage Reports]** to open **[!UICONTROL Asset Reports]** page.
+1. From the administrative tools panel, click **[!UICONTROL Create/Manage Reports]** to open **[!UICONTROL Asset Reports]** page.
 
    ![](assets/access-asset-reports.png)
 
-3. Accédez au rapport **[!UICONTROL Utilisation]et à d’autres rapports générés depuis la page Rapports de ressources.**
+1. Accédez au rapport **[!UICONTROL Utilisation]et à d’autres rapports générés depuis la page Rapports de ressources.**
 
    >[!NOTE]
    >
@@ -44,7 +44,7 @@ Pour afficher un rapport, procédez comme suit :
 
    ![](assets/usage-report.png)
 
-   Le rapport [!UICONTROL Connexions des utilisateurs] fournit des informations concernant les utilisateurs qui se sont connectés à Brand Portal. Le rapport affiche les noms d’affichage, les ID de courrier électronique, les personnalités (administrateur, lecteur, éditeur, invité), les groupes, la dernière connexion, l’état d’activité et le nombre de connexions de chaque utilisateur depuis le déploiement de Portal 6.4.2 jusqu’à la génération du rapport.
+   Le rapport [!UICONTROL Connexions des utilisateurs] fournit des informations concernant les utilisateurs qui se sont connectés à Brand Portal. The report shows display names, email IDs, personas (admin, viewer, editor, guest), groups, last login, activity status, and login count of each user from Brand Portal 6.4.2 deployment until the time of report generation.
 
    ![](assets/user-logins.png)
 
@@ -95,16 +95,16 @@ L’'affichage des colonnes des rapports Téléchargement, Expiration et Publica
 
    ![](assets/aemlogo.png)
 
-2. From the administrative tools panel, tap/click **[!UICONTROL Create/Manage Reports]** to open **[!UICONTROL Asset Reports]** page.
+1. From the administrative tools panel, tap/click **[!UICONTROL Create/Manage Reports]** to open **[!UICONTROL Asset Reports]** page.
 
    ![](assets/asset-reports.png)
 
-3. Sur la page Rapports de ressources, appuyez/cliquez sur **[!UICONTROL Créer]**.
-4. Dans la page **[!UICONTROL Créer un rapport]**, sélectionnez un rapport à créer, puis appuyez/cliquez sur **[!UICONTROL Suivant]**.
+1. Sur la page Rapports de ressources, appuyez/cliquez sur **[!UICONTROL Créer]**.
+1. Dans la page **[!UICONTROL Créer un rapport]**, sélectionnez un rapport à créer, puis appuyez/cliquez sur **[!UICONTROL Suivant]**.
 
    ![](assets/crete-report.png)
 
-5. Configurez les détails du rapport. Indiquez le titre, la description, la structure de dossiers (où le rapport doit s’exécuter et générer des statistiques) et la période pour les rapports [!UICONTROL Téléchargement], [!UICONTROL Expiration] et [!UICONTROL Publication].
+1. Configurez les détails du rapport. Indiquez le titre, la description, la structure de dossiers (où le rapport doit s’exécuter et générer des statistiques) et la période pour les rapports [!UICONTROL Téléchargement], [!UICONTROL Expiration] et [!UICONTROL Publication].
 
    ![](assets/create-report-page.png)
 
@@ -116,8 +116,8 @@ L’'affichage des colonnes des rapports Téléchargement, Expiration et Publica
    >
    >Dans le titre du rapport, les caractères spéciaux # et % sont remplacés par un trait d’union (-) lors de la génération du rapport.
 
-6. Tap/click **[!UICONTROL Next]**, to configure the columns of Download, Expiration, and Publish reports.
-7. Cochez ou décochez les cases pertinentes selon vos besoins. For example, to view names of users (who downloaded assets) in [!UICONTROL Download] report, select **[!UICONTROL Downloaded By]**. L’image suivante montre comment sélectionner les colonnes par défaut dans le rapport Téléchargement.
+1. Tap/click **[!UICONTROL Next]**, to configure the columns of Download, Expiration, and Publish reports.
+1. Cochez ou décochez les cases pertinentes selon vos besoins. For example, to view names of users (who downloaded assets) in [!UICONTROL Download] report, select **[!UICONTROL Downloaded By]**. L’image suivante montre comment sélectionner les colonnes par défaut dans le rapport Téléchargement.
 
    ![](assets/createdownloadreport.png)
 
@@ -126,8 +126,8 @@ L’'affichage des colonnes des rapports Téléchargement, Expiration et Publica
    Pour ajouter des colonnes personnalisées aux rapports Téléchargement, Publication et Expiration, procédez comme suit :
 
    1. Pour afficher une colonne personnalisée, appuyez/cliquez sur **[!UICONTROL Ajouter]** dans [!UICONTROL Colonnes personnalisées].
-   2. Indiquez le nom de la colonne dans le champ **[!UICONTROL Nom de la colonne].**
-   3. Sélectionnez la propriété à laquelle la colonne doit être associée à l’aide du sélecteur de propriété.
+   1. Indiquez le nom de la colonne dans le champ **[!UICONTROL Nom de la colonne].**
+   1. Sélectionnez la propriété à laquelle la colonne doit être associée à l’aide du sélecteur de propriété.
 
       ![](assets/property-picker.png)
 Vous pouvez également saisir le chemin d’accès dans le champ de chemin d’accès à la propriété.
@@ -136,7 +136,7 @@ Vous pouvez également saisir le chemin d’accès dans le champ de chemin d’a
 
       Pour ajouter d’autres colonnes personnalisées, appuyez/cliquez sur **Ajouter** et répétez les étapes 2 et 3.
 
-8. Cliquez/appuyez sur **[!UICONTROL Créer]**. Un message indique que la génération du rapport a été lancée.
+1. Cliquez/appuyez sur **[!UICONTROL Créer]**. Un message indique que la génération du rapport a été lancée.
 
 ## Téléchargement de rapports {#download-reports}
 
