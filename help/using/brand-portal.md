@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -26,14 +26,13 @@ L’environnement de portail de type navigateur permet de télécharger, parcour
 
 ## Différents types d’'utilisateurs de Brand Portal {#Personas}
 
-Brand Portal supports the following user roles:
+Le portail de marque prend en charge les rôles utilisateur suivants :
 
 * Utilisateur invité
 * Observateur
 * Éditeur  
-* Administrateur
-
-Le tableau suivant répertorie les tâches que peuvent réaliser les utilisateurs qui disposent de ces rôles :
+* Administrator
+The following table lists the tasks that users in these roles can perform:
 
 |  | **Parcourir** | **Rechercher** | **Télécharger** | **Partage de dossiers** | **Partage d'une collection** | **Partager des ressources en tant que lien** | **Accéder aux outils d’administration** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
@@ -131,7 +130,7 @@ Pour demander l’accès, procédez comme suit :
 
    La page [!UICONTROL Demander l’accès] s’affiche.
 
-2. To request access to an organization’s Brand Portal, you must have a valid [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID], or [!UICONTROL Federated ID].
+1. To request access to an organization’s Brand Portal, you must have a valid [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID], or [!UICONTROL Federated ID].
 
    Dans la page [!UICONTROL Demander l’accès], connectez-vous à l’aide de votre ID (scénario 1) ou créez un [!UICONTROL Adobe ID] (scénario 2) :<br />
    ![[!UICONTROL Demander l’accès]](assets/bplogin_request_access_2.png)
@@ -139,28 +138,28 @@ Pour demander l’accès, procédez comme suit :
    **Scénario 1**
    1. Si vous disposez d’un [!UICONTROL Adobe ID], d’un [!UICONTROL Enterprise ID] ou d’un [!UICONTROL Federated ID], cliquez sur **[!UICONTROL Se connecter]**.
 La page [!UICONTROL Se connecter] s’affiche.
-   2. Saisissez votre [!UICONTROL Adobe ID], puis cliquez sur **[!UICONTROL Se connecter]**.<br />
+   1. Saisissez votre [!UICONTROL Adobe ID], puis cliquez sur **[!UICONTROL Se connecter]**.<br />
    ![Connexion à Adobe](assets/bplogin_request_access_3.png)
 
    Vous êtes redirigé vers la page [!UICONTROL Demander l’accès].<br />
    **Scénario 2**
    1. Si vous ne possédez pas d’[!UICONTROL Adobe ID], pour en créer un, cliquez sur **[!UICONTROL Obtenir un Adobe ID]** dans la page [!UICONTROL Demander l’accès].
 La page [!UICONTROL Se connecter] s’affiche.
-   2. Click **[!UICONTROL Get an Adobe ID]**.
+   1. Click **[!UICONTROL Get an Adobe ID]**.
 La page [!UICONTROL Se connecter] s’affiche.
-   3. Saisissez vos nom et prénom, e-mail et mot de passe.
-   4. Select Sign up.****<br />
+   1. Saisissez vos nom et prénom, e-mail et mot de passe.
+   1. Select Sign up.****<br />
    ![](assets/bplogin_request_access_5.png)
 
    Vous êtes redirigé vers la page [!UICONTROL Demander l’accès].
 
-3. La page suivante affiche vos nom et e-mail utilisés pour la demande d’accès. Faites part de vos commentaires à l’administrateur, puis cliquez sur **[!UICONTROL Envoyer]**.<br />
+1. La page suivante affiche vos nom et e-mail utilisés pour la demande d’accès. Faites part de vos commentaires à l’administrateur, puis cliquez sur **[!UICONTROL Envoyer]**.<br />
 
    ![](assets/bplogin-request-access.png)
 
 ## Les administrateurs de produit accordent les accès {#grant-access-to-brand-portal}
 
-Les administrateurs de produits du portail de marque reçoivent des demandes d’accès dans leur zone de notification du portail de marque et par courrier électronique dans leur boîte de réception.
+Brand Portal product administrators receive access requests in their Brand Portal notification area and through emails in their inbox.
 
 ![Notification de demande d’'accès](assets/bplogin_request_access_7.png)
 
@@ -175,12 +174,12 @@ You can change Brand Portal language from Adobe Experience Cloud Settings.
 
 ![Notification de demande d’'accès](assets/BPLang.png)
 
-Pour modifier la langue :
+To change the language:
 
 1. Select User &gt; Edit Profile from the top menu.<br />
    ![Modifier le profil](assets/EditBPProfile.png)
 
-2. On Experience Cloud Settings page, select a language from the Language drop-down menu.
+1. Sur la page Paramètres [!UICONTROL d’] Experience Cloud, sélectionnez une langue dans le menu déroulant [!UICONTROL Langue] .
 
 ## Notification de maintenance de Brand Portal {#brand-portal-maintenance-notification}
 
