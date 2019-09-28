@@ -10,7 +10,7 @@ topic-tags: Partagesharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -31,11 +31,11 @@ Pour partager une collection, procédez comme suit :
 
    ![](assets/contenttree-1.png)
 
-2. Dans le rail latéral gauche, cliquez sur **[!UICONTROL Collections]**.
+1. Dans le rail latéral gauche, cliquez sur **[!UICONTROL Collections]**.
 
    ![](assets/access_collections.png)
 
-3. Dans la console **[!UICONTROL Collections], effectuez l’une des opérations suivantes :**
+1. Dans la console **[!UICONTROL Collections], effectuez l’une des opérations suivantes :**
 
    * Placez le pointeur sur la collection que vous souhaitez partager. Dans les miniatures d’action rapide disponibles pour la collection, cliquez sur l’icône **[!UICONTROL Paramètres].**
    ![](assets/settings_thumbnail.png)
@@ -43,7 +43,7 @@ Pour partager une collection, procédez comme suit :
    * Sélectionnez la collection que vous souhaitez partager. Dans la barre d’outils supérieure, cliquez sur **[!UICONTROL Paramètres]**.
    ![](assets/collection-sharing.png)
 
-4. Dans la boîte de dialogue [!UICONTROL Paramètres de la collection], sélectionnez les utilisateurs ou les groupes avec qui vous voulez partager la collection et choisissez le rôle d’un utilisateur ou d’un groupe de façon à ce qu’il corresponde à son rôle global. Par exemple, affectez le rôle Éditeur à un éditeur global ou le rôle Observateur à un observateur global.
+1. Dans la boîte de dialogue [!UICONTROL Paramètres de la collection], sélectionnez les utilisateurs ou les groupes avec qui vous voulez partager la collection et choisissez le rôle d’un utilisateur ou d’un groupe de façon à ce qu’il corresponde à son rôle global. Par exemple, affectez le rôle Éditeur à un éditeur global ou le rôle Observateur à un observateur global.
 
    Alternatively, to make the collection available to all users irrespective of their group membership and role, make it public by selecting the **[!UICONTROL Public Collection]** check-box.
 
@@ -57,7 +57,7 @@ Pour partager une collection, procédez comme suit :
 
    ![](assets/collection-setting-editor.png)
 
-5. Select **[!UICONTROL Add]**, and then **[!UICONTROL Save]**. La collection est partagée avec les utilisateurs sélectionnés.
+1. Select **[!UICONTROL Add]**, and then **[!UICONTROL Save]**. La collection est partagée avec les utilisateurs sélectionnés.
 
    >[!NOTE]
    >
@@ -73,12 +73,12 @@ Pour annuler le partage d’une collection précédemment partagée, procédez c
 
    ![](assets/collection_settings.png)
 
-2. Dans la boîte de dialogue [!UICONTROL Paramètres de la collection], sous [!UICONTROL Membres], cliquez sur le symbole **[!UICONTROL x]situé en regard des utilisateurs ou des groupes pour les supprimer de la liste des utilisateurs avec lesquels vous avez partagé la collection.**
+1. Dans la boîte de dialogue [!UICONTROL Paramètres de la collection], sous [!UICONTROL Membres], cliquez sur le symbole **[!UICONTROL x]situé en regard des utilisateurs ou des groupes pour les supprimer de la liste des utilisateurs avec lesquels vous avez partagé la collection.**
 
    ![](assets/unshare_collection.png)
 
-3. Dans la boîte de message d’avertissement, cliquez sur **[!UICONTROL Confirmer]pour confirmer l’annulation du partage.**
+1. Dans la boîte de message d’avertissement, cliquez sur **[!UICONTROL Confirmer]pour confirmer l’annulation du partage.**
 
    Cliquez sur **[!UICONTROL Enregistrer]**.
 
-4. Connectez-vous à Brand Portal avec les identifiantsinformations d’identification de l’utilisateur que vous avez supprimé de la liste de partage. La collection est supprimée de la console **[!UICONTROL Collections].**
+1. Connectez-vous à Brand Portal avec les identifiantsinformations d’identification de l’utilisateur que vous avez supprimé de la liste de partage. La collection est supprimée de la console **[!UICONTROL Collections].**
