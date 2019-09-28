@@ -9,7 +9,7 @@ topic-tags: Partagesharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -91,15 +91,15 @@ Pour partager un dossier avec des utilisateurs sur Brand Portal, suivez ces ét
 
    ![](assets/selectorrail.png)
 
-2. Dans le rail latéral gauche, sélectionnez **[!UICONTROL Fichiers]**.
+1. Dans le rail latéral gauche, sélectionnez **[!UICONTROL Fichiers]**.
 
    ![](assets/access_files.png)
 
-3. Dans l’interface de Brand Portal, sélectionnez le dossier que vous souhaitez partager.
+1. Dans l’interface de Brand Portal, sélectionnez le dossier que vous souhaitez partager.
 
    ![](assets/share-folders.png)
 
-4. Dans la barre d’outils supérieure, sélectionnez **[!UICONTROL Partager]**.
+1. Dans la barre d’outils supérieure, sélectionnez **[!UICONTROL Partager]**.
 
    ![](assets/share_icon.png)
 
@@ -107,8 +107,8 @@ Pour partager un dossier avec des utilisateurs sur Brand Portal, suivez ces ét
 
    ![](assets/folder_properties.png)
 
-5. Dans la console [!UICONTROL Propriétés du dossier], indiquez le titre du dossier dans le champ [!UICONTROL Titre du dossier] si vous ne souhaitez pas que le nom par défaut soit visible par les utilisateurs.
-6. Dans la liste [!UICONTROL Ajouter un utilisateur], sélectionnez les utilisateurs ou les groupes avec lesquels vous souhaitez partager le dossier et cliquez sur **[!UICONTROL Ajouter]**.
+1. Dans la console [!UICONTROL Propriétés du dossier], indiquez le titre du dossier dans le champ [!UICONTROL Titre du dossier] si vous ne souhaitez pas que le nom par défaut soit visible par les utilisateurs.
+1. Dans la liste [!UICONTROL Ajouter un utilisateur], sélectionnez les utilisateurs ou les groupes avec lesquels vous souhaitez partager le dossier et cliquez sur **[!UICONTROL Ajouter]**.
 Pour partager le dossier uniquement avec les utilisateurs invités, et aucun autre utilisateur, sélectionnez **[!UICONTROL Utilisateurs anonymes]** dans le menu déroulant [!UICONTROL Membres].
 
    ![](assets/only-anonymous.png)
@@ -117,9 +117,9 @@ Pour partager le dossier uniquement avec les utilisateurs invités, et aucun aut
    >
    >Pour que le dossier soit disponible pour tous les utilisateurs, quel que soit le groupe auquel ils appartiennent et leur rôle, rendez-le public en activant la case à cocher **[!UICONTROL Dossier public].**
 
-7. Si nécessaire, cliquez sur **[!UICONTROL Modifier la miniature]pour modifier l’image de miniature du dossier.**
-8. Cliquez sur **[!UICONTROL Enregistrer]**.
-9. Pour accéder au dossier partagé, connectez-vous à Brand Portal avec les identifiantsinformations d’identification de l’utilisateur avec lequel vous avez partagé le dossier. Examinez le dossier partagé dans l’interface.
+1. Si nécessaire, cliquez sur **[!UICONTROL Modifier la miniature]pour modifier l’image de miniature du dossier.**
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
+1. Pour accéder au dossier partagé, connectez-vous à Brand Portal avec les identifiantsinformations d’identification de l’utilisateur avec lequel vous avez partagé le dossier. Examinez le dossier partagé dans l’interface.
 
 ## Annulation du partage de dossiers   {#unshare-the-folders}
 
@@ -129,12 +129,12 @@ Pour annuler le partage d’un dossier précédemment partagé, procédez comme 
 
    ![](assets/share-folders-1.png)
 
-2. Dans la barre d’outils supérieure, cliquez sur **[!UICONTROL Partager]**.
-3. Dans la console [!UICONTROL Propriétés du dossier], sous [!UICONTROL Membres], cliquez sur le symbole **[!UICONTROL x]situé en regard d’un utilisateur pour le supprimer de la liste des utilisateurs avec lesquels vous avez partagé le dossier.**
+1. Dans la barre d’outils supérieure, cliquez sur **[!UICONTROL Partager]**.
+1. Dans la console [!UICONTROL Propriétés du dossier], sous [!UICONTROL Membres], cliquez sur le symbole **[!UICONTROL x]situé en regard d’un utilisateur pour le supprimer de la liste des utilisateurs avec lesquels vous avez partagé le dossier.**
 
    ![](assets/folder_propertiesunshare.png)
 
-4. Dans la boîte de message d’avertissement, cliquez sur **[!UICONTROL Confirmer]pour confirmer l’annulation du partage.**
+1. Dans la boîte de message d’avertissement, cliquez sur **[!UICONTROL Confirmer]pour confirmer l’annulation du partage.**
 Cliquez sur **[!UICONTROL Enregistrer]**.
 
-5. Connectez-vous à Brand Portal avec les identifiantsinformations d’identification de l’utilisateur que vous avez supprimé de la liste de partage. Le dossier n’est plus disponible dans l’interface Brand Portal de l’utilisateur.
+1. Connectez-vous à Brand Portal avec les identifiantsinformations d’identification de l’utilisateur que vous avez supprimé de la liste de partage. Le dossier n’est plus disponible dans l’interface Brand Portal de l’utilisateur.
