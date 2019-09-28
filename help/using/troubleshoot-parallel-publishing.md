@@ -9,14 +9,14 @@ content-type: référencereference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
 
 # Dépannage des problèmes de publication en parallèle sur Brand Portal {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-Le portail de marque prend en charge l’intégration avec les ressources AEM pour que les ressources de marque approuvées soient correctement assimilées (ou publiées) à partir de l’instance d’auteur AEM Assets. Once [integrated](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html), AEM Author uses a replication agent to replicate the selected asset(s) to Brand Portal cloud service for approved usage by Brand Portal users. Multiple replication agents are used AEM 6.2 SP1-CFP5], AEM CFP 6.3.0.2, and onwards to allow high-speed parallel publishing.
+Le portail de marque prend en charge l’intégration avec les ressources AEM pour que les ressources de marque approuvées soient correctement assimilées (ou publiées) à partir de l’instance d’auteur AEM Assets. Once [integrated](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html), AEM Author uses a replication agent to replicate the selected asset(s) to Brand Portal cloud service for approved usage by Brand Portal users. Plusieurs agents de réplication sont utilisés dans AEM 6.2 SP1-CFP5], AEM CFP 6.3.0.2 et versions ultérieures pour permettre la publication parallèle à grande vitesse.
 
 >[!NOTE]
 >
@@ -33,8 +33,8 @@ However, publishing can fail intermittently due to- large sling jobs, increased 
 Pour valider vos configurations de publication :
 
 1. Vérifiez les journaux des erreurs.
-2. Vérifiez si l’agent de réplication est créé.
-3. Testez la connexion.
+1. Vérifiez si l’agent de réplication est créé.
+1. Testez la connexion.
 
 **Journaux de suivi lors de la création du service Cloud**
 
@@ -48,7 +48,7 @@ Consultez le journal et si vous trouvez des erreurs dans le journal de réplicat
 
 1. Contactez l’assistance Adobe.
 
-2. Essayez à nouveau le [nettoyage](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config) et créez une nouvelle fois la configuration de publication.
+1. Essayez à nouveau le [nettoyage](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config) et créez une nouvelle fois la configuration de publication.
 
 <!--
 Comment Type: remark
@@ -63,10 +63,10 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 Most of the times when publishing is not working, the reason can be that the user who is publishing (for example: [!UICONTROL mac-&lt;tenantid&gt;-replication]) doesn't have the latest private key, and hence publish fails with "401 unauthorized" error and no other error is reported in replication agent logs. Vous pouvez éviter le dépannage en créant une nouvelle configuration. Pour que la nouvelle configuration fonctionne correctement, nettoyez les éléments suivants de la configuration de l’auteur AEM :
 
 1. go to [!UICONTROL localhost:4502/crx/de] (considering you are running author instance on [!UICONTROL localhost:4502]):\
-   i. delete /etc/replication/agents.author/mp_Replication*\
+   i. delete /etc/replication/agents.author/mp_replication*\
    ii. delete /etc/cloudservices/mediaportal/&lt;nom_config&gt;
 
-2. accédez à [!UICONTROL localhost : 4502/useradmin]  :\
+1. accédez à [!UICONTROL localhost : 4502/useradmin]  :\
    je recherche l'utilisateur [!UICONTROL mac-&lt;tenantid&gt;-replicationii supprimer cet utilisateur
 
 Le système est maintenant complètement nettoyé. Vous pouvez à présent essayer de créer      cloudservice  config and still use the already existing JWT application in [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/). Il n’est pas nécessaire de créer une application ; seule la clé publique doit être mise à jour à partir de la configuration cloud que vous venez de créer.
