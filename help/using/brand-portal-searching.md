@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 translation-type: tm+mt
-source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -49,7 +49,7 @@ Les facettes de recherche du panneau Filtres ajoutent de la granularité à votr
 
 Par exemple, si vous recherchez une image, vous pouvez indiquer si vous souhaitez une image bitmap ou vectorielle. Vous pouvez réduire davantage l’étendue de la recherche en spécifiant le type MIME de l’image dans la facette de recherche Type de fichier. De même, lors de la recherche de documents, vous pouvez spécifier le format, par exemple PDF ou MS Word.<br />
 
-![Panneau Filtres dans le panneau](assets/file-type-search.png "PortalFiltres de marque dans le portail de marque")
+![Filters panel in Brand PortalFilters panel in Brand Portal](assets/file-type-search.png "")
 
 The [!UICONTROL Filters] panel includes a few standard facets, such as- [!UICONTROL Path Browser], [!UICONTROL File Type], [!UICONTROL File Size], [!UICONTROL Status], and [!UICONTROL Orientation]. Vous pouvez toutefois [ajouter des facettes de recherche personnalisées](../using/brand-portal-search-facets.md) ou supprimer des facettes de recherche spécifiques du panneau [!UICONTROL Filtres] en ajoutant ou en supprimant des prédicats dans le formulaire de recherche sous-jacent. Consultez la liste des [prédicats de recherche disponibles et utilisables sur Brand Portal](../using/brand-portal-search-facets.md#list-of-search-predicates).
 
@@ -59,14 +59,14 @@ Pour appliquer des filtres à votre recherche avec les [facettes de recherche](.
 
    ![](assets/selectorrail.png)
 
-2. Dans le panneau **[!UICONTROL Filtres]à gauche, sélectionnez les options adéquates pour appliquer les filtres correspondants.**
+1. Dans le panneau **[!UICONTROL Filtres]à gauche, sélectionnez les options adéquates pour appliquer les filtres correspondants.**
 Par exemple, utilisez les filtres standard suivants :
 
    * **[!UICONTROL Explorateur de chemins d’accès]** pour rechercher des ressources dans un répertoire donné. The default search path of the predicate for Path Browser is **[!UICONTROL /content/dam/mac/&lt;tenant-id&gt;/]**, which can be configured by editing the default search form.
    >[!NOTE]
    >
    >To non-admin users, [!UICONTROL Path Browser] in [!UICONTROL Filter] panel shows only the content structure of the folders (and their ancestor folders) shared with them.\
-   >Pour les administrateurs, le navigateur de chemins permet de naviguer jusqu’à n’importe quel dossier du portail de marque.
+   >To admin users, Path Browser allows navigating to any folder in Brand Portal.
 
    * **[!UICONTROL Type de fichier]** pour spécifier le type (image, document, fichier multimédia, archive) du fichier de ressource que vous recherchez. En outre, vous pouvez réduire l’étendue de votre recherche. Par exemple, spécifiez le type MIME (Tiff, Bitmap, Images GIMP) de l’image ou le format (PDF ou MS Word) des documents.
    * **[!UICONTROL Taille de fichier]** pour rechercher des ressources en fonction de leur taille. Vous pouvez spécifier les limites inférieure et supérieure de la plage de tailles afin d’affiner votre recherche et déterminer l’unité de mesure à rechercher.
@@ -105,7 +105,7 @@ Pour autoriser une recherche insensible à la casse dans le prédicat de propri�
 
    Résultat de la recherche de ressources avec le nombre de résultats
 
-3. Vous pouvez facilement accéder à un élément du résultat de recherche et revenir à ce même résultat à l’aide du bouton Précédent de votre navigateur sans avoir à relancer la requête de recherche.
+1. Vous pouvez facilement accéder à un élément du résultat de recherche et revenir à ce même résultat à l’aide du bouton Précédent de votre navigateur sans avoir à relancer la requête de recherche.
 
 ## Enregistrement d’une recherche en tant que collection dynamique{#save-your-searches-as-smart-collection}
 
@@ -123,10 +123,10 @@ Pour enregistrer les paramètres de recherche comme collection dynamique :
 
    ![](assets/save_smartcollectionui.png)
 
-2. To save the smart collection in a different name, and select or clear the **[!UICONTROL Public]** checkbox, click **[!UICONTROL Edit Smart Collection]**.
+1. To save the smart collection in a different name, and select or clear the **[!UICONTROL Public]** checkbox, click **[!UICONTROL Edit Smart Collection]**.
 
    ![](assets/edit_smartcollection.png)
 
-3. Dans la boîte de dialogue **[!UICONTROL Modif. collecte dynam.]**, sélectionnez **Enregistrer sous]et saisissez le nom de la collection dynamique.[!UICONTROL ** Cliquez sur **[!UICONTROL Enregistrer]**.
+1. Dans la boîte de dialogue **[!UICONTROL Modif. collecte dynam.]**, sélectionnez **Enregistrer sous]et saisissez le nom de la collection dynamique.[!UICONTROL ** Cliquez sur **[!UICONTROL Enregistrer]**.
 
    ![](assets/saveas_smartsearch.png)
