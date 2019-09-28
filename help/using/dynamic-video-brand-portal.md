@@ -10,7 +10,7 @@ content-type: référencereference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 translation-type: tm+mt
-source-git-commit: d584ccb4d50f62ec70dabc39be2b17acaba47140
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -31,7 +31,8 @@ Prévisualisez et lisez des vidéos de manière adaptative sur Brand Portal grâ
 
 Pour prévisualiser, lire et télécharger des vidéos, Brand Portal expose les deux configurations suivantes aux administrateurs :
 
-* [Configuration](#configure-dm-hybrid-settings)hybride média dynamique Si l’instance Auteur AEM est en cours d’exécution en mode hybride média dynamique.
+* [Dynamic Media Hybrid configuration
+If AEM Author instance is running on dynamic media Hybrid mode.](#configure-dm-hybrid-settings)
 * [Configuration](#configure-dm-scene7-settings)du média dynamique [!DNL Scene7] si l’instance d’auteur AEM est en cours d’exécution en mode multimédia[!DNL Scene 7] dynamique.
 Définissez l’une de ces configurations selon les configurations définies dans votre instance d’auteur AEM avec laquelle le client Brand Portal est répliqué.
 
@@ -61,8 +62,8 @@ Pour utiliser des vidéos dynamiques sur Brand Portal, veillez à :
 Make sure that [separate Brand Portal tenants](#separate-tenants) are used for AEM Author instances configured with Dynamic Media Hybrid and Dynamic Media [!UICONTROL Scene7] modes, if you are using functionalities of Dynamic Media Hybrid and Dynamic Media [!UICONTROL S7].
 * **Publish folders with video encodes applied to Brand Portal
 Apply video encodings and publish the folder containing rich media assets from AEM Author instance to Brand Portal.**[](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html)
-* **Les adresses IP d’entrée de liste blanche dans SPS si l’aperçu sécurisé est activé** Si vous utilisez Contenu multimédia dynamique[!DNL Scene 7] (avec l’aperçu [sécurisé activé](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html) pour une entreprise), il est conseillé aux administrateurs [!DNL Scene 7] d’entreprise d’ [autoriser le public à accéder aux adresses IP](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service) d’entrée pour les régions respectives à l’aide de l’interface utilisateur Flash de SPS (Scene 7 Publishing System).
-
+* **Whitelist Egress IPs in SPS if secure preview enabled
+If using Dynamic Media- (with secure preview enabled for a company), then it is advised that  company administrator whitelists the public egress IPs for respective regions using  SPS (Scene 7 Publishing System) flash UI.**[!DNL Scene 7][](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html)[!DNL Scene 7][](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service)
 Les adresses IP sortantes sont les suivantes :
 
 | **RégionZone géographique** | **Adresse IP sortante** |
@@ -79,7 +80,7 @@ Pour vérifier que vos ressources vidéo dynamiques sont prévisualisées, lues 
 
 ### Sséparezr les clients pour les modes hybride Dynamic Media et Scene  7 Dynamic Media {#separate-tenants}
 
-If you are using both Dynamic Media [!DNL Scene 7] and Dynamic Media Hybrid features, it is advised that you use different Brand Portal tenants for AEM Author instances configured with Dynamic Media Hybrid and Dynamic Media [!DNL Scene 7] modes.
+If you are using both Dynamic Media [!DNL Scene 7] and Dynamic Media Hybrid features, it is advised that you use different Brand Portal tenants for AEM Author instances configured with Dynamic Media Hybrid and Dynamic Media [!DNL Scene 7] modes.<br />
 
 ![Mappage un-à-un Auteur et Brand Portal](assets/BPDynamicMedia.png)
 
