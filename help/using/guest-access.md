@@ -10,7 +10,7 @@ content-type: référencereference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 translation-type: tm+mt
-source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -44,7 +44,7 @@ Par exemple, un utilisateur invité se connecte au portail de marque à 15 h et 
 
 ## Sessions d’invités simultanées permises {#concurrent-guest-sessions-allowed}
 
-Le nombre de sessions d’invités simultanées est limité à 10 % du nombre total d’utilisateurs pour chaque entreprise. Pour une société disposant de 200 utilisateurs, un maximum de 20 utilisateurs invités peuvent ainsi travailler en même temps. Le 21e utilisateur ne peut pas y accéder en tant qu’invité que si la session de l’un des 20 utilisateurs invités actifs se termine.
+Le nombre de sessions d’invités simultanées est limité à 10 % du nombre total d’utilisateurs pour chaque entreprise. Pour une société disposant de 200 utilisateurs, un maximum de 20 utilisateurs invités peuvent ainsi travailler en même temps. The 21st user is denied access, and can access as a guest only if the session of any of the 20 active guest users ends.
 
 ## Interaction des utilisateurs invités avec Brand Portal {#guest-user-interaction-with-brand-portal}
 
@@ -58,7 +58,7 @@ However, the guest users see the folder tree (starting from the root folder) and
 
 Ces dossiers parents sont des dossiers virtuels et ne peuvent faire l’objet d’aucune action. Vous pouvez identifier ces dossiers virtuels grâce à leur icône dereprésentant un cadenas.
 
-No action tasks are visible on hovering or selecting them in [!UICONTROL Card View], unlike the shared folders. [!UICONTROL Le bouton Aperçu] s’affiche lors de la sélection d’un dossier virtuel en mode [!UICONTROL Colonne] et [!UICONTROL Liste].
+No action tasks are visible on hovering or selecting them in [!UICONTROL Card View], unlike the shared folders. [!UICONTROL Overview] button is shown on selecting a virtual folder in [!UICONTROL Column View] and [!UICONTROL List View].
 
 >[!NOTE]
 >
@@ -78,7 +78,6 @@ Brand Portal provides [!UICONTROL Overview] option to guest users to view [!UICO
 
 * dans la barre d’outils supérieure lors de la sélection d’une ressource/d’un dossier ;
 * dans le menu déroulant, lors de la sélection du sélecteur de rail.
-
 On selecting the [!UICONTROL Overview] option while an asset/folder is selected, users can see the title, path, and time of asset creation. Whereas, on asset detail page selecting [!UICONTROL Overview] option lets the users see metadata of the asset.
 
 ![](assets/overview-option-1.png)
