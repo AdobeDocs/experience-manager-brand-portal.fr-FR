@@ -1,49 +1,49 @@
 ---
 title: Notes de mise à jour
 seo-title: Notes de mise à jour
-description: Découvrez les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 6.4.4.6 et Brand Portal 6.4.4.7
-seo-description: Découvrez les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 6.4.4.6 et Brand Portal 6.4.4.7
+description: Découvrez les fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version 6.4.5 du portail des ressources d’Adobe Experience Manager.
+seo-description: Découvrez les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 6.4.5.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: référencereference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: aa710fa7c482be517e9df0b0ddaac0fbeca90265
+source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
 
 ---
 
 
 # Notes de mise à jour {#release-notes}
 
-Découvrez les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 6.4.4.6 et Brand Portal 6.4.4.7
+Découvrez les nouvelles fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version 6.4.5 du portail des ressources d’Adobe Experience Manager.
 
 ## Informations sur la version {#release-information}
 
-| Produit | Adobe Experience Manager   Assets – Brand Portal |
+| Produit | Adobe Experience Manager Assets – Brand Portal |
 |---|---|
-| Version | 6.4.4.6 et 6.4.4.7 |
-| Date | Août 2019 |
+| Version | 6.4.5 |
+| Date | Septembre 2019 |
 
 ## Présentation {#overview}
 
 Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de contrôler et de distribuer facilement et en toute sécurité des ressources créatives approuvées destinées à des tiers externes et aux collaborateurs de l’entreprise sur différents appareils. Brand Portal améliore l’efficacité du partage des ressources, accélère la mise sur le marché des ressources et réduit les risques de non-conformité et d’accès non autorisé. Brand Portal permet aux utilisateurs de parcourir, rechercher, prévisualiser, télécharger et exporter des ressources dans des formats approuvés, à tout moment et n’importe où.
 
-## Nouveautés de la version 6.4.4.7 {#what-s-new-in-6447}
+## Nouveautés de la version 6.4.5 {#what-s-new-in-645}
 
-### Problèmes critiques résolus {#critical-issues-fixed-6447}
+### Nouvelles fonctionnalités {#new-features-645}
 
-Cette version comprend des correctifs pour les problèmes critiques suivants :
+Le portail de marque 6.4.5 est une version de fonctionnalités qui vise à fournir aux utilisateurs du portail de marque (agences/équipes externes) la possibilité de télécharger du contenu sur le portail de marque et de le publier sur les ressources AEM, sans avoir à accéder à l’environnement de création. Cette fonctionnalité, appelée **[Ressource des ressources dans le portail](brand-portal-overiew-using-asset-sourcing.md)** des marques, améliorera les expériences des clients en fournissant un mécanisme bidirectionnel permettant aux utilisateurs de contribuer et de partager des ressources avec d’autres utilisateurs du portail des marques mondialement distribués.
 
-* Optimisation du processus de synchronisation des utilisateurs pour empêcher l’'exécution simultanée.
+**Ressource dans le portail de marque**
 
-## Nouveautés de la version 6.4.4.6 {#what-s-new-in-6446}
+L’approvisionnement en ressources permet aux utilisateurs d’AEM (administrateurs/non-administrateurs) de créer de nouveaux dossiers avec une propriété **Asset Contribution** supplémentaire, en veillant à ce que le nouveau dossier créé soit ouvert à l’envoi des fichiers par les utilisateurs du portail de marque. Cela déclenche automatiquement un processus qui crée deux sous-dossiers supplémentaires, appelés NOUVEAUX et PARTAGÉS, dans le dossier **Contribution** nouvellement créé.
 
-### Problèmes critiques résolus {#critical-issues-fixed-6446}
+L’utilisateur d’AEM définit ensuite les exigences en matière de ressources en téléchargeant une brève sur les types de ressources qui doivent être ajoutées au dossier de contribution, ainsi qu’un ensemble de ressources de base, dans le dossier **PARTAGÉ** afin de s’assurer que les utilisateurs de BP disposent des informations de référence dont ils ont besoin. L’administrateur peut alors octroyer aux utilisateurs actifs du portail de marque l’accès au dossier de contributions avant de publier le dossier de **contributions** nouvellement créé sur le portail de marques.
 
-Cette version comprend des correctifs pour les problèmes critiques suivants :
+Une fois que l’utilisateur a fini d’ajouter du contenu dans le dossier **NEW** , il peut publier le dossier des contributions dans l’environnement d’auteur AEM.
 
-* Optimisations des performances pour la génération de rapports de téléchargement.
+Pour plus d’informations, reportez-vous à la section [Ressource des ressources dans le portail](brand-portal-asset-sourcing.md)des marques.
 
 ## Langues {#languages}
 
