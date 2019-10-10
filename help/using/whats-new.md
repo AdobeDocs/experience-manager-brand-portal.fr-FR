@@ -10,7 +10,7 @@ content-type: référencereference
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: f5318420b4598ece27d8dfac4f4e7e0c5a02753d
+source-git-commit: 96d915ba146189ccddb7eb798c86c92fd55fbe3b
 
 ---
 
@@ -21,49 +21,40 @@ Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de con
 
 ## Changements dans la version 6.4.5  {#what-changed-in-645}
 
-Brand Portal 6.4.5 is a feature release that focuses on providing Brand Portal users (external agencies/teams) with the ability to upload content to Brand Portal and publish to AEM Assets, without needing access to the author environment. This feature is called **Asset Sourcing in Brand Portal**, and will improve customer experiences by providing a two-way mechanism for users to both contribute and share assets with other globally distributed Brand Portal users.
 
-### Asset Sourcing in Brand Portal {#asset-sourcing-in-bp}
+Le portail de marque 6.4.5 est une version de fonctionnalités qui vise à fournir aux utilisateurs du portail de marque (agences/équipes externes) la possibilité de télécharger du contenu sur le portail de marque et de le publier sur les ressources AEM, sans avoir à accéder à l’environnement de création. Cette fonctionnalité, appelée **[Ressource des ressources dans le portail](brand-portal-asset-sourcing.md)** des marques, améliorera les expériences des clients en fournissant un mécanisme bidirectionnel permettant aux utilisateurs de contribuer et de partager des ressources avec d’autres utilisateurs du portail des marques mondialement distribués.
 
-Asset Sourcing allows AEM administrators to create new folders with an additional **Asset Contribution** property, ensuring the new folder created open to asset submission by Brand Portal users. This automatically triggers a workflow which creates two additional sub folders, called NEW and SHARED, within the newly created Contribution folder.****
+### Ressource dans le portail de marque {#asset-sourcing-in-bp}
 
-The AEM Administrator then defines the requirement by uploading a brief about the types of assets that should be added to the contribution folder, as well as a set of baseline assets, to the SHARED folder to ensure BP users have the reference information they need. **** The administrator can then grant active Brand Portal users access to the contribution folder before publishing the newly created Contribution folder to Brand Portal.****
+L’approvisionnement en ressources permet aux utilisateurs d’AEM (administrateurs/non-administrateurs) de créer de nouveaux dossiers avec une propriété **Asset Contribution** supplémentaire, en veillant à ce que le nouveau dossier créé soit ouvert à l’envoi des fichiers par les utilisateurs du portail de marque. Cela déclenche automatiquement un processus qui crée deux sous-dossiers supplémentaires, appelés NOUVEAUX et PARTAGÉS, dans le dossier **Contribution** nouvellement créé.
 
-Once the user is finished adding content in the NEW folder, they can publish the contribution folder back to the AEM author environment. **** Please note that it may take a few minutes to complete the import and reflect the newly published content within AEM Assets.
+L’utilisateur d’AEM définit ensuite les exigences en [téléchargeant une brève](brand-portal-configure-contribution-folder-properties.md) sur les types de ressources à ajouter au dossier de contributions, ainsi que [en téléchargeant des ressources](brand-portal-upload-baseline-assets.md)de base dans le dossier **PARTAGÉ** pour s’assurer que les utilisateurs de BP disposent des informations de référence dont ils ont besoin. L’administrateur peut alors octroyer aux utilisateurs actifs du portail de marque l’accès au dossier de contributions avant de publier le dossier de **contributions** nouvellement créé sur le portail de marques.
 
-Additionally, all existing functionality remains unchanged. Brand Portal users can view, search, and download assets from the contribution folder as well as from the other permitted folders. And administrators can further share the contribution folder, modify properties and add assets to collections. Consultez les dernières [Notes de mise à jour de Brand  Portal](brand-portal-release-notes.md).
 
->[!NOTE]
->
->Les utilisateurs du portail de marque peuvent télécharger du contenu/des fichiers uniquement vers le dossier **NEW** .
+Une fois que l’utilisateur a fini d’ajouter du contenu dans le dossier **NEW** , il peut publier le dossier des contributions dans l’environnement d’auteur AEM. Veuillez noter que l’importation peut prendre quelques minutes et refléter le contenu récemment publié dans les ressources AEM.
+
+En outre, toutes les fonctionnalités existantes restent inchangées. Les utilisateurs du portail de marque peuvent afficher, rechercher et télécharger des fichiers à partir du dossier des contributions et des autres dossiers autorisés. Les administrateurs peuvent également partager le dossier des contributions, modifier les propriétés et ajouter des ressources aux collections. Consultez les dernières [Notes de mise à jour de Brand  Portal](brand-portal-release-notes.md).
 
 >[!NOTE]
+
+
+>La recherche de ressources dans le portail de marque est prise en charge sur AEM 6.5.2.0 et versions ultérieures.
 >
->La limite de téléchargement maximale pour tout compte/client du portail de marque est de **10** Go.
+>Cette fonctionnalité n’est pas prise en charge dans les versions antérieures - AEM 6.3 et AEM 6.4.
 
+### Téléchargement de fichiers vers le dossier de contributions {#upload-assets-in-bp}
 
-
-![](assets/asset-sourcing.png)
-
-### Upload assets in Brand Portal {#upload-assets-in-bp}
-
-Les utilisateurs du portail de marque reçoivent automatiquement des notifications par pulsation/courrier électronique chaque fois qu’un dossier de contribution est partagé, ce qui leur permet de télécharger le bref document, ainsi que le contenu de la ligne de base, depuis le dossier **PARTAGÉ** pour s’assurer qu’ils comprennent les exigences du projet.
-
-Les utilisateurs du portail de marque disposant des autorisations appropriées peuvent télécharger plusieurs fichiers ou dossiers contenant plusieurs fichiers vers le dossier de contributions. Toutefois, notez que les utilisateurs du portail de marque peuvent uniquement télécharger des fichiers vers le sous-dossier **NOUVEAU** . Le dossier **PARTAGÉ** est destiné à la distribution des détails du projet et des ressources de base.
+Les utilisateurs du portail de marque disposant des autorisations appropriées peuvent [télécharger les besoins](brand-portal-download-asset-requirements.md) en ressources pour comprendre le besoin de contribution et télécharger plusieurs fichiers ou dossiers contenant plusieurs fichiers dans le dossier de contributions. Toutefois, notez que les utilisateurs du portail de marque peuvent uniquement télécharger des fichiers vers le sous-dossier **NOUVEAU** . Le dossier **PARTAGÉ** est destiné à la distribution des besoins et des ressources de base. Voir [Téléchargement de fichiers dans le dossier de contributions](brand-portal-upload-assets-to-contribution-folder.md)
 
 ![](assets/upload-asset6.png)
 
 ![](assets/upload-asset4.png)
 
->[!NOTE]
->
->Les utilisateurs du portail de marque ne sont pas autorisés à supprimer un fichier téléchargé.
 
 ### Publier le dossier de contributions dans AEM Assets {#publish-assets-to-aem}
 
-Une fois le téléchargement terminé dans le dossier **NOUVEAU** , les utilisateurs du portail de marque peuvent publier le dossier de contributions dans AEM. L’importation et le reflet du contenu/des ressources publiés dans AEM Assets peuvent prendre quelques minutes.
+Une fois le téléchargement terminé dans le dossier **NOUVEAU** , les utilisateurs du portail de marque peuvent publier le dossier de contributions dans AEM. L’importation et le reflet du contenu/des ressources publiés dans AEM Assets peuvent prendre quelques minutes. Voir [Publier le dossier de contributions dans AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)
 
-L’utilisateur du portail de marque et l’administrateur AEM recevront des notifications Push/par courrier électronique au début et à la fin de l’action de publication, ainsi que l’état de progression de la tâche (En file d’attente/En cours/Réussite). Les administrateurs d’AEM et du portail de marques peuvent également afficher l’état de la tâche à partir de leurs interfaces respectives.
 
 ![](assets/upload-asset5.png)
 
