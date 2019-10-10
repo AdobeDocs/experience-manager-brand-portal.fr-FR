@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: 96d915ba146189ccddb7eb798c86c92fd55fbe3b
 
 ---
 
@@ -20,7 +20,10 @@ En tant que marketeur, vous devez parfois collaborer avec des partenaires de dis
 
 Il est toutefois difficile de développer des solutions qui permettent le partage efficace et sécurisé de logos de la marque, d’instructions, de ressources de campagne ou de clichés de produit avec des équipes internes, des partenaires et des revendeurs.
 
-**Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de contrôler et de distribuer facilement et en toute sécurité des ressources créatives destinées à des tiers externes et aux collaborateurs de l’entreprise sur différents appareils.** Brand Portal améliore l’efficacité du partage des ressources, accélère la mise sur le marché des ressources et réduit les risques de non-conformité et d’accès non autorisé.
+**Le portail** des ressources d’Adobe Experience Manager (AEM) met l’accent sur la nécessité pour le spécialiste du marketing de collaborer efficacement avec les utilisateurs du portail de marques mondialement distribués en fournissant des fonctionnalités de distribution et de contribution des ressources.
+
+La distribution des ressources vous permet d’acquérir, de contrôler et de distribuer en toute sécurité des ressources créatives approuvées à des tiers externes et à des utilisateurs internes de l’entreprise sur plusieurs périphériques. En revanche, la contribution des ressources permet aux utilisateurs du portail de marque de télécharger des fichiers vers le portail de marque et de les publier vers les ressources AEM, sans avoir à accéder à l’environnement de création. La fonction de contribution est appelée **Ressources d’origine dans le portail**de la marque. En outre, elle améliore l’expérience globale du portail de marque en matière de distribution et de contribution des utilisateurs du portail de marque (agences/équipes externes), accélère le délai de mise sur le marché des actifs et réduit le risque de non-conformité et d’accès non autorisé.
+Reportez-vous à la page [Affectation de ressources dans le portail](brand-portal-asset-sourcing.md)des marques.
 
 L’environnement de portail de type navigateur permet de télécharger, parcourir, rechercher, prévisualiser et exporter facilement des ressources dans des formats approuvés.
 
@@ -31,8 +34,7 @@ Le portail de marque prend en charge les rôles utilisateur suivants :
 * Utilisateur invité
 * Observateur
 * Éditeur  
-* Administrator
-The following table lists the tasks that users in these roles can perform:
+* AdministrateurLe tableau suivant répertorie les tâches que les utilisateurs de ces rôles peuvent effectuer :
 
 |  | **Parcourir** | **Rechercher** | **Télécharger** | **Partage de dossiers** | **Partage d'une collection** | **Partager des ressources en tant que lien** | **Accéder aux outils d’administration** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
@@ -47,7 +49,7 @@ The following table lists the tasks that users in these roles can perform:
 
 Tout utilisateur disposant d’un accès limité aux ressources sur Brand Portal sans passer par une authentification est un utilisateur invité. La session d’invité permet aux utilisateurs d’accéder aux dossiers et collections publics. En tant qu’utilisateur invité, vous pouvez explorer les détails des ressources et bénéficier d’une vue complète sur les ressources des membres des dossiers et collections publics. You can search, download, and add public assets to [!UICONTROL Lightbox] collection.
 
-La session d’invité vous empêche toutefois de créer des collections et des recherches enregistrées, et de les partager. Lors d’une session d’invité, les utilisateurs ne peuvent ni accéder aux paramètres des dossiers et des collections, ni partager des ressources sous la forme de   lien. Voici la liste des tâches que peut réaliser un utilisateur invité :
+La session d’invité vous empêche toutefois de créer des collections et des recherches enregistrées, et de les partager. Lors d’une session d’invité, les utilisateurs ne peuvent ni accéder aux paramètres des dossiers et des collections, ni partager des ressources sous la forme de  lien. Voici la liste des tâches que peut réaliser un utilisateur invité :
 
 [Exploration et accès aux ressources publiques](browse-assets-brand-portal.md)
 
@@ -55,7 +57,7 @@ La session d’invité vous empêche toutefois de créer des collections et des 
 
 [Téléchargement de ressources publiques](brand-portal-download-users.md)
 
-[Ajouter des ressources à [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
+[Ajout de fichiers à [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
 
 ### Observateur {#viewer}
 
@@ -67,7 +69,7 @@ Dans Brand Portal, un utilisateur standard est généralement un utilisateur qu
 
 [Téléchargement de ressources](brand-portal-download-users.md)
 
-### Éditeur   {#editor}
+### Éditeur  {#editor}
 
 Un utilisateur qui dispose du rôle d’'éditeur peut effectuer toutes les tâches d’un observateur. En complément, il peut visualiser les fichiers et dossiers partagés par un administrateur. L’utilisateur qui dispose du rôle d’'éditeur peut également partager du contenu (fichiers, dossiers, collections) avec d’autres personnes.
 
@@ -148,7 +150,7 @@ La page [!UICONTROL Se connecter] s’affiche.
    1. Click **[!UICONTROL Get an Adobe ID]**.
 La page [!UICONTROL Se connecter] s’affiche.
    1. Saisissez vos nom et prénom, e-mail et mot de passe.
-   1. Select Sign up.****<br />
+   1. Sélectionnez **[!UICONTROL S’inscrire]**.<br />
    ![](assets/bplogin_request_access_5.png)
 
    Vous êtes redirigé vers la page [!UICONTROL Demander l’accès].
@@ -159,7 +161,7 @@ La page [!UICONTROL Se connecter] s’affiche.
 
 ## Les administrateurs de produit accordent les accès {#grant-access-to-brand-portal}
 
-Brand Portal product administrators receive access requests in their Brand Portal notification area and through emails in their inbox.
+Les administrateurs de produits du portail de marque reçoivent des demandes d’accès dans leur zone de notification du portail de marque et par courrier électronique dans leur boîte de réception.
 
 ![Notification de demande d’'accès](assets/bplogin_request_access_7.png)
 
@@ -168,15 +170,15 @@ Alternatively, product administrators can follow the link provided in the access
 
 You are redirected to the [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) home page. Use Adobe [!UICONTROL Admin Console] to create users and assign them to product profiles (formerly known as product configurations), which show as groups in Brand Portal. For more information about adding users in [!UICONTROL Admin Console], see [Add a user](brand-portal-adding-users.md#add-a-user) (follow Steps 4-7 in the procedure to add a user).
 
-## Brand Portal languages {#brand-portal-language}
+## Langues du portail de marque {#brand-portal-language}
 
-You can change Brand Portal language from Adobe Experience Cloud Settings.
+Vous pouvez modifier la langue du portail de marque à partir des paramètres [!UICONTROL d’Adobe]Experience Cloud.
 
 ![Notification de demande d’'accès](assets/BPLang.png)
 
-To change the language:
+Pour modifier la langue :
 
-1. Select User &gt; Edit Profile from the top menu.<br />
+1. Sélectionnez [!UICONTROL Utilisateur] &gt; [!UICONTROL Modifier le profil] dans le menu supérieur.<br />
    ![Modifier le profil](assets/EditBPProfile.png)
 
 1. Sur la page Paramètres [!UICONTROL d’] Experience Cloud, sélectionnez une langue dans le menu déroulant [!UICONTROL Langue] .
