@@ -9,7 +9,7 @@ topic-tags: download-install
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: référencereference
 discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 ---
@@ -17,17 +17,17 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 # Gestion des droits numériques des ressources {#manage-digital-rights-of-assets}
 
-La sécurisation de la distribution et de l’utilisation des ressources créatives et des documents de marque est essentielle pour protéger votre marque. Cela peut être appliqué à l’échelle de l’entreprise et à l’extérieur en associant une date et une heure d’expiration aux ressources approuvées publiées depuis AEM vers le portail de marque, ou en concédant une licence pour une utilisation conditionnelle de ces ressources. En outre, Brand Portal vous permet de spécifier une date d’expiration pour les liens vers les ressources partagées à partir de Brand Portal.
+La sécurisation de la distribution et de l’utilisation des ressources créatives et des documents de marque est essentielle pour protéger votre marque. Elle peut être appliquée à l’échelle de l’entreprise et à l’extérieur de celle-ci en associant une date (et une heure) d’expiration aux ressources approuvées publiées à partir d’AEM sur Brand Portal, ou en octroyant des licences pour ces ressources pour une utilisation conditionnelle. En outre, Brand Portal vous permet de spécifier une date d’expiration pour les liens vers les ressources partagées à partir de Brand Portal.
 
 Poursuivez la lecture de cet article pour savoir comment les ressources sont sécurisées sur Brand Portal et comprendre les autorisations d’utilisation associées.
 
 ## Expiration de ressources {#asset-expiration}
 
-L’expiration de ressources est une façon efficace de contrôler l’utilisation des ressources approuvées sur Brand Portal à travers une organisation. Toutes les ressources publiées depuis les ressources AEM vers le portail de marque peuvent avoir une date d’expiration, qui limite l’utilisation de ces ressources par différents rôles d’utilisateur.
+L’expiration de ressources est une façon efficace de contrôler l’utilisation des ressources approuvées sur Brand Portal à travers une organisation. Toutes les ressources publiées à partir d’AEM Assets sur Brand Portal peuvent avoir une date d’expiration qui limite l’utilisation de ces ressources par différents rôles d’utilisateur.
 
 ### Autorisations d’utilisation liées aux ressources expirées {#usage-permissions-expired-assets}
 
-Dans Brand Portal, les administrateurs peuvent afficher, télécharger et ajouter des ressources expirées aux collections. En revanche, les éditeurs et les observateurs peuvent seulement afficher et ajouter des ressources expirées expirées aux collections.
+Dans Brand Portal, les administrateurs peuvent afficher, télécharger et ajouter des ressources expirées aux collections. En revanche, les éditeurs et les observateurs peuvent seulement afficher et ajouter des ressources expirées aux collections.
 
 Les administrateurs peuvent publier les ressources expirées sur Brand Portal à partir d’AEM Assets. Cependant, les ressources expirées ne peuvent pas être partagées par l’intermédiaire d’un lien à partir de Brand Portal. Si vous sélectionnez une ressource expirée dans un dossier contenant à la fois des ressources expirées et non expirées, l’action **[!UICONTROL Partager le lien]** n’est pas disponible. En revanche, si vous sélectionnez un dossier contenant des ressources expirées et non expirées, les actions [!UICONTROL Partager] et **[!UICONTROL Partager le lien]** sont disponibles.
 
@@ -48,9 +48,9 @@ Le tableau suivant montre les autorisations d’utilisation des ressources expir
 >
 >Si les observateurs et les éditeurs téléchargent un dossier contenant des ressources expirées et non expirées, seules les ressources non expirées sont téléchargées. Si un dossier contient seulement des ressources expirées, un dossier vide est téléchargé.
 
-### État d’expiration des ressources   {#expiration-status-of-assets}
+### État d’expiration des ressources {#expiration-status-of-assets}
 
-You can view the expiration status of assets in their [!UICONTROL Card View]. Un drapeau rouge sur la carte indique que la ressource a expiré.
+Vous pouvez voir l’état d’expiration des ressources dans leur [!UICONTROL mode Carte]. Un drapeau rouge sur la carte indique que la ressource a expiré.
 
 ![](assets/expired_assets_cardview.png)
 
@@ -58,7 +58,7 @@ You can view the expiration status of assets in their [!UICONTROL Card View]. Un
 >
 >Les modes Liste et Colonnes n’indiquent pas l’état d’expiration des ressources.
 
-## Expiration des liens de ressources   {#asset-link-expiration}
+## Expiration des liens de ressources {#asset-link-expiration}
 
 Lors du partage de ressources à travers des liens, les administrateurs et les éditeurs peuvent définir une date et une heure d’expiration en utilisant le champ **[!UICONTROL Expiration]** dans la boîte de dialogue **Partage de lien[!UICONTROL .Partage de lien]**. Par défaut, le lien expire sept jours à compter de la date à laquelle il est partagé.
 
@@ -72,7 +72,7 @@ Pour plus d’informations sur le partage de lien, voir [Partage de ressources e
 
 Les ressources sous licence sont sujettes à l’acceptation d’un accord de licence avant leur téléchargement à partir de Brand Portal. Cet accord pour les ressources sous licence s’affiche quand vous téléchargez directement des ressources à partir de Brand Portal ou par l’intermédiaire d’un lien partagé. Qu’elles soient ou non expirées, les ressources protégées par une licence peuvent être affichées par tous les utilisateurs. Cependant, le téléchargement et l’utilisation des ressources sous licence expirées sont limités. Pour connaître le comportement des ressources sous licence expirées et des activités permises en fonction des rôles d’utilisateur, voir [Autorisations d’utilisation des ressources expirées](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
 
-License-protected assets have [license agreement attached](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) to them, which is done by setting asset's [metadata property](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in AEM Assets.
+Les ressources protégées par licence sont accompagnées d’un [accord de licence](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) grâce à la définition de la [propriété des métadonnées](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) des ressources dans AEM Assets.
 
 Si vous choisissez de télécharger des ressources protégées par une licence, vous êtes redirigé vers la page [!UICONTROL Gestion des droits d’auteur].
 
@@ -84,9 +84,9 @@ Vous devez y sélectionner la ressource à télécharger et accepter l’accord 
 
 Si la sélection contient plusieurs ressources protégées, sélectionnez-en une à la fois, acceptez le contrat de licence et procédez au téléchargement de la ressource.
 
-## Génération d’un rapport sur les ressources expirées   {#generate-report-about-expired-assets}
+## Génération d’un rapport sur les ressources expirées {#generate-report-about-expired-assets}
 
-Les administrateurs peuvent générer et télécharger un rapport répertoriant toutes les ressources expirées danspendant une période spécifique. Ce rapport inclutcomprend des informations détaillées concernant les ressources expirées (ex. : taille, type, chemin d’'accès dans la hiérarchie de ressources, et dates d’'expiration et de publication). Les colonnes de ce rapport peuvent être personnalisées pour afficher plus de données selon les besoins des utilisateurs.
+Les administrateurs peuvent générer et télécharger un rapport répertoriant toutes les ressources expirées danspendant une période spécifique. Ce rapport inclutcomprend des informations détaillées concernant les ressources expirées (ex. : taille, type, chemin d’accès dans la hiérarchie de ressources, et dates d’expiration et de publication). Les colonnes de ce rapport peuvent être personnalisées pour afficher plus de données selon les besoins des utilisateurs.
 
 ![](assets/assets-expired.png)
 
