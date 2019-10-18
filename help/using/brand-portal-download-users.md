@@ -8,7 +8,7 @@ content-type: référencereference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
@@ -26,32 +26,32 @@ Tous les utilisateurs peuvent simultanément télécharger plusieurs ressources 
 
 Pour télécharger des fichiers ou des dossiers contenant des ressources pour Brand Portal, procédez comme suit :
 
-1. Dans l’interface de Brand Portal, effectuez l’une des opérations suivantes :
+1. Dans l’interface de Brand Portal, effectuez l’une des opérations suivantes :
 
-   * Sélectionnez les dossiers ou les ressources que vous souhaitez télécharger. Dans la barre d’outils supérieure, cliquez sur l’icône **[!UICONTROL Télécharger].**
+   * Sélectionnez les dossiers ou les ressources que vous souhaitez télécharger. Dans la barre d’outils supérieure, cliquez sur l’icône **[!UICONTROL Télécharger]**.
    ![](assets/downloadassets-1.png)
 
-   * Pour télécharger un seul dossier ou une ressource, placez le pointeur dessus. Dans les vignettesminiatures d’action rapide disponibles, cliquez sur l’icône **[!UICONTROL Télécharger].**
+   * Pour télécharger un seul dossier ou une ressource, placez le pointeur dessus. Dans les vignettes d’action rapide disponibles, cliquez sur l’icône **[!UICONTROL Télécharger]**.
    ![](assets/downloadsingleasset-1.png)
 
    >[!NOTE]
    >
-   >Si les ressources que vous téléchargez comprennent également des ressources sous licence, vous êtes redirigé vers la page **[!UICONTROL Gestion des droits d’auteur].** In this page, select the assets, click **[!UICONTROL Agree]**, and then click **[!UICONTROL Download]**. Si vous choisissez de ne pas accepter, les ressources sous licence ne sont pas téléchargées.\
-   >License-protected assets have [license agreement attached](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) to them, which is done by setting asset's [metadata property](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in AEM Assets.
+   >Si les ressources que vous téléchargez comprennent également des ressources sous licence, vous êtes redirigé vers la page **[!UICONTROL Gestion des droits d’auteur]**. Dans cette page, sélectionnez les ressources, cliquez sur **[!UICONTROL Accepter]**, puis sur **[!UICONTROL Télécharger]**. Si vous choisissez de ne pas accepter, les ressources sous licence ne sont pas téléchargées.\
+   >Les ressources protégées par licence sont accompagnées d’un [accord de licence](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) grâce à la définition de la [propriété des métadonnées](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) des ressources dans AEM Assets.
 
    ![](assets/licensed-asset-download-1.png)
 
-   La boîte de dialogue **[!UICONTROL TéléchargementTélécharger]** s’affiche avec l’option **Ressource(s)]sélectionnée par défaut.[!UICONTROL **
+   La boîte de dialogue **[!UICONTROL Téléchargement]** s’affiche avec l’option **[!UICONTROL Ressource(s)]** sélectionnée par défaut.
 
    ![](assets/donload-assets-dialog-1.png)
 
    >[!NOTE]
    >
-   >Si les ressources que vous téléchargez sont des fichiers images et si vous choisissez seulement l’option **[!UICONTROL Ressource(s)]** de la boîte de dialogue Téléchargerement, sans être [autorisé par l’administrateur à accéder aux rendus originaux des fichiers images](../using/brand-portal-adding-users.md#main-pars-procedure-202029708), aucun fichier image n’est téléchargé, et un avis vous indique que l’administrateur a restreint votre accès aux rendus originaux.
+   >Si les ressources que vous téléchargez sont des fichiers image et si vous choisissez seulement l’option **[!UICONTROL Ressource(s)]** de la boîte de dialogue Téléchargerement, sans être [autorisé par l’administrateur à accéder aux rendus originaux des fichiers image](../using/brand-portal-adding-users.md#main-pars-procedure-202029708), aucun fichier image n’est téléchargé, et un avis vous indique que l’administrateur a restreint votre accès aux rendus originaux.
 
    ![](assets/restrictaccess-note.png)
 
-1. To download the renditions of assets in addition to the assets, select **[!UICONTROL Rendition(s)]**. However, to allow auto-generated renditions to download along with custom renditions, deselect **[!UICONTROL Exclude Auto Generated Renditions]**, which is selected by default.
+1. Pour télécharger les rendus des ressources en plus des ressources, sélectionnez **[!UICONTROL Rendu(s)]**. Toutefois, pour autoriser le téléchargement des rendus générés automatiquement avec des rendus personnalisés, désélectionnez l’option **[!UICONTROL Exclure les rendus générés automatiquement]**, qui est sélectionnée par défaut.
 
    ![](assets/exclude-auto-renditions.png)
 
@@ -61,23 +61,23 @@ Pour télécharger des fichiers ou des dossiers contenant des ressources pour Br
    >
    >Par défaut, seules les ressources sont téléchargées. Toutefois, les rendus originaux des fichiers images ne sont pas téléchargés si vous n’êtes pas [autorisé par l’administrateur à y accéder](../using/brand-portal-adding-users.md#main-pars-procedure-202029708).
 
-   * Pour accélérer le téléchargement des fichiers de ressources à partir de Brand Portal, sélectionnez l’option **[!UICONTROL Autoriser l’accélération des téléchargements]** et [suivez l’assistant](../using/accelerated-download.md#main-pars-header-405749062). To know more about faster download of assets refer [guide to accelerate downloads from Brand Portal](../using/accelerated-download.md).
+   * Pour accélérer le téléchargement des fichiers de ressources à partir de Brand Portal, sélectionnez l’option **[!UICONTROL Autoriser l’accélération des téléchargements]** et [suivez l’assistant](../using/accelerated-download.md#main-pars-header-405749062). Pour en savoir plus sur le téléchargement plus rapide des ressources, consultez le [Guide d’accélération des téléchargements à partir de Brand Portal](../using/accelerated-download.md).
 
-   * Pour appliquer un [paramètre prédéfini d’image personnalisé à la ressource et ses rendus](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages), sélectionnez **[!UICONTROL Rendu(s) dynamique(s)]**. Indiquez les propriétés du paramètre prédéfini d’image personnalisé (taille, format, espace colorimétrique, résolution et modificateur d’image) pour l’appliquer lors du téléchargement de la ressource et de ses rendus. Pour télécharger uniquement les rendus dynamiques, delesect Asset(s).****
+   * Pour appliquer un [paramètre prédéfini d’image personnalisé à la ressource et ses rendus](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages), sélectionnez **[!UICONTROL Rendu(s) dynamique(s)]**. Indiquez les propriétés du paramètre prédéfini d’image personnalisé (taille, format, espace colorimétrique, résolution et modificateur d’image) pour l’appliquer lors du téléchargement de la ressource et de ses rendus. Pour télécharger uniquement les rendus dynamiques, désélectionnez **[!UICONTROL Ressource(s)]**.
    ![](assets/dynamic-renditions.png)
 
    >[!NOTE]
    >
-   >To preview (or download) dynamic renditions of any asset, ensure that the dynamic media is enabled and the asset's Pyramid tiff rendition exists at the AEM author instance, from where the assets have been published. When an asset is published to Brand Portal, its Pyramid tiff rendition is also published. There is no way of generating the Pyramid tiff rendition from Brand Portal.
+   >Pour prévisualiser (ou télécharger) les rendus dynamiques d’une ressource, vérifiez que Dynamic Media est activé et que le rendu Pyramid tiff de la ressource existe au niveau de l’instance AEM Author à partir de laquelle les ressources ont été publiées. Lorsqu’une ressource est publiée sur Brand Portal, son rendu Pyramid tiff l’est également. Il n’existe aucun moyen pour générer le rendu Pyramid tiff à partir de Brand Portal.
 
-   * To preserve the Brand Portal folder hierarchy while downloading assets, select **[!UICONTROL Create separate folder for each asset]**. Par défaut, la hiérarchie des dossiers de Brand Portal est ignorée, et toutes les ressources sont téléchargées dans un dossier de votre système local.
+   * Pour conserver la hiérarchie des dossiers de Brand Portal lors du téléchargement des ressources, sélectionnez **[!UICONTROL Créer un dossier distinct pour chaque ressource]**. Par défaut, la hiérarchie des dossiers de Brand Portal est ignorée, et toutes les ressources sont téléchargées dans un dossier de votre système local.
 
    * Pour envoyer aux utilisateurs un e-mail de notification comportant un lien pour télécharger les ressources, sélectionnez **[!UICONTROL Courrier électronique]**.
    ![](assets/download-link.png)
 
    >[!NOTE]
    >
-   >Le lien de téléchargement figurant dans l'e-mail de notification expire après 45 jours.
+   >Le lien de téléchargement figurant dans l’e-mail de notification expire après 45 jours.
    >
    >Les administrateurs peuvent personnaliser les e-mails, à savoir le logo, la description et le pied de page à l’aide de la fonctionnalité [Valorisation de marque](../using/brand-portal-branding.md).
 
@@ -99,13 +99,13 @@ L’expérience de téléchargement de fichier peut varier pour les utilisateurs
 
 | Emplacement du client | Latence entre le client et le serveur | Vitesse de téléchargement prévue | Temps nécessaire pour télécharger un fichier de 2 Go |
 |-------------------------|-----------------------------------|-------------------------|------------------------------------|
-| Ouest des États-Unis (Californie du Nord) | 18 millisecondes | 7.68 Mo/s. | 4 minutes |
-| Ouest des États-Unis (Oregon) | 42 millisecondes | 3.84 Mo/s. | 9 minutes |
-| Est des États-Unis (Virginie du Nord) | 85 millisecondes | 1.61 Mo/s. | 21 minutes |
-| Asie-Pacifique (Tokyo) | 124 millisecondes | 1.13 Mo/s. | 30 minutes |
-| Noida | 275 millisecondes | 0.5 Mo/s. | 68 minutes |
-| Sydney | 175 millisecondes | 0.49 Mo/s. | 69 minutes |
-| Londres | 179 millisecondes | 0.32 Mo/s. | 106 minutes |
-| Singapour | 196 millisecondes | 0.5 Mo/s. | 68 minutes |
+| Ouest des États-Unis (Californie du Nord) | 18 millisecondes | 7,68 Mo/s. | 4 minutes |
+| Ouest des États-Unis (Oregon) | 42 millisecondes | 3,84 Mo/s. | 9 minutes |
+| Est des États-Unis (Virginie du Nord) | 85 millisecondes | 1,61 Mo/s. | 21 minutes |
+| Asie-Pacifique (Tokyo) | 124 millisecondes | 1,13 Mo/s. | 30 minutes |
+| Noida | 275 millisecondes | 0,5 Mo/s. | 68 minutes |
+| Sydney | 175 millisecondes | 0,49 Mo/s. | 69 minutes |
+| Londres | 179 millisecondes | 0,32 Mo/s. | 106 minutes |
+| Singapour | 196 millisecondes | 0,5 Mo/s. | 68 minutes |
 
 **Remarque** : les données citées sont observées dans les situations de test et peuvent varier pour des utilisateurs à des emplacements différents avec une latence et une bande passante différentes.
