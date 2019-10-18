@@ -1,14 +1,14 @@
 ---
 title: Formats de fichiers pris en charge
 seo-title: Formats de fichiers pris en charge
-description: 'Chaque portail AEM Assets Brand Portal prend en charge des formats de fichiers spécifiques, comme indiqué dans le tableau. '
-seo-description: 'Chaque portail AEM Assets Brand Portal prend en charge des formats de fichiers spécifiques, comme indiqué dans le tableau. '
+description: 'Chaque portail AEM Assets Brand Portal prend en charge des formats de fichiers spécifiques, comme indiqué dans le tableau. '
+seo-description: 'Chaque portail AEM Assets Brand Portal prend en charge des formats de fichiers spécifiques, comme indiqué dans le tableau. '
 uuid: c92ada3a-6fc3-4ef2-88ff-8e67a50c8c95
 content-type: référencereference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: fe1c2df8-39f4-4d5c-91d1-7b6cd4f1f589
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 # Formats de fichiers pris en charge {#supported-file-formats}
 
-Chaque portail AEM Assets Brand Portal prend en charge des formats de fichiers spécifiques, comme indiqué dans le tableau.
+Chaque portail AEM Assets Brand Portal prend en charge des formats de fichiers spécifiques, comme indiqué dans le tableau.
 
 | Format de fichier | Ressources publiées sur Brand Portal | Rendus publiés sur Brand Portal | Métadonnées publiées sur Brand Portal | Miniatures publiées sur Brand Portal | Pages des détails des ressources publiées sur Brand Portal | Partages de liens | Miniatures des partages de liens | Aperçus des partages de liens |
 |-------------|----------------------------------|--------------------------------------|------------------------------------|--------------------------------------|-----------------------------------------------|-------------|-----------------------|---------------------|
