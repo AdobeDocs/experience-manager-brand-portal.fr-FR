@@ -1,14 +1,14 @@
 ---
 title: Utilisation des rapports
 seo-title: Utilisation des rapports
-description: Les administrateurs d’AEM Assets  Brand  Portal peuvent consulter des rapports sur l’utilisation de Brand  Portal, de même que créer, gérer et afficher des rapports sur les ressources téléchargées, expirées, publiées, ainsi que sur les liens partagés via Brand  Portal.
-seo-description: Les administrateurs d’AEM Assets  Brand  Portal peuvent consulter des rapports sur l’utilisation de Brand  Portal, de même que créer, gérer et afficher des rapports sur les ressources téléchargées, expirées, publiées, ainsi que sur les liens partagés via Brand  Portal.
+description: Les administrateurs d’AEM Assets Brand Portal peuvent consulter des rapports sur l’utilisation de Brand Portal, de même que créer, gérer et afficher des rapports sur les ressources téléchargées, expirées, publiées, ainsi que sur les liens partagés via Brand Portal.
+seo-description: Les administrateurs d’AEM Assets Brand Portal peuvent consulter des rapports sur l’utilisation de Brand Portal, de même que créer, gérer et afficher des rapports sur les ressources téléchargées, expirées, publiées, ainsi que sur les liens partagés via Brand Portal.
 uuid: dc4e5275-a614-4b95-8c70-2b7e470c50a7
 content-type: référencereference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 # Utilisation des rapports {#work-with-reports}
 
-The reporting capability is instrumental in assessing Brand Portal usage, and knowing how internal and external users interact with approved assets. Les administrateurs peuvent afficher le rapport Utilisation de Brand Portal, qui est toujours disponible sur la page Rapports de ressources. Toutefois, les rapports concernant les connexions d’utilisateurs et les ressources téléchargées, expirées, publiées et partagées par des liens peuvent être générés et affichés à partir de la page Rapports de ressources. Ces rapports s’avèrent utiles pour analyser le déploiement des ressources et permettent d’obtenir des indicateurs clés de réussite pour mesurer l’adoption des ressources approuvées au sein et en dehors de l’organisation.
+La fonctionnalité de création de rapports de Brand Portal permet d’évaluer l’utilisation de Brand Portal et la façon dont les utilisateurs internes et externes interagissent avec les ressources approuvées. Les administrateurs peuvent afficher le rapport Utilisation de Brand Portal, qui est toujours disponible sur la page Rapports de ressources. Toutefois, les rapports concernant les connexions d’utilisateurs et les ressources téléchargées, expirées, publiées et partagées par des liens peuvent être générés et affichés à partir de la page Rapports de ressources. Ces rapports s’avèrent utiles pour analyser le déploiement des ressources et permettent d’obtenir des indicateurs clés de réussite pour mesurer l’adoption des ressources approuvées au sein et en dehors de l’organisation.
 
 L’interface de gestion des rapports est intuitive et contient des options et commandes précises pour accéder aux rapports enregistrés. Vous pouvez consulter, télécharger ou supprimer des rapports à partir de la page Rapports de ressources, dans laquelle tous les rapports générés auparavant sont répertoriés.
 
@@ -28,11 +28,11 @@ Pour afficher un rapport, procédez comme suit :
 
    ![](assets/aemlogo.png)
 
-1. From the administrative tools panel, click **[!UICONTROL Create/Manage Reports]** to open **[!UICONTROL Asset Reports]** page.
+1. Dans le panneau des outils d’administration, cliquez sur **[!UICONTROL Créer/gérer des rapports]** pour ouvrir la page **[!UICONTROL Rapports de ressources]**.
 
    ![](assets/access-asset-reports.png)
 
-1. Accédez au rapport **[!UICONTROL Utilisation]et à d’autres rapports générés depuis la page Rapports de ressources.**
+1. Accédez au rapport **[!UICONTROL Utilisation]** et à d’autres rapports générés depuis la page Rapports de ressources.
 
    >[!NOTE]
    >
@@ -44,7 +44,7 @@ Pour afficher un rapport, procédez comme suit :
 
    ![](assets/usage-report.png)
 
-   Le rapport [!UICONTROL Connexions des utilisateurs] fournit des informations concernant les utilisateurs qui se sont connectés à Brand Portal. The report shows display names, email IDs, personas (admin, viewer, editor, guest), groups, last login, activity status, and login count of each user from Brand Portal 6.4.2 deployment until the time of report generation.
+   Le rapport [!UICONTROL Connexions des utilisateurs] fournit des informations concernant les utilisateurs qui se sont connectés à Brand Portal. Le rapport affiche les noms d’affichage, les adresses e-mail, les rôles (administrateur, observateur, éditeur et invité), les groupes, la dernière connexion, l’état d’activité et le nombre de connexions de chaque utilisateur à partir du déploiement de Brand Portal 6.4.2 jusqu’au moment de la génération du rapport.
 
    ![](assets/user-logins.png)
 
@@ -54,7 +54,7 @@ Pour afficher un rapport, procédez comme suit :
 
    >[!NOTE]
    >
-   >The assets [!UICONTROL Download] report displays only the assets that were individually selected and downloaded from Brand Portal. Si un utilisateur a téléchargé un dossier contenant des ressources, le rapport n’affiche pas le dossier ou les ressources qu'’il contient.
+   >Le rapport [!UICONTROL Téléchargement] de ressources affiche uniquement les ressources qui ont été sélectionnées et téléchargées individuellement à partir de Brand Portal. Si un utilisateur a téléchargé un dossier contenant des ressources, le rapport n’affiche pas le dossier ou les ressources qu’il contient.
 
    Le rapport [!UICONTROL Expiration] répertorie toutes les ressources qui sont arrivées à expiration pendant une période spécifique.
 
@@ -77,7 +77,7 @@ Pour afficher un rapport, procédez comme suit :
    >Le rapport Partage de liens n’affiche pas les utilisateurs qui ont accès à une ressource partagée par le biais du lien ou qui ont téléchargé la ressource via le lien.
    >
    >
-   >Pour effectuer le suivi des téléchargements réalisés par l’intermédiaire du lien partagé, vous devez générer le rapport de téléchargement après avoir sélectionné l’option **[!UICONTROL Uniquement les téléchargements via partage de lien]** sur la page **Créer un rapport[!UICONTROL .]** L'utilisateur (Téléchargé par) devient anonyme dans ce cas.
+   >Pour effectuer le suivi des téléchargements réalisés par l’intermédiaire du lien partagé, vous devez générer le rapport de téléchargement après avoir sélectionné l’option **[!UICONTROL Uniquement les téléchargements via partage de lien]** sur la page **[!UICONTROL Créer un rapport]**. L’utilisateur (Téléchargé par) devient anonyme dans ce cas.
 
 ## Génération de rapports {#generate-reports}
 
@@ -89,13 +89,13 @@ Les administrateurs peuvent générer et gérer les rapports standard ci-après.
 * Publication
 * Partage de liens
 
-L’'affichage des colonnes des rapports Téléchargement, Expiration et Publication peut être personnalisé. Pour générer un rapport, procédez comme suit :
+L’affichage des colonnes des rapports Téléchargement, Expiration et Publication peut être personnalisé. Pour générer un rapport, procédez comme suit :
 
 1. Dans la barre d’outils supérieure, appuyez/cliquez sur le logo AEM pour accéder aux outils d’administration.
 
    ![](assets/aemlogo.png)
 
-1. From the administrative tools panel, tap/click **[!UICONTROL Create/Manage Reports]** to open **[!UICONTROL Asset Reports]** page.
+1. Dans le panneau des outils d’administration, appuyez/cliquez sur **[!UICONTROL Créer/gérer des rapports]** pour ouvrir la page **[!UICONTROL Rapports de ressources]**.
 
    ![](assets/asset-reports.png)
 
@@ -116,17 +116,17 @@ L’'affichage des colonnes des rapports Téléchargement, Expiration et Publica
    >
    >Dans le titre du rapport, les caractères spéciaux # et % sont remplacés par un trait d’union (-) lors de la génération du rapport.
 
-1. Tap/click **[!UICONTROL Next]**, to configure the columns of Download, Expiration, and Publish reports.
-1. Cochez ou décochez les cases pertinentes selon vos besoins. For example, to view names of users (who downloaded assets) in [!UICONTROL Download] report, select **[!UICONTROL Downloaded By]**. L’image suivante montre comment sélectionner les colonnes par défaut dans le rapport Téléchargement.
+1. Appuyez/cliquez sur **[!UICONTROL Suivant]** pour configurer les colonnes des rapports Téléchargement, Expiration et Publication.
+1. Cochez ou décochez les cases pertinentes selon vos besoins. Par exemple, pour afficher le nom des utilisateurs (qui ont téléchargé des ressources) dans le rapport [!UICONTROL Téléchargement], sélectionnez **[!UICONTROL Téléchargé par]**. L’image suivante montre comment sélectionner les colonnes par défaut dans le rapport Téléchargement.
 
    ![](assets/createdownloadreport.png)
 
-   Vous pouvez également ajouter des colonnes personnalisées à ces rapports pour adapter l’'affichage des données à vos besoins.
+   Vous pouvez également ajouter des colonnes personnalisées à ces rapports pour adapter l’affichage des données à vos besoins.
 
    Pour ajouter des colonnes personnalisées aux rapports Téléchargement, Publication et Expiration, procédez comme suit :
 
    1. Pour afficher une colonne personnalisée, appuyez/cliquez sur **[!UICONTROL Ajouter]** dans [!UICONTROL Colonnes personnalisées].
-   1. Indiquez le nom de la colonne dans le champ **[!UICONTROL Nom de la colonne].**
+   1. Indiquez le nom de la colonne dans le champ **[!UICONTROL Nom de la colonne]**.
    1. Sélectionnez la propriété à laquelle la colonne doit être associée à l’aide du sélecteur de propriété.
 
       ![](assets/property-picker.png)
@@ -142,17 +142,17 @@ Vous pouvez également saisir le chemin d’accès dans le champ de chemin d’a
 
 Pour enregistrer et télécharger un rapport en tant que fichier .csv, effectuez l’une des opérations suivantes :
 
-* Sélectionnez un rapport sur la page Rapports de ressources, puis appuyez/cliquez sur **[!UICONTROL Télécharger]dans la barre d’outils supérieure.**
+* Sélectionnez un rapport sur la page Rapports de ressources, puis appuyez/cliquez sur **[!UICONTROL Télécharger]** dans la barre d’outils supérieure.
 
 ![](assets/download-asset-report.png)
 
-* Dans la page Rapports de ressources, ouvrez un rapport. Sélectionnez l’option **[!UICONTROL Télécharger]en haut de la page du rapport.**
+* Dans la page Rapports de ressources, ouvrez un rapport. Sélectionnez l’option **[!UICONTROL Télécharger]** en haut de la page du rapport.
 
 ![](assets/download-report-fromwithin.png)
 
 ## Suppression de rapports {#delete-reports}
 
-Pour supprimer un rapport existant, sélectionnez-le sur la page **[!UICONTROL Rapports de ressources]** et appuyez/cliquez sur **Supprimer]dans la barre d’outils supérieure.[!UICONTROL **
+Pour supprimer un rapport existant, sélectionnez-le sur la page **[!UICONTROL Rapports de ressources]** et appuyez/cliquez sur **[!UICONTROL Supprimer]** dans la barre d’outils supérieure.
 
 >[!NOTE]
 >
