@@ -1,15 +1,15 @@
 ---
 title: Administration des configurations générales du client
 seo-title: Administration des configurations générales du client
-description: Configure download acceleration, public smart [!UICONTROL collection] creation, public [!UICONTROL collection] creation, and enable admin users to delete assets on tenants.
-seo-description: Configure download acceleration, public smart [!UICONTROL collection] creation, public [!UICONTROL collection] creation, and enable admin users to delete assets on tenants.
+description: Configurez l’accélération des téléchargements, la création de [!UICONTROL collections] dynamiques publiques, ainsi que la création de [!UICONTROL collections] publiques, et autorisez les utilisateurs administrateurs à supprimer des ressources sur les clients.
+seo-description: Configurez l’accélération des téléchargements, la création de [!UICONTROL collections] dynamiques publiques, ainsi que la création de [!UICONTROL collections] publiques, et autorisez les utilisateurs administrateurs à supprimer des ressources sur les clients.
 uuid: 3c46cd7c-c38b-4bc7-b566-93f977bc8227
 contentOwner: mgulati
 topic-tags: administration
 content-type: référencereference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
@@ -20,20 +20,20 @@ source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 AEM Assets Brand Portal permet aux organisations de configurer les fonctionnalités suivantes pour des clients spécifiques :
 
 * Suppression des ressources par les administrateurs
-* Création de collections publiques par des utilisateurs non-administrateurs
-* Création de collections dynamiques publiques par des utilisateurs non-administrateurs
+* Création de collections publiques par des utilisateurs non administrateurs
+* Création de collections dynamiques publiques par des utilisateurs non administrateurs
 * Accélération des téléchargements
 * Hiérarchie parente des dossiers partagés visible pour les utilisateurs non-administrateurs
 
-Ces fonctionnalités sont proposées sous la forme de configurations de **[!UICONTROL Paramètres généraux]dans le panneau des outils d’administration.**
+Ces fonctionnalités sont proposées sous la forme de configurations de **[!UICONTROL Paramètres généraux]** dans le panneau des outils d’administration.
 
 ![](assets/general-configs.png)
 
-**A   Configuration to allow administrators to delete assets from Brand Portal.** (activée par défaut).
+**A** Configuration autorisant les administrateurs à supprimer des ressources de Brand Portal. (activée par défaut).
 
-**B   Configuration to allow the non-admin users to create public collections.** (activée par défaut).
+**B** Configuration autorisant les utilisateurs non administrateurs à créer des collections publiques. (activée par défaut).
 
-**C** Configuration autorisant les utilisateurs non administrateurs à créer des collections dynamiques publiques. (activée par défaut).
+**C** Configuration autorisant les utilisateurs non administrateurs à créer des collections dynamiques publiques. (activée par défaut).
 
 **D** Configuration autorisant l’accélération du téléchargement des ressources téléchargées à partir du portail et des liens partagés (désactivée par défaut).
 
@@ -45,27 +45,27 @@ Pour activer/désactiver chacune de ces configurations :
 
 1. Connectez-vous avec les privilèges d’administrateur.
 1. Sélectionnez le logo AEM pour accéder aux outils d’administration dans la barre d’outils supérieure.
-1. À partir du panneau des outils d’administration, sélectionnez **[!UICONTROL Général]** pour ouvrir la page **Paramètres généraux[!UICONTROL .]**
+1. À partir du panneau des outils d’administration, sélectionnez **[!UICONTROL Général]** pour ouvrir la page **[!UICONTROL Paramètres généraux]**.
 1. Utilisez le commutateur respectif pour activer/désactiver chacune des configurations générales.
-1. **[!UICONTROL Enregistrez les modifications.]**
+1. **[!UICONTROL Enregistrez]** les modifications.
 1. Déconnectez-vous pour que les modifications soient appliquées.
 
 ## Autorisation de la suppression des ressources de Brand Portal par les utilisateurs administrateurs {#allow-admin-users-to-delete-assets-from-brand-portal}
 
-**[!UICONTROL Allow users to delet configuration enables organizations to allow (or restrict) users with administrator privileges to delete assets and folders from Brand Portal.]**
+La configuration **[!UICONTROL Autoriser les utilisateurs à supprimer]** permet aux entreprises d’autoriser les utilisateurs avec les privilèges d’administrateur à supprimer des ressources et des dossiers de Brand Portal, ou de les en empêcher.
 
-## Autorisation de la création de collections publiques par les utilisateurs non-administrateurs {#allow-public-collections-creation-by-non-admins}
+## Autorisation de la création de collections publiques par les utilisateurs non administrateurs {#allow-public-collections-creation-by-non-admins}
 
-[[!UICONTROL Autoriser la création de collections publiques]](../using/brand-portal-share-collection.md#main-pars-text-1915052376) contrôle la configuration si des non-administrateurs peuvent créer des collections publiques sur le portail de marques. La configuration est activée par défaut. En la désactivant, les organisations peuvent éviter d’avoir de nombreuses collections publiques sur leur portail afin d’économiser l’espace du système.
+La configuration [[!UICONTROL Autoriser la création de collections publiques]](../using/brand-portal-share-collection.md#main-pars-text-1915052376) contrôle si les utilisateurs non administrateurs peuvent créer des collections publiques sur Brand Portal. La configuration est activée par défaut. En la désactivant, les organisations peuvent éviter d’avoir de nombreuses collections publiques sur leur portail afin d’économiser l’espace du système.
 
-## Autorisation de la création de collections dynamiques publiques par les utilisateurs non-administrateurs {#allow-public-smart-collections-creation-by-non-admins}
+## Autorisation de la création de collections dynamiques publiques par les utilisateurs non administrateurs {#allow-public-smart-collections-creation-by-non-admins}
 
-[[!UICONTROL Autoriser la création publique de collections dynamiques]](../using/brand-portal-searching.md#main-pars-header-500620467) contrôle la configuration des non-administrateurs qui peuvent enregistrer leurs recherches en tant que collections dynamiques et les rendre publiques pour ce client. La configuration est activée par défaut. En la désactivant, les organisations peuvent éviter la création d’un nombre très important de collections dynamiques publiques par les utilisateurs non-administrateurs sur le Brand Portal de l’organisation.
+La configuration [[!UICONTROL Autoriser la création de collections dynamiques publiques]](../using/brand-portal-searching.md#main-pars-header-500620467) contrôle si les non administrateurs peuvent enregistrer leurs recherches sous la forme de collections dynamiques et les rendre publiques pour ce client. La configuration est activée par défaut. En la désactivant, les organisations peuvent éviter la création d’un nombre très important de collections dynamiques publiques par les utilisateurs non-administrateurs sur le Brand Portal de l’organisation.
 
 ## Autorisation de l’accélération des téléchargements {#allow-download-acceleration}
 
-[[!UICONTROL Autoriser l’accélération des téléchargements]](../using/accelerated-download.md) permet aux organisations d’autoriser l’accélération des téléchargements de ressources à partir du portail de marque et des liens partagés, en s’intégrant à IBM Aspera Connect qui est une application d’installation à la demande. L’application utilise une technologie propriétaire pour supprimer les en-têtes TCP.
+La configuration [[!UICONTROL Autoriser l’accélération des téléchargements]](../using/accelerated-download.md) permet aux entreprises d’autoriser l’accélération des téléchargements des ressources à partir de Brand Portal et des liens partagés, grâce à l’intégration à IBM Aspera Connect, une application qui s’installe à la demande. L’application utilise une technologie propriétaire pour supprimer les en-têtes TCP.
 
 ## Activation de la hiérarchie de dossiers   {#enable-folder-hierarchy}
 
-[[!UICONTROL Activer la hiérarchie des dossiers]](../using/brand-portal-sharing-folders.md#non-admin-user-access-to-shared-folders) permet aux administrateurs de contrôler la manière dont les utilisateurs non administrateurs (éditeurs, visionneuses et utilisateurs invités) voient les dossiers partagés après connexion.
+La configuration [[!UICONTROL Activer la hiérarchie de dossiers]](../using/brand-portal-sharing-folders.md#non-admin-user-access-to-shared-folders) permet aux administrateurs de contrôler la façon dont, une fois connectés, les utilisateurs non administrateurs (éditeurs, observateurs et utilisateurs invités) voient les dossiers partagés.
