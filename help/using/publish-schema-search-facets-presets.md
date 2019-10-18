@@ -8,7 +8,7 @@ topic-tags: 'serveur '
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: référencereference
 discoiquuid: bc305abc-9373-4d33-9179-0a5f3904b352
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
@@ -16,24 +16,24 @@ source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 # Publication de paramètres prédéfinis, de schémas et de facettes sur Brand Portal {#publish-presets-schema-and-facets-to-brand-portal}
 
-L’article est consacré à la publication des paramètres d’image prédéfinis, des schémas de métadonnées et des facettes de recherche personnalisées sur Brand Portal à partir de l’instance d’auteur AEM. Publishing capability enables organizations to reuse the image presets, metadata schemas, and search facets created/modified at AEM Author instance thereby reducing duplicate efforts.
+L’article est consacré à la publication des paramètres d’image prédéfinis, des schémas de métadonnées et des facettes de recherche personnalisées sur Brand Portal à partir de l’instance AEM Author. La fonction de publication permet aux entreprises de réutiliser les paramètres d’image prédéfinis, les schémas de métadonnées et les facettes de recherche créées/modifiées sur l’instance AEM Author, ce qui réduit le travail en double.
 
 >[!NOTE]
 >
->La fonction de publication des paramètres d’image prédéfinis, des schémas de métadonnées et des facettes de recherche sur Brand Portal à partir de l’instance d’auteur AEM est disponible à partir d’AEM 6.2 SP1-CFP7 et d’AEM 6.3 SP1-CFP1 (6.3.1.1).
+>La fonction de publication des paramètres d’image prédéfinis, des schémas de métadonnées et des facettes de recherche sur Brand Portal à partir de l’instance AEM Author est disponible à partir d’AEM 6.2 SP1-CFP7 et d’AEM 6.3 SP1-CFP1 (6.3.1.1).
 
 ## Publication des paramètres d’image prédéfinis sur Brand Portal {#publish-image-presets-to-brand-portal}
 
-Les paramètres d’image prédéfinis sont un ensemble de commandes de redimensionnement et de formatage qui sont appliqués à l’image au moment de sa livraison. Les paramètres d’image prédéfinis peuvent être créés et modifiés sur Brand Portal. Alternatively, if AEM Author instance is running in dynamic media mode then users can create presets at the AEM Author and publish them to AEM Assets Brand Portal, and avoid re-creating the same presets at Brand Portal.\
+Les paramètres d’image prédéfinis sont un ensemble de commandes de redimensionnement et de formatage qui sont appliqués à l’image au moment de sa livraison. Les paramètres d’image prédéfinis peuvent être créés et modifiés sur Brand Portal. Autrement, si l’instance AEM Author s’exécute en mode Dynamic Media, les utilisateurs peuvent aussi créer des paramètres prédéfinis sur cette instance et les publier sur AEM Assets Brand Portal afin d’éviter de recréer les mêmes paramètres prédéfinis sur Brand Portal.\
 Une fois que le paramètre prédéfini est créé, il est répertorié en tant que rendu dynamique sur le rail de rendus des détails de ressources et la boîte de dialogue de téléchargement.
 
 >[!NOTE]
 >
->If AEM Author instance is not running in [!UICONTROL Dynamic Media Mode] (customer has not purchased Dynamic Media), then the [!UICONTROL Pyramid TIFF]  rendition of the assets are not created at the time of upload. Image presets or dynamic renditions work on [!UICONTROL Pyramid TIFF] of an asset, so if [!UICONTROL Pyramid TIFF] is not available on AEM Author instance then it is not available on Brand Portal as well. En conséquence, aucun rendu dynamique n’est présent dans le rail de rendus de la page des détails de la ressource et dans la boîte de dialogue de téléchargement.
+>Si l’instance AEM Author n’est pas exécutée en mode [!UICONTROL Dynamic Media] (le client n’a pas acheté Dynamic Media), le rendu [!UICONTROL Pyramid TIFF] des ressources ne sera pas créé au moment du chargement. Les paramètres d’image prédéfinis ou les rendus dynamiques fonctionnent avec le format [!UICONTROL Pyramid TIFF] d’une ressource. Ainsi, si le rendu [!UICONTROL Pyramid TIFF] n’est pas disponible sur l’instance AEM Author, il ne l’est pas non plus sur Brand Portal. En conséquence, aucun rendu dynamique n’est présent dans le rail de rendus de la page des détails de la ressource et dans la boîte de dialogue de téléchargement.
 
 Pour publier des paramètres d’image prédéfinis sur Brand Portal :
 
-1. In AEM Author instance, tap/ click the AEM logo to access the global navigation console and tap/ click the Tools icon and navigate to **[!UICONTROL Assets]** &gt; **[!UICONTROL Image Presets]**.
+1. Dans l’instance AEM Author, appuyez/cliquez sur le logo AEM pour accéder à la console de navigation globale, puis appuyez/cliquez sur l’icône Outils et accédez à **[!UICONTROL Ressources]** &gt; **[!UICONTROL Paramètres d’image prédéfinis]**.
 1. Sélectionnez un ou plusieurs paramètres d’image prédéfinis dans la liste, puis cliquez/appuyez sur **[!UICONTROL Publier sur Brand Portal]**.
 
 ![](assets/publishpreset.png)
@@ -42,34 +42,34 @@ Pour publier des paramètres d’image prédéfinis sur Brand Portal :
 >
 >Quand les utilisateurs cliquent sur **[!UICONTROL Publier sur Brand Portal]**, les paramètres d’image prédéfinis sont placés en file d’attente pour publication. Nous conseillons aux utilisateurs de surveiller le journal des agents de réplication pour contrôler la réussite de la publication.
 
-To unpublish an image preset from Brand Portal:
+Pour annuler la publication d’un paramètre d’image prédéfini sur Brand Portal :
 
-1. In AEM Author instance, tap/ click the AEM logo to access the global navigation console and tap/click the **[!UICONTROL Tools]** icon and navigate to **[!UICONTROL Assets &gt; Image Presets]**.
+1. Dans l’instance AEM Author, appuyez/cliquez sur le logo pour accéder à la console de navigation globale, puis appuyez/cliquez sur l’icône **[!UICONTROL Outils]** et accédez à **[!UICONTROL Ressources &gt; Paramètres d’image prédéfinis]**.
 1. Sélectionnez un paramètre d’image prédéfini puis **[!UICONTROL Supprimer de Brand Portal]parmi les options disponibles dans la partie supérieure.**
 
-## Publication d’un schéma de métadonnées sur Brand Portal  {#publish-metadata-schema-to-brand-portal}
+## Publication d’un schéma de métadonnées sur Brand Portal{#publish-metadata-schema-to-brand-portal}
 
 Le schéma de métadonnées décrit la mise en page et les propriétés affichées sur la page de propriétés d’une ressource ou de collections.
 
 ![](assets/metadata-schema-editor.png) ![](assets/asset-properties-1.png)
 
-Si les utilisateurs ont modifié le schéma par défaut sur l’instance Auteur AEM et sont disposés à utiliser le même schéma que le schéma par défaut sur le portail de marque, ils peuvent simplement publier les formulaires de schéma de métadonnées sur le portail de marque. Dans un tel scénario, le schéma par défaut du portail de marque est remplacé par les schémas par défaut publiés à partir de l’instance Auteur AEM.
+Si les utilisateurs ont modifié le schéma par défaut sur l’instance AEM Author et souhaitent utiliser le même schéma comme schéma par défaut sur Brand Portal, ils peuvent simplement publier les formulaires de schéma de métadonnées sur Brand Portal. Dans un tel scénario, le schéma par défaut sur Brand Portal est remplacé par les schémas par défaut publiés à partir de l’instance AEM Author.
 
-Si les utilisateurs ont créé un schéma personnalisé sur l’instance Auteur AEM, ils peuvent le publier sur le portail de marque au lieu de le recréer. Les utilisateurs peuvent alors appliquer ce schéma personnalisé à n’importe quel dossier/collection dans Brand Portal.
+Si les utilisateurs ont créé un schéma personnalisé sur l’instance AEM Author, ils peuvent le publier sur Brand Portal au lieu de l’y recréer. Les utilisateurs peuvent alors appliquer ce schéma personnalisé à n’importe quel dossier/collection dans Brand Portal.
 
 >[!NOTE]
 >
->Les schémas par défaut ne peuvent pas être publiés sur le portail de marque s’ils sont verrouillés sur l’instance AEM (c’est-à-dire s’ils ne sont pas modifiés).
+>Les schémas par défaut ne peuvent pas être publiés sur Brand Portal s’ils sont verrouillés sur l’instance AEM (c’est-à-dire qu’ils n’ont pas été modifiés).
 
 ![](assets/default-schema-form.png)
 
 >[!NOTE]
 >
->Si un schéma est appliqué à un dossier sur l’instance d’auteur AEM, il doit également exister sur le portail de marque afin de conserver la cohérence dans la page des propriétés de la ressource sur AEM Author et le portail de marque.
+>Si un schéma de dossier a été appliqué sur l’instance AEM Author, le même schéma doit également exister sur Brand Portal pour maintenir la cohérence dans la page des propriétés de ressource sur AEM Author et Brand Portal.
 
 Pour publier un schéma de métadonnées sur Brand Portal à partir d’une instance d’auteur AEM :
 
-1. In AEM Author instance, tap/ click the AEM logo to access the global navigation console and tap/click the Tools icon and navigate to **[!UICONTROL Assets &gt; Metadata Schemas]**.
+1. Dans l’instance AEM Author, appuyez/cliquez sur le logo AEM pour accéder à la console de navigation globale, puis appuyez/cliquez sur l’icône Outils et accédez à **[!UICONTROL Ressources &gt; Schémas de métadonnées]**.
 1. Sélectionnez un schéma de métadonnées puis **[!UICONTROL Publier sur Brand Portal]** parmi les options disponibles dans la partie supérieure.
 
 >[!NOTE]
@@ -78,25 +78,25 @@ Pour publier un schéma de métadonnées sur Brand Portal à partir d’une ins
 
 Pour annuler la publication d’un schéma de métadonnées sur Brand Portal :
 
-1. In AEM Author instance, tap/ click the AEM logo to access the global navigation console and tap/click the Tools icon and navigate to **[!UICONTROL Assets &gt; Metadata Schemas]**.
+1. Dans l’instance AEM Author, appuyez/cliquez sur le logo AEM pour accéder à la console de navigation globale, puis appuyez/cliquez sur l’icône Outils et accédez à **[!UICONTROL Ressources &gt; Schémas de métadonnées]**.
 1. Sélectionnez un schéma de métadonnées puis **[!UICONTROL Supprimer de Brand Portal]** parmi les options disponibles dans la partie supérieure.
 
 ## Publication de facettes de recherche sur Brand Portal {#publish-search-facets-to-brand-portal}
 
-Les formulaires de recherche fournissent aux utilisateurs la fonctionnalité de [recherche facettée](../using/brand-portal-search-facets.md) sur Brand Portal. Les facettes de recherche donnent une plus grande granularité aux recherches sur le portail de marque. Tous les [prédicats ajoutés](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-facets.html#AddingaPredicate) dans le formulaire de recherche sont disponibles pour les utilisateurs en tant que facettes de recherche dans les filtres de recherche.
+Les formulaires de recherche fournissent aux utilisateurs la fonctionnalité de [recherche facettée](../using/brand-portal-search-facets.md) sur Brand Portal. Les facettes de recherche permettent d’effectuer des recherches plus précises sur Brand Portal. Tous les [prédicats ajoutés](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-facets.html#AddingaPredicate) dans le formulaire de recherche sont à la disposition des utilisateurs en tant que facettes de recherche dans les filtres de recherche.
 
 ![](assets/property-predicate-removed.png)
 ![](assets/search-form.png)
 
-If you are willing to use custom search form **[!UICONTROL Assets Admin Search Rail]** from AEM Author instance, then instead of re-creating the same form on Brand Portal you can publish the customized search form from AEM Author instance to Brand Portal.
+Si vous souhaitez utiliser le formulaire de recherche personnalisé **[!UICONTROL Rail de recherche d’administration de ressources]** à partir de l’instance AEM Author, au lieu de recréer le même formulaire sur Brand Portal, vous pouvez publier le formulaire de recherche personnalisé sur Brand Portal à partir de l’instance AEM Author.
 
 >[!NOTE]
 >
->Locked search form **[!UICONTROL Assets Admin Search Rail]** on AEM Assets cannot be published to Brand Portal unless it is edited. Once edited and published to Brand Portal, this search form overrides the search form on Brand Portal.
+>Le formulaire de recherche verrouillé **[!UICONTROL Rail de recherche d’administration de ressource]** sur AEM Assets ne peut pas être publié sur Brand Portal sans être modifié. Une fois modifié et publié sur Brand Portal, ce formulaire de recherche remplace celui qui se trouve sur Brand Portal.
 
-Pour publier la facette de recherche modifiée sur Brand Portal à partir de l’interface d’auteur AEM :
+Pour publier la facette de recherche modifiée sur Brand Portal à partir de l’interface AEM Author :
 
-1. Tap/click the AEM logo, and then go to **[!UICONTROL Tools]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Search Forms]**.
+1. Appuyez/cliquez sur le logo AEM, puis sélectionnez **[!UICONTROL Outils]** &gt; **[!UICONTROL Général]** &gt; **[!UICONTROL Formulaires de recherche]**.
 1. Sélectionnez le formulaire de recherche modifié et ensuite **[!UICONTROL Publier sur Brand Portal]**.
 
    >[!NOTE]
@@ -105,17 +105,17 @@ Pour publier la facette de recherche modifiée sur Brand Portal à partir de l�
 
 Pour annuler la publication de formulaires de recherche sur Brand Portal :
 
-1. In AEM Author instance, tap/ click the AEM logo to access the global navigation console and tap/click the Tools icon and navigate to **[!UICONTROL General &gt; Search Forms]**.
+1. Dans l’instance AEM Author, appuyez/cliquez sur le logo AEM pour accéder à la console de navigation globale, puis appuyez/cliquez sur l’icône Outils et accédez à **[!UICONTROL Général &gt; Formulaires de recherche]**.
 1. Sélectionnez le formulaire de recherche et ensuite **[!UICONTROL Supprimer de Brand Portal]** parmi les options disponibles dans la partie supérieure.
 
 >[!NOTE]
 >
->L'action **[!UICONTROL Annuler la publication sur Brand Portal]** laisse le formulaire de recherche par défaut sur Brand  Portal et ne rétablit pas le dernier formulaire de recherche utilisé avant la publication.
+>L’action **[!UICONTROL Annuler la publication sur Brand Portal]** laisse le formulaire de recherche par défaut sur Brand  Portal et ne rétablit pas le dernier formulaire de recherche utilisé avant la publication.
 
 ### Restrictions {#limitations}
 
-1. Peu de prédicats de recherche ne sont pas applicables aux filtres de recherche sur le portail de marque. Quand ces prédicats de recherche sont publiés en tant qu’élément du formulaire de recherche sur Brand Portal à partir de l’instance d’auteur AEM, ils sont filtrés. Les utilisateurs voient donc moins de prédicats dans le formulaire publié sur le portail de marque. Voir [Prédicats de recherche applicables aux filtres sur Brand Portal](../using/brand-portal-search-facets.md#list-of-search-predicates).
+1. Peu de prédicats de recherche ne s’appliquent pas aux filtres de recherche sur Brand Portal. Quand ces prédicats de recherche sont publiés en tant qu’élément du formulaire de recherche sur Brand Portal à partir de l’instance AEM Author, ils sont filtrés. En conséquence, les utilisateurs voient moins de prédicats dans le formulaire publié sur Brand Portal. Voir [Prédicats de recherche applicables aux filtres sur Brand Portal](../using/brand-portal-search-facets.md#list-of-search-predicates).
 
-1. For [!UICONTROL Options Predicate], if a user is using any custom path to read options at AEM Author instance, it won't work at the Brand Portal. Ces chemins et options supplémentaires ne sont pas publiés sur Brand Portal avec le formulaire de recherche. In this case, users can select the **[!UICONTROL Manual]** option in **[!UICONTROL Add Options]** within **[!UICONTROL Options Predicate]** to add these options manually at Brand Portal.
+1. Pour [!UICONTROL Options du prédicat], si un utilisateur utilise n’importe quel chemin personnalisé pour lire les options sur l’instance AEM Author, cela ne fonctionnera pas sur Brand Portal. Ces chemins et options supplémentaires ne sont pas publiés sur Brand Portal avec le formulaire de recherche. Dans ce cas, les utilisateurs peuvent sélectionner l’option **[!UICONTROL Manuel]** sous **[!UICONTROL Ajouter des options]** dans **[!UICONTROL Options du prédicat]** pour ajouter ces options manuellement sur Brand Portal.
 
 ![](assets/options-predicate-manual.png)
