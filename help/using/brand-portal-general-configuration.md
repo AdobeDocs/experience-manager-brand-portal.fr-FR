@@ -9,8 +9,8 @@ topic-tags: administration
 content-type: référencereference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
-translation-type: ht
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+translation-type: tm+mt
+source-git-commit: ff0c8c23b6c76dc9027b560b9db4af2f4b35313e
 
 ---
 
@@ -52,7 +52,7 @@ Pour activer/désactiver chacune de ces configurations :
 
 ## Autorisation de la suppression des ressources de Brand Portal par les utilisateurs administrateurs {#allow-admin-users-to-delete-assets-from-brand-portal}
 
-La configuration **[!UICONTROL Autoriser les utilisateurs à supprimer]** permet aux entreprises d’autoriser les utilisateurs avec les privilèges d’administrateur à supprimer des ressources et des dossiers de Brand Portal, ou de les en empêcher.
+**[!UICONTROL La configuration Autoriser les utilisateurs à supprimer]** permet aux organisations d’autoriser les utilisateurs avec les privilèges d’administrateur à supprimer des ressources et des dossiers de Brand Portal, ou de les en restreindre.
 
 ## Autorisation de la création de collections publiques par les utilisateurs non administrateurs {#allow-public-collections-creation-by-non-admins}
 
