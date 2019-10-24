@@ -8,8 +8,8 @@ content-type: référencereference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
-translation-type: ht
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+translation-type: tm+mt
+source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 Les administrateurs peuvent utiliser Adobe Admin Console pour créer des utilisateurs et des profils de produit AEM Assets Brand Portal et gérer leurs rôles à l’aide de l’interface utilisateur de Brand Portal. Ce privilège n’est pas disponible pour les observateurs et les éditeurs.
 
-Dans [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview), vous pouvez visualiser tous les produits associés à votre entreprise. Un produit peut être n’importe quelle solution Experience Cloud (Adobe Analytics, Adobe Target ou AEM Brand Portal, par exemple). Vous devez choisir le produit AEM Brand Portal et créer des profils de produit.
+In [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview), you can view all the products associated with your organization. Un produit peut être n’importe quelle solution Experience Cloud (Adobe Analytics, Adobe Target ou AEM Brand Portal, par exemple). Vous devez choisir le produit AEM Brand Portal et créer des profils de produit.
 
 <!--
 Comment Type: draft
@@ -41,10 +41,12 @@ Ces profils de produit sont synchronisés avec l’interface utilisateur de Bran
 Si vous êtes administrateur de produit, utilisez Adobe [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) pour créer des utilisateurs et les affecter à des profils de produit (*auparavant appelés configurations de produit*), qui s’affichent sous la forme de groupes dans Brand Portal. Vous pouvez utiliser des groupes pour effectuer des opérations en bloc comme gérer les rôles et partager des ressources.
 
 >[!NOTE]
-Les nouveaux utilisateurs n’ayant pas accès à Brand Portal peuvent en demander l’accès dans l’écran de connexion de Brand Portal. Pour plus d’informations, voir [Demande d’accès à Brand Portal](../using/brand-portal.md#request-access-to-brand-portal). Une fois que vous avez reçu les notifications de demande d’accès dans votre zone de notification, cliquez sur la notification appropriée, puis sur **[!UICONTROL Autoriser l’accès]**. Vous pouvez également cliquer sur le lien figurant dans l’e-mail de demande d’accès reçu. Ensuite, pour ajouter un utilisateur par le biais d’[Adobe [!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview), suivez les étapes 4 à 7 de la procédure ci-dessous.
+>
+>Les nouveaux utilisateurs n’ayant pas accès à Brand Portal peuvent en demander l’accès dans l’écran de connexion de Brand Portal. Pour plus d’informations, voir [Demande d’accès à Brand Portal](../using/brand-portal.md#request-access-to-brand-portal). Une fois que vous avez reçu les notifications de demande d’accès dans votre zone de notification, cliquez sur la notification appropriée, puis sur **[!UICONTROL Autoriser l’accès]**. Vous pouvez également cliquer sur le lien figurant dans l’e-mail de demande d’accès reçu. Next, to add a user through [Adobe [!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview), follow Steps 4-7 in the procedure below.
 
 >[!NOTE]
-Vous pouvez vous connecter à [Adobe [!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) directement ou à partir de Brand Portal. Si vous vous connectez directement, suivez les étapes 4 à 7 de la procédure d’ajout d’un utilisateur présentée ci-dessous.
+>
+>You can login to [Adobe [!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) directly or from Brand Portal. Si vous vous connectez directement, suivez les étapes 4 à 7 de la procédure d’ajout d’un utilisateur présentée ci-dessous.
 
 1. Dans la barre d’outils AEM supérieure, cliquez sur le logo Adobe pour accéder aux outils d’administration.
 
@@ -74,7 +76,8 @@ Vous pouvez vous connecter à [Adobe [!UICONTROL Admin Console]](http://adminco
 1. Cliquez sur **[!UICONTROL Enregistrer]**. Un e-mail de bienvenue est envoyé à l’utilisateur que vous avez ajouté. L’utilisateur invité peut accéder à Brand Portal en cliquant sur le lien contenu dans l’e-mail de bienvenue et en se connectant à l’aide d’un [!UICONTROL Adobe ID]. Pour plus d’informations, voir [Première connexion](../using/brand-portal-onboarding.md).
 
    >[!NOTE]
-   Si un utilisateur ne parvient pas à se connecter à Brand Portal, l’administrateur de l’entreprise doit accéder à Adobe [!UICONTROL Admin Console] pour vérifier que l’utilisateur est présent et qu’il a été ajouté à au moins un profil de produit.
+   >
+   >Si un utilisateur ne parvient pas à se connecter à Brand Portal, l’administrateur de l’entreprise doit accéder à Adobe [!UICONTROL Admin Console] pour vérifier que l’utilisateur est présent et qu’il a été ajouté à au moins un profil de produit.
 
    Pour plus d’informations sur l’octroi de privilèges d’administrateur, voir [Octroi de privilèges d’administrateur aux utilisateurs](../using/brand-portal-adding-users.md#provideadministratorprivilegestousers).
 
@@ -83,7 +86,8 @@ Vous pouvez vous connecter à [Adobe [!UICONTROL Admin Console]](http://adminco
 Dans [!UICONTROL Admin Console], les profils de produit (auparavant appelés configurations de produit) servent à créer des groupes dans Brand Portal afin d’effectuer des opérations en bloc comme gérer les rôles et partager des ressources dans Brand Portal. **Brand Portal** est le profil de produit disponible par défaut. Vous pouvez créer d’autres profils de produit et ajouter des utilisateurs à ces derniers.
 
 >[!NOTE]
-Vous pouvez vous connecter à [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) directement ou à partir de Brand Portal. Si vous vous connectez à [!UICONTROL Admin Console] directement, suivez les étapes 4 à 7 de la procédure ci-après pour ajouter un profil de produit.
+>
+>You can login to [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) directly or from Brand Portal. Si vous vous connectez à [!UICONTROL Admin Console] directement, suivez les étapes 4 à 7 de la procédure ci-après pour ajouter un profil de produit.
 
 1. Dans la barre d’outils AEM supérieure, cliquez sur le logo Adobe pour accéder aux outils d’administration.
 
@@ -115,7 +119,8 @@ Vous pouvez vous connecter à [[!UICONTROL Admin Console]](http://adminconsole.
 Pour ajouter des utilisateurs à un groupe Brand Portal, ajoutez-les au profil de produit (appelé auparavant configuration de produit) correspondant dans [!UICONTROL Admin Console]. Vous pouvez ajouter des utilisateurs individuellement ou en bloc.
 
 >[!NOTE]
-Vous pouvez vous connecter à [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) directement ou à partir de Brand Portal. Si vous vous connectez à Admin Console directement, suivez les étapes 4 à 7 de la procédure ci-après pour ajouter des utilisateurs à un profil de produit.
+>
+>You can login to [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) directly or from Brand Portal. Si vous vous connectez à Admin Console directement, suivez les étapes 4 à 7 de la procédure ci-après pour ajouter des utilisateurs à un profil de produit.
 
 1. Dans la barre d’outils AEM supérieure, cliquez sur le logo Adobe pour accéder aux outils d’administration.
 
@@ -148,7 +153,7 @@ Vous pouvez vous connecter à [[!UICONTROL Admin Console]](http://adminconsole.
 
 1. Pour ajouter des utilisateurs en bloc au profil de produit, procédez comme suit :
 
-   * Sélectionnez les points de suspension (**…[!UICONTROL ) &gt; Ajouter utilisateurs par CSV]**.
+   * Choose **[!UICONTROL ellipsis (...) &gt; Add users by CSV]**.
    ![Ajout d’utilisateurs en bloc](assets/admin_console_addbulkusers.png)
 
    * Dans la page **[!UICONTROL Ajouter utilisateurs par CSV]**, téléchargez un modèle CSV ou faites glisser un fichier CSV.
@@ -161,10 +166,11 @@ Vous pouvez vous connecter à [[!UICONTROL Admin Console]](http://adminconsole.
 
 ## Octroi de privilèges d’administrateur aux utilisateurs   {#provide-administrator-privileges-to-users}
 
-Vous pouvez accorder à un utilisateur de Brand Portal le privilège d’administrateur système ou d’administrateur de produit. N’octroyez pas d’autres droits d’administration disponibles dans [!UICONTROL Admin Console], tels qu’administrateur de profil de produit, administrateur de groupe d’utilisateurs et administrateur de support. Pour plus d’informations sur ces rôles, voir les [Rôles d’administration](https://helpx.adobe.com/enterprise/using/admin-roles.html).
+Vous pouvez accorder à un utilisateur de Brand Portal le privilège d’administrateur système ou d’administrateur de produit. N’octroyez pas d’autres droits d’administration disponibles dans [!UICONTROL Admin Console], tels qu’administrateur de profil de produit, administrateur de groupe d’utilisateurs et administrateur de support. Pour en savoir plus sur ces rôles, voir [Rôles administratifs](https://helpx.adobe.com/enterprise/using/admin-roles.html).
 
 >[!NOTE]
-Vous pouvez vous connecter à [[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) directement ou à partir de Brand Portal. Si vous vous connectez à [!UICONTROL Admin Console] directement, suivez les étapes 4 à 8 de la procédure ci-après pour ajouter un utilisateur à un profil de produit.
+>
+>You can login to [[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) directly or from Brand Portal. Si vous vous connectez à [!UICONTROL Admin Console] directement, suivez les étapes 4 à 8 de la procédure ci-après pour ajouter un utilisateur à un profil de produit.
 
 1. Dans la barre d’outils AEM supérieure, cliquez sur le logo Adobe pour accéder aux outils d’administration.
 
@@ -183,7 +189,7 @@ Vous pouvez vous connecter à [[!UICONTROL Admin Console]](https://adminconsole
 
    ![Ajout d’utilisateurs dans Admin Console](assets/admin_console_adduseruserpage.png)
 
-1. Dans la page du profil utilisateur, recherchez la section **[!UICONTROL Droits d’administration]** dans la partie inférieure, puis sélectionnez les points de suspension (**…[!UICONTROL ) &gt; Modifier les droits de l’administrateur]**.
+1. In the user profile page, locate the **[!UICONTROL Administrative Rights]** section at the bottom, and choose **[!UICONTROL ellipsis (...) &gt; Edit admin rights]**.
    ![Droits d’administrateur dans Admin Console](assets/admin_console_editadminrights.png)
 
 1. Dans la page [!UICONTROL Modifier l’administrateur], sélectionnez Administrateur système ou Administrateur de produit.
@@ -191,17 +197,24 @@ Vous pouvez vous connecter à [[!UICONTROL Admin Console]](https://adminconsole
    ![Modification des droits d’administrateur dans Admin Console](assets/admin_console_editadminrightsselection.png)
 
    >[!NOTE]
-   Brand Portal ne prend en charge que les rôles Administrateur système et Administrateur de produit.
-   Adobe recommande d’éviter l’utilisation du rôle Administrateur système, car il accorde des privilèges d’administrateur à l’échelle de l’entreprise pour tous les produits d’une entreprise. Par exemple, un administrateur système d’une entreprise qui comprend trois produits Marketing Cloud possède l’ensemble des privilèges pour les trois produits. Seul un administrateur système peut configurer AEM Assets pour que les ressources puissent être publiées d’AEM Assets sur Brand Portal. Pour plus d’informations, voir [Configuration de l’intégration d’AEM Assets avec Brand Portal](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html).
-   En revanche, le rôle Administrateur de produit accorde des privilèges d’administrateur uniquement pour un produit spécifique. Si vous souhaitez appliquer un contrôle d’accès plus précis dans Brand Portal, utilisez le rôle Administrateur de produit et sélectionnez le produit Brand Portal.
+   >
+   >Brand Portal ne prend en charge que les rôles Administrateur système et Administrateur de produit.
+   >
+   >
+   >Adobe recommande d’éviter l’utilisation du rôle Administrateur système, car il accorde des privilèges d’administrateur à l’échelle de l’entreprise pour tous les produits d’une entreprise. Par exemple, un administrateur système d’une entreprise qui comprend trois produits Marketing Cloud possède l’ensemble des privilèges pour les trois produits. Seul un administrateur système peut configurer AEM Assets pour que les ressources puissent être publiées d’AEM Assets sur Brand Portal. For more information, see [Configure AEM Assets integration with Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html).
+   >
+   >
+   >En revanche, le rôle Administrateur de produit accorde des privilèges d’administrateur uniquement pour un produit spécifique. Si vous souhaitez appliquer un contrôle d’accès plus précis dans Brand Portal, utilisez le rôle Administrateur de produit et sélectionnez le produit Brand Portal.
 
    >[!NOTE]
-   Brand Portal ne prend pas en charge les privilèges d’administrateur de profil de produit (auparavant appelé administrateur de configuration). Évitez d’attribuer des droits d’administrateur de profil de produit à un utilisateur.
+   >
+   >Brand Portal ne prend pas en charge les privilèges d’administrateur de profil de produit (auparavant appelé administrateur de configuration). Évitez d’attribuer des droits d’administrateur de profil de produit à un utilisateur.
 
 1. Vérifiez la sélection du type d’administrateur, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
    >[!NOTE]
-   Pour retirer les privilèges d’administrateur d’un utilisateur, apportez les modifications nécessaires dans la page [!UICONTROL Modifier l’administrateur], puis cliquez sur **[!UICONTROL Enregistrer]**.
+   >
+   >Pour retirer les privilèges d’administrateur d’un utilisateur, apportez les modifications nécessaires dans la page **[!UICONTROL Modifier l’administrateur]**, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
 ## Gestion des rôles utilisateur   {#manage-user-roles}
 
@@ -227,15 +240,18 @@ En plus du rôle Administrateur, Brand Portal prend en charge les rôles suivan
    Pour modifier simultanément le rôle de plusieurs utilisateurs, sélectionnez les utilisateurs et le rôle adéquat dans la liste déroulante **[!UICONTROL Rôle]**.
 
    >[!NOTE]
-   La liste [!UICONTROL Rôle] des utilisateurs Administrateur est désactivée. Vous ne pouvez pas sélectionner ces utilisateurs pour modifier leur rôle.
+   >
+   >La liste [!UICONTROL Rôle] des utilisateurs Administrateur est désactivée. Vous ne pouvez pas sélectionner ces utilisateurs pour modifier leur rôle.
 
    >[!NOTE]
-   Le rôle utilisateur est également désactivé si l’utilisateur est membre du groupe Éditeur. Pour retirer les privilèges d’édition d’un utilisateur, supprimez l’utilisateur du groupe Éditeur ou modifiez le rôle du groupe entier en Observateur.
+   >
+   >Le rôle utilisateur est également désactivé si l’utilisateur est membre du groupe Éditeur. Pour retirer les privilèges d’édition d’un utilisateur, supprimez l’utilisateur du groupe Éditeur ou modifiez le rôle du groupe entier en Observateur.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**. Le rôle est modifié pour l’utilisateur en question. Si vous avez sélectionné plusieurs utilisateurs, les rôles de tous les utilisateurs sont modifiés simultanément.
 
    >[!NOTE]
-   Les modifications apportées aux autorisations utilisateur apparaissent dans la page [!UICONTROL Rôles utilisateur] uniquement après la reconnexion des utilisateurs à Brand Portal.
+   >
+   >Les modifications apportées aux autorisations utilisateur apparaissent dans la page [!UICONTROL Rôles utilisateur] uniquement après la reconnexion des utilisateurs à Brand Portal.
 
 ## Gestion des rôles et des privilèges des groupes {#manage-group-roles-and-privileges}
 
@@ -245,7 +261,8 @@ Un administrateur peut associer des privilèges spécifiques à un [groupe](../u
 * restreindre les groupes d’utilisateurs au téléchargement des rendus originaux des fichiers images (.jpeg, .tiff, .png, .bmp, .gif, .pjpeg, x-portable-anymap, x-portable-bitmap, x-portable-graymap, x-portable-pixmap, x-rgb, x-xbitmap, x-xpixmap, x-icon, image/photoshop, image/x-photoshop, .psd, image/vnd.adobe.photoshop) à partir de Brand Portal.
 
 >[!NOTE]
-Pour les ressources partagées sous forme de liens, l’autorisation d’accès aux rendus originaux des fichiers images s’applique selon les autorisations de l’utilisateur qui partage les ressources.
+>
+>Pour les ressources partagées sous forme de liens, l’autorisation d’accès aux rendus originaux des fichiers images s’applique selon les autorisations de l’utilisateur qui partage les ressources.
 
 Pour modifier le rôle et le droit d’accès aux rendus originaux pour des membres de groupes spécifiques, procédez comme suit :
 
@@ -258,10 +275,14 @@ Pour modifier le rôle et le droit d’accès aux rendus originaux pour des memb
    ![Rôles des groupes d’utilisateurs](assets/access-original-rend.png)
 
    >[!NOTE]
-   Si un utilisateur est ajouté à plusieurs groupes, et si l’un de ces groupes présente des restrictions, les restrictions s’appliquent à cet utilisateur.
-   En outre, les restrictions pour accéder aux rendus originaux des fichiers images ne s’appliquent pas aux administrateurs, même s’ils sont des membres de groupes restreints.
+   >
+   >Si un utilisateur est ajouté à plusieurs groupes, et si l’un de ces groupes présente des restrictions, les restrictions s’appliquent à cet utilisateur.
+   >
+   >
+   >En outre, les restrictions pour accéder aux rendus originaux des fichiers images ne s’appliquent pas aux administrateurs, même s’ils sont des membres de groupes restreints.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**. Le rôle est modifié pour les groupes correspondants.
 
    >[!NOTE]
-   L’association utilisateur/groupe ou l’appartenance d’un utilisateur à un groupe est synchronisée dans Brand Portal toutes les 8 heures. Les modifications apportées aux rôles des utilisateurs ou des groupes sont prises en compte après l’exécution de la prochaine tâche de synchronisation.
+   >
+   >L’association utilisateur/groupe ou l’appartenance d’un utilisateur à un groupe est synchronisée dans Brand Portal toutes les 8 heures. Les modifications apportées aux rôles des utilisateurs ou des groupes sont prises en compte après l’exécution de la prochaine tâche de synchronisation.
