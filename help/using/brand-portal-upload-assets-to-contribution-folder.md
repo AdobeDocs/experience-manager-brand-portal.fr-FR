@@ -1,41 +1,41 @@
 ---
-title: Téléchargement de nouveaux fichiers dans le dossier Contribution
-seo-title: Téléchargement de nouveaux fichiers dans le dossier Contribution
-description: Découvrez comment télécharger de nouveaux fichiers dans le dossier de contributions de Brand Portal.
-seo-description: Découvrez comment télécharger de nouveaux fichiers dans le dossier de contributions de Brand Portal.
+title: Chargement de nouvelles ressources dans le dossier de contribution
+seo-title: Chargement de nouvelles ressources dans le dossier de contribution
+description: Découvrez comment charger de nouvelles ressources dans le dossier de contribution de Brand Portal.
+seo-description: Découvrez comment charger de nouvelles ressources dans le dossier de contribution de Brand Portal.
 uuid: null
-content-type: référencereference
+content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: f6437146bafbedf85a34fbc92ee15fd5e247da0c
+source-git-commit: 3072a3a9343b64f4121262c1a3ee8a5ba439e31a
 
 ---
 
 
-# Téléchargement de nouveaux fichiers dans le dossier de contributions {#uplad-new-assets-to-contribution-folder}
+# Chargement de ressources dans le dossier de contribution {#uplad-new-assets-to-contribution-folder}
 
-Les utilisateurs du portail de marque [téléchargent les besoins](brand-portal-download-asset-requirements.md) en ressources - bref document joint au dossier de contributions et téléchargent les ressources de base du dossier **PARTAGÉ** pour comprendre le besoin de contribution.
-Les utilisateurs du portail de marque peuvent alors créer de nouveaux actifs pour contribution et les télécharger dans le dossier **NEW** du dossier de contributions.
+Les utilisateurs de Brand Portal [téléchargent les exigences en matière de ressources](brand-portal-download-asset-requirements.md), un document de résumé joint au dossier de contribution, ainsi que des ressources de base du dossier **SHARED** afin de comprendre les besoins en termes de contribution.
+Ils peuvent alors créer des ressources à des fins de contribution et les charger dans le dossier **NEW** au sein du dossier de contribution.
 
 >[!NOTE]
 >
->Les utilisateurs du portail de marque peuvent télécharger du contenu/des fichiers uniquement vers le dossier **NEW** . Ils n’ont pas l’autorisation de supprimer un fichier téléchargé.
+>Les utilisateurs de Brand Portal peuvent charger du contenu/des ressources uniquement vers le dossier **NEW**. Ils ne sont pas autorisés à supprimer une ressource qui a été chargée.
 >
->La limite de téléchargement maximale pour tout compte/client du portail de marque est de **10** Go.
+>La limite de chargement maximale pour un compte/client Brand Portal est de **10** Go.
 
 
-**Pour télécharger de nouveaux fichiers :**
+**Pour charger de nouvelles ressources, procédez comme suit :**
 
-1. Connectez-vous à votre instance de portail de marque.
-Le tableau de bord du portail de marque reflète tous les dossiers existants autorisés par l’utilisateur du portail de marque, ainsi que le dossier de contribution nouvellement partagé.
-1. Cliquez sur pour ouvrir le dossier des contributions, vous pouvez voir deux sous-dossiers -**[!UICONTROL PARTAGÉ]** et **[!UICONTROL NOUVEAU]** dans le dossier des contributions.
-1. Cliquez sur **[!UICONTROL NOUVEAU]** dossier.
+1. Connectez-vous à votre instance de Brand Portal.
+Le tableau de bord de Brand Portal répertorie tous les dossiers existants auxquels l’utilisateur de Brand Portal est autorisé à accéder, ainsi que le dossier de contribution nouvellement partagé. 
+1. Cliquez pour ouvrir le dossier de contribution. Vous pouvez voir deux sous-dossiers,**[!UICONTROL SHARED]** et **[!UICONTROL NEW]**, dans le dossier de contribution. 
+1. Cliquez sur le dossier **[!UICONTROL NEW]**.
    ![](assets/upload-new-assets1.png)
-1. Cliquez sur **[!UICONTROL Créer &gt; Fichiers]** pour télécharger des fichiers ou un dossier (.zip) contenant plusieurs fichiers ![](assets/upload.png) individuels.
+1. Cliquez sur **[!UICONTROL Créer &gt; Fichiers]** ![](assets/upload.png) afin de charger des fichiers distincts ou un dossier (.zip) contenant plusieurs ressources.
    ![](assets/upload-new-assets2.png)
-1. Recherchez et téléchargez de nouveaux fichiers (fichiers/dossiers) dans le dossier **[!UICONTROL NEW]** .
+1. Parcourez les nouvelles ressources (fichiers/dossiers) et chargez-les dans le dossier **[!UICONTROL NEW]**.
    ![](assets/upload-new-assets3.png)
 
-Une fois le téléchargement terminé, l’utilisateur du portail de marque peut publier à nouveau le dossier de contributions dans AEM Assets. Reportez-vous à la page [Publier le dossier des contributions dans AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).
+Une fois le chargement terminé, l’utilisateur de Brand Portal peut publier le dossier de contribution dans AEM Assets. Voir [Publication du dossier de contribution sur AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).
