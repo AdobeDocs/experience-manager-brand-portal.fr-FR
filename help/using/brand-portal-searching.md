@@ -9,8 +9,8 @@ content-type: référencereference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
-translation-type: ht
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+translation-type: tm+mt
+source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
 
@@ -41,7 +41,7 @@ Pour rechercher des ressources sur Brand Portal :
 
    *Recherche de ressources à l’aide de l’omni-recherche*
 
-Pour en savoir plus sur le comportement de la recherche avec des ressources avec balisage intelligent, consultez la section traitant de la [présentation du comportement et des résultats de recherche](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/search-assets.html).
+To know about search behaviour with smart tagged assets, see [understand search results and behavior](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-assets.html).
 
 ## Recherche à l’aide des facettes du panneau Filtres{#search-using-facets-in-filters-panel}
 
@@ -62,7 +62,7 @@ Pour appliquer des filtres à votre recherche avec les [facettes de recherche](.
 1. Dans le panneau **[!UICONTROL Filtres]** à gauche, sélectionnez les options adéquates pour appliquer les filtres correspondants.
 Par exemple, utilisez les filtres standard suivants :
 
-   * **[!UICONTROL Explorateur de chemins d’accès]** pour rechercher des ressources dans un répertoire donné. Le chemin de recherche par défaut du prédicat pour l’Explorateur de chemins d’accès est **[!UICONTROL /content/dam/mac/&lt;tenant-id&gt;/]**, mais il peut être configuré en modifiant le formulaire de recherche par défaut.
+   * **[!UICONTROL Explorateur de chemins d’accès]** pour rechercher des ressources dans un répertoire donné. The default search path of the predicate for Path Browser is `/content/dam/mac/<tenant-id>/`, which can be configured by editing the default search form.
    >[!NOTE]
    >
    >Pour les utilisateurs non administrateurs, l’[!UICONTROL Explorateur de chemins d’accès] du panneau [!UICONTROL Filtres] affiche seulement la structure de contenu des dossiers (et de leurs ancêtres) partagés avec l’utilisateur.\
