@@ -8,8 +8,8 @@ topic-tags: 'serveur '
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: référencereference
 discoiquuid: bc305abc-9373-4d33-9179-0a5f3904b352
-translation-type: ht
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+translation-type: tm+mt
+source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
 
@@ -33,7 +33,7 @@ Une fois que le paramètre prédéfini est créé, il est répertorié en tant q
 
 Pour publier des paramètres d’image prédéfinis sur Brand Portal :
 
-1. Dans l’instance AEM Author, appuyez/cliquez sur le logo AEM pour accéder à la console de navigation globale, puis appuyez/cliquez sur l’icône Outils et accédez à **[!UICONTROL Ressources]** &gt; **[!UICONTROL Paramètres d’image prédéfinis]**.
+1. Dans l’instance AEM Author, appuyez/cliquez sur le logo pour accéder à la console de navigation globale, puis appuyez/cliquez sur l’icône Outils et accédez à **[!UICONTROL Ressources &gt; Paramètres d’image prédéfinis]**.
 1. Sélectionnez un ou plusieurs paramètres d’image prédéfinis dans la liste, puis cliquez/appuyez sur **[!UICONTROL Publier sur Brand Portal]**.
 
 ![](assets/publishpreset.png)
@@ -83,7 +83,7 @@ Pour annuler la publication d’un schéma de métadonnées sur Brand Portal :
 
 ## Publication de facettes de recherche sur Brand Portal {#publish-search-facets-to-brand-portal}
 
-Les formulaires de recherche fournissent aux utilisateurs la fonctionnalité de [recherche facettée](../using/brand-portal-search-facets.md) sur Brand Portal. Les facettes de recherche permettent d’effectuer des recherches plus précises sur Brand Portal. Tous les [prédicats ajoutés](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-facets.html#AddingaPredicate) dans le formulaire de recherche sont à la disposition des utilisateurs en tant que facettes de recherche dans les filtres de recherche.
+Les formulaires de recherche fournissent aux utilisateurs la fonctionnalité de [recherche facettée](../using/brand-portal-search-facets.md) sur Brand Portal. Les facettes de recherche permettent d’effectuer des recherches plus précises sur Brand Portal. Tous les [prédicats ajoutés](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-facets.html#AddingaPredicate) dans le formulaire de recherche sont disponibles pour les utilisateurs en tant que facettes de recherche dans les filtres de recherche.
 
 ![](assets/property-predicate-removed.png)
 ![](assets/search-form.png)
@@ -96,7 +96,7 @@ Si vous souhaitez utiliser le formulaire de recherche personnalisé **[!UICONTRO
 
 Pour publier la facette de recherche modifiée sur Brand Portal à partir de l’interface AEM Author :
 
-1. Appuyez/cliquez sur le logo AEM, puis sélectionnez **[!UICONTROL Outils]** &gt; **[!UICONTROL Général]** &gt; **[!UICONTROL Formulaires de recherche]**.
+1. Appuyez/cliquez sur le logo AEM, puis sélectionnez **[!UICONTROL Outils &gt; Général &gt; Formulaires de recherche]**.
 1. Sélectionnez le formulaire de recherche modifié et ensuite **[!UICONTROL Publier sur Brand Portal]**.
 
    >[!NOTE]
