@@ -1,44 +1,45 @@
 ---
-title: Configuration des propriétés du dossier Contribution
-seo-title: Configuration des propriétés du dossier Contribution
-description: 'Découvrez comment configurer les propriétés d’un dossier de contributions dans les ressources AEM. '
-seo-description: 'Découvrez comment configurer les propriétés d’un dossier de contributions dans les ressources AEM. '
+title: Configuration des propriétés du dossier de contribution
+seo-title: Configuration des propriétés du dossier de contribution
+description: 'Découvrez comment configurer les propriétés d’un dossier de contribution dans AEM Assets. '
+seo-description: 'Découvrez comment configurer les propriétés d’un dossier de contribution dans AEM Assets. '
 uuid: null
-content-type: référencereference
+content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a32de22b7d5ac2b53b31aab8675dfdac1f5a724c
 
 ---
 
 
-# Configuration des propriétés du dossier de contributions {#configure-contribution-folder-properties}
+# Configuration des propriétés du dossier de contribution {#configure-contribution-folder-properties}
 
-L’administrateur AEM effectue les activités suivantes lors de la configuration des propriétés d’un dossier de contributions.
+L’administrateur d’AEM effectue les activités ci-après lors de la configuration des propriétés d’un dossier de contribution.
 
-* **Ajouter une description**: Fournissez une description de haut niveau du dossier des contributions.
-* **Brève** téléchargement :  Télécharger le document Asset Requirement contenant des informations relatives aux ressources.
-* **Ajouter des contributeurs**: Ajoutez des utilisateurs ou des groupes du portail de marque pour leur accorder l’accès au dossier de contributions.
+* **Ajouter une description** : fournissez une description détaillée du dossier de contribution.
+* **Charger les instructions** : téléchargez le document sur les exigences en matière de ressources contenant des informations relatives aux ressources.
+* **Ajouter des contributeurs** : ajoutez des utilisateurs ou des groupes de Brand Portal pour leur accorder l’accès au dossier de contribution.
 
-Les besoins en ressources se rapportent aux détails fournis par les administrateurs pour aider les contributeurs (utilisateurs du portail de marque) à comprendre le besoin et les exigences du dossier de contributions. L’administrateur télécharge un document sur les besoins en ressources qui contient une brève description du type de ressources à ajouter au dossier de contributions et des informations relatives aux ressources, par exemple, l’objectif, le type d’images, la taille maximale, etc.
+Les exigences en matière de ressources font référence aux détails fournis par les administrateurs pour aider les contributeurs (utilisateurs de Brand Portal) à comprendre le besoin et les exigences du dossier de contribution. L’administrateur charge un document sur les exigences en matière de ressources contenant un résumé sur le type de ressources à ajouter au dossier de contribution et des informations relatives aux ressources comme le but, le type d’images, la taille maximale, etc.
 
-L’administrateur peut alors accorder aux utilisateurs/groupes du portail de marque l’accès au dossier de contributions avant de publier le dossier de contributions nouvellement créé dans le portail de marque.
+L’administrateur peut alors octroyer aux utilisateurs/groupes de Brand Portal l’accès au dossier de contribution avant de publier le nouveau dossier Contribution sur Brand Portal.
 
-**Pour configurer les propriétés du dossier de contributions :**
-1. Connectez-vous à votre instance d’auteur AEMURL par défaut : http:// localhost:4502/aem/start.html
-1. Accédez à **[!UICONTROL Ressources &gt; Fichiers]** et localisez le dossier des contributions.
-1. Sélectionnez le dossier des contributions et cliquez sur **[!UICONTROL Propriétés]** ![](assets/properties.png). La fenêtre Propriétés du dossier s’ouvre.
+**Pour configurer les propriétés du dossier de contribution, procédez comme suit :**
+1. Connectez-vous à votre instance d’auteur AEM
+URL par défaut : http:// localhost:4502/aem/start.html
+1. Accédez à **[!UICONTROL Ressources &gt; Fichiers]** et localisez le dossier de contribution.
+1. Sélectionnez le dossier de contribution et cliquez sur **[!UICONTROL Propriétés]**![](assets/properties.png). La fenêtre Propriétés du dossier s’affiche.
    ![](assets/contribution-folder-property1.png)
-1. Accédez à l’onglet Contribution **** du fichier.
-1. Saisissez une **[!UICONTROL description]** détaillée du dossier des contributions.
-1. Cliquez sur **[!UICONTROL Télécharger un résumé]** pourparcourir votre ordinateur local et télécharger un document ![](assets/upload.png) **** de ressources requises.
-1. Dans **[!UICONTROL Ajouter un utilisateur ou un groupe]**, recherchez et **[!UICONTROL ajoutez]** des utilisateurs ou des groupes du portail de marque avec lesquels partager le dossier de contributions.
-Ces utilisateurs/groupes du portail de marque auront l’autorisation d’accéder au dossier de contributions et de télécharger du contenu depuis leur interface du portail de marque sans avoir besoin d’accéder à l’instance d’auteur AEM.
+1. Accédez à l’onglet **[!UICONTROL Contribution des ressources]**.
+1. Saisissez une **[!UICONTROL description]** détaillée du dossier de contribution.
+1. Cliquez sur **[!UICONTROL Charger les instructions]** pour parcourir votre ordinateur local et charger un ![](assets/upload.png)document relatif aux exigences en matière de ressources ****.
+1. Dans **[!UICONTROL Ajouter un utilisateur ou un groupe]**, recherchez des utilisateurs ou des groupes de Brand Portal avec lesquels partager le dossier de contribution, puis **[!UICONTROL ajoutez-les]**.
+Ces utilisateurs/groupes de Brand Portal auront l’autorisation d’accéder au dossier de contribution et de charger du contenu depuis leur interface de Brand Portal sans avoir besoin d’accéder à l’instance d’auteur AEM.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
    ![](assets/contribution-folder-property2.png)
 
 >[!NOTE]
 >
->Les résultats de la recherche sont basés sur la liste des utilisateurs du portail de marque configurée dans AEM Assets. Vérifiez que vous disposez de la liste des utilisateurs du portail de marques mise à jour. Voir [Téléchargement de la liste des](brand-portal-upload-user-list.md)utilisateurs du portail de marque.
+>Les résultats de la recherche sont basés sur la liste des utilisateurs Brand Portal configurée dans AEM Assets. Vérifiez que vous disposez de la liste mise à jour des utilisateurs de Brand Portal. Voir [Chargement de la liste des utilisateurs de Brand Portal](brand-portal-upload-user-list.md).
