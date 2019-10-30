@@ -1,35 +1,35 @@
 ---
-title: Publier dans le dossier de contributions vers AEM Assets
-seo-title: Publier dans le dossier de contributions vers AEM Assets
-description: Découvrez comment publier le dossier de contributions dans AEM Assets dans Brand Portal.
-seo-description: Découvrez comment publier le dossier de contributions dans AEM Assets dans Brand Portal.
+title: Publication du dossier de contribution sur AEM Assets
+seo-title: Publication du dossier de contribution sur AEM Assets
+description: Découvrez comment publier le dossier de contribution sur AEM Assets dans Brand Portal.
+seo-description: Découvrez comment publier le dossier de contribution sur AEM Assets dans Brand Portal.
 uuid: null
-content-type: référencereference
+content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
 
 ---
 
 
-# Publier le dossier de contributions dans AEM Assets {#publish-contribution-folder-to-aem}
+# Publication du dossier de contribution sur AEM Assets {#publish-contribution-folder-to-aem}
 
-Les utilisateurs du portail de marque peuvent publier le dossier de contributions dans AEM Assets sans avoir besoin d’accéder à l’instance d’auteur AEM.
+Les utilisateurs de Brand Portal peuvent publier le dossier de contribution sur AEM Assets sans avoir besoin d’accéder à l’instance d’auteur AEM.
 
-Vérifiez que vous avez bien suivi les besoins [en](brand-portal-download-asset-requirements.md) ressources et téléchargez les ressources nouvellement créées dans le dossier **NOUVEAU** du dossier de contributions. Voir [Téléchargement de fichiers dans le dossier](brand-portal-upload-assets-to-contribution-folder.md)des contributions.
+Vérifiez que vous avez respecté les [exigences en matière de ressources](brand-portal-download-asset-requirements.md) et chargez les ressources nouvellement créées dans le dossier **NEW** au sein du dossier de contribution. Voir [Chargement de ressources dans le dossier de contribution](brand-portal-upload-assets-to-contribution-folder.md).
 
-**Pour publier le dossier de contributions :**
+**Pour publier le dossier de contribution, procédez comme suit :**
 
-1. Connectez-vous à votre instance de portail de marque.
-1. Sélectionnez le dossier des contributions dans le tableau de bord du portail de marque.
-1. Cliquez sur **[!UICONTROL Publier vers AEM]**![](assets/export.png).
+1. Connectez-vous à votre instance de Brand Portal.
+1. Sélectionnez le dossier de contribution dans le tableau de bord de Brand Portal.
+1. Cliquez sur **[!UICONTROL Publier sur AEM]**![](assets/export.png).
    ![](assets/publish-contribution-folder-to-aem.png)
 
-Une notification par courrier électronique/impulsions est envoyée au portail de marque et à AEM, à l’administrateur et à l’utilisateur à diverses étapes du processus de publication :
-1. **Mise en file d’attente** : lorsque le processus de publication se déclenche dans le portail de marque, le dossier de contribution est publié de Portal à AEM.
-1. **En cours** : lorsque AEM Assets commence à importer le dossier de contributions.
-1. **Terminé** : lorsque l’action de publication est terminée, le dossier de contribution est importé avec succès dans AEM Assets.
+Une notification Push/par courrier électronique est envoyée à l’administrateur et à l’utilisateur de Brand Portal et AEM à différentes étapes de la publication :
+1. **En file d’attente** : lorsque le workflow de publication se déclenche dans Brand Portal, le dossier de contribution est publié de Brand Portal sur AEM.
+1. **En cours** : lorsque AEM Assets commence à importer le dossier de contribution.
+1. **Terminé** : lorsque l’action de publication est terminée, le dossier de contribution est importé dans AEM Assets.
 
 
