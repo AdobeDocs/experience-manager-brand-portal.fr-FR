@@ -9,7 +9,7 @@ topic-tags: administration
 content-type: référencereference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ff0c8c23b6c76dc9027b560b9db4af2f4b35313e
 
 ---
@@ -39,7 +39,7 @@ Ces fonctionnalités sont proposées sous la forme de configurations de **[!UICO
 
 **E** Configuration pour afficher la hiérarchie de dossiers (à partir de la racine) partagés pour les utilisateurs non-administrateurs (éditeurs, observateurs et utilisateurs invités) (désactivée par défaut).
 
-## Activation/désactivation des configurations générales   {#enable-disable-general-configurations}
+## Activation/désactivation des configurations générales    {#enable-disable-general-configurations}
 
 Pour activer/désactiver chacune de ces configurations :
 
@@ -50,7 +50,7 @@ Pour activer/désactiver chacune de ces configurations :
 1. **[!UICONTROL Enregistrez]** les modifications.
 1. Déconnectez-vous pour que les modifications soient appliquées.
 
-## Autorisation de la suppression des ressources de Brand Portal par les utilisateurs administrateurs {#allow-admin-users-to-delete-assets-from-brand-portal}
+## Autorisation de la suppression des ressources de Brand Portal par les utilisateurs administrateurs  {#allow-admin-users-to-delete-assets-from-brand-portal}
 
 **[!UICONTROL La configuration Autoriser les utilisateurs à supprimer]** permet aux organisations d’autoriser les utilisateurs avec les privilèges d’administrateur à supprimer des ressources et des dossiers de Brand Portal, ou de les en restreindre.
 
@@ -66,6 +66,6 @@ La configuration [[!UICONTROL Autoriser la création de collections dynamiques p
 
 La configuration [[!UICONTROL Autoriser l’accélération des téléchargements]](../using/accelerated-download.md) permet aux entreprises d’autoriser l’accélération des téléchargements des ressources à partir de Brand Portal et des liens partagés, grâce à l’intégration à IBM Aspera Connect, une application qui s’installe à la demande. L’application utilise une technologie propriétaire pour supprimer les en-têtes TCP.
 
-## Activation de la hiérarchie de dossiers   {#enable-folder-hierarchy}
+## Activation de la hiérarchie de dossiers    {#enable-folder-hierarchy}
 
 La configuration [[!UICONTROL Activer la hiérarchie de dossiers]](../using/brand-portal-sharing-folders.md#non-admin-user-access-to-shared-folders) permet aux administrateurs de contrôler la façon dont, une fois connectés, les utilisateurs non administrateurs (éditeurs, observateurs et utilisateurs invités) voient les dossiers partagés.
