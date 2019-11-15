@@ -9,7 +9,7 @@ content-type: référencereference
 topic-tags: Partagesharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
@@ -88,17 +88,17 @@ Pour télécharger les ressources partagées :
    >[!NOTE]
    >
    >Si les ressources que vous téléchargez comprennent également des ressources sous licence, vous êtes redirigé vers la page **[!UICONTROL Gestion des droits d’auteur]**. Dans cette page, sélectionnez les ressources sous licence, cliquez sur **[!UICONTROL Accepter]**, puis cliquez sur **[!UICONTROL Télécharger]**. Si vous choisissez de ne pas accepter, seules les ressources sans licence sont téléchargées.\
-   >License-protected assets have [license agreement attached](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) to them, which is done by setting asset's [metadata property](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in [!DNL AEM Assets].
+   >Les ressources protégées par licence sont [accompagnées d’un accord de licence](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) grâce à la définition de la [propriété des métadonnées](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) des ressources dans [!DNL AEM Assets].
 
    ![](assets/licensed-asset-download.png)
 
-   La boîte de dialogue **[!UICONTROL Téléchargement]s’affiche.**
+   La boîte de dialogue **[!UICONTROL Téléchargement]** s’affiche.
 
    ![](assets/download-linkshare.png)
 
    * Pour accélérer le téléchargement des fichiers de ressources partagés sous forme de lien, sélectionnez l’option **[!UICONTROL Autoriser l’accélération des téléchargements]** et [suivez l’assistant](../using/accelerated-download.md#download-workflow-using-file-accelerator). Pour en savoir plus sur le téléchargement rapide des ressources sur Brand Portal, consultez le [Guide d’accélération des téléchargements à partir de Brand Portal](../using/accelerated-download.md).
 
-1. Pour télécharger les rendus des ressources en plus des ressources à partir du lien partagé, sélectionnez l’option **[!UICONTROL Rendu(s)]**. Lorsque vous procédez de la sorte, l’option **[!UICONTROL Exclure les rendus système]qui apparaît est sélectionnée par défaut.** Cela empêche le téléchargement des rendus prêts à l’emploi avec les ressources approuvées ou leurs rendus personnalisés.
+1. Pour télécharger les rendus des ressources en plus des ressources à partir du lien partagé, sélectionnez l’option **[!UICONTROL Rendu(s)]**. Lorsque vous procédez de la sorte, l’option **[!UICONTROL Exclure les rendus système]** qui apparaît est sélectionnée par défaut. Cela empêche le téléchargement des rendus prêts à l’emploi avec les ressources approuvées ou leurs rendus personnalisés.
 
    Toutefois, pour permettre le téléchargement des rendus générés automatiquement avec les rendus personnalisés, désélectionnez l’option **[!UICONTROL Exclure les rendus système]**.
 
