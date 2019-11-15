@@ -8,7 +8,7 @@ content-type: référencereference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
@@ -65,7 +65,7 @@ En l’absence d’image de papier peint de marque personnalisée, un papier pei
 
 
 
-## Personnalisation de l’en-tête   {#customize-the-header}
+## Personnalisation de l’en-tête    {#customize-the-header}
 
 L’en-tête apparaît sur différentes pages de Brand Portal une fois que vous êtes connecté à Brand Portal.
 
@@ -115,7 +115,7 @@ Pour enregistrer les modifications, cliquez sur **[!UICONTROL Enregistrer]** dan
 
 
 
-## Personnalisation des e-mails   {#customize-the-email-messaging}
+## Personnalisation des e-mails    {#customize-the-email-messaging}
 
 Lorsque des ressources sont partagées en tant que lien, l’utilisateur reçoit un e-mail contenant le lien. Les administrateurs peuvent personnaliser les messages, c’est-à-dire le logo, la description et le pied de page de ces e-mails.
 
