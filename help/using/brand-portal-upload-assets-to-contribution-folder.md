@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3072a3a9343b64f4121262c1a3ee8a5ba439e31a
 
 ---
