@@ -9,7 +9,7 @@ content-type: référencereference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 # Recherche de ressources sur Brand Portal {#search-assets-on-brand-portal}
 
-La fonctionnalité de recherche de Brand Portal vous permet de rechercher rapidement les ressources appropriées au moyen de  l’omni-recherche, et la recherche facettée qui utilise des filtres vous aident à affiner encore davantage votre recherche. Vous pouvez également enregistrer vos recherches sous la forme de collections dynamiques pour une utilisation ultérieure.
+La fonctionnalité de recherche de Brand Portal vous permet de rechercher rapidement les ressources appropriées au moyen de   l’omni-recherche, et la recherche facettée qui utilise des filtres vous aident à affiner encore davantage votre recherche. Vous pouvez également enregistrer vos recherches sous la forme de collections dynamiques pour une utilisation ultérieure.
 
 ## Recherche de ressources à l’aide de l’omni-recherche {#search-assets-using-omnisearch}
 
@@ -41,7 +41,7 @@ Pour rechercher des ressources sur Brand Portal :
 
    *Recherche de ressources à l’aide de l’omni-recherche*
 
-To know about search behaviour with smart tagged assets, see [understand search results and behavior](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-assets.html).
+Pour en savoir plus sur le comportement de la recherche avec des ressources avec balisage intelligent, consultez la section traitant de la [présentation du comportement et des résultats de recherche](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/search-assets.html).
 
 ## Recherche à l’aide des facettes du panneau Filtres{#search-using-facets-in-filters-panel}
 
@@ -62,7 +62,7 @@ Pour appliquer des filtres à votre recherche avec les [facettes de recherche](.
 1. Dans le panneau **[!UICONTROL Filtres]** à gauche, sélectionnez les options adéquates pour appliquer les filtres correspondants.
 Par exemple, utilisez les filtres standard suivants :
 
-   * **[!UICONTROL Explorateur de chemins d’accès]** pour rechercher des ressources dans un répertoire donné. The default search path of the predicate for Path Browser is `/content/dam/mac/<tenant-id>/`, which can be configured by editing the default search form.
+   * **[!UICONTROL Explorateur de chemins d’accès]** pour rechercher des ressources dans un répertoire donné. Le chemin de recherche par défaut du prédicat pour l’Explorateur de chemins d’accès est `/content/dam/mac/<tenant-id>/`, mais il peut être configuré en modifiant le formulaire de recherche par défaut.
    >[!NOTE]
    >
    >Pour les utilisateurs non administrateurs, l’[!UICONTROL Explorateur de chemins d’accès] du panneau [!UICONTROL Filtres] affiche seulement la structure de contenu des dossiers (et de leurs ancêtres) partagés avec l’utilisateur.\
