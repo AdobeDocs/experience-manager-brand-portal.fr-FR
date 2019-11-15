@@ -9,7 +9,7 @@ topic-tags: download-install
 content-type: référencereference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
@@ -27,14 +27,14 @@ Si cette option est activée, les utilisateurs de Brand Portal peuvent réduire
 
 ![](assets/enable-fast-file-download.png)
 
-## Conditions préalables pour accélérer le téléchargement de fichiers   {#prerequisites-to-accelerate-file-download}
+## Conditions préalables pour accélérer le téléchargement de fichiers    {#prerequisites-to-accelerate-file-download}
 
 Pour télécharger les fichiers plus rapidement, vérifiez les points suivants :
 
 * **[!UICONTROL Activer l’accélération des téléchargements]** (l’option est désactivée par défaut) sous [!UICONTROL Paramètres généraux] dans le panneau des outils d’administration.
-* Le port 33001 (TCP et UDP) est ouvert sur le pare-feu. For more information on the prerequisites, see [Aspera Connect Client documentation](https://downloads.asperasoft.com/en/documentation/8).
+* Le port 33001 (TCP et UDP) est ouvert sur le pare-feu. Pour plus d’informations sur les conditions préalables requises, consultez la [documentation du client Aspera Connect](https://downloads.asperasoft.com/en/documentation/8).
 * Installez Aspera Connect à l’aide des privilèges d’administrateur.
-* For platform support of Aspera transfer client, see [Aspera Connect platform support matrix](https://www.asperasoft.com/company/support/transfer-clients/).
+* Pour connaître les plates-formes prises en charge par le client de transfert Aspera, consultez le [Tableau des plates-formes prises en charge par Aspera Connect](https://www.asperasoft.com/company/support/transfer-clients/).
 
 ## Domaines de téléchargement {#download-domains}
 
@@ -53,7 +53,7 @@ Le tableau suivant affiche les performances de téléchargement obtenues pour un
 
 **Les résultats observés varient en fonction de facteurs tels que la bande passante du réseau, la latence du serveur et l’emplacement du client, en sachant que le serveur Brand Portal se situe dans l’État de l’Oregon aux États-Unis.*
 
-| Emplacement du client | Latence entre le client et le serveur (millisecondes) | Vitesse mesurée avec l’accélérateur de transfert de fichiers d’Aspera Connect (Mbit/s) | Temps nécessaire pour télécharger un fichier de 2 Go avec l’accélérateur de transfert de fichiers Aspera (en secondes) |
+| Emplacement du client | Latence entre le client et le serveur  (millisecondes) | Vitesse mesurée avec l’accélérateur de transfert de fichiers d’Aspera Connect (Mbit/s) | Temps nécessaire pour télécharger un fichier de 2 Go avec l’accélérateur de transfert de fichiers Aspera (en secondes) |
 |---------------------------|-----------------------------------|---------------------------------------------|-------------------------------------------------------------------------|
 | Ouest des États-Unis (Californie du Nord) | 18 | 36 | 57 |
 | Ouest des États-Unis (Oregon) | 42 | 36 | 57 |
@@ -87,7 +87,7 @@ Si le client Aspera Connect n’est pas installé sur votre système ou si le c
 
    ![](assets/aspera-not-launched.png)
 
-   To download the latest version of Aspera Connect from [https://downloads.asperasoft.com/connect2/](https://downloads.asperasoft.com/connect2/), select **[!UICONTROL Download Now]** and follow the instructions.
+   Pour télécharger la dernière version d’Aspera Connect à partir de [https://downloads.asperasoft.com/connect2/](https://downloads.asperasoft.com/connect2/), sélectionnez **[!UICONTROL Télécharger maintenant]** et suivez les instructions.
 
 1. **Installation du client Aspera Connect** 
 Pour installer la configuration du client IBM Aspera Connect, exécutez le programme d’installation à partir du fichier. msi de l’application cliente IBM Aspera Connect et suivez l’assistant d’installation.
@@ -125,7 +125,7 @@ Pour utiliser la fonctionnalité de téléchargement accéléré sur Microsoft 
 1. Cliquez sur **[!UICONTROL Zone Sites de confiance]**, puis sur **[!UICONTROL Sites]**.
 1. Supprimez le site Brand Portal de la liste.
 
-## Préférences du client Aspera Connect   {#aspera-connect-client-preferences}
+## Préférences du client Aspera Connect    {#aspera-connect-client-preferences}
 
 Certaines préférences utiles peuvent être définies dans les préférences du client IBM Aspera Connect en cliquant avec le bouton droit sur l’icône et en sélectionnant ensuite **[!UICONTROL Préférences]**.
 
@@ -139,19 +139,19 @@ En outre, le client Aspera Connect peut être marqué pour se lancer automatiqu
 
 ![](assets/aspera-automaticallylaunch.png)
 
-## Résolution des problèmes relatifs liés à l’accélération des téléchargements   {#troubleshoot-issues-with-download-acceleration}
+## Résolution des problèmes relatifs liés à l’accélération des téléchargements    {#troubleshoot-issues-with-download-acceleration}
 
 Si l’accélération des téléchargements ne fonctionne pas, suivez ces étapes de dépannage :
 
-1. Check that ports are not blocked, by visiting [https://test-connect.asperasoft.com](https://test-connect.asperasoft.com/) from your machine.
+1. Vérifiez que les ports ne sont pas bloqués en vous rendant sur [https://test-connect.asperasoft.com](https://test-connect.asperasoft.com/) à partir de votre ordinateur.
 
    Si les ports ne sont pas ouverts, demandez à votre équipe réseau de veiller à ce que les ports 33001 (à la fois TCP et UDP) ne soient pas bloqués dans le pare-feu.
 
-1. Si les ports sont ouverts, vérifiez que votre réseau n’est pas trop lent en mesurant la bande passante disponible à l’aide de [/](https://www.speedtest.net/)https://www.speedtest.net/.
+1. Si les ports sont ouverts, vérifiez que votre réseau n’est pas trop lent en mesurant la bande passante disponible à l’aide de [https://www.speedtest.net/](https://www.speedtest.net/).
 
    Si la bande passante est faible (1 à 10 Mbit/s) ou en Kbit/s, utilisez les Préférences Aspera et essayez de limiter la bande passante en fonction de celle disponible.
 
-1. Pour confirmer que les téléchargements à partir du serveur de démonstration d’Aspera fonctionnent, utilisez [](https://demo.asperasoft.com/aspera/user)https://demo.asperasoft.com/aspera/user\
+1. Pour confirmer que les téléchargements à partir du serveur de démonstration d’Aspera fonctionnent, utilisez [https://demo.asperasoft.com/aspera/user](https://demo.asperasoft.com/aspera/user).\
    (nom d'utilisateur : asperaweb, mot de passe : demoaspera).
 
 1. Si aucune des étapes de dépannage ci-dessus ne fonctionne, désélectionnez l’option Activer l’accélération des téléchargements et utilisez le téléchargement normal.
