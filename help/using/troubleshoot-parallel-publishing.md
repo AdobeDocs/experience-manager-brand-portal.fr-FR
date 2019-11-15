@@ -8,7 +8,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: référencereference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
@@ -16,15 +16,15 @@ source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 # Dépannage des problèmes de publication en parallèle sur Brand Portal {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-Brand Portal prend en charge l’intégration dans AEM Assets, de sorte que les ressources de marque approuvées soient automatiquement ingérées (ou publiées) à partir de l’instance d’auteur AEM Assets. Once [integrated](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html), AEM Author uses a replication agent to replicate the selected asset(s) to Brand Portal cloud service for approved usage by Brand Portal users. Plusieurs agents de réplication sont utilisés dans AEM 6.2 SP1-CFP5, AEM CFP 6.3.0.2 et versions ultérieures pour permettre une publication parallèle à haute vitesse.
+Brand Portal prend en charge l’intégration dans AEM Assets, de sorte que les ressources de marque approuvées soient automatiquement ingérées (ou publiées) à partir de l’instance d’auteur AEM Assets. Une fois [intégré](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html), l’auteur AEM utilise un agent de réplication afin de répliquer la ou les ressources sélectionnées sur le service cloud Brand Portal pour l’utilisation approuvée par les utilisateurs de Brand Portal. Plusieurs agents de réplication sont utilisés dans AEM 6.2 SP1-CFP5, AEM CFP 6.3.0.2 et versions ultérieures pour permettre une publication parallèle à haute vitesse.
 
 >[!NOTE]
 >
 >Adobe recommande d’effectuer une mise à niveau vers AEM 6.4.1.0 pour s’assurer qu’AEM Assets Brand Portal est correctement intégré à AEM Assets. AEM 6.4 présente une limitation, en ce sens qu’il renvoie une erreur lors de la configuration de l’intégration à Brand Portal et entraîne l’échec de la réplication.
 
-On configuring cloud service for brand portal under **[!UICONTROL /etc/cloudservice]**, all necessary users and token are auto-generated and saved in the repository. La configuration du service Ccloud est créée, et les utilisateurs des services requis pour la réplication et les agents de réplication pour répliquer le contenu sont aussi créés. Cela crée quatre agents de réplication. Ainsi, lorsque vous publiez de nombreuses ressources d’AEM sur Brand Portal, celles-ci sont placées en file d’attente et distribuées entre ces agents de réplication de manière cyclique.
+Lors de la configuration du service cloud pour Brand Portal sous **[!UICONTROL /etc/cloudservice]**, tous les utilisateurs et jetons nécessaires sont générés automatiquement et enregistrés dans le référentiel. La configuration du service cloud est créée, et les utilisateurs des services requis pour la réplication et les agents de réplication pour répliquer le contenu sont aussi créés. Cela crée quatre agents de réplication. Ainsi, lorsque vous publiez de nombreuses ressources d’AEM sur Brand Portal, celles-ci sont placées en file d’attente et distribuées entre ces agents de réplication de manière cyclique.
 
-Cependant, la publication peut échouer par intermittence en raison de tâches Sling volumineuses, d’une augmentation du volume d’**[!UICONTROL E/S]réseau et disque sur l’instance AEM Author, ou d’un ralentissement des performances de l’instance AEM Author.** Par conséquent, il est conseillé de tester la connexion avec le ou les agents de réplication avant de démarrer la publication.
+Cependant, la publication peut échouer par intermittence en raison de tâches Sling volumineuses, d’une augmentation du volume d’**[!UICONTROL E/S]** réseau et disque sur l’instance d’auteur AEM, ou d’un ralentissement des performances de l’instance d’auteur AEM. Par conséquent, il est conseillé de tester la connexion avec le ou les agents de réplication avant de démarrer la publication.
 
 ![](assets/test-connection.png)
 
@@ -60,19 +60,21 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 
 ### Nettoyage des configurations de publication existantes dans Brand Portal {#clean-up-existing-config}
 
-Most of the times when publishing is not working, the reason can be that the user who is publishing (for example: `mac-<tenantid>-replication` doesn't have the latest private key, and hence publish fails with "401 unauthorized" error and no other error is reported in replication agent logs. Vous pouvez éviter le dépannage en créant une nouvelle configuration. Pour que la nouvelle configuration fonctionne correctement, nettoyez les éléments suivants dans la configuration d’AEM Author :
+Si la publication échoue, cela est généralement dû au fait que l’utilisateur qui publie (`mac-<tenantid>-replication`, par exemple) ne dispose pas de la clé privée la plus récente. Il s’ensuit l’échec de la publication avec une erreur « 401 non autorisé » et aucune autre erreur n’est consignée dans les journaux des agents de réplication. Vous pouvez éviter le dépannage en créant une nouvelle configuration. Pour que la nouvelle configuration fonctionne correctement, nettoyez les éléments suivants dans la configuration d’AEM Author :
 
-1. Go to `localhost:4502/crx/de/` (considering you are running author instance on localhost:4502:\
-   i. supprimer `/etc/replication/agents.author/mp_replication`ii. delete `/etc/cloudservices/mediaportal/<config_name>`
+1. Accédez à `localhost:4502/crx/de/` (à condition que vous exécutiez l’instance d’auteur sur localhost:4502) :\
+   i. Supprimez `/etc/replication/agents.author/mp_replication`
+ii. Supprimez `/etc/cloudservices/mediaportal/<config_name>`
 
-1. Accédez à localhost:4502/useradmin :\
-   i. recherchez l’utilisateur `mac-<tenantid>replication`ii. supprimer cet utilisateur
+1. Accédez à localhost:4502/useradmin :\
+   i. Recherchez l’utilisateur `mac-<tenantid>replication`
+ii. supprimez cet utilisateur.
 
-Le système est maintenant complètement nettoyé. Vous pouvez à présent essayer de créer  une configuration cloudservice et continuer à utiliser l’application JWT existante sur [/](https://legacy-oauth.cloud.adobe.io/)https://legacy-oauth.cloud.adobe.io/. Il n’est pas nécessaire de créer une application ; seule la clé publique doit être mise à jour à partir de la configuration cloud que vous venez de créer.
+Le système est maintenant complètement nettoyé. Vous pouvez à présent essayer de créer    une configuration cloudservice et continuer à utiliser l’application JWT existante sur [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/). Il n’est pas nécessaire de créer une application ; seule la clé publique doit être mise à jour à partir de la configuration cloud que vous venez de créer.
 
 ## Problème de visibilité des clients d’applications JWT sur Developer Connection {#developer-connection-jwt-application-tenant-visibility-issue}
 
-If on [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/), all the  orgs  (tenants) for which the current users hold system administrator are listed. Si vous n’y trouvez pas le nom de l’organisation ou si vous ne pouvez pas y créer d’application pour un client requis, vérifiez si vous possédez les droits suffisants (d’administrateur système) pour le faire.
+Si, sur [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/), toutes les organisations (clients) pour lesquelles les utilisateurs actuels sont hébergés par l’administrateur système sont répertoriées. Si vous n’y trouvez pas le nom de l’organisation ou si vous ne pouvez pas y créer d’application pour un client requis, vérifiez si vous possédez les droits suffisants (d’administrateur système) pour le faire.
 
 Cette interface utilisateur présente un problème connu qui fait que seules les 10 premières applications sont visibles pour n’importe quel client. Quand vous créez l’application, restez sur cette page et marquez l’URL d’un signet. Vous n’aurez ainsi pas besoin d’accéder à la page répertoriant l’application pour y trouver celle que vous avez créée. Vous pouvez utiliser directement cette URL marquée d’un signet et mettre à jour/supprimer l’application lorsque cela s’avère nécessaire.
 
