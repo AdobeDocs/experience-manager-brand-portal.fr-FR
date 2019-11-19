@@ -8,8 +8,17 @@ content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
+product: experience-manager
+sub-product: assets
+feature: brand-portal
+topics: collaboration, content-velocity, sharing
+doc-type: feature-video
+activity: use
+audience: author, marketer
+version: 6.5
+kt: 3838
+translation-type: tm+mt
+source-git-commit: f8d95ab1e1c17ef2cf86d0206a36134996e4fe07
 
 ---
 
@@ -20,6 +29,8 @@ L’**approvisionnement des ressources** permet aux utilisateurs d’AEM (admini
 
 En outre, toutes les fonctionnalités existantes restent inchangées. Les utilisateurs de Brand Portal peuvent afficher, rechercher et télécharger des ressources à partir du dossier de contribution, ainsi que des autres dossiers autorisés. Quant aux administrateurs, ils peuvent partager le dossier de contribution de manière plus avancée, modifier les propriétés et ajouter des ressources aux collections.
 
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12&captions=fre_fr)
+
 >[!NOTE]
 >
 >L’approvisionnement des ressources dans Brand Portal est pris en charge dans AEM 6.5.2.0 et versions ultérieures.
@@ -28,18 +39,25 @@ En outre, toutes les fonctionnalités existantes restent inchangées. Les utilis
 >
 >Contactez l’assistance Adobe pour mettre à niveau votre instance d’AEM vers la dernière version d’AEM prise en charge.
 
-![](assets/asset-sourcing.png)
+![Ressource du portail de marque](assets/asset-sourcing.png)
+
+## Conditions préalables {#prerequisites}
+
+* AEM 6.5.0.2 ou version ultérieure.
+* Vérifiez que votre instance AEM Assets est intégrée à Brand Portal. Voir [Configuration de l’intégration d’AEM Assets à Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)..
 
 ## Voir également {#reference-articles}
 
 **Pour les administrateurs**
-* [Configuration de l’approvisionnement des ressources dans AEM](brand-portal-enable-asset-sourcing.md)
-* [Chargement de la liste des utilisateurs de Brand Portal](brand-portal-upload-user-list.md)
+
+* [Configuration de l’approvisionnement des ressources dans AEM](brand-portal-configure-asset-sourcing.md)
+* [Chargement de la liste des utilisateurs de Brand Portal](brand-portal-configure-asset-sourcing.md)
 * [Configuration du dossier de contribution](brand-portal-contribution-folder.md)
 * [Chargement de ressources de base dans le dossier de contribution](brand-portal-upload-baseline-assets.md)
 * [Publication du dossier de contribution sur Brand Portal](brand-portal-publish-contribution-folder-to-brand-portal.md)
 
 **Pour les utilisateurs de Brand Portal**
+
 * [Téléchargement des exigences en matière de ressources](brand-portal-download-asset-requirements.md)
 * [Chargement de nouvelles ressources dans le dossier de contribution](brand-portal-upload-assets-to-contribution-folder.md)
 * [Publication du dossier de contribution sur AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)
