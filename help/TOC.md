@@ -3,9 +3,9 @@ cloud: experience-cloud
 product: adobe experience manager
 sub-product: experience manager brand portal
 audience: end-user
-user-guide-title: AEM Brand Portal
-translation-type: ht
-source-git-commit: d332aa82b0beba1e01c7bb0c8a6055145e1e0270
+user-guide-title: AEM Brand Portal
+translation-type: tm+mt
+source-git-commit: add4009bd99e5af8ed0c9ffea63647c166b7c75d
 
 ---
 
@@ -17,22 +17,21 @@ source-git-commit: d332aa82b0beba1e01c7bb0c8a6055145e1e0270
    + [Présentation](using/brand-portal.md)
    + [Nouveautés d’AEM Assets Brand Portal](using/whats-new.md)
    + [Notes de mise à jour](using/brand-portal-release-notes.md)
+   + [Questions fréquentes](using/brand-portal-faqs.md)
    + [Formats de fichiers pris en charge](using/brand-portal-supported-formats.md)
    + [Accès des invités à Brand Portal](using/guest-access.md)
    + [Présentation de Brand Portal avec AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
    + [Exploration des ressources sur Brand Portal](using/browse-assets-brand-portal.md)
 + Publication de ressources à partir d’AEM Assets sur Brand Portal {#publish}
-   + [Configuration de l’intégration d’AEM Assets à Brand Portal](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
-   + [Publication de collections sur Brand Portal](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
-   + [Publication de dossiers sur Brand Portal](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
+   + [Configuration de l’intégration d’AEM Assets à Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
+   + [Publication de collections sur Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
+   + [Publication de dossiers sur Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
    + [Dépannage des problèmes de publication en parallèle sur Brand Portal](using/troubleshoot-parallel-publishing.md)
    + [Publication de balises sur Brand Portal](using/brand-portal-publish-tags.md)
    + [Publication de paramètres prédéfinis, de schémas et de facettes sur Brand Portal](using/publish-schema-search-facets-presets.md)
 + Approvisionnement des ressources dans Brand Portal {#asset-sourcing-in-brand-portal}
    + [Présentation](using/brand-portal-asset-sourcing.md)
-   + Configuration de l’approvisionnement des ressources dans AEM {#configure-asset-sourcing-in-aem}
-      + [Activation de l’approvisionnement des ressources](using/brand-portal-enable-asset-sourcing.md)
-      + [Chargement de la liste des utilisateurs de Brand Portal](using/brand-portal-upload-user-list.md)
+   + [Configuration de l’approvisionnement des ressources dans AEM](using/brand-portal-configure-asset-sourcing.md)
    + Configuration du dossier de contribution dans AEM Assets {#configure-contribution-folder}
       + [Présentation](using/brand-portal-contribution-folder.md)
       + [Création d’un dossier de contribution](using/brand-portal-create-contribution-folder.md)
