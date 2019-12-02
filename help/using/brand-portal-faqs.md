@@ -1,14 +1,14 @@
 ---
 title: Questions fréquentes
 seo-title: null
-description: Découvrez les questions fréquentes sur le portail des ressources d’Adobe Experience Manager.
+description: Découvrez les questions fréquentes sur les ressources Adobe Experience Manager dans Brand Portal.
 seo-description: null
 uuid: null
 content-type: reference
 topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f8d95ab1e1c17ef2cf86d0206a36134996e4fe07
 
 ---
@@ -16,130 +16,130 @@ source-git-commit: f8d95ab1e1c17ef2cf86d0206a36134996e4fe07
 
 # Questions fréquentes {#frequently-asked-questions}
 
-Les FAQ du portail de marque se concentrent sur les questions et problèmes que les utilisateurs finaux peuvent rencontrer lors de l’utilisation de la dernière version du portail de marque AEM Assets 6.4.5 ou des versions antérieures.
+Les FAQ Brand Portal sont axées sur les questions et problèmes que les utilisateurs finauxls peuvent avoir durant l’utilisation de la dernière version d’AEM Assets Brand Portal : la version 6.4.5 (ou antérieure).
 
 
 
-**Question Quel est le changement majeur dans la version 6.4.5 de Brand Portal ?**
+**Question Quel changement majeur intervient dans la version 6.4.5 de Brand Portal ?**
 
-**Rép.** AEM Assets Brand Portal 6.4.5 est une version de fonctionnalité qui permet aux utilisateurs du portail de marque de télécharger du contenu depuis l’instance du portail de marque et de publier à nouveau le dossier des contributions dans AEM Assets sans avoir besoin de droits d’administrateur.
+**Réponse.** La version 6.4.5 d’AEM Assets Brand Portal dispose d'une fonctionnalité permettant aux utilisateurs Brand Portal de télécharger des contenus depuis l’instance Brand Portal et de republier le dossier Contribution dans AEM Assets sans avoir à demander de droits d’administrateur.
 Pour plus d’informations, voir [Approvisionnement des ressources dans Brand Portal](brand-portal-asset-sourcing.md).
 
 
 
 **Question Est-ce que je n’aurai plus accès aux ressources et fonctionnalités existantes ou aux configurations que j’ai créées ?**
 
-**Rép.** Toutes les fonctionnalités et configurations existantes ne sont pas modifiées. Vos utilisateurs finaux ne sont pas affectés et votre contenu reste intact.
+**Réponse.** Toutes les fonctionnalités et configurations existantes ne sont pas modifiées. Les utilisateurs finauxls ne sont pas affectés. En outre, les contenus restent intacts.
 
 
 
 **Question Quand vais-je passer à la nouvelle version de Brand Portal ?**
 
-**Rép.** La version 6.4.5 de Brand Portal a été lancée en octobre 2019. Et la prochaine version du portail de marque devrait être publiée au 3e trimestre 2020.
-Pour les mises à jour et les modifications de version, il est recommandé de suivre les Notes [de](brand-portal-release-notes.md) mise à jour et les [Nouveautés du portail](whats-new.md)de marque.
+**Rép.onse** Brand Portal 6.4.5 est sorti en production en octobrefévrier 2019. La nouvelle version de Brand Portal devrait être commercialisée au troisième trimestre 2020.
+Pour les mises à jour et les changements de versions, il est recommandé de suivre les [Notes de mise à jour](brand-portal-release-notes.md) et les [Nouveautés Brand Portal](whats-new.md).
 
 
 
-**Ques. Cela aura-t-il une incidence pour mes utilisateurs ?**
+**Question. Cela aura-t-il une incidence pour mes utilisateurs ?**
 
-**Rép.** La version 6.4.5 de Brand Portal est exclusivement disponible dans Brand Portal, de sorte qu’il n’y a aucun impact pour vos utilisateurs finaux.
-
-
-
-**Question Existe-t-il une action requise de ma part en tant qu’utilisateur du portail de marque ?**
-
-**Rép.** La version 6.4.5 de Portal de marque comprend une nouvelle fonctionnalité nommée Ressource des ressources. L’administrateur AEM doit configurer la fonction d’origine des ressources dans AEM Assets pour activer cette fonction pour les utilisateurs du portail de marque. Pour plus d’informations, voir [Activer l’approvisionnement](brand-portal-configure-asset-sourcing.md)des ressources.
+**Rép.onse** La version 6.4.5 de Brand Portal est uniquement disponible dans cette application. Les utilisateurs finauxls ne sont donc pas affectés.
 
 
 
-**Question Qui peut créer un dossier de contributions ?**
+**Question Dois-je intervenir en tant qu’utilisateur Brand Portal ?**
 
-**Rép.** Tous les utilisateurs d’AEM peuvent créer un nouveau dossier dans AEM Assets et affecter la propriété **Asset Contribution**. Le dossier nouvellement créé est appelé dossier de **contribution** .
-Ce dossier est ensuite partagé avec les utilisateurs actifs du portail de marque pour contribution.
-
-
-
-**Question Que contient un dossier de contributions ?**
-
-**Rép.** Le dossier **Contribution** contient deux sous-dossiers **NOUVEAU** et **PARTAGÉ**. Au départ, le dossier NEW est vide et le dossier SHARED contient le contenu de référence (ressources réutilisables) pour les utilisateurs du portail de marque.
-Les utilisateurs du portail de marque accèdent au dossier **Contribution** et téléchargent le contenu dans le dossier **NEW** .
+**Réponse.** La version 6.4.5 de Brand Portal comprend une nouvelle fonctionnalité d'approvisionnement des ressources. L’administrateur AEM doit configurer la fonction d’approvisionnement des ressources dans AEM Assets, afin que les utilisateurs Brand Portal puissent l'activer. Pour plus d’informations, voir [Activation de la fonction d’approvisionnement des ressources](brand-portal-configure-asset-sourcing.md).
 
 
 
-**Question Qu'est-ce que les exigences en matière d'actifs avec la contribution de r.t.**
+**Question Qui peut créer un dossier Contribution ?**
 
-**Rép.** Le **bref** document joint au dossier **Contribution** et le contenu de référence (ressources réutilisables) téléchargés dans le dossier **PARTAGÉ** aident l’utilisateur du portail de marque à comprendre le besoin de contribution et les attentes en tant que contributeur et est collectivement appelé les exigences en matière de ressources.
-
-
-
-**Question Puis-je télécharger des fichiers vers n’importe quel dossier autorisé ?**
-
-**Rép.** Tous les dossiers ne sont pas autorisés. Un utilisateur du portail de marque peut télécharger du contenu uniquement vers le dossier **Contribution** partagé par l’administrateur d’AEM ou du portail de marque.
+**Réponse.** Tous les utilisateurs AEM peuvent créer un nouveau dossier dans AEM Assets et affecter la propriété **Asset Contribution des ressources**. Le nouveau dossier créé est appelé dossier **Contribution** .
+Ce dossier est ensuite partagé avec les utilisateurs Brand Portal actifs à des fins de contribution.
 
 
 
-**Question Comment puis-je accéder à un dossier de contributions ?**
+**Question Que contient un dossier Contribution ?**
 
-**Rép.** Vous pouvez accéder à un dossier **de contributions** uniquement s’il a été partagé avec vous. Vous recevrez une notification par courrier électronique ou pouls chaque fois qu’un dossier de contribution est partagé avec vous. Vous pouvez accéder au dossier des contributions via le lien partagé dans le courrier électronique ou vous connecter à votre instance du portail de marque et accéder à l’icône représentant une cloche pour obtenir des notifications d’accès au dossier des contributions.
+**Réponse.Un dossier** **Contribution** contient deux sous-dossiers, **NEW** et **SHARED**. Au départ, le dossier NEW est vide et le dossier SHARED comprend les contenus de référence (ressources réutilisables) destinés aux utilisateurs Brand Portal.
+Ces utilisateurs accèdent au dossier **Contribution** et téléchargent le contenu dans le dossier **NEW**.
+
+
+
+**Question Quelles sont les exigences de ressources en matière de contribution ?**
+
+**Réponse.** Le document **Brief** joint au dossier **Contribution** et les contenus de référence (ressources réutilisables) téléchargés dans le dossier **SHARED** permettent aux utilisateurs Brand Portal de bien comprendre la nécessité d'apporter leur contribution, ainsi que les attentes à prendre en compte en tant que contributeur. L’expression « exigences de ressources » désigne collectivement tous ces éléments.
+
+
+
+**Question Puis-je télécharger des ressources vers un dossier autorisé ?**
+
+**Réponse.** Tous les dossiers ne sont pas autorisés. Les utilisateurs Brand Portal ne peuvent télécharger des contenus que vers le dossier **Contribution** partagé par l’administrateur AEM ou Brand Portal.
+
+
+
+**Question Comment accéder à un dossier Contribution ?**
+
+**Réponse.** Vous pouvez accéder à un dossier **Contribution** seulement s'il est partagé avec vous. Vous recevez une notification push ou par courrier électronique lorsqu’un dossier Contribution est partagé avec vous. Vous pouvez accéder au dossier Contribution via le lien partagé disponible dans le courrier électronique ou vous connecter à l’instance Brand Portal, puis accéder à l’icône en forme de cloche pour recevoir une notification d’accès à ce dossier.
 
 >[!NOTE]
 >
->Si vous n’êtes pas un utilisateur existant du portail de marque, demandez à l’administrateur AEM de créer votre utilisateur dans la console d’administration AEM et d’ajouter votre profil au fichier de configuration utilisateur dans la liste des utilisateurs du portail de marque. Reportez-vous à [Ajout d’un utilisateur](brand-portal-configure-asset-sourcing.md)du portail de marque.
+>Si vous n’utilisez pas Brand Portal, demandez à l’administrateur AEM de vous créer un profil d’utilisateur dans la console d’administration AEM et de l’ajouter au fichier de configuration d’utilisateur de la liste d’utilisateurs Brand Portal. Voir [Ajout d’un utilisateur Brand Portal](brand-portal-configure-asset-sourcing.md).
 
 
 
-**Question Quel est le format du fichier CSV à importer par l’utilisateur ?**
+**Question Quel est le format du fichier CSV utilisé pour importer des utilisateurs ?**
 
-**Rép.** Le format est identique à celui pris en charge par la Console d’administration pour l’importation en masse par l’utilisateur. Le courriel, le prénom et le nom sont obligatoires.
-
-
-
-**Question Qu’est-ce qui renseigne la liste des utilisateurs (contributeurs du portail de marque) dans la liste déroulante des utilisateurs des contributions aux ressources ?**
-
-**Rép.** Les utilisateurs de la liste déroulante sont renseignés à partir du fichier de configuration utilisateur du portail de marque (.csv) téléchargé dans AEM.
+**Réponse.** Ce format est identique à celui pris en charge par la console d’administration pour importer des utilisateurs en vrac. Vous devez indiquer vos nom, prénom et adresse électronique.
 
 
 
-**Question Où puis-je voir l’état des tâches d’importation et de publication ?**
+**Question Comment la liste d’utilisateurs (contributeurs Brand Portal) est-elle renseignée dans la liste déroulante d’utilisateurs de contributions des ressources ?**
 
-**Rép.** Dans AEM, vous pouvez voir l’état d’une importation dans la page de travail **asynchrone** . Dans le portail de marque, vous pouvez voir l’état d’une tâche de publication dans **[!UICONTROL Outils &gt; Etat]** de contribution des ressources.
-
-
-
-**Question Quelle est la fréquence d’une tâche d’importation qui s’exécute régulièrement dans AEM ?**
-
-**Rép.** Dans AEM, l’interrogation s’effectue toutes les 5 minutes.
+**Rép.onse** La liste d’utilisateurs est renseignée depuis le fichier de configuration d’utilisateur Brand Portal (.csv) téléchargé dans AEM.
 
 
 
-**Question Le nombre de fois où un dossier peut être publié de Brand Portal vers AEM Assets est-il limité ?**
+**Question Où consulter le statut des tâches d’importation et de publication ?**
 
-**Rép.** Non, toutes les ressources du dossier **NOUVEAU** sont publiées dans AEM Assets, indépendamment du fait qu’elles aient été publiées précédemment. Chaque fois qu’un dossier **de contribution** est publié depuis le portail de marque vers AEM Assets, il remplace le contenu du dossier **NOUVEAU** .
-
-
-
-**Question Comment télécharger de nouveaux fichiers dans un dossier de contributions ?**
-
-**Rép.** Reportez-vous à la documentation détaillée pour le [téléchargement de fichiers vers le dossier](brand-portal-upload-assets-to-contribution-folder.md)Contribution.
+**Rép.onse** Dans AEM, vous pouvez consulter le statut des tâches sur la page des tâches **asynchrones** . Dans Brand Portal,, vous pouvez consulter le statut d'une tâche de publication dans **[!UICONTROL Outils &gt; Statut]** de contribution des ressources.
 
 
 
-**Question Je ne vois pas de vignettes/aperçus sur les ressources transférées vers le dossier NEW par un utilisateur du portail de marque ?**
+**Question Quelle est la fréquence d’une tâche d’importation s’exécutant régulièrement dans AEM ?**
 
-**Rép.** Il est conçu comme prévu, car aucun flux de travail n’est exécuté à la fin du portail de marque.
-
-
-
-**Question Que se passe-t-il si un dossier est publié depuis les ressources AEM vers le portail de marque en flux ?**
-
-**Rép.** Dans AEM, les journaux sont conservés chaque fois qu’un dossier est publié sur le portail de marque. Au moment de la publication, toutes les ressources qui ne sont pas publiées sur le portail de marque sont placées dans une file d’attente de réplication. Les fichiers ajoutés au dossier après le déclenchement de la tâche de publication ne sont pas publiés sur le portail de marque. Lorsque l’utilisateur AEM publie à nouveau le dossier, seuls les fichiers qui n’ont pas été publiés précédemment (existants dans la file d’attente de réplication) sont publiés sur le portail de marque.
-Cela est vrai pour tout dossier publié à partir des ressources AEM vers le portail de marque et pour le dossier PARTAGÉ dans un dossier de contribution.
+**Réponse.** Dans AEM, l’interrogation a lieu toutes les 5 minutes.
 
 
 
-**Ques. Qui dois-je contacter en cas de questions ?**
+**Question La fréquence de publication d’un dossier de Brand Portal vers AEM Assets est-elle limitée ?**
 
-**Rép.** Contactez votre gestionnaire de compte ou le service à la clientèle Adobe.
+**Rép.onse** Non, toutes les ressources du dossier **NEW** sont publiées dans AEM Assets, qu’elles aient ou non déjà été publiées. Lorsqu'un dossier **Contribution** est publié de Brand Portal vers AEM Assets, il remplace le contenu du dossier **NEW**.
+
+
+
+**Question Comment télécharger de nouvelles ressources dans un dossier Contribution ?**
+
+**Rép.onse** Voir la documentation détaillée correspondante pour savoir comment [télécharger des ressources vers le dossier Contribution](brand-portal-upload-assets-to-contribution-folder.md).
+
+
+
+**Question Aucun aperçu ou vignette n’apparaît sur les ressources qu'un utilisateur Brand Portal a téléchargées vers le dossier NEW.**
+
+**Rép.onse** C’est tout à fait normal, car aucun processus n’est exécuté au point d’extrémité Brand Portal.
+
+
+
+**Question Que se passe-t-il si un dossier utilisé dans ce processus est publié d’AEM Assets vers Brand Portal ?**
+
+**Rép.onse** Dans AEM, les journaux sont mis à jour pour chaque publication d'un dossier dans Brand Portal. Lors de la publication, toutes les ressources non publiées dans Brand Portal sont mises en file d'attente de copie. Les fichiers ajoutés au dossier une fois la tâche de publication déclenchée ne sont pas publiés dans Brand Portal. Lorsque l’utilisateur AEM republie le dossier, seules les ressources non publiées au préalable (et présentes dans la file d’attente de copie) le sont dans Brand Portal.
+C’est le cas pour les dossiers publiés d’AEM Assets vers Brand Portal et pour le dossier SHARED d’un dossier Contribution.
+
+
+
+**Question. Qui dois-je contacter en cas de questions ?**
+
+**Réponse.** Contactez votre gestionnaire de compte ou le service à la clientèle Adobe.
 
 
 >[!NOTE]
@@ -155,4 +155,4 @@ Ces sites sont réservés aux clients. Si vous êtes client et avez besoin d’u
 
 * [](https://daycare.day.com) [Accès aux produits](https://login.marketing.adobe.com)
 
-* [Assistance clientèle d’Adobe](https://helpx.adobe.com/contact.html)
+* [Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/contact.html)
