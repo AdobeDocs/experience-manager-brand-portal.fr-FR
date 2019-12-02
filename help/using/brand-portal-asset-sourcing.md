@@ -17,7 +17,7 @@ activity: use
 audience: author, marketer
 version: 6.5
 kt: 3838
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f8d95ab1e1c17ef2cf86d0206a36134996e4fe07
 
 ---
@@ -39,12 +39,12 @@ En outre, toutes les fonctionnalités existantes restent inchangées. Les utilis
 >
 >Contactez l’assistance Adobe pour mettre à niveau votre instance d’AEM vers la dernière version d’AEM prise en charge.
 
-![Ressource du portail de marque](assets/asset-sourcing.png)
+![Approvisionnement des ressources dans Brand Portal](assets/asset-sourcing.png)
 
 ## Conditions préalables {#prerequisites}
 
-* AEM 6.5.0.2 ou version ultérieure.
-* Vérifiez que votre instance AEM Assets est intégrée à Brand Portal. Voir [Configuration de l’intégration d’AEM Assets à Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)..
+* AEM 6.5.0.2 ou version ultérieure.
+* Vérifiez que votre instance AEM Assets est intégrée à Brand Portal. Voir [Configuration de l’intégration d’AEM Assets à Brand Portal](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/brand-posrtal-configuring-integration.html).
 
 ## Voir également {#reference-articles}
 
