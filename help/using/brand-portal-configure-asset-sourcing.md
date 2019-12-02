@@ -1,29 +1,29 @@
 ---
-title: Configuration de l’origine des ressources
-seo-title: Configuration de l’origine des ressources
-description: Découvrez comment configurer la fonctionnalité de source de ressources dans AEM Assets.
-seo-description: Découvrez comment configurer la fonctionnalité de source de ressources dans AEM Assets.
+title: Configuration de l’approvisionnement des ressources
+seo-title: Configuration de l'approvisionnement des ressources
+description: Découvrez comment configurer la fonctionnalité d'approvisionnement des ressources dans AEM Assets.
+seo-description: Découvrez comment configurer la fonctionnalité d'approvisionnement des ressources dans AEM Assets.
 uuid: null
 content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: add4009bd99e5af8ed0c9ffea63647c166b7c75d
 
 ---
 
 
-# Configuration de l’origine des ressources {#configure-asset-sourcing}
+# Configuration de l'approvisionnement des ressources {#configure-asset-sourcing}
 
-Les administrateurs d’AEM peuvent configurer **l’approvisionnement** des ressources à partir de l’instance d’auteur AEM. L’administrateur active la configuration de l’indicateur de fonctionnalité Sources de ressources à partir de la configuration **de la console Web** AEM et télécharge la liste des utilisateurs actifs du portail de marque dans **AEM Assets**.
+Les administrateurs AEM peuvent configurer **l’approvisionnement des ressources** depuis l’instance d’auteur AEM. Ils activent la configuration du drapeau de la fonctionnalité d'approvisionnement des ressources depuis la **configuration de la console Web AEM** et téléchargent la liste des utilisateurs Brand Portal actifs dans **AEM Assets**.
 
 >[!NOTE]
 >
->Avant de commencer la configuration, assurez-vous que votre instance AEM Assets est intégrée à Brand Portal. See, [Configure AEM Assets integration with Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html).
+>Veillez à intégrer l’instance AEM Assets à Brand Portal avant de lancer la configuration. Voir [Configuration de l’intégration d’AEM Assets dansà Brand Portal](https://helpx.adobe.cof m/fr/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html).
 
 
-La vidéo suivante explique comment configurer l’approvisionnement en ressources sur votre instance d’auteur AEM :
+La vidéo suivante explique comment configurer l’approvisionnement des ressources sur l’instance d’auteur AEM :
 
 >[!VIDEO](https://video.tv.adobe.com/v/29771?captions=fre_fr)
 
