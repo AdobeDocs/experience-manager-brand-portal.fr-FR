@@ -7,10 +7,10 @@ uuid: ce30e398-0109-41bf-a4d2-2fcca476f499
 contentOwner: bdhar
 topic-tags: download-install
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-content-type: référencereference
+content-type: reference
 discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
-translation-type: ht
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+translation-type: tm+mt
+source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
 
@@ -29,7 +29,7 @@ L’expiration de ressources est une façon efficace de contrôler l’utilisati
 
 Dans Brand Portal, les administrateurs peuvent afficher, télécharger et ajouter des ressources expirées aux collections. En revanche, les éditeurs et les observateurs peuvent seulement afficher et ajouter des ressources expirées aux collections.
 
-Les administrateurs peuvent publier les ressources expirées sur Brand Portal à partir d’AEM Assets. Cependant, les ressources expirées ne peuvent pas être partagées par l’intermédiaire d’un lien à partir de Brand Portal. Si vous sélectionnez une ressource expirée dans un dossier contenant à la fois des ressources expirées et non expirées, l’action **[!UICONTROL Partager le lien]** n’est pas disponible. En revanche, si vous sélectionnez un dossier contenant des ressources expirées et non expirées, les actions [!UICONTROL Partager] et **[!UICONTROL Partager le lien]** sont disponibles.
+Les administrateurs peuvent publier les ressources expirées sur Brand Portal à partir d’AEM Assets. Cependant, les ressources expirées ne peuvent pas être partagées par l’intermédiaire d’un lien à partir de Brand Portal. Si vous sélectionnez une ressource expirée dans un dossier contenant à la fois des ressources expirées et non expirées, l’action **[!UICONTROL Partager le lien]**n’est pas disponible. En revanche, si vous sélectionnez un dossier contenant des ressources expirées et non expirées, les actions[!UICONTROL Partager]et**[!UICONTROL  Partager le lien]** sont disponibles.
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ Les administrateurs peuvent publier les ressources expirées sur Brand Portal �
 
 Le tableau suivant montre les autorisations d’utilisation des ressources expirées :
 
-|  | **[!UICONTROL Partager le lien]** | **[!UICONTROL Télécharger]** | **[!UICONTROL Propriétés]** | **[!UICONTROL Ajouter à la collection]** | **[!UICONTROL Supprimer]** |
+|  | **[!UICONTROL Partager le lien]** | **[!UICONTROL Téléchargement]** | **[!UICONTROL Propriétés]** | **[!UICONTROL Ajouter à la collection]** | **[!UICONTROL Supprimer]** |
 |---|---|---|---|---|---|
 | **[!UICONTROL Administrateur]** | Non disponible | Disponible | Disponible | Disponible | Disponible |
 | **[!UICONTROL Éditeur]** | Non disponible | Non disponible | Disponible | Disponible | Non disponible |
@@ -50,7 +50,7 @@ Le tableau suivant montre les autorisations d’utilisation des ressources expir
 
 ### État d’expiration des ressources {#expiration-status-of-assets}
 
-Vous pouvez voir l’état d’expiration des ressources dans leur [!UICONTROL mode Carte]. Un drapeau rouge sur la carte indique que la ressource a expiré.
+Vous pouvez voir l’état d’expiration des ressources dans leur **[!UICONTROL mode Carte]**. Un drapeau rouge sur la carte indique que la ressource a expiré.
 
 ![](assets/expired_assets_cardview.png)
 
@@ -60,7 +60,7 @@ Vous pouvez voir l’état d’expiration des ressources dans leur [!UICONTROL m
 
 ## Expiration des liens de ressources {#asset-link-expiration}
 
-Lors du partage de ressources à travers des liens, les administrateurs et les éditeurs peuvent définir une date et une heure d’expiration en utilisant le champ **[!UICONTROL Expiration]** dans la boîte de dialogue **Partage de lien[!UICONTROL .Partage de lien]**. Par défaut, le lien expire sept jours à compter de la date à laquelle il est partagé.
+Lors du partage de ressources à travers des liens, les administrateurs et les éditeurs peuvent définir une date et une heure d’expiration en utilisant le champ **[!UICONTROL Expiration]**dans la boîte de dialogue**[!UICONTROL  Partage de lien.Partage de lien]**. Par défaut, le lien expire sept jours à compter de la date à laquelle il est partagé.
 
 ![](assets/asset-link-sharing.png)
 
@@ -72,13 +72,13 @@ Pour plus d’informations sur le partage de lien, voir [Partage de ressources e
 
 Les ressources sous licence sont sujettes à l’acceptation d’un accord de licence avant leur téléchargement à partir de Brand Portal. Cet accord pour les ressources sous licence s’affiche quand vous téléchargez directement des ressources à partir de Brand Portal ou par l’intermédiaire d’un lien partagé. Qu’elles soient ou non expirées, les ressources protégées par une licence peuvent être affichées par tous les utilisateurs. Cependant, le téléchargement et l’utilisation des ressources sous licence expirées sont limités. Pour connaître le comportement des ressources sous licence expirées et des activités permises en fonction des rôles d’utilisateur, voir [Autorisations d’utilisation des ressources expirées](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
 
-Les ressources protégées par licence sont accompagnées d’un [accord de licence](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) grâce à la définition de la [propriété des métadonnées](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) des ressources dans AEM Assets.
+License-protected assets have [license agreement attached](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) to them, which is done by setting asset&#39;s [metadata property](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in AEM Assets.
 
-Si vous choisissez de télécharger des ressources protégées par une licence, vous êtes redirigé vers la page [!UICONTROL Gestion des droits d’auteur].
+Si vous choisissez de télécharger des ressources protégées par une licence, vous êtes redirigé vers la page **[!UICONTROL Gestion des droits d’auteur]**.
 
 ![](assets/asset-copyright-mgmt.png)
 
-Vous devez y sélectionner la ressource à télécharger et accepter l’accord de licence associé. Si vous n’en acceptez pas les termes, le bouton [!UICONTROL Télécharger] est désactivé.
+Vous devez y sélectionner la ressource à télécharger et accepter l’accord de licence associé. Si vous n’en acceptez pas les termes, le bouton **[!UICONTROL Télécharger]**est désactivé.
 
 ![](assets/licensed-asset-download-2.png)
 
