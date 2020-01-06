@@ -5,11 +5,11 @@ description: Explorez les ressources, parcourez les hiérarchies de ressources e
 seo-description: Explorez les ressources, parcourez les hiérarchies de ressources et recherchez des ressources grâce à diverses options de modes et d’éléments d’IU sur Brand Portal.
 uuid: 178ce217-0050-4922-a204-f4539d46f539
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-content-type: référencereference
+content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
-translation-type: ht
-source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
+translation-type: tm+mt
+source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
 
@@ -58,7 +58,7 @@ Le mode Carte affiche les cartes d’informations de chaque élément au niveau 
 * Taille
 * Dimensions
 
-Vous pouvez parcourir la hiérarchie vers le bas en appuyant ou en cliquant sur des cartes (en veillant à éviter les actions rapides) ou vers le haut en utilisant le [chemin de navigation de l’en-tête](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
+You can navigate down the hierarchy by tapping/clicking cards (taking care to avoid the quick actions) or up again by using the [breadcrumbs in the header](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
 
 ![](assets/cardquickactions.png)
 
@@ -67,7 +67,7 @@ Vous pouvez parcourir la hiérarchie vers le bas en appuyant ou en cliquant sur 
 En mode Carte, les cartes de dossiers affichent les informations sur la hiérarchie des dossiers d’affichage aux utilisateurs non-administrateurs (éditeur, observateur et utilisateur invité). Cette fonctionnalité permet aux utilisateurs de connaître l’emplacement des dossiers auxquels ils accèdent par rapport à la hiérarchie parente.
 Les informations sur la hiérarchie de dossiers sont particulièrement utiles pour différencier des dossiers portant des noms similaires à d’autres dossiers partagés à partir d’une hiérarchie de dossiers distincte. Si les utilisateurs non-administrateurs ne connaissent pas la structure de dossiers des ressources partagées avec eux, les ressources/dossiers aux noms similaires peuvent paraître déroutants.
 
-* Les chemins affichés sur les cartes respectives sont tronqués pour s’adapter à la taille des cartesde celles-ci. Toutefois, les utilisateurs peuvent afficher le chemin complet sous la forme d’une info-bulle en passant le pointeur de la souris sur le chemin tronqué.
+* Les chemins affichés sur les cartes respectives sont tronqués pour s’adapter à la taille de celles-ci. Toutefois, les utilisateurs peuvent afficher le chemin complet sous la forme d’une info-bulle en passant le pointeur de la souris sur le chemin tronqué.
 
 ![](assets/folder-hierarchy1.png)
 
@@ -78,7 +78,7 @@ L’option Aperçu est proposée aux utilisateurs non-administrateurs (éditeurs
 * dans la barre d’outils supérieure lors de la sélection d’une ressource/d’un dossier ;
 * dans le menu déroulant, lors de la sélection du sélecteur de rail.
 
-S’ils choisissent l’option [!UICONTROL Aperçu] lorsqu’une ressource/un dossier est sélectionné, les utilisateurs peuvent voir le titre, le chemin et l’heure de création de la ressource. En revanche, sur la page des détails de la ressource, l’option Aperçu permet aux utilisateurs d’afficher les métadonnées de la ressource.
+S’ils choisissent l’option **[!UICONTROL Aperçu]**lorsqu’une ressource/un dossier est sélectionné, les utilisateurs peuvent voir le titre, le chemin et l’heure de création de la ressource. En revanche, sur la page des détails de la ressource, l’option Aperçu permet aux utilisateurs d’afficher les métadonnées de la ressource.
 
 ![](assets/overview-option.png)
 
@@ -86,7 +86,7 @@ S’ils choisissent l’option [!UICONTROL Aperçu] lorsqu’une ressource/un do
 
 #### Paramètres d’affichage en mode Carte
 
-La boîte de dialogue [!UICONTROL Paramètres d’affichage] s’ouvre lors de la sélection de l’option **[!UICONTROL Paramètres d’affichage]** dans le sélecteur de mode. Elle vous permet de redimensionner les miniatures des ressources en mode Carte. De cette façon, vous pouvez personnaliser votre affichage et contrôler le nombre de miniatures affichées.
+La boîte de dialogue **[!UICONTROL Paramètres d’affichage]**s’ouvre lors de la sélection de l’option**[!UICONTROL  Paramètres d’affichage]** dans le sélecteur de mode. Elle vous permet de redimensionner les miniatures des ressources en mode Carte. De cette façon, vous pouvez personnaliser votre affichage et contrôler le nombre de miniatures affichées.
 
 ![](assets/cardviewsettings.png)
 
@@ -107,7 +107,7 @@ Le mode Liste répertorie les informations pour chaque ressource au niveau actue
 * Chemin du dossier présentant la hiérarchie des ressources<sup>*</sup>
 * Date de publication de cette ressource sur Brand Portal
 
-* La colonne Chemin vous permet d’identifier facilement l’emplacement des ressources dans la hiérarchie de dossiers. Vous pouvez naviguer vers le bas de la hiérarchie en appuyant/cliquant sur le nom de la ressource, puis revenir vers le haut à l’aide des [chemins de navigation de l’en-tête](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
+La colonne Chemin permet d’identifier facilement l’emplacement des fichiers dans la hiérarchie de dossiers. You can navigate down the hierarchy by tapping/clicking the resource name, and back up by using the [breadcrumbs in the header](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Tap/click the vertical selection bar and drag the item to a new position in the list."
@@ -115,7 +115,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### Paramètres d’affichage en mode Liste
 
-Le mode Liste affiche le [!UICONTROL Nom] des ressources comme première colonne par défaut. Des informations complémentaires, telles que le [!UICONTROL Titre], les [!UICONTROL Paramètres régionaux], le [!UICONTROL Type], les [!UICONTROL Dimensions], la [!UICONTROL Taille], l’[!UICONTROL Évaluation] et l’état de publication de la ressource, sont également affichées. Vous pouvez toutefois choisir les colonnes à afficher à l’aide de [!UICONTROL Paramètres d’affichage].
+Le mode Liste affiche le **[!UICONTROL Nom]**des ressources comme première colonne par défaut. Des informations complémentaires, telles que le**[!UICONTROL  Titre]**, les **[!UICONTROL Paramètres régionaux]**, le**[!UICONTROL  Type]**, les **[!UICONTROL Dimensions]**, la**[!UICONTROL  Taille]**, l’**[!UICONTROL Évaluation]**et l’état de publication de la ressource, sont également affichées. Vous pouvez toutefois choisir les colonnes à afficher à l’aide de**[!UICONTROL  Paramètres d’affichage]**.
 
 ![](assets/list-view-setting.png)
 
@@ -232,7 +232,7 @@ Comment Type: draft
 
 En plus de ces vues, utilisez l’arborescence pour descendre dans la hiérarchie de ressources lorsque vous affichez et sélectionnez les ressources ou dossiers de votre choix.
 
-Pour ouvrir l’arborescence, appuyez/cliquez sur le sélecteur de rail en haut à gauche et sélectionnez **[!UICONTROL Arborescence de contenu]** dans le menu.
+Pour ouvrir l’arborescence, appuyez/cliquez sur le sélecteur de rail en haut à gauche et sélectionnez **[!UICONTROL Arborescence de contenu]**dans le menu.
 
 ![](assets/contenttree.png)
 
@@ -254,7 +254,7 @@ Vous pouvez afficher tous les rendus disponibles de la ressource sur la page Dé
 
 ![](assets/renditions.png)
 
-Pour ouvrir la page des propriétés de la ressource, utilisez l’option **[!UICONTROL Propriétés (p)]** de la barre supérieure.
+Pour ouvrir la page des propriétés de la ressource, utilisez l’option **[!UICONTROL Propriétés (p)]**de la barre supérieure.
 
 ![](assets/asset-properties.png)
 
