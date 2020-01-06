@@ -4,12 +4,12 @@ seo-title: Utilisation du formulaire de schéma de métadonnées
 description: Un schéma de métadonnées décrit la disposition de la page Propriétés et des propriétés de métadonnées affichées pour les ressources qui utilisent ce schéma en particulier. Le schéma que vous appliquez à une ressource détermine les champs de métadonnées qui s’affichent sur sa page Propriétés.
 seo-description: Un schéma de métadonnées décrit la disposition de la page Propriétés et des propriétés de métadonnées affichées pour les ressources qui utilisent ce schéma en particulier. Le schéma que vous appliquez à une ressource détermine les champs de métadonnées qui s’affichent sur sa page Propriétés.
 uuid: 1a944a3b-5152-425f-b1ea-bfe3331de928
-content-type: référencereference
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
-translation-type: ht
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+translation-type: tm+mt
+source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 Un schéma de métadonnées décrit la disposition de la page Propriétés et des propriétés de métadonnées affichées pour les ressources qui utilisent ce schéma en particulier. Le schéma que vous appliquez à une ressource détermine les champs de métadonnées qui s’affichent sur sa page Propriétés.
 
-La page **[!UICONTROL Propriétés]** de chaque ressource comprend des propriétés de métadonnées par défaut selon le type MIME de la ressource. Les administrateurs peuvent utiliser l’éditeur de schéma de métadonnées pour modifier des schémas existants ou ajouter des schémas de métadonnées personnalisés. AEM Assets Brand Portal propose des formulaires par défaut pour les ressources avec différents types MIME. Cependant, vous pouvez également ajouter des formulaires personnalisés pour ces ressources.
+La page **[!UICONTROL Propriétés]**de chaque ressource comprend des propriétés de métadonnées par défaut selon le type MIME de la ressource. Les administrateurs peuvent utiliser l’éditeur de schéma de métadonnées pour modifier des schémas existants ou ajouter des schémas de métadonnées personnalisés. AEM Assets Brand Portal propose des formulaires par défaut pour les ressources avec différents types MIME. Cependant, vous pouvez également ajouter des formulaires personnalisés pour ces ressources.
 
 ## Ajout d’un formulaire de schéma de métadonnées {#add-a-metadata-schema-form}
 
@@ -32,11 +32,11 @@ Pour créer un formulaire de schéma de métadonnées, procédez comme suit :
 
    ![](assets/navigation-panel.png)
 
-1. Sur la page **[!UICONTROL Formulaires de schéma de métadonnées]**, cliquez sur **[!UICONTROL Créer]**.
+1. Dans la page **[!UICONTROL Formulaires de schéma de métadonnées]**, cliquez sur**[!UICONTROL  Créer]**.
 
    ![](assets/create-metadata-schema-form.png)
 
-1. Dans la boîte de dialogue **[!UICONTROL Créer un formulaire de schéma]**, indiquez le titre du formulaire de schéma, puis cliquez sur **[!UICONTROL Créer]** pour terminer la création du formulaire.
+1. Dans la boîte de dialogue **[!UICONTROL Créer un formulaire de schéma]**, indiquez le titre du formulaire de schéma, puis cliquez sur **[!UICONTROL  Créer]** pour terminer la création du formulaire.
 
    ![](assets/create-schema-form.png)
 
@@ -53,7 +53,7 @@ Pour modifier un formulaire de schéma de métadonnées, procédez comme suit :
    ![](assets/aemlogo.png)
 
 1. Dans le panneau des outils d’administration, cliquez sur **[!UICONTROL Schémas de métadonnées]**.
-1. Dans la page **[!UICONTROL Formulaires de schéma de métadonnées]**, sélectionnez un formulaire de schéma pour modifier ses propriétés, par exemple, **[!UICONTROL collection]**.
+1. Dans la page **[!UICONTROL Formulaires de schéma de métadonnées]**, sélectionnez un formulaire de schéma pour modifier ses propriétés, par exemple,**[!UICONTROL  collection]**.
 
    ![](assets/metadata-schema-forms.png)
 
@@ -63,9 +63,9 @@ Pour modifier un formulaire de schéma de métadonnées, procédez comme suit :
 
 1. Dans la barre d’outils supérieure, cliquez sur **[!UICONTROL Modifier]**.
 
-   La page **[!UICONTROL Éditeur de schéma de métadonnées]** s’ouvre avec l’onglet **[!UICONTROL De base]** affiché à gauche et l’onglet **[!UICONTROL Créer le formulaire]** affiché à droite.
+   La page **[!UICONTROL Éditeur de schéma de métadonnées]**s’ouvre avec l’onglet**[!UICONTROL  De base]** affiché à gauche et l’onglet **[!UICONTROL Créer le formulaire]**affiché à droite.
 
-1. Sur la page **[!UICONTROL Éditeur de schéma de métadonnées]**, personnalisez la page **[!UICONTROL Propriétés]** de la ressource en faisant glisser un ou plusieurs composants de la liste des types de composants dans le sous-onglet **[!UICONTROL Créer le formulaire]** vers l’onglet **[!UICONTROL De base]**.
+1. Sur la page **[!UICONTROL Éditeur de schéma de métadonnées]**, personnalisez la page**[!UICONTROL  Propriétés]** de la ressource en faisant glisser un ou plusieurs composants de la liste des types de composants dans le sous-onglet **[!UICONTROL Créer le formulaire]** vers l’onglet**[!UICONTROL  De base]**.
 
    ![](assets/metadata-schemaeditor-page.png)
 
@@ -73,23 +73,23 @@ Pour modifier un formulaire de schéma de métadonnées, procédez comme suit :
 
 ### Composants de l’onglet Créer le formulaire {#components-in-the-build-form-tab}
 
-L’onglet **[!UICONTROL Créer le formulaire]** répertorie les éléments que vous pouvez utiliser dans votre formulaire de schéma. L’onglet **[!UICONTROL Paramètres]** contient les attributs de chaque élément sélectionné dans l’onglet **[!UICONTROL Créer le formulaire]**. Le tableau suivant répertorie les éléments de formulaire disponibles dans l’onglet **[!UICONTROL Créer le formulaire]** :
+L’onglet **[!UICONTROL Créer le formulaire]**répertorie les éléments que vous pouvez utiliser dans votre formulaire de schéma. L’onglet**[!UICONTROL  Paramètres]** contient les attributs de chaque élément sélectionné dans l’onglet **[!UICONTROL Créer le formulaire]**. Le tableau suivant répertorie les éléments de formulaire disponibles dans l’onglet**[!UICONTROL  Créer le formulaire]** :
 
 | Nom du composant | Description |
 |---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL En-tête de section] | Permet d’ajouter un en-tête de section pour une liste de composants communs. |
-| [!UICONTROL Une seule ligne de texte] | Permet d’ajouter une propriété d’une seule ligne de texte. Il est stocké sous la forme d’une chaîne. |
-| [!UICONTROL Texte à plusieurs valeurs] | Permet d’ajouter une propriété de texte à plusieurs valeurs. Il est stocké sous la forme d’une table de chaînes. |
-| [!UICONTROL Nombre] | Permet d’ajouter un composant de nombre. |
-| [!UICONTROL Date] | Permet d’ajouter un composant de date. |
-| [!UICONTROL Liste déroulante] | Permet d’ajouter une liste déroulante. |
-| [!UICONTROL Balises standard] | Permet d’ajouter une balise. **Remarque** : il se peut que les administrateurs doivent modifier la valeur de chemin, par exemple `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`, s’ils publient le formulaire de schéma de métadonnées à partir d’AEM, où le chemin d’accès n’inclut pas les informations du client comme `/etc/tags/<custom_tag_namespace>`. |
-| [!UICONTROL Balises intelligentes] | Balises détectées automatiquement si vous avez acheté et configuré le module complémentaire des balises intelligentes AEM. |
-| [!UICONTROL Champ masqué] | Permet d’ajouter un champ masqué. Il est envoyé en tant que paramètre POST lorsque la ressource est enregistrée. |
-| [!UICONTROL Ressource référencée par] | Ajoutez ce composant pour afficher la liste des ressources référencées par la ressource. |
-| [!UICONTROL Référencement des ressources] | Ajoutez ce composant pour afficher la liste des ressources qui référencent la ressource. |
-| [!UICONTROL Évaluation des ressources] | Évaluation moyenne d’une ressource ajoutée à partir d’AEM Assets avant sa publication sur Brand Portal. |
-| [!UICONTROL Métadonnées contextuelles] | Ajoutez ce composant pour contrôler l’affichage des autres onglets de métadonnées dans la page Propriétés des ressources. |
+| **[!UICONTROL En-tête de section]** | Permet d’ajouter un en-tête de section pour une liste de composants communs. |
+| **[!UICONTROL Une seule ligne de texte]** | Permet d’ajouter une propriété d’une seule ligne de texte. Il est stocké sous la forme d’une chaîne. |
+| **[!UICONTROL Texte à plusieurs valeurs]** | Permet d’ajouter une propriété de texte à plusieurs valeurs. Il est stocké sous la forme d’une table de chaînes. |
+| **[!UICONTROL Nombre]** | Permet d’ajouter un composant de nombre. |
+| **[!UICONTROL Date]** | Permet d’ajouter un composant de date. |
+| **[!UICONTROL Liste déroulante]** | Permet d’ajouter une liste déroulante. |
+| **[!UICONTROL Balises standard]** | Permet d’ajouter une balise. **Remarque** : il se peut que les administrateurs doivent modifier la valeur de chemin, par exemple `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`, s’ils publient le formulaire de schéma de métadonnées à partir d’AEM, où le chemin d’accès n’inclut pas les informations du client comme `/etc/tags/<custom_tag_namespace>`. |
+| **[!UICONTROL Balises intelligentes]** | Balises détectées automatiquement si vous avez acheté et configuré le module complémentaire des balises intelligentes AEM. |
+| **[!UICONTROL Champ masqué]** | Permet d’ajouter un champ masqué. Il est envoyé en tant que paramètre POST lorsque la ressource est enregistrée. |
+| **[!UICONTROL Ressource référencée par]** | Ajoutez ce composant pour afficher la liste des ressources référencées par la ressource. |
+| **[!UICONTROL Référencement des ressources]** | Ajoutez ce composant pour afficher la liste des ressources qui référencent la ressource. |
+| **[!UICONTROL Évaluation des ressources]** | Évaluation moyenne d’une ressource ajoutée à partir d’AEM Assets avant sa publication sur Brand Portal. |
+| **[!UICONTROL Métadonnées contextuelles]** | Ajoutez ce composant pour contrôler l’affichage des autres onglets de métadonnées dans la page Propriétés des ressources. |
 
 >[!NOTE]
 >
@@ -97,17 +97,17 @@ L’onglet **[!UICONTROL Créer le formulaire]** répertorie les éléments que 
 
 #### Modification du composant de métadonnées {#edit-the-metadata-component}
 
-Pour modifier les propriétés d’un composant de métadonnées dans le formulaire, cliquez sur le composant et modifiez ses propriétés dans l’onglet **[!UICONTROL Paramètres]**.
+Pour modifier les propriétés d&#39;un composant de métadonnées dans le formulaire, cliquez sur le composant et modifiez ses propriétés dans l&#39;onglet **[!UICONTROL Paramètres]**.
 
-* **[!UICONTROL Libellé du champ]** : nom de la propriété de métadonnées affiché dans la page Propriétés de la ressource.
+* **[!UICONTROL Libellé du champ]** : nNom de la propriété de métadonnées affiché dans la page Propriétés de la ressource.
 
 * **[!UICONTROL Associer à la propriété]** : la valeur de cette propriété fournit le chemin ou nom relatif du nœud de ressource où elle est enregistrée dans le référentiel CRX. Elle commence par « **./** », car elle indique que le chemin se trouve sous le nœud de la ressource.
 
 Les valeurs admises pour cette propriété sont les suivantes :
 
--- [!UICONTROL `./jcr:content/metadata/dc:title`] : stocke la valeur dans le nœud de métadonnées de la ressource en tant que propriété [!UICONTROL `dc:title`].
+-- `./jcr:content/metadata/dc:title`  : stocke la valeur dans le nœud de métadonnées de la ressource en tant que propriété [!UICONTROL `dc:title`].
 
--- [!UICONTROL `./jcr:created`] : affiche la propriété JCR au niveau du nœud de la ressource. Si vous configurez ces propriétés dans Afficher les propriétés, nous vous recommandons de les marquer avec l’état Désactiver la modification, car elles sont protégées. Dans le cas contraire, l’erreur « Échec de modification des ressources » est générée lorsque vous enregistrez les propriétés de la ressource.
+-- `./jcr:created` : affiche la propriété JCR au niveau du nœud de la ressource. Si vous configurez ces propriétés dans Afficher les propriétés, nous vous recommandons de les marquer avec l’état Désactiver la modification, car elles sont protégées. Dans le cas contraire, l’erreur « Échec de modification des ressources » est générée lorsque vous enregistrez les propriétés de la ressource.
 
 * **[!UICONTROL Espace réservé]** : utilisez cette propriété pour fournir à l’utilisateur des informations utiles concernant la propriété des métadonnées.
 * **[!UICONTROL Obligatoire]** : utilisez cette propriété pour marquer une propriété de métadonnées comme étant obligatoire dans la page Propriétés.
@@ -124,19 +124,19 @@ Les valeurs admises pour cette propriété sont les suivantes :
 
 #### Ajout ou suppression d’un onglet dans le formulaire de schéma {#add-or-delete-a-tab-in-the-schema-form}
 
-Le formulaire de schéma par défaut contient les onglets **[!UICONTROL De base]** et **[!UICONTROL Avancé]**. L’éditeur de schéma vous permet d’ajouter ou de supprimer un onglet.
+Le formulaire de schéma par défaut contient les onglets **[!UICONTROL De base]** et **[!UICONTROL  Avancé]**. L’éditeur de schéma vous permet d’ajouter ou de supprimer un onglet.
 
 ![](assets/add_delete_tabs_metadataschemaform.png)
 
-* Pour ajouter un nouvel onglet dans un formulaire de schéma, cliquez sur **[!UICONTROL +]**. Par défaut, le nouvel onglet porte le nom « Sans nom -1 ». Vous pouvez modifier le nom à partir de l’onglet **[!UICONTROL Paramètres]**.
+* Pour ajouter un nouvel onglet dans un formulaire de schéma, cliquez sur **[!UICONTROL +]**. Par défaut, le nouvel onglet porte le nom « Sans nom -1 ». Vous pouvez modifier le nom à partir de l&#39;onglet**[!UICONTROL  Paramètres]**.
 
 ![](assets/add-tab-metadata-form.png)
 
-* Pour supprimer un onglet, cliquez sur **[!UICONTROL x]**. Cliquez sur **[!UICONTROL Enregistrer]** pour enregistrer les modifications.
+* Pour supprimer un onglet, cliquez sur **[!UICONTROL x]**. Cliquez sur **[!UICONTROL  Enregistrer]**  pour enregistrer les modifications.
 
-## Application d’un schéma de métadonnées à un dossier {#apply-a-metadata-schema-to-a-folder}
+## Application d’un schéma de métadonnées à un dossier   {#apply-a-metadata-schema-to-a-folder}
 
-Brand Portal permet de personnaliser et de contrôler le schéma de métadonnées afin que la page [!UICONTROL Propriétés] d’une ressource n’affiche que les informations spécifiques que vous souhaitez montrer. Pour contrôler les métadonnées affichées dans la page [!UICONTROL Propriétés], supprimez les métadonnées requises du formulaire de schéma de métadonnées et appliquez-les au dossier spécifique.
+Brand Portal permet de personnaliser et de contrôler le schéma de métadonnées afin que la page **[!UICONTROL Propriétés]**d’une ressource n’affiche que les informations spécifiques que vous souhaitez montrer. Pour contrôler les métadonnées affichées dans la page**[!UICONTROL  Propriétés]**, supprimez les métadonnées requises du formulaire de schéma de métadonnées et appliquez-les au dossier spécifique.
 
 Pour appliquer un formulaire de schéma de métadonnées à un dossier, procédez comme suit :
 
@@ -146,19 +146,19 @@ Pour appliquer un formulaire de schéma de métadonnées à un dossier, procéde
 
 1. Dans le panneau des outils d’administration, cliquez sur **[!UICONTROL Schémas de métadonnées]**.
 
-1. Dans la page **[!UICONTROL Formulaires de schéma de métadonnées]**, sélectionnez le formulaire de schéma que vous souhaitez appliquer à une ressource, par exemple [!UICONTROL vêtements].
+1. Dans la page **[!UICONTROL Formulaires de schéma de métadonnées]**, sélectionnez le formulaire de schéma que vous souhaitez appliquer à une ressource, par exemple**[!UICONTROL  vêtements]**.
 
    ![](assets/apply-metadata-schema-form-to-folder.png)
 
 1. Dans la barre d’outils supérieure, cliquez sur **[!UICONTROL Appliquer au(x) dossier(s)]**.
 
-1. Dans la page **[!UICONTROL Sélectionner le(s) dossier(s)]**, accédez au dossier auquel vous souhaitez appliquer le schéma de métadonnées **[!UICONTROL vêtements]**, par exemple **[!UICONTROL Gants]**.
+1. Dans la page **[!UICONTROL Sélectionner le(s) dossier(s)]**, accédez au dossier auquel vous souhaitez appliquer le schéma de métadonnées**[!UICONTROL  vêtements]**, par exemple **[!UICONTROL gants]**.
 
    ![](assets/apply_metadata_schemaformtofoldergloves.png)
 
-1. Cliquez sur **[!UICONTROL Appliquer]** pour appliquer le formulaire de schéma de métadonnées au dossier.
+1. Cliquez sur **[!UICONTROL Appliquer]**pour appliquer le formulaire de schéma de métadonnées au dossier.
 
-   Les métadonnées disponibles dans le formulaire de schéma de métadonnées **[!UICONTROL vêtements]** sont appliquées au dossier **[!UICONTROL Gants]** et visibles dans la page **[!UICONTROL Propriétés]** du dossier.
+   Les métadonnées disponibles dans le formulaire de schéma de métadonnées **[!UICONTROL vêtements]**sont appliquées au dossier**[!UICONTROL  Gants]** et visibles dans la page **[!UICONTROL Propriétés]**du dossier.
 
    ![](assets/folder_metadata_properties.png)
 
@@ -176,9 +176,9 @@ Pour supprimer un formulaire, sélectionnez-le puis cliquez sur l’icône **[!U
 
 >[!NOTE]
 >
->Après avoir supprimé les modifications personnalisées apportées à un formulaire par défaut, le symbole représentant un **[!UICONTROL cadenas]** réapparaît devant le nom de ce formulaire dans l’interface Schéma de métadonnées pour indiquer que l’état par défaut du formulaire a été rétabli.
+>Après avoir supprimé les modifications personnalisées apportées à un formulaire par défaut, le symbole représentant un **[!UICONTROL cadenas]**réapparaît devant le nom de ce formulaire dans l’interface Schéma de métadonnées pour indiquer que l’état par défaut du formulaire a été rétabli.
 
-## Formulaires de schéma pour les types MIME {#schema-forms-for-mime-types}
+## Formulaires de schéma pour les types MIME   {#schema-forms-for-mime-types}
 
 ### Ajout de formulaires pour les types MIME {#adding-new-forms-for-mime-types}
 
@@ -188,7 +188,7 @@ En plus des formulaires par défaut, vous pouvez ajouter des formulaires personn
 
 Vous pouvez utiliser un modèle existant pour un autre type MIME. Utilisez par exemple le formulaire **image/jpeg** pour les ressources du type MIME **image/png**.
 
-Dans ce cas, créez un nœud sous [!UICONTROL `/etc/dam/metadataeditor/mimetypemappings`] dans le référentiel CRX. Indiquez un nom pour le nœud et définissez les propriétés suivantes  :
+Dans ce cas, créez un nœud sous [!UICONTROL `/etc/dam/metadataeditor/mimetypemappings`] dans le référentiel CRX. Indiquez un nom pour le nœud et définissez les propriétés suivantes  :
 
 | **Nom** | **Type** | **Valeur** |
 |---|---|---|
