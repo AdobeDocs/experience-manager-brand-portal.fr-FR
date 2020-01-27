@@ -8,7 +8,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
@@ -48,7 +48,7 @@ Vous pouvez afficher, parcourir et sélectionner (pour une action ultérieure) v
 
 ![](assets/card-view.png)
 
-Le mode Carte affiche les cartes d’informations de chaque élément au niveau actuel. Ces cartes présentent les informations suivantes :
+Le mode Carte affiche les cartes d’informations de chaque élément au niveau actuel. Ces cartes présentent   les informations suivantes :
 
 * Représentation visuelle de la ressource/du dossier.
 * Type
@@ -58,7 +58,7 @@ Le mode Carte affiche les cartes d’informations de chaque élément au niveau 
 * Taille
 * Dimensions
 
-You can navigate down the hierarchy by tapping/clicking cards (taking care to avoid the quick actions) or up again by using the [breadcrumbs in the header](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
+Vous pouvez parcourir la hiérarchie vers le bas en appuyant ou en cliquant sur des cartes (en veillant à éviter les actions rapides) ou vers le haut en utilisant le [chemin de navigation de l’en-tête](https://helpx.adobe.com/fr/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
 
 ![](assets/cardquickactions.png)
 
@@ -107,7 +107,7 @@ Le mode Liste répertorie les informations pour chaque ressource au niveau actue
 * Chemin du dossier présentant la hiérarchie des ressources<sup>*</sup>
 * Date de publication de cette ressource sur Brand Portal
 
-La colonne Chemin permet d’identifier facilement l’emplacement des fichiers dans la hiérarchie de dossiers. You can navigate down the hierarchy by tapping/clicking the resource name, and back up by using the [breadcrumbs in the header](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
+La colonne Chemin vous permet d’identifier facilement l’emplacement des ressources dans la hiérarchie de dossiers. Vous pouvez naviguer vers le bas de la hiérarchie en appuyant/cliquant sur le nom de la ressource, puis revenir vers le haut à l’aide des [chemins de navigation de l’en-tête](https://helpx.adobe.com/fr/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Tap/click the vertical selection bar and drag the item to a new position in the list."
@@ -228,7 +228,7 @@ Comment Type: draft
 <p>In all views, all items can be deselected by tapping escape on the keyboard if you are using a desktop device.</p>
 -->
 
-## Arborescence de contenu {#content-tree}
+## Arborescence de contenu   {#content-tree}
 
 En plus de ces vues, utilisez l’arborescence pour descendre dans la hiérarchie de ressources lorsque vous affichez et sélectionnez les ressources ou dossiers de votre choix.
 
@@ -240,7 +240,7 @@ Dans la hiérarchie de contenu, accédez à la ressource de votre choix.
 
 ![](assets/content-tree.png)
 
-## Détails de la ressource {#asset-details}
+## Détails de la ressource   {#asset-details}
 
 La page Détails de la ressource permet d’afficher une ressource, de la télécharger, de partager son lien, de la déplacer vers une collection ou d’afficher sa page de propriétés. Elle vous permet également de parcourir la page de détails d’autres ressources au sein du même dossier, l’une après l’autre.
 
