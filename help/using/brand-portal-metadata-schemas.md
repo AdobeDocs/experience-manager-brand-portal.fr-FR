@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
@@ -99,20 +99,20 @@ L’onglet **[!UICONTROL Créer le formulaire]**répertorie les éléments que v
 
 Pour modifier les propriétés d&#39;un composant de métadonnées dans le formulaire, cliquez sur le composant et modifiez ses propriétés dans l&#39;onglet **[!UICONTROL Paramètres]**.
 
-* **[!UICONTROL Libellé du champ]** : nNom de la propriété de métadonnées affiché dans la page Propriétés de la ressource.
+* **[!UICONTROL Libellé du champ]** : nom de la propriété de métadonnées affiché dans la page Propriétés de la ressource.
 
 * **[!UICONTROL Associer à la propriété]** : la valeur de cette propriété fournit le chemin ou nom relatif du nœud de ressource où elle est enregistrée dans le référentiel CRX. Elle commence par « **./** », car elle indique que le chemin se trouve sous le nœud de la ressource.
 
 Les valeurs admises pour cette propriété sont les suivantes :
 
--- `./jcr:content/metadata/dc:title`  : stocke la valeur dans le nœud de métadonnées de la ressource en tant que propriété [!UICONTROL `dc:title`].
+-- `./jcr:content/metadata/dc:title` : stocke la valeur dans le nœud de métadonnées de la ressource en tant que propriété [!UICONTROL `dc:title`].
 
 -- `./jcr:created` : affiche la propriété JCR au niveau du nœud de la ressource. Si vous configurez ces propriétés dans Afficher les propriétés, nous vous recommandons de les marquer avec l’état Désactiver la modification, car elles sont protégées. Dans le cas contraire, l’erreur « Échec de modification des ressources » est générée lorsque vous enregistrez les propriétés de la ressource.
 
 * **[!UICONTROL Espace réservé]** : utilisez cette propriété pour fournir à l’utilisateur des informations utiles concernant la propriété des métadonnées.
-* **[!UICONTROL Obligatoire]** : utilisez cette propriété pour marquer une propriété de métadonnées comme étant obligatoire dans la page Propriétés.
-* **[!UICONTROL Désactiver la modification]** : utilisez cette propriété pour rendre une propriété de métadonnées non modifiable dans la page Propriétés.
-* **[!UICONTROL Afficher le champ vide en lecture seule]** : utilisez cette propriété pour afficher une propriété de métadonnées dans la page Propriétés même si elle ne possède pas de valeur. Par défaut, lorsqu’une propriété de métadonnées ne possède pas de valeur, elle n’est pas répertoriée dans la page Propriétés.
+* **[!UICONTROL Obligatoire]** : utilisez cette propriété pour marquer une propriété de métadonnées comme étant obligatoire sur la page Propriétés.
+* **[!UICONTROL Désactiver la modification]** : utilisez cette propriété pour rendre une propriété de métadonnées non modifiable sur la page Propriétés.
+* **[!UICONTROL Afficher le champ vide en lecture seule]** : utilisez cette propriété pour afficher une propriété de métadonnées sur la page Propriétés même si elle ne possède pas de valeur. Par défaut, lorsqu’une propriété de métadonnées ne possède pas de valeur, elle n’est pas répertoriée dans la page Propriétés.
 * **[!UICONTROL Description]** : utilisez cette propriété pour ajouter une brève description pour le composant de métadonnées.
 * **[!UICONTROL Icône Supprimer]** : cliquez sur cette icône pour supprimer un composant du formulaire de schéma.
 
@@ -132,7 +132,7 @@ Le formulaire de schéma par défaut contient les onglets **[!UICONTROL De base]
 
 ![](assets/add-tab-metadata-form.png)
 
-* Pour supprimer un onglet, cliquez sur **[!UICONTROL x]**. Cliquez sur **[!UICONTROL  Enregistrer]**  pour enregistrer les modifications.
+* Pour supprimer un onglet, cliquez sur **[!UICONTROL x]**. Cliquez sur**[!UICONTROL  Enregistrer]** pour enregistrer les modifications.
 
 ## Application d’un schéma de métadonnées à un dossier   {#apply-a-metadata-schema-to-a-folder}
 
@@ -166,7 +166,7 @@ Pour appliquer un formulaire de schéma de métadonnées à un dossier, procéde
 >
 >Si vous appliquez un schéma qui comporte des schémas imbriqués à un dossier contenant des fichiers vidéo, les propriétés de métadonnées des fichiers vidéo peuvent ne pas s’afficher correctement. Pour veiller à ce que les propriétés de métadonnées s’affichent correctement, supprimez les schémas imbriqués et appliquez uniquement le schéma parent au dossier.
 
-## Suppression d’un formulaire de schéma de métadonnées {#delete-a-metadata-schema-form}
+## Suppression d’un formulaire de schéma de métadonnées   {#delete-a-metadata-schema-form}
 
 Brand Portal vous permet uniquement de supprimer des formulaires de schéma personnalisés. Il ne vous permet pas de supprimer les formulaires/modèles de schéma par défaut. Cependant, vous pouvez supprimer toutes les modifications personnalisées dans ces formulaires.
 
@@ -178,7 +178,7 @@ Pour supprimer un formulaire, sélectionnez-le puis cliquez sur l’icône **[!U
 >
 >Après avoir supprimé les modifications personnalisées apportées à un formulaire par défaut, le symbole représentant un **[!UICONTROL cadenas]**réapparaît devant le nom de ce formulaire dans l’interface Schéma de métadonnées pour indiquer que l’état par défaut du formulaire a été rétabli.
 
-## Formulaires de schéma pour les types MIME   {#schema-forms-for-mime-types}
+## Formulaires de schéma pour les types MIME     {#schema-forms-for-mime-types}
 
 ### Ajout de formulaires pour les types MIME {#adding-new-forms-for-mime-types}
 
