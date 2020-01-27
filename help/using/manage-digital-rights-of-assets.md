@@ -9,7 +9,7 @@ topic-tags: download-install
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
@@ -48,7 +48,7 @@ Le tableau suivant montre les autorisations d’utilisation des ressources expir
 >
 >Si les observateurs et les éditeurs téléchargent un dossier contenant des ressources expirées et non expirées, seules les ressources non expirées sont téléchargées. Si un dossier contient seulement des ressources expirées, un dossier vide est téléchargé.
 
-### État d’expiration des ressources {#expiration-status-of-assets}
+### État d’expiration des ressources   {#expiration-status-of-assets}
 
 Vous pouvez voir l’état d’expiration des ressources dans leur **[!UICONTROL mode Carte]**. Un drapeau rouge sur la carte indique que la ressource a expiré.
 
@@ -58,21 +58,21 @@ Vous pouvez voir l’état d’expiration des ressources dans leur **[!UICONTROL
 >
 >Les modes Liste et Colonnes n’indiquent pas l’état d’expiration des ressources.
 
-## Expiration des liens de ressources {#asset-link-expiration}
+## Expiration des liens de ressources   {#asset-link-expiration}
 
-Lors du partage de ressources à travers des liens, les administrateurs et les éditeurs peuvent définir une date et une heure d’expiration en utilisant le champ **[!UICONTROL Expiration]**dans la boîte de dialogue**[!UICONTROL  Partage de lien.Partage de lien]**. Par défaut, le lien expire sept jours à compter de la date à laquelle il est partagé.
+Lors du partage de ressources par le biais de liens, les administrateurs et les éditeurs peuvent définir une date et une heure d’expiration en utilisant le champ **[!UICONTROL Expiration]**dans la boîte de dialogue**[!UICONTROL  Partage de lien]**. Par défaut, le lien expire sept jours à compter de la date à laquelle il est partagé.
 
 ![](assets/asset-link-sharing.png)
 
 Cela assure que des ressources partagées via des liens expirent aux date et heure définies par les administrateurs et les éditeurs Brand Portal, et qu’elles ne peuvent plus être affichées ni téléchargées au-delà de la date d’expiration. Les ressources partagées par des liens pouvant également être affichées par les utilisateurs externes qui ne font pas partie de l’organisation, la spécification de l’expiration vous permet de vous assurer que vos ressources approuvées sont protégées et ne sont pas exposées à des entités inconnues au-delà d’une période spécifique.
 
-Pour plus d’informations sur le partage de lien, voir [Partage de ressources en tant que sous la forme de lien](../using/brand-portal-link-share.md).
+Pour plus d’informations sur le partage de lien, voir [Partage de ressources en tant que lien](../using/brand-portal-link-share.md).
 
 ## Ressources sous licence {#licensed-assets}
 
 Les ressources sous licence sont sujettes à l’acceptation d’un accord de licence avant leur téléchargement à partir de Brand Portal. Cet accord pour les ressources sous licence s’affiche quand vous téléchargez directement des ressources à partir de Brand Portal ou par l’intermédiaire d’un lien partagé. Qu’elles soient ou non expirées, les ressources protégées par une licence peuvent être affichées par tous les utilisateurs. Cependant, le téléchargement et l’utilisation des ressources sous licence expirées sont limités. Pour connaître le comportement des ressources sous licence expirées et des activités permises en fonction des rôles d’utilisateur, voir [Autorisations d’utilisation des ressources expirées](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
 
-License-protected assets have [license agreement attached](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) to them, which is done by setting asset&#39;s [metadata property](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in AEM Assets.
+Dans le cas des ressources protégées par une licence, un [contrat de licence leur est associé](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) en définissant la [propriété de métadonnées](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) appropriée dans AEM Assets.
 
 Si vous choisissez de télécharger des ressources protégées par une licence, vous êtes redirigé vers la page **[!UICONTROL Gestion des droits d’auteur]**.
 
@@ -84,7 +84,7 @@ Vous devez y sélectionner la ressource à télécharger et accepter l’accord 
 
 Si la sélection contient plusieurs ressources protégées, sélectionnez-en une à la fois, acceptez le contrat de licence et procédez au téléchargement de la ressource.
 
-## Génération d’un rapport sur les ressources expirées {#generate-report-about-expired-assets}
+## Génération d’un rapport sur les ressources expirées   {#generate-report-about-expired-assets}
 
 Les administrateurs peuvent générer et télécharger un rapport répertoriant toutes les ressources expirées danspendant une période spécifique. Ce rapport inclutcomprend des informations détaillées concernant les ressources expirées (ex. : taille, type, chemin d’accès dans la hiérarchie de ressources, et dates d’expiration et de publication). Les colonnes de ce rapport peuvent être personnalisées pour afficher plus de données selon les besoins des utilisateurs.
 
