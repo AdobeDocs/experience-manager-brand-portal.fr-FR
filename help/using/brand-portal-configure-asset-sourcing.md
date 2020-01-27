@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 62b254818503bd297ea3016f4ddd70b9283f1c47
 
 ---
@@ -16,16 +16,16 @@ source-git-commit: 62b254818503bd297ea3016f4ddd70b9283f1c47
 
 # Configuration de l&#39;approvisionnement des ressources {#configure-asset-sourcing}
 
-Les administrateurs AEM peuvent configurer **l’approvisionnement des ressources** depuis l’instance d’auteur AEM. Ils activent la configuration du drapeau de la fonctionnalité d&#39;approvisionnement des ressources depuis la **configuration de la console Web AEM** et téléchargent la liste des utilisateurs Brand Portal actifs dans **AEM Assets**.
+Les administrateurs AEM peuvent configurer **l’approvisionnement des ressources** depuis l’instance d’auteur AEM. Ils activent la configuration du drapeau de la fonctionnalité d&#39;approvisionnement des ressources depuis la **configuration de la console web AEM** et téléchargent la liste des utilisateurs Brand Portal actifs dans **AEM Assets**.
 
 >[!NOTE]
 >
->Veillez à intégrer l’instance AEM Assets à Brand Portal avant de lancer la configuration. Voir [Configuration de l’intégration d’AEM Assets dansà Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html).
+>Veillez à intégrer l’instance AEM Assets à Brand Portal avant de lancer la configuration. Voir [Configuration de l’intégration d’AEM Assets dansà Brand Portal](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html).
 
 
-La vidéo suivante montre comment configurer l’approvisionnement des ressources sur votre instance d’auteur AEM :
+La vidéo suivante explique comment configurer l’approvisionnement des ressources sur l’instance d’auteur AEM :
 
->[!VIDEO](https://video.tv.adobe.com/v/29771)
+>[!VIDEO](https://video.tv.adobe.com/v/29771?captions=fre_fr)
 
 ## Activation de l’approvisionnement des ressources {#enable-asset-sourcing}
 
@@ -36,7 +36,7 @@ Les administrateurs d’AEM peuvent activer l’approvisionnement des ressources
 URL par défaut : http:// localhost:4502/system/console/configMgr
 1. À l’aide du mot-clé **Approvisionnement des ressources**, recherchez la **[!UICONTROL configuration de l’indicateur de la fonctionnalité d’approvisionnement des ressources]**.
 1. Cliquez sur **[!UICONTROL Configuration de l’indicateur de la fonctionnalité d’approvisionnement des ressources]**pour ouvrir la fenêtre de configuration.
-1. Activez la case à cocher **[!UICONTROL feature.flag.active.status]**.
+1. Cochez la case **[!UICONTROL feature.flag.active.status]**.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 ![](assets/enable-asset-sourcing.png)
@@ -47,7 +47,7 @@ Les administrateurs d’AEM peuvent charger le fichier de configuration des util
 
 >[!NOTE]
 >
->Le format du fichier CSV est identique à celui pris en charge par la Console d’administration pour l’importation en masse par l’utilisateur. Vous devez indiquer vos nom, prénom et adresse électronique.
+>Ce format de fichier CSV est identique à celui pris en charge par la console d’administration pour importer des utilisateurs en bloc. Vous devez indiquer vos nom, prénom et adresse électronique.
 
 Il peut ajouter de nouveaux utilisateurs dans AEM Admin Console. Pour plus d’informations, voir [Gestion des utilisateurs](brand-portal-adding-users.md). Une fois des utilisateurs ajoutés dans Admin Console, ceux-ci peuvent être ajoutés au fichier de configuration des utilisateurs de Brand Portal, puis se voir attribuer l’autorisation d’accéder au dossier de contribution.
 
