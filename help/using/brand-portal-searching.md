@@ -1,15 +1,15 @@
 ---
 title: Recherche de ressources sur Brand Portal
 seo-title: Recherche de ressources et recherche enregistrée sur AEM Brand Portal
-description: La fonctionnalité de recherche de Brand Portal vous permet de rechercher rapidement des ressources appropriées au moyen de l’omni-recherche. et lLes filtres de recherche vous permettent d’affiner encore davantage votre recherche. Enregistrez vos recherches sous la forme de collections dynamiques pour une utilisation ultérieure.
-seo-description: La fonctionnalité de recherche de Brand Portal vous permet de rechercher rapidement des ressources appropriées au moyen de l’omni-recherche. et lLes filtres de recherche vous permettent d’affiner encore davantage votre recherche. Enregistrez vos recherches sous la forme de collections dynamiques pour une utilisation ultérieure.
+description: La fonctionnalité de recherche de Brand Portal vous permet de rechercher rapidement des ressources appropriées au moyen de l’omni-recherche. Les filtres de recherche vous permettent d’affiner encore davantage votre recherche. Enregistrez vos recherches sous la forme de collections dynamiques pour une utilisation ultérieure.
+seo-description: La fonctionnalité de recherche de Brand Portal vous permet de rechercher rapidement des ressources appropriées au moyen de l’omni-recherche. Les filtres de recherche vous permettent d’affiner encore davantage votre recherche. Enregistrez vos recherches sous la forme de collections dynamiques pour une utilisation ultérieure.
 uuid: c2955198-bdc0-4853-a13a-661e6a9ec61f
 contentOwner: bdhar
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 # Recherche de ressources sur Brand Portal {#search-assets-on-brand-portal}
 
-La fonctionnalité de recherche du portail de marque vous permet de rechercher rapidement des ressources pertinentes à l’aide d’omnisearch et de rechercher des facettes à l’aide de filtres pour vous aider à affiner davantage votre recherche. Vous pouvez également enregistrer vos recherches sous la forme de collections dynamiques pour une utilisation ultérieure.
+La fonctionnalité de recherche de Brand Portal vous permet de rechercher rapidement des ressources appropriées au moyen de l’omni-recherche et de la recherche à facettes qui utilise des filtres pour vous permettre d’affiner davantage encore votre recherche. Vous pouvez également enregistrer vos recherches sous la forme de collections dynamiques pour une utilisation ultérieure.
 
 ## Recherche de ressources à l’aide de l’omni-recherche {#search-assets-using-omnisearch}
 
@@ -41,7 +41,7 @@ Pour rechercher des ressources sur Brand Portal :
 
    *Recherche de ressources à l’aide de l’omni-recherche*
 
-Pour en savoir plus sur le comportement de la recherche avec des ressources avec balisage intelligent, consultez la section traitant de la [présentation du comportement et des résultats de recherche](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-assets.html).
+Pour en savoir plus sur le comportement de la recherche avec des ressources avec balisage intelligent, consultez la section traitant de la [présentation du comportement et des résultats de recherche](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/search-assets.html).
 
 ## Recherche à l’aide des facettes du panneau Filtres{#search-using-facets-in-filters-panel}
 
@@ -71,7 +71,7 @@ Pour appliquer des filtres à votre recherche avec les [facettes de recherche](.
    * **[!UICONTROL Type de fichier]** pour spécifier le type (image, document, fichier multimédia, archive) du fichier de ressource que vous recherchez. En outre, vous pouvez réduire l’étendue de votre recherche. Par exemple, spécifiez le type MIME (Tiff, Bitmap, Images GIMP) de l’image ou le format (PDF ou MS Word) des documents.
    * **[!UICONTROL Taille de fichier]** pour rechercher des ressources en fonction de leur taille. Vous pouvez spécifier les limites inférieure et supérieure de la plage de tailles afin d’affiner votre recherche et déterminer l’unité de mesure à rechercher.
    * **[!UICONTROL État]** pour rechercher des ressources en fonction de leur état comme l&#39;Approbation (approuvée, modifications requises, rejetée, en attente) et l&#39;Expiration.
-   * **[!UICONTROL EÉvaluation moyenne]**pour rechercher des ressources en fonction de leur évaluation.
+   * **[!UICONTROL Évaluation moyenne]**pour rechercher des ressources en fonction de leur évaluation.
    * **[!UICONTROL Orientation]**pour rechercher des ressources en fonction de leur orientation (horizontale, verticale, carré).
    * **[!UICONTROL Style]**pour rechercher des ressources en fonction de leur style (couleur, monochrome).
    * **[!UICONTROL Format vidéo]**pour rechercher des ressources vidéo en fonction de leur format (DVI, Flash, MPEG4, MPEG, OGG Theora, QuickTime, Windows Media, WebM).
@@ -103,7 +103,7 @@ Pour autoriser une recherche insensible à la casse dans le prédicat de propri�
 
    ![](assets/omnisearch-with-filters.png)
 
-   Résultat de la recherche de ressources avec le nombre de résultats.
+   Résultat de la recherche de ressources avec le nombre de résultats
 
 1. Vous pouvez facilement accéder à un élément du résultat de recherche et revenir à ce même résultat à l’aide du bouton Précédent de votre navigateur sans avoir à relancer la requête de recherche.
 
@@ -115,7 +115,7 @@ Pour enregistrer les paramètres de recherche comme collection dynamique :
 
 1. Appuyez/cliquez sur **[!UICONTROL Enregistrer la collection dynamique]**et donnez-lui un nom.
 
-   Pour rendre la collection dynamique accessible à tous les utilisateurs, cochez **[!UICONTROL Public]**. Un message confirme que la collection dynamique a été créée et ajoutée à la liste de vos recherches enregistrées.
+   Pour rendre la collection dynamique accessible à tous les utilisateurs, cochez la cse **[!UICONTROL Public]**. Un message confirme que la collection dynamique a été créée et ajoutée à la liste de vos recherches enregistrées.
 
    >[!NOTE]
    >
@@ -127,6 +127,6 @@ Pour enregistrer les paramètres de recherche comme collection dynamique :
 
    ![](assets/edit_smartcollection.png)
 
-1. Dans la boîte de dialogue **[!UICONTROL Modif. collecte dynam.]**, sélectionnez**[!UICONTROL  Enregistrer sous]** et saisissez le nom de la collection dynamique. Cliquez sur **[!UICONTROL Enregistrer]**.
+1. Dans la boîte de dialogue **[!UICONTROL Modifier la collecte dynamique]**, sélectionnez**[!UICONTROL  Enregistrer sous]** et saisissez le nom de la collection dynamique. Cliquez sur **[!UICONTROL Enregistrer]**.
 
    ![](assets/saveas_smartsearch.png)
