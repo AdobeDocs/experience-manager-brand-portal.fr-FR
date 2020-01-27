@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 # Utilisation des facettes de recherche personnalisée {#use-custom-search-facets}
 
-Les administrateurs peuvent ajouter des prédicats de recherche au panneau [!UICONTROL Filtres] pour personnaliser les recherches et rendre la fonctionnalité de recherche polyvalente.
+Les administrateurs peuvent ajouter des prédicats de recherche au panneau [!UICONTROL Filtres] pour personnaliser les recherches et rendre la fonction de recherche polyvalente.
 
 Brand Portal prend en charge la [recherche à facettes](../using/brand-portal-searching.md#search-using-facets-in-filters-panel) pour les recherches granulaires des ressources de marque approuvées grâce au panneau [**Filtres **](../using/brand-portal-searching.md#search-using-facets-in-filters-panel). Les facettes de recherche sont disponibles sur le panneau Filtres par l’intermédiaire du**[!UICONTROL  Formulaire de recherche]** des outils d’administration. Un formulaire de recherche par défaut, appelé Rail de recherche d’administrateurs de ressources, figure sur la page Formulaires de recherche dans les outils d’administration. Cependant, les administrateurs peuvent personnaliser le panneau Filtres par défaut en modifiant le formulaire de recherche par défaut (Rail de recherche d’administrateurs de ressources) en ajoutant, modifiant ou supprimant des prédicats de recherche, rendant de ce fait la fonctionnalité de recherche versatile.
 
@@ -81,8 +81,8 @@ Tout comme vous ajoutez un prédicat **[!UICONTROL Propriété]**, vous pouvez a
 
 | **Nom du prédicat** | **Description** | **Propriétés** |
 |-------|-------|----------|
-| **[!UICONTROL Explorateur de chemins d’accès]** | Prédicat de recherche permettant de rechercher des ressources à un emplacement spécifique. **Remarque :** *Ppour un utilisateur connecté, l’Eexplorateur de chemins d’accès sur le filtre montre seulement la structure de contenu des dossiers (et de leurs ancêtres) partagés avec l’utilisateur.* <br> Les utilisateurs administrateurs peuvent rechercher des ressources dans n’importe quel dossier en y accédant à l’aide de l’Eexplorateur de chemins d’accès. <br> Cependant, les utilisateurs non-administrateurs peuvent rechercher des ressources dans un dossier (qui leur est accessible) en accédant à ce dossier dans l’Eexplorateur de chemins d’accès. | <ul><li>Libellé du champ</li><li>Chemin</li><li>Description</li></ul> |
-| **[!UICONTROL Propriété]** | Recherche des ressources en fonction d’une propriété de métadonnées spécifique. **Remarque :** *Llorsque vous cochez la case Recherche partielle, l’option Ignorer la casse est sélectionnée par défaut*. | <ul><li>Libellé du champ</li><li>Espace réservé</li><li>Nom de la propriété</li><li>Recherche partielle</li><li>Ignorer la casse</li><li> Description</li></ul> |
+| **[!UICONTROL Explorateur de chemins d’accès]** | Prédicat de recherche permettant de rechercher des ressources à un emplacement spécifique. **Remarque :** *pour un utilisateur connecté, l’Eexplorateur de chemins d’accès sur le filtre montre seulement la structure de contenu des dossiers (et de leurs ancêtres) partagés avec l’utilisateur.* <br> Les utilisateurs administrateurs peuvent rechercher des ressources dans n’importe quel dossier en y accédant à l’aide de l’Eexplorateur de chemins d’accès. <br> Cependant, les utilisateurs non-administrateurs peuvent rechercher des ressources dans un dossier (qui leur est accessible) en accédant à ce dossier dans l’Eexplorateur de chemins d’accès. | <ul><li>Libellé du champ</li><li>Chemin</li><li>Description</li></ul> |
+| **[!UICONTROL Propriété]** | Recherche des ressources en fonction d’une propriété de métadonnées spécifique. **Remarque :** *lorsque vous cochez la case Recherche partielle, l’option Ignorer la casse est sélectionnée par défaut*. | <ul><li>Libellé du champ</li><li>Espace réservé</li><li>Nom de la propriété</li><li>Recherche partielle</li><li>Ignorer la casse</li><li> Description</li></ul> |
 | **[!UICONTROL Propriété Plusieurs valeurs]** | Similaire au prédicat de propriété, mais autorise des valeurs d’entrée multiples, séparées par un délimiteur (VIRGULE[,], par défaut). Les ressources qui correspondent aux valeurs d’entrée sont renvoyées dans les résultats. | <ul><li>Libellé du champ</li><li>Espace réservé</li><li>Nom de la propriété</li><li>Prise en charge des délimiteurs</li><li>Ignorer la casse</li><li>Description</li></ul> |
 | **[!UICONTROL Balises]** | Prédicat de recherche permettant de rechercher des ressources en fonction des balises. Vous pouvez configurer la propriété Chemin d’accès pour renseigner diverses balises de la liste Balises. *Remarque : il se peut que les administrateurs doivent modifier la valeur de chemin, par exemple [!UICONTROL `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`], s’ils publient le formulaire de recherche à partir d’AEM, où le chemin d’accès n’inclut pas les informations du client comme [!UICONTROL `/etc/tags/<custom_tag_namespace>`]. | <ul><li>Libellé du champ</li><li>Nom de la propriété</li><li>Chemin</li><li>Description</li></ul> |
 | **[!UICONTROL Chemin]** | Prédicat de recherche permettant de rechercher des ressources à un emplacement spécifique. | <ul><li>Libellé du champ</li><li>Chemin</li><li>Description</li></ul> |  |
