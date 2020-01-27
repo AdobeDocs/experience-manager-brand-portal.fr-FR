@@ -9,7 +9,7 @@ topic-tags: administration
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 393025b4-722d-4e81-8a47-f83415d0b9b6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
@@ -27,10 +27,10 @@ source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ## Autoriser l’accès des invités {#allow-guest-access}
 
-En autorisant l’accès des invités, les utilisateurs peuvent accéder aux ressources publiques sans avoir à se connecter au portail de marque.
-Pour autoriser l’accès des invités, l’administrateur doit effectuer les étapes suivantes :
+Autoriser l’accès d’invité permet aux utilisateurs d’accéder aux ressources publiques sans avoir à se connecter à Brand Portal.
+Pour autoriser ce type d’accès, l’administrateur doit procéder comme suit :
 
-1. Sélectionnez le logo AEM pour accéder aux outils d’administration dans la barre d’outils supérieure.
+1. Sélectionner le logo AEM pour accéder aux outils d’administration dans la barre d’outils supérieure.
 1. À partir du panneau des outils d’administration, sélectionnez **[!UICONTROL Accès]**pour ouvrir la page**[!UICONTROL  Paramètres d’accès]**.
 1. Activez la configuration **[!UICONTROL Autoriser l’accès des invités]**.
 1. **[!UICONTROL Enregistrez]**les modifications.
@@ -38,13 +38,13 @@ Pour autoriser l’accès des invités, l’administrateur doit effectuer les é
 
 ![](assets/bp-welcome-screen.png)
 
-## Autoriser les utilisateurs à demander l’accès {#allow-users-to-request-access}
+## Autoriser les utilisateurs à demander l’accès   {#allow-users-to-request-access}
 
 Les administrateurs peuvent autoriser les utilisateurs de l’entreprise à demander l’accès à Brand Portal à partir de l’écran de bienvenue. Toutefois, les administrateurs doivent activer la configuration **[!UICONTROL Autoriser les utilisateurs à demander l’accès]**de sorte que le lien de demande d’accès s’affiche sur l’écran de bienvenue.
 
 Pour autoriser les utilisateurs de l’entreprise à demander l’accès à Brand Portal, les administrateurs doivent procéder comme suit :
 
-1. Sélectionnez le logo AEM pour accéder aux outils d’administration dans la barre d’outils supérieure.
+1. Sélectionner le logo AEM pour accéder aux outils d’administration dans la barre d’outils supérieure.
 1. À partir du panneau des outils d’administration, sélectionnez **[!UICONTROL Accès]**pour ouvrir la page**[!UICONTROL  Paramètres d’accès]**.
 1. Activez la configuration **[!UICONTROL Autoriser les utilisateurs à demander l’accès]**.
 1. **[!UICONTROL Enregistrez]**les modifications.
