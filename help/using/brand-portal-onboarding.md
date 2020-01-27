@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: e8d06818-29c7-4810-bff1-40b3e2818114
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 La première connexion est identique pour tous les nouveaux utilisateurs d’AEM Assets Brand Portal, y compris les administrateurs. Une fois que l’administrateur vous a ajouté au compte Brand Portal de l’entreprise, vous n’avez pas besoin d’accepter d’invitations ; vous êtes automatiquement ajouté. Vous recevez un e-mail de bienvenue contenant un lien vers le compte Brand Portal de l’entreprise.
 
-Vous trouverez ci-dessous les étapes à suivre pour que les utilisateurs se connectent à Brand Portal pour la première fois :
+La procédure décrite ci-dessous s’adresse aux utilisateurs qui se connectent à Brand Portal pour la première fois :
 
 1. Ouvrez l’e-mail de bienvenue et cliquez ensuite sur **[!UICONTROL Commencer]**.
 
@@ -29,7 +29,7 @@ Vous trouverez ci-dessous les étapes à suivre pour que les utilisateurs se con
 
    >[!NOTE]
    >
-   >Si votre entreprise utilise des Enterprise ID, vous êtes redirigé vers la page de connexion Enterprise au lieu de cette page de connexion. Pour plus d’informations, voir [ID d’entreprise, connexion et aide de compte](https://helpx.adobe.com/in/enterprise/kb/enterprise-id-faq.html).
+   >Si votre entreprise utilise des Enterprise ID, vous êtes redirigé vers la page de connexion Enterprise au lieu de cette page de connexion. Pour plus d’informations, voir [Enterprise ID, connexion et aide de compte](https://helpx.adobe.com/fr/enterprise/kb/enterprise-id-faq.html).
 
 1. Cliquez sur **[!UICONTROL Continuer]**pour accéder à la page Brand Portal de votre entreprise.
 1. Dans la page de connexion de Brand Portal, cliquez sur **[!UICONTROL Se connecter]**pour vous connecter à Brand Portal.
