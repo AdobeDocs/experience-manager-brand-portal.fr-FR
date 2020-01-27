@@ -9,7 +9,7 @@ topic-tags: download-install
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
@@ -27,7 +27,7 @@ Si cette option est activée, les utilisateurs de Brand Portal peuvent réduire
 
 ![](assets/enable-fast-file-download.png)
 
-## Conditions préalables pour accélérer le téléchargement de fichiers    {#prerequisites-to-accelerate-file-download}
+## Conditions préalables pour accélérer le téléchargement de fichiers      {#prerequisites-to-accelerate-file-download}
 
 Pour télécharger les fichiers plus rapidement, vérifiez les points suivants :
 
@@ -51,9 +51,9 @@ Vous trouverez ci-après les domaines de téléchargement pour différentes zone
 
 Le tableau suivant affiche les performances de téléchargement obtenues pour un fichier de 2 Go en utilisant l’accélérateur de téléchargement de fichiers d’Aspera Connect :
 
-*Les résultats observés varient en fonction de facteurs tels que la bande passante du réseau, la latence du serveur et l’emplacement du client, étant donné que le serveur du portail de marque se trouve dans l’Oregon (États-Unis).*
+*Les résultats observés varient en fonction de facteurs tels que la bande passante du réseau, la latence du serveur et l’emplacement du client, en sachant que le serveur Brand Portal se situe dans l’État de l’Oregon aux États-Unis.*
 
-| Emplacement du client | Latence entre le client et le serveur  (millisecondes) | Vitesse mesurée avec l’accélérateur de transfert de fichiers d’Aspera Connect (Mbit/s) | Temps nécessaire pour télécharger un fichier de 2 Go avec l’accélérateur de transfert de fichiers Aspera (en secondes) |
+| Emplacement du client | Latence entre le client et le serveur    (millisecondes) | Vitesse mesurée avec l’accélérateur de transfert de fichiers d’Aspera Connect (Mbit/s) | Temps nécessaire pour télécharger un fichier de 2 Go avec l’accélérateur de transfert de fichiers Aspera (en secondes) |
 |---------------------------|-----------------------------------|---------------------------------------------|-------------------------------------------------------------------------|
 | Ouest des États-Unis (Californie du Nord) | 18 | 36 | 57 |
 | Ouest des États-Unis (Oregon) | 42 | 36 | 57 |
@@ -90,7 +90,7 @@ Si le client Aspera Connect n’est pas installé sur votre système ou si le c
    Pour télécharger la dernière version d’Aspera Connect à partir de [https://downloads.asperasoft.com/connect2/](https://downloads.asperasoft.com/connect2/), sélectionnez **[!UICONTROL Télécharger maintenant]**et suivez les instructions.
 
 1. **Installation du client Aspera Connect** 
-Pour installer la configuration du client IBM Aspera Connect, exécutez la configurationle programme d’installation à partir du fichier. msi de l’&#39;application cliente IBM Aspera Connect et suivez l’&#39;assistant d’&#39;installation.
+Pour installer la configuration du client IBM Aspera Connect, exécutez le programme d’installation à partir du fichier. msi de l’&#39;application cliente IBM Aspera Connect et suivez l’&#39;assistant d’&#39;installation.
 
 1. Une fois le client installé, actualisez la page du navigateur et recommencez la procédure de téléchargement ou sélectionnez **[!UICONTROL Redémarrer]**dans la boîte de dialogue**[!UICONTROL  Téléchargement]** de la ressource (étape 2).
 Lorsque vous utilisez Aspera Connect pour la première fois, le navigateur vous invite à ouvrir le lien à l’aide d’**[!UICONTROL IBM Aspera Connect]**. Pour ignorer cette boîte de dialogue à l’avenir, activez**[!UICONTROL  Mémoriser mon choix pour les liens FASP]**.
@@ -106,7 +106,7 @@ L’application Aspera Connect fournit un workflow d’activité sur le systèm
 
 ![](assets/aspera-activity-window.png)
 
-Une fois le téléchargement terminé, une boîte de dialogue affiche l’emplacement où les fichiers sont téléchargés sur le système de l’utilisateur. En cas d’échec, une erreur s’affiche.
+À la fin du téléchargement, une boîte de dialogue affiche l’emplacement où les ressources sont téléchargées sur le système de l’utilisateur. En cas d’échec, une erreur s’affiche.
 
 >[!NOTE]
 >
@@ -125,7 +125,7 @@ Pour utiliser la fonctionnalité de téléchargement accéléré sur Microsoft 
 1. Cliquez sur **[!UICONTROL Zone Sites de confiance]**, puis sur**[!UICONTROL  Sites]**.
 1. Supprimez le site Brand Portal de la liste.
 
-## Préférences du client Aspera Connect    {#aspera-connect-client-preferences}
+## Préférences du client Aspera Connect      {#aspera-connect-client-preferences}
 
 Certaines préférences utiles peuvent être définies dans les préférences du client IBM Aspera Connect en cliquant avec le bouton droit sur l’icône et en sélectionnant **[!UICONTROL Préférences]**.
 
@@ -139,7 +139,7 @@ En outre, le client Aspera Connect peut être marqué pour se lancer automatiqu
 
 ![](assets/aspera-automaticallylaunch.png)
 
-## Résolution des problèmes relatifs liés à l’accélération des téléchargements    {#troubleshoot-issues-with-download-acceleration}
+## Résolution des problèmes liés à l’accélération des téléchargements      {#troubleshoot-issues-with-download-acceleration}
 
 Si l’accélération des téléchargements ne fonctionne pas, suivez ces étapes de dépannage :
 
