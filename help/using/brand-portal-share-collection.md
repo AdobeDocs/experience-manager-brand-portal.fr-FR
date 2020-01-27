@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
@@ -63,7 +63,7 @@ Pour partager une collection, procédez comme suit :
    >
    >Le rôle d’un utilisateur détermine l’accès aux ressources et aux dossiers d’une collection. Si un utilisateur n’a pas accès aux ressources, une collection vide est partagée avec celui-ci. Le rôle d’un utilisateur détermine aussi les actions disponibles pour les collections.
 
-## Annulation du partage d’une collection {#unshare-a-collection}
+## Annulation du partage d’une collection   {#unshare-a-collection}
 
 Pour annuler le partage d’une collection précédemment partagée, procédez comme suit :
 
@@ -81,4 +81,4 @@ Pour annuler le partage d’une collection précédemment partagée, procédez c
 
    Cliquez sur **[!UICONTROL Enregistrer]**.
 
-1. Connectez-vous à Brand Portal avec les identifiantsinformations d’identification de l’utilisateur que vous avez supprimé de la liste de partage. La collection est supprimée de la console **[!UICONTROL Collections]**.
+1. Connectez-vous à Brand Portal avec les informations d’identification de l’utilisateur que vous avez supprimé de la liste de partage. La collection est supprimée de la console **[!UICONTROL Collections]**.
