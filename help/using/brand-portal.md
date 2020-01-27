@@ -1,5 +1,5 @@
 ---
-title: Présentation d’AEM Assets  Brand  Portal
+title: Présentation d’AEM Assets Brand Portal
 seo-title: Présentation d’AEM Assets Brand Portal
 description: AEM Assets Brand Portal permet d’acquérir, de contrôler et de distribuer facilement et en toute sécurité des ressources créatives destinées à des tiers externes et aux collaborateurs de l’entreprise sur différents appareils.
 seo-description: AEM Assets Brand Portal permet d’acquérir, de contrôler et de distribuer facilement et en toute sécurité des ressources créatives destinées à des tiers externes et aux collaborateurs de l’entreprise sur différents appareils.
@@ -8,13 +8,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4b711ae6d94621e4bc4ca0b4c67191d79da883e0
 
 ---
 
 
-# Présentation d’AEM Assets Brand Portal {#overview-of-aem-assets-brand-portal}
+# Présentation d’AEM Assets Brand Portal {#overview-of-aem-assets-brand-portal}
 
 En tant que marketeur, vous devez parfois collaborer avec des partenaires de distribution et des collaborateurs de l’entreprise pour créer, gérer et diffuser rapidement du contenu numérique pertinent à vos clients. La diffusion au bon moment de contenu pertinent tout le long du parcours client est essentielle pour accroître la demande, la conversion, l’engagement et la fidélisation des clients.
 
@@ -45,7 +45,7 @@ Le tableau suivant répertorie les tâches que peuvent réaliser les utilisateur
 | **Éditeur** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | x |
 | **Administrateur** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 
-* Les utilisateurs invités peuvent explorer des ressources, y accéder à et en rechercher effectuer des recherches dans les dossiers et collections publics uniquement.
+* Les utilisateurs invités peuvent explorer des ressources, y accéder et en rechercher dans les dossiers et collections publics uniquement.
 
 ### Utilisateur invité {#guest-user}
 
@@ -81,7 +81,7 @@ En plus des tâches d’un observateur, un éditeur peut effectuer les tâches s
 
 [Partage d’une collection](brand-portal-share-collection.md)
 
-[Partage de ressources en tant que lien](brand-portal-link-share.md)
+[Partager des ressources en tant que lien](brand-portal-link-share.md)
 
 ### Administrateur {#administrator}
 
@@ -103,18 +103,18 @@ Un administrateur peut effectuer toutes les tâches exécutées par un éditeur,
 
 En plus des tâches mentionnées ci-dessus, un auteur dans AEM Assets peut effectuer les tâches suivantes :
 
-[Configuration de l’intégration d’AEM Assets à Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
+[Configuration de l’intégration d’AEM Assets à Brand Portal](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
 
-[Publication de dossiers sur Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
+[Publication de dossiers sur Brand Portal](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
 
-[Publication de collections sur Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
+[Publication de collections sur Brand Portal](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
 
-## Autre Alias pour l’URL de Brand Portal {#tenant-alias-for-portal-url}
+## Autre alias pour l’URL de Brand Portal {#tenant-alias-for-portal-url}
 
 À partir de Brand Portal 6.4.3, les entreprises peuvent avoir une autre URL (alias) pour l’URL existante de leur client Brand Portal. L’URL d’alias peut être créée avec un autre préfixe dans l’URL.\
-Notez que seul le préfixe de l’URL Brand Portal peut être personnalisé et non l’URL entière. Par exemple, une organisation avec le domaine existant **[!UICONTROL geomettrix.brand-portal.adobe.com]**peut demander et obtenir la création de**[!UICONTROL  geomettrixinc.brand-portal.adobe.com]**.
+Notez que seul le préfixe de l’URL Brand Portal peut être personnalisé et non l’URL entière. Par exemple, une entreprise avec le domaine existant **[!UICONTROL geomettrix.brand-portal.adobe.com]**peut demander et obtenir la création de**[!UICONTROL  geomettrixinc.brand-portal.adobe.com]**.
 
-Cependant, l’instance d’auteur AEM peut uniquement être [configurée](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) avec l’URL d’ID client et non avec l’URL (alternative) d’alias de client.
+Cependant, l’instance d’auteur AEM peut uniquement être [configurée](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) avec l’URL d’ID du client et non avec l’URL (alternative) d’alias de client.
 
 >[!NOTE]
 >
@@ -167,7 +167,7 @@ Les administrateurs de produit Brand Portal reçoivent les demandes d’accès 
 
 ![Notification de demande d’accès](assets/bplogin_request_access_7.png)
 
-Pour accorder un accès, les administrateurs de produit doivent cliquer sur la notification correspondante dans la zone de notification de Brand Portal, puis sur **[!UICONTROL Octroyer l’accès]**.
+Pour accorder un accès, les administrateurs de produit doivent cliquer sur la notification correspondante dans la zone de notification de Brand Portal, puis sur **[!UICONTROL Accorder l’accès]**.
 Les administrateurs de produit peuvent aussi suivre le lien contenu dans l’e-mail de demande d’accès afin d’accéder à Adobe[!UICONTROL Admin Console]et d’ajouter l’utilisateur à la configuration de produit adéquate.
 
 Vous êtes redirigé vers la page d’accueil d’[Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview). Utilisez Adobe [!UICONTROL Admin Console] pour créer des utilisateurs et les affecter à des profils de produit (auparavant appelés configurations de produit), qui s’affichent sous la forme de groupes dans Brand Portal. Pour plus d’informations sur l’ajout d’utilisateurs dans [!UICONTROL Admin Console], voir [Ajout d’un utilisateur](brand-portal-adding-users.md#add-a-user) (suivez les étapes 4 à 7 de la procédure pour ajouter un utilisateur).
@@ -201,5 +201,5 @@ Vous pouvez ignorer cette notification et continuer à utiliser Brand Portal. C
 
 ## Ressources connexes {#related-resources}
 
-* [Assistance clientèle d’Adobe](https://helpx.adobe.com/marketing-cloud/contact-support.html)
-* [Forums AEM](https://www.adobe.com/go/aod_forums_en)
+* [Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/marketing-cloud/contact-support.html)
+* [Forums AEM](https://www.adobe.com/go/aod_forums_fr)
