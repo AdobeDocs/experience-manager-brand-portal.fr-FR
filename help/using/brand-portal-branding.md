@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
@@ -53,7 +53,7 @@ En l’absence d’image de papier peint de marque personnalisée, un papier pei
 
    ![](assets/custom-wallpaper-preview.png)
 
-1. Pour activer ou désactiver le papier peint par défaut, effectuez les opérations suivantes dans la page **[!UICONTROL Configurer la valorisation de la marque > Papier peint]** :
+1. Pour activer ou désactiver le papier peint par défaut, effectuez les opérations suivantes sur la page **[!UICONTROL Configurer la valorisation de la marque > Papier peint]** :
 
    * Pour afficher l’image du papier peint par défaut dans la page de connexion de Brand Portal, cliquez sur l&#39;option **[!UICONTROL Désactiver le papier peint]**de la barre d’outils supérieure. Un message confirme la désactivation de l’image personnalisée.
    ![](assets/chlimage_1-1.png)
@@ -61,11 +61,11 @@ En l’absence d’image de papier peint de marque personnalisée, un papier pei
    * Pour restaurer l’image par défaut sur la page de connexion de Brand Portal, cliquez sur **[!UICONTROL Activer le papier peint]**dans la barre d’outils. Un message confirme la restauration de l’image.
    ![](assets/chlimage_1-2.png)
 
-   * Cliquez sur  **[!UICONTROL Enregistrer]**  pour enregistrer les modifications.
+   * Cliquez sur **[!UICONTROL Enregistrer]**pour enregistrer les modifications.
 
 
 
-## Personnalisation de l’en-tête   {#customize-the-header}
+## Personnalisation de l’en-tête     {#customize-the-header}
 
 L’en-tête apparaît sur différentes pages de Brand Portal une fois que vous êtes connecté à Brand Portal.
 
@@ -102,7 +102,7 @@ Pour enregistrer les modifications, cliquez sur **[!UICONTROL Enregistrer]**dans
    ![](assets/chlimage_1-3.png)
    ![](assets/custom_header_preview.png)
 
-1. Pour activer ou désactiver l’image d’en-tête, effectuez les opérations suivantes dans la page **[!UICONTROL Configurer la valorisation de la marque > Image d’en-tête]** :
+1. Pour activer ou désactiver l’image d’en-tête, effectuez les opérations suivantes sur la page **[!UICONTROL Configurer la valorisation de la marque > Image d’en-tête]** :
 
    * Pour empêcher une image d’en-tête d’apparaître sur les pages de Brand Portal, cliquez sur **[!UICONTROL Désactiver l’en-tête]**dans la barre d’outils supérieure. Un message confirme la désactivation de l’image.
    ![](assets/chlimage_1-4.png)
@@ -110,11 +110,11 @@ Pour enregistrer les modifications, cliquez sur **[!UICONTROL Enregistrer]**dans
    * Pour que l’image d’en-tête réapparaisse sur les pages de Brand Portal, cliquez sur **[!UICONTROL Activer l’en-tête]**dans la barre d’outils supérieure. Un message confirme l’activation de l’image.
    ![](assets/chlimage_1-5.png)
 
-   * Cliquez sur  **[!UICONTROL Enregistrer]**  pour enregistrer les modifications.
+   * Cliquez sur **[!UICONTROL Enregistrer]**pour enregistrer les modifications.
 
 
 
-## Personnalisation des e-mails   {#customize-the-email-messaging}
+## Personnalisation des e-mails     {#customize-the-email-messaging}
 
 Lorsque des ressources sont partagées en tant que lien, l’utilisateur reçoit un e-mail contenant le lien. Les administrateurs peuvent personnaliser les messages, c’est-à-dire le logo, la description et le pied de page de ces e-mails.
 
