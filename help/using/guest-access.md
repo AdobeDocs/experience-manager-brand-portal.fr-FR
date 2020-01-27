@@ -9,7 +9,7 @@ topic-tags: introduction
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
@@ -33,7 +33,7 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 ## Démarrage d’une session d’invité {#begin-guest-session}
 
-Pour accéder à Brand Portal de manière anonyme, sélectionnez **[!UICONTROL Cliquez ici]**en regard de**[!UICONTROL  Accès d’invité ? ]** sur l’écran de bienvenue de Brand Portal. Les utilisateurs n’ont pas besoin de demander l’accès et d’attendre que l’administrateur les authentifie pour leur accorder l’accès à Brand Portal.
+Pour accéder à Brand Portal de manière anonyme, sélectionnez **[!UICONTROL Cliquez ici]**en regard de**[!UICONTROL  Accès d’invité ?]** sur l’écran de bienvenue de Brand Portal. Les utilisateurs n’ont pas besoin de demander l’accès et d’attendre que l’administrateur les authentifie pour leur accorder l’accès à Brand Portal.
 
 ![](assets/bp-login-screen.png)
 
@@ -90,21 +90,21 @@ L’option **[!UICONTROL Filtre]**permet aux utilisateurs invités de filtrer le
 
 ### Fonctions offertes aux utilisateurs invités
 
-Les utilisateurs invités peuvent accéder aux ressources publiques sur Brand Portal et ont également quelques restrictions comme décrit plus loin.
+Les utilisateurs invités peuvent accéder aux ressources publiques sur Brand Portal. Quelques restrictions leur sont également appliquées, comme décrit plus loin.
 
-**Les utilisateurs invités peuvent**:
+**Les utilisateurs invités peuvent** :
 
-* Accédez à tous les dossiers et collections publics destinés à tous les utilisateurs du portail de marque.
-* Parcourir les membres, la page de détails et avoir une vue complète des ressources des membres de tous les dossiers et collections publics.
-* Recherche de fichiers dans des dossiers et collections publics.
-* Ajoutez des ressources à la collection lightbox. (les modifications apportées à la collection persistent pendant la session) :
-* Téléchargez des fichiers directement ou par le biais de la collection lightbox.
+* accéder à tous les dossiers et collections publics destinés à tous les utilisateurs de Brand Portal ;
+* parcourir les membres et la page de détails, et disposer d’une vue complète des ressources des membres de tous les dossiers et collections publics ;
+* rechercher des ressources au sein des dossiers et collections publics ;
+* ajouter des ressources à la collection Lightbox (les modifications apportées à la collection persistent pendant la session) :
+* télécharger des ressources directement ou via la collection Lightbox.
 
-**Les utilisateurs invités ne peuvent pas**:
+**Les utilisateurs invités ne peuvent pas** :
 
-* Créez des collections et des recherches enregistrées, ou partagez-les davantage.
-* Accédez aux paramètres des dossiers et des collections.
-* Partagez des fichiers sous forme de liens.
+* créer des collections et des recherches enregistrées, ni les partager ;
+* accéder aux paramètres des dossiers et collections ;
+* partager des ressources sous la forme de liens.
 
 ### Téléchargement de ressources au cours d’une session d’invité
 
@@ -112,8 +112,8 @@ Les utilisateurs invités peuvent télécharger directement les ressources parta
 
 Pour télécharger des ressources et des collections, utilisez l’icône Télécharger à partir :
 
-* Miniatures d’action rapide qui s’affichent lorsque vous passez la souris sur la ressource ou la collection
-* Barre d’outils en haut, qui s’affiche lors de la sélection de la ressource ou de la collection
+* des miniatures d’action rapide, qui apparaissent lorsque vous placez le curseur sur une ressource ou une collection ;
+* de la barre d’outils supérieure, qui s’affiche lorsque vous sélectionnez une ressource ou une collection.
 
 ![](assets/download-on-guest.png)
 
