@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 Les ressources doivent être publiées sur Brand Portal à partir d’une instance AEM Author préconfigurée, car Brand Portal ne prend pas en charge l’ingestion des ressources.
 
-## Workflow de partage de dossiers dans Brand Portal   {#folder-sharing-workflow-in-brand-portal}
+## Workflow de partage de dossiers dans Brand Portal     {#folder-sharing-workflow-in-brand-portal}
 
 La section suivante décrit le workflow de partage de dossiers et l’accès utilisateur :
 
@@ -30,7 +30,7 @@ La section suivante décrit le workflow de partage de dossiers et l’accès uti
 
 ### Partage de dossiers avec des groupes d’utilisateurs sur Brand Portal {#sharing-folders-with-user-groups-on-brand-portal}
 
-Les droits d’accès aux ressources d’un dossier dépendent des droits d’accès à son dossier parent, indépendamment des paramètres des dossiers enfants. Ce comportement est régi par les listes [ACL](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM) dans AEM, car les dossiers enfants héritent des listes ACL de leurs dossiers parents. Par exemple, si un dossier A contient un dossier B qui contient un dossier C, alors un groupe d’utilisateurs (ou des utilisateurs) possédant les droits d’accès au dossier A bénéficient des mêmes droits d’accès aux dossiers B et C. En tant que dossier enfant de A, le dossier B hérite de ses listes ACL. Tandis que le dossier C hérite de ses listes ACL en tant que dossier enfant de B.
+Les droits d’accès aux ressources d’un dossier dépendent des droits d’accès à son dossier parent, indépendamment des paramètres des dossiers enfants. Ce comportement est régi par les listes [ACL](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM) dans AEM, car les dossiers enfants héritent des listes ACL de leurs dossiers parents. Par exemple, si un dossier A contient un dossier B qui contient un dossier C, alors un groupe d’utilisateurs (ou des utilisateurs) possédant les droits d’accès au dossier A bénéficient des mêmes droits d’accès aux dossiers B et C. En tant que dossier enfant de A, le dossier B hérite de ses listes ACL. Tandis que le dossier C hérite de ses listes ACL en tant que dossier enfant de B.
 
 De même, les groupes d’utilisateurs (ou les utilisateurs) possédant les autorisations pour accéder seulement au dossier B disposent des mêmes autorisations d’accès au dossier C, mais pas au dossier A. Par conséquent, il est conseillé aux organisations de hiérarchiser leur contenu de façon à ce que les ressources les plus exposées soient placées dans les dossiers enfants, et l’accès des enfants au dossier racine peut être restreint.
 
@@ -59,13 +59,13 @@ Le tableau suivant indique les droits d’accès et les droits de partage/d’an
 
 **Par défaut, l’option **[!UICONTROL Publication de dossier public]** est désactivée lors de la configuration de la réplication de Brand Portal avec un auteur AEM. Si l’option est activée, les dossiers publiés sur Brand Portal sont accessibles à tous les utilisateurs (également aux utilisateurs non administrateurs) par défaut.*
 
-### Accès des utilisateurs non-administrateurs aux dossiers partagés   {#non-admin-user-access-to-shared-folders}
+### Accès des utilisateurs non-administrateurs aux dossiers partagés     {#non-admin-user-access-to-shared-folders}
 
 Les utilisateurs non-administrateurs ne peuvent accéder qu’aux dossiers partagés avec eux sur Brand Portal. Cependant, le mode d’affichage de ces dossiers sur le portail lorsqu’ils se connectent dépend des paramètres de la configuration **[!UICONTROL Activer la hiérarchie de dossiers]**.
 
 **Si la configuration est désactivée**
 
-Les utilisateurs non-administrateurs voient tous les dossiers partagés avec eux sur la page d’entrée, lors de leur connexion à Brand Portal.
+Les utilisateurs non-administrateurs voient tous les dossiers partagés avec eux sur la   page d’entrée, lors de leur connexion à Brand Portal.
 
 ![](assets/disabled-folder-hierarchy1-1.png)
 
@@ -83,7 +83,7 @@ Aucune tâche d’action n’est visible lorsque vous les survolez ou les sélec
 
 ![](assets/enabled-hierarchy1-1.png) ![](assets/hierarchy1-nonadmin-1.png) ![](assets/hierarchy-nonadmin-1.png) ![](assets/hierarchy2-nonadmin-1.png)
 
-## Partage de dossiers {#how-to-share-folders}
+## Partage de dossiers   {#how-to-share-folders}
 
 Pour partager un dossier avec des utilisateurs sur Brand Portal, suivez ces étapes :
 
@@ -121,7 +121,7 @@ Pour partager le dossier uniquement avec les utilisateurs invités, et aucun aut
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 1. Pour accéder au dossier partagé, connectez-vous à Brand Portal avec les identifiantsinformations d’identification de l’utilisateur avec lequel vous avez partagé le dossier. Examinez le dossier partagé dans l’interface.
 
-## Annulation du partage de dossiers {#unshare-the-folders}
+## Annulation du partage de dossiers   {#unshare-the-folders}
 
 Pour annuler le partage d’un dossier précédemment partagé, procédez comme suit :
 
