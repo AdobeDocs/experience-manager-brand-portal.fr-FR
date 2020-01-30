@@ -110,7 +110,7 @@ L’application Aspera Connect fournit un workflow d’activité sur le systèm
 
 >[!NOTE]
 >
->Une limite connue dans l’application cliente Aspera Connect fait qu’aucune invite ne s’affiche pour sélectionner l’emplacement de téléchargement si l’option **[!UICONTROL Always ask me where to save downloaded files]**(Toujours me demander où enregistrer les fichiers téléchargés) est activée sous l’onglet[!UICONTROL Transfers](Transferts) dans[!UICONTROL Preferences](Préférences). Avant tout téléchargement, fournissez donc l’emplacement dans la zone de texte**[!UICONTROL  Enregistrer les fichiers téléchargés dans]**.
+>Une limite connue dans l’application cliente Aspera Connect fait qu’aucune invite ne s’affiche pour sélectionner l’emplacement de téléchargement si l’option **[!UICONTROL Always ask me where to save downloaded files]** (Toujours me demander où enregistrer les fichiers téléchargés) est activée sous l’onglet [!UICONTROL Transfers] (Transferts) dans [!UICONTROL Preferences] (Préférences). Avant tout téléchargement, fournissez donc l’emplacement dans la zone de texte **[!UICONTROL  Enregistrer les fichiers téléchargés dans]**.
 
 ## Utilisation de l’accélérateur de fichiers sur le navigateur Microsoft Edge {#using-file-accelerator-on-microsoft-edge-browser}
 
