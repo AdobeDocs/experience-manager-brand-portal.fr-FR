@@ -1,5 +1,5 @@
 ---
-title: Présentation d’AEM Assets Brand Portal
+title: Présentation d’AEM Assets  Brand  Portal
 seo-title: Présentation d’AEM Assets Brand Portal
 description: AEM Assets Brand Portal permet d’acquérir, de contrôler et de distribuer facilement et en toute sécurité des ressources créatives destinées à des tiers externes et aux collaborateurs de l’entreprise sur différents appareils.
 seo-description: AEM Assets Brand Portal permet d’acquérir, de contrôler et de distribuer facilement et en toute sécurité des ressources créatives destinées à des tiers externes et aux collaborateurs de l’entreprise sur différents appareils.
@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
-translation-type: ht
-source-git-commit: 4b711ae6d94621e4bc4ca0b4c67191d79da883e0
+translation-type: tm+mt
+source-git-commit: aa6bd187124888cd62ca1f5c7192f9d65ac6ca8a
 
 ---
 
@@ -26,6 +26,24 @@ La distribution des ressources permet d’acquérir, de contrôler et de distrib
 Voir [Approvisionnement des ressources dans Brand Portal ](brand-portal-asset-sourcing.md)
 
 L’environnement de portail de type navigateur permet de télécharger, parcourir, rechercher, prévisualiser et exporter facilement des ressources dans des formats approuvés.
+
+## Configure AEM Assets with Brand Portal {#configure-brand-portal}
+
+Les ressources d’Adobe Experience Manager (AEM) sont configurées avec le portail de marques via les E/S Adobe, qui obtiennent un jeton IMS pour l’autorisation de votre locataire du portail de marques.
+
+>[!NOTE]
+>
+>La configuration des ressources AEM avec le portail de marque via les E/S Adobe est prise en charge sur AEM 6.3 et versions ultérieures.
+
+### Conditions préalables à la configuration des ressources AEM avec le portail de marque {#prerequisites}
+
+Pour configurer AEM Assets avec Brand Portal, vous devez disposer des éléments suivants :
+
+* Une instance d’auteur AEM Assets en cours d’exécution avec le dernier Service Pack.
+* URL du client du portail de marque.
+* Utilisateur disposant de droits d’administrateur système sur l’organisation IMS du client du portail de marque.
+
+For more information, see [configuring AEM Assets with Brand Poral](../using/configure-aem-assets-with-brand-portal.md).
 
 ## Différents types d’utilisateurs de Brand Portal {#Personas}
 
@@ -103,18 +121,18 @@ Un administrateur peut effectuer toutes les tâches exécutées par un éditeur,
 
 En plus des tâches mentionnées ci-dessus, un auteur dans AEM Assets peut effectuer les tâches suivantes :
 
-[Configuration de l’intégration d’AEM Assets à Brand Portal](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
+[Configuration des ressources AEM avec le portail de marque](../using/configure-aem-assets-with-brand-portal.md)
 
-[Publication de dossiers sur Brand Portal](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
+[Publication de dossiers sur Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
 
-[Publication de collections sur Brand Portal](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
+[Publication de collections sur Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
 
 ## Autre alias pour l’URL de Brand Portal {#tenant-alias-for-portal-url}
 
 À partir de Brand Portal 6.4.3, les entreprises peuvent avoir une autre URL (alias) pour l’URL existante de leur client Brand Portal. L’URL d’alias peut être créée avec un autre préfixe dans l’URL.\
-Notez que seul le préfixe de l’URL Brand Portal peut être personnalisé et non l’URL entière. Par exemple, une entreprise avec le domaine existant **[!UICONTROL geomettrix.brand-portal.adobe.com]**peut demander et obtenir la création de**[!UICONTROL  geomettrixinc.brand-portal.adobe.com]**.
+Notez que seul le préfixe de l’URL Brand Portal peut être personnalisé et non l’URL entière. Par exemple, une entreprise avec le domaine existant **[!UICONTROL geomettrix.brand-portal.adobe.com]** peut demander et obtenir la création de **[!UICONTROL geomettrixinc.brand-portal.adobe.com]**.
 
-Cependant, l’instance d’auteur AEM peut uniquement être [configurée](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) avec l’URL d’ID du client et non avec l’URL (alternative) d’alias de client.
+Cependant, l’instance d’auteur AEM peut uniquement être [configurée](../using/configure-aem-assets-with-brand-portal.md) avec l’URL d’ID du client et non avec l’URL (alternative) d’alias de client.
 
 >[!NOTE]
 >
@@ -128,7 +146,7 @@ Les utilisateurs peuvent demander l’accès à Brand Portal depuis l’écran 
 
 Pour demander l’accès, procédez comme suit :
 
-1. Sur la page de connexion de Brand Portal, sélectionnez **[!UICONTROL Cliquez ici]**en regard de**[!UICONTROL  Besoin d’un accès ?]**. En revanche, pour créer une session d’invité, sélectionnez **[!UICONTROL Cliquez ici]**en regard de**[!UICONTROL  Accès d’invité ?]**.
+1. Sur la page de connexion de Brand Portal, sélectionnez **[!UICONTROL Cliquez ici]** en regard de **[!UICONTROL Besoin d’un accès ?]**. En revanche, pour créer une session d’invité, sélectionnez **[!UICONTROL Cliquez ici]** en regard de **[!UICONTROL Accès d’invité ?]**.
 
    ![Écran de connexion de Brand Portal](assets/bp-login-requestaccess.png)
 
@@ -141,16 +159,16 @@ Pour demander l’accès, procédez comme suit :
 
    **Scénario 1**
    1. Si vous disposez d’un [!UICONTROL Adobe ID], d’un [!UICONTROL Enterprise ID] ou d’un [!UICONTROL Federated ID], cliquez sur **[!UICONTROL Se connecter]**.
-La page[!UICONTROL Se connecter]s’affiche.
+La page [!UICONTROL Se connecter] s’affiche.
    1. Saisissez votre [!UICONTROL Adobe ID], puis cliquez sur **[!UICONTROL Se connecter]**.<br />
    ![Connexion à Adobe](assets/bplogin_request_access_3.png)
 
    Vous êtes redirigé vers la page [!UICONTROL Demander l’accès].<br />
    **Scénario 2**
-   1. Si vous ne possédez pas d’[!UICONTROL Adobe ID], pour en créer un, cliquez sur **[!UICONTROL Obtenir un Adobe ID]**dans la page[!UICONTROL Demander l’accès].
-La page[!UICONTROL Se connecter]s’affiche.
+   1. Si vous ne possédez pas d’[!UICONTROL Adobe ID], pour en créer un, cliquez sur **[!UICONTROL Obtenir un Adobe ID]** dans la page [!UICONTROL Demander l’accès].
+La page [!UICONTROL Se connecter] s’affiche.
    1. Cliquez sur **[!UICONTROL Obtenir un Adobe ID]**.
-La page[!UICONTROL Se connecter]s’affiche.
+La page [!UICONTROL Se connecter] s’affiche.
    1. Saisissez vos nom et prénom, e-mail et mot de passe.
    1. Sélectionnez **[!UICONTROL S’inscrire]**.<br />
    ![](assets/bplogin_request_access_5.png)
@@ -168,7 +186,7 @@ Les administrateurs de produit Brand Portal reçoivent les demandes d’accès 
 ![Notification de demande d’accès](assets/bplogin_request_access_7.png)
 
 Pour accorder un accès, les administrateurs de produit doivent cliquer sur la notification correspondante dans la zone de notification de Brand Portal, puis sur **[!UICONTROL Accorder l’accès]**.
-Les administrateurs de produit peuvent aussi suivre le lien contenu dans l’e-mail de demande d’accès afin d’accéder à Adobe[!UICONTROL Admin Console]et d’ajouter l’utilisateur à la configuration de produit adéquate.
+Les administrateurs de produit peuvent aussi suivre le lien contenu dans l’e-mail de demande d’accès afin d’accéder à Adobe [!UICONTROL Admin Console] et d’ajouter l’utilisateur à la configuration de produit adéquate.
 
 Vous êtes redirigé vers la page d’accueil d’[Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview). Utilisez Adobe [!UICONTROL Admin Console] pour créer des utilisateurs et les affecter à des profils de produit (auparavant appelés configurations de produit), qui s’affichent sous la forme de groupes dans Brand Portal. Pour plus d’informations sur l’ajout d’utilisateurs dans [!UICONTROL Admin Console], voir [Ajout d’un utilisateur](brand-portal-adding-users.md#add-a-user) (suivez les étapes 4 à 7 de la procédure pour ajouter un utilisateur).
 
@@ -201,5 +219,5 @@ Vous pouvez ignorer cette notification et continuer à utiliser Brand Portal. C
 
 ## Ressources connexes {#related-resources}
 
-* [Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/marketing-cloud/contact-support.html)
-* [Forums AEM](https://www.adobe.com/go/aod_forums_fr)
+* [Assistance clientèle d’Adobe](https://helpx.adobe.com/marketing-cloud/contact-support.html)
+* [Forums AEM](https://www.adobe.com/go/aod_forums_en)
