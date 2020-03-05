@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: e20a75fd982d375d73461d177380349cb32b5303
+source-git-commit: eba4ee138d4f594c4c446a3cc8941f04fd46902c
 
 ---
 
@@ -19,11 +19,9 @@ source-git-commit: e20a75fd982d375d73461d177380349cb32b5303
 
 Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de contrôler et de distribuer facilement et en toute sécurité des ressources créatives approuvées destinées à des tiers externes et aux collaborateurs de l’entreprise sur différents appareils. Brand Portal améliore l’efficacité du partage des ressources, accélère la mise sur le marché des ressources et réduit les risques de non-conformité et d’accès non autorisé. Adobe a pour objectif d’améliorer l’expérience globale de Brand Portal. Vous trouverez ci-dessous un aperçu des nouvelles fonctionnalités et améliorations.
 
-## Changements dans la version 6.4.6    {#what-changed-in-646}
+## Changements dans la version 6.4.6 {#what-changed-in-646}
 
-Le portail de marque 6.4.6 est une version d’amélioration dans laquelle le canal d’autorisation entre AEM Assets et le portail de marque est modifié. AEM Assets est maintenant configuré avec Brand Portal via les E/S Adobe, qui fournit un jeton IMS pour l’autorisation de votre locataire du portail de marque.
-
-Auparavant, le portail de marque était configuré dans l’interface utilisateur classique via la passerelle OAuth héritée, qui utilise l’échange de jetons JWT pour obtenir un jeton d’accès IMS en vue de l’autorisation.
+Le portail de marque 6.4.6 est une version d’amélioration dans laquelle le canal d’autorisation entre les ressources AEM et le portail de marque est modifié. Auparavant, Brand Portal était configuré dans l’interface utilisateur classique via la passerelle OAuth héritée, qui fait appel à l’échange de jetons JWT pour obtenir un jeton d’accès IMS en vue de l’autorisation. AEM Assets est maintenant configuré avec Brand Portal via les E/S Adobe, qui fournit un jeton IMS pour l’autorisation de votre locataire du portail de marque.
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
@@ -39,17 +37,28 @@ Auparavant, le portail de marque était configuré dans l’interface utilisateu
 
    -->
 
-La configuration d’AEM Assets avec Brand Portal sur les E/S Adobe est prise en charge sur :
-* AEM 6.5.4.0 et versions ultérieures
-* AEM 6.4.8.0 et versions ultérieures
-* AEM 6.3.3.8 et versions ultérieures
+Les étapes de configuration des ressources AEM avec le portail de marque sont différentes selon votre version AEM et selon que vous effectuez une configuration pour la première fois ou une mise à niveau des configurations existantes :
+
+<!--| **AEM Version** |**New Configuration** |**Upgrade Configuration** |
+|---|---|---|
+| **AEM 6.5 (6.5.4.0 and above)** |[Create configuration](../using/brand-portal-configure-integration-65.md) |[Upgrade configuration](../using/brand-portal-configure-integration-65.md#upgrade-integration-65) | 
+| **AEM 6.4 (6.4.8.0 and above)** |[Create configuration](../using/brand-portal-configure-integration-64.md) |[Upgrade configuration](../using/brand-portal-configure-integration-64.md#upgrade-integration-64) | 
+| **AEM 6.3 (6.3.3.8 and above)** |[Create configuration](../using/brand-portal-configure-integration-63.md) |[Upgrade configuration](../using/brand-portal-configure-integration-63.md#upgrade-integration-63) | 
+| **AEM 6.2** |Contact Support |Contact Support | 
+-->
 
 
->[!NOTE]
->
->La configuration via OAuth héritée n’est plus prise en charge à partir du 6 avril 2020 et est remplacée par les E/S Adobe.
->
->Les configurations existantes continueront à fonctionner si vous ne supprimez ni ne modifiez les paramètres de configuration.
+<!-- AEM Assets configuration with Brand Portal on Adobe I/O is supported on:
+* AEM 6.5.4.0 and above
+* AEM 6.4.8.0 and above
+* AEM 6.3.3.8 and above -->
+
+| **Version d’AEM** | **Nouvelle configuration** | **Configuration de la mise à niveau** |
+|---|---|---|
+| **AEM 6.5 (6.5.4.0 et versions ultérieures)** | [Créer une configuration](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Configuration de la mise à niveau](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#Upgradeconfiguration) |
+| **AEM 6.4 (6.4.8.0 et versions ultérieures)** | [Créer une configuration](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Configuration de la mise à niveau](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#Upgradeconfiguration) |
+| **AEM 6.3 (6.3.3.8 et versions ultérieures)** | [Créer une configuration](https://helpx.adobe.com/in/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [Configuration de la mise à niveau](https://helpx.adobe.com/in/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
+| **AEM 6.2** | Contacter le support technique | Contacter le support technique |
 
 Consultez les dernières [Notes de mise à jour de Brand Portal](brand-portal-release-notes.md).
 
@@ -96,7 +105,7 @@ Une fois le transfert terminé dans le dossier **NEW**, les utilisateurs de Bran
 
 ## Changements dans la version 6.4.4 {#what-changed-in-644}
 
-La version 6.4.4 de Brand Portal est axée sur les améliorations apportées à la recherche de texte et les principales demandes des clients. Consultez les dernières [Notes de mise à jour de Brand  Portal](brand-portal-release-notes.md).
+La version 6.4.4 de Brand Portal est axée sur les améliorations apportées à la recherche de texte et les principales demandes des clients. Consultez les dernières [Notes de mise à jour de Brand Portal](brand-portal-release-notes.md).
 
 ### Améliorations de la recherche {#search-enhancements}
 
@@ -104,7 +113,7 @@ Brand Portal 6.4.4 et les versions ultérieures prennent en charge la recherch
 
 Lisez les sections suivantes pour en savoir plus sur la recherche de texte partielle et la recherche par caractères génériques.
 
-#### Recherche par expression partielle    {#partial-phrase-search}
+#### Recherche par expression partielle     {#partial-phrase-search}
 
 Vous pouvez maintenant rechercher des ressources en spécifiant uniquement une partie (c’est-à-dire un mot ou deux) de l’expression recherchée dans le volet de filtrage.
 
@@ -190,7 +199,7 @@ Les utilisateurs dont l’instance d’auteur AEM est en mode hybride Dynamic M
 Pour autoriser la prévisualisation et le téléchargement des rendus Dynamic Media sur des comptes de client spécifiques, les administrateurs doivent spécifier **Configuration Dynamic Media** (URL du service vidéo (URL de la passerelle DM) et ID d’enregistrement pour récupérer la vidéo dynamique) dans la configuration **Vidéo** à partir du panneau des outils d’administration.
 
 **Le cas d’utilisation**
-Vous pouvez prévisualiser les vidéos Dynamic Media sur  :
+Vous pouvez prévisualiser les vidéos Dynamic Media sur :
 
 * la page des détails de la ressource ;
 * l’affichage de la carte de la ressource ;
@@ -237,7 +246,7 @@ La version offre une simplifie l’expérience de téléchargement simplifiée a
 * choix du téléchargement exclusif des rendus (et non des ressources originales) ;
 * téléchargement des ressources quand l’accès aux rendus originaux est restreint.
 
-## Changements dans la version 6.4.2    {#what-changed-in-1}
+## Changements dans la version 6.4.2     {#what-changed-in-1}
 
 La version 6.4.2 de Brand Portal propose tout un ensemble de fonctionnalités visant à répondre aux besoins de distribution de ressources des organisations. Ces fonctionnalités permettent aussi aux organisations de toucher un grand nombre d’utilisateurs répartis à travers le monde grâce à l’accès des invités et à une expérience optimale facilitée par des téléchargements accélérés. Brand Portal fournit également un meilleur contrôle aux organisations par le biais de nouvelles configurations pour les administrateurs et de nouveaux rapports, et il répond aux demandes des clients.
 
@@ -332,7 +341,7 @@ Les configurations ci-dessus sont disponibles sous Accès et Paramètres génér
 Les administrateurs peuvent rendre les prédicats de propriétés non sensibles à la casse en utilisant le prédicat de propriété mis à jour qui dispose d’une case à cocher pour l’option Ignorer la casse. Cette option est disponible pour les prédicats de propriété et les prédicats de propriété à plusieurs valeurs.\
 Toutefois, la recherche non sensible à la casse est comparativement plus lente que la recherche par défaut de prédicat de propriété. La multiplication de prédicats non sensibles à la casse dans le filtre de recherche peut ralentir la recherche. Il est donc conseillé d’utiliser la fonction de recherche non sensible à la casse judicieusement.
 
-## Changements dans la version 6.4.1     {#what-changed-in-2}
+## Changements dans la version 6.4.1      {#what-changed-in-2}
 
 Brand Portal 6.4.1 est une version de mise à niveau de la plate-forme qui contient plusieurs nouvelles fonctionnalités et des améliorations essentielles en termes de navigation et de recherche, ainsi que des améliorations de performances visant à offrir une expérience client optimale.
 
@@ -379,7 +388,7 @@ Brand Portal 6.4.1 est une version de mise à niveau de la plate-forme qui con
 * Un seul fichier volumineux est directement téléchargé, sans créer de fichier compressé, afin d’améliorer la vitesse et le débit.
 * La limite de téléchargement de fichier compressé a été augmentée de 1 Go à 5 Go.
 
-* Les utilisateurs peuvent maintenant choisir de télécharger uniquement les fichiers personnalisés et originaux     et de bloquer les rendus prêts à l’emploi, lors du téléchargement de ressources à partir de Brand  Portal ou via la fonctionnalité de liens partagés.
+* Les utilisateurs peuvent maintenant choisir de télécharger uniquement les fichiers personnalisés et originaux      et de bloquer les rendus prêts à l’emploi, lors du téléchargement de ressources à partir de Brand Portal ou via la fonctionnalité de liens partagés.
 
 ![](assets/excludeautorendition.png)
 
@@ -400,6 +409,7 @@ Brand Portal 6.4.1 est une version de mise à niveau de la plate-forme qui con
 
 
 
+
 Introduction Ajout d’un nouveau rapport afin de fournir des informations sur les liens partagés. Le rapport Partage de liens répertorie toutes les URL vers les ressources partagées avec des utilisateurs internes et externes à l’organisation pendant la période spécifiée. Il indique également si le lien a été partagé, par qui et sa date d’expiration.
 
 ![](assets/navigatereport.png)
@@ -411,12 +421,13 @@ Introduction Ajout d’un nouveau rapport afin de fournir des informations sur l
 
 
 
+
 Le rapport Utilisation est maintenant consolidé avec d’autres rapports. Il est désormais consultable dans la console Rapports de ressources. Pour accéder à la console Rapports de ressources, naviguez jusqu’à **Créer/gérer des rapports** dans le panneau des outils d’administration.
 
 ![](assets/accessassetreport.png)
 
 **Amélioration de l’expérience des utilisateurs avec la création de rapports**
-L’interface de création de rapports sur Brand  Portal est devenue plus intuitive et offre un bien meilleur plus de contrôle aux entreprises. Hormis la création de divers rapports, les administrateurs peuvent désormais reconsulter les rapports générés et les télécharger ou les supprimer, car ils sont enregistrés dans Brand Portal.
+L’interface de création de rapports sur Brand Portal est devenue plus intuitive et offre un bien meilleur plus de contrôle aux entreprises. Hormis la création de divers rapports, les administrateurs peuvent désormais reconsulter les rapports générés et les télécharger ou les supprimer, car ils sont enregistrés dans Brand Portal.
 
 Chaque rapport créé peut être personnalisé en ajoutant ou en supprimant des colonnes par défaut. De plus, des colonnes personnalisées peuvent être ajoutées aux rapports Téléchargement, Expiration et Publication pour contrôler leur degré de précision.
 
@@ -446,7 +457,7 @@ Selon qu’ils disposent ou non d’un Adobe ID, les utilisateurs peuvent suivr
 
 Pour plus d’informations, voir [Demande d’accès à Brand Portal](../using/brand-portal.md#requestaccesstobrandportal).
 
-### Amélioration apportée au rapport sur les ressources téléchargées       {#enhancement-in-the-assets-downloaded-report}
+### Amélioration apportée au rapport sur les ressources téléchargées        {#enhancement-in-the-assets-downloaded-report}
 
 Le rapport sur les ressources téléchargées comporte désormais le nombre de téléchargements de ressources par utilisateur pendant la période (date et heure) spécifiée. Les utilisateurs peuvent télécharger ce rapport au format .csv et compiler des données telles que le nombre total de téléchargements pour une ressource sous licence.
 
@@ -474,17 +485,17 @@ Pour plus d’informations, voir l’étape 12 dans [Partage de ressources en t
 
 Les performances du sélecteur d’utilisateur ont été améliorées afin de prendre en compte les besoins des clients avec une base d’utilisateurs volumineuse.
 
-### Modifications de la valorisation de marque Experience Cloud     {#experience-cloud-branding-changes}
+### Modifications de la valorisation de marque Experience Cloud      {#experience-cloud-branding-changes}
 
 Brand Portal se conforme désormais à la nouvelle valorisation de marque Adobe Experience Cloud.
 
 ![](assets/bp_solution_switcher.png)
 
-## Changements dans la version 6.3.1     {#what-changed-in-4}
+## Changements dans la version 6.3.1      {#what-changed-in-4}
 
 Brand Portal 6.3.1 comprend de nouvelles fonctionnalités améliorées orientées vers l’alignement de Brand Portal sur AEM.
 
-### Mise à niveau de l’interface utilisateur     {#upgraded-user-interface}
+### Mise à niveau de l’interface utilisateur      {#upgraded-user-interface}
 
 Pour aligner l’expérience utilisateur de Brand Portal sur AEM, Adobe passe à l’interface utilisateur Coral 3. Ce changement améliore l’utilisation générale, y compris la navigation et l’aspect.
 
@@ -506,7 +517,7 @@ Pour aligner l’expérience utilisateur de Brand Portal sur AEM, Adobe passe �
 
 ![](assets/omnisearchicon.png)
 
-### Amélioration de la navigation     {#enhanced-browsing-experience}
+### Amélioration de la navigation      {#enhanced-browsing-experience}
 
 * Nouveau mode Colonnes pour parcourir les dossiers imbriqués :
 
@@ -514,7 +525,7 @@ Pour aligner l’expérience utilisateur de Brand Portal sur AEM, Adobe passe �
 
 * Dans la liste des ressources contenues dans un dossier, les dernières ressources téléchargées apparaissent en début de liste.
 
-### Amélioration de la recherche     {#enhanced-search-experience}
+### Amélioration de la recherche      {#enhanced-search-experience}
 
 * La nouvelle fonctionnalité de recherche Omni permet d’accélérer l’accès au contenu, aux fonctionnalités ou aux balises pertinents par le biais de suggestions automatiques qui s’affichent lorsque vous saisissez des mots-clés de recherche. La fonctionnalité de recherche Omni est disponible dans toutes les fonctions de recherche.
 
@@ -529,15 +540,15 @@ Pour aligner l’expérience utilisateur de Brand Portal sur AEM, Adobe passe �
 * La nouvelle fonctionnalité d’optimisation des recherches permet d’améliorer la pertinence des recherches de sorte que des ressources spécifiques apparaissent en tête des résultats de la recherche.
 * La nouvelle fonctionnalité de recherche basée sur le chemin d’accès permet de fournir le chemin d’accès à un dossier imbriqué afin de pouvoir rechercher les ressources contenues dans ce dossier.
 
-#### Nouvelle recherche basée sur les balises intelligentes     {#new-smart-tags-based-search}
+#### Nouvelle recherche basée sur les balises intelligentes      {#new-smart-tags-based-search}
 
 Si des images avec des balises intelligentes sont publiées depuis AEM Assets vers Brand Portal, vous pouvez rechercher ces images dans Brand Portal à l’aide des noms des balises intelligentes en tant que mots-clés. Cette fonctionnalité n’est disponible que pour les fichiers.
 
-### Amélioration des téléchargements       {#enhanced-downloading-experience}
+### Amélioration des téléchargements        {#enhanced-downloading-experience}
 
 Après avoir téléchargé un dossier imbriqué, vous pouvez conserver la hiérarchie des dossiers d’origine. Les ressources situées dans un dossier imbriqué peuvent être téléchargées dans un seul dossier au lieu de plusieurs dossiers distincts.
 
-### Amélioration des performances       {#improved-performance}
+### Amélioration des performances        {#improved-performance}
 
 Des améliorations apportées aux fonctionnalités de navigation, de recherche et de téléchargement accroissent de manière significative les performances de Brand Portal.
 
@@ -545,7 +556,7 @@ Des améliorations apportées aux fonctionnalités de navigation, de recherche e
 
 Les administrateurs peuvent définir la date et l’heure d’expiration des ressources avant de les partager. Une fois qu’une ressource est arrivée à expiration, elle est visible par les observateurs et les éditeurs, mais ne peut pas être téléchargée. Lorsqu’une ressource arrive à expiration, les administrateurs reçoivent une notification.
 
-### Amélioration du tri des ressources    {#enhanced-asset-sorting}
+### Amélioration du tri des ressources     {#enhanced-asset-sorting}
 
 Le tri des ressources dans un dossier en mode Liste n’est plus limité au nombre de ressources affichées sur la première page. Toutes les ressources d’un dossier sont triées, qu’elles soient répertoriées ou non sur la première page.
 
@@ -555,7 +566,7 @@ Les administrateurs peuvent créer et gérer trois types de rapports : ressourc
 
 ![](assets/newreport.png)
 
-### Métadonnées supplémentaires    {#additional-metadata}
+### Métadonnées supplémentaires     {#additional-metadata}
 
 Brand Portal 6.3.1 comporte des métadonnées supplémentaires qui font partie d’AEM Assets 6.3. Vous pouvez utiliser le formulaire Éditeur de schéma pour contrôler les métadonnées qui doivent être visibles sur la page Propriétés des ressources. Les métadonnées des ressources ne sont pas visibles par les utilisateurs de partage de lien externes. Ceux-ci ne peuvent que prévisualiser et télécharger des ressources à l’aide de l’URL du partage de lien.
 
@@ -569,7 +580,7 @@ Brand Portal 6.3.1 comporte des métadonnées supplémentaires qui font partie
 
 * Lorsqu’un administrateur ajoute de nouveaux utilisateurs, ils n’ont pas besoin d’accepter d’invitations pour être ajoutés au compte Brand Portal ; ils le sont automatiquement.
 
-### Nouvelles fonctionnalités de publication d’AEM Assets 6.3    {#new-publishing-capabilities-in-aem-assets}
+### Nouvelles fonctionnalités de publication d’AEM Assets 6.3     {#new-publishing-capabilities-in-aem-assets}
 
 * Les administrateurs d’AEM peuvent publier un schéma de métadonnées depuis AEM Assets sur Brand Portal à l’aide d’AEM 6.3 SP 1-CFP 1 (6.3.1.1) disponible depuis le quatrième trimestre de 2017.
 
