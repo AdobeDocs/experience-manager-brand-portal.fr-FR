@@ -9,7 +9,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 5cb6109b4e3888b7235ae1ae0d29721722ae2ba5
+source-git-commit: 37ced7a7e51d13e815d9602ddf7dc425f3fa392a
 
 ---
 
@@ -23,7 +23,7 @@ Découvrez les fonctionnalités, les améliorations, les problèmes critiques r�
 | Produit | Adobe Experience Manager Assets – Brand Portal |
 |---|---|
 | Version | 6.4.6 |
-| Date | Mars 2020 |
+| Date | Mars 2020 |
 
 ## Présentation {#overview}
 
@@ -35,35 +35,35 @@ Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de con
 
 Cette version comprend les nouvelles fonctionnalités suivantes :
 
-* Captcha pour la connexion de l&#39;invité à Brand Portal.
+* Captcha pour la connexion de l&#39;invité à Brand Portal. Pour plus d’informations, voir Accès [invité au portail](../using/guest-access.md) de marque.
 
 ### Améliorations {#enhancements-646}
 
-Cette version de Brand Portal comprend les améliorations suivantes :
+Cette version de Brand Portal comprend les améliorations suivantes :
 
 * AEM Assets est maintenant configuré avec Brand Portal via les E/S Adobe, qui fournit un jeton IMS pour l’autorisation de votre locataire du portail de marque.
 
    >[!NOTE]
    >
-   >La configuration via OAuth héritée n’est plus prise en charge à partir du 6 avril 2020 et est remplacée par les E/S Adobe.
+   >La configuration via OAuth héritée n’est plus prise en charge à partir du 6 avril 2020 et est remplacée par la configuration via les E/S Adobe.
 
-<!--
-   For more information, see [Configure integration with Brand Portal](brand-portal-configure-integration.md)
-   -->
+
+For more information, see [Configure AEM Assets with Brand Portal](configure-aem-assets-with-brand-portal.md)
+
 
 ### Problèmes critiques résolus {#critical-issues-fixed}
 
 Cette version comprend des correctifs pour les problèmes critiques suivants :
 
-* Les valeurs déroulantes du schéma de métadonnées ne sont pas visibles dans les propriétés de l’actif.
+* Les valeurs du menu déroulant Schéma de métadonnées ne sont pas visibles dans les propriétés des ressources.
 
-* Le sous-schéma de métadonnées n’affiche pas les onglets basés sur le mimetype dans les propriétés des ressources.
+* Le sous-schéma de métadonnées n’affiche pas les onglets basés sur le type MIME dans les propriétés des ressources.
 
-* Le schéma de métadonnées Annuler la publication renseigne un message d’erreur bien que le schéma soit supprimé du serveur principal.
+* L’annulation de la publication d’un schéma de métadonnées renvoie un message d’erreur bien que le schéma soit supprimé du serveur principal.
 
-* L’image d’aperçu ne s’affiche pas pour un fichier publié.
+* L’image d’aperçu ne s’affiche pas pour une ressource publiée.
 
-* L’utilisateur ne peut pas publier ou annuler la publication de fichiers dont le nom contient un guillemet simple.
+* L’utilisateur ne peut pas publier ni annuler la publication de ressources dont le nom contient une apostrophe.
 
 * Les termes et conditions ne s’affichent pas lors du téléchargement de plusieurs ressources.
 
@@ -84,12 +84,12 @@ L’interface utilisateur de Brand Portal est disponible dans les langues suiva
 * Français
 * Espagnol
 * Italien
-* Brésilien Portugais
+* Brésilien  Portugais
 * Japonais
 * Chinois simplifié
 * Coréen
 
-## Plates-formes certifiées {#certified-platforms}
+## Plates-formes certifiées  {#certified-platforms}
 
 Pour vérifier quelles sont les plates-formes certifiées pour exécuter cette version de Brand Portal, reportez-vous à la colonne **Prise en charge de l’interface utilisateur optimisée pour les écrans tactiles** du tableau **Navigateurs pris en charge pour l’interface utilisateur de création** dans la section [Exigences techniques](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html).
 
