@@ -8,8 +8,8 @@ content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: 62b254818503bd297ea3016f4ddd70b9283f1c47
+translation-type: tm+mt
+source-git-commit: aa6bd187124888cd62ca1f5c7192f9d65ac6ca8a
 
 ---
 
@@ -20,12 +20,12 @@ Les administrateurs AEM peuvent configurer **l’approvisionnement des ressource
 
 >[!NOTE]
 >
->Veillez à intégrer l’instance AEM Assets à Brand Portal avant de lancer la configuration. Voir [Configuration de l’intégration d’AEM Assets dansà Brand Portal](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html).
+>Avant de commencer la configuration, assurez-vous que votre instance AEM Assets est configurée avec Brand Portal. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 
 La vidéo suivante explique comment configurer l’approvisionnement des ressources sur l’instance d’auteur AEM :
 
->[!VIDEO](https://video.tv.adobe.com/v/29771?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/29771)
 
 ## Activation de l’approvisionnement des ressources {#enable-asset-sourcing}
 
@@ -35,7 +35,7 @@ Les administrateurs d’AEM peuvent activer l’approvisionnement des ressources
 1. Connectez-vous à votre instance d’auteur AEM et ouvrez Configuration Manager.
 URL par défaut : http:// localhost:4502/system/console/configMgr
 1. À l’aide du mot-clé **Approvisionnement des ressources**, recherchez la **[!UICONTROL configuration de l’indicateur de la fonctionnalité d’approvisionnement des ressources]**.
-1. Cliquez sur **[!UICONTROL Configuration de l’indicateur de la fonctionnalité d’approvisionnement des ressources]**pour ouvrir la fenêtre de configuration.
+1. Cliquez sur **[!UICONTROL Configuration de l’indicateur de la fonctionnalité d’approvisionnement des ressources]** pour ouvrir la fenêtre de configuration.
 1. Cochez la case **[!UICONTROL feature.flag.active.status]**.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
@@ -54,10 +54,12 @@ Il peut ajouter de nouveaux utilisateurs dans AEM Admin Console. Pour plus d�
 **Pour charger la liste des utilisateurs de Brand Portal, procédez comme suit :**
 1. Connectez-vous à votre instance d’auteur AEM
 URL par défaut : http:// localhost:4502/aem/start.html
-1. Dans le panneau **Outils** ![](assets/tools.png), accédez à **[!UICONTROL Ressources > Utilisateurs Brand Portal]**.   ![](assets/upload-user-list1.png)
+1. Dans le panneau **Outils** ![](assets/tools.png), accédez à **[!UICONTROL Ressources > Utilisateurs Brand Portal]**.
+   ![](assets/upload-user-list1.png)
 1. La fenêtre de chargement des contributeurs de Brand Portal s’affiche.
 Recherchez sur votre ordinateur local le **fichier de configuration (.csv)** contenant la liste des utilisateurs actifs de Brand Portal, puis chargez-le.
-1. Cliquez sur **[!UICONTROL Enregistrer]**.   ![](assets/upload-user-list2.png)
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
+   ![](assets/upload-user-list2.png)
 
 
 Les administrateurs peuvent donner un accès à des utilisateurs/groupes spécifiques à partir de cette liste d’utilisateurs lors de la configuration du dossier de contribution.
