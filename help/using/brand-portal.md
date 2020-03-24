@@ -1,5 +1,5 @@
 ---
-title: Présentation d’AEM Assets  Brand  Portal
+title: Présentation d’AEM Assets Brand Portal
 seo-title: Présentation d’AEM Assets Brand Portal
 description: AEM Assets Brand Portal permet d’acquérir, de contrôler et de distribuer facilement et en toute sécurité des ressources créatives destinées à des tiers externes et aux collaborateurs de l’entreprise sur différents appareils.
 seo-description: AEM Assets Brand Portal permet d’acquérir, de contrôler et de distribuer facilement et en toute sécurité des ressources créatives destinées à des tiers externes et aux collaborateurs de l’entreprise sur différents appareils.
@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aa6bd187124888cd62ca1f5c7192f9d65ac6ca8a
 
 ---
@@ -27,23 +27,23 @@ Voir [Approvisionnement des ressources dans Brand Portal ](brand-portal-asset-s
 
 L’environnement de portail de type navigateur permet de télécharger, parcourir, rechercher, prévisualiser et exporter facilement des ressources dans des formats approuvés.
 
-## Configure AEM Assets with Brand Portal {#configure-brand-portal}
+## Configuration d’AEM Assets avec Brand Portal {#configure-brand-portal}
 
-Les ressources d’Adobe Experience Manager (AEM) sont configurées avec le portail de marques via les E/S Adobe, qui obtiennent un jeton IMS pour l’autorisation de votre locataire du portail de marques.
+Adobe Experience Manager (AEM) Assets est configuré avec Brand Portal via Adobe I/O, qui fournit un jeton IMS pour autoriser votre client Brand Portal.
 
 >[!NOTE]
 >
->La configuration des ressources AEM avec le portail de marque via les E/S Adobe est prise en charge sur AEM 6.3 et versions ultérieures.
+>La configuration d’AEM Assets avec Brand Portal via Adobe I/O est prise en charge sur AEM 6.3 et versions ultérieures.
 
-### Conditions préalables à la configuration des ressources AEM avec le portail de marque {#prerequisites}
+### Conditions préalables à la configuration d’AEM Assets avec Brand Portal {#prerequisites}
 
-Pour configurer AEM Assets avec Brand Portal, vous devez disposer des éléments suivants :
+Pour configurer AEM Assets avec Brand Portal, vous devez disposer des éléments suivants :
 
-* Une instance d’auteur AEM Assets en cours d’exécution avec le dernier Service Pack.
-* URL du client du portail de marque.
-* Utilisateur disposant de droits d’administrateur système sur l’organisation IMS du client du portail de marque.
+* Une instance d’auteur AEM Assets en cours d’exécution avec le dernier Service Pack
+* URL du client Brand Portal
+* Un utilisateur disposant de droits d’administrateur système sur l’organisation IMS du client Brand Portal
 
-For more information, see [configuring AEM Assets with Brand Poral](../using/configure-aem-assets-with-brand-portal.md).
+Pour plus d’informations, voir [Configuration d’AEM Assets avec Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 ## Différents types d’utilisateurs de Brand Portal {#Personas}
 
@@ -121,11 +121,11 @@ Un administrateur peut effectuer toutes les tâches exécutées par un éditeur,
 
 En plus des tâches mentionnées ci-dessus, un auteur dans AEM Assets peut effectuer les tâches suivantes :
 
-[Configuration des ressources AEM avec le portail de marque](../using/configure-aem-assets-with-brand-portal.md)
+[Configuration d’AEM Assets avec Brand Portal](../using/configure-aem-assets-with-brand-portal.md)
 
-[Publication de dossiers sur Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
+[Publication de dossiers sur Brand Portal](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
 
-[Publication de collections sur Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
+[Publication de collections sur Brand Portal](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
 
 ## Autre alias pour l’URL de Brand Portal {#tenant-alias-for-portal-url}
 
@@ -219,5 +219,5 @@ Vous pouvez ignorer cette notification et continuer à utiliser Brand Portal. C
 
 ## Ressources connexes {#related-resources}
 
-* [Assistance clientèle d’Adobe](https://helpx.adobe.com/marketing-cloud/contact-support.html)
-* [Forums AEM](https://www.adobe.com/go/aod_forums_en)
+* [Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/marketing-cloud/contact-support.html)
+* [Forums AEM](https://www.adobe.com/go/aod_forums_fr)
