@@ -1,31 +1,31 @@
 ---
 title: Configuration de l’approvisionnement des ressources
-seo-title: Configuration de l'approvisionnement des ressources
-description: Découvrez comment configurer la fonctionnalité d'approvisionnement des ressources dans AEM Assets.
-seo-description: Découvrez comment configurer la fonctionnalité d'approvisionnement des ressources dans AEM Assets.
+seo-title: Configuration de l’approvisionnement des ressources
+description: Découvrez comment configurer la fonctionnalité d’approvisionnement des ressources dans AEM Assets.
+seo-description: Découvrez comment configurer la fonctionnalité d’approvisionnement des ressources dans AEM Assets.
 uuid: null
 content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aa6bd187124888cd62ca1f5c7192f9d65ac6ca8a
 
 ---
 
 
-# Configuration de l&#39;approvisionnement des ressources {#configure-asset-sourcing}
+# Configuration de l’approvisionnement des ressources {#configure-asset-sourcing}
 
-Les administrateurs AEM peuvent configurer **l’approvisionnement des ressources** depuis l’instance d’auteur AEM. Ils activent la configuration du drapeau de la fonctionnalité d&#39;approvisionnement des ressources depuis la **configuration de la console web AEM** et téléchargent la liste des utilisateurs Brand Portal actifs dans **AEM Assets**.
+Les administrateurs AEM peuvent configurer **l’approvisionnement des ressources** depuis l’instance d’auteur AEM. Ils activent la configuration de l’indicateur de la fonctionnalité d’approvisionnement des ressources depuis la **configuration de la console web AEM** et chargent la liste des utilisateurs Brand Portal actifs dans **AEM Assets**.
 
 >[!NOTE]
 >
->Avant de commencer la configuration, assurez-vous que votre instance AEM Assets est configurée avec Brand Portal. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+>Veillez à configurer l’instance d’AEM Assets à Brand Portal avant de commencer la configuration. Voir [Configuration d’AEM Assets avec Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 
 La vidéo suivante explique comment configurer l’approvisionnement des ressources sur l’instance d’auteur AEM :
 
->[!VIDEO](https://video.tv.adobe.com/v/29771)
+>[!VIDEO](https://video.tv.adobe.com/v/29771?captions=fre_fr)
 
 ## Activation de l’approvisionnement des ressources {#enable-asset-sourcing}
 
