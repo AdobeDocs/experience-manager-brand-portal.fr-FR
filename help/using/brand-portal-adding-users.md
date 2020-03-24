@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 777fcc95908f9e31be0aeb4155c8a5f35169fa81
 
 ---
@@ -66,7 +66,7 @@ Si vous êtes administrateur de produit, utilisez Adobe [[!UICONTROL Admin Cons
    ![Présentation d’Admin Console](assets/admin_console_overviewadduser.png)
 
    * Dans la barre d’outils supérieure, cliquez sur **[!UICONTROL Utilisateurs]**. Dans la page [!UICONTROL Utilisateurs], l’option [!UICONTROL Utilisateurs] est sélectionnée par défaut dans le rail gauche. Cliquez sur **[!UICONTROL Ajouter un utilisateur]**.
-   ![Ajout d&#39;utilisateurs dans Admin Console](assets/admin_console_adduseruserpage.png)
+   ![Ajout d’utilisateurs dans Admin Console](assets/admin_console_adduseruserpage.png)
 
 1. Dans la boîte de dialogue Ajouter un utilisateur, saisissez l’e-mail de l’utilisateur que vous souhaitez ajouter ou sélectionnez l’utilisateur dans la liste des suggestions qui apparaît dès que vous commencez à taper.
 
@@ -81,7 +81,7 @@ Si vous êtes administrateur de produit, utilisez Adobe [[!UICONTROL Admin Cons
 
    Pour plus d’informations sur l’octroi de privilèges d’administrateur, voir [Octroi de privilèges d’administrateur aux utilisateurs](../using/brand-portal-adding-users.md#provideadministratorprivilegestousers).
 
-## Ajout d’un profil de produit      {#add-a-product-profile}
+## Ajout d’un profil de produit       {#add-a-product-profile}
 
 Dans [!UICONTROL Admin Console], les profils de produit (auparavant appelés configurations de produit) servent à créer des groupes dans Brand Portal afin d’effectuer des opérations en bloc comme gérer les rôles et partager des ressources dans Brand Portal. **Brand Portal** est le profil de produit disponible par défaut. Vous pouvez créer d’autres profils de produit et ajouter des utilisateurs à ces derniers.
 
@@ -104,11 +104,11 @@ Dans [!UICONTROL Admin Console], les profils de produit (auparavant appelés co
 1. Dans la barre d’outils supérieure, cliquez sur **[!UICONTROL Produits]**.
 1. Dans la page [!UICONTROL Produits], l’option [!UICONTROL Profils de produit] est sélectionnée par défaut. Cliquez sur **[!UICONTROL Nouveau profil]**.
 
-   ![Ajout d’&#39;un nouveau profil de produit](assets/admin_console_addproductprofile.png)
+   ![Ajout d’un nouveau profil de produit](assets/admin_console_addproductprofile.png)
 
 1. Dans la page [!UICONTROL Créer un nouveau profil], indiquez le nom du profil, le nom d’affichage, la description du profil, puis choisissez si vous souhaitez informer les utilisateurs par e-mail lorsqu’ils sont ajoutés ou supprimés du profil.
 
-   ![Création d&#39;un profil de produit](assets/admin_console_addaproductprofilecreatenewprofile.png)
+   ![Création d’un profil de produit](assets/admin_console_addaproductprofilecreatenewprofile.png)
 
 1. Cliquez sur **[!UICONTROL Terminé]**. Le groupe de configuration de produit, par exemple **[!UICONTROL Groupe des ventes]**, est ajouté à Brand Portal.
 
@@ -154,19 +154,19 @@ Pour ajouter des utilisateurs à un groupe Brand Portal, ajoutez-les au profil 
 1. Pour ajouter des utilisateurs en bloc au profil de produit, procédez comme suit :
 
    * Sélectionnez les points de suspension **[!UICONTROL (…) > Ajouter utilisateurs par CSV]**.
-   ![Ajout d’&#39;utilisateurs en bloc](assets/admin_console_addbulkusers.png)
+   ![Ajout d’utilisateurs en bloc](assets/admin_console_addbulkusers.png)
 
    * Dans la page **[!UICONTROL Ajouter utilisateurs par CSV]**, téléchargez un modèle CSV ou glissez-déposez un fichier CSV.
-   ![Ajout d’&#39;utilisateurs par csv](assets/admin_console_addbulkuserscsv.png)
+   ![Ajout d’utilisateurs par csv](assets/admin_console_addbulkuserscsv.png)
 
    * Cliquez sur **[!UICONTROL Charger]**.
    Si vous avez ajouté des utilisateurs au profil de produit par défaut, c’est-à-dire Brand Portal, un e-mail de bienvenue est envoyé à l’adresse e-mail des utilisateurs ajoutés. Les utilisateurs invités peuvent accéder à Brand Portal en cliquant sur le lien contenu dans l’e-mail de bienvenue et en se connectant à l’aide d’un [!UICONTROL Adobe ID]. Pour plus d’informations, voir [Première connexion](../using/brand-portal-onboarding.md).
 
    Les utilisateurs ajoutés à un nouveau profil de produit ou à un profil de produit personnalisé ne reçoivent pas de notifications par e-mail.
 
-## Octroi de privilèges d’administrateur aux utilisateurs      {#provide-administrator-privileges-to-users}
+## Octroi de privilèges d’administrateur aux utilisateurs       {#provide-administrator-privileges-to-users}
 
-Vous pouvez accorder à un utilisateur de Brand Portal le privilège d’administrateur système ou d’administrateur de produit. N’octroyez pas d’autres droits d’administration disponibles dans [!UICONTROL Admin Console], tels qu’administrateur de profil de produit, administrateur de groupe d’utilisateurs et administrateur de support. Pour en savoir plus sur ces rôles, voir [Rôles administratifs](https://helpx.adobe.com/enterprise/using/admin-roles.html).
+Vous pouvez accorder à un utilisateur de Brand Portal le privilège d’administrateur système ou d’administrateur de produit. N’octroyez pas d’autres droits d’administration disponibles dans [!UICONTROL Admin Console], tels qu’administrateur de profil de produit, administrateur de groupe d’utilisateurs et administrateur de support. Pour en savoir plus sur ces rôles, voir [Rôles administratifs](https://helpx.adobe.com/fr/enterprise/using/admin-roles.html).
 
 >[!NOTE]
 >
@@ -201,7 +201,7 @@ Vous pouvez accorder à un utilisateur de Brand Portal le privilège d’admini
    >Brand Portal ne prend en charge que les rôles Administrateur système et Administrateur de produit.
    >
    >
-   >Adobe recommande d’éviter l’utilisation du rôle Administrateur système, car il accorde des privilèges d’administrateur à l’échelle de l’entreprise pour tous les produits d’une entreprise. Par exemple, un administrateur système d’une entreprise qui comprend trois produits Marketing Cloud possède l’ensemble des privilèges pour les trois produits. Seul un administrateur système peut configurer AEM Assets pour que les ressources puissent être publiées d’AEM Assets sur Brand Portal. For more information, see [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+   >Adobe recommande d’éviter l’utilisation du rôle Administrateur système, car il accorde des privilèges d’administrateur à l’échelle de l’entreprise pour tous les produits d’une entreprise. Par exemple, un administrateur système d’une entreprise qui comprend trois produits Marketing Cloud possède l’ensemble des privilèges pour les trois produits. Seul un administrateur système peut configurer AEM Assets pour que les ressources puissent être publiées d’AEM Assets sur Brand Portal. Pour plus d’informations, voir [Configuration d’AEM Assets avec Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
    >
    >
    >En revanche, le rôle Administrateur de produit accorde des privilèges d’administrateur uniquement pour un produit spécifique. Si vous souhaitez appliquer un contrôle d’accès plus précis dans Brand Portal, utilisez le rôle Administrateur de produit et sélectionnez le produit Brand Portal.
@@ -216,7 +216,7 @@ Vous pouvez accorder à un utilisateur de Brand Portal le privilège d’admini
    >
    >Pour retirer les privilèges d’administrateur d’un utilisateur, apportez les modifications nécessaires sur la page **[!UICONTROL Modifier l’administrateur]**, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
-## Gestion des rôles utilisateur     {#manage-user-roles}
+## Gestion des rôles utilisateur      {#manage-user-roles}
 
 Un administrateur peut modifier les rôles des utilisateurs dans Brand Portal.
 
@@ -235,7 +235,7 @@ En plus du rôle Administrateur, Brand Portal prend en charge les rôles suivan
 
 1. Dans la page [!UICONTROL Rôles utilisateur], l’onglet [!UICONTROL Utilisateurs] est sélectionné par défaut. Pour l’utilisateur dont vous souhaitez modifier le rôle, sélectionnez **[!UICONTROL Éditeur]** ou **[!UICONTROL Observateur]** dans la liste déroulante **[!UICONTROL Rôle]**.
 
-   ![Modification des rôles d’&#39;utilisateurs](assets/modify_user_role.png)
+   ![Modification des rôles d’utilisateurs](assets/modify_user_role.png)
 
    Pour modifier simultanément le rôle de plusieurs utilisateurs, sélectionnez les utilisateurs et le rôle adéquat dans la liste déroulante **[!UICONTROL Rôle]**.
 
