@@ -8,7 +8,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 777fcc95908f9e31be0aeb4155c8a5f35169fa81
 
 ---
@@ -16,13 +16,13 @@ source-git-commit: 777fcc95908f9e31be0aeb4155c8a5f35169fa81
 
 # Dépannage des problèmes de publication en parallèle sur Brand Portal {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-Le portail de marque est configuré avec AEM Assets pour que les ressources de marque approuvées soient correctement assimilées (ou publiées) à partir de l’instance d’auteur AEM Assets. Once [configured](../using/configure-aem-assets-with-brand-portal.md), AEM Author uses a replication agent to replicate the selected asset(s) to Brand Portal cloud service for approved usage by Brand Portal users. Plusieurs agents de réplication sont utilisés dans AEM 6.2 SP1-CFP5, AEM CFP 6.3.0.2 et versions ultérieures pour permettre une publication parallèle à haute vitesse.
+Brand Portal est configuré avec AEM Assets, de sorte que les ressources de marque approuvées soient automatiquement ingérées (ou publiées) à partir de l’instance d’auteur AEM Assets. Une fois [configuré](../using/configure-aem-assets-with-brand-portal.md), l’auteur AEM utilise un agent de réplication afin de répliquer la ou les ressources sélectionnées sur le Cloud Service Brand Portal pour l’utilisation approuvée par les utilisateurs de Brand Portal. Plusieurs agents de réplication sont utilisés dans AEM 6.2 SP1-CFP5, AEM CFP 6.3.0.2 et versions ultérieures pour permettre une publication parallèle à haute vitesse.
 
 >[!NOTE]
 >
->Adobe recommande d’effectuer la mise à niveau vers AEM 6.4.1.0 pour vous assurer que le portail de marque AEM Assets est correctement configuré avec AEM Assets. Une limitation dans AEM 6.4 génère une erreur lors de la configuration des ressources AEM avec le portail de marque et l’échec de la réplication.
+>Adobe recommande d’effectuer une mise à niveau vers AEM 6.4.1.0 pour s’assurer qu’AEM Assets Brand Portal est correctement configuré avec AEM Assets. AEM 6.4 présente une limitation, en ce sens qu’il renvoie une erreur lors de la configuration d’AEM Assets avec Brand Portal et entraîne l’échec de la réplication.
 
-Lors de la configuration du service Ccloud pour Brand Portal sous **[!UICONTROL /etc/cloudservice]**, tous les utilisateurs et tokenjetons nécessaires sont générés automatiquement et enregistrés dans le référentiel. La configuration du service Ccloud est créée, et les utilisateurs des services requis pour la réplication et les agents de réplication pour répliquer le contenu sont aussi créés. Cela crée quatre agents de réplication. Ainsi, lorsque vous publiez de nombreuses ressources d’AEM sur Brand Portal, celles-ci sont placées en file d’attente et distribuées entre ces agents de réplication de manière cyclique.
+Lors de la configuration du Cloud Service pour Brand Portal sous **[!UICONTROL /etc/cloudservice]**, tous les utilisateurs et jetons nécessaires sont générés automatiquement et enregistrés dans le référentiel. La configuration du Cloud Service est créée, de même que les utilisateurs des services requis pour la réplication et les agents de réplication pour répliquer le contenu. Cela crée quatre agents de réplication. Ainsi, lorsque vous publiez de nombreuses ressources d’AEM sur Brand Portal, celles-ci sont placées en file d’attente et distribuées entre ces agents de réplication de manière cyclique.
 
 Cependant, la publication peut échouer par intermittence en raison de tâches Sling volumineuses, d’une augmentation du volume d’**[!UICONTROL E/S]** réseau et disque sur l’instance AEM Author, ou d’un ralentissement des performances de l’instance AEM Author. Par conséquent, il est conseillé de tester la connexion avec le ou les agents de réplication avant de démarrer la publication.
 
@@ -36,11 +36,11 @@ Pour valider vos configurations de publication :
 1. Vérifiez si l’agent de réplication est créé.
 1. Testez la connexion.
 
-**Journaux de fin lors de la création du service cloud**
+**Fin des journaux lors de la création du Cloud Service**
 
-Vérifiez la fin des journaux. Vérifiez si l’agent de réplication est créé. Si la création de l’agent de réplication échoue, modifiez le service cloud en y apportant des modifications mineures. Validez et vérifiez une nouvelle fois si l’agent de réplication est créé. Si tel n’est pas le cas, modifiez à nouveau le service.
+Vérifiez la fin des journaux. Vérifiez si l’agent de réplication est créé. Si la création de l’agent de réplication échoue, modifiez le Cloud Service en y apportant des modifications mineures. Validez et vérifiez une nouvelle fois si l’agent de réplication est créé. Si tel n’est pas le cas, modifiez à nouveau le service.
 
-Si le service cloud n’est pas correctement configuré après des modifications répétées, soumettez un ticket de support.
+Si le Cloud Service n’est pas correctement configuré après des modifications répétées, soumettez un ticket de support.
 
 **Test de la connexion aux agents de réplication**
 
@@ -70,7 +70,7 @@ ii. Supprimez `/etc/cloudservices/mediaportal/<config_name>`
    i. Recherchez l’utilisateur `mac-<tenantid>replication`
 ii. supprimez cet utilisateur.
 
-Le système est maintenant complètement nettoyé. Vous pouvez à présent essayer de créer    une configuration cloudservice et continuer à utiliser l’application JWT existante sur [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/). Il n’est pas nécessaire de créer une application ; seule la clé publique doit être mise à jour à partir de la configuration cloud que vous venez de créer.
+Le système est maintenant complètement nettoyé. Vous pouvez à présent essayer de créer      une configuration cloudservice et continuer à utiliser l’application JWT existante sur [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/). Il n’est pas nécessaire de créer une application ; seule la clé publique doit être mise à jour à partir de la configuration cloud que vous venez de créer.
 
 ## Problème de visibilité des clients d’applications JWT sur Developer Connection {#developer-connection-jwt-application-tenant-visibility-issue}
 
