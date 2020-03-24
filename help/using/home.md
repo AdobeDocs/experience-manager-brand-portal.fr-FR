@@ -3,7 +3,7 @@ title: Guide de l’utilisateur d’AEM Brand Portal
 seo-title: Guide de l’utilisateur d’AEM Brand Portal
 description: Guide de l’utilisateur d’AEM Brand Portal
 seo-description: Décrit comment utiliser Brand Portal
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 777fcc95908f9e31be0aeb4155c8a5f35169fa81
 
 ---
@@ -39,7 +39,7 @@ Ce guide de l’utilisateur présente des informations sur les offres Brand Por
 |--- |---|
 | [Nouveautés](whats-new.md) | Modifications et dernières offres depuis les versions précédentes de Brand Portal. |
 | [Notes de mise à jour](brand-portal-release-notes.md) | Améliorations, problèmes critiques résolus et problèmes connus dans la version actuelle. |
-| [Configuration des ressources AEM avec le portail de marque](../using/configure-aem-assets-with-brand-portal.md) | Procédure de réplication de Brand Portal avec AEM Assets pour publier des ressources. |
+| [Configuration d’AEM Assets avec Brand Portal](../using/configure-aem-assets-with-brand-portal.md) | Procédure de réplication de Brand Portal avec AEM Assets pour publier des ressources. |
 | [Résolution des problèmes liés à la publication parallèle](troubleshoot-parallel-publishing.md) | Résolution des problèmes de réplication entre Brand Portal et AEM Assets. |
 | [Formats de fichiers pris en charge](brand-portal-supported-formats.md) | Formats de fichier pris en charge dans Brand Portal pour l’aperçu et le téléchargement. |
 | [Publication de ressources sur Brand Portal](brand-portal-sharing-folders.md) | Procédure de publication des dossiers, collections, liens, paramètres prédéfinis, schémas, facettes et balises sur Brand Portal. |
@@ -47,4 +47,4 @@ Ce guide de l’utilisateur présente des informations sur les offres Brand Por
 
 ### Ressources utiles
 
-* [Présentation de Brand Portal avec AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
+* [Présentation de Brand Portal avec AEM Assets](https://helpx.adobe.com/fr/experience-manager/kt/assets/using/brand-portal-article-understand.html)
