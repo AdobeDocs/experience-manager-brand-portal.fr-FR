@@ -8,8 +8,8 @@ content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
-translation-type: ht
-source-git-commit: 37ced7a7e51d13e815d9602ddf7dc425f3fa392a
+translation-type: tm+mt
+source-git-commit: 6b03229b72a1912be57c2bc1b7e47a017d3dca7e
 
 ---
 
@@ -20,7 +20,7 @@ Découvrez les fonctionnalités, les améliorations, les problèmes critiques r�
 
 ## Informations sur la version {#release-information}
 
-| Produit | Adobe Experience Manager  Assets – Brand Portal |
+| Produit | Adobe Experience Manager Assets – Brand Portal |
 |---|---|
 | Version | 6.4.6 |
 | Date | Mars 2020 |
@@ -48,6 +48,13 @@ Cette version de Brand Portal comprend les améliorations suivantes :
    >La configuration via application OAuth héritée n’est plus prise en charge à partir du 6 avril 2020 et est remplacée par la configuration via Adobe I/O.
 
 
+   >[!TIP]
+   >
+   >***Clients existants uniquement***
+   >
+   >Il est recommandé de continuer à utiliser la configuration héritée de la passerelle OAuth. Si vous rencontrez des problèmes avec la configuration héritée de la passerelle OAuth, supprimez la configuration existante et créez une nouvelle configuration via les E/S Adobe.
+
+
 Pour plus d’informations, voir [Configuration d’AEM Assets avec Brand Portal](configure-aem-assets-with-brand-portal.md).
 
 
@@ -73,6 +80,8 @@ Cette version comprend des correctifs pour les problèmes critiques suivants :
 
 Cette version présente les problèmes connus suivants :
 
+* Les utilisateurs du portail de marque ne peuvent pas publier les ressources du dossier de contributions dans AEM Assets lors de la mise à niveau vers les E/S Adobe.
+
 * L’option d’exclusion des rendus système ne fonctionne pas correctement lors du téléchargement d’une ressource.
 
 ## Langues {#languages}
@@ -91,12 +100,12 @@ L’interface utilisateur de Brand Portal est disponible dans les langues suiva
 
 ## Plates-formes certifiées   {#certified-platforms}
 
-Pour vérifier quelles sont les plates-formes certifiées pour exécuter cette version de Brand Portal, reportez-vous à la colonne **Prise en charge de l’interface utilisateur optimisée pour les écrans tactiles** du tableau **Navigateurs pris en charge pour l’interface utilisateur de création** dans la section [Exigences techniques](https://helpx.adobe.com/fr/experience-manager/6-4/sites/deploying/using/technical-requirements.html).
+Pour vérifier quelles sont les plates-formes certifiées pour exécuter cette version de Brand Portal, reportez-vous à la colonne **Prise en charge de l’interface utilisateur optimisée pour les écrans tactiles** du tableau **Navigateurs pris en charge pour l’interface utilisateur de création** dans la section [Exigences techniques](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html).
 
 ## Liens {#links}
 
-* [Page du produit Adobe Experience Manager sur adobe.com](http://www.adobe.com/fr/marketing-cloud/experience-manager.html)
-* [Documentation Assets Brand Portal](https://helpx.adobe.com/fr/experience-manager/brand-portal/user-guide.html)
+* [Page du produit Adobe Experience Manager sur adobe.com](http://www.adobe.com/in/marketing-cloud/experience-manager.html)
+* [Documentation Assets Brand Portal](https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html)
 
 ## Assistance technique et accès au produit (sites à accès limité) {#product-access-and-support-restricted-sites}
 
@@ -104,4 +113,4 @@ Ces sites sont réservés aux clients. Si vous êtes client et avez besoin d’u
 
 * [](https://daycare.day.com) [Accès aux produits](https://login.marketing.adobe.com)
 
-* [Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/contact.html)
+* [Assistance clientèle d’Adobe](https://helpx.adobe.com/contact.html)
