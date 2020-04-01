@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
-translation-type: ht
-source-git-commit: 58110f1635a9e74340d4a8901e86c0c6a99cf4e2
+translation-type: tm+mt
+source-git-commit: 1e06815c5c26d07834ebd62f3b2bc43489ce79d3
 
 ---
 
@@ -55,10 +55,16 @@ Les étapes de configuration d’AEM Assets avec Brand Portal sont différente
 
 | **Version d’AEM** | **Nouvelle configuration** | **Mise à niveau de la configuration** |
 |---|---|---|
-| **AEM 6.5 (6.5.4.0 et versions ultérieures)** | [Création d’une configuration](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Mise à niveau de la configuration](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
-| **AEM 6.4 (6.4.8.0 et versions ultérieures)** | [Création d’une configuration](https://docs.adobe.com/content/help/fr-FR/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Mise à niveau de la configuration](https://docs.adobe.com/content/help/fr-FR/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
-| **AEM 6.3 (6.3.3.8 et versions ultérieures)** | [Création d’une configuration](https://helpx.adobe.com/fr/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [Mise à niveau de la configuration](https://helpx.adobe.com/fr/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
+| **AEM 6.5 (6.5.4.0 et versions ultérieures)** | [Création d’une configuration](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Mise à niveau de la configuration](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
+| **AEM 6.4 (6.4.8.0 et versions ultérieures)** | [Création d’une configuration](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Mise à niveau de la configuration](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
+| **AEM 6.3 (6.3.3.8 et versions ultérieures)** | [Création d’une configuration](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [Mise à niveau de la configuration](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
 | **AEM 6.2** | Contacter le support technique | Contacter le support technique |
+
+>[!NOTE]
+>
+>Il est recommandé de mettre à jour votre instance AEM vers le dernier Service Pack.
+
+
 
 Consultez les dernières [Notes de mise à jour de Brand Portal](brand-portal-release-notes.md).
 
@@ -118,7 +124,6 @@ Lisez les sections suivantes pour en savoir plus sur la recherche de texte parti
 Vous pouvez maintenant rechercher des ressources en spécifiant uniquement une partie (c’est-à-dire un mot ou deux) de l’expression recherchée dans le volet de filtrage.
 
 **Cas d’utilisation**
-
 La recherche par expression partielle s’avère utile lorsque vous n’êtes pas sûr de la combinaison exacte des mots apparaissant dans l’expression recherchée.
 
 Par exemple, si votre formulaire de recherche dans Brand Portal utilise le prédicat de propriété pour une recherche partielle sur le titre des ressources, la spécification du terme **champ** renvoie toutes les ressources contenant le mot champ dans l’expression de leur titre.
@@ -217,7 +222,7 @@ Les codes des vidéos Dynamic Media peuvent être téléchargés à partir de 
 
 ### Publication planifiée sur Brand Portal
 
-Le workflow de publication des ressources (et dossiers) de l’instance d’auteur d’[AEM (6.4.2.0)](https://helpx.adobe.com/fr/experience-manager/6-4/release-notes/sp-release-notes.html#main-pars_header_9658011) sur Brand Portal peut être planifié à des date et heure ultérieures.
+Le workflow de publication des ressources (et dossiers) de l’instance d’auteur d’[AEM (6.4.2.0)](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html#main-pars_header_9658011) sur Brand Portal peut être planifié à des date et heure ultérieures.
 
 De façon similaire, les ressources publiées peuvent être supprimées du portail à une date (ou heure) ultérieure, en planifiant le workflow Annuler la publication sur Brand Portal.
 
@@ -233,7 +238,7 @@ Les organisations peuvent obtenir une URL de portail personnalisée comprenant u
 Notez que seul le préfixe de l’URL Brand Portal peut être personnalisé et non l’URL entière.\
 Par exemple, une entreprise avec le domaine existant **geomettrix.brand-portal.adobe.com** peut demander et obtenir la création de **geomettrixinc.brand-portal.adobe.com**.
 
-Cependant, l’instance d’auteur AEM peut uniquement être [configurée](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) avec l’URL d’ID du client et non avec l’URL (alternative) d’alias de client.
+Cependant, l’instance d’auteur AEM peut uniquement être [configurée](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) avec l’URL d’ID du client et non avec l’URL (alternative) d’alias de client.
 
 **Le cas d’utilisation**
 Les organisations peuvent répondre à leurs besoins de valorisation de marque en faisant personnaliser l’URL de leur portail, au lieu de se contenter de l’URL fournie par Adobe.
@@ -335,7 +340,7 @@ Les configurations ci-dessus sont disponibles sous Accès et Paramètres génér
 
 ### Adobe.io héberge une IU pour configurer les intégrations oAuth
 
-À compter de la version 6.4.2, Brand Portal utilise l’interface Adobe.io [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) pour créer l’application JWT qui rend possible la configuration des intégrations oAuth de façon à permettre l’intégration d’AEM Assets à Brand Portal. Auparavant, l’IU de configuration des intégrations OAuth était hébergée sur [https://marketing.adobe.com/developer/](https://marketing.adobe.com/developer/fr/). Pour en savoir plus sur l’intégration d’AEM Assets à Brand Portal pour publier des ressources et des collections sur Brand Portal, consultez [Configuration de l’intégration d’AEM Assets à Brand Portal](https://helpx.adobe.com/fr/experience-manager/6-4/assets/using/brand-portal-configuring-integration.html).
+À compter de la version 6.4.2, Brand Portal utilise l’interface Adobe.io [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) pour créer l’application JWT qui rend possible la configuration des intégrations oAuth de façon à permettre l’intégration d’AEM Assets à Brand Portal. Auparavant, l’IU de configuration des intégrations OAuth était hébergée sur [https://marketing.adobe.com/developer/](https://marketing.adobe.com/developer/). Pour en savoir plus sur l’intégration d’AEM Assets à Brand Portal pour publier des ressources et des collections sur Brand Portal, consultez [Configuration de l’intégration d’AEM Assets à Brand Portal](https://helpx.adobe.com/in/experience-manager/6-4/assets/using/brand-portal-configuring-integration.html).
 
 ## Améliorations de la recherche
 
@@ -474,7 +479,7 @@ Brand Portal affiche désormais une bannière de notification quelques jours av
 
 ![](assets/bp_maintenance_notification-1.png)
 
-Pour plus d’informations, voir [Notification de maintenance de Brand Portal](https://helpx.adobe.com/fr/experience-manager/brand-portal/using/brand-portal.html#BrandPortalmaintenancenotification).
+Pour plus d’informations, voir [Notification de maintenance de Brand Portal](https://helpx.adobe.com/experience-manager/brand-portal/using/brand-portal.html#BrandPortalmaintenancenotification).
 
 ### Amélioration des ressources sous licence partagées à l’aide de la fonctionnalité de partage de liens {#enhancement-for-licensed-assets-shared-using-the-link-share-feature}
 
