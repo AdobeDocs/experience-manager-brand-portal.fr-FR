@@ -9,7 +9,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 6b03229b72a1912be57c2bc1b7e47a017d3dca7e
+source-git-commit: e0aeb9a69c81add2d87463fc87d6d08ae57722b9
 
 ---
 
@@ -20,7 +20,7 @@ Découvrez les fonctionnalités, les améliorations, les problèmes critiques r�
 
 ## Informations sur la version {#release-information}
 
-| Produit | Adobe Experience Manager Assets – Brand Portal |
+| Produit | Portail de marque Ressources d’Adobe Experience Manager |
 |---|---|
 | Version | 6.4.6 |
 | Date | Mars 2020 |
@@ -48,15 +48,14 @@ Cette version de Brand Portal comprend les améliorations suivantes :
    >La configuration via application OAuth héritée n’est plus prise en charge à partir du 6 avril 2020 et est remplacée par la configuration via Adobe I/O.
 
 
-   >[!TIP]
-   >
-   >***Clients existants uniquement***
-   >
-   >Il est recommandé de continuer à utiliser la configuration héritée de la passerelle OAuth. Si vous rencontrez des problèmes avec la configuration héritée de la passerelle OAuth, supprimez la configuration existante et créez une nouvelle configuration via les E/S Adobe.
+>[!TIP]
+>
+>***Pour les clients existants uniquement***
+>
+>Il est recommandé de continuer à utiliser la configuration héritée de la passerelle OAuth. Si vous rencontrez des problèmes avec la configuration héritée de la passerelle OAuth, supprimez la configuration existante et créez une nouvelle configuration via les E/S Adobe.
 
 
 Pour plus d’informations, voir [Configuration d’AEM Assets avec Brand Portal](configure-aem-assets-with-brand-portal.md).
-
 
 ### Problèmes critiques résolus {#critical-issues-fixed}
 
@@ -80,9 +79,14 @@ Cette version comprend des correctifs pour les problèmes critiques suivants :
 
 Cette version présente les problèmes connus suivants :
 
-* Les utilisateurs du portail de marque ne peuvent pas publier les ressources du dossier de contributions dans AEM Assets lors de la mise à niveau vers les E/S Adobe.
+* Les utilisateurs du portail de marque ne peuvent pas publier les ressources du dossier de contributions dans AEM Assets lors de la mise à niveau vers les E/S Adobe sur AEM 6.5.4.
 
-* L’option d’exclusion des rendus système ne fonctionne pas correctement lors du téléchargement d’une ressource.
+   Ce problème sera corrigé dans le prochain Service Pack 6.5.5.
+
+   Pour un correctif immédiat sur AEM 6.5.4, il est recommandé de [télécharger le correctif](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) et de l’installer sur votre instance d’auteur.
+
+* L’option Exclure les rendus système ne fonctionne pas correctement lors du téléchargement d’un fichier.
+
 
 ## Langues {#languages}
 
