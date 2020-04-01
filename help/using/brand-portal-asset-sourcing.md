@@ -17,8 +17,8 @@ activity: use
 audience: author, marketer
 version: 6.5
 kt: 3838
-translation-type: ht
-source-git-commit: 1aa8892cd51e262ccc16f955655fa644fec230e7
+translation-type: tm+mt
+source-git-commit: b8e252140a8e77595489682e69da8c86284a28d1
 
 ---
 
@@ -29,7 +29,7 @@ L’**approvisionnement des ressources** permet aux utilisateurs d’AEM (admini
 
 En outre, toutes les fonctionnalités existantes restent inchangées. Les utilisateurs de Brand Portal peuvent afficher, rechercher et télécharger des ressources à partir du dossier de contribution, ainsi que des autres dossiers autorisés. Quant aux administrateurs, ils peuvent partager le dossier de contribution de manière plus avancée, modifier les propriétés et ajouter des ressources aux collections.
 
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
 >[!NOTE]
 >
@@ -40,6 +40,18 @@ En outre, toutes les fonctionnalités existantes restent inchangées. Les utilis
 >Contactez l’assistance Adobe pour mettre à niveau votre instance d’AEM vers la dernière version d’AEM prise en charge.
 
 ![Approvisionnement des ressources dans Brand Portal](assets/asset-sourcing.png)
+
+
+>[!NOTE]
+>
+>Si vous êtes un utilisateur d’AEM 6.5.4, la fonctionnalité d’approvisionnement des ressources continuera à fonctionner sur l’&quot;intégration OAuth héritée&quot;.
+>
+>Toutefois, les utilisateurs du portail de marque ne peuvent pas publier les ressources du dossier de contributions dans AEM Assets lors de la mise à niveau vers les E/S Adobe sur AEM 6.5.4.
+>
+>Ce problème sera corrigé dans le prochain Service Pack AEM 6.5.5.
+>
+>Pour un correctif immédiat sur AEM 6.5.4, il est recommandé de [télécharger le correctif](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) et de l’installer sur votre instance d’auteur.
+
 
 ## Conditions préalables {#prerequisites}
 
