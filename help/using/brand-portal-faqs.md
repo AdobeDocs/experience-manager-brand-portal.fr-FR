@@ -8,8 +8,8 @@ content-type: reference
 topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: 22b327619eb73c0099f903bb7314d2cb2d796bc4
+translation-type: tm+mt
+source-git-commit: b8e252140a8e77595489682e69da8c86284a28d1
 
 ---
 
@@ -19,6 +19,20 @@ source-git-commit: 22b327619eb73c0099f903bb7314d2cb2d796bc4
 Les FAQ Brand Portal sont axées sur les questions et problèmes que les utilisateurs finauxls peuvent avoir durant l’utilisation de la dernière version d’AEM Assets Brand Portal : la version 6.4.5 (ou antérieure).
 
 
+## FAQ de Brand Portal 6.4.6 {#faqs-bp646}
+
+**Question Le point de terminaison OAuth existant (`https://legacy-oauth.cloud.adobe.io/login`) ne fonctionne pas. Quelle pourrait être la raison ?**
+
+**Réponse** La configuration OAuth héritée est obsolète. Vous devez mettre à niveau les instances d’auteur AEM Assets vers le dernier Service Pack et le configurer à l’aide des E/S Adobe. See [Configure AEM Assets with Brand Portal](configure-aem-assets-with-brand-portal.md) for details. Toutefois, pour que la configuration OAuth héritée fonctionne jusqu’à la mise à niveau, mettez à jour le point de terminaison OAuth hérité vers `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
+
+**Question Je ne suis pas en mesure de publier les ressources du dossier de contributions depuis le portail de marque vers AEM Assets après la mise à niveau vers les E/S Adobe. Mon instance d’auteur se trouve sur AEM 6.5.4. Quelle pourrait être la raison ?**
+
+**Réponse** Oui, il existe un problème connu lors de la publication des ressources du dossier de contribution vers AEM Assets sur AEM 6.5.4 avec les E/S Adobe. Ce problème sera corrigé dans le prochain Service Pack AEM 6.5.5.
+
+Pour un correctif immédiat sur AEM 6.5.4, il est recommandé de [télécharger le correctif](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) et de l’installer sur votre instance d’auteur AEM.
+
+
+## FAQ de Brand Portal 6.4.5 {#faqs-bp645}
 
 **Question Quel changement majeur intervient dans la version 6.4.5 de Brand Portal ?**
 
@@ -161,4 +175,4 @@ Ces sites sont réservés aux clients. Si vous êtes client et avez besoin d’u
 
 * [](https://daycare.day.com) [Accès aux produits](https://login.marketing.adobe.com)
 
-* [Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/contact.html)
+* [Assistance clientèle d’Adobe](https://helpx.adobe.com/contact.html)
