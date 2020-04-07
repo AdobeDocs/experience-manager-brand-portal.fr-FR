@@ -5,11 +5,12 @@ description: Découvrez comment configurer la fonctionnalité d’approvisionnem
 seo-description: Découvrez comment configurer la fonctionnalité d’approvisionnement des ressources dans AEM Assets.
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: aa6bd187124888cd62ca1f5c7192f9d65ac6ca8a
+translation-type: tm+mt
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
@@ -25,7 +26,7 @@ Les administrateurs AEM peuvent configurer **l’approvisionnement des ressource
 
 La vidéo suivante explique comment configurer l’approvisionnement des ressources sur l’instance d’auteur AEM :
 
->[!VIDEO](https://video.tv.adobe.com/v/29771?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/29771)
 
 ## Activation de l’approvisionnement des ressources {#enable-asset-sourcing}
 
