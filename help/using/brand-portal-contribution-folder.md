@@ -5,11 +5,12 @@ description: Découvrez comment configurer un dossier de contribution dans Brand
 seo-description: Découvrez comment configurer un dossier de contribution dans Brand Portal.
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: 22b327619eb73c0099f903bb7314d2cb2d796bc4
+translation-type: tm+mt
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
@@ -22,7 +23,7 @@ L’utilisateur d’AEM définit ensuite les exigences en chargeant un résumé 
 
 La vidéo suivante explique comment configurer un dossier Contribution dans AEM Assets :
 
->[!VIDEO](https://video.tv.adobe.com/v/30547?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/30547)
 
 L’utilisateur d’AEM effectue les activités suivantes lors de la configuration d’un dossier de contribution :
 
