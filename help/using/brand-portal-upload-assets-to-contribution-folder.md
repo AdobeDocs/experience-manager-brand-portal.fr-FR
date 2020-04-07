@@ -5,11 +5,12 @@ description: Découvrez comment charger de nouvelles ressources dans le dossier 
 seo-description: Découvrez comment charger de nouvelles ressources dans le dossier de contribution de Brand Portal.
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: 3072a3a9343b64f4121262c1a3ee8a5ba439e31a
+translation-type: tm+mt
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
@@ -33,7 +34,7 @@ Le tableau de bord de Brand Portal répertorie tous les dossiers existants auxq
 1. Cliquez pour ouvrir le dossier de contribution. Vous pouvez voir deux sous-dossiers,**[!UICONTROL SHARED]** et **[!UICONTROL NEW]**, dans le dossier de contribution. 
 1. Cliquez sur le dossier **[!UICONTROL NEW]**.
    ![](assets/upload-new-assets1.png)
-1. Cliquez sur **[!UICONTROL Créer &gt; Fichiers]** ![](assets/upload.png) afin de charger des fichiers distincts ou un dossier (.zip) contenant plusieurs ressources.
+1. Cliquez sur **[!UICONTROL Créer > Fichiers]**![](assets/upload.png)  afin de charger des fichiers distincts ou un dossier (.zip) contenant plusieurs ressources.
    ![](assets/upload-new-assets2.png)
 1. Parcourez les nouvelles ressources (fichiers/dossiers) et chargez-les dans le dossier **[!UICONTROL NEW]**.
    ![](assets/upload-new-assets3.png)
