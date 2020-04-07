@@ -5,11 +5,12 @@ description: Découvrez comment charger du contenu de référence (ressources de
 seo-description: Découvrez comment charger du contenu de référence (ressources de base) dans un dossier de contribution de Brand Portal.
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: a32de22b7d5ac2b53b31aab8675dfdac1f5a724c
+translation-type: tm+mt
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
@@ -22,11 +23,11 @@ L’administrateur d’AEM charge des ressources de base dans le dossier **SHARE
 
 1. Connectez-vous à votre instance d’auteur AEM.
 URL par défaut : http:// localhost:4502/aem/start.html
-1. Accédez à **[!UICONTROL Ressources &gt; Fichiers]** et localisez le dossier de contribution dans lequel vous souhaitez charger les ressources de base.
+1. Accédez à **[!UICONTROL Ressources > Fichiers]** et localisez le dossier de contribution dans lequel vous souhaitez charger les ressources de base.
 1. Cliquez pour ouvrir le dossier de contribution. Vous pouvez voir deux sous-dossiers,**[!UICONTROL SHARED]** et **[!UICONTROL NEW]**, dans le dossier de contribution. 
 1. Cliquez sur le dossier **[!UICONTROL SHARED]**.
-1. Cliquez sur **[!UICONTROL Créer &gt; Fichiers]** ![](assets/upload.png) pour charger des ressources distinctes.
-Vous pouvez également cliquer sur **[!UICONTROL Créer &gt; Dossier]** afin de charger un dossier (.zip) contenant plusieurs ressources.
+1. Cliquez sur **[!UICONTROL Créer > Fichiers]**![](assets/upload.png)  pour charger des ressources distinctes.
+Vous pouvez également cliquer sur **[!UICONTROL Créer > Dossier]** afin de charger un dossier (.zip) contenant plusieurs ressources.
    ![](assets/upload-baseline-assets1.png)
 1. Parcourez les fichiers de base (fichiers/dossiers) et chargez-les dans le dossier **[!UICONTROL SHARED]**.
    ![](assets/upload-baseline-assets2.png)
