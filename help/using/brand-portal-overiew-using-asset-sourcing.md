@@ -5,11 +5,12 @@ description: Découvrez comment utiliser la fonctionnalité d’approvisionnemen
 seo-description: Découvrez comment utiliser la fonctionnalité d’approvisionnement des ressources, charger des ressources dans le dossier de contribution et publier le dossier de contribution sur AEM Assets dans Brand Portal.
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
+translation-type: tm+mt
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
