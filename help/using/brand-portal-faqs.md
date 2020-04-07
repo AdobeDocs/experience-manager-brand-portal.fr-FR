@@ -5,11 +5,12 @@ description: Découvrez les questions fréquentes sur les ressources Adobe Expe
 seo-description: null
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: b8e252140a8e77595489682e69da8c86284a28d1
+source-git-commit: 9169407bbbfabd94be31c89c028be64e55afc064
 
 ---
 
@@ -27,7 +28,7 @@ Les FAQ Brand Portal sont axées sur les questions et problèmes que les utilis
 
 **Question Je ne suis pas en mesure de publier les ressources du dossier de contributions depuis le portail de marque vers AEM Assets après la mise à niveau vers les E/S Adobe. Mon instance d’auteur se trouve sur AEM 6.5.4. Quelle pourrait être la raison ?**
 
-**Réponse** Oui, il existe un problème connu lors de la publication des ressources du dossier de contribution vers AEM Assets sur AEM 6.5.4 avec les E/S Adobe. Ce problème sera corrigé dans le prochain Service Pack AEM 6.5.5.
+**Réponse** Oui, il existe un problème connu lors de la publication des ressources du dossier de contribution vers AEM Assets sur AEM 6.5.4 avec les E/S Adobe. Ce problème sera corrigé dans le Service Pack suivant.
 
 Pour un correctif immédiat sur AEM 6.5.4, il est recommandé de [télécharger le correctif](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) et de l’installer sur votre instance d’auteur AEM.
 
@@ -175,4 +176,4 @@ Ces sites sont réservés aux clients. Si vous êtes client et avez besoin d’u
 
 * [](https://daycare.day.com) [Accès aux produits](https://login.marketing.adobe.com)
 
-* [Assistance clientèle d’Adobe](https://helpx.adobe.com/contact.html)
+* [Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/contact.html)
