@@ -5,11 +5,12 @@ description: 'Découvrez comment créer un dossier de contribution dans AEM Ass
 seo-description: Découvrez comment créer un dossier de contribution dans AEM Assets.
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: 22b327619eb73c0099f903bb7314d2cb2d796bc4
+translation-type: tm+mt
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
@@ -24,12 +25,13 @@ Pour créer un dossier **Contribution**, créez un dossier de type **Contributio
 1. Connectez-vous à votre instance d’auteur AEM
 URL par défaut : http:// localhost:4502/aem/start.html
 1. Accédez à **[!UICONTROL Ressources > Fichiers]**. Tous les dossiers existants dans le référentiel AEM Assets sont répertoriés.
-1. Cliquez sur **[!UICONTROL Créer]**pour créer un dossier. La fenêtre contextuelle Créer un dossier s’ouvre.
-1. Saisissez le **[!UICONTROL Titre]**et le**[!UICONTROL  Nom]** du dossier et cochez la case **[!UICONTROL Contribution des ressources]**.
+1. Cliquez sur **[!UICONTROL Créer]** pour créer un dossier. La fenêtre contextuelle Créer un dossier s’ouvre.
+1. Saisissez le **[!UICONTROL Titre]** et le **[!UICONTROL Nom]** du dossier et cochez la case **[!UICONTROL Contribution des ressources]**.
 Il est recommandé d’utiliser dans le nom du dossier des lettres minuscules sans espace.
-1. Cliquez sur **[!UICONTROL Créer]**.   ![](assets/create-contribution-folder.png)
+1. Cliquez sur **[!UICONTROL Créer]**.
+   ![](assets/create-contribution-folder.png)
 1. Le dossier de contribution nouvellement créé est répertorié dans le référentiel AEM Assets.
-1. Cliquez pour ouvrir le dossier de contribution. Vous pouvez voir deux sous-dossiers, **[!UICONTROL SHARED]**et**[!UICONTROL  NEW]**, automatiquement créés dans le dossier de contribution.\
+1. Cliquez pour ouvrir le dossier de contribution. Vous pouvez voir deux sous-dossiers, **[!UICONTROL SHARED]** et **[!UICONTROL NEW]**, automatiquement créés dans le dossier de contribution.\
    ![](assets/contribution-folder.png)
 
 Vous pouvez désormais configurer les propriétés du dossier Contribution. Voir [Configuration des propriétés du dossier de contribution](brand-portal-configure-contribution-folder-properties.md).
