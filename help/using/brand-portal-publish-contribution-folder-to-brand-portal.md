@@ -5,11 +5,12 @@ description: Découvrez comment publier un dossier de contribution d’AEM Asse
 seo-description: Découvrez comment publier un dossier de contribution d’AEM Assets sur Brand Portal dans Brand Portal 6.4.5.
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
+translation-type: tm+mt
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
@@ -22,8 +23,8 @@ Une fois le [dossier de contribution configuré](brand-portal-configure-contribu
 
 1. Connectez-vous à votre instance d’auteur AEM.
 URL par défaut : http:// localhost:4502/aem/start.html
-1. Accédez à **[!UICONTROL Ressources &gt; Fichiers]** et localisez le dossier de contribution dans lequel vous souhaitez publier du contenu sur Brand Portal.
-1. Sélectionnez le dossier de contribution et cliquez sur **[!UICONTROL Publication rapide &gt; Publier sur Brand Portal]**.
+1. Accédez à **[!UICONTROL Ressources > Fichiers]** et localisez le dossier de contribution dans lequel vous souhaitez publier du contenu sur Brand Portal.
+1. Sélectionnez le dossier de contribution et cliquez sur **[!UICONTROL Publication rapide > Publier sur Brand Portal]**.
    ![](assets/publish-contribution-folder-to-bp.png)
 Vous recevrez un message de réussite une fois que le dossier de contribution sera publié sur Brand Portal.
 
