@@ -8,15 +8,15 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
-translation-type: ht
-source-git-commit: 777fcc95908f9e31be0aeb4155c8a5f35169fa81
+translation-type: tm+mt
+source-git-commit: 5b16a4073592896264237f00554e361ed8929383
 
 ---
 
 
 # Dépannage des problèmes de publication en parallèle sur Brand Portal {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-Brand Portal est configuré avec AEM Assets, de sorte que les ressources de marque approuvées soient automatiquement ingérées (ou publiées) à partir de l’instance d’auteur AEM Assets. Une fois [configuré](../using/configure-aem-assets-with-brand-portal.md), l’auteur AEM utilise un agent de réplication afin de répliquer la ou les ressources sélectionnées sur le Cloud Service Brand Portal pour l’utilisation approuvée par les utilisateurs de Brand Portal. Plusieurs agents de réplication sont utilisés dans AEM 6.2 SP1-CFP5, AEM CFP 6.3.0.2 et versions ultérieures pour permettre une publication parallèle à haute vitesse.
+Brand Portal est configuré avec AEM Assets, de sorte que les ressources de marque approuvées soient automatiquement ingérées (ou publiées) à partir de l’instance d’auteur AEM Assets. Une fois [configuré](../using/configure-aem-assets-with-brand-portal.md), l’auteur AEM utilise un agent de réplication afin de répliquer la ou les ressources sélectionnées sur le Cloud Service Brand Portal pour l’utilisation approuvée par les utilisateurs de Brand Portal. Plusieurs agents de réplication sont utilisés dans AEM 6.2 SP1-CFP5, AEM CFP 6.3.0.2 et versions ultérieures pour permettre la publication parallèle à grande vitesse.
 
 >[!NOTE]
 >
