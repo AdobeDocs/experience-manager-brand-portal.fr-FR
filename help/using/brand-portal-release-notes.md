@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: f90bf72c6ec4ee19ca7949fa4cf0dc8ec4c93cfd
+source-git-commit: 9bb1538165030f7f9e78af99bb89ea38897c3967
 
 ---
 
@@ -21,7 +21,7 @@ Découvrez les fonctionnalités, les améliorations, les problèmes critiques r�
 
 ## Informations sur la version {#release-information}
 
-| Produit | Portail de marque Ressources d’Adobe Experience Manager |
+| Produit | Adobe Experience Manager Assets Brand Portal |
 |---|---|
 | Version | 6.4.6 |
 | Date | Mars 2020 |
@@ -38,14 +38,14 @@ Cette version comprend les nouvelles fonctionnalités suivantes :
 
 * Captcha pour la connexion des invités à Brand Portal. Pour plus d’informations, voir [Accès des invités à Brand Portal](../using/guest-access.md).
 
-* Le portail de marque est désormais pris en charge par le service cloud AEM Assets. Vous pouvez configurer le service AEM Assets avec le portail de marque pour partager et distribuer des fichiers avec les utilisateurs du portail de marque.
-For more information, see [Configure AEM Assets cloud service with Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html).
+* Brand Portal est désormais pris en charge par AEM Assets Cloud Service. Vous pouvez configurer AEM Assets Cloud Service avec Brand Portal pour partager et distribuer des ressources avec les utilisateurs de Brand Portal.
+Pour plus d’informations, voir [Configuration d’AEM Assets Cloud Service avec Brand Portal](https://docs.adobe.com/content/help/fr-FR/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html).
 
 ### Améliorations {#enhancements-646}
 
 Cette version de Brand Portal comprend les améliorations suivantes :
 
-* Dans AEM 6.3 et versions ultérieures, le d’autorisation entre les ressources AEM et le portail de marque est modifié. AEM Assets est désormais configuré avec Brand Portal via Adobe I/O, qui fournit un jeton IMS pour autoriser votre client Brand Portal.
+* Dans AEM 6.3 et versions ultérieures, le canal d’autorisation entre AEM Assets et Brand Portal a été modifié. AEM Assets est désormais configuré avec Brand Portal via Adobe I/O, qui fournit un jeton IMS pour autoriser votre client Brand Portal.
 
    >[!NOTE]
    >
@@ -56,7 +56,7 @@ Cette version de Brand Portal comprend les améliorations suivantes :
 >
 >***Pour les clients existants uniquement***
 >
->Il est recommandé de continuer à utiliser la configuration héritée de la passerelle OAuth. Si vous rencontrez des problèmes avec la configuration héritée de la passerelle OAuth, supprimez la configuration existante et créez une nouvelle configuration via les E/S Adobe.
+>Il est recommandé de continuer à utiliser la configuration de la passerelle OAuth héritée. Si vous rencontrez des problèmes avec la configuration de la passerelle OAuth héritée, supprimez la configuration existante et créez une configuration via Adobe I/O.
 
 
 Pour plus d’informations, voir [Configuration d’AEM Assets avec Brand Portal](configure-aem-assets-with-brand-portal.md).
@@ -83,13 +83,13 @@ Cette version comprend des correctifs pour les problèmes critiques suivants :
 
 Cette version présente les problèmes connus suivants :
 
-* Les utilisateurs du portail de marque ne peuvent pas publier les ressources du dossier de contributions dans AEM Assets lors de la mise à niveau vers les E/S Adobe sur AEM 6.5.4.
+* Les utilisateurs de Brand Portal ne peuvent pas publier les ressources du dossier de contribution dans AEM Assets après mise à niveau vers Adobe I/O sur AEM 6.5.4.
 
-   Ce problème sera corrigé dans le prochain Service Pack 6.5.5.
+   Ce problème sera corrigé dans le prochain Service Pack 6.5.5.
 
-   Pour un correctif immédiat sur AEM 6.5.4, il est recommandé de [télécharger le correctif](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) et de l’installer sur votre instance d’auteur.
+   Pour une solution immédiate sur AEM 6.5.4, il est recommandé de [télécharger le correctif](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) et de l’installer sur votre instance d’auteur.
 
-* L’option Exclure les rendus système ne fonctionne pas correctement lors du téléchargement d’un fichier.
+* L’option d’exclusion des rendus système ne fonctionne pas correctement lors du téléchargement d’une ressource.
 
 
 ## Langues {#languages}
@@ -101,12 +101,12 @@ L’interface utilisateur de Brand Portal est disponible dans les langues suiva
 * Français
 * Espagnol
 * Italien
-* Brésilien   Portugais
+* Brésilien     Portugais
 * Japonais
 * Chinois simplifié
 * Coréen
 
-## Plates-formes certifiées   {#certified-platforms}
+## Plates-formes certifiées     {#certified-platforms}
 
 Pour vérifier quelles sont les plates-formes certifiées pour exécuter cette version de Brand Portal, reportez-vous à la colonne **Prise en charge de l’interface utilisateur optimisée pour les écrans tactiles** du tableau **Navigateurs pris en charge pour l’interface utilisateur de création** dans la section [Exigences techniques](https://helpx.adobe.com/fr/experience-manager/6-4/sites/deploying/using/technical-requirements.html).
 
@@ -119,6 +119,8 @@ Pour vérifier quelles sont les plates-formes certifiées pour exécuter cette v
 
 Ces sites sont réservés aux clients. Si vous êtes client et avez besoin d’un accès, contactez votre responsable de compte Adobe.
 
-* [](https://daycare.day.com) [Accès aux produits](https://login.marketing.adobe.com)
+* [https://daycare.day.com](https://daycare.day.com)
+
+* [Accès aux produits](https://login.marketing.adobe.com)
 
 * [Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/contact.html)
