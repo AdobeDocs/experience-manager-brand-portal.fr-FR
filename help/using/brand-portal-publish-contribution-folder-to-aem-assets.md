@@ -9,7 +9,7 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
@@ -25,7 +25,7 @@ Vérifiez que vous avez respecté les [exigences en matière de ressources](bran
 
 1. Connectez-vous à votre instance de Brand Portal.
 1. Sélectionnez le dossier de contribution dans le tableau de bord de Brand Portal.
-1. Cliquez sur **[!UICONTROL Publier sur AEM]**![](assets/export.png).
+1. Cliquez sur **[!UICONTROL Publier sur AEM]** ![](assets/export.png).
    ![](assets/publish-contribution-folder-to-aem.png)
 
 Une notification Push/par courrier électronique est envoyée à l’administrateur et à l’utilisateur de Brand Portal et AEM à différentes étapes de la publication :
