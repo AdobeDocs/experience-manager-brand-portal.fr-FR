@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
@@ -32,14 +32,14 @@ L’administrateur peut alors octroyer aux utilisateurs/groupes de Brand Portal
 1. Connectez-vous à votre instance d’auteur AEM
 URL par défaut : http:// localhost:4502/aem/start.html
 1. Accédez à **[!UICONTROL Ressources > Fichiers]** et localisez le dossier de contribution.
-1. Sélectionnez le dossier de contribution et cliquez sur **[!UICONTROL Propriétés]**![](assets/properties.png). La fenêtre Propriétés du dossier s’affiche.
+1. Sélectionnez le dossier de contribution et cliquez sur **[!UICONTROL Propriétés]** ![](assets/properties.png). La fenêtre Propriétés du dossier s’affiche.
    ![](assets/contribution-folder-property1.png)
 1. Accédez à l’onglet **[!UICONTROL Contribution des ressources]**.
 1. Saisissez une **[!UICONTROL Description]** détaillée du dossier de contribution.
-1. Cliquez sur **[!UICONTROL Charger les instructions]**![](assets/upload.png)  pour parcourir votre ordinateur local et charger un **document relatif aux exigences en matière de ressources**.
+1. Cliquez sur **[!UICONTROL Upload Brief]** ![](assets/upload.png) (Charger un résumé) pour parcourir votre ordinateur local et charger un **document relatif aux exigences en matière de ressources**.
 1. Dans **[!UICONTROL Ajouter un utilisateur ou un groupe]**, recherchez des utilisateurs ou des groupes de Brand Portal avec lesquels partager le dossier de contribution, puis ajoutez-les en sélectionnant **[!UICONTROL Ajouter]**.
 Ces utilisateurs/groupes de Brand Portal auront l’autorisation d’accéder au dossier de contribution et de charger du contenu depuis leur interface de Brand Portal sans avoir besoin d’accéder à l’instance d’auteur AEM.
-1. Cliquez sur **[!UICONTROL Save]** (Enregistrer).
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
    ![](assets/contribution-folder-property2.png)
 
 >[!NOTE]
