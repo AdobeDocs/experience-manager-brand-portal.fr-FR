@@ -9,7 +9,7 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
@@ -30,12 +30,12 @@ Le tableau de bord de Brand Portal répertorie tous les dossiers existants auxq
 
 1. Connectez-vous à votre instance de Brand Portal.
 1. Sélectionnez le dossier de contribution dans le tableau de bord de Brand Portal.
-1. Cliquez sur **[!UICONTROL Propriétés]**![](assets/properties.png). La fenêtre Propriété s’affiche. Elle contient les détails du dossier Contribution des ressources.
+1. Cliquez sur **[!UICONTROL Propriétés]** ![](assets/properties.png). La fenêtre Propriété s’affiche. Elle contient les détails du dossier Contribution des ressources.
    ![](assets/download-asset-requirement1.png)
-1. Cliquez sur **[!UICONTROL Charger les instructions]**![](assets/download.png)  pour télécharger le document sur les exigences en matière de ressources sur votre ordinateur local.
+1. Cliquez sur **[!UICONTROL Download Brief]** ![](assets/download.png) (Télécharger le résumé) pour télécharger sur votre ordinateur local le document sur les exigences en matière de ressources.
    ![](assets/download-asset-requirement2.png)
 1. Retournez dans le tableau de bord de Brand Portal.
-1. Cliquez pour ouvrir le dossier de contribution. Vous pouvez voir deux sous-dossiers,**[!UICONTROL SHARED]** et **[!UICONTROL NEW]**, dans le dossier de contribution. Le dossier SHARED contient toutes les ressources de base (contenu de référence) partagées par les administrateurs.
+1. Cliquez pour ouvrir le dossier de contribution. Vous pouvez voir deux sous-dossiers, **[!UICONTROL SHARED]** et **[!UICONTROL NEW]**, à l’intérieur. Le dossier SHARED contient toutes les ressources de base (contenu de référence) partagées par les administrateurs.
 1. Vous pouvez télécharger sur votre ordinateur local le dossier **[!UICONTROL SHARED]** contenant toutes les ressources de base.
 Vous pouvez également ouvrir le dossier **[!UICONTROL SHARED]** et cliquer sur l’icône **Télécharger** ![](assets/download.png) pour télécharger des ressources/dossiers distincts.
    ![](assets/download-asset-requirement3.png)
