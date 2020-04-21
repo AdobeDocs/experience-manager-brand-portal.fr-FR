@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9169407bbbfabd94be31c89c028be64e55afc064
 
 ---
@@ -33,7 +33,7 @@ Adobe Experience Manager (AEM) Assets est configuré avec Brand Portal via A
 
 >[!NOTE]
 >
->La configuration des ressources AEM avec le portail de marque via les E/S Adobe est prise en charge sur le service cloud AEM Assets, AEM Assets 6.3 et versions ultérieures.
+>La configuration d’AEM Assets avec Brand Portal via Adobe I/O est prise en charge sur AEM Assets Cloud Service, AEM Assets 6.3 et versions ultérieures.
 
 ### Conditions préalables à la configuration d’AEM Assets avec Brand Portal {#prerequisites}
 
@@ -168,7 +168,7 @@ La page [!UICONTROL Se connecter] s’affiche.
    1. Si vous ne possédez pas d’[!UICONTROL Adobe ID], pour en créer un, cliquez sur **[!UICONTROL Obtenir un Adobe ID]** dans la page [!UICONTROL Demander l’accès].
 La page [!UICONTROL Se connecter] s’affiche.
    1. Cliquez sur **[!UICONTROL Obtenir un Adobe ID]**.
-La page [!UICONTROL Se connecter] s’affiche.
+La page [!UICONTROL S’inscrire] s’affiche.
    1. Saisissez vos nom et prénom, e-mail et mot de passe.
    1. Sélectionnez **[!UICONTROL S’inscrire]**.<br />
    ![](assets/bplogin_request_access_5.png)
