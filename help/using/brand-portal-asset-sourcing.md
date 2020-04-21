@@ -18,7 +18,7 @@ activity: use
 audience: author, marketer
 version: 6.5
 kt: 3838
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
@@ -30,7 +30,7 @@ L’**approvisionnement des ressources** permet aux utilisateurs d’AEM (admini
 
 En outre, toutes les fonctionnalités existantes restent inchangées. Les utilisateurs de Brand Portal peuvent afficher, rechercher et télécharger des ressources à partir du dossier de contribution, ainsi que des autres dossiers autorisés. Quant aux administrateurs, ils peuvent partager le dossier de contribution de manière plus avancée, modifier les propriétés et ajouter des ressources aux collections.
 
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12&captions=fre_fr)
 
 >[!NOTE]
 >
@@ -45,13 +45,13 @@ En outre, toutes les fonctionnalités existantes restent inchangées. Les utilis
 
 >[!NOTE]
 >
->Si vous êtes un utilisateur d’AEM 6.5.4, la fonctionnalité d’approvisionnement des ressources continuera à fonctionner sur l’&quot;intégration OAuth héritée&quot;.
+>Si vous êtes un utilisateur d’AEM 6.5.4, la fonctionnalité d’approvisionnement des ressources continuera à fonctionner sur l’« intégration OAuth héritée ».
 >
->Toutefois, les utilisateurs du portail de marque ne peuvent pas publier les ressources du dossier de contributions dans AEM Assets lors de la mise à niveau vers les E/S Adobe sur AEM 6.5.4.
+>Toutefois, les utilisateurs de Brand Portal ne peuvent pas publier les ressources du dossier de contribution dans AEM Assets après mise à niveau vers Adobe I/O sur AEM 6.5.4.
 >
->Ce problème sera corrigé dans le prochain Service Pack AEM 6.5.5.
+>Ce problème sera corrigé dans le prochain Service Pack AEM 6.5.5.
 >
->Pour un correctif immédiat sur AEM 6.5.4, il est recommandé de [télécharger le correctif](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) et de l’installer sur votre instance d’auteur.
+>Pour une solution immédiate sur AEM 6.5.4, il est recommandé de [télécharger le correctif](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) et de l’installer sur votre instance d’auteur.
 
 
 ## Conditions préalables {#prerequisites}
