@@ -9,7 +9,7 @@ contentOwner: Vishabh Gupta
 topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9169407bbbfabd94be31c89c028be64e55afc064
 
 ---
@@ -17,23 +17,23 @@ source-git-commit: 9169407bbbfabd94be31c89c028be64e55afc064
 
 # Questions fréquentes {#frequently-asked-questions}
 
-Les FAQ Brand Portal sont axées sur les questions et problèmes que les utilisateurs finauxls peuvent avoir durant l’utilisation de la dernière version d’AEM Assets Brand Portal : la version 6.4.5 (ou antérieure).
+Les FAQ Brand Portal sont axées sur les questions et problèmes que les utilisateurs finaux peuvent avoir durant l’utilisation de la dernière version d’AEM Assets Brand Portal : la version 6.4.5 (ou antérieure).
 
 
-## FAQ de Brand Portal 6.4.6 {#faqs-bp646}
+## FAQ de Brand Portal 6.4.6 {#faqs-bp646}
 
-**Question Le point de terminaison OAuth existant (`https://legacy-oauth.cloud.adobe.io/login`) ne fonctionne pas. Quelle pourrait être la raison ?**
+**Question Le point d’entrée OAuth hérité existant (`https://legacy-oauth.cloud.adobe.io/login`) ne fonctionne pas. Quelle pourrait en être la raison ?**
 
-**Réponse** La configuration OAuth héritée est obsolète. Vous devez mettre à niveau les instances d’auteur AEM Assets vers le dernier Service Pack et le configurer à l’aide des E/S Adobe. See [Configure AEM Assets with Brand Portal](configure-aem-assets-with-brand-portal.md) for details. Toutefois, pour que la configuration OAuth héritée fonctionne jusqu’à la mise à niveau, mettez à jour le point de terminaison OAuth hérité vers `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
+**Réponse** La configuration OAuth héritée est obsolète. Vous devez mettre à niveau les instances d’auteur AEM Assets vers le dernier Service Pack et les configurer à l’aide d’Adobe I/O. Voir [Configuration d’AEM Assets avec Brand Portal](configure-aem-assets-with-brand-portal.md) pour plus de détails. Toutefois, pour que la configuration OAuth héritée fonctionne jusqu’à la mise à niveau, mettez à jour le point d’entrée OAuth hérité vers `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
 
-**Question Je ne suis pas en mesure de publier les ressources du dossier de contributions depuis le portail de marque vers AEM Assets après la mise à niveau vers les E/S Adobe. Mon instance d’auteur se trouve sur AEM 6.5.4. Quelle pourrait être la raison ?**
+**Question Je ne suis pas en mesure de publier les ressources du dossier de contribution depuis Brand Portal vers AEM Assets après la mise à niveau vers Adobe I/O. Mon instance d’auteur est exécutée sur AEM 6.5.4. Quelle pourrait en être la raison ?**
 
-**Réponse** Oui, il existe un problème connu lors de la publication des ressources du dossier de contribution vers AEM Assets sur AEM 6.5.4 avec les E/S Adobe. Ce problème sera corrigé dans le Service Pack suivant.
+**Réponse** Oui, il existe un problème connu lors de la publication des ressources du dossier de contribution vers AEM Assets sur AEM 6.5.4 avec Adobe I/O. Ce problème sera corrigé dans le prochain Service Pack.
 
-Pour un correctif immédiat sur AEM 6.5.4, il est recommandé de [télécharger le correctif](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) et de l’installer sur votre instance d’auteur AEM.
+Pour une solution immédiate sur AEM 6.5.4, il est recommandé de [télécharger le correctif](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) et de l’installer sur votre instance d’auteur AEM.
 
 
-## FAQ de Brand Portal 6.4.5 {#faqs-bp645}
+## FAQ de Brand Portal 6.4.5 {#faqs-bp645}
 
 **Question Quel changement majeur intervient dans la version 6.4.5 de Brand Portal ?**
 
@@ -44,20 +44,20 @@ Pour plus d’informations, voir [Approvisionnement des ressources dans Brand P
 
 **Question Est-ce que je n’aurai plus accès aux ressources et fonctionnalités existantes ou aux configurations que j’ai créées ?**
 
-**Réponse** Toutes les fonctionnalités et configurations existantes ne sont pas modifiées. Les utilisateurs finauxls ne sont pas affectés. En outre, les contenus restent intacts.
+**Réponse** Toutes les fonctionnalités et configurations existantes ne sont pas modifiées. Les utilisateurs finaux ne sont pas affectés. En outre, les contenus restent intacts.
 
 
 
 **Question Quand vais-je passer à la nouvelle version de Brand Portal ?**
 
-**Réponse** Brand Portal 6.4.5 est sorti en production en octobrefévrier 2019. La nouvelle version de Brand Portal devrait être commercialisée au troisième trimestre 2020.
+**Réponse** Brand Portal 6.4.5 est sorti en production en octobre 2019. La nouvelle version de Brand Portal devrait être commercialisée au troisième trimestre 2020.
 Pour les mises à jour et les changements de versions, il est recommandé de suivre les [Notes de mise à jour](brand-portal-release-notes.md) et les [Nouveautés Brand Portal](whats-new.md).
 
 
 
 **Question Cela aura-t-il une incidence pour mes utilisateurs ?**
 
-**Réponse** La version 6.4.5 de Brand Portal est uniquement disponible dans cette application. Les utilisateurs finauxls ne sont donc pas affectés.
+**Réponse** La version 6.4.5 de Brand Portal est uniquement disponible dans cette application. Les utilisateurs finaux ne sont donc pas affectés.
 
 
 
@@ -111,7 +111,7 @@ Ces utilisateurs accèdent au dossier **Contribution** et téléchargent le cont
 
 **Question Quel est le format du fichier CSV utilisé pour importer des utilisateurs ?**
 
-**Réponse** Ce format est identique à celui pris en charge par la console d’administration pour importer des utilisateurs en vrac. Vous devez indiquer vos nom, prénom et adresse électronique.
+**Réponse** Ce format est identique à celui pris en charge par Admin Console pour importer des utilisateurs en vrac. Vous devez indiquer vos nom, prénom et adresse électronique.
 
 
 
@@ -123,7 +123,7 @@ Ces utilisateurs accèdent au dossier **Contribution** et téléchargent le cont
 
 **Question Où consulter le statut des tâches d’importation et de publication ?**
 
-**Réponse** Dans AEM, vous pouvez consulter le statut des tâches sur la page des tâches **asynchrones** . Dans Brand Portal, vous pouvez consulter le statut d&#39;une tâche de publication dans **[!UICONTROL Outils > Statut de contribution des ressources]**.
+**Réponse** Dans AEM, vous pouvez consulter le statut des tâches sur la page des tâches **asynchrones**. Dans Brand Portal, vous pouvez consulter le statut d&#39;une tâche de publication dans **[!UICONTROL Outils > Statut de contribution des ressources]**.
 
 
 
@@ -147,7 +147,7 @@ Ces utilisateurs accèdent au dossier **Contribution** et téléchargent le cont
 
 **Question Aucun aperçu ou vignette n’apparaît sur les ressources qu&#39;un utilisateur Brand Portal a téléchargées vers le dossier NEW.**
 
-**Réponse** C’est tout à fait normal, car aucun processus n’est exécuté au point d’extrémité Brand Portal.
+**Réponse** C’est tout à fait normal, car aucun workflow n’est exécuté au point d’extrémité Brand Portal.
 
 
 
