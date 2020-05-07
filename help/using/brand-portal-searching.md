@@ -11,6 +11,9 @@ topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 translation-type: ht
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+workflow-type: ht
+source-wordcount: '1153'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +26,7 @@ La fonctionnalité de recherche de Brand Portal vous permet de rechercher rapid
 
 Pour rechercher des ressources sur Brand Portal :
 
-1. Dans la barre d’outils, cliquez sur l’icône **[!UICONTROL Rechercher]**ou appuyez sur la touche **[!UICONTROL /]** pour lancer l’&#39;omni-recherche.
+1. Dans la barre d’outils, cliquez sur l’icône **[!UICONTROL Rechercher]** ou appuyez sur la touche **[!UICONTROL /]** pour lancer l’&#39;omni-recherche.
 
    ![](assets/omnisearchicon-1.png)
 
@@ -51,7 +54,7 @@ Par exemple, si vous recherchez une image, vous pouvez indiquer si vous souhaite
 
 ![Panneau Filtres dans Brand Portal](assets/file-type-search.png "Panneau Filtres dans Brand Portal")
 
-Le panneau **[!UICONTROL Filtres]**contient quelques facettes standard (**[!UICONTROL  Explorateur de chemins]**, **[!UICONTROL Type de fichier]**,**[!UICONTROL  Taille de fichier]**, **[!UICONTROL État]**et**[!UICONTROL  Orientation]**). Vous pouvez toutefois [ajouter des facettes de recherche personnalisées](../using/brand-portal-search-facets.md) ou supprimer des facettes de recherche spécifiques du panneau **[!UICONTROL Filtres]**en ajoutant ou en supprimant des prédicats dans le formulaire de recherche sous-jacent. Consultez la liste des[prédicats de recherche disponibles et utilisables sur Brand Portal](../using/brand-portal-search-facets.md#list-of-search-predicates).
+Le panneau **[!UICONTROL Filtres]** contient quelques facettes standard (**[!UICONTROL Explorateur de chemins]**, **[!UICONTROL Type de fichier]**, **[!UICONTROL Taille de fichier]**, **[!UICONTROL État]** et **[!UICONTROL Orientation]**). Vous pouvez toutefois [ajouter des facettes de recherche personnalisées](../using/brand-portal-search-facets.md) ou supprimer des facettes de recherche spécifiques du panneau **[!UICONTROL Filtres]** en ajoutant ou en supprimant des prédicats dans le formulaire de recherche sous-jacent. Consultez la liste des [prédicats de recherche disponibles et utilisables sur Brand Portal](../using/brand-portal-search-facets.md#list-of-search-predicates).
 
 Pour appliquer des filtres à votre recherche avec les [facettes de recherche](../using/brand-portal-search-facets.md) disponibles :
 
@@ -59,7 +62,7 @@ Pour appliquer des filtres à votre recherche avec les [facettes de recherche](.
 
    ![](assets/selectorrail.png)
 
-1. Dans le panneau **[!UICONTROL Filtres]**à gauche, sélectionnez les options adéquates pour appliquer les filtres correspondants.
+1. Dans le panneau **[!UICONTROL Filtres]** à gauche, sélectionnez les options adéquates pour appliquer les filtres correspondants.
  Par exemple, utilisez les filtres standard suivants :
 
    * **[!UICONTROL Explorateur de chemins d’accès]** pour rechercher des ressources dans un répertoire donné. Le chemin de recherche par défaut du prédicat pour l’Explorateur de chemins d’accès est `/content/dam/mac/<tenant-id>/`, mais il peut être configuré en modifiant le formulaire de recherche par défaut.
@@ -71,18 +74,18 @@ Pour appliquer des filtres à votre recherche avec les [facettes de recherche](.
    * **[!UICONTROL Type de fichier]** pour spécifier le type (image, document, fichier multimédia, archive) du fichier de ressource que vous recherchez. En outre, vous pouvez réduire l’étendue de votre recherche. Par exemple, spécifiez le type MIME (Tiff, Bitmap, Images GIMP) de l’image ou le format (PDF ou MS Word) des documents.
    * **[!UICONTROL Taille de fichier]** pour rechercher des ressources en fonction de leur taille. Vous pouvez spécifier les limites inférieure et supérieure de la plage de tailles afin d’affiner votre recherche et déterminer l’unité de mesure à rechercher.
    * **[!UICONTROL État]** pour rechercher des ressources en fonction de leur état comme l&#39;Approbation (approuvée, modifications requises, rejetée, en attente) et l&#39;Expiration.
-   * **[!UICONTROL Évaluation moyenne]**pour rechercher des ressources en fonction de leur évaluation.
-   * **[!UICONTROL Orientation]**pour rechercher des ressources en fonction de leur orientation (horizontale, verticale, carré).
-   * **[!UICONTROL Style]**pour rechercher des ressources en fonction de leur style (couleur, monochrome).
-   * **[!UICONTROL Format vidéo]**pour rechercher des ressources vidéo en fonction de leur format (DVI, Flash, MPEG4, MPEG, OGG Theora, QuickTime, Windows Media, WebM).
+   * **[!UICONTROL Évaluation moyenne]** pour rechercher des ressources en fonction de leur évaluation.
+   * **[!UICONTROL Orientation]** pour rechercher des ressources en fonction de leur orientation (horizontale, verticale, carré).
+   * **[!UICONTROL Style]** pour rechercher des ressources en fonction de leur style (couleur, monochrome).
+   * **[!UICONTROL Format vidéo]** pour rechercher des ressources vidéo en fonction de leur format (DVI, Flash, MPEG4, MPEG, OGG Theora, QuickTime, Windows Media, WebM).
    Vous pouvez utiliser des [facettes de recherche personnalisées](../using/brand-portal-search-facets.md) dans le panneau Filtres en modifiant le formulaire de recherche sous-jacent.
 
-   * S’il est utilisé dans le formulaire de recherche, le **[!UICONTROL prédicat de propriété]**permet de rechercher des ressources qui correspondent à une propriété de métadonnées sur laquelle est mappée le prédicat.\
+   * S’il est utilisé dans le formulaire de recherche, le **[!UICONTROL prédicat de propriété]** permet de rechercher des ressources qui correspondent à une propriété de métadonnées sur laquelle est mappée le prédicat.\
       Par exemple, si l’&#39;attribut Propriété est mappé sur [!UICONTROL `jcr:content /metadata/dc:title`], vous pouvez rechercher des fichiers en fonction de leur titre.\
       [!UICONTROL Prédicat de propriété] prend en charge les recherches de texte pour les éléments suivants :
 
       les **Expressions partielles**
-Pour permettre la recherche de ressources à l’aide d’&#39;expressions partielles dans le prédicat de propriété, cochez la case **[!UICONTROL Recherche partielle]**dans le formulaire de recherche.\
+Pour permettre la recherche de ressources à l’aide d’&#39;expressions partielles dans le prédicat de propriété, cochez la case **[!UICONTROL Recherche partielle]** dans le formulaire de recherche.\
       Vous pouvez ainsi rechercher les ressources souhaitées même si vous ne spécifiez pas les mots/expressions exacts utilisés dans les métadonnées de la ressource.\
       Vous pouvez :
       * Spécifier un mot apparaissant dans l’expression recherchée dans la facette du panneau Filtres. Par exemple, si vous recherchez le terme **climb** (et que le prédicat de propriété est mappé sur la propriété [!UICONTROL `dc:title`]), toutes les ressources ayant le mot **climb** dans l’expression de leur titre sont renvoyées.
@@ -95,7 +98,7 @@ Par exemple, la recherche de :
 Pour autoriser une recherche insensible à la casse dans le prédicat de propriété, cochez la case **[!UICONTROL Ignorer la casse]** dans le formulaire de recherche. Par défaut, la recherche de texte sur le prédicat de propriété est sensible à la casse.
    >[!NOTE]
    >
-   >Lorsque vous cochez la case **[!UICONTROL Recherche partielle]**, l’option**[!UICONTROL  Ignorer la casse]** est sélectionnée par défaut.
+   >Lorsque vous cochez la case **[!UICONTROL Recherche partielle]**, l’option **[!UICONTROL Ignorer la casse]** est sélectionnée par défaut.
 
    ![](assets/wildcard-prop-1.png)
 
@@ -113,20 +116,20 @@ Vous pouvez enregistrer les paramètres d’une recherche en tant que collection
 
 Pour enregistrer les paramètres de recherche comme collection dynamique :
 
-1. Appuyez/cliquez sur **[!UICONTROL Enregistrer la collection dynamique]**et donnez-lui un nom.
+1. Appuyez/cliquez sur **[!UICONTROL Enregistrer la collection dynamique]** et donnez-lui un nom.
 
    Pour rendre la collection dynamique accessible à tous les utilisateurs, cochez la cse **[!UICONTROL Public]**. Un message confirme que la collection dynamique a été créée et ajoutée à la liste de vos recherches enregistrées.
 
    >[!NOTE]
    >
-   >Vous pouvez empêcher les utilisateurs non-administrateurs de rendre des collections dynamiques publiques pour éviter que le Brand Portal de l’organisation présente un nombre très important de collections dynamiques publiques créées par les utilisateurs non-administrateurs. Les organisations peuvent désactiver la configuration ****Autoriser la création de collections dynamiques publiques dans**[!UICONTROL  Paramètres généraux]** au niveau du panneau des outils d’administration.
+   >Vous pouvez empêcher les utilisateurs non-administrateurs de rendre des collections dynamiques publiques pour éviter que le Brand Portal de l’organisation présente un nombre très important de collections dynamiques publiques créées par les utilisateurs non-administrateurs. Les organisations peuvent désactiver la configuration **** Autoriser la création de collections dynamiques publiques dans **[!UICONTROL Paramètres généraux]** au niveau du panneau des outils d’administration.
 
    ![](assets/save_smartcollectionui.png)
 
-1. Pour enregistrer la collection dynamique sous un autre nom et cocher ou décocher la case **[!UICONTROL Public]**, cliquez sur**[!UICONTROL  Modif. collecte dynam.]**.
+1. Pour enregistrer la collection dynamique sous un autre nom et cocher ou décocher la case **[!UICONTROL Public]**, cliquez sur **[!UICONTROL Modif. collecte dynam.]**.
 
    ![](assets/edit_smartcollection.png)
 
-1. Dans la boîte de dialogue **[!UICONTROL Modifier la collecte dynamique]**, sélectionnez**[!UICONTROL  Enregistrer sous]** et saisissez le nom de la collection dynamique. Cliquez sur **[!UICONTROL Enregistrer]**.
+1. Dans la boîte de dialogue **[!UICONTROL Modifier la collecte dynamique]**, sélectionnez **[!UICONTROL Enregistrer sous]** et saisissez le nom de la collection dynamique. Cliquez sur **[!UICONTROL Enregistrer]**.
 
    ![](assets/saveas_smartsearch.png)
