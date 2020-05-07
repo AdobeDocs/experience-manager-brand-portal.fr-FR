@@ -11,6 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 translation-type: ht
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+workflow-type: ht
+source-wordcount: '1097'
+ht-degree: 100%
 
 ---
 
@@ -31,7 +34,7 @@ Si cette option est activée, les utilisateurs de Brand Portal peuvent réduire
 
 Pour télécharger les fichiers plus rapidement, vérifiez les points suivants :
 
-* **[!UICONTROL Activer l’accélération des téléchargements]**(l’option est désactivée par défaut) sous[!UICONTROL Paramètres généraux]dans le panneau des outils d’administration.
+* **[!UICONTROL Activer l’accélération des téléchargements]** (l’option est désactivée par défaut) sous [!UICONTROL Paramètres généraux] dans le panneau des outils d’administration.
 * Le port 33001 (TCP et UDP) est ouvert sur le pare-feu. Pour plus d’informations sur les conditions préalables requises, consultez la [documentation du client Aspera Connect](https://downloads.asperasoft.com/en/documentation/8).
 * Installez Aspera Connect à l’aide des privilèges d’administrateur.
 * Pour connaître les plates-formes prises en charge par le client de transfert Aspera, consultez le [Tableau des plates-formes prises en charge par Aspera Connect](https://www.asperasoft.com/company/support/transfer-clients/).
@@ -87,22 +90,22 @@ Si le client Aspera Connect n’est pas installé sur votre système ou si le c
 
    ![](assets/aspera-not-launched.png)
 
-   Pour télécharger la dernière version d’Aspera Connect à partir de [https://downloads.asperasoft.com/connect2/](https://downloads.asperasoft.com/connect2/), sélectionnez **[!UICONTROL Télécharger maintenant]**et suivez les instructions.
+   Pour télécharger la dernière version d’Aspera Connect à partir de [https://downloads.asperasoft.com/connect2/](https://downloads.asperasoft.com/connect2/), sélectionnez **[!UICONTROL Télécharger maintenant]** et suivez les instructions.
 
 1. **Installation du client Aspera Connect** 
 Pour installer la configuration du client IBM Aspera Connect, exécutez le programme d’installation à partir du fichier. msi de l’&#39;application cliente IBM Aspera Connect et suivez l’&#39;assistant d’&#39;installation.
 
-1. Une fois le client installé, actualisez la page du navigateur et recommencez la procédure de téléchargement ou sélectionnez **[!UICONTROL Redémarrer]**dans la boîte de dialogue**[!UICONTROL  Téléchargement]** de la ressource (étape 2).
-Lorsque vous utilisez Aspera Connect pour la première fois, le navigateur vous invite à ouvrir le lien à l’aide d’**[!UICONTROL IBM Aspera Connect]**. Pour ignorer cette boîte de dialogue à l’avenir, activez**[!UICONTROL  Mémoriser mon choix pour les liens FASP]**.
+1. Une fois le client installé, actualisez la page du navigateur et recommencez la procédure de téléchargement ou sélectionnez **[!UICONTROL Redémarrer]** dans la boîte de dialogue **[!UICONTROL Téléchargement]** de la ressource (étape 2).
+Lorsque vous utilisez Aspera Connect pour la première fois, le navigateur vous invite à ouvrir le lien à l’aide d’**[!UICONTROL IBM Aspera Connect]**. Pour ignorer cette boîte de dialogue à l’avenir, activez **[!UICONTROL Mémoriser mon choix pour les liens FASP]**.
 
    >[!NOTE]
    >
    >Ce message varie en fonction du navigateur.
 
-1. Une boîte de dialogue vous permet de confirmer si vous voulez poursuivre le transfert. Sélectionnez **[!UICONTROL Autoriser]**pour commencer.
-Pour ignorer cette boîte de dialogue à l’avenir, activez**[!UICONTROL  Utiliser ce choix pour toutes les connexions avec cet hôte]**.
-Le téléchargement démarre. Une boîte de dialogue affiche la progression du téléchargement. Utilisez la boîte de dialogue pour **[!UICONTROL mettre en pause]**,**[!UICONTROL  reprendre]** ou **[!UICONTROL annuler]**le téléchargement.
-L’application Aspera Connect fournit un workflow d’activité sur le système où l’utilisateur peut visualiser et gérer toutes les sessions de transfert. Pour plus d’informations, consultez la[documentation du client Aspera Connect](https://downloads.asperasoft.com/en/documentation/8).
+1. Une boîte de dialogue vous permet de confirmer si vous voulez poursuivre le transfert. Sélectionnez **[!UICONTROL Autoriser]** pour commencer.
+Pour ignorer cette boîte de dialogue à l’avenir, activez **[!UICONTROL Utiliser ce choix pour toutes les connexions avec cet hôte]**.
+Le téléchargement démarre. Une boîte de dialogue affiche la progression du téléchargement. Utilisez la boîte de dialogue pour **[!UICONTROL mettre en pause]**, **[!UICONTROL reprendre]** ou **[!UICONTROL annuler]** le téléchargement.
+L’application Aspera Connect fournit un workflow d’activité sur le système où l’utilisateur peut visualiser et gérer toutes les sessions de transfert. Pour plus d’informations, consultez la [documentation du client Aspera Connect](https://downloads.asperasoft.com/en/documentation/8).
 
 ![](assets/aspera-activity-window.png)
 
@@ -110,7 +113,7 @@ L’application Aspera Connect fournit un workflow d’activité sur le systèm
 
 >[!NOTE]
 >
->Une limite connue dans l’application cliente Aspera Connect fait qu’aucune invite ne s’affiche pour sélectionner l’emplacement de téléchargement si l’option **[!UICONTROL Always ask me where to save downloaded files]** (Toujours me demander où enregistrer les fichiers téléchargés) est activée sous l’onglet [!UICONTROL Transfers] (Transferts) dans [!UICONTROL Preferences] (Préférences). Avant tout téléchargement, fournissez donc l’emplacement dans la zone de texte **[!UICONTROL  Enregistrer les fichiers téléchargés dans]**.
+>Une limite connue dans l’application cliente Aspera Connect fait qu’aucune invite ne s’affiche pour sélectionner l’emplacement de téléchargement si l’option **[!UICONTROL Always ask me where to save downloaded files]** (Toujours me demander où enregistrer les fichiers téléchargés) est activée sous l’onglet [!UICONTROL Transfers] (Transferts) dans [!UICONTROL Preferences] (Préférences). Avant tout téléchargement, fournissez donc l’emplacement dans la zone de texte **[!UICONTROL Enregistrer les fichiers téléchargés dans]**.
 
 ## Utilisation de l’accélérateur de fichiers sur le navigateur Microsoft Edge {#using-file-accelerator-on-microsoft-edge-browser}
 
@@ -120,9 +123,9 @@ Microsoft Edge s’exécute en mode protégé amélioré (EPM) qui empêche la 
 
 Pour utiliser la fonctionnalité de téléchargement accéléré sur Microsoft Edge, supprimez le site Brand Portal de la liste des sites de confiance.
 
-1. Ouvrez le Panneau de configuration (appuyez sur la **[!UICONTROL touche Windows + X]**, puis sélectionnez**[!UICONTROL  Panneau de configuration]**).
-1. Accédez à **[!UICONTROL Réseau et Internet > Options Internet]**. Cliquez sur l’onglet**[!UICONTROL  Sécurité]**.
-1. Cliquez sur **[!UICONTROL Zone Sites de confiance]**, puis sur**[!UICONTROL  Sites]**.
+1. Ouvrez le Panneau de configuration (appuyez sur la **[!UICONTROL touche Windows + X]**, puis sélectionnez **[!UICONTROL Panneau de configuration]**).
+1. Accédez à **[!UICONTROL Réseau et Internet > Options Internet]**. Cliquez sur l’onglet **[!UICONTROL Sécurité]**.
+1. Cliquez sur **[!UICONTROL Zone Sites de confiance]**, puis sur **[!UICONTROL Sites]**.
 1. Supprimez le site Brand Portal de la liste.
 
 ## Préférences du client Aspera Connect      {#aspera-connect-client-preferences}
