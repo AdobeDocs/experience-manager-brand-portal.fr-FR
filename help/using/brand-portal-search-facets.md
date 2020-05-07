@@ -10,6 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 translation-type: ht
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+workflow-type: ht
+source-wordcount: '1249'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 Les administrateurs peuvent ajouter des prédicats de recherche au panneau [!UICONTROL Filtres] pour personnaliser les recherches et rendre la fonction de recherche polyvalente.
 
-Brand Portal prend en charge la [recherche à facettes](../using/brand-portal-searching.md#search-using-facets-in-filters-panel) pour les recherches granulaires des ressources de marque approuvées grâce au panneau [**Filtres **](../using/brand-portal-searching.md#search-using-facets-in-filters-panel). Les facettes de recherche sont disponibles sur le panneau Filtres par l’intermédiaire du**[!UICONTROL  Formulaire de recherche]** des outils d’administration. Un formulaire de recherche par défaut, appelé Rail de recherche d’administrateurs de ressources, figure sur la page Formulaires de recherche dans les outils d’administration. Cependant, les administrateurs peuvent personnaliser le panneau Filtres par défaut en modifiant le formulaire de recherche par défaut (Rail de recherche d’administrateurs de ressources) en ajoutant, modifiant ou supprimant des prédicats de recherche, rendant de ce fait la fonctionnalité de recherche versatile.
+Brand Portal prend en charge la [recherche à facettes](../using/brand-portal-searching.md#search-using-facets-in-filters-panel) pour les recherches granulaires des ressources de marque approuvées grâce au panneau [**Filtres **](../using/brand-portal-searching.md#search-using-facets-in-filters-panel). Les facettes de recherche sont disponibles sur le panneau Filtres par l’intermédiaire du **[!UICONTROL Formulaire de recherche]**des outils d’administration. Un formulaire de recherche par défaut, appelé Rail de recherche d’administrateurs de ressources, figure sur la page Formulaires de recherche dans les outils d’administration. Cependant, les administrateurs peuvent personnaliser le panneau Filtres par défaut en modifiant le formulaire de recherche par défaut (Rail de recherche d’administrateurs de ressources) en ajoutant, modifiant ou supprimant des prédicats de recherche, rendant de ce fait la fonctionnalité de recherche versatile.
 
 Vous pouvez utiliser différents prédicats de recherche pour personnaliser le panneau **[!UICONTROL Filtres]**. Ajoutez par exemple le prédicat Propriété pour rechercher des ressources qui correspondent à une seule propriété spécifiée dans ce prédicat. Ajoutez le prédicat Options pour rechercher les ressources correspondant à une ou plusieurs valeurs que vous indiquez pour une propriété spécifique. Ajoutez le prédicat Période pour rechercher les ressources créées au cours d’une période donnée.
 
@@ -38,38 +41,38 @@ Pour ajouter un prédicat de recherche au panneau **[!UICONTROL Filtres]** :
 
    ![](assets/navigation-panel-1.png)
 
-1. Dans la page **[!UICONTROL Formulaires de recherche]**, sélectionnez**[!UICONTROL  Rail de recherche d’administrateurs de ressources]**.
+1. Dans la page **[!UICONTROL Formulaires de recherche]**, sélectionnez **[!UICONTROL Rail de recherche d’administrateurs de ressources]**.
 
    ![](assets/search-forms-page.png)
 
-1. Dans la barre d’outils qui apparaît dans la partie supérieure, cliquez sur **[!UICONTROL Modifier]**pour ouvrir la page Modifier le formulaire de recherche.
+1. Dans la barre d’outils qui apparaît dans la partie supérieure, cliquez sur **[!UICONTROL Modifier]** pour ouvrir la page Modifier le formulaire de recherche.
 
    ![](assets/edit-search-form-1.png)
 
 1. Sur la page [!UICONTROL Modifier le formulaire de recherche], faites glisser un prédicat de l’onglet [!UICONTROL Sélectionner le prédicat] vers le volet principal. Faites glisser, par exemple, **[!UICONTROL Prédicat de la propriété]**.
 
-   Le champ **[!UICONTROL Propriété]**apparaît dans le volet principal et l’onglet**[!UICONTROL  Paramètres]** à droite affiche les prédicats de propriété.
+   Le champ **[!UICONTROL Propriété]** apparaît dans le volet principal et l’onglet **[!UICONTROL Paramètres]** à droite affiche les prédicats de propriété.
 
    ![](assets/partial-prop-predicate.png)
 
    >[!NOTE]
    >
-   >Le libellé d’en-tête de l’onglet **[!UICONTROL Paramètres]**identifie le type de prédicat sélectionné.
+   >Le libellé d’en-tête de l’onglet **[!UICONTROL Paramètres]** identifie le type de prédicat sélectionné.
 
 1. Dans l’onglet **[!UICONTROL Paramètres]**, saisissez un libellé, un texte d’espace réservé et une description pour le prédicat de propriété.
 
-   * Sélectionnez **[!UICONTROL Recherche partielle]**si vous souhaitez autoriser la recherche par expression partielle (et la recherche par caractères génériques) de ressources en fonction des valeurs de propriétés spécifiées. Par défaut, le prédicat prend en charge la recherche en texte intégral.
-   * Sélectionnez **[!UICONTROL Ignorer la casse ]**si vous souhaitez que la recherche de ressources en fonction des valeurs de propriétés ne soit pas sensible à la casse. Par défaut, la recherche des valeurs de propriétés dans le filtre de recherche est sensible à la casse.
+   * Sélectionnez **[!UICONTROL Recherche partielle]** si vous souhaitez autoriser la recherche par expression partielle (et la recherche par caractères génériques) de ressources en fonction des valeurs de propriétés spécifiées. Par défaut, le prédicat prend en charge la recherche en texte intégral.
+   * Sélectionnez **[!UICONTROL Ignorer la casse ]** si vous souhaitez que la recherche de ressources en fonction des valeurs de propriétés ne soit pas sensible à la casse. Par défaut, la recherche des valeurs de propriétés dans le filtre de recherche est sensible à la casse.
    >[!NOTE]
    >
-   >Lorsque vous cochez la case **[!UICONTROL Recherche partielle]**, l’option**[!UICONTROL  Ignorer la casse]** est sélectionnée par défaut.
+   >Lorsque vous cochez la case **[!UICONTROL Recherche partielle]**, l’option **[!UICONTROL Ignorer la casse]** est sélectionnée par défaut.
 
-1. Dans le champ **[!UICONTROL Nom de la propriété]**, ouvrez le sélecteur de propriétés, puis choisissez la propriété sur laquelle se base la recherche. Sinon, saisissez un nom de propriété. Par exemple, saisissez`  jcr :content/metadata/dc:title`ou`./jcr:content/metadata/dc:title`.
+1. Dans le champ **[!UICONTROL Nom de la propriété]**, ouvrez le sélecteur de propriétés, puis choisissez la propriété sur laquelle se base la recherche. Sinon, saisissez un nom de propriété. Par exemple, saisissez `  jcr :content/metadata/dc:title` ou `./jcr:content/metadata/dc:title`.
 
    ![](assets/title-prop.png)
 
 1. Pour enregistrer les paramètres, cliquez sur **[!UICONTROL Terminé]**.
-1. Dans l’interface utilisateur d’[!UICONTROL Assets], cliquez sur l’icône de recouvrement, puis sélectionnez **[!UICONTROL Filtrer]** pour accéder au panneau**[!UICONTROL  Filtres]**. Le prédicat **[!UICONTROL Propriété]**est ajouté au panneau.
+1. Dans l’interface utilisateur d’[!UICONTROL Assets], cliquez sur l’icône de recouvrement, puis sélectionnez **[!UICONTROL Filtrer]** pour accéder au panneau **[!UICONTROL Filtres]**. Le prédicat **[!UICONTROL Propriété]** est ajouté au panneau.
 
    ![](assets/property-filter-panel.png)
 
@@ -77,7 +80,7 @@ Pour ajouter un prédicat de recherche au panneau **[!UICONTROL Filtres]** :
 
 ## Liste des prédicats de recherche {#list-of-search-predicates}
 
-Tout comme vous ajoutez un prédicat **[!UICONTROL Propriété]**, vous pouvez ajouter les prédicats suivants au panneau**[!UICONTROL  Filtres]** :
+Tout comme vous ajoutez un prédicat **[!UICONTROL Propriété]**, vous pouvez ajouter les prédicats suivants au panneau **[!UICONTROL Filtres]** :
 
 | **Nom du prédicat** | **Description** | **Propriétés** |
 |-------|-------|----------|
@@ -101,7 +104,7 @@ Tout comme vous ajoutez un prédicat **[!UICONTROL Propriété]**, vous pouvez a
 
 >[!NOTE]
 >
->N’utilisez pas les prédicats **[!UICONTROL Options]**,**[!UICONTROL &#x200B;État de publication]** et **[!UICONTROL Évaluation]**, car ils ne sont pas fonctionnels dans Brand Portal.
+>N’utilisez pas les prédicats **[!UICONTROL Options]**, **[!UICONTROL État de publication]** et **[!UICONTROL Évaluation]**, car ils ne sont pas fonctionnels dans Brand Portal.
 
 ## Suppression d’un prédicat de recherche {#delete-a-search-predicate}
 
@@ -115,25 +118,25 @@ Pour supprimer un prédicat, procédez de la manière suivante :
 
    ![](assets/navigation-panel-2.png)
 
-1. Dans la page **[!UICONTROL Formulaires de recherche]**, sélectionnez**[!UICONTROL  Rail de recherche d’administrateurs de ressources]**.
+1. Dans la page **[!UICONTROL Formulaires de recherche]**, sélectionnez **[!UICONTROL Rail de recherche d’administrateurs de ressources]**.
 
    ![](assets/search-forms-page.png)
 
-1. Dans la barre d’outils qui apparaît dans la partie supérieure, cliquez sur **[!UICONTROL Modifier]**pour ouvrir la page Modifier le formulaire de recherche.
+1. Dans la barre d’outils qui apparaît dans la partie supérieure, cliquez sur **[!UICONTROL Modifier]** pour ouvrir la page Modifier le formulaire de recherche.
 
    ![](assets/edit-search-form-2.png)
 
 1. Dans la page [!UICONTROL Modifier le formulaire de recherche], dans le panneau principal, sélectionnez le prédicat à supprimer. Sélectionnez, par exemple, **[!UICONTROL Prédicat de la propriété]**.
 
-   L’onglet **[!UICONTROL Paramètres]**à droite affiche les champs de prédicat de propriété.
+   L’onglet **[!UICONTROL Paramètres]** à droite affiche les champs de prédicat de propriété.
 
-1. Pour supprimer un prédicat de propriété, cliquez sur l’icône représentant une corbeille. Dans la boîte de dialogue **[!UICONTROL Supprimer le champ]**, cliquez sur**[!UICONTROL  Supprimer]** pour confirmer l’action de suppression.
+1. Pour supprimer un prédicat de propriété, cliquez sur l’icône représentant une corbeille. Dans la boîte de dialogue **[!UICONTROL Supprimer le champ]**, cliquez sur **[!UICONTROL Supprimer]** pour confirmer l’action de suppression.
 
-   Le champ **[!UICONTROL Prédicat de propriété]**est supprimé du panneau principal et l’onglet**[!UICONTROL  Paramètres]** devient vide.
+   Le champ **[!UICONTROL Prédicat de propriété]** est supprimé du panneau principal et l’onglet **[!UICONTROL Paramètres]** devient vide.
 
    ![](assets/search-form-delete-predicate.png)
 
-1. Pour enregistrer les modifications, cliquez sur **[!UICONTROL Terminé]**dans la barre d’outils.
-1. Dans l’interface utilisateur d’**[!UICONTROL Assets]**, cliquez sur l’icône de recouvrement, puis sélectionnez**[!UICONTROL  Filtrer]** pour accéder au panneau **[!UICONTROL Filtres]**. Le prédicat**[!UICONTROL  Propriété]** est supprimé du panneau.
+1. Pour enregistrer les modifications, cliquez sur **[!UICONTROL Terminé]** dans la barre d’outils.
+1. Dans l’interface utilisateur d’**[!UICONTROL Assets]**, cliquez sur l’icône de recouvrement, puis sélectionnez **[!UICONTROL Filtrer]** pour accéder au panneau **[!UICONTROL Filtres]**. Le prédicat **[!UICONTROL Propriété]** est supprimé du panneau.
 
    ![](assets/property-predicate-removed.png)
