@@ -10,6 +10,9 @@ topic-tags: administration
 discoiquuid: e8d06818-29c7-4810-bff1-40b3e2818114
 translation-type: ht
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+workflow-type: ht
+source-wordcount: '338'
+ht-degree: 100%
 
 ---
 
@@ -31,8 +34,8 @@ La procédure décrite ci-dessous s’adresse aux utilisateurs qui se connectent
    >
    >Si votre entreprise utilise des Enterprise ID, vous êtes redirigé vers la page de connexion Enterprise au lieu de cette page de connexion. Pour plus d’informations, voir [Enterprise ID, connexion et aide de compte](https://helpx.adobe.com/fr/enterprise/kb/enterprise-id-faq.html).
 
-1. Cliquez sur **[!UICONTROL Continuer]**pour accéder à la page Brand Portal de votre entreprise.
-1. Dans la page de connexion de Brand Portal, cliquez sur **[!UICONTROL Se connecter]**pour vous connecter à Brand Portal.
+1. Cliquez sur **[!UICONTROL Continuer]** pour accéder à la page Brand Portal de votre entreprise.
+1. Dans la page de connexion de Brand Portal, cliquez sur **[!UICONTROL Se connecter]** pour vous connecter à Brand Portal.
 
    ![Page de connexion à Brand Portal](assets/signin-onboarding.png)
 
