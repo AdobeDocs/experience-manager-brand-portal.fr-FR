@@ -10,6 +10,9 @@ topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 translation-type: ht
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+workflow-type: ht
+source-wordcount: '1039'
+ht-degree: 100%
 
 ---
 
@@ -48,7 +51,7 @@ Vous pouvez afficher, parcourir et sélectionner (pour une action ultérieure) v
 
 ![](assets/card-view.png)
 
-Le mode Carte affiche les cartes d’informations de chaque élément au niveau actuel. Ces cartes présentent   les informations suivantes :
+Le mode Carte affiche les cartes d’informations de chaque élément au niveau actuel. Ces cartes présentent les les informations suivantes :
 
 * Représentation visuelle de la ressource/du dossier.
 * Type
@@ -78,7 +81,7 @@ L’option Aperçu est proposée aux utilisateurs non-administrateurs (éditeurs
 * dans la barre d’outils supérieure lors de la sélection d’une ressource/d’un dossier ;
 * dans le menu déroulant, lors de la sélection du sélecteur de rail.
 
-S’ils choisissent l’option **[!UICONTROL Aperçu]**lorsqu’une ressource/un dossier est sélectionné, les utilisateurs peuvent voir le titre, le chemin et l’heure de création de la ressource. En revanche, sur la page des détails de la ressource, l’option Aperçu permet aux utilisateurs d’afficher les métadonnées de la ressource.
+S’ils choisissent l’option **[!UICONTROL Aperçu]** lorsqu’une ressource/un dossier est sélectionné, les utilisateurs peuvent voir le titre, le chemin et l’heure de création de la ressource. En revanche, sur la page des détails de la ressource, l’option Aperçu permet aux utilisateurs d’afficher les métadonnées de la ressource.
 
 ![](assets/overview-option.png)
 
@@ -86,7 +89,7 @@ S’ils choisissent l’option **[!UICONTROL Aperçu]**lorsqu’une ressource/un
 
 #### Paramètres d’affichage en mode Carte
 
-La boîte de dialogue **[!UICONTROL Paramètres d’affichage]**s’ouvre lors de la sélection de l’option**[!UICONTROL  Paramètres d’affichage]** dans le sélecteur de mode. Elle vous permet de redimensionner les miniatures des ressources en mode Carte. De cette façon, vous pouvez personnaliser votre affichage et contrôler le nombre de miniatures affichées.
+La boîte de dialogue **[!UICONTROL Paramètres d’affichage]** s’ouvre lors de la sélection de l’option **[!UICONTROL Paramètres d’affichage]** dans le sélecteur de mode. Elle vous permet de redimensionner les miniatures des ressources en mode Carte. De cette façon, vous pouvez personnaliser votre affichage et contrôler le nombre de miniatures affichées.
 
 ![](assets/cardviewsettings.png)
 
@@ -115,7 +118,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### Paramètres d’affichage en mode Liste
 
-Le mode Liste affiche le **[!UICONTROL Nom]**des ressources comme première colonne par défaut. Des informations complémentaires, telles que le**[!UICONTROL  Titre]**, les **[!UICONTROL Paramètres régionaux]**, le**[!UICONTROL  Type]**, les **[!UICONTROL Dimensions]**, la**[!UICONTROL  Taille]**, l’**[!UICONTROL Évaluation]**et l’état de publication de la ressource, sont également affichées. Vous pouvez toutefois choisir les colonnes à afficher à l’aide de**[!UICONTROL  Paramètres d’affichage]**.
+Le mode Liste affiche le **[!UICONTROL Nom]** des ressources comme première colonne par défaut. Des informations complémentaires, telles que le **[!UICONTROL Titre]**, les **[!UICONTROL Paramètres régionaux]**, le **[!UICONTROL Type]**, les **[!UICONTROL Dimensions]**, la **[!UICONTROL Taille]**, l’**[!UICONTROL Évaluation]** et l’état de publication de la ressource, sont également affichées. Vous pouvez toutefois choisir les colonnes à afficher à l’aide de **[!UICONTROL Paramètres d’affichage]**.
 
 ![](assets/list-view-setting.png)
 
@@ -232,7 +235,7 @@ Comment Type: draft
 
 En plus de ces vues, utilisez l’arborescence pour descendre dans la hiérarchie de ressources lorsque vous affichez et sélectionnez les ressources ou dossiers de votre choix.
 
-Pour ouvrir l’arborescence, appuyez/cliquez sur le sélecteur de rail en haut à gauche et sélectionnez **[!UICONTROL Arborescence de contenu]**dans le menu.
+Pour ouvrir l’arborescence, appuyez/cliquez sur le sélecteur de rail en haut à gauche et sélectionnez **[!UICONTROL Arborescence de contenu]** dans le menu.
 
 ![](assets/contenttree.png)
 
@@ -254,7 +257,7 @@ Vous pouvez afficher tous les rendus disponibles de la ressource sur la page Dé
 
 ![](assets/renditions.png)
 
-Pour ouvrir la page des propriétés de la ressource, utilisez l’option **[!UICONTROL Propriétés (p)]**de la barre supérieure.
+Pour ouvrir la page des propriétés de la ressource, utilisez l’option **[!UICONTROL Propriétés (p)]** de la barre supérieure.
 
 ![](assets/asset-properties.png)
 
