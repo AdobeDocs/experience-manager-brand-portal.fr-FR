@@ -11,6 +11,9 @@ content-type: reference
 discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
 translation-type: ht
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+workflow-type: ht
+source-wordcount: '829'
+ht-degree: 100%
 
 ---
 
@@ -29,7 +32,7 @@ L’expiration de ressources est une façon efficace de contrôler l’utilisati
 
 Dans Brand Portal, les administrateurs peuvent afficher, télécharger et ajouter des ressources expirées aux collections. En revanche, les éditeurs et les observateurs peuvent seulement afficher et ajouter des ressources expirées aux collections.
 
-Les administrateurs peuvent publier les ressources expirées sur Brand Portal à partir d’AEM Assets. Cependant, les ressources expirées ne peuvent pas être partagées par l’intermédiaire d’un lien à partir de Brand Portal. Si vous sélectionnez une ressource expirée dans un dossier contenant à la fois des ressources expirées et non expirées, l’action **[!UICONTROL Partager le lien]**n’est pas disponible. En revanche, si vous sélectionnez un dossier contenant des ressources expirées et non expirées, les actions[!UICONTROL Partager]et**[!UICONTROL  Partager le lien]** sont disponibles.
+Les administrateurs peuvent publier les ressources expirées sur Brand Portal à partir d’AEM Assets. Cependant, les ressources expirées ne peuvent pas être partagées par l’intermédiaire d’un lien à partir de Brand Portal. Si vous sélectionnez une ressource expirée dans un dossier contenant à la fois des ressources expirées et non expirées, l’action **[!UICONTROL Partager le lien]** n’est pas disponible. En revanche, si vous sélectionnez un dossier contenant des ressources expirées et non expirées, les actions [!UICONTROL Partager] et **[!UICONTROL Partager le lien]** sont disponibles.
 
 >[!NOTE]
 >
@@ -60,7 +63,7 @@ Vous pouvez voir l’état d’expiration des ressources dans leur **[!UICONTROL
 
 ## Expiration des liens de ressources   {#asset-link-expiration}
 
-Lors du partage de ressources par le biais de liens, les administrateurs et les éditeurs peuvent définir une date et une heure d’expiration en utilisant le champ **[!UICONTROL Expiration]**dans la boîte de dialogue**[!UICONTROL  Partage de lien]**. Par défaut, le lien expire sept jours à compter de la date à laquelle il est partagé.
+Lors du partage de ressources par le biais de liens, les administrateurs et les éditeurs peuvent définir une date et une heure d’expiration en utilisant le champ **[!UICONTROL Expiration]** dans la boîte de dialogue **[!UICONTROL Partage de lien]**. Par défaut, le lien expire sept jours à compter de la date à laquelle il est partagé.
 
 ![](assets/asset-link-sharing.png)
 
@@ -78,7 +81,7 @@ Si vous choisissez de télécharger des ressources protégées par une licence, 
 
 ![](assets/asset-copyright-mgmt.png)
 
-Vous devez y sélectionner la ressource à télécharger et accepter l’accord de licence associé. Si vous n’en acceptez pas les termes, le bouton **[!UICONTROL Télécharger]**est désactivé.
+Vous devez y sélectionner la ressource à télécharger et accepter l’accord de licence associé. Si vous n’en acceptez pas les termes, le bouton **[!UICONTROL Télécharger]** est désactivé.
 
 ![](assets/licensed-asset-download-2.png)
 
