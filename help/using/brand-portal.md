@@ -8,11 +8,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
-translation-type: ht
-source-git-commit: 9169407bbbfabd94be31c89c028be64e55afc064
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 0278d17cc774338b456d9c3881953f2e34ca7126
+workflow-type: tm+mt
 source-wordcount: '1522'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -32,11 +32,12 @@ L’environnement de portail de type navigateur permet de télécharger, parcour
 
 ## Configuration d’AEM Assets avec Brand Portal {#configure-brand-portal}
 
-Adobe Experience Manager (AEM) Assets est configuré avec Brand Portal via Adobe I/O, qui fournit un jeton IMS pour autoriser votre client Brand Portal.
+Les ressources Adobe Experience Manager (AEM) sont configurées avec le portail de marque via Adobe Developer Console, qui fournit un jeton IMS pour l’autorisation de votre client du portail de marque.
 
 >[!NOTE]
 >
->La configuration d’AEM Assets avec Brand Portal via Adobe I/O est prise en charge sur AEM Assets Cloud Service, AEM Assets 6.3 et versions ultérieures.
+>La configuration d’AEM Assets avec Brand Portal via Adobe Developer Console est prise en charge sur le service cloud AEM Assets, AEM Assets 6.3 et versions ultérieures.
+
 
 ### Conditions préalables à la configuration d’AEM Assets avec Brand Portal {#prerequisites}
 
@@ -142,6 +143,7 @@ Cependant, l’instance d’auteur AEM peut uniquement être [configurée](../u
 >Pour obtenir un alias pour le nom du client dans l’URL de portail existante, les organisations doivent solliciter la création d’un alias de client auprès de l’assistance Adobe. Cette demande est traitée en vérifiant d’abord si l’alias est disponible puis en le créant.
 >
 >Pour remplacer ou supprimer l’ancien alias, le même processus doit être suivi.
+
 
 ## Demande d’accès à Brand Portal {#request-access-to-brand-portal}
 
