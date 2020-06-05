@@ -1,34 +1,63 @@
 ---
 title: Notes de mise à jour
 seo-title: Notes de mise à jour
-description: Découvrez les fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 6.4.6.
-seo-description: Découvrez les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 6.4.6.
+description: Découvrez les fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 6.4.6.2.
+seo-description: Découvrez les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 6.4.6.2.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
-translation-type: ht
-source-git-commit: 9bb1538165030f7f9e78af99bb89ea38897c3967
+translation-type: tm+mt
+source-git-commit: 9413aa609b5c0d66c9d23ddf9dcd9d28ec4da798
+workflow-type: tm+mt
+source-wordcount: '789'
+ht-degree: 72%
 
 ---
 
 
 # Notes de mise à jour {#release-notes}
 
-Découvrez les fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 6.4.6.
+Découvrez les fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 6.4.6.2.
 
 ## Informations sur la version {#release-information}
 
 | Produit | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 6.4.6 |
-| Date | Mars 2020 |
+| Version | 6.4.6.2 |
+| Date  | Juin 2020 |
 
 ## Présentation {#overview}
 
 Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de contrôler et de distribuer facilement et en toute sécurité des ressources créatives approuvées destinées à des tiers externes et aux collaborateurs de l’entreprise sur différents appareils. Brand Portal améliore l’efficacité du partage des ressources, accélère la mise sur le marché des ressources et réduit les risques de non-conformité et d’accès non autorisé. Brand Portal permet aux utilisateurs de parcourir, rechercher, prévisualiser, télécharger et exporter des ressources dans des formats approuvés, à tout moment et n’importe où.
+
+## Nouveautés de la version 6.4.6.2 {#what-s-new-in-6462}
+
+### Problèmes critiques résolus {#critical-issues-fixed-6462}
+
+Cette version comprend des correctifs pour les problèmes critiques suivants :
+
+* La suppression d’un schéma de métadonnées publié du portail de marques entraîne une erreur.
+
+* Si l’administrateur configure Experience Manager Assets 6.5.4 avec Brand Portal via Adobe Developer Console, l’utilisateur du portail des marques ne peut pas publier les ressources du dossier de contributions de Brand Portal vers Experience Manager.
+
+* Réplication Duplicata des dossiers parents provoquant des conflits.
+
+* L&#39;utilisateur ne peut pas générer de rapport de partage de liens.
+
+* L’utilisateur peut copier des secrets MAC pour un point de terminaison du portail de marque à l’aide de la commande copyPage.
+
+* cqTags provoquant la réindexation sur le clone VA5.
+
+
+### Problèmes connus {#known-issues-6462}
+
+Cette version présente les problèmes connus suivants :
+
+* Si un dossier de la hiérarchie est renommé à partir d’AEM Assets et que le dossier imbriqué contenant une ressource est publié sur Brand Portal, le titre du dossier n’est pas mis à jour dans Brand Portal tant que le dossier racine n’a pas été republié.
+
 
 ## Nouveautés de la version 6.4.6 {#what-s-new-in-646}
 
@@ -45,18 +74,21 @@ Pour plus d’informations, voir [Configuration d’AEM Assets Cloud Service av
 
 Cette version de Brand Portal comprend les améliorations suivantes :
 
-* Dans AEM 6.3 et versions ultérieures, le canal d’autorisation entre AEM Assets et Brand Portal a été modifié. AEM Assets est désormais configuré avec Brand Portal via Adobe I/O, qui fournit un jeton IMS pour autoriser votre client Brand Portal.
+* Dans AEM 6.3 et versions ultérieures, le canal d’autorisation entre AEM Assets et Brand Portal a été modifié. AEM Assets est désormais configuré avec Brand Portal via Adobe Developer Console, qui fournit un jeton IMS pour l’autorisation de votre client du portail de marques.
 
-   >[!NOTE]
-   >
-   >La configuration via application OAuth héritée n’est plus prise en charge à partir du 6 avril 2020 et est remplacée par la configuration via Adobe I/O.
+>[!NOTE]
+>
+>La configuration via Legacy OAuth n’est plus prise en charge depuis le 6 avril 2020 et est remplacée par la configuration via Adobe Developer Console.
+
 
 
 >[!TIP]
 >
 >***Pour les clients existants uniquement***
 >
->Il est recommandé de continuer à utiliser la configuration de la passerelle OAuth héritée. Si vous rencontrez des problèmes avec la configuration de la passerelle OAuth héritée, supprimez la configuration existante et créez une configuration via Adobe I/O.
+>La configuration de passerelle OAuth héritée continuera à fonctionner pour les clients existants.
+>
+>Si vous rencontrez des problèmes avec la configuration héritée de la passerelle OAuth, supprimez la configuration existante et créez une nouvelle configuration via Adobe Developer Console.
 
 
 Pour plus d’informations, voir [Configuration d’AEM Assets avec Brand Portal](configure-aem-assets-with-brand-portal.md).
@@ -83,7 +115,7 @@ Cette version comprend des correctifs pour les problèmes critiques suivants :
 
 Cette version présente les problèmes connus suivants :
 
-* Les utilisateurs de Brand Portal ne peuvent pas publier les ressources du dossier de contribution dans AEM Assets après mise à niveau vers Adobe I/O sur AEM 6.5.4.
+* Les utilisateurs du portail de marque ne peuvent pas publier les ressources du dossier de contributions dans AEM Assets lors de la mise à niveau vers Adobe Developer Console sur AEM 6.5.4.
 
    Ce problème sera corrigé dans le prochain Service Pack 6.5.5.
 
