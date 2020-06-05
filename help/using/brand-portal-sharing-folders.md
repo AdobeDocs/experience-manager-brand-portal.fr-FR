@@ -8,11 +8,11 @@ content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
-translation-type: ht
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 7b15757b92d5a9ed5f0d49f2e1d102a77619ce49
+workflow-type: tm+mt
 source-wordcount: '1154'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -49,6 +49,7 @@ Si l’option **[!UICONTROL Publication de dossier public]** est désactivée, l
 >
 >L’option **[!UICONTROL Publication de dossier public]** est disponible à compter d’AEM 6.3.2.1.
 
+
 ## Accès aux dossiers partagés {#access-to-shared-folders}
 
 Le tableau suivant indique les droits d’accès et les droits de partage/d’annulation du partage des ressources pour différents rôles utilisateur :
@@ -60,7 +61,10 @@ Le tableau suivant indique les droits d’accès et les droits de partage/d’an
 | Observateur | Non* | Oui, uniquement si les dossiers sont partagés avec eux ou avec le groupe auquel ils appartiennent. | Non |
 | Utilisateur invité | Non* | Oui, uniquement si les dossiers sont partagés avec eux ou avec le groupe auquel ils appartiennent. | Non |
 
-**Par défaut, l’option **[!UICONTROL Publication de dossier public]** est désactivée lors de la configuration de la réplication de Brand Portal avec un auteur AEM. Si l’option est activée, les dossiers publiés sur Brand Portal sont accessibles à tous les utilisateurs (également aux utilisateurs non administrateurs) par défaut.*
+>[!NOTE]
+>
+>By default, the **[!UICONTROL Public Folder Publish]** option is disabled while configuring replication of Brand Portal with AEM Author. Si l’option est activée, les dossiers publiés sur Brand Portal sont accessibles à tous les utilisateurs (également aux utilisateurs non administrateurs) par défaut.
+
 
 ### Accès des utilisateurs non-administrateurs aux dossiers partagés     {#non-admin-user-access-to-shared-folders}
 
