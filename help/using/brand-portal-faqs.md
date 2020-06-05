@@ -9,29 +9,31 @@ contentOwner: Vishabh Gupta
 topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: 9169407bbbfabd94be31c89c028be64e55afc064
-workflow-type: ht
-source-wordcount: '1222'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 0278d17cc774338b456d9c3881953f2e34ca7126
+workflow-type: tm+mt
+source-wordcount: '1250'
+ht-degree: 92%
 
 ---
 
 
 # Questions fréquentes {#frequently-asked-questions}
 
-Les FAQ Brand Portal sont axées sur les questions et problèmes que les utilisateurs finaux peuvent avoir durant l’utilisation de la dernière version d’AEM Assets Brand Portal : la version 6.4.5 (ou antérieure).
+Les FAQ Brand Portal sont axées sur les questions et problèmes que les utilisateurs finaux peuvent avoir durant l’utilisation de la dernière version d’AEM Assets Brand Portal : la version 6.4.6 (ou antérieure).
 
 
 ## FAQ de Brand Portal 6.4.6 {#faqs-bp646}
 
 **Question Le point d’entrée OAuth hérité existant (`https://legacy-oauth.cloud.adobe.io/login`) ne fonctionne pas. Quelle pourrait en être la raison ?**
 
-**Réponse** La configuration OAuth héritée est obsolète. Vous devez mettre à niveau les instances d’auteur AEM Assets vers le dernier Service Pack et les configurer à l’aide d’Adobe I/O. Voir [Configuration d’AEM Assets avec Brand Portal](configure-aem-assets-with-brand-portal.md) pour plus de détails. Toutefois, pour que la configuration OAuth héritée fonctionne jusqu’à la mise à niveau, mettez à jour le point d’entrée OAuth hérité vers `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
+**Réponse** La configuration OAuth héritée est obsolète. Vous devez mettre à niveau les instances d’auteur AEM Assets vers le Service Pack le plus récent et le configurer via Adobe Developer Console. Voir [Configuration d’AEM Assets avec Brand Portal](configure-aem-assets-with-brand-portal.md) pour plus de détails. Toutefois, pour que la configuration OAuth héritée fonctionne jusqu’à la mise à niveau, mettez à jour le point d’entrée OAuth hérité vers `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
 
-**Question Je ne suis pas en mesure de publier les ressources du dossier de contribution depuis Brand Portal vers AEM Assets après la mise à niveau vers Adobe I/O. Mon instance d’auteur est exécutée sur AEM 6.5.4. Quelle pourrait en être la raison ?**
+**Question Je ne suis pas en mesure de publier les actifs du dossier de contributions depuis le portail de marque vers AEM Assets après la mise à niveau vers Adobe Developer Console. Mon instance d’auteur se trouve sur AEM 6.5.4. Quelle est la raison possible ?**
 
-**Réponse** Oui, il existe un problème connu lors de la publication des ressources du dossier de contribution vers AEM Assets sur AEM 6.5.4 avec Adobe I/O. Ce problème sera corrigé dans le prochain Service Pack.
+**Réponse** Oui, un problème connu se produit lors de la publication des ressources du dossier de contribution dans AEM Assets sur AEM 6.5.4 via Adobe Developer Console.
+
+Ce problème a été corrigé dans AEM 6.5.5. Vous pouvez mettre à niveau votre instance AEM Assets vers le Service Pack le plus récent AEM 6.5.5 et [mettre à niveau vos configurations](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) sur Adobe Developer Console.
 
 Pour une solution immédiate sur AEM 6.5.4, il est recommandé de [télécharger le correctif](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) et de l’installer sur votre instance d’auteur AEM.
 
@@ -109,6 +111,7 @@ Ces utilisateurs accèdent au dossier **Contribution** et téléchargent le cont
 >[!NOTE]
 >
 >Si vous n’utilisez pas Brand Portal, demandez à l’administrateur AEM de vous créer un profil d’utilisateur dans la console d’administration AEM et de l’ajouter au fichier de configuration d’utilisateur de la liste d’utilisateurs Brand Portal. Voir [Ajout d’un utilisateur Brand Portal](brand-portal-configure-asset-sourcing.md).
+
 
 
 
