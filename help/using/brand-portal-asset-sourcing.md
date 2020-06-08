@@ -19,10 +19,10 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 translation-type: tm+mt
-source-git-commit: 465b80ada85284ab0379e4a5922def32fffbfeb2
+source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 88%
+source-wordcount: '470'
+ht-degree: 84%
 
 ---
 
@@ -39,7 +39,7 @@ En outre, toutes les fonctionnalités existantes restent inchangées. Les utilis
 >
 >L’approvisionnement des ressources dans Brand Portal est pris en charge dans AEM 6.5.2.0 et versions ultérieures.
 >
->Cette fonctionnalité n’est pas prise en charge dans les versions antérieures : AEM 6.3 et AEM 6.4.
+>Cette fonctionnalité n’est pas prise en charge sur le service cloud AEM Assets et les versions antérieures - AEM 6.3 et AEM 6.4.
 >
 >Contactez l’assistance Adobe pour mettre à niveau votre instance d’AEM vers la dernière version d’AEM prise en charge.
 
