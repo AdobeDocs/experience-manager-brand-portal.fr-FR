@@ -9,11 +9,11 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
-workflow-type: ht
-source-wordcount: '245'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+workflow-type: tm+mt
+source-wordcount: '246'
+ht-degree: 94%
 
 ---
 
@@ -25,8 +25,7 @@ Les administrateurs AEM et les non-administrateurs autorisés à créer un dossi
 Pour créer un dossier **Contribution**, créez un dossier de type **Contribution des ressources**, en vous assurant qu’il accepte l’envoi de ressources de la part des utilisateurs de Brand Portal.  Cela déclenche automatiquement un workflow qui crée deux sous-dossiers supplémentaires, appelés **SHARED** et **NEW**, dans le dossier **Contribution** nouvellement créé. 
 
 **Pour créer un dossier de contribution, procédez comme suit :**
-1. Connectez-vous à votre instance d’auteur AEM
-URL par défaut : http:// localhost:4502/aem/start.html
+1. Connectez-vous à votre instance d’auteur AEMURL par défaut : http:// localhost:4502/aem/start.html
 1. Accédez à **[!UICONTROL Ressources > Fichiers]**. Tous les dossiers existants dans le référentiel AEM Assets sont répertoriés.
 1. Cliquez sur **[!UICONTROL Créer]** pour créer un dossier. La fenêtre contextuelle Créer un dossier s’ouvre.
 1. Saisissez le **[!UICONTROL Titre]** et le **[!UICONTROL Nom]** du dossier et cochez la case **[!UICONTROL Contribution des ressources]**.
