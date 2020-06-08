@@ -9,8 +9,11 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
+translation-type: tm+mt
+source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+workflow-type: tm+mt
+source-wordcount: '228'
+ht-degree: 96%
 
 ---
 
@@ -29,7 +32,7 @@ Ils peuvent alors créer des ressources à des fins de contribution et les charg
 
 **Pour charger de nouvelles ressources, procédez comme suit :**
 
-1. Connectez-vous à votre instance de Brand Portal.
+1. Connectez-vous à votre instance du portail de marques.
 Le tableau de bord de Brand Portal répertorie tous les dossiers existants auxquels l’utilisateur de Brand Portal est autorisé à accéder, ainsi que le dossier de contribution nouvellement partagé. 
 1. Cliquez pour ouvrir le dossier de contribution. Vous pouvez voir deux sous-dossiers, **[!UICONTROL SHARED]** et **[!UICONTROL NEW]**, à l’intérieur.
 1. Cliquez sur le dossier **[!UICONTROL NEW]**.
