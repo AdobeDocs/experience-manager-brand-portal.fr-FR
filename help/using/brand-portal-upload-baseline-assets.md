@@ -9,8 +9,11 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
+translation-type: tm+mt
+source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+workflow-type: tm+mt
+source-wordcount: '187'
+ht-degree: 100%
 
 ---
 
@@ -21,7 +24,7 @@ L’administrateur d’AEM charge des ressources de base dans le dossier **SHARE
 
 **Pour charger des ressources de base, procédez comme suit :**
 
-1. Connectez-vous à votre instance d’auteur AEM.
+1. Connectez-vous à votre instance d’auteur AEM 
 URL par défaut : http:// localhost:4502/aem/start.html
 1. Accédez à **[!UICONTROL Ressources > Fichiers]** et localisez le dossier de contribution dans lequel vous souhaitez charger les ressources de base.
 1. Cliquez pour ouvrir le dossier de contribution. Vous pouvez voir deux sous-dossiers, **[!UICONTROL SHARED]** et **[!UICONTROL NEW]**, à l’intérieur.
