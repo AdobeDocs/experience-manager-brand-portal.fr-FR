@@ -9,8 +9,11 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
+translation-type: tm+mt
+source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+workflow-type: tm+mt
+source-wordcount: '359'
+ht-degree: 98%
 
 ---
 
@@ -28,7 +31,7 @@ Le tableau de bord de Brand Portal répertorie tous les dossiers existants auxq
 
 **Pour télécharger les exigences en matière de ressources, procédez comme suit :**
 
-1. Connectez-vous à votre instance de Brand Portal.
+1. Connectez-vous à votre instance du portail de marques.
 1. Sélectionnez le dossier de contribution dans le tableau de bord de Brand Portal.
 1. Cliquez sur **[!UICONTROL Propriétés]** ![](assets/properties.png). La fenêtre Propriété s’affiche. Elle contient les détails du dossier Contribution des ressources.
    ![](assets/download-asset-requirement1.png)
