@@ -10,10 +10,10 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 0278d17cc774338b456d9c3881953f2e34ca7126
+source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
 workflow-type: tm+mt
-source-wordcount: '1250'
-ht-degree: 92%
+source-wordcount: '1418'
+ht-degree: 81%
 
 ---
 
@@ -36,6 +36,25 @@ Les FAQ Brand Portal sont axées sur les questions et problèmes que les utilis
 Ce problème a été corrigé dans AEM 6.5.5. Vous pouvez mettre à niveau votre instance AEM Assets vers le Service Pack le plus récent AEM 6.5.5 et [mettre à niveau vos configurations](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) sur Adobe Developer Console.
 
 Pour une solution immédiate sur AEM 6.5.4, il est recommandé de [télécharger le correctif](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) et de l’installer sur votre instance d’auteur AEM.
+
+**Question Je souhaite activer la fonction d’origine des ressources sur mon instance cloud AEM Assets. Comment puis-je le configurer ?**
+
+**Réponse** Non, la fonction d’origine des ressources n’est actuellement pas prise en charge sur le service cloud AEM Assets.
+
+Restez connecté et regardez les notes de mise à jour pour les notifications sur la disponibilité des fonctionnalités dans les prochaines versions.
+
+**Question Je ne parviens pas à publier les ressources d’AEM Assets sur le portail de marque et le journal de l’agent de réplication lance une exception`java.net.SocketException: Connection timed out`. Y a-t-il une solution rapide ?**
+
+**Réponse** S&#39;il existe un nombre de requêtes en attente dans la file d&#39;attente de réplication, il est possible que l&#39;agent de réplication ne traite pas la demande de publication d&#39;une ressource et lance une exception : `java.net.SocketException: Connection timed out`.
+
+Effectuez les étapes suivantes pour résoudre le problème :
+
+1. Ouvrez l&#39;agent de réplication et cliquez sur **[!UICONTROL Modifier]** pour modifier les paramètres de l&#39;agent de réplication.
+1. Dans Paramètres de l&#39;agent, cliquez sur l&#39;onglet **[!UICONTROL Étendu]**.
+1. Cochez la case **[!UICONTROL Fermer la connexion]**.
+1. Redémarrez le lot de réplication (serveur).
+
+Activez les paramètres sur les quatre agents de réplication pour éviter tout problème avec l&#39;agent de réplication.
 
 
 ## FAQ de Brand Portal 6.4.5 {#faqs-bp645}
