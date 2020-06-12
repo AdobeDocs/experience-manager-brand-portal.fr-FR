@@ -10,10 +10,10 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: e80afb22e5c3333efdd3cf4490a26f1c72f8aa86
+source-git-commit: c15ad97fd0e1151c868f9d0fd21f281a09581277
 workflow-type: tm+mt
-source-wordcount: '1517'
-ht-degree: 83%
+source-wordcount: '1521'
+ht-degree: 82%
 
 ---
 
@@ -37,7 +37,6 @@ Ce problème a été corrigé dans AEM 6.5.5. Vous pouvez mettre à niveau votr
 
 Pour une solution immédiate sur AEM 6.5.4, il est recommandé de [télécharger le correctif](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) et de l’installer sur votre instance d’auteur AEM.
 
-
 **Question Je ne vois pas le contenu du dossier de contributions publié à partir du portail de marque dans les ressources AEM. Quelle pourrait en être la raison ?**
 
 **Réponse** Contactez votre administrateur AEM Assets pour vérifier les configurations et vous assurer que votre client du portail de marque est configuré avec une seule instance d’auteur AEM Assets.
@@ -58,7 +57,7 @@ Effectuez les étapes suivantes pour configurer l&#39;agent de réplication :
 1. Dans Paramètres de l’agent, cliquez sur l’onglet **[!UICONTROL Étendu]** .
 1. Cochez la case **[!UICONTROL Fermer la connexion]** .
 1. Répétez les étapes 4 à 7 pour configurer les quatre agents de réplication.
-1. Redémarrez le serveur.
+1. Redémarrez le serveur et vérifiez la connexion.
 
 
 ## FAQ de Brand Portal 6.4.5 {#faqs-bp645}
