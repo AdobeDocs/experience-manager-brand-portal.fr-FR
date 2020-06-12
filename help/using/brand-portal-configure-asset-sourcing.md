@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+source-git-commit: c3672d2f8b22a6b430d94b8c300551451231b2bf
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 91%
+source-wordcount: '408'
+ht-degree: 85%
 
 ---
 
@@ -25,6 +25,11 @@ Les administrateurs AEM peuvent configurer **l’approvisionnement des ressource
 >[!NOTE]
 >
 >Veillez à configurer l’instance d’AEM Assets à Brand Portal avant de commencer la configuration. Voir [Configuration d’AEM Assets avec Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+>
+>Un client du portail de marques doit uniquement être configuré avec une seule instance d’auteur AEM Assets.
+>
+>Ne configurez pas un client du portail de marques avec plusieurs instances d’auteur AEM Assets.
+
 
 
 La vidéo suivante explique comment configurer l’approvisionnement des ressources sur l’instance d’auteur AEM :
