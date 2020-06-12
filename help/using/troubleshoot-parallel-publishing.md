@@ -8,8 +8,11 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
-translation-type: ht
-source-git-commit: 5b16a4073592896264237f00554e361ed8929383
+translation-type: tm+mt
+source-git-commit: 2b5d2fabc666a1d98af29c859f22a6d02bce3784
+workflow-type: tm+mt
+source-wordcount: '914'
+ht-degree: 83%
 
 ---
 
@@ -64,7 +67,8 @@ Si la publication échoue, cela est généralement dû au fait que l’utilisate
 
 1. Accédez à `localhost:4502/crx/de/` (à condition que vous exécutiez l’instance d’auteur sur localhost:4502) :\
    i. Supprimez `/etc/replication/agents.author/mp_replication`
-ii. Supprimez `/etc/cloudservices/mediaportal/<config_name>`
+ii. delete 
+`/etc/cloudservices/mediaportal/<config_name>`
 
 1. Accédez à localhost:4502/useradmin :\
    i. Recherchez l’utilisateur `mac-<tenantid>replication`
@@ -112,3 +116,21 @@ Si un agent de réplication (qui publiait correctement sur Brand Portal) cesse 
 En revanche, en cas d’échecs de publication continus et si la file d’attente est bloquée, vous devez cocher la case **[!UICONTROL Tester la connexion]** et essayer de résoudre les erreurs qui sont signalées.
 
 En fonction des erreurs, nous vous conseillons de soumettre un ticket d’assistance, de sorte que l’équipe d’ingénieurs de Brand Portal puisse vous aider à résoudre les problèmes.
+
+
+## Configurer les agents de réplication pour éviter l&#39;erreur de délai d&#39;attente de connexion {#connection-timeout}
+
+**Problème**: Je ne parviens pas à publier les ressources d’AEM Assets sur le portail de marques. Le journal de réplication indique que la connexion a expiré.
+
+**Résolution**: En règle générale, la publication échoue avec une erreur de délai d’expiration si plusieurs requêtes en attente se trouvent dans la file d’attente de réplication. Pour résoudre ce problème, assurez-vous que les agents de réplication sont configurés pour éviter le délai d’attente.
+
+Effectuez les étapes suivantes pour configurer l&#39;agent de réplication :
+1. Connectez-vous à votre instance d’auteur AEM Assets.
+1. From the **Tools** panel, navigate to **[!UICONTROL Deployment]** > **[!UICONTROL Replication]**.
+1. In the Replication page, click **[!UICONTROL Agents on author]**. Vous pouvez voir les quatre agents de réplication pour votre locataire du portail de marque.
+1. Cliquez sur l&#39;URL de l&#39;agent de réplication pour ouvrir les détails de l&#39;agent.
+1. Cliquez sur **[!UICONTROL Modifier]** pour modifier les paramètres de l&#39;agent de réplication.
+1. Dans Paramètres de l’agent, cliquez sur l’onglet **[!UICONTROL Étendu]** .
+1. Cochez la case **[!UICONTROL Fermer la connexion]** .
+1. Répétez les étapes 4 à 7 pour configurer les quatre agents de réplication.
+1. Redémarrez le serveur.
