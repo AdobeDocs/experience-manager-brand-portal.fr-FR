@@ -10,10 +10,10 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 21ead6dac38429a5b427f4c92150c4bee47efc76
+source-git-commit: e80afb22e5c3333efdd3cf4490a26f1c72f8aa86
 workflow-type: tm+mt
-source-wordcount: '1418'
-ht-degree: 88%
+source-wordcount: '1517'
+ht-degree: 83%
 
 ---
 
@@ -37,24 +37,28 @@ Ce problème a été corrigé dans AEM 6.5.5. Vous pouvez mettre à niveau votr
 
 Pour une solution immédiate sur AEM 6.5.4, il est recommandé de [télécharger le correctif](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) et de l’installer sur votre instance d’auteur AEM.
 
-**Question Je souhaite activer la fonction d’origine des ressources sur mon instance cloud AEM Assets. Comment puis-je le configurer ?**
 
-**Réponse** Non, la fonction d’origine des ressources n’est actuellement pas prise en charge sur le service cloud AEM Assets.
+**Question Je ne vois pas le contenu du dossier de contributions publié à partir du portail de marque dans les ressources AEM. Quelle pourrait en être la raison ?**
 
-Restez connecté et regardez les notes de mise à jour pour les notifications sur la disponibilité des fonctionnalités dans les prochaines versions.
+**Réponse** Contactez votre administrateur AEM Assets pour vérifier les configurations et vous assurer que votre client du portail de marque est configuré avec une seule instance d’auteur AEM Assets.
 
-**Question Je ne parviens pas à publier les ressources d’AEM Assets sur le portail de marque et le journal de l’agent de réplication lance une exception`java.net.SocketException: Connection timed out`. Y a-t-il une solution rapide ?**
+Ce problème peut se produire lorsque vous avez configuré un client du portail de marques sur plusieurs instances d’auteur AEM Assets. Par exemple, l’administrateur configure le même client Brand Portal sur l’instance d’auteur AEM Assets de l’environnement d’évaluation et de production. Dans ce cas, les déclencheurs de publication d’actifs dans le portail de marques, mais l’instance d’auteur AEM Assets n’a pas pu importer l’actif car l’agent de réplication ne reçoit pas le jeton de demande.
 
-**Réponse** S&#39;il existe un nombre de requêtes en attente dans la file d&#39;attente de réplication, il est possible que l&#39;agent de réplication ne traite pas la demande de publication d&#39;une ressource et lance une exception : `java.net.SocketException: Connection timed out`.
 
-Effectuez les étapes suivantes pour résoudre le problème :
+**Question Je ne parviens pas à publier les ressources d’AEM Assets sur le portail de marques. Le journal de réplication indique que la connexion a expiré. Y a-t-il une solution rapide ?**
 
-1. Ouvrez l&#39;agent de réplication et cliquez sur **[!UICONTROL Modifier]** pour modifier les paramètres de l&#39;agent de réplication.
-1. Dans Paramètres de l&#39;agent, cliquez sur l&#39;onglet **[!UICONTROL Étendu]**.
-1. Cochez la case **[!UICONTROL Fermer la connexion]**.
-1. Redémarrez le lot de réplication (serveur).
+**Réponse** En règle générale, la publication échoue avec une erreur de délai d’expiration si plusieurs requêtes en attente se trouvent dans la file d’attente de réplication. Pour résoudre ce problème, assurez-vous que les agents de réplication sont configurés pour éviter le délai d’attente.
 
-Activez les paramètres sur les quatre agents de réplication pour éviter tout problème avec l&#39;agent de réplication.
+Effectuez les étapes suivantes pour configurer l&#39;agent de réplication :
+1. Connectez-vous à votre instance d’auteur AEM Assets.
+1. From the **Tools** panel, navigate to **[!UICONTROL Deployment]** > **[!UICONTROL Replication]**.
+1. In the Replication page, click **[!UICONTROL Agents on author]**. Vous pouvez voir les quatre agents de réplication pour votre locataire du portail de marque.
+1. Cliquez sur l&#39;URL de l&#39;agent de réplication pour ouvrir les détails de l&#39;agent.
+1. Cliquez sur **[!UICONTROL Modifier]** pour modifier les paramètres de l&#39;agent de réplication.
+1. Dans Paramètres de l’agent, cliquez sur l’onglet **[!UICONTROL Étendu]** .
+1. Cochez la case **[!UICONTROL Fermer la connexion]** .
+1. Répétez les étapes 4 à 7 pour configurer les quatre agents de réplication.
+1. Redémarrez le serveur.
 
 
 ## FAQ de Brand Portal 6.4.5 {#faqs-bp645}
