@@ -19,10 +19,10 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 translation-type: tm+mt
-source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+source-git-commit: fe8f872bdd07fd46778a485dafaa7ba3d1b74950
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 96%
+source-wordcount: '453'
+ht-degree: 94%
 
 ---
 
@@ -33,16 +33,18 @@ L’**approvisionnement des ressources** permet aux utilisateurs d’AEM (admini
 
 En outre, toutes les fonctionnalités existantes restent inchangées. Les utilisateurs de Brand Portal peuvent afficher, rechercher et télécharger des ressources à partir du dossier de contribution, ainsi que des autres dossiers autorisés. Quant aux administrateurs, ils peuvent partager le dossier de contribution de manière plus avancée, modifier les propriétés et ajouter des ressources aux collections.
 
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
+## Conditions préalables {#prerequisites}
+
+* AEM 6.5.2 ou version ultérieure.
+* Vérifiez que votre instance d’AEM Assets est configurée avec Brand Portal. Voir [Configuration d’AEM Assets avec Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+* Assurez-vous que votre client du portail de marque est configuré avec une instance d’auteur AEM Assets.
 
 >[!NOTE]
 >
->L’approvisionnement des ressources dans Brand Portal est pris en charge dans AEM 6.5.2.0 et versions ultérieures.
->
->Cette fonctionnalité n’est pas prise en charge sur le service cloud AEM Assets et les versions antérieures - AEM 6.3 et AEM 6.4.
->
->Contactez l’assistance Adobe pour mettre à niveau votre instance d’AEM vers la dernière version d’AEM prise en charge.
+>L’approvisionnement en ressources n’est pas pris en charge par le service cloud AEM Assets.
 
+
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
 ![Approvisionnement des ressources dans Brand Portal](assets/asset-sourcing.png)
 
@@ -55,11 +57,6 @@ En outre, toutes les fonctionnalités existantes restent inchangées. Les utilis
 >
 >Pour une solution immédiate sur AEM 6.5.4, il est recommandé de [télécharger le correctif](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) et de l’installer sur votre instance d’auteur.
 
-
-## Conditions préalables {#prerequisites}
-
-* AEM 6.5.0.2 ou version ultérieure.
-* Vérifiez que votre instance d’AEM Assets est configurée avec Brand Portal. Voir [Configuration d’AEM Assets avec Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 ## Voir également {#reference-articles}
 
