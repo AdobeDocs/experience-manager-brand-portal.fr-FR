@@ -10,10 +10,10 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+source-git-commit: aefffb21b277d93fab2754dae407de7602f614c7
 workflow-type: tm+mt
-source-wordcount: '1418'
-ht-degree: 88%
+source-wordcount: '1536'
+ht-degree: 82%
 
 ---
 
@@ -25,9 +25,12 @@ Les FAQ Brand Portal sont axées sur les questions et problèmes que les utilis
 
 ## FAQ de Brand Portal 6.4.6 {#faqs-bp646}
 
+
+
 **Question Le point d’entrée OAuth hérité existant (`https://legacy-oauth.cloud.adobe.io/login`) ne fonctionne pas. Quelle pourrait en être la raison ?**
 
 **Réponse** La configuration OAuth héritée est obsolète. Vous devez mettre à niveau les instances d’auteur AEM Assets vers le dernier Service Pack et les configurer à l’aide d’Adobe Developer Console. Voir [Configuration d’AEM Assets avec Brand Portal](configure-aem-assets-with-brand-portal.md) pour plus de détails. Toutefois, pour que la configuration OAuth héritée fonctionne jusqu’à la mise à niveau, mettez à jour le point d’entrée OAuth hérité vers `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
+
 
 **Question Je ne suis pas en mesure de publier les ressources du dossier de contribution depuis Brand Portal vers AEM Assets après la mise à niveau vers Adobe Developer Console. Mon instance d’auteur se trouve sur AEM 6.5.4. Quelle peut en être la raison ?**
 
@@ -37,11 +40,13 @@ Ce problème a été corrigé dans AEM 6.5.5. Vous pouvez mettre à niveau votr
 
 Pour une solution immédiate sur AEM 6.5.4, il est recommandé de [télécharger le correctif](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) et de l’installer sur votre instance d’auteur AEM.
 
+
 **Question Je souhaite activer la fonction d’origine des ressources sur mon instance cloud AEM Assets. Comment puis-je le configurer ?**
 
 **Réponse** Non, la fonction d’origine des ressources n’est actuellement pas prise en charge sur le service cloud AEM Assets.
 
 Restez connecté et regardez les notes de mise à jour pour les notifications sur la disponibilité des fonctionnalités dans les prochaines versions.
+
 
 **Question Je ne parviens pas à publier les ressources d’AEM Assets sur le portail de marque et le journal de l’agent de réplication lance une exception`java.net.SocketException: Connection timed out`. Y a-t-il une solution rapide ?**
 
@@ -56,6 +61,12 @@ Effectuez les étapes suivantes pour résoudre le problème :
 
 Activez les paramètres sur les quatre agents de réplication pour éviter tout problème avec l&#39;agent de réplication.
 
+
+**Question Je ne vois pas le contenu du dossier de contributions publié à partir du portail de marque dans les ressources AEM. Quelle pourrait en être la raison ?**
+
+**Réponse** Contactez votre administrateur AEM Assets pour vérifier les configurations et vous assurer que votre client du portail de marque est configuré avec une seule instance d’auteur AEM Assets.
+
+Ce problème peut se produire lorsque vous avez configuré un client du portail de marques sur plusieurs instances d’auteur AEM Assets. Par exemple, l’administrateur configure le même client Brand Portal sur l’instance d’auteur AEM Assets de l’environnement d’évaluation et de production. Dans ce cas, les déclencheurs de publication d’actifs dans le portail de marques, mais l’instance d’auteur AEM Assets n’a pas pu importer l’actif car l’agent de réplication ne reçoit pas le jeton de demande.
 
 ## FAQ de Brand Portal 6.4.5 {#faqs-bp645}
 
