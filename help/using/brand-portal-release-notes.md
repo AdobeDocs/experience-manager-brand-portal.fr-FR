@@ -1,33 +1,33 @@
 ---
 title: Notes de mise à jour
 seo-title: Notes de mise à jour
-description: Découvrez les fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 6.4.6.2.
-seo-description: Découvrez les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 6.4.6.2.
+description: Découvrez les fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 6.4.6.2.
+seo-description: Découvrez les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 6.4.6.2.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9413aa609b5c0d66c9d23ddf9dcd9d28ec4da798
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '789'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
 
 # Notes de mise à jour {#release-notes}
 
-Découvrez les fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 6.4.6.2.
+Découvrez les fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 6.4.6.2.
 
 ## Informations sur la version {#release-information}
 
 | Produit | Adobe Experience Manager Assets Brand Portal |
 |---|---|
 | Version | 6.4.6.2 |
-| Date  | Juin 2020 |
+| Date | juin 2020 |
 
 ## Présentation {#overview}
 
@@ -39,17 +39,17 @@ Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de con
 
 Cette version comprend des correctifs pour les problèmes critiques suivants :
 
-* La suppression d’un schéma de métadonnées publié du portail de marques entraîne une erreur.
+* La suppression d’un schéma de métadonnées publié de Brand Portal entraîne une erreur.
 
-* Si l’administrateur configure Experience Manager Assets 6.5.4 avec Brand Portal via Adobe Developer Console, l’utilisateur du portail des marques ne peut pas publier les ressources du dossier de contributions de Brand Portal vers Experience Manager.
+* Si l’administrateur configure Experience Manager Assets 6.5.4 avec Brand Portal via Adobe Developer Console, l’utilisateur de Brand Portal ne peut pas publier les ressources du dossier de contribution de Brand Portal vers Experience Manager.
 
-* Réplication Duplicata des dossiers parents provoquant des conflits.
+* La duplication de réplication des dossiers parents provoque des conflits.
 
-* L&#39;utilisateur ne peut pas générer de rapport de partage de liens.
+* L’utilisateur ne peut pas générer de rapport de partage des liens.
 
-* L’utilisateur peut copier des secrets MAC pour un point de terminaison du portail de marque à l’aide de la commande copyPage.
+* L’utilisateur peut copier des secrets MAC pour un point d’entrée Brand Portal à l’aide de la commande copyPage.
 
-* cqTags provoquant la réindexation sur le clone VA5.
+* Réindexation provoquée par les cqTags sur le clone VA5.
 
 
 ### Problèmes connus {#known-issues-6462}
@@ -74,11 +74,11 @@ Pour plus d’informations, voir [Configuration d’AEM Assets Cloud Service av
 
 Cette version de Brand Portal comprend les améliorations suivantes :
 
-* Dans AEM 6.3 et versions ultérieures, le canal d’autorisation entre AEM Assets et Brand Portal a été modifié. AEM Assets est désormais configuré avec Brand Portal via Adobe Developer Console, qui fournit un jeton IMS pour l’autorisation de votre client du portail de marques.
+* Dans AEM 6.3 et versions ultérieures, le canal d’autorisation entre AEM Assets et Brand Portal a été modifié. AEM Assets est désormais configuré avec Brand Portal via Adobe Developer Console, qui fournit un jeton IMS pour autoriser votre client Brand Portal.
 
 >[!NOTE]
 >
->La configuration via Legacy OAuth n’est plus prise en charge depuis le 6 avril 2020 et est remplacée par la configuration via Adobe Developer Console.
+>La configuration via application OAuth héritée n’est plus prise en charge à partir du 6 avril 2020 et est remplacée par la configuration via Adobe Developer Console.
 
 
 
@@ -88,7 +88,7 @@ Cette version de Brand Portal comprend les améliorations suivantes :
 >
 >La configuration de passerelle OAuth héritée continuera à fonctionner pour les clients existants.
 >
->Si vous rencontrez des problèmes avec la configuration héritée de la passerelle OAuth, supprimez la configuration existante et créez une nouvelle configuration via Adobe Developer Console.
+>Si vous rencontrez des problèmes avec la configuration héritée de la passerelle OAuth, supprimez la configuration existante et créez une configuration via Adobe Developer Console.
 
 
 Pour plus d’informations, voir [Configuration d’AEM Assets avec Brand Portal](configure-aem-assets-with-brand-portal.md).
@@ -115,7 +115,7 @@ Cette version comprend des correctifs pour les problèmes critiques suivants :
 
 Cette version présente les problèmes connus suivants :
 
-* Les utilisateurs du portail de marque ne peuvent pas publier les ressources du dossier de contributions dans AEM Assets lors de la mise à niveau vers Adobe Developer Console sur AEM 6.5.4.
+* Les utilisateurs de Brand Portal ne peuvent pas publier les ressources du dossier de contribution dans AEM Assets après mise à niveau vers Adobe Developer Console sur AEM 6.5.4.
 
    Ce problème sera corrigé dans le prochain Service Pack 6.5.5.
 
@@ -133,12 +133,12 @@ L’interface utilisateur de Brand Portal est disponible dans les langues suiva
 * Français
 * Espagnol
 * Italien
-* Brésilien      Portugais
+* Brésilien       Portugais
 * Japonais
 * Chinois simplifié
 * Coréen
 
-## Plates-formes certifiées      {#certified-platforms}
+## Plates-formes certifiées       {#certified-platforms}
 
 Pour vérifier quelles sont les plates-formes certifiées pour exécuter cette version de Brand Portal, reportez-vous à la colonne **Prise en charge de l’interface utilisateur optimisée pour les écrans tactiles** du tableau **Navigateurs pris en charge pour l’interface utilisateur de création** dans la section [Exigences techniques](https://helpx.adobe.com/fr/experience-manager/6-4/sites/deploying/using/technical-requirements.html).
 
