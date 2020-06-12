@@ -5,9 +5,9 @@ sub-product: experience manager brand portal
 audience: end-user
 user-guide-title: AEM Brand Portal
 translation-type: tm+mt
-source-git-commit: 5a5abee164459085746aa2084eb3884fab6d35ee
+source-git-commit: 21ead6dac38429a5b427f4c92150c4bee47efc76
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '284'
 ht-degree: 100%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 100%
    + [Questions fréquentes](using/brand-portal-faqs.md)
    + [Formats de fichiers pris en charge](using/brand-portal-supported-formats.md)
    + [Accès des invités à Brand Portal](using/guest-access.md)
-   + [Présentation de Brand Portal avec AEM Assets](https://docs.adobe.com/content/help/fr-FR/experience-manager-brand-portal/using/home.html)
+   + [Présentation de Brand Portal avec AEM Assets](https://helpx.adobe.com/fr/experience-manager/kt/assets/using/brand-portal-article-understand.html)
    + [Exploration des ressources sur Brand Portal](using/browse-assets-brand-portal.md)
 + Publication de ressources à partir d’AEM Assets sur Brand Portal {#publish}
    + [Configuration d’AEM Assets avec Brand Portal](using/configure-aem-assets-with-brand-portal.md)
