@@ -13,27 +13,27 @@ translation-type: tm+mt
 source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
 workflow-type: tm+mt
 source-wordcount: '1418'
-ht-degree: 81%
+ht-degree: 88%
 
 ---
 
 
 # Questions fréquentes {#frequently-asked-questions}
 
-Les FAQ Brand Portal sont axées sur les questions et problèmes que les utilisateurs finaux peuvent avoir durant l’utilisation de la dernière version d’AEM Assets Brand Portal : la version 6.4.6 (ou antérieure).
+Les FAQ Brand Portal sont axées sur les questions et problèmes que les utilisateurs finaux peuvent avoir durant l’utilisation de la dernière version d’AEM Assets Brand Portal (la version 6.4.6) ou les versions antérieures.
 
 
 ## FAQ de Brand Portal 6.4.6 {#faqs-bp646}
 
 **Question Le point d’entrée OAuth hérité existant (`https://legacy-oauth.cloud.adobe.io/login`) ne fonctionne pas. Quelle pourrait en être la raison ?**
 
-**Réponse** La configuration OAuth héritée est obsolète. Vous devez mettre à niveau les instances d’auteur AEM Assets vers le Service Pack le plus récent et le configurer via Adobe Developer Console. Voir [Configuration d’AEM Assets avec Brand Portal](configure-aem-assets-with-brand-portal.md) pour plus de détails. Toutefois, pour que la configuration OAuth héritée fonctionne jusqu’à la mise à niveau, mettez à jour le point d’entrée OAuth hérité vers `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
+**Réponse** La configuration OAuth héritée est obsolète. Vous devez mettre à niveau les instances d’auteur AEM Assets vers le dernier Service Pack et les configurer à l’aide d’Adobe Developer Console. Voir [Configuration d’AEM Assets avec Brand Portal](configure-aem-assets-with-brand-portal.md) pour plus de détails. Toutefois, pour que la configuration OAuth héritée fonctionne jusqu’à la mise à niveau, mettez à jour le point d’entrée OAuth hérité vers `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
 
-**Question Je ne suis pas en mesure de publier les actifs du dossier de contributions depuis le portail de marque vers AEM Assets après la mise à niveau vers Adobe Developer Console. Mon instance d’auteur se trouve sur AEM 6.5.4. Quelle est la raison possible ?**
+**Question Je ne suis pas en mesure de publier les ressources du dossier de contribution depuis Brand Portal vers AEM Assets après la mise à niveau vers Adobe Developer Console. Mon instance d’auteur se trouve sur AEM 6.5.4. Quelle peut en être la raison ?**
 
-**Réponse** Oui, un problème connu se produit lors de la publication des ressources du dossier de contribution dans AEM Assets sur AEM 6.5.4 via Adobe Developer Console.
+**Réponse** Oui, un problème connu se produit lors de la publication des ressources du dossier de contribution dans AEM Assets sur AEM 6.5.4 via Adobe Developer Console.
 
-Ce problème a été corrigé dans AEM 6.5.5. Vous pouvez mettre à niveau votre instance AEM Assets vers le Service Pack le plus récent AEM 6.5.5 et [mettre à niveau vos configurations](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) sur Adobe Developer Console.
+Ce problème a été corrigé dans AEM 6.5.5. Vous pouvez mettre à niveau votre instance AEM Assets vers le Service Pack le plus récent, AEM 6.5.5, et [mettre à niveau vos configurations](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) sur Adobe Developer Console.
 
 Pour une solution immédiate sur AEM 6.5.4, il est recommandé de [télécharger le correctif](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) et de l’installer sur votre instance d’auteur AEM.
 
