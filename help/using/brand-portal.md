@@ -8,11 +8,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0278d17cc774338b456d9c3881953f2e34ca7126
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1522'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,17 +26,17 @@ Il est toutefois difficile de développer des solutions qui permettent le partag
 **Adobe Experience Manager (AEM) Assets Brand Portal** est axé sur la nécessité pour le marketeur de collaborer efficacement avec les utilisateurs de Brand Portal répartis dans le monde entier, en offrant des fonctionnalités de distribution et de contribution aux ressources.
 
 La distribution des ressources permet d’acquérir, de contrôler et de distribuer facilement et en toute sécurité des ressources créatives destinées à des tiers externes et aux collaborateurs de l’entreprise sur différents appareils. La contribution aux ressources permet aux utilisateurs de Brand Portal de charger des ressources sur Brand Portal et de les publier sur AEM Assets, sans avoir à accéder à l’environnement de création. La fonction de contribution est appelée **Approvisionnement des ressources dans Brand Portal**. Ces deux fonctionnalités améliorent l’expérience globale en matière de distribution et de contribution aux ressources des utilisateurs de Brand Portal (agences/équipes externes), accélèrent le délai de mise sur le marché des ressources et réduisent le risque de non-conformité et d’accès non autorisé.
-Voir [Approvisionnement des ressources dans Brand Portal ](brand-portal-asset-sourcing.md)
+Voir [Approvisionnement des ressources dans Brand Portal](brand-portal-asset-sourcing.md).
 
 L’environnement de portail de type navigateur permet de télécharger, parcourir, rechercher, prévisualiser et exporter facilement des ressources dans des formats approuvés.
 
 ## Configuration d’AEM Assets avec Brand Portal {#configure-brand-portal}
 
-Les ressources Adobe Experience Manager (AEM) sont configurées avec le portail de marque via Adobe Developer Console, qui fournit un jeton IMS pour l’autorisation de votre client du portail de marque.
+Adobe Experience Manager (AEM) Assets est configuré avec Brand Portal via Adobe Developer Console, qui fournit un jeton IMS pour autoriser votre client Brand Portal.
 
 >[!NOTE]
 >
->La configuration d’AEM Assets avec Brand Portal via Adobe Developer Console est prise en charge sur le service cloud AEM Assets, AEM Assets 6.3 et versions ultérieures.
+>La configuration d’AEM Assets avec Brand Portal via Adobe Developer Console est prise en charge sur AEM Assets Cloud Service, AEM Assets 6.3 et versions ultérieures.
 
 
 ### Conditions préalables à la configuration d’AEM Assets avec Brand Portal {#prerequisites}
@@ -166,6 +166,7 @@ Pour demander l’accès, procédez comme suit :
    1. Si vous disposez d’un [!UICONTROL Adobe ID], d’un [!UICONTROL Enterprise ID] ou d’un [!UICONTROL Federated ID], cliquez sur **[!UICONTROL Se connecter]**.
 La page [!UICONTROL Se connecter] s’affiche.
    1. Saisissez votre [!UICONTROL Adobe ID], puis cliquez sur **[!UICONTROL Se connecter]**.<br />
+
    ![Connexion à Adobe](assets/bplogin_request_access_3.png)
 
    Vous êtes redirigé vers la page [!UICONTROL Demander l’accès].<br />
@@ -176,6 +177,7 @@ La page [!UICONTROL Se connecter] s’affiche.
 La page [!UICONTROL S’inscrire] s’affiche.
    1. Saisissez vos nom et prénom, e-mail et mot de passe.
    1. Sélectionnez **[!UICONTROL S’inscrire]**.<br />
+
    ![](assets/bplogin_request_access_5.png)
 
    Vous êtes redirigé vers la page [!UICONTROL Demander l’accès].
@@ -204,6 +206,7 @@ Vous pouvez modifier la langue de Brand Portal à partir des [!UICONTROL param�
 Pour modifier la langue :
 
 1. Sélectionnez [!UICONTROL Utilisateur] > [!UICONTROL Modifier le profil] dans le menu supérieur.<br />
+
    ![Modifier le profil](assets/EditBPProfile.png)
 
 1. Sur la page [!UICONTROL Paramètres Adobe Experience Cloud], sélectionnez une langue dans le menu déroulant [!UICONTROL Langue].
