@@ -3,8 +3,11 @@ title: Guide de l’utilisateur d’AEM Brand Portal
 seo-title: Guide de l’utilisateur d’AEM Brand Portal
 description: Guide de l’utilisateur d’AEM Brand Portal
 seo-description: Décrit comment utiliser Brand Portal
-translation-type: ht
-source-git-commit: 777fcc95908f9e31be0aeb4155c8a5f35169fa81
+translation-type: tm+mt
+source-git-commit: 5a5abee164459085746aa2084eb3884fab6d35ee
+workflow-type: tm+mt
+source-wordcount: '344'
+ht-degree: 100%
 
 ---
 
@@ -47,4 +50,4 @@ Ce guide de l’utilisateur présente des informations sur les offres Brand Por
 
 ### Ressources utiles
 
-* [Présentation de Brand Portal avec AEM Assets](https://helpx.adobe.com/fr/experience-manager/kt/assets/using/brand-portal-article-understand.html)
+* [Présentation de Brand Portal avec AEM Assets](https://docs.adobe.com/content/help/fr-FR/experience-manager-brand-portal/using/home.html)
