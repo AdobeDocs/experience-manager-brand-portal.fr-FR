@@ -9,11 +9,11 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
-translation-type: ht
-source-git-commit: aa6bd187124888cd62ca1f5c7192f9d65ac6ca8a
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: eab0a56cfe03d13485386ddc60400ed458198950
+workflow-type: tm+mt
 source-wordcount: '1209'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -69,8 +69,8 @@ Selon les configurations cloud de Dynamic Media sur l’auteur AEM, configurez 
 Assurez-vous de bien [séparer les clients Brand Portal](#separate-tenants) utilisés pour les instances d’auteur AEM configurées en modes hybride et **[!UICONTROL Scene 7]** de Dynamic Media, si vous utilisez des fonctionnalités des modes hybride et **[!UICONTROL S7]** de Dynamic Media.
 * **Publier des dossiers avec des codes vidéo appliqués à Brand Portal**
 Appliquez des [codes vidéo](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/video-profiles.html) et publiez le dossier contenant des ressources multimédias enrichies depuis l’instance d’auteur AEM sur Brand Portal.
-* **Mettre sur liste blanche les adresses IP sortantes dans SPS si l’aperçu sécurisé est activé**
-En cas d’utilisation de Dynamic Media **[!DNL Scene 7]** (avec l’[aperçu sécurisé activé](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html) pour une entreprise), il est conseillé à l’**[!DNL Scene 7]** administrateur de l’entreprise[ de mettre les adresses IP sortantes publiques sur liste blanche](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service) pour les zones géographiques respectives utilisant l’interface utilisateur Flash de SPS (**[!UICONTROL Scene 7]** Publishing System).
+* **Placer sur l&#39;liste autorisée les adresses IP de sortie dans SPS si la prévisualisation sécurisée est activée** Si vous utilisez Dynamic Media-**[!DNL Scene 7]** (avec la prévisualisation [sécurisée activée](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html) pour une société), il est conseillé à l’administrateur **[!DNL Scene 7]** de la société de [placer sur l&#39;liste autorisée les adresses IP](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service) publiques d’évacuation pour les régions respectives à l’aide de l’interface utilisateur Flash de SPS (Scene 7 Publishing System).
+****
 Les adresses IP sortantes sont les suivantes :
 
 | **Zone géographique** | **Adresse IP sortante** |
@@ -79,7 +79,7 @@ Les adresses IP sortantes sont les suivantes :
 | EMEA | 185.34.189.4 |
 | APAC | 63.140.44.54 |
 
-Pour mettre l’une de ces adresses IP sortantes sur liste blanche, consultez la rubrique [Préparation de votre compte pour un test sécurisé](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service).
+To allowlist either of these egress IPs, see [prepare your account for secure testing service](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service).
 
 ## Meilleures pratiques
 
@@ -95,11 +95,11 @@ Si vous utilisez les fonctionnalités Dynamic Media **[!DNL Scene 7]** et hybr
 
 Assurez-vous que les informations de configuration, telles que **[!UICONTROL Titre]**, **[!UICONTROL ID d’enregistrement]**, **[!UICONTROL URL du service vidéo]** (dans le mode **[!UICONTROL Dynamic Media Hybride]**) et **[!UICONTROL Titre]**, Infos de connexion (**[!UICONTROL E-mail]** et Mot de passe), **[!UICONTROL Région]**, **[!UICONTROL Société]** (dans Dynamic Media **[!DNL Scene 7]**)–sont identiques dans la configuration cloud Brand Portal et **[!UICONTROL AEM]**.
 
-### Mise sur liste blanche des adresses IP sortantes publiques pour le mode Scene 7 Dynamic Media
+### Placer sur l&#39;liste autorisée les adresses IP publiques de sortie pour le mode Dynamic Media Scene7
 
 Si le mode **[!UICONTROL Scene 7]** de Dynamic Media avec l’[aperçu sécurisé activé](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html) est utilisé pour diffuser des ressources vidéo sur Brand Portal, **[!UICONTROL Scene 7]** crée un serveur d’images dédié pour les environnements d’évaluation ou les applications internes. Toute requête à ce serveur vérifie l’adresse IP d’origine. Si la requête entrante ne figure pas dans la liste approuvée des adresses IP, une réponse d’échec est renvoyée.
 L’administrateur d’entreprise **[!UICONTROL Scene-7]** configure par conséquent une liste approuvée d’adresses IP pour l’environnement de **[!UICONTROL test sécurisé]** de la société via l’IU Flash de **[!UICONTROL SPS]** (Scene-7 Publishing System). Vérifiez que l’adresse IP sortante pour votre zone géographique respective (parmi les suivantes) est ajoutée à cette liste approuvée.
-Pour mettre l’une de ces adresses IP sortantes sur liste blanche, consultez la rubrique [Préparation de votre compte pour un test sécurisé](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service).
+To allowlist either of these egress IPs, see [prepare your account for secure testing service](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service).
 Les adresses IP sortantes sont les suivantes :
 
 | **Zone géographique** | **Adresse IP sortante** |
@@ -119,6 +119,7 @@ Pour définir les configurations Dynamic Media sur des clients Brand Portal :
 1. Dans Brand Portal, sélectionnez le logo AEM pour accéder aux outils d’administration dans la barre d’outils supérieure.
 
 2. Dans le panneau des outils d’administration, sélectionnez la vignette **[!UICONTROL Vidéo]**.<br />
+
    ![Configuration du mode hybride Dynamic Media sur Brand Portal](assets/DMHybrid-Video.png)
    La page **[!UICONTROL Modifier la configuration Dynamic Media]** s’ouvre.<br />
    ![Configuration du mode hybride Dynamic Media sur Brand Portal](assets/edit-dynamic-media-config.png)
