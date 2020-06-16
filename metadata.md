@@ -10,10 +10,10 @@ tutorials-url: https://guided.adobe.com/#recommended/solutions/experience-manage
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-brand-portal.fr-FR
 index: y
 translation-type: tm+mt
-source-git-commit: c3abe3dab87481977e874255c11ddc0f55134064
+source-git-commit: eab0a56cfe03d13485386ddc60400ed458198950
 workflow-type: tm+mt
 source-wordcount: '133'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -30,4 +30,4 @@ Le fichier metadata.md comprend des métadonnées de niveau référentiel qui tr
 | getting-started-url | Lien vers la page de démarrage helpx. |
 | tutorials-url | Lien vers les tutoriels vidéo : tutoriels helpx ou KT. |
 | mini-toc-levels | Détermine le nombre de niveaux d’en-tête qui apparaissent dans le rail droit. La valeur par défaut est 2. |
-| git-repo | Spécifie l’emplacement du référentiel principal pour une utilisation interne. |
+| git-repo | Spécifie l&#39;emplacement de la principale repo pour une utilisation interne |
