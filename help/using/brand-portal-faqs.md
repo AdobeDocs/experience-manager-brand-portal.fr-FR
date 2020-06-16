@@ -10,10 +10,10 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: c15ad97fd0e1151c868f9d0fd21f281a09581277
+source-git-commit: f763917659b5c1b9b37662d963484f4e84caa109
 workflow-type: tm+mt
 source-wordcount: '1521'
-ht-degree: 82%
+ht-degree: 83%
 
 ---
 
@@ -33,18 +33,18 @@ Les FAQ Brand Portal sont axées sur les questions et problèmes que les utilis
 
 **Réponse** Oui, un problème connu se produit lors de la publication des ressources du dossier de contribution dans AEM Assets sur AEM 6.5.4 via Adobe Developer Console.
 
-Ce problème a été corrigé dans AEM 6.5.5. Vous pouvez mettre à niveau votre instance AEM Assets vers le Service Pack le plus récent, AEM 6.5.5, et [mettre à niveau vos configurations](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) sur Adobe Developer Console.
+Le problème a été corrigé dans AEM 6.5.5. Vous pouvez mettre à niveau votre instance AEM Assets vers le Service Pack le plus récent, AEM 6.5.5, et [mettre à niveau vos configurations](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) sur Adobe Developer Console.
 
 Pour une solution immédiate sur AEM 6.5.4, il est recommandé de [télécharger le correctif](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) et de l’installer sur votre instance d’auteur AEM.
 
-**Question Je ne vois pas le contenu du dossier de contributions publié à partir du portail de marque dans les ressources AEM. Quelle pourrait en être la raison ?**
+**Question Je ne vois pas le contenu du dossier de contribution publié à partir du portail de marque en AEM Assets. Quelle pourrait en être la raison ?**
 
 **Réponse** Contactez votre administrateur AEM Assets pour vérifier les configurations et vous assurer que votre client du portail de marque est configuré avec une seule instance d’auteur AEM Assets.
 
-Ce problème peut se produire lorsque vous avez configuré un client du portail de marques sur plusieurs instances d’auteur AEM Assets. Par exemple, l’administrateur configure le même client Brand Portal sur l’instance d’auteur AEM Assets de l’environnement d’évaluation et de production. Dans ce cas, les déclencheurs de publication d’actifs dans le portail de marques, mais l’instance d’auteur AEM Assets n’a pas pu importer l’actif car l’agent de réplication ne reçoit pas le jeton de demande.
+Ce problème peut se produire lorsque vous avez configuré un client du portail de marques sur plusieurs instances d’auteur AEM Assets. Par exemple, l’administrateur configure le même client du portail de marques sur l’instance d’auteur AEM Assets de l’environnement d’évaluation et de production. Dans ce cas, les déclencheurs de publication de ressources dans le portail de marque, mais l’instance d’auteur AEM Assets n’a pas pu importer la ressource car l’agent de réplication ne reçoit pas le jeton de demande.
 
 
-**Question Je ne parviens pas à publier les ressources d’AEM Assets sur le portail de marques. Le journal de réplication indique que la connexion a expiré. Y a-t-il une solution rapide ?**
+**Question Je ne parviens pas à publier les fichiers des AEM Assets sur le portail des marques. Le journal de réplication indique que la connexion a expiré. Y a-t-il une solution rapide ?**
 
 **Réponse** En règle générale, la publication échoue avec une erreur de délai d’expiration si plusieurs requêtes en attente se trouvent dans la file d’attente de réplication. Pour résoudre ce problème, assurez-vous que les agents de réplication sont configurés pour éviter le délai d’attente.
 
