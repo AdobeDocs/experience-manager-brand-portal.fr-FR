@@ -4,12 +4,15 @@ seo-title: Téléchargement de ressources
 description: Tous les utilisateurs peuvent simultanément télécharger plusieurs ressources et dossiers auxquels ils ont accès. Ainsi, les ressources de marque approuvées peuvent être distribuées en toute sécurité pour une utilisation en mode hors connexion.
 seo-description: Tous les utilisateurs peuvent simultanément télécharger plusieurs ressources et dossiers auxquels ils ont accès. Ainsi, les ressources de marque approuvées peuvent être distribuées en toute sécurité pour une utilisation en mode hors connexion.
 uuid: 4b57118e-a76e-4d8a-992a-cb3c3097bc03
-content-type: référencereference
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
-translation-type: ht
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+translation-type: tm+mt
+source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
+workflow-type: tm+mt
+source-wordcount: '888'
+ht-degree: 100%
 
 ---
 
@@ -22,6 +25,7 @@ Tous les utilisateurs peuvent simultanément télécharger plusieurs ressources 
 >
 >Seuls les administrateurs peuvent télécharger les ressources arrivées à expiration. Pour plus d’informations sur les ressources arrivées à expiration, voir [Gestion des droits numériques des ressources](../using/manage-digital-rights-of-assets.md).
 
+
 ## Étapes de téléchargement des ressources   {#steps-to-download-assets}
 
 Pour télécharger des fichiers ou des dossiers contenant des ressources pour Brand Portal, procédez comme suit :
@@ -29,25 +33,27 @@ Pour télécharger des fichiers ou des dossiers contenant des ressources pour Br
 1. Dans l’interface de Brand Portal, effectuez l’une des opérations suivantes :
 
    * Sélectionnez les dossiers ou les ressources que vous souhaitez télécharger. Dans la barre d’outils supérieure, cliquez sur l’icône **[!UICONTROL Télécharger]**.
+
    ![](assets/downloadassets-1.png)
 
-   * Pour télécharger un seul dossier ou une ressource, placez le pointeur dessus. Dans les vignettes d’action rapide disponibles, cliquez sur l’icône **[!UICONTROL Télécharger]**.
+   * Pour télécharger un seul dossier ou une ressource, placez le pointeur dessus. Dans les vignettesminiatures d’action rapide disponibles, cliquez sur l’icône **[!UICONTROL Télécharger]**.
+
    ![](assets/downloadsingleasset-1.png)
 
    >[!NOTE]
    >
-   >Si les ressources que vous téléchargez comprennent également des ressources sous licence, vous êtes redirigé vers la page **[!UICONTROL Gestion des droits d’auteur]**. Dans cette page, sélectionnez les ressources, cliquez sur **[!UICONTROL Accepter]**, puis sur **[!UICONTROL Télécharger]**. Si vous choisissez de ne pas accepter, les ressources sous licence ne sont pas téléchargées.\
-   >Les ressources protégées par licence sont accompagnées d’un [accord de licence](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) grâce à la définition de la [propriété des métadonnées](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) des ressources dans AEM Assets.
+   >Si les ressources que vous téléchargez comprennent également des ressources sous licence, vous êtes redirigé vers la page **[!UICONTROL Gestion des droits d’auteur]**. Dans cette page, sélectionnez les ressources, cliquez d&#39;abord sur **[!UICONTROL Accepter]**, puis sur **[!UICONTROL Télécharger]**. Si vous choisissez de ne pas accepter, les ressources sous licence ne sont pas téléchargées.\
+   >Dans le cas des ressources protégées par une licence, un [contrat de licence leur est associé](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) en définissant la [propriété de métadonnées](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) appropriée dans AEM Assets.
 
    ![](assets/licensed-asset-download-1.png)
 
-   La boîte de dialogue **[!UICONTROL Téléchargement]** s’affiche avec l’option **[!UICONTROL Ressource(s)]** sélectionnée par défaut.
+   La boîte de dialogue **[!UICONTROL TéléchargementTélécharger]** s’affiche avec l’option **[!UICONTROL Ressource(s)]** sélectionnée par défaut.
 
    ![](assets/donload-assets-dialog-1.png)
 
    >[!NOTE]
    >
-   >Si les ressources que vous téléchargez sont des fichiers image et si vous choisissez seulement l’option **[!UICONTROL Ressource(s)]** de la boîte de dialogue Téléchargerement, sans être [autorisé par l’administrateur à accéder aux rendus originaux des fichiers image](../using/brand-portal-adding-users.md#main-pars-procedure-202029708), aucun fichier image n’est téléchargé, et un avis vous indique que l’administrateur a restreint votre accès aux rendus originaux.
+   >Si les ressources que vous téléchargez sont des fichiers images et si vous choisissez seulement l’option **[!UICONTROL Ressource(s)]** de la boîte de dialogue Téléchargerement, sans être [autorisé par l’administrateur à accéder aux rendus originaux des fichiers images](../using/brand-portal-adding-users.md#main-pars-procedure-202029708), aucun fichier image n’est téléchargé, et un avis vous indique que l’administrateur a restreint votre accès aux rendus originaux.
 
    ![](assets/restrictaccess-note.png)
 
@@ -64,6 +70,7 @@ Pour télécharger des fichiers ou des dossiers contenant des ressources pour Br
    * Pour accélérer le téléchargement des fichiers de ressources à partir de Brand Portal, sélectionnez l’option **[!UICONTROL Autoriser l’accélération des téléchargements]** et [suivez l’assistant](../using/accelerated-download.md#main-pars-header-405749062). Pour en savoir plus sur le téléchargement plus rapide des ressources, consultez le [Guide d’accélération des téléchargements à partir de Brand Portal](../using/accelerated-download.md).
 
    * Pour appliquer un [paramètre prédéfini d’image personnalisé à la ressource et ses rendus](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages), sélectionnez **[!UICONTROL Rendu(s) dynamique(s)]**. Indiquez les propriétés du paramètre prédéfini d’image personnalisé (taille, format, espace colorimétrique, résolution et modificateur d’image) pour l’appliquer lors du téléchargement de la ressource et de ses rendus. Pour télécharger uniquement les rendus dynamiques, désélectionnez **[!UICONTROL Ressource(s)]**.
+
    ![](assets/dynamic-renditions.png)
 
    >[!NOTE]
@@ -73,11 +80,12 @@ Pour télécharger des fichiers ou des dossiers contenant des ressources pour Br
    * Pour conserver la hiérarchie des dossiers de Brand Portal lors du téléchargement des ressources, sélectionnez **[!UICONTROL Créer un dossier distinct pour chaque ressource]**. Par défaut, la hiérarchie des dossiers de Brand Portal est ignorée, et toutes les ressources sont téléchargées dans un dossier de votre système local.
 
    * Pour envoyer aux utilisateurs un e-mail de notification comportant un lien pour télécharger les ressources, sélectionnez **[!UICONTROL Courrier électronique]**.
+
    ![](assets/download-link.png)
 
    >[!NOTE]
    >
-   >Le lien de téléchargement figurant dans l’e-mail de notification expire après 45 jours.
+   >Le lien de téléchargement figurant dans l&#39;e-mail de notification expire après 45 jours.
    >
    >Les administrateurs peuvent personnaliser les e-mails, à savoir le logo, la description et le pied de page à l’aide de la fonctionnalité [Valorisation de marque](../using/brand-portal-branding.md).
 
