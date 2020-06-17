@@ -10,7 +10,7 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: f763917659b5c1b9b37662d963484f4e84caa109
+source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
 workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 83%
@@ -194,6 +194,7 @@ C’est le cas pour les dossiers publiés d’AEM Assets vers Brand Portal et po
 >[!NOTE]
 >
 >Le calendrier des nouvelles versions est provisoire et susceptible d’être modifié. Contactez votre gestionnaire de compte ou le service clientèle Adobe pour obtenir le calendrier de version mis à jour.
+
 
 
 
