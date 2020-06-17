@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
-source-git-commit: 2b5d2fabc666a1d98af29c859f22a6d02bce3784
+source-git-commit: b724038ac2b6ea5189a012fbb2f812a2a55ffcd0
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 83%
@@ -24,6 +24,7 @@ Brand Portal est configuré avec AEM Assets, de sorte que les ressources de ma
 >[!NOTE]
 >
 >Adobe recommande d’effectuer une mise à niveau vers AEM 6.4.1.0 pour s’assurer qu’AEM Assets Brand Portal est correctement configuré avec AEM Assets. AEM 6.4 présente une limitation, en ce sens qu’il renvoie une erreur lors de la configuration d’AEM Assets avec Brand Portal et entraîne l’échec de la réplication.
+
 
 Lors de la configuration du Cloud Service pour Brand Portal sous **[!UICONTROL /etc/cloudservice]**, tous les utilisateurs et jetons nécessaires sont générés automatiquement et enregistrés dans le référentiel. La configuration du Cloud Service est créée, de même que les utilisateurs des services requis pour la réplication et les agents de réplication pour répliquer le contenu. Cela crée quatre agents de réplication. Ainsi, lorsque vous publiez de nombreuses ressources d’AEM sur Brand Portal, celles-ci sont placées en file d’attente et distribuées entre ces agents de réplication de manière cyclique.
 
@@ -120,7 +121,7 @@ En fonction des erreurs, nous vous conseillons de soumettre un ticket d’assist
 
 ## Configurer les agents de réplication pour éviter l&#39;erreur de délai d&#39;attente de connexion {#connection-timeout}
 
-**Problème**: Je ne parviens pas à publier les ressources d’AEM Assets sur le portail de marques. Le journal de réplication indique que la connexion a expiré.
+**Problème**: Je ne parviens pas à publier les fichiers des AEM Assets sur le portail des marques. Le journal de réplication indique que la connexion a expiré.
 
 **Résolution**: En règle générale, la publication échoue avec une erreur de délai d’expiration si plusieurs requêtes en attente se trouvent dans la file d’attente de réplication. Pour résoudre ce problème, assurez-vous que les agents de réplication sont configurés pour éviter le délai d’attente.
 
