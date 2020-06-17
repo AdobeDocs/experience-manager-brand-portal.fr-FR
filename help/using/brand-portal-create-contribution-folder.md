@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
+source-git-commit: c1c64f770482da9274c66e00fd7355cd522f7beb
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 93%
+source-wordcount: '273'
+ht-degree: 90%
 
 ---
 
@@ -43,5 +43,5 @@ Vous pouvez désormais configurer les propriétés du dossier Contribution. Voir
 >
 >Veillez à attribuer un nom approprié au dossier Contribution, car vous ne pourrez pas le modifier après sa création.
 >
->L’imbrication du dossier Contribution n’est pas prise en charge. Ne créez pas de dossier de contribution dans un autre dossier de contribution.
+>L’imbrication du dossier Contribution n’est pas prise en charge. Vous pouvez créer plusieurs dossiers de contribution dans un dossier, mais pas dans un autre dossier de contribution.
 
