@@ -9,9 +9,9 @@ content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
-translation-type: ht
-source-git-commit: 0278d17cc774338b456d9c3881953f2e34ca7126
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b724038ac2b6ea5189a012fbb2f812a2a55ffcd0
+workflow-type: tm+mt
 source-wordcount: '4468'
 ht-degree: 100%
 
@@ -97,6 +97,7 @@ En outre, toutes les fonctionnalités existantes restent inchangées. Les utilis
 >Cette fonctionnalité n’est pas prise en charge dans les versions antérieures : AEM 6.3 et AEM 6.4.
 
 
+
 ### Chargement de ressources dans le dossier de contribution {#upload-assets-in-bp}
 
 Les utilisateurs de Brand Portal qui disposent des autorisations adéquates peuvent [télécharger les exigences en matière de ressources](brand-portal-download-asset-requirements.md) pour comprendre le besoin en termes de contribution et charger plusieurs ressources ou dossiers contenant plusieurs ressources dans le dossier de contribution. Notez toutefois que les utilisateurs de Brand Portal peuvent transférer des ressources uniquement vers le sous-dossier **NEW**. Le dossier **SHARED** est destiné à la distribution des exigences et des ressources de base. Voir [Chargement de ressources dans le dossier de contribution](brand-portal-upload-assets-to-contribution-folder.md)
@@ -128,7 +129,6 @@ Lisez les sections suivantes pour en savoir plus sur la recherche de texte parti
 Vous pouvez maintenant rechercher des ressources en spécifiant uniquement une partie (c’est-à-dire un mot ou deux) de l’expression recherchée dans le volet de filtrage.
 
 **Cas d’utilisation**
-
 La recherche par expression partielle s’avère utile lorsque vous n’êtes pas sûr de la combinaison exacte des mots apparaissant dans l’expression recherchée.
 
 Par exemple, si votre formulaire de recherche dans Brand Portal utilise le prédicat de propriété pour une recherche partielle sur le titre des ressources, la spécification du terme **champ** renvoie toutes les ressources contenant le mot champ dans l’expression de leur titre.
@@ -155,6 +155,7 @@ De même, la spécification de :
 >[!NOTE]
 >
 >Lorsque vous cochez la case **Recherche partielle**, l’option **Ignorer la casse** est sélectionnée par défaut.
+
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
 
