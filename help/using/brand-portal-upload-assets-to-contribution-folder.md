@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+source-git-commit: b7de0dbcbb5b4723c291277705f8671e075562e0
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -30,10 +30,11 @@ Ils peuvent alors créer des ressources à des fins de contribution et les charg
 >La limite de chargement maximale pour un compte/client Brand Portal est de **10** Go.
 
 
+
 **Pour charger de nouvelles ressources, procédez comme suit :**
 
-1. Connectez-vous à votre instance du portail de marques.
-Le tableau de bord de Brand Portal répertorie tous les dossiers existants auxquels l’utilisateur de Brand Portal est autorisé à accéder, ainsi que le dossier de contribution nouvellement partagé. 
+1. Connectez-vous à votre instance Brand Portal.
+Le tableau de bord de Brand Portal répertorie tous les dossiers existants auxquels l’utilisateur de Brand Portal est autorisé à accéder, ainsi que le dossier de contribution nouvellement partagé. 
 1. Cliquez pour ouvrir le dossier de contribution. Vous pouvez voir deux sous-dossiers, **[!UICONTROL SHARED]** et **[!UICONTROL NEW]**, à l’intérieur.
 1. Cliquez sur le dossier **[!UICONTROL NEW]**.
    ![](assets/upload-new-assets1.png)
