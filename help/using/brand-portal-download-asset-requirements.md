@@ -9,11 +9,11 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '359'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,12 +27,12 @@ L’utilisateur de Brand Portal effectue les activités suivantes pour téléch
 * **Charger les instructions** : chargez le résumé (document sur les exigences en matière de ressources) joint au dossier de contribution qui contient des informations relatives aux ressources, telles que le type de ressources, le but, les formats pris en charge, la taille maximale des ressources, etc.
 * **Télécharger des ressources de base** : téléchargez des ressources de base qui peuvent être utilisées pour comprendre les types de ressources requis. Les utilisateurs de Brand Portal peuvent utiliser ces ressources comme référence afin de créer des ressources à des fins de contribution.
 
-Le tableau de bord de Brand Portal répertorie tous les dossiers existants auxquels l’utilisateur de Brand Portal est autorisé à accéder, ainsi que le dossier de contribution nouvellement partagé. Dans cet exemple, l’utilisateur de Brand Portal a uniquement accès au dossier de contribution nouvellement créé. Aucun autre dossier existant n’est partagé avec lui.
+Le tableau de bord de Brand Portal répertorie tous les dossiers existants auxquels l’utilisateur de Brand Portal est autorisé à accéder, ainsi que le dossier de contribution nouvellement partagé. Dans cet exemple, l’utilisateur de Brand Portal a uniquement accès au dossier de contribution nouvellement créé. Aucun autre dossier existant n’est partagé avec lui.
 
 **Pour télécharger les exigences en matière de ressources, procédez comme suit :**
 
-1. Connectez-vous à votre instance du portail de marques.
-1. Sélectionnez le dossier de contribution dans le tableau de bord de Brand Portal.
+1. Connectez-vous à votre instance Brand Portal.
+1. Sélectionnez le dossier de contribution dans le tableau de bord de Brand Portal.
 1. Cliquez sur **[!UICONTROL Propriétés]** ![](assets/properties.png). La fenêtre Propriété s’affiche. Elle contient les détails du dossier Contribution des ressources.
    ![](assets/download-asset-requirement1.png)
 1. Cliquez sur **[!UICONTROL Download Brief]** ![](assets/download.png) (Télécharger le résumé) pour télécharger sur votre ordinateur local le document sur les exigences en matière de ressources.
