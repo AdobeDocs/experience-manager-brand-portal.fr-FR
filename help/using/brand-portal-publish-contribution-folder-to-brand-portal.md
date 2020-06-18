@@ -9,9 +9,9 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '194'
 ht-degree: 100%
 
@@ -24,8 +24,8 @@ Une fois le [dossier de contribution configuré](brand-portal-configure-contribu
 
 **Pour publier le dossier de contribution, procédez comme suit :**
 
-1. Connectez-vous à votre instance d’auteur AEM 
-URL par défaut : http:// localhost:4502/aem/start.html
+1. Connectez-vous à votre instance d’auteur AEM.
+URL par défaut : http://localhost:4502/aem/start.html
 1. Accédez à **[!UICONTROL Ressources > Fichiers]** et localisez le dossier de contribution dans lequel vous souhaitez publier du contenu sur Brand Portal.
 1. Sélectionnez le dossier de contribution et cliquez sur **[!UICONTROL Publication rapide > Publier sur Brand Portal]**.
    ![](assets/publish-contribution-folder-to-bp.png)
