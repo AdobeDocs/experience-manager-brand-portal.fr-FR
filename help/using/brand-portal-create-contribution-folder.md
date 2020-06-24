@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 9c3002429d003c67b8e3f2770d5b9e39d053b20b
 workflow-type: tm+mt
 source-wordcount: '291'
-ht-degree: 77%
+ht-degree: 86%
 
 ---
 
@@ -43,5 +43,5 @@ Vous pouvez désormais configurer les propriétés du dossier Contribution. Voir
 >
 >Un utilisateur non administrateur peut uniquement créer et partager un dossier de contributions. Assurez-vous que vous attribuez un nom approprié au dossier de contributions, car un utilisateur non administrateur ne peut pas modifier ou supprimer un dossier de contributions après sa création.
 >
->L’imbrication du dossier Contribution n’est pas prise en charge. Vous pouvez créer plusieurs dossiers de contribution dans un dossier, mais pas dans un autre dossier de contribution.
+>L’imbrication du dossier de contribution n’est pas prise en charge. Vous pouvez créer plusieurs dossiers de contribution dans un dossier, mais pas dans un autre dossier de contribution.
 
