@@ -18,11 +18,11 @@ activity: use
 audience: author, marketer
 version: 6.5
 kt: 3838
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe8f872bdd07fd46778a485dafaa7ba3d1b74950
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '453'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -37,14 +37,14 @@ En outre, toutes les fonctionnalités existantes restent inchangées. Les utilis
 
 * AEM 6.5.2 ou version ultérieure.
 * Vérifiez que votre instance d’AEM Assets est configurée avec Brand Portal. Voir [Configuration d’AEM Assets avec Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
-* Assurez-vous que votre client du portail de marque est configuré avec une instance d’auteur AEM Assets.
+* Assurez-vous que votre client Brand Portal est configuré avec une instance d’auteur AEM Assets.
 
 >[!NOTE]
 >
->L’approvisionnement en ressources n’est pas pris en charge par le service cloud AEM Assets.
+>L’approvisionnement des ressources n’est pas pris en charge par le service cloud AEM Assets.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12&captions=fre_fr)
 
 ![Approvisionnement des ressources dans Brand Portal](assets/asset-sourcing.png)
 
