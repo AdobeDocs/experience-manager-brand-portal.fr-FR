@@ -9,9 +9,9 @@ topic-tags: download-install
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1097'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Si cette option est activée, les utilisateurs de Brand Portal peuvent réduire
 
 ![](assets/enable-fast-file-download.png)
 
-## Conditions préalables pour accélérer le téléchargement de fichiers      {#prerequisites-to-accelerate-file-download}
+## Conditions préalables pour accélérer le téléchargement de fichiers       {#prerequisites-to-accelerate-file-download}
 
 Pour télécharger les fichiers plus rapidement, vérifiez les points suivants :
 
@@ -57,7 +57,7 @@ Le tableau suivant affiche les performances de téléchargement obtenues pour un
 
 *Les résultats observés varient en fonction de facteurs tels que la bande passante du réseau, la latence du serveur et l’emplacement du client, en sachant que le serveur Brand Portal se situe dans l’État de l’Oregon aux États-Unis.*
 
-| Emplacement du client | Latence entre le client et le serveur    (millisecondes) | Vitesse mesurée avec l’accélérateur de transfert de fichiers d’Aspera Connect (Mbit/s) | Temps nécessaire pour télécharger un fichier de 2 Go avec l’accélérateur de transfert de fichiers Aspera (en secondes) |
+| Emplacement du client | Latence entre le client et le serveur     (millisecondes) | Vitesse mesurée avec l’accélérateur de transfert de fichiers d’Aspera Connect (Mbit/s) | Temps nécessaire pour télécharger un fichier de 2 Go avec l’accélérateur de transfert de fichiers Aspera (en secondes) |
 |---------------------------|-----------------------------------|---------------------------------------------|-------------------------------------------------------------------------|
 | Ouest des États-Unis (Californie du Nord) | 18 | 36 | 57 |
 | Ouest des États-Unis (Oregon) | 42 | 36 | 57 |
@@ -129,7 +129,7 @@ Pour utiliser la fonctionnalité de téléchargement accéléré sur Microsoft 
 1. Cliquez sur **[!UICONTROL Zone Sites de confiance]**, puis sur **[!UICONTROL Sites]**.
 1. Supprimez le site Brand Portal de la liste.
 
-## Préférences du client Aspera Connect      {#aspera-connect-client-preferences}
+## Préférences du client Aspera Connect       {#aspera-connect-client-preferences}
 
 Certaines préférences utiles peuvent être définies dans les préférences du client IBM Aspera Connect en cliquant avec le bouton droit sur l’icône et en sélectionnant **[!UICONTROL Préférences]**.
 
@@ -143,7 +143,7 @@ En outre, le client Aspera Connect peut être marqué pour se lancer automatiqu
 
 ![](assets/aspera-automaticallylaunch.png)
 
-## Résolution des problèmes liés à l’accélération des téléchargements      {#troubleshoot-issues-with-download-acceleration}
+## Résolution des problèmes liés à l’accélération des téléchargements       {#troubleshoot-issues-with-download-acceleration}
 
 Si l’accélération des téléchargements ne fonctionne pas, suivez ces étapes de dépannage :
 
