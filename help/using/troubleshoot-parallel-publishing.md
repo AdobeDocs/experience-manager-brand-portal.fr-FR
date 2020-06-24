@@ -8,11 +8,11 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b724038ac2b6ea5189a012fbb2f812a2a55ffcd0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '914'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -68,14 +68,14 @@ Si la publication échoue, cela est généralement dû au fait que l’utilisate
 
 1. Accédez à `localhost:4502/crx/de/` (à condition que vous exécutiez l’instance d’auteur sur localhost:4502) :\
    i. Supprimez `/etc/replication/agents.author/mp_replication`
-ii. delete 
+ii. Supprimez 
 `/etc/cloudservices/mediaportal/<config_name>`
 
 1. Accédez à localhost:4502/useradmin :\
    i. Recherchez l’utilisateur `mac-<tenantid>replication`
 ii. supprimez cet utilisateur.
 
-Le système est maintenant complètement nettoyé. Vous pouvez à présent essayer de créer        une configuration cloudservice et continuer à utiliser l’application JWT existante sur [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/). Il n’est pas nécessaire de créer une application ; seule la clé publique doit être mise à jour à partir de la configuration cloud que vous venez de créer.
+Le système est maintenant complètement nettoyé. Vous pouvez à présent essayer de créer          une configuration cloudservice et continuer à utiliser l’application JWT existante sur [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/). Il n’est pas nécessaire de créer une application ; seule la clé publique doit être mise à jour à partir de la configuration cloud que vous venez de créer.
 
 ## Problème de visibilité des clients d’applications JWT sur Developer Connection {#developer-connection-jwt-application-tenant-visibility-issue}
 
@@ -119,19 +119,19 @@ En revanche, en cas d’échecs de publication continus et si la file d’attent
 En fonction des erreurs, nous vous conseillons de soumettre un ticket d’assistance, de sorte que l’équipe d’ingénieurs de Brand Portal puisse vous aider à résoudre les problèmes.
 
 
-## Configurer les agents de réplication pour éviter l&#39;erreur de délai d&#39;attente de connexion {#connection-timeout}
+## Configuration des agents de réplication pour éviter l’erreur de délai d’expiration de connexion {#connection-timeout}
 
-**Problème**: Je ne parviens pas à publier les fichiers des AEM Assets sur le portail des marques. Le journal de réplication indique que la connexion a expiré.
+**Problème** : je ne parviens pas à publier des ressources sur Brand Portal à partir d’AEM Assets. Le journal de réplication indique que la connexion a expiré.
 
-**Résolution**: En règle générale, la publication échoue avec une erreur de délai d’expiration si plusieurs requêtes en attente se trouvent dans la file d’attente de réplication. Pour résoudre ce problème, assurez-vous que les agents de réplication sont configurés pour éviter le délai d’attente.
+**Résolution** : en règle générale, la publication échoue avec une erreur de délai d’expiration si plusieurs requêtes en attente se trouvent dans la file d’attente de réplication. Pour résoudre ce problème, assurez-vous que les agents de réplication sont configurés pour éviter l’expiration.
 
-Effectuez les étapes suivantes pour configurer l&#39;agent de réplication :
+Effectuez les étapes suivantes pour configurer l’agent de réplication :
 1. Connectez-vous à votre instance d’auteur AEM Assets.
-1. From the **Tools** panel, navigate to **[!UICONTROL Deployment]** > **[!UICONTROL Replication]**.
-1. In the Replication page, click **[!UICONTROL Agents on author]**. Vous pouvez voir les quatre agents de réplication pour votre locataire du portail de marque.
-1. Cliquez sur l&#39;URL de l&#39;agent de réplication pour ouvrir les détails de l&#39;agent.
-1. Cliquez sur **[!UICONTROL Modifier]** pour modifier les paramètres de l&#39;agent de réplication.
-1. Dans Paramètres de l’agent, cliquez sur l’onglet **[!UICONTROL Étendu]** .
+1. Dans le panneau **Outils**, accédez à **[!UICONTROL Déploiement]** > **[!UICONTROL Réplication]**.
+1. Sur la page Réplication, cliquez sur **[!UICONTROL Agents sur l’auteur]**. Vous voyez les quatre agents de réplication pour votre client Brand Portal.
+1. Cliquez sur l’URL de l’agent de réplication pour ouvrir les détails le concernant.
+1. Cliquez sur **[!UICONTROL Modifier]** pour modifier les paramètres de l’agent de réplication.
+1. Dans Paramètres d’agent, cliquez sur l’onglet **[!UICONTROL Étendu]**.
 1. Cochez la case **[!UICONTROL Fermer la connexion]** .
-1. Répétez les étapes 4 à 7 pour configurer les quatre agents de réplication.
+1. Répétez les étapes 4 à 7 pour configurer les quatre agents de réplication.
 1. Redémarrez le serveur.
