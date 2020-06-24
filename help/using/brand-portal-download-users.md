@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '888'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Tous les utilisateurs peuvent simultanément télécharger plusieurs ressources 
 >Seuls les administrateurs peuvent télécharger les ressources arrivées à expiration. Pour plus d’informations sur les ressources arrivées à expiration, voir [Gestion des droits numériques des ressources](../using/manage-digital-rights-of-assets.md).
 
 
-## Étapes de téléchargement des ressources   {#steps-to-download-assets}
+## Étapes de téléchargement des ressources    {#steps-to-download-assets}
 
 Pour télécharger des fichiers ou des dossiers contenant des ressources pour Brand Portal, procédez comme suit :
 
@@ -36,24 +36,24 @@ Pour télécharger des fichiers ou des dossiers contenant des ressources pour Br
 
    ![](assets/downloadassets-1.png)
 
-   * Pour télécharger un seul dossier ou une ressource, placez le pointeur dessus. Dans les vignettesminiatures d’action rapide disponibles, cliquez sur l’icône **[!UICONTROL Télécharger]**.
+   * Pour télécharger un seul dossier ou une ressource, placez le pointeur dessus. Dans les miniatures d’action rapide disponibles, cliquez sur l’icône **[!UICONTROL Télécharger]**.
 
    ![](assets/downloadsingleasset-1.png)
 
    >[!NOTE]
    >
    >Si les ressources que vous téléchargez comprennent également des ressources sous licence, vous êtes redirigé vers la page **[!UICONTROL Gestion des droits d’auteur]**. Dans cette page, sélectionnez les ressources, cliquez d&#39;abord sur **[!UICONTROL Accepter]**, puis sur **[!UICONTROL Télécharger]**. Si vous choisissez de ne pas accepter, les ressources sous licence ne sont pas téléchargées.\
-   >Dans le cas des ressources protégées par une licence, un [contrat de licence leur est associé](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) en définissant la [propriété de métadonnées](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) appropriée dans AEM Assets.
+   >Dans le cas des ressources protégées par une licence, un [contrat de licence leur est associé](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) en définissant la [propriété de métadonnées](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) appropriée dans AEM Assets.
 
    ![](assets/licensed-asset-download-1.png)
 
-   La boîte de dialogue **[!UICONTROL TéléchargementTélécharger]** s’affiche avec l’option **[!UICONTROL Ressource(s)]** sélectionnée par défaut.
+   La boîte de dialogue **[!UICONTROL Télécharger]** s’affiche avec l’option **[!UICONTROL Ressource(s)]** sélectionnée par défaut.
 
    ![](assets/donload-assets-dialog-1.png)
 
    >[!NOTE]
    >
-   >Si les ressources que vous téléchargez sont des fichiers images et si vous choisissez seulement l’option **[!UICONTROL Ressource(s)]** de la boîte de dialogue Téléchargerement, sans être [autorisé par l’administrateur à accéder aux rendus originaux des fichiers images](../using/brand-portal-adding-users.md#main-pars-procedure-202029708), aucun fichier image n’est téléchargé, et un avis vous indique que l’administrateur a restreint votre accès aux rendus originaux.
+   >Si les ressources que vous téléchargez sont des fichiers images et si vous choisissez seulement l’option **[!UICONTROL Ressource(s)]** de la boîte de dialogue Télécharger, sans être [autorisé par l’administrateur à accéder aux rendus originaux des fichiers images](../using/brand-portal-adding-users.md#main-pars-procedure-202029708), aucun fichier image n’est téléchargé, et un avis vous indique que l’administrateur a restreint votre accès aux rendus originaux.
 
    ![](assets/restrictaccess-note.png)
 
@@ -67,7 +67,7 @@ Pour télécharger des fichiers ou des dossiers contenant des ressources pour Br
    >
    >Par défaut, seules les ressources sont téléchargées. Toutefois, les rendus originaux des fichiers images ne sont pas téléchargés si vous n’êtes pas [autorisé par l’administrateur à y accéder](../using/brand-portal-adding-users.md#main-pars-procedure-202029708).
 
-   * Pour accélérer le téléchargement des fichiers de ressources à partir de Brand Portal, sélectionnez l’option **[!UICONTROL Autoriser l’accélération des téléchargements]** et [suivez l’assistant](../using/accelerated-download.md#main-pars-header-405749062). Pour en savoir plus sur le téléchargement plus rapide des ressources, consultez le [Guide d’accélération des téléchargements à partir de Brand Portal](../using/accelerated-download.md).
+   * Pour accélérer le téléchargement des fichiers de ressources à partir de Brand Portal, sélectionnez l’option **[!UICONTROL Autoriser l’accélération des téléchargements]** et [suivez l’assistant](../using/accelerated-download.md#main-pars-header-405749062). Pour en savoir plus sur le téléchargement plus rapide des ressources, consultez le [Guide d’accélération des téléchargements à partir de Brand Portal](../using/accelerated-download.md).
 
    * Pour appliquer un [paramètre prédéfini d’image personnalisé à la ressource et ses rendus](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages), sélectionnez **[!UICONTROL Rendu(s) dynamique(s)]**. Indiquez les propriétés du paramètre prédéfini d’image personnalisé (taille, format, espace colorimétrique, résolution et modificateur d’image) pour l’appliquer lors du téléchargement de la ressource et de ses rendus. Pour télécharger uniquement les rendus dynamiques, désélectionnez **[!UICONTROL Ressource(s)]**.
 
@@ -77,7 +77,7 @@ Pour télécharger des fichiers ou des dossiers contenant des ressources pour Br
    >
    >Pour prévisualiser (ou télécharger) les rendus dynamiques d’une ressource, vérifiez que Dynamic Media est activé et que le rendu Pyramid tiff de la ressource existe au niveau de l’instance AEM Author à partir de laquelle les ressources ont été publiées. Lorsqu’une ressource est publiée sur Brand Portal, son rendu Pyramid tiff l’est également. Il n’existe aucun moyen pour générer le rendu Pyramid tiff à partir de Brand Portal.
 
-   * Pour conserver la hiérarchie des dossiers de Brand Portal lors du téléchargement des ressources, sélectionnez **[!UICONTROL Créer un dossier distinct pour chaque ressource]**. Par défaut, la hiérarchie des dossiers de Brand Portal est ignorée, et toutes les ressources sont téléchargées dans un dossier de votre système local.
+   * Pour conserver la hiérarchie des dossiers de Brand Portal lors du téléchargement des ressources, sélectionnez **[!UICONTROL Créer un dossier distinct pour chaque ressource]**. Par défaut, la hiérarchie des dossiers de Brand Portal est ignorée, et toutes les ressources sont téléchargées dans un dossier de votre système local.
 
    * Pour envoyer aux utilisateurs un e-mail de notification comportant un lien pour télécharger les ressources, sélectionnez **[!UICONTROL Courrier électronique]**.
 
@@ -103,7 +103,7 @@ Pour télécharger des fichiers ou des dossiers contenant des ressources pour Br
 
 ## Performances de téléchargement attendues {#expected-download-performance}
 
-L’expérience de téléchargement de fichier peut varier pour les utilisateurs situés à différents emplacements, en fonction de facteurs tels que la connexion Internet locale et la latence du serveur. Les performances de téléchargement attendues pour un fichier de 2 Go observées à différents emplacements de clients sont les suivantes, avec le serveur  Serveur Brand Portal dans l’Oregon aux États-Unis :
+L’expérience de téléchargement de fichier peut varier pour les utilisateurs situés à différents emplacements, en fonction de facteurs tels que la connexion Internet locale et la latence du serveur. Les performances de téléchargement attendues pour un fichier de 2 Go observées à différents emplacements de clients sont les suivantes, avec le serveur   Serveur Brand Portal dans l’Oregon aux États-Unis :
 
 | Emplacement du client | Latence entre le client et le serveur | Vitesse de téléchargement prévue | Temps nécessaire pour télécharger un fichier de 2 Go |
 |-------------------------|-----------------------------------|-------------------------|------------------------------------|
