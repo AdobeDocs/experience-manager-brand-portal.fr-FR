@@ -9,11 +9,11 @@ contentOwner: Vishabh Gupta
 topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1521'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -37,26 +37,26 @@ Le problème a été corrigé dans AEM 6.5.5. Vous pouvez mettre à niveau votr
 
 Pour une solution immédiate sur AEM 6.5.4, il est recommandé de [télécharger le correctif](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) et de l’installer sur votre instance d’auteur AEM.
 
-**Question Je ne vois pas le contenu du dossier de contribution publié à partir du portail de marque en AEM Assets. Quelle pourrait en être la raison ?**
+**Question Je ne vois pas le contenu du dossier de contribution publié sur AEM Assets à partir de Brand Portal. Quelle pourrait en être la raison ?**
 
-**Réponse** Contactez votre administrateur AEM Assets pour vérifier les configurations et vous assurer que votre client du portail de marque est configuré avec une seule instance d’auteur AEM Assets.
+**Réponse** Contactez votre administrateur AEM Assets pour vérifier les configurations et vous assurer que votre client Brand Portal est configuré avec une seule instance d’auteur AEM Assets.
 
-Ce problème peut se produire lorsque vous avez configuré un client du portail de marques sur plusieurs instances d’auteur AEM Assets. Par exemple, l’administrateur configure le même client du portail de marques sur l’instance d’auteur AEM Assets de l’environnement d’évaluation et de production. Dans ce cas, les déclencheurs de publication de ressources dans le portail de marque, mais l’instance d’auteur AEM Assets n’a pas pu importer la ressource car l’agent de réplication ne reçoit pas le jeton de demande.
+Ce problème peut se produire lorsque vous avez configuré un client Brand Portal sur plusieurs instances d’auteur AEM Assets. Par exemple, l’administrateur configure le même client Brand Portal sur l’instance d’auteur AEM Assets de l’environnement d’évaluation et de production. Dans ce cas, les déclencheurs de publication de ressources dans Brand Portal, mais l’instance d’auteur AEM Assets n’a pas pu importer la ressource, car l’agent de réplication ne reçoit pas le jeton de demande.
 
 
-**Question Je ne parviens pas à publier les fichiers des AEM Assets sur le portail des marques. Le journal de réplication indique que la connexion a expiré. Y a-t-il une solution rapide ?**
+**Question Je ne parviens pas à publier des ressources sur Brand Portal à partir d’AEM Assets. Le journal de réplication indique que la connexion a expiré. Y a-t-il une solution rapide ?**
 
-**Réponse** En règle générale, la publication échoue avec une erreur de délai d’expiration si plusieurs requêtes en attente se trouvent dans la file d’attente de réplication. Pour résoudre ce problème, assurez-vous que les agents de réplication sont configurés pour éviter le délai d’attente.
+**Réponse** En règle générale, la publication échoue avec une erreur de délai d’expiration si plusieurs requêtes en attente se trouvent dans la file d’attente de réplication. Pour résoudre ce problème, assurez-vous que les agents de réplication sont configurés pour éviter l’expiration.
 
-Effectuez les étapes suivantes pour configurer l&#39;agent de réplication :
+Effectuez les étapes suivantes pour configurer l’agent de réplication :
 1. Connectez-vous à votre instance d’auteur AEM Assets.
-1. From the **Tools** panel, navigate to **[!UICONTROL Deployment]** > **[!UICONTROL Replication]**.
-1. In the Replication page, click **[!UICONTROL Agents on author]**. Vous pouvez voir les quatre agents de réplication pour votre locataire du portail de marque.
-1. Cliquez sur l&#39;URL de l&#39;agent de réplication pour ouvrir les détails de l&#39;agent.
-1. Cliquez sur **[!UICONTROL Modifier]** pour modifier les paramètres de l&#39;agent de réplication.
-1. Dans Paramètres de l’agent, cliquez sur l’onglet **[!UICONTROL Étendu]** .
+1. Dans le panneau **Outils**, accédez à **[!UICONTROL Déploiement]** > **[!UICONTROL Réplication]**.
+1. Sur la page Réplication, cliquez sur **[!UICONTROL Agents sur l’auteur]**. Vous voyez les quatre agents de réplication pour votre client Brand Portal.
+1. Cliquez sur l’URL de l’agent de réplication pour ouvrir les détails le concernant.
+1. Cliquez sur **[!UICONTROL Modifier]** pour modifier les paramètres de l’agent de réplication.
+1. Dans Paramètres d’agent, cliquez sur l’onglet **[!UICONTROL Étendu]**.
 1. Cochez la case **[!UICONTROL Fermer la connexion]** .
-1. Répétez les étapes 4 à 7 pour configurer les quatre agents de réplication.
+1. Répétez les étapes 4 à 7 pour configurer les quatre agents de réplication.
 1. Redémarrez le serveur et vérifiez la connexion.
 
 
