@@ -10,11 +10,11 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 67b905dc71d6b1b4f314a9791e386f7a27781967
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '319'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ URL par défaut : http://localhost:4502/aem/start.html
 1. Accédez à l’onglet **[!UICONTROL Contribution des ressources]**.
 1. Saisissez une **[!UICONTROL Description]** détaillée du dossier de contribution.
 1. Cliquez sur **[!UICONTROL Upload Brief]** ![](assets/upload.png) (Charger un résumé) pour parcourir votre ordinateur local et charger un **document relatif aux exigences en matière de ressources**.
-1. In the **[!UICONTROL Add User or Group]** field, add Brand Portal users with whom you want to share the contribution folder. Les utilisateurs Ajoutés peuvent accéder au dossier de contributions et y télécharger du contenu à l’aide de l’interface du portail de marque. Actuellement, vous ne pouvez pas ajouter de groupes à un dossier de contributions.
+1. Dans le champ **[!UICONTROL Ajouter un utilisateur ou un groupe]**, ajoutez les utilisateurs de Brand Portal avec lesquels vous souhaitez partager le dossier de contribution. Les utilisateurs ajoutés peuvent accéder au dossier de contribution et y télécharger du contenu à l’aide de l’interface de Brand Portal. Actuellement, vous ne pouvez pas ajouter de groupes à un dossier de contribution.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
    ![](assets/contribution-folder-property2.png)
