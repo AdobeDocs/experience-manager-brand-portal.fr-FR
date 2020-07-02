@@ -9,11 +9,11 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9c3002429d003c67b8e3f2770d5b9e39d053b20b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '291'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Vous pouvez désormais configurer les propriétés du dossier Contribution. Voir
 
 >[!NOTE]
 >
->Un utilisateur non administrateur peut uniquement créer et partager un dossier de contributions. Assurez-vous que vous attribuez un nom approprié au dossier de contributions, car un utilisateur non administrateur ne peut pas modifier ou supprimer un dossier de contributions après sa création.
+>Un utilisateur non administrateur peut seulement créer et partager un dossier de contributions. Veillez à attribuer un nom approprié au dossier de contribution, car un utilisateur non administrateur ne peut ni modifier ni supprimer un dossier de contribution après sa création.
 >
 >L’imbrication du dossier de contribution n’est pas prise en charge. Vous pouvez créer plusieurs dossiers de contribution dans un dossier, mais pas dans un autre dossier de contribution.
 
