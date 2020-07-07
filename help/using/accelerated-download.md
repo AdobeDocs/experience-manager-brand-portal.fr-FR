@@ -9,9 +9,9 @@ topic-tags: download-install
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
-translation-type: ht
-source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+workflow-type: tm+mt
 source-wordcount: '1097'
 ht-degree: 100%
 
@@ -25,7 +25,6 @@ Brand Portal permet d’améliorer les performances de téléchargement des fic
 >[!NOTE]
 >
 >La vitesse de téléchargement varie en fonction de facteurs tels que la bande passante du réseau, la latence du serveur et l’emplacement géographique des clients.
-
 
 Si cette option est activée, les utilisateurs de Brand Portal peuvent réduire considérablement le temps nécessaire pour télécharger les fichiers de ressources souhaités à partir de Brand Portal ou de liens partagés en installant le client Aspera Connect.
 
