@@ -18,9 +18,9 @@ activity: use
 audience: author, marketer
 version: 6.5
 kt: 3838
-translation-type: ht
-source-git-commit: fe8f872bdd07fd46778a485dafaa7ba3d1b74950
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 100%
 
@@ -43,8 +43,7 @@ En outre, toutes les fonctionnalités existantes restent inchangées. Les utilis
 >
 >L’approvisionnement des ressources n’est pas pris en charge par le service cloud AEM Assets.
 
-
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
 ![Approvisionnement des ressources dans Brand Portal](assets/asset-sourcing.png)
 
@@ -56,7 +55,6 @@ En outre, toutes les fonctionnalités existantes restent inchangées. Les utilis
 >Le problème a été corrigé dans AEM 6.5.5. Vous pouvez mettre à niveau votre instance AEM Assets vers le Service Pack le plus récent, AEM 6.5.5, et [mettre à niveau vos configurations](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) sur Adobe Developer Console.
 >
 >Pour une solution immédiate sur AEM 6.5.4, il est recommandé de [télécharger le correctif](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) et de l’installer sur votre instance d’auteur.
-
 
 ## Voir également {#reference-articles}
 
