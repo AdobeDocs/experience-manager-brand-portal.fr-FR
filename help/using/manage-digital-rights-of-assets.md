@@ -9,9 +9,9 @@ topic-tags: download-install
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
-translation-type: ht
-source-git-commit: b724038ac2b6ea5189a012fbb2f812a2a55ffcd0
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 100%
 
@@ -38,7 +38,6 @@ Les administrateurs peuvent publier les ressources expirées sur Brand Portal �
 >
 >Un dossier peut toujours être partagé en tant que lien, même s’il contient des ressources expirées. Dans ce cas, le lien ne répertorie pas les ressources expirées et seules les ressources non expirées sont partagées.
 
-
 Le tableau suivant montre les autorisations d’utilisation des ressources expirées :
 
 |  | **[!UICONTROL Partager le lien]** | **[!UICONTROL Téléchargement]** | **[!UICONTROL Propriétés]** | **[!UICONTROL Ajouter à la collection]** | **[!UICONTROL Supprimer]** |
@@ -52,7 +51,6 @@ Le tableau suivant montre les autorisations d’utilisation des ressources expir
 >
 >Si les observateurs et les éditeurs téléchargent un dossier contenant des ressources expirées et non expirées, seules les ressources non expirées sont téléchargées. Si un dossier contient seulement des ressources expirées, un dossier vide est téléchargé.
 
-
 ### État d’expiration des ressources    {#expiration-status-of-assets}
 
 Vous pouvez voir l’état d’expiration des ressources dans leur **[!UICONTROL mode Carte]**. Un drapeau rouge sur la carte indique que la ressource a expiré.
@@ -62,7 +60,6 @@ Vous pouvez voir l’état d’expiration des ressources dans leur **[!UICONTROL
 >[!NOTE]
 >
 >Les modes Liste et Colonnes n’indiquent pas l’état d’expiration des ressources.
-
 
 ## Expiration des liens de ressources    {#asset-link-expiration}
 
