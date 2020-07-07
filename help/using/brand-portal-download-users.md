@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
-translation-type: ht
-source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 100%
 
@@ -24,7 +24,6 @@ Tous les utilisateurs peuvent simultanément télécharger plusieurs ressources 
 >[!NOTE]
 >
 >Seuls les administrateurs peuvent télécharger les ressources arrivées à expiration. Pour plus d’informations sur les ressources arrivées à expiration, voir [Gestion des droits numériques des ressources](../using/manage-digital-rights-of-assets.md).
-
 
 ## Étapes de téléchargement des ressources    {#steps-to-download-assets}
 
