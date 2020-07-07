@@ -9,9 +9,9 @@ topic-tags: introduction
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
-translation-type: ht
-source-git-commit: b724038ac2b6ea5189a012fbb2f812a2a55ffcd0
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 100%
 
@@ -66,7 +66,6 @@ Aucune tâche d’action n’est visible lorsque vous les survolez ou les sélec
 >[!NOTE]
 >
 >La miniature par défaut des dossiers virtuels est l’image de miniature du premier dossier partagé.
-
 
 ![](assets/enabled-hierarchy1.png) ![](assets/hierarchy1-nonadmin.png) ![](assets/hierarchy-nonadmin.png) ![](assets/hierarchy2-nonadmin.png)
 
