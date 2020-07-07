@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
-translation-type: ht
-source-git-commit: 0278d17cc774338b456d9c3881953f2e34ca7126
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+workflow-type: tm+mt
 source-wordcount: '1522'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Voir [Approvisionnement des ressources dans Brand Portal](brand-portal-asset-sou
 
 L’environnement de portail de type navigateur permet de télécharger, parcourir, rechercher, prévisualiser et exporter facilement des ressources dans des formats approuvés.
 
-## Configuration d’AEM Assets avec Brand Portal {#configure-brand-portal}
+## Configuration d’AEM Assets avec Brand Portal {#configure-brand-portal}
 
 Adobe Experience Manager (AEM) Assets est configuré avec Brand Portal via Adobe Developer Console, qui fournit un jeton IMS pour autoriser votre client Brand Portal.
 
@@ -38,13 +38,12 @@ Adobe Experience Manager (AEM) Assets est configuré avec Brand Portal via Adobe
 >
 >La configuration d’AEM Assets avec Brand Portal via Adobe Developer Console est prise en charge sur AEM Assets Cloud Service, AEM Assets 6.3 et versions ultérieures.
 
-
 ### Conditions préalables à la configuration d’AEM Assets avec Brand Portal {#prerequisites}
 
 Pour configurer AEM Assets avec Brand Portal, vous devez disposer des éléments suivants :
 
 * Une instance AEM Assets en cours d’exécution.
-* URL du client Brand Portal
+* L’adresse URL du client Brand Portal
 * Un utilisateur disposant de droits d’administrateur système sur l’organisation IMS du client Brand Portal
 
 Pour plus d’informations, voir [Configuration d’AEM Assets avec Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
@@ -143,7 +142,6 @@ Cependant, l’instance d’auteur AEM peut uniquement être [configurée](../u
 >Pour obtenir un alias pour le nom du client dans l’URL de portail existante, les organisations doivent solliciter la création d’un alias de client auprès de l’assistance Adobe. Cette demande est traitée en vérifiant d’abord si l’alias est disponible puis en le créant.
 >
 >Pour remplacer ou supprimer l’ancien alias, le même processus doit être suivi.
-
 
 ## Demande d’accès à Brand Portal {#request-access-to-brand-portal}
 
