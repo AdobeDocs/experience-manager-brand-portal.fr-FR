@@ -9,9 +9,9 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 100%
 
@@ -26,11 +26,9 @@ Les administrateurs AEM peuvent configurer **l’approvisionnement des ressource
 >
 >Veillez à configurer l’instance d’AEM Assets à Brand Portal avant de commencer la configuration. Voir [Configuration d’AEM Assets avec Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
-
-
 La vidéo suivante explique comment configurer l’approvisionnement des ressources sur l’instance d’auteur AEM :
 
->[!VIDEO](https://video.tv.adobe.com/v/29771?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/29771)
 
 ## Activation de l’approvisionnement des ressources {#enable-asset-sourcing}
 
@@ -53,7 +51,6 @@ Les administrateurs d’AEM peuvent charger le fichier de configuration des util
 >[!NOTE]
 >
 >Ce format de fichier CSV est identique à celui pris en charge par Admin Console pour importer des utilisateurs en bloc. Vous devez indiquer vos nom, prénom et adresse électronique.
-
 
 Il peut ajouter de nouveaux utilisateurs dans AEM Admin Console. Pour plus d’informations, voir [Gestion des utilisateurs](brand-portal-adding-users.md). Une fois des utilisateurs ajoutés dans Admin Console, ceux-ci peuvent être ajoutés au fichier de configuration des utilisateurs de Brand Portal, puis se voir attribuer l’autorisation d’accéder au dossier de contribution.
 
