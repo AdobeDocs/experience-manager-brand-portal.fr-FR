@@ -9,9 +9,9 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
-translation-type: ht
-source-git-commit: 9413aa609b5c0d66c9d23ddf9dcd9d28ec4da798
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 100%
 
@@ -80,8 +80,6 @@ Cette version de Brand Portal comprend les améliorations suivantes :
 >
 >La configuration via application OAuth héritée n’est plus prise en charge à partir du 6 avril 2020 et est remplacée par la configuration via Adobe Developer Console.
 
-
-
 >[!TIP]
 >
 >***Pour les clients existants uniquement***
@@ -89,7 +87,6 @@ Cette version de Brand Portal comprend les améliorations suivantes :
 >La configuration de passerelle OAuth héritée continuera à fonctionner pour les clients existants.
 >
 >Si vous rencontrez des problèmes avec la configuration héritée de la passerelle OAuth, supprimez la configuration existante et créez une configuration via Adobe Developer Console.
-
 
 Pour plus d’informations, voir [Configuration d’AEM Assets avec Brand Portal](configure-aem-assets-with-brand-portal.md).
 
