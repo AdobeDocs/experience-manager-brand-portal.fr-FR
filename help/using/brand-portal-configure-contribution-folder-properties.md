@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
-translation-type: ht
-source-git-commit: 67b905dc71d6b1b4f314a9791e386f7a27781967
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 100%
 
@@ -32,6 +32,7 @@ Les exigences en matière de ressources font référence aux détails fournis pa
 L’administrateur peut alors octroyer aux utilisateurs/groupes de Brand Portal l’accès au dossier de contribution avant de publier le nouveau dossier Contribution sur Brand Portal.
 
 **Pour configurer les propriétés du dossier de contribution, procédez comme suit :**
+
 1. Connectez-vous à votre instance d’auteur AEM
 URL par défaut : http://localhost:4502/aem/start.html
 1. Accédez à **[!UICONTROL Ressources > Fichiers]** et localisez le dossier de contribution.
@@ -41,11 +42,10 @@ URL par défaut : http://localhost:4502/aem/start.html
 1. Saisissez une **[!UICONTROL Description]** détaillée du dossier de contribution.
 1. Cliquez sur **[!UICONTROL Upload Brief]** ![](assets/upload.png) (Charger un résumé) pour parcourir votre ordinateur local et charger un **document relatif aux exigences en matière de ressources**.
 1. Dans le champ **[!UICONTROL Ajouter un utilisateur ou un groupe]**, ajoutez les utilisateurs de Brand Portal avec lesquels vous souhaitez partager le dossier de contribution. Les utilisateurs ajoutés peuvent accéder au dossier de contribution et y télécharger du contenu à l’aide de l’interface de Brand Portal. Actuellement, vous ne pouvez pas ajouter de groupes à un dossier de contribution.
-
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
-   ![](assets/contribution-folder-property2.png)
+
+![](assets/contribution-folder-property2.png)
 
 >[!NOTE]
 >
 >Les résultats de la recherche sont basés sur la liste des utilisateurs Brand Portal configurée dans AEM Assets. Vérifiez que vous disposez de la liste mise à jour des utilisateurs de Brand Portal. Voir [Chargement de la liste des utilisateurs de Brand Portal](brand-portal-configure-asset-sourcing.md).
-
