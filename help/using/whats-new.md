@@ -9,9 +9,9 @@ content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
-translation-type: ht
-source-git-commit: d08e0ec04a4706acee12eeb6895f221d30233ef0
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+workflow-type: tm+mt
 source-wordcount: '4462'
 ht-degree: 100%
 
@@ -68,8 +68,6 @@ Les étapes de configuration d’AEM Assets avec Brand Portal sont différente
 >
 >Il est recommandé de mettre à jour votre instance AEM vers le dernier Service Pack.
 
-
-
 Consultez les dernières [Notes de mise à jour de Brand Portal](brand-portal-release-notes.md).
 
 Voir [FAQ Brand Portal](brand-portal-faqs.md).
@@ -95,8 +93,6 @@ En outre, toutes les fonctionnalités existantes restent inchangées. Les utilis
 >L’approvisionnement des ressources dans Brand Portal est pris en charge dans AEM 6.5.2.0 et versions ultérieures.
 >
 >Cette fonctionnalité n’est pas prise en charge dans les versions antérieures : AEM 6.3 et AEM 6.4.
-
-
 
 ### Chargement de ressources dans le dossier de contribution {#upload-assets-in-bp}
 
@@ -129,7 +125,6 @@ Lisez les sections suivantes pour en savoir plus sur la recherche de texte parti
 Vous pouvez maintenant rechercher des ressources en spécifiant uniquement une partie (c’est-à-dire un mot ou deux) de l’expression recherchée dans le volet de filtrage.
 
 **Cas d’utilisation**
-
 La recherche par expression partielle s’avère utile lorsque vous n’êtes pas sûr de la combinaison exacte des mots apparaissant dans l’expression recherchée.
 
 Par exemple, si votre formulaire de recherche dans Brand Portal utilise le prédicat de propriété pour une recherche partielle sur le titre des ressources, la spécification du terme **champ** renvoie toutes les ressources contenant le mot champ dans l’expression de leur titre.
@@ -156,7 +151,6 @@ De même, la spécification de :
 >[!NOTE]
 >
 >Lorsque vous cochez la case **Recherche partielle**, l’option **Ignorer la casse** est sélectionnée par défaut.
-
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
 
