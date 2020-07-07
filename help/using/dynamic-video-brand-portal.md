@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
-translation-type: ht
-source-git-commit: eab0a56cfe03d13485386ddc60400ed458198950
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+workflow-type: tm+mt
 source-wordcount: '1209'
 ht-degree: 100%
 
@@ -111,22 +111,24 @@ Les adresses IP sortantes sont les suivantes :
 ## Configuration des paramètres Dynamic Media (hybride){#configure-dm-hybrid-settings}
 
 Si l’instance AEM Author s’exécute dans le mode hybride de Dynamic Media, utilisez la vignette **[!UICONTROL Vidéo]** dans le panneau Outils d’administration pour configurer les paramètres de la passerelle Dynamic Media.
+
 >[!NOTE]
 >
 >Les [profils de codage vidéo](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/video-profiles.html) ne sont pas publiés sur Brand Portal, mais sont récupérés du serveur **[!UICONTROL Scene 7]**. Par conséquent, pour que les codes vidéo soient lus correctement dans Brand Portal, assurez-vous que les détails de configuration sont identiques à la [[!UICONTROL configuration cloud Scene 7]](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) dans votre instance d’auteur AEM.
+
 Pour définir les configurations Dynamic Media sur des clients Brand Portal :
 
 1. Dans Brand Portal, sélectionnez le logo AEM pour accéder aux outils d’administration dans la barre d’outils supérieure.
-
-2. Dans le panneau des outils d’administration, sélectionnez la vignette **[!UICONTROL Vidéo]**.<br />
+1. Dans le panneau des outils d’administration, sélectionnez la vignette **[!UICONTROL Vidéo]**.
 
    ![Configuration du mode hybride Dynamic Media sur Brand Portal](assets/DMHybrid-Video.png)
-   La page **[!UICONTROL Modifier la configuration Dynamic Media]** s’ouvre.<br />
+
+   La page **[!UICONTROL Modifier la configuration Dynamic Media]** s’ouvre.
+
    ![Configuration du mode hybride Dynamic Media sur Brand Portal](assets/edit-dynamic-media-config.png)
 
-3. Spécifiez l’**[!UICONTROL ID d’enregistrement]** et l’**[!UICONTROL URL du service vidéo]** (URL de la passerelle Dynamic Media). Vérifiez que ces détails sont identiques à ceux figurant dans **[!UICONTROL Outils > Cloud Services]** dans votre instance d’auteur AEM.
-
-4. Cliquez sur **Enregistrer** pour enregistrer la configuration.
+1. Spécifiez l’**[!UICONTROL ID d’enregistrement]** et l’**[!UICONTROL URL du service vidéo]** (URL de la passerelle Dynamic Media). Vérifiez que ces détails sont identiques à ceux figurant dans **[!UICONTROL Outils > Cloud Services]** dans votre instance d’auteur AEM.
+1. Cliquez sur **Enregistrer** pour enregistrer la configuration.
 
 ## Configuration des paramètres de Scene 7 Dynamic Media {#configure-dm-scene7-settings}
 
