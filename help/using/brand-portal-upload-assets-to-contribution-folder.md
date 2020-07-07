@@ -9,9 +9,9 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: b7de0dbcbb5b4723c291277705f8671e075562e0
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 100%
 
@@ -28,8 +28,6 @@ Ils peuvent alors créer des ressources à des fins de contribution et les charg
 >Les utilisateurs de Brand Portal peuvent charger du contenu/des ressources uniquement vers le dossier **NEW**. Ils ne sont pas autorisés à supprimer une ressource qui a été chargée.
 >
 >La limite de chargement maximale pour un compte/client Brand Portal est de **10** Go.
-
-
 
 **Pour charger de nouvelles ressources, procédez comme suit :**
 
