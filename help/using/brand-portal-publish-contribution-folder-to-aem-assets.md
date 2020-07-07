@@ -9,11 +9,11 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 855bc65b6a7faebbb497af9277daf4da5ffc42f9
+workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -31,7 +31,7 @@ Vérifiez que vous avez respecté les [exigences en matière de ressources](bran
 1. Cliquez sur **[!UICONTROL Publier sur AEM]** ![](assets/export.png).
    ![](assets/publish-contribution-folder-to-aem.png)
 
-Une notification Pulse/par e-mail est envoyée à l’utilisateur de Brand Portal et à l’administrateur d’AEM à différentes étapes du workflow de publication :
+Une notification par courrier électronique/impulsions est envoyée à l’utilisateur du portail de marque et à l’administrateur AEM à différentes étapes du processus de publication :
 1. **En file d’attente** : lorsque le workflow de publication se déclenche dans Brand Portal, le dossier de contribution est publié sur AEM Assets à partir de Brand Portal.
 
 1. **Terminé** : lorsque le workflow de publication est terminé, le dossier de contribution est importé dans AEM Assets.
