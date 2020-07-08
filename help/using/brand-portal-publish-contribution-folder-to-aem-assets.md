@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: bc6effb6e8d828e5a299f69547c2c783fcf66a1e
+source-git-commit: 3fa975c598adda96f2358621bc06038186aeeb2f
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 63%
+source-wordcount: '190'
+ht-degree: 62%
 
 ---
 
@@ -31,9 +31,9 @@ Vérifiez que vous avez respecté les [exigences en matière de ressources](bran
 1. Cliquez sur **[!UICONTROL Publier sur AEM]** ![](assets/export.png).
    ![](assets/publish-contribution-folder-to-aem.png)
 
-Une notification par courrier électronique/impulsions est envoyée à l’utilisateur du portail de marque et à l’administrateur AEM à différentes étapes du processus de publication :
-1. **En file d’attente** : une notification est envoyée à l’utilisateur du portail de marque lorsqu’un processus de publication se déclenche dans le portail de marque.
+Une notification par courrier électronique ou d’impulsion est envoyée à l’utilisateur et aux administrateurs du portail de marque à différentes étapes du processus de publication :
+1. **En file d&#39;attente** : une notification est envoyée à l&#39;utilisateur du portail de marques et aux administrateurs du portail de marques lorsqu&#39;un processus de publication se déclenche dans le portail de marques.
 
-1. **Terminé** : une notification est envoyée à l’utilisateur du portail de marque et à l’administrateur AEM lorsque le processus de publication est terminé, c’est-à-dire que le dossier de contribution a été publié avec succès aux AEM Assets.
+1. **Terminé** - Une notification est envoyée à l&#39;utilisateur du portail de marques et aux administrateurs du portail de marques lorsque le processus de publication est terminé, c&#39;est-à-dire que le dossier de contribution a été publié avec succès en AEM Assets.
 
 
