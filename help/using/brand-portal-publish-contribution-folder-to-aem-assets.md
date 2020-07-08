@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 855bc65b6a7faebbb497af9277daf4da5ffc42f9
+source-git-commit: bc6effb6e8d828e5a299f69547c2c783fcf66a1e
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 88%
+source-wordcount: '186'
+ht-degree: 63%
 
 ---
 
@@ -32,8 +32,8 @@ Vérifiez que vous avez respecté les [exigences en matière de ressources](bran
    ![](assets/publish-contribution-folder-to-aem.png)
 
 Une notification par courrier électronique/impulsions est envoyée à l’utilisateur du portail de marque et à l’administrateur AEM à différentes étapes du processus de publication :
-1. **En file d’attente** : lorsque le workflow de publication se déclenche dans Brand Portal, le dossier de contribution est publié sur AEM Assets à partir de Brand Portal.
+1. **En file d’attente** : une notification est envoyée à l’utilisateur du portail de marque lorsqu’un processus de publication se déclenche dans le portail de marque.
 
-1. **Terminé** : lorsque le workflow de publication est terminé, le dossier de contribution est importé dans AEM Assets.
+1. **Terminé** : une notification est envoyée à l’utilisateur du portail de marque et à l’administrateur AEM lorsque le processus de publication est terminé, c’est-à-dire que le dossier de contribution a été publié avec succès aux AEM Assets.
 
 
