@@ -10,37 +10,49 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: 643514893d72dd34022a3b804daeca083eb67ad4
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 79%
+source-wordcount: '259'
+ht-degree: 42%
 
 ---
 
 
 # Création d’un dossier de contribution {#create-contribution-folder}
 
-Les administrateurs AEM et les non-administrateurs autorisés à créer un dossier peuvent créer un dossier **Contribution** dans AEM Assets.
 
-Pour créer un dossier **Contribution**, créez un dossier de type **Contribution des ressources**, en vous assurant qu’il accepte l’envoi de ressources de la part des utilisateurs de Brand Portal.  Cela déclenche automatiquement un workflow qui crée deux sous-dossiers supplémentaires, appelés **SHARED** et **NEW**, dans le dossier **Contribution** nouvellement créé. 
-
-**Pour créer un dossier de contribution, procédez comme suit :**
-1. Connectez-vous à votre instance d’auteur AEM
-URL par défaut : http://localhost:4502/aem/start.html
-1. Accédez à **[!UICONTROL Ressources > Fichiers]**. Tous les dossiers existants dans le référentiel AEM Assets sont répertoriés.
-1. Cliquez sur **[!UICONTROL Créer]** pour créer un dossier. La fenêtre contextuelle Créer un dossier s’ouvre.
-1. Saisissez le **[!UICONTROL Titre]** et le **[!UICONTROL Nom]** du dossier et cochez la case **[!UICONTROL Contribution des ressources]**.
-Il est recommandé d’utiliser dans le nom du dossier des lettres minuscules sans espace.
-1. Cliquez sur **[!UICONTROL Créer]**.
-   ![](assets/create-contribution-folder.png)
-1. Le dossier de contribution nouvellement créé est répertorié dans le référentiel AEM Assets.
-1. Cliquez pour ouvrir le dossier de contribution. Vous pouvez voir deux sous-dossiers, **[!UICONTROL SHARED]** et **[!UICONTROL NEW]**, automatiquement créés dans le dossier de contribution.\
-   ![](assets/contribution-folder.png)
-
-Vous pouvez désormais configurer les propriétés du dossier Contribution. Voir [Configuration des propriétés du dossier de contribution](brand-portal-configure-contribution-folder-properties.md).
+Les administrateurs AEM et les utilisateurs non administrateurs autorisés à créer un dossier peuvent créer un dossier de contribution en AEM Assets.
+Pour créer un dossier de contribution, créez un nouveau dossier de type Contribution des ressources, en veillant à ce que le nouveau dossier créé soit ouvert à l’envoi des ressources par les utilisateurs du portail des marques.  Cela déclenche automatiquement un processus qui crée deux sous-dossiers supplémentaires, appelés SHARED et NEW, dans le dossier de contribution.
 
 >[!NOTE]
 >
->Un utilisateur non administrateur peut uniquement créer et partager un dossier de contributions de ressources. Une fois le dossier de contribution créé, un utilisateur non administrateur ne peut pas le modifier ni le supprimer.
->
->L’imbrication du dossier de contribution des ressources n’est pas prise en charge. Vous pouvez créer plusieurs dossiers de contribution dans un dossier, mais vous ne devez pas créer de dossier de contribution dans un autre dossier de contribution.
+>Vous pouvez créer plusieurs dossiers de contribution dans un dossier, mais pas dans un autre dossier de contribution.
+
+
+Pour créer un dossier de contributions :
+1. Connectez-vous à votre instance d’auteur AEM.
+
+   L’URL par défaut est http:// localhost:4502/aem/start.html.
+
+1. Navigate to **[!UICONTROL Assets]** > **[!UICONTROL Files]**. It lists all the existing folders in the AEM Assets repository.
+
+1. Cliquez sur **[!UICONTROL Créer]** pour créer un dossier. **[!UICONTROL La boîte de dialogue Créer un dossier]** s’ouvre.
+
+1. Enter **[!UICONTROL Title]** and **[!UICONTROL Name]** of the folder and enable the **[!UICONTROL Asset Contribution]** checkbox.
+Il est recommandé d’utiliser des lettres minuscules sans espace pour nommer le dossier.
+
+1. Cliquez sur **[!UICONTROL Créer]**. Le dossier de contribution nouvellement créé est répertorié dans le référentiel AEM Assets.
+
+   >[!NOTE]
+   >
+   >Un utilisateur non administrateur peut créer et partager un dossier de contribution de ressources, mais il ne peut ni le modifier ni le supprimer.
+
+   ![](assets/create-contribution-folder.png)
+
+1. Cliquez pour ouvrir le dossier de contribution. Vous pouvez voir deux sous-dossiers, **[!UICONTROL SHARED]** et **[!UICONTROL NEW]**, automatiquement créés dans le dossier de contribution.
+
+   ![](assets/contribution-folder.png)
+
+You can now [configure the contribution folder properties](brand-portal-configure-contribution-folder-properties.md).
+
+
