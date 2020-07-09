@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 643514893d72dd34022a3b804daeca083eb67ad4
+source-git-commit: 7ec61993e627f07c20a2e5a2b43f2daa629622d6
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 42%
+source-wordcount: '257'
+ht-degree: 36%
 
 ---
 
@@ -41,7 +41,7 @@ Pour créer un dossier de contributions :
 1. Enter **[!UICONTROL Title]** and **[!UICONTROL Name]** of the folder and enable the **[!UICONTROL Asset Contribution]** checkbox.
 Il est recommandé d’utiliser des lettres minuscules sans espace pour nommer le dossier.
 
-1. Cliquez sur **[!UICONTROL Créer]**. Le dossier de contribution nouvellement créé est répertorié dans le référentiel AEM Assets.
+1. Cliquez sur **[!UICONTROL Créer]**. Vous pouvez voir le dossier de contributions répertorié dans le référentiel AEM Assets.
 
    >[!NOTE]
    >
