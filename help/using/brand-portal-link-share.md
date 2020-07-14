@@ -5,12 +5,15 @@ description: Les administrateurs d’AEM Assets Brand Portal peuvent partager de
 seo-description: Les administrateurs d’AEM Assets Brand Portal peuvent partager des liens de plusieurs ressources avec des utilisateurs internes autorisés et des tiers, notamment des partenaires et des fournisseurs. Les éditeurs peuvent uniquement afficher et partager les ressources partagées avec eux.
 uuid: 8889ac24-c56d-4a47-b792-80c34ffb5c3f
 contentOwner: bdhar
-content-type: référencereference
-topic-tags: Partagesharing
+content-type: reference
+topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
+workflow-type: tm+mt
+source-wordcount: '1117'
+ht-degree: 100%
 
 ---
 
@@ -49,11 +52,11 @@ Pour partager des ressources sous forme de lien, procédez comme suit :
 
    >[!NOTE]
    >
-   >Le champ **[!UICONTROL Partager le lien]** affiche un lien de ressource créé automatiquement. Le délai d’expiration par défaut du lien est de 7 jours. Vous pouvez copier ce lien et le partager séparément avec des utilisateurs. Vous pouvez aussi le partager depuis la boîte de dialogue **[!UICONTROL Partage de lien]**.
+   >Le champ **[!UICONTROL Partager le lien]** affiche un lien de ressource automatiquement créé. Le délai d’expiration par défaut du lien est de 7 jours. Vous pouvez copier ce lien et le partager séparément avec des utilisateurs. Vous pouvez aussi le partager depuis la boîte de dialogue **[!UICONTROL Partage de lien]**.
 
 1. Dans la zone d’e-mail, saisissez l’e-mail de l’utilisateur avec lequel vous souhaitez partager le lien. Vous pouvez partager le lien avec plusieurs utilisateurs.
 
-   Si l’utilisateur appartient à votre organisation, sélectionnez son e-mail dans la liste déroulante de suggestions qui s’affiche. Si l’utilisateur est externe à votre entreprise, saisissez l’e-mail complet et appuyez ensuite sur **[!UICONTROL Entrée]** pour l’ajouter à la liste des utilisateurs.
+   Si l’utilisateur appartient à votre organisation, sélectionnez son e-mail dans la liste déroulante de suggestions qui s’affiche. Si l’utilisateur est externe à votre organisation, saisissez l’e-mail complet et appuyez sur **[!UICONTROL Entrée]** pour l’&#39;ajouter à la liste des utilisateurs.
 
    ![](assets/link-sharing-text.png)
 
@@ -100,7 +103,7 @@ Pour télécharger les ressources partagées :
 
 1. Pour télécharger les rendus des ressources en plus des ressources à partir du lien partagé, sélectionnez l’option **[!UICONTROL Rendu(s)]**. Lorsque vous procédez de la sorte, l’option **[!UICONTROL Exclure les rendus système]** qui apparaît est sélectionnée par défaut. Cela empêche le téléchargement des rendus prêts à l’emploi avec les ressources approuvées ou leurs rendus personnalisés.
 
-   Toutefois, pour permettre le téléchargement des rendus générés automatiquement avec les rendus personnalisés, désélectionnez l’option **[!UICONTROL Exclure les rendus système]**.
+   Toutefois, pour permettre le téléchargement des rendus auto-générés avec les rendus personnalisés, désélectionnez l’option **[!UICONTROL Exclure les rendus système]**.
 
    >[!NOTE]
    >
@@ -199,7 +202,7 @@ Pour annuler le partage des ressources partagées auparavant en tant que lien, p
    ![](assets/navigationrail.png)
 
 1. Passez en revue les liens que vous avez partagés dans la liste affichée.
-1. Pour annuler le partage d’un lien à partir de la liste, sélectionnez-le et cliquez sur l’icône de la corbeille en regard de l’entrée du lien ou sur l’icône **[!UICONTROL Annuler le partage]** dans la barre d’outils supérieure.
+1. Pour annuler le partage d’un lien à partir de la liste, sélectionnez-le et cliquez sur l&#39;icône de la corbeille en regard de l’entrée du lien ou sur l’icône **[!UICONTROL Annuler le partage]** dans la barre d’outils supérieure.
 
    ![](assets/unshare-links.jpg)
 
