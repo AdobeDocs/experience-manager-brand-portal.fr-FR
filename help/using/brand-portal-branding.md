@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 100%
 
@@ -46,6 +46,7 @@ En l’absence d’image de papier peint de marque personnalisée, un papier pei
 
    * Pour télécharger une image de votre ordinateur, cliquez sur **[!UICONTROL Télécharger]**. Accédez à l’image requise et téléchargez-la.
    * Pour utiliser une image Brand Portal existante, choisissez **[!UICONTROL Sélectionner une image existante]**. Sélectionnez une image à l’aide du sélecteur de ressource.
+
    ![](assets/asset-picker.png)
 
 1. Spécifiez un texte et une description d’en-tête pour l’image d’arrière-plan. Pour enregistrer les modifications, cliquez sur **[!UICONTROL Enregistrer]** dans la barre d’outils supérieure.
@@ -59,9 +60,11 @@ En l’absence d’image de papier peint de marque personnalisée, un papier pei
 1. Pour activer ou désactiver le papier peint par défaut, effectuez les opérations suivantes sur la page **[!UICONTROL Configurer la valorisation de la marque > Papier peint]** :
 
    * Pour afficher l’image du papier peint par défaut dans la page de connexion de Brand Portal, cliquez sur l&#39;option **[!UICONTROL Désactiver le papier peint]** de la barre d’outils supérieure. Un message confirme la désactivation de l’image personnalisée.
+
    ![](assets/chlimage_1-1.png)
 
    * Pour restaurer l’image par défaut sur la page de connexion de Brand Portal, cliquez sur **[!UICONTROL Activer le papier peint]** dans la barre d’outils. Un message confirme la restauration de l’image.
+
    ![](assets/chlimage_1-2.png)
 
    * Cliquez sur **[!UICONTROL Enregistrer]** pour enregistrer les modifications.
@@ -109,9 +112,11 @@ Pour enregistrer les modifications, cliquez sur **[!UICONTROL Enregistrer]** dan
 1. Pour activer ou désactiver l’image d’en-tête, effectuez les opérations suivantes sur la page **[!UICONTROL Configurer la valorisation de la marque > Image d’en-tête]** :
 
    * Pour empêcher une image d’en-tête d’apparaître sur les pages de Brand Portal, cliquez sur **[!UICONTROL Désactiver l’en-tête]** dans la barre d’outils supérieure. Un message confirme la désactivation de l’image.
+
    ![](assets/chlimage_1-4.png)
 
    * Pour que l’image d’en-tête réapparaisse sur les pages de Brand Portal, cliquez sur **[!UICONTROL Activer l’en-tête]** dans la barre d’outils supérieure. Un message confirme l’activation de l’image.
+
    ![](assets/chlimage_1-5.png)
 
    * Cliquez sur **[!UICONTROL Enregistrer]** pour enregistrer les modifications.
