@@ -9,11 +9,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
-workflow-type: ht
-source-wordcount: '1153'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1163'
+ht-degree: 99%
 
 ---
 
@@ -78,6 +78,7 @@ Pour appliquer des filtres à votre recherche avec les [facettes de recherche](.
    * **[!UICONTROL Orientation]** pour rechercher des ressources en fonction de leur orientation (horizontale, verticale, carré).
    * **[!UICONTROL Style]** pour rechercher des ressources en fonction de leur style (couleur, monochrome).
    * **[!UICONTROL Format vidéo]** pour rechercher des ressources vidéo en fonction de leur format (DVI, Flash, MPEG4, MPEG, OGG Theora, QuickTime, Windows Media, WebM).
+
    Vous pouvez utiliser des [facettes de recherche personnalisées](../using/brand-portal-search-facets.md) dans le panneau Filtres en modifiant le formulaire de recherche sous-jacent.
 
    * S’il est utilisé dans le formulaire de recherche, le **[!UICONTROL prédicat de propriété]** permet de rechercher des ressources qui correspondent à une propriété de métadonnées sur laquelle est mappée le prédicat.\
@@ -94,7 +95,8 @@ Par exemple, la recherche de :
          * **climb*** renvoie toutes les ressources ayant des mots commençant par les caractères « climb » dans l’expression de leur titre.
          * ***climb** renvoie toutes les ressources ayant des mots se terminant par « climb » dans l’expression de leur titre.
          * ***climb*** renvoie toutes les ressources ayant des mots comprenant les caractères « climb » dans l’expression de leur titre.
-      **Texte insensible à la casse**  
+
+Pour autoriser la recherche non sensible à la casse dans le prédicat de propriété, activez la variable       **Texte insensible à la casse**  
 Pour autoriser une recherche insensible à la casse dans le prédicat de propriété, cochez la case **[!UICONTROL Ignorer la casse]** dans le formulaire de recherche. Par défaut, la recherche de texte sur le prédicat de propriété est sensible à la casse.
    >[!NOTE]
    >
@@ -106,7 +108,7 @@ Pour autoriser une recherche insensible à la casse dans le prédicat de propri�
 
    ![](assets/omnisearch-with-filters.png)
 
-   Résultat de la recherche de ressources avec le nombre de résultats
+   Résultat de la recherche de ressources avec le nombre de résultats.
 
 1. Vous pouvez facilement accéder à un élément du résultat de recherche et revenir à ce même résultat à l’aide du bouton Précédent de votre navigateur sans avoir à relancer la requête de recherche.
 
