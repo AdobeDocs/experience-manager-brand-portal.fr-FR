@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '994'
 ht-degree: 100%
 
@@ -89,7 +89,7 @@ Les administrateurs peuvent générer et gérer les rapports standard ci-après.
 * Connexions des utilisateurs
 * Téléchargement
 * Expiration
-* Publication
+* Publication 
 * Partage de liens
 
 L’affichage des colonnes des rapports Téléchargement, Expiration et Publication peut être personnalisé. Pour générer un rapport, procédez comme suit :
