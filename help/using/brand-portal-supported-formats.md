@@ -4,12 +4,15 @@ seo-title: Formats de fichiers pris en charge
 description: 'Chaque portail AEM Assets Brand Portal prend en charge des formats de fichiers spécifiques, comme indiqué dans le tableau. '
 seo-description: 'Chaque portail AEM Assets Brand Portal prend en charge des formats de fichiers spécifiques, comme indiqué dans le tableau. '
 uuid: c92ada3a-6fc3-4ef2-88ff-8e67a50c8c95
-content-type: référencereference
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: fe1c2df8-39f4-4d5c-91d1-7b6cd4f1f589
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+workflow-type: tm+mt
+source-wordcount: '330'
+ht-degree: 100%
 
 ---
 
