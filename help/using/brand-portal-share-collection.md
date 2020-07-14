@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 100%
 
@@ -41,9 +41,11 @@ Pour partager une collection, procédez comme suit :
 1. Dans la console **[!UICONTROL Collections]**, effectuez l’une des opérations suivantes :
 
    * Placez le pointeur sur la collection que vous souhaitez partager. Dans les miniatures d’action rapide disponibles pour la collection, cliquez sur l’icône **[!UICONTROL Paramètres]**.
+
    ![](assets/settings_thumbnail.png)
 
    * Sélectionnez la collection que vous souhaitez partager. Dans la barre d’outils supérieure, cliquez sur **[!UICONTROL Paramètres]**.
+
    ![](assets/collection-sharing.png)
 
 1. Dans la boîte de dialogue [!UICONTROL Paramètres de la collection], sélectionnez les utilisateurs ou les groupes avec qui vous voulez partager la collection et choisissez le rôle d’un utilisateur ou d’un groupe de façon à ce qu’il corresponde à son rôle global. Par exemple, affectez le rôle Éditeur à un éditeur global ou le rôle Observateur à un observateur global.
