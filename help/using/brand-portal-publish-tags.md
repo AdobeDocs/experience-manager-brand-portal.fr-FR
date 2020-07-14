@@ -4,12 +4,15 @@ seo-title: Publication de balises sur Brand Portal
 description: Découvrez comment publier des balises à partir d’AEM Assets sur Brand Portal.
 seo-description: Découvrez comment publier des balises à partir d’AEM Assets sur Brand Portal.
 uuid: 4167367e-1af8-476b-97a5-730c43bd0816
-topic-tags: 'serveur '
+topic-tags: publish
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-content-type: référencereference
+content-type: reference
 discoiquuid: 3c8e9251-195d-4c56-a9a9-27bc8b2a82a4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+workflow-type: tm+mt
+source-wordcount: '623'
+ht-degree: 93%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 Découvrez comment publier des balises à partir d’AEM Assets sur Brand Portal.
 
-Les balises sont utiles pour organiser les ressources et faciliter la recherche des ressources auxquelles elles sont associées. Les balises peuvent être considérées comme des mots-clés ou des étiquettes (métadonnées) qui sont attachés aux ressources, et permettent de les trouver rapidement suite à une recherche. Pour savoir comment affecter des balises à des ressources dans AEM Assets, reportez-vous à la section traitant de l’[utilisation de balises pour organiser des ressources numériques](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets).
+Les balises sont utiles pour organiser les ressources et faciliter la recherche des ressources auxquelles elles sont associées. Les balises peuvent être considérées comme des mots-clés ou des étiquettes (métadonnées) qui sont attachés aux ressources, et permettent de les trouver rapidement suite à une recherche. Pour savoir comment affecter des balises aux ressources dans AEM Assets, voir [Utilisation de balises pour organiser des ressources](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets).
 
 Les balises (liées aux ressources et aux collections dans AEM) sont automatiquement publiées sur Brand Portal quand les ressources (et les collections) associées à des balises sont publiées sur Brand Portal. Les balises publiées sont utiles pour retrouver les ressources associées.
 
@@ -35,25 +38,27 @@ Pour créer des balises sur AEM, les publier sur Brand Portal et les associer a
 1. **Création des balises**
 Connectez-vous à l’instance AEM Author avec les privilèges d’administrateur et accédez ensuite à la console **[!UICONTROL Balises AEM]** à partir de la navigation globale :
 
-   1. Sélectionnez **[!UICONTROL Outils]**
+   1. Sélectionnez **[!UICONTROL Outils]**.
 
-   1. Sélectionnez **[!UICONTROL Général]**
+   1. Sélectionnez **[!UICONTROL Général]**.
 
-   1. Sélectionnez **[!UICONTROL Balisage]**
+   1. Sélectionnez **[!UICONTROL Balisage]**.
 
-1. Sélectionnez **[!UICONTROL Créer]** et ensuite l’option **[!UICONTROL Créer une balise]**.
+1. Sélectionner **[!UICONTROL Créer]** et ensuite l’option **[!UICONTROL Créer une balise]**.
 1. Précisez les paramètres suivants :
 
    * **[!UICONTROL Titre]**
+
       *(obligatoire)* Titre affiché pour la balise.
    * **[!UICONTROL Nom]**
-      *(obligatoire)* Nom de la balise. Si aucun nom n’est spécifié, un nom de nœud valide est créé à partir du titre. Voir [TagID](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/framework.html#TagID).
+      *(obligatoire)* Nom de la balise. Si aucun nom n’est spécifié, un nom de nœud valide est créé à partir du titre. See [TagID](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/framework.html#TagID).
    * **Description**
+
       *(facultative)* Description de la balise.
    * **Chemin d’accès aux balises** 
 Chemin JCR de la balise.
 
-1. Sélectionnez **[!UICONTROL Envoyer]** pour créer la balise.
+1. Sélectionner **[!UICONTROL Envoyer]** pour créer la balise.
 
    Une fois que vous avez créé une balise sur l’instance AEM, celle-ci peut être associée à une ressource (en utilisant la section Propriétés ou Gestion des balises de cette ressource).
 
@@ -63,7 +68,7 @@ Chemin JCR de la balise.
 
 1. **JoindreAssocier la balise à une ressource (ou collection)**.
 
-   Sélectionnez une ressource (ou collection) et joignezassociez la balise désirée en utilisant la section Propriétés ou Gérer les balises de cette ressource. Pour en savoir plus sur l’affectation de balises à des ressources dans AEM Assets, reportez-vous à la section traitant de l’[utilisation des balises pour organiser les ressources numériques](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets).
+   Sélectionnez une ressource (ou collection) et joignezassociez la balise désirée en utilisant la section Propriétés ou Gérer les balises de cette ressource. To know more about how to assign tags to assets in AEM Assets, refer [use tags to organize assets](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets).
 
 1. **Publiez les ressources (ou les collections) sur Brand Portal**.\
    Quand vous publiez une ressource (ou collection) sur Brand Portal, la balise jointe est également disponible sur Brand Portal.
