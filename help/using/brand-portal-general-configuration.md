@@ -6,11 +6,14 @@ seo-description: Configurez l’accélération des téléchargements, la créati
 uuid: 3c46cd7c-c38b-4bc7-b566-93f977bc8227
 contentOwner: mgulati
 topic-tags: administration
-content-type: référencereference
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ff0c8c23b6c76dc9027b560b9db4af2f4b35313e
+workflow-type: tm+mt
+source-wordcount: '466'
+ht-degree: 100%
 
 ---
 
@@ -68,4 +71,4 @@ La configuration [[!UICONTROL Autoriser l’accélération des téléchargements
 
 ## Activation de la hiérarchie de dossiers    {#enable-folder-hierarchy}
 
-La configuration [[!UICONTROL Activer la hiérarchie de dossiers]](../using/brand-portal-sharing-folders.md#non-admin-user-access-to-shared-folders) permet aux administrateurs de contrôler la façon dont, une fois connectés, les utilisateurs non administrateurs (éditeurs, observateurs et utilisateurs invités) voient les dossiers partagés.
+La configuration [[!UICONTROL Activer la hiérarchie de dossiers]](../using/brand-portal-sharing-folders.md#non-admin-user-access-to-shared-folders) permet aux administrateurs de contrôler la façon dont, une fois connectés, les utilisateurs non-administrateurs (éditeurs, observateurs et utilisateurs invités) voient les dossiers partagés.
