@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1249'
 ht-degree: 100%
 
@@ -63,6 +63,7 @@ Pour ajouter un prédicat de recherche au panneau **[!UICONTROL Filtres]** :
 
    * Sélectionnez **[!UICONTROL Recherche partielle]** si vous souhaitez autoriser la recherche par expression partielle (et la recherche par caractères génériques) de ressources en fonction des valeurs de propriétés spécifiées. Par défaut, le prédicat prend en charge la recherche en texte intégral.
    * Sélectionnez **[!UICONTROL Ignorer la casse ]** si vous souhaitez que la recherche de ressources en fonction des valeurs de propriétés ne soit pas sensible à la casse. Par défaut, la recherche des valeurs de propriétés dans le filtre de recherche est sensible à la casse.
+
    >[!NOTE]
    >
    >Lorsque vous cochez la case **[!UICONTROL Recherche partielle]**, l’option **[!UICONTROL Ignorer la casse]** est sélectionnée par défaut.
