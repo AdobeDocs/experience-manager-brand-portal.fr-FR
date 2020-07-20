@@ -7,14 +7,14 @@ translation-type: tm+mt
 source-git-commit: 48e17836b50101d3c175c7034326f2b698697697
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 
 # Introduction
 
-**Le portail** des ressources d’Adobe Experience Manager (AEM) aide les entreprises à répondre à leurs besoins marketing en distribuant en toute sécurité les ressources de marque et de produit approuvées aux agences externes, partenaires, équipes internes et revendeurs pour téléchargement.
+**Adobe Experience Manager (AEM) Assets Brand Portal** permet aux entreprises de répondre à leurs besoins marketing en distribuant en toute sécurité des ressources approuvées de marque et de produit aux organismes externes, aux partenaires, aux équipes en interne et aux revendeurs pour téléchargement.
 
 L’absence d’une solution sécurisée de partage de ressources peut entraîner :
 
@@ -50,4 +50,4 @@ Ce guide de l’utilisateur présente des informations sur les offres Brand Por
 
 ### Ressources utiles
 
-* [Présentation de Brand Portal avec AEM Assets](https://docs.adobe.com/content/help/fr-FR/experience-manager-brand-portal/using/home.html)
+* [Présentation de Brand Portal avec AEM Assets](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/home.html)
