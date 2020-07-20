@@ -86,7 +86,7 @@ Si vous êtes administrateur de produit, utilisez Adobe [[!UICONTROL Admin Cons
 
    Pour plus d’informations sur l’octroi de privilèges d’administrateur, voir [Octroi de privilèges d’administrateur aux utilisateurs](../using/brand-portal-adding-users.md#provideadministratorprivilegestousers).
 
-## Ajout d’un profil de produit        {#add-a-product-profile}
+## Ajout d’un profil de produit         {#add-a-product-profile}
 
 Dans [!UICONTROL Admin Console], les profils de produit (auparavant appelés configurations de produit) servent à créer des groupes dans Brand Portal afin d’effectuer des opérations en bloc comme gérer les rôles et partager des ressources dans Brand Portal. **Brand Portal** est le profil de produit disponible par défaut. Vous pouvez créer d’autres profils de produit et ajouter des utilisateurs à ces derniers.
 
@@ -173,7 +173,7 @@ Pour ajouter des utilisateurs à un groupe Brand Portal, ajoutez-les au profil 
 
    Les utilisateurs ajoutés à un nouveau profil de produit ou à un profil de produit personnalisé ne reçoivent pas de notifications par e-mail.
 
-## Octroi de privilèges d’administrateur aux utilisateurs        {#provide-administrator-privileges-to-users}
+## Octroi de privilèges d’administrateur aux utilisateurs         {#provide-administrator-privileges-to-users}
 
 Vous pouvez accorder à un utilisateur de Brand Portal le privilège d’administrateur système ou d’administrateur de produit. N’octroyez pas d’autres droits d’administration disponibles dans [!UICONTROL Admin Console], tels qu’administrateur de profil de produit, administrateur de groupe d’utilisateurs et administrateur de support. Pour en savoir plus sur ces rôles, voir [Rôles administratifs](https://helpx.adobe.com/fr/enterprise/using/admin-roles.html).
 
@@ -224,7 +224,7 @@ Vous pouvez accorder à un utilisateur de Brand Portal le privilège d’admini
    >
    >Pour retirer les privilèges d’administrateur d’un utilisateur, apportez les modifications nécessaires sur la page **[!UICONTROL Modifier l’administrateur]**, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
-## Gestion des rôles utilisateur       {#manage-user-roles}
+## Gestion des rôles utilisateur        {#manage-user-roles}
 
 Un administrateur peut modifier les rôles des utilisateurs dans Brand Portal.
 
