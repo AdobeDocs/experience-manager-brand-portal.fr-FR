@@ -10,27 +10,28 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 translation-type: tm+mt
-source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
+source-git-commit: 21043cee0839beaa900cc4ffcc8b05afe60a425d
 workflow-type: tm+mt
-source-wordcount: '1117'
-ht-degree: 100%
+source-wordcount: '1135'
+ht-degree: 94%
 
 ---
 
 
 # Partage de ressources en tant que lien {#share-assets-as-a-link}
 
-Les administrateurs d’AEM Assets Brand Portal peuvent partager des liens de plusieurs ressources avec des utilisateurs internes autorisés et des tiers, notamment des partenaires et des fournisseurs. Les éditeurs peuvent uniquement afficher et partager les ressources partagées avec eux.
+Les administrateurs et éditeurs du portail de marque AEM Assets peuvent partager des liens de plusieurs ressources avec des utilisateurs internes et des entités externes autorisés, y compris des partenaires et des fournisseurs. Les éditeurs peuvent uniquement afficher et partager les ressources partagées avec eux.
 
-Le partage des ressources par le biais d’un lien est un moyen pratique pour mettre les ressources à la disposition de tiers externes sans qu’ils aient besoin de se connecter à Brand Portal.
+Le partage des ressources par le biais d’un lien est un moyen pratique pour mettre les ressources à la disposition de tiers externes sans qu’ils aient besoin de se connecter à Brand Portal. Les destinataires (utilisateurs de lecteurs) peuvent accéder aux ressources publiques partagées avec eux et les télécharger et peuvent les ajouter pour créer leur propre collection.
 
-Le partage de liens est réservé aux éditeurs et aux administrateurs. Pour plus d’informations, voir [Gestion des utilisateurs, des groupes et des rôles utilisateur](../using/brand-portal-adding-users.md#manage-user-roles).
+Pour plus d’informations, voir [Gestion des utilisateurs, des groupes et des rôles utilisateur](../using/brand-portal-adding-users.md#manage-user-roles).
 
 >[!NOTE]
 >
 >La fonctionnalité de partage de lien de Brand Portal permet de télécharger jusqu’à 5 Go de fichiers compressés.
 
-Pour partager des ressources sous forme de lien, procédez comme suit :
+
+Vous trouverez ci-dessous la procédure à suivre pour partager des ressources sous forme de lien :
 
 1. Cliquez sur l’icône de recouvrement située à gauche, puis sélectionnez **[!UICONTROL Navigation]**.
 
