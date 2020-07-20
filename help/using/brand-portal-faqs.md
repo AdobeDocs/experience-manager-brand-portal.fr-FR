@@ -10,10 +10,10 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
 workflow-type: tm+mt
-source-wordcount: '1521'
-ht-degree: 100%
+source-wordcount: '1632'
+ht-degree: 93%
 
 ---
 
@@ -28,6 +28,12 @@ Les FAQ Brand Portal sont axées sur les questions et problèmes que les utilis
 **Question Le point d’entrée OAuth hérité existant (`https://legacy-oauth.cloud.adobe.io/login`) ne fonctionne pas. Quelle pourrait en être la raison ?**
 
 **Réponse** La configuration OAuth héritée est obsolète. Vous devez mettre à niveau les instances d’auteur AEM Assets vers le dernier Service Pack et les configurer à l’aide d’Adobe Developer Console. Voir [Configuration d’AEM Assets avec Brand Portal](configure-aem-assets-with-brand-portal.md) pour plus de détails. Toutefois, pour que la configuration OAuth héritée fonctionne jusqu’à la mise à niveau, mettez à jour le point d’entrée OAuth hérité vers `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
+
+
+**Question J’ai créé une collection à l’aide du lien de ressource partagé par l’administrateur. Mais je ne peux pas créer de lien de partage pour ma collection. Ai-je besoin d’autorisations spéciales pour ce faire ?**
+
+**Réponse** La fonctionnalité est définie par défaut. Les utilisateurs du lecteur ne sont pas autorisés à partager un lien pour les collections, car ils disposent de privilèges limités, car ils ne peuvent pas ajouter d’utilisateurs pour créer un lien de partage. Les utilisateurs du lecteur de contenu ne peuvent actuellement pas voir le lien de partage pour les collections, ce qui est un problème connu. Ce problème sera résolu dans la prochaine version. L’option de partage de lien pour les collections ne sera pas disponible pour les utilisateurs du lecteur de contenu.
+
 
 **Question Je ne suis pas en mesure de publier les ressources du dossier de contribution depuis Brand Portal vers AEM Assets après la mise à niveau vers Adobe Developer Console. Mon instance d’auteur se trouve sur AEM 6.5.4. Quelle peut en être la raison ?**
 
