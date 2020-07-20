@@ -61,7 +61,7 @@ Comme les codages vidéo ne sont pas stockés dans le référentiel Brand Porta
 Pour utiliser des vidéos dynamiques sur Brand Portal, veillez à :
 
 * **Démarrer l’auteur AEM en mode DM (Dynamic Media)**
-Démarrez l’instance d’auteur AEM (avec laquelle Brand Portal est configuré) en [mode hybride Dynamic Media](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/config-dynamic.html#EnablingDynamicMedia) ou en [mode Dynamic Media [!DNL Scene 7] ](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/config-dms7.html#EnablingDynamicMediainScene7mode).
+Démarrez l’instance d’auteur AEM (avec laquelle Brand Portal est configuré) en [mode hybride Dynamic Media](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dynamic.html#EnablingDynamicMedia) ou en [mode Dynamic Media [!DNL Scene 7] ](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/config-dms7.html#EnablingDynamicMediainScene7mode).
 * **Configurer Dynamic Media Cloud Services sur l’auteur AEM**
 En fonction du mode Dynamic Media dans lequel l’auteur AEM s’exécute, définissez soit [Dynamic Media Cloud Services](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/config-dynamic.html#ConfiguringDynamicMediaCloudServices), soit [[!DNL Scene 7] Cloud Services](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) sur l’auteur AEM depuis **Outils** | **Services cloud** | **Dynamic Media**.
 * **Configurer Dynamic Media sur Brand Portal**
