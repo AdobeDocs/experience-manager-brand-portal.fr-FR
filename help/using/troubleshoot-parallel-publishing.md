@@ -74,7 +74,7 @@ ii. Supprimez
    i. Recherchez l’utilisateur `mac-<tenantid>replication`
 ii. supprimez cet utilisateur.
 
-Le système est maintenant complètement nettoyé. Vous pouvez à présent essayer de créer          une configuration cloudservice et continuer à utiliser l’application JWT existante sur [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/). Il n’est pas nécessaire de créer une application ; seule la clé publique doit être mise à jour à partir de la configuration cloud que vous venez de créer.
+Le système est maintenant complètement nettoyé. Vous pouvez à présent essayer de créer            une configuration cloudservice et continuer à utiliser l’application JWT existante sur [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/). Il n’est pas nécessaire de créer une application ; seule la clé publique doit être mise à jour à partir de la configuration cloud que vous venez de créer.
 
 ## Problème de visibilité des clients d’applications JWT sur Developer Connection {#developer-connection-jwt-application-tenant-visibility-issue}
 
