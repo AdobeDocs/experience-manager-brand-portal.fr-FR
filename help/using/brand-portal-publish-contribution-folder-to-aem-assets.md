@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: d9bf1be1fe25607a7f716828a8b982080857b38c
 workflow-type: tm+mt
 source-wordcount: '183'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -27,16 +27,16 @@ Vérifiez que vous avez respecté les [exigences en matière de ressources](bran
 **Pour publier le dossier de contribution, procédez comme suit :**
 
 1. Connectez-vous à votre instance Brand Portal.
-1. Sélectionnez le dossier de contribution dans le tableau de bord.
+1. Sélectionnez le dossier de contribution sur le tableau de bord.
 1. Cliquez sur **[!UICONTROL Publier sur AEM]**
 
    ![](assets/export.png).
 
    ![](assets/publish-contribution-folder-to-aem.png)
 
-Une notification par courrier électronique ou d’impulsion est envoyée à l’utilisateur et aux administrateurs du portail de marque à différentes étapes du processus de publication :
-1. **En file d&#39;attente** : une notification est envoyée à l&#39;utilisateur du portail de marques et aux administrateurs du portail de marques lorsqu&#39;un processus de publication se déclenche dans le portail de marques.
+Une notification Pulse/par e-mail est envoyée à l’utilisateur et aux administrateurs de Brand Portal à différentes étapes du workflow de publication :
+1. **En file d&#39;attente** : une notification est envoyée à l&#39;utilisateur et aux administrateurs de Brand Portal lorsqu&#39;un processus de publication se déclenche dans Brand Portal.
 
-1. **Terminé** : une notification est envoyée à l&#39;utilisateur du portail de marques et aux administrateurs du portail de marques lorsque le dossier de contribution est publié avec succès en AEM Assets.
+1. **Terminé** : une notification est envoyée à l&#39;utilisateur et aux administrateurs de Brand Portal lorsque le dossier de contribution est publié avec succès dans AEM Assets.
 
 
