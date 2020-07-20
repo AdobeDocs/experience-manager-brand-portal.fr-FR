@@ -51,7 +51,7 @@ Le tableau suivant montre les autorisations d’utilisation des ressources expir
 >
 >Si les observateurs et les éditeurs téléchargent un dossier contenant des ressources expirées et non expirées, seules les ressources non expirées sont téléchargées. Si un dossier contient seulement des ressources expirées, un dossier vide est téléchargé.
 
-### État d’expiration des ressources    {#expiration-status-of-assets}
+### État d’expiration des ressources     {#expiration-status-of-assets}
 
 Vous pouvez voir l’état d’expiration des ressources dans leur **[!UICONTROL mode Carte]**. Un drapeau rouge sur la carte indique que la ressource a expiré.
 
@@ -61,7 +61,7 @@ Vous pouvez voir l’état d’expiration des ressources dans leur **[!UICONTROL
 >
 >Les modes Liste et Colonnes n’indiquent pas l’état d’expiration des ressources.
 
-## Expiration des liens de ressources    {#asset-link-expiration}
+## Expiration des liens de ressources     {#asset-link-expiration}
 
 Lors du partage de ressources par le biais de liens, les administrateurs et les éditeurs peuvent définir une date et une heure d’expiration en utilisant le champ **[!UICONTROL Expiration]** dans la boîte de dialogue **[!UICONTROL Partage de lien]**. Par défaut, le lien expire sept jours à compter de la date à laquelle il est partagé.
 
@@ -87,7 +87,7 @@ Vous devez y sélectionner la ressource à télécharger et accepter l’accord 
 
 Si la sélection contient plusieurs ressources protégées, sélectionnez-en une à la fois, acceptez le contrat de licence et procédez au téléchargement de la ressource.
 
-## Génération d’un rapport sur les ressources expirées    {#generate-report-about-expired-assets}
+## Génération d’un rapport sur les ressources expirées     {#generate-report-about-expired-assets}
 
 Les administrateurs peuvent générer et télécharger un rapport répertoriant toutes les ressources expirées pendant une période spécifique. Ce rapport comprend des informations détaillées concernant les ressources expirées (ex. : taille, type, chemin d’accès dans la hiérarchie de ressources, et dates d’expiration et de publication). Les colonnes de ce rapport peuvent être personnalisées pour afficher plus de données selon les besoins des utilisateurs.
 
