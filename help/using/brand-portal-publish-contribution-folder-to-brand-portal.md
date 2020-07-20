@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 168177bae46b2242d883838da538218b8d192031
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -31,4 +31,4 @@ URL par défaut : http://localhost:4502/aem/start.html
    ![](assets/publish-contribution-folder-to-bp.png)
 Vous recevrez un message de réussite une fois que le dossier de contribution sera publié sur Brand Portal.
 
-Une notification par courrier électronique/pulsation est envoyée aux utilisateurs du portail de marque affectés au dossier de contribution. Les utilisateurs de Brand Portal peuvent accéder au dossier de contribution et commencer la contribution. Voir [Chargement de ressources dans le dossier de contribution](brand-portal-upload-assets-to-contribution-folder.md).
+Une notification Push/par courrier électronique est envoyée aux utilisateurs de Brand Portal affectés au dossier de contribution. Les utilisateurs de Brand Portal peuvent accéder au dossier de contribution et commencer la contribution. Voir [Chargement de ressources dans le dossier de contribution](brand-portal-upload-assets-to-contribution-folder.md).
