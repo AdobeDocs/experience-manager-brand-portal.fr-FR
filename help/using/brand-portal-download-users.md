@@ -25,7 +25,7 @@ Tous les utilisateurs peuvent simultanément télécharger plusieurs ressources 
 >
 >Seuls les administrateurs peuvent télécharger les ressources arrivées à expiration. Pour plus d’informations sur les ressources arrivées à expiration, voir [Gestion des droits numériques des ressources](../using/manage-digital-rights-of-assets.md).
 
-## Étapes de téléchargement des ressources    {#steps-to-download-assets}
+## Étapes de téléchargement des ressources     {#steps-to-download-assets}
 
 Pour télécharger des fichiers ou des dossiers contenant des ressources pour Brand Portal, procédez comme suit :
 
@@ -102,7 +102,7 @@ Pour télécharger des fichiers ou des dossiers contenant des ressources pour Br
 
 ## Performances de téléchargement attendues {#expected-download-performance}
 
-L’expérience de téléchargement de fichier peut varier pour les utilisateurs situés à différents emplacements, en fonction de facteurs tels que la connexion Internet locale et la latence du serveur. Les performances de téléchargement attendues pour un fichier de 2 Go observées à différents emplacements de clients sont les suivantes, avec le serveur   Serveur Brand Portal dans l’Oregon aux États-Unis :
+L’expérience de téléchargement de fichier peut varier pour les utilisateurs situés à différents emplacements, en fonction de facteurs tels que la connexion Internet locale et la latence du serveur. Les performances de téléchargement attendues pour un fichier de 2 Go observées à différents emplacements de clients sont les suivantes, avec le serveur    Serveur Brand Portal dans l’Oregon aux États-Unis :
 
 | Emplacement du client | Latence entre le client et le serveur | Vitesse de téléchargement prévue | Temps nécessaire pour télécharger un fichier de 2 Go |
 |-------------------------|-----------------------------------|-------------------------|------------------------------------|
