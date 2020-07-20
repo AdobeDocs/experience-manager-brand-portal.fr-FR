@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: d9bf1be1fe25607a7f716828a8b982080857b38c
+source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '184'
 ht-degree: 100%
 
 ---
@@ -27,10 +27,11 @@ Vérifiez que vous avez respecté les [exigences en matière de ressources](bran
 **Pour publier le dossier de contribution, procédez comme suit :**
 
 1. Connectez-vous à votre instance Brand Portal.
-1. Sélectionnez le dossier de contribution sur le tableau de bord.
-1. Cliquez sur **[!UICONTROL Publier sur AEM]**
 
-   ![](assets/export.png).
+1. Sélectionnez le dossier de contribution dans le tableau de bord de Brand Portal.
+1. Cliquez sur **[!UICONTROL Publier sur AEM]**.
+
+   ![](assets/export.png)
 
    ![](assets/publish-contribution-folder-to-aem.png)
 
