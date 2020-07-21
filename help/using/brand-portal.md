@@ -9,10 +9,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: 216c49639d264730fffa0b74e07d49ffbeffc56e
+source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
 workflow-type: tm+mt
-source-wordcount: '1603'
-ht-degree: 94%
+source-wordcount: '1522'
+ht-degree: 100%
 
 ---
 
@@ -62,18 +62,21 @@ Le tableau suivant répertorie les tâches que peuvent réaliser les utilisateur
 |  | **Parcourir** | **Rechercher** | **Télécharger** | **Partage de dossiers** | **Partage d’une collection** | **Partager des ressources en tant que lien** | **Accéder aux outils d’administration** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | **Utilisateur invité** | ✓* | ✓* | ✓* | x | x | x | x |
-| **Observateur** | ✓* | ✓* | ✓* | x | x | x | x |
+| **Observateur** | ✓ | ✓ | ✓ | x | x | x | x |
 | **Éditeur** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | x |
 | **Administrateur** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 
 * Les utilisateurs invités peuvent explorer des ressources, y accéder et en rechercher dans les dossiers et collections publics uniquement.
 
-* Les utilisateurs du lecteur de contenu peuvent accéder aux ressources publiques partagées avec eux et les télécharger, et peuvent ajouter ces ressources pour créer leurs propres collections.
+<!--
+&#42; Viewer users can access and download the public assets shared with them, and can add these assets to create their own collections.
 
 >[!NOTE]
->
->Un problème connu est que le lien de partage pour les collections est actuellement visible pour les utilisateurs du lecteur de contenu. Les utilisateurs du lecteur n’ont pas le droit d’ajouter des utilisateurs pour créer un lien de partage. Ce problème sera résolu dans la prochaine version. L’option de partage de lien pour les collections ne sera pas disponible pour les utilisateurs du lecteur de contenu.
-
+ >
+ >There is a known issue that the share link for collections is currently visible to the viewer users. The viewer users does not have the privilege to add users to create a share link. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.
+ >
+ 
+-->
 
 ### Utilisateur invité {#guest-user}
 
