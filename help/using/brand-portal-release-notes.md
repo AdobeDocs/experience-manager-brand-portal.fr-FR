@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
+source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 98%
+source-wordcount: '813'
+ht-degree: 97%
 
 ---
 
@@ -56,7 +56,7 @@ Cette version comprend des correctifs pour les problèmes critiques suivants :
 
 Cette version présente les problèmes connus suivants :
 
-* Le lien de partage pour les collections est actuellement visible pour les utilisateurs du lecteur de contenu.
+* Les utilisateurs du lecteur de contenu ne sont pas autorisés à partager un lien pour les collections, mais l’option de partage est visible dans l’interface du produit.
 
 * Si un dossier de la hiérarchie est renommé à partir d’AEM Assets et que le dossier imbriqué contenant une ressource est publié sur Brand Portal, le titre du dossier n’est pas mis à jour dans Brand Portal tant que le dossier racine n’a pas été republié.
 
