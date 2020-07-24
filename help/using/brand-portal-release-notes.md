@@ -132,12 +132,12 @@ L’interface utilisateur de Brand Portal est disponible dans les langues suiva
 * Français
 * Espagnol
 * Italien
-* Brésilien        Portugais
+* Brésilien         Portugais
 * Japonais
 * Chinois simplifié
 * Coréen
 
-## Plates-formes certifiées        {#certified-platforms}
+## Plates-formes certifiées         {#certified-platforms}
 
 Pour vérifier quelles sont les plates-formes certifiées pour exécuter cette version de Brand Portal, reportez-vous à la colonne **Prise en charge de l’interface utilisateur optimisée pour les écrans tactiles** du tableau **Navigateurs pris en charge pour l’interface utilisateur de création** dans la section [Exigences techniques](https://helpx.adobe.com/fr/experience-manager/6-4/sites/deploying/using/technical-requirements.html).
 
