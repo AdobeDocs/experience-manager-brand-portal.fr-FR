@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
 workflow-type: tm+mt
 source-wordcount: '1118'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Pour plus d’informations, voir [Gestion des utilisateurs, des groupes et des r
 >La fonctionnalité de partage de lien de Brand Portal permet de télécharger jusqu’à 5 Go de fichiers compressés.
 
 
-Vous trouverez ci-dessous la procédure à suivre pour partager des ressources sous forme de lien :
+Vous trouverez ci-dessous la procédure à suivre pour partager des ressources sous forme de lien :
 
 1. Cliquez sur l’icône de recouvrement située à gauche, puis sélectionnez **[!UICONTROL Navigation]**.
 
