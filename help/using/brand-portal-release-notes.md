@@ -9,11 +9,11 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '813'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Cette version comprend des correctifs pour les problèmes critiques suivants :
 
 Cette version présente les problèmes connus suivants :
 
-* Les utilisateurs du lecteur de contenu ne sont pas autorisés à partager un lien pour les collections, mais l’option de partage est visible dans l’interface du produit.
+* Les utilisateurs de la visionneuse ne sont pas autorisés à partager un lien pour les collections, mais l’option de partage est visible dans l’interface du produit.
 
 * Si un dossier de la hiérarchie est renommé à partir d’AEM Assets et que le dossier imbriqué contenant une ressource est publié sur Brand Portal, le titre du dossier n’est pas mis à jour dans Brand Portal tant que le dossier racine n’a pas été republié.
 
@@ -132,12 +132,12 @@ L’interface utilisateur de Brand Portal est disponible dans les langues suiva
 * Français
 * Espagnol
 * Italien
-* Brésilien         Portugais
+* Brésilien  Portugais
 * Japonais
 * Chinois simplifié
 * Coréen
 
-## Plates-formes certifiées         {#certified-platforms}
+## Plates-formes certifiées  {#certified-platforms}
 
 Pour vérifier quelles sont les plates-formes certifiées pour exécuter cette version de Brand Portal, reportez-vous à la colonne **Prise en charge de l’interface utilisateur optimisée pour les écrans tactiles** du tableau **Navigateurs pris en charge pour l’interface utilisateur de création** dans la section [Exigences techniques](https://helpx.adobe.com/fr/experience-manager/6-4/sites/deploying/using/technical-requirements.html).
 
