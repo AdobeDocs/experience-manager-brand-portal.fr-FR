@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 7ec61993e627f07c20a2e5a2b43f2daa629622d6
+source-git-commit: c359cf9c467fa6d20bebfdf2f8a72e8dd0e50916
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 100%
@@ -27,7 +27,6 @@ Pour créer un dossier Contribution, créez un nouveau dossier de type Contribut
 >[!NOTE]
 >
 >Vous pouvez créer plusieurs dossiers de contribution dans un dossier, mais pas dans un autre dossier de contribution.
-
 
 Pour créer un dossier de contribution, procédez comme suit :
 1. Connectez-vous à votre instance d’auteur AEM.
