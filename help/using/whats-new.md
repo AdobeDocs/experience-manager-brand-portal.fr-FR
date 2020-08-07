@@ -1,8 +1,8 @@
 ---
 title: Nouveautés d’AEM Assets Brand Portal
 seo-title: Nouveautés d’AEM Assets Brand Portal
-description: Découvrez les nouvelles fonctionnalités et améliorations de la version 6.4.6.
-seo-description: Découvrez les nouvelles fonctionnalités et améliorations de la version 6.4.6.
+description: Découvrez les nouvelles fonctionnalités et améliorations de la version 6.4.7.
+seo-description: Découvrez les nouvelles fonctionnalités et améliorations de la version 6.4.7.
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,10 +10,10 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: 0691a95799bbbd4987678edd553d9b7a0b3c3e3f
 workflow-type: tm+mt
-source-wordcount: '4462'
-ht-degree: 100%
+source-wordcount: '4746'
+ht-degree: 94%
 
 ---
 
@@ -21,6 +21,35 @@ ht-degree: 100%
 # Nouveautés d’AEM Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de contrôler et de distribuer facilement et en toute sécurité des ressources créatives approuvées destinées à des tiers externes et aux collaborateurs de l’entreprise sur différents appareils. Brand Portal améliore l’efficacité du partage des ressources, accélère la mise sur le marché des ressources et réduit les risques de non-conformité et d’accès non autorisé. Adobe a pour objectif d’améliorer l’expérience globale de Brand Portal. Vous trouverez ci-dessous un aperçu des nouvelles fonctionnalités et améliorations.
+
+## Changements dans la version 6.4.7            {#what-changed-in-647}
+
+La version 6.4.7 du portail de marque vise à améliorer l’expérience du lecteur de document, la configuration pour télécharger des ressources à partir de Brand Portal et les principales demandes des clients. Consultez les dernières [Notes de mise à jour de Brand Portal](brand-portal-release-notes.md).
+
+### Document Viewer {#doc-viewer}
+
+Le lecteur de *Document* améliore l’expérience des visionneuses PDF. Il offre une expérience similaire à celle du Adobe Document Cloud lors de l’affichage des fichiers PDF dans le portail de marque.
+
+Auparavant, les rendus n’étaient disponibles que pour la première page du fichier PDF et les options disponibles dans la visionneuse PDF par défaut étaient également limitées.
+
+Grâce à l’implémentation de *Document Viewer* , les utilisateurs du portail de marque peuvent vue les métadonnées PDF et expérimenter de nouvelles options pour lire les fichiers PDF, telles que la vue de page, la vue d’index, la recherche en ligne, le zoom avant, le zoom arrière, la page précédente, la page suivante, la page suivante, l’ajustement à la fenêtre, l’ajustement à l’écran, masquer ou afficher la barre d’outil.
+
+Lorsque les utilisateurs du portail de marque bénéficient désormais d’une meilleure expérience des visionneuses PDF, l’expérience avec d’autres formats reste inchangée.
+
+![](assets/doc-viewer.png)
+
+### Paramètres de téléchargement {#download-configurations}
+
+Télécharger les paramètres est une nouvelle configuration qui permet aux administrateurs du portail des marques de configurer le téléchargement de fichiers à partir du portail des marques.
+
+Le processus actuel de téléchargement de fichiers à partir du portail de marque est inévitablement suivi de l’apparition d’une fenêtre contextuelle avec plusieurs options de téléchargement.
+
+Dans Brand Portal 6.4.7, le téléchargement des ressources peut être configuré à partir de l’interface utilisateur de Brand Portal. Téléchargement rapide, rendus personnalisés et rendus système sont les trois configurations disponibles. L’administrateur du portail de marques peut sélectionner n’importe quelle combinaison pour configurer le téléchargement de fichiers. L’administrateur peut également activer ou désactiver ces configurations.
+
+La configuration du téléchargement rapide ignore l’aspect de la fenêtre contextuelle lors du téléchargement de fichier. Dans le cas de rendus personnalisés ou de rendus système, ou de plusieurs configurations, la fenêtre contextuelle s’affiche et la ressource d’origine ainsi que les rendus de ressource sont téléchargés.
+
+![](assets/download-configuration.png)
+
 
 ## Changements dans la version 6.4.6 {#what-changed-in-646}
 
