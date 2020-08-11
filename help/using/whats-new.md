@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 0691a95799bbbd4987678edd553d9b7a0b3c3e3f
+source-git-commit: 43425f5987c017682d9060dfbbe789a150b2e267
 workflow-type: tm+mt
-source-wordcount: '4746'
+source-wordcount: '4753'
 ht-degree: 94%
 
 ---
@@ -24,29 +24,46 @@ Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de con
 
 ## Changements dans la version 6.4.7            {#what-changed-in-647}
 
-La version 6.4.7 du portail de marque vise à améliorer l’expérience du lecteur de document, la configuration pour télécharger des ressources à partir de Brand Portal et les principales demandes des clients. Consultez les dernières [Notes de mise à jour de Brand Portal](brand-portal-release-notes.md).
+La version 6.4.7 du portail de la marque intègre Document Viewer, améliore les conditions de téléchargement des ressources et inclut des correctifs critiques. Consultez les dernières [Notes de mise à jour de Brand Portal](brand-portal-release-notes.md).
+
+<!--
+Brand Portal 6.4.7 release brings in the Document Viewer, leverages the Brand Portal administrators to configure asset download, and centers top customer requests. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
+-->
 
 ### Document Viewer {#doc-viewer}
 
-Le lecteur de *Document* améliore l’expérience des visionneuses PDF. Il offre une expérience similaire à celle du Adobe Document Cloud lors de l’affichage des fichiers PDF dans le portail de marque.
+Le lecteur de Document améliore l’affichage au format PDF. Il offre une expérience similaire à celle du Adobe Document Cloud lors de l’affichage des fichiers PDF dans le portail de marque.
 
-Auparavant, les rendus n’étaient disponibles que pour la première page du fichier PDF et les options disponibles dans la visionneuse PDF par défaut étaient également limitées.
+Auparavant, des options limitées étaient disponibles pour la vue des fichiers PDF.
 
-Grâce à l’implémentation de *Document Viewer* , les utilisateurs du portail de marque peuvent vue les métadonnées PDF et expérimenter de nouvelles options pour lire les fichiers PDF, telles que la vue de page, la vue d’index, la recherche en ligne, le zoom avant, le zoom arrière, la page précédente, la page suivante, la page suivante, l’ajustement à la fenêtre, l’ajustement à l’écran, masquer ou afficher la barre d’outil.
+Avec Document Viewer, les utilisateurs du portail de marque ont désormais les options suivantes : pages de vue, signets de vue, recherche de texte sur la page, zoom avant, zoom arrière, navigation vers les pages précédentes et suivantes, basculement vers la page, ajustement à la fenêtre, ajustement à l’écran et masquage ou affichage de la barre d’outils.
 
-Lorsque les utilisateurs du portail de marque bénéficient désormais d’une meilleure expérience des visionneuses PDF, l’expérience avec d’autres formats reste inchangée.
+>[!NOTE]
+>
+>L’expérience d’affichage pour les autres formats de documents reste inchangée.
+
+
 
 ![](assets/doc-viewer.png)
 
-### Paramètres de téléchargement {#download-configurations}
+### Télécharger l’expérience {#download-configurations}
 
-Télécharger les paramètres est une nouvelle configuration qui permet aux administrateurs du portail des marques de configurer le téléchargement de fichiers à partir du portail des marques.
+Le processus de téléchargement des ressources est redéfini, ce qui simplifie l’expérience utilisateur lors du téléchargement des ressources à partir du portail de la marque.
 
-Le processus actuel de téléchargement de fichiers à partir du portail de marque est inévitablement suivi de l’apparition d’une fenêtre contextuelle avec plusieurs options de téléchargement.
+Le processus actuel de téléchargement des ressources à partir de Brand Portal est inévitablement suivi de l’apparition d’une boîte de dialogue de **[!UICONTROL téléchargement]** avec plusieurs options de téléchargement.
 
-Dans Brand Portal 6.4.7, le téléchargement des ressources peut être configuré à partir de l’interface utilisateur de Brand Portal. Téléchargement rapide, rendus personnalisés et rendus système sont les trois configurations disponibles. L’administrateur du portail de marques peut sélectionner n’importe quelle combinaison pour configurer le téléchargement de fichiers. L’administrateur peut également activer ou désactiver ces configurations.
+Dans Brand Portal 6.4.7, les administrateurs du portail des marques peuvent configurer les paramètres de **[!UICONTROL téléchargement]** des ressources. Les configurations disponibles sont les suivantes :
+* **[!UICONTROL Téléchargement rapide]**
+* **[!UICONTROL Rendus personnalisés]**
+* **[!UICONTROL Rendus du système]**
 
-La configuration du téléchargement rapide ignore l’aspect de la fenêtre contextuelle lors du téléchargement de fichier. Dans le cas de rendus personnalisés ou de rendus système, ou de plusieurs configurations, la fenêtre contextuelle s’affiche et la ressource d’origine ainsi que les rendus de ressource sont téléchargés.
+L’administrateur du portail de marques peut activer n’importe quelle combinaison pour configurer le téléchargement de fichiers.
+
+<!--In Brand Portal 6.4.7, fast download, custom renditions, and system renditions are the three configurations available.-->
+
+* Si les trois configurations sont désactivées, les ressources sont téléchargées sans boîte de dialogue supplémentaire, ce qui simplifie l’expérience de téléchargement pour les utilisateurs du portail des marques. En fonction de la configuration, le processus de téléchargement reste constant pour les ressources autonomes, les ressources multiples, les dossiers contenant des ressources, les ressources sous licence ou non sous licence, ainsi que lorsque les ressources sont téléchargées à l’aide du lien de partage.
+
+* Si l’un des rendus **** personnalisés ou **[!UICONTROL système est activé, la boîte de dialogue de]** téléchargement **** s’affiche et le fichier d’origine ainsi que les rendus de fichier sont téléchargés. L’activation de la configuration de téléchargement **** rapide accélère le processus de téléchargement.
 
 ![](assets/download-configuration.png)
 
