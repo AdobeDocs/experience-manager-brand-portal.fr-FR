@@ -9,11 +9,11 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 72a04e29d48ea5187d6624fdea5ec425e29e4a7a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '505'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Découvrez les fonctionnalités, les améliorations, les problèmes critiques r�
 | Produit | Adobe Experience Manager Assets Brand Portal |
 |---|---|
 | Version | 6.4.7 |
-| Date    | Août 2020 |
+| Date | Août 2020 |
 
 ## Présentation {#overview}
 
@@ -39,38 +39,38 @@ Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de con
 
 Cette version comprend les nouvelles fonctionnalités suivantes :
 
-* Document Viewer a été introduit pour améliorer l’affichage au format PDF. De nouvelles options sont disponibles pour l’affichage des fichiers PDF dans le portail des marques.
+* La visionneuse de document a été introduite afin d’améliorer l’expérience d’affichage des fichiers PDF. De nouvelles options sont disponibles pour l’affichage des fichiers PDF dans Brand Portal.
 
 <!--
 * Download Settings configuration to configure asset download from Brand Portal. Fast download, custom renditions, and system renditions are the available configurations. 
 -->
 
-* Avancées du processus de téléchargement de fichiers qui améliore l’expérience utilisateur du portail de marques lors du téléchargement de fichiers à partir du portail de marques. Les administrateurs du portail de marque peuvent configurer le téléchargement **** rapide, les rendus **** personnalisés et les rendus **** système à partir des paramètres **[!UICONTROL Télécharger.]**
+* Le processus de téléchargement des ressources a été repensé de façon à simplifier l’expérience de l’utilisateur lorsqu’il télécharge des ressources à partir de Brand Portal. Les administrateurs de Brand Portal peuvent configurer les options **[!UICONTROL Téléchargement rapide]**, **[!UICONTROL Rendus personnalisés]** et **[!UICONTROL Rendus système]** dans les paramètres **[!UICONTROL Télécharger]**.
 
-For details, see [what&#39;s new in Brand Portal 6.4.7](whats-new.md).
+Pour plus d’informations, voir [Nouveautés de Brand Portal 6.4.7](whats-new.md).
 
 ### Problèmes critiques résolus {#critical-issues-fixed-647}
 
 Cette version comprend des correctifs pour les problèmes critiques suivants :
 
-* Les utilisateurs du lecteur ne sont pas autorisés à partager un lien pour les collections, mais l’option de partage est visible pour eux sur l’interface du produit.
+* Les utilisateurs de la visionneuse ne sont pas autorisés à partager un lien pour des collections, mais l’option de partage est visible dans l’interface du produit.
 
-* Le bouton **[!UICONTROL Télécharger]** de la barre d’options ne liste pas toutes les ressources sous licence du dossier sélectionné.
+* Le bouton **[!UICONTROL Télécharger]** de la barre d’options ne répertorie pas toutes les ressources sous licence du dossier sélectionné.
 
 * La recherche prend plus de temps pour afficher les résultats de certains mots-clés.
 
-* Les cases à cocher **[!UICONTROL Accepter]** et **[!UICONTROL Ne pas être d’accord]** n’apparaissent pas sur la sélection en bloc de ressources sous licence ou non sous licence lors du téléchargement.
+* Au cours du téléchargement, les cases à cocher **[!UICONTROL Accepter]** et **[!UICONTROL Refuser]** n’apparaissent pas lors de la sélection en bloc de ressources qui sont ou non sous licence.
 
 * La recherche basée sur des filtres affiche le traitement sur l’interface du produit sans résultat de recherche.
 
-* Les ressources ne sont pas téléchargées à partir du lien de partage si le dossier partagé contient de nombreux fichiers volumineux.
+* Les ressources ne sont pas téléchargées à partir du lien de partage si le dossier partagé contient de nombreuses ressources volumineuses.
 
 
 ### Problèmes connus {#known-issues-647}
 
 Cette version présente les problèmes connus suivants :
 
-* Si plusieurs ressources sont sélectionnées, le texte de la licence n’apparaît pas lorsque vous cliquez sur Termes et conditions sur la page du contrat de licence pendant le téléchargement à l’aide du lien de partage.
+* Si plusieurs ressources sont sélectionnées, le texte de la licence n’apparaît pas lorsque vous cliquez sur Termes et conditions sur la page du contrat de licence lors du téléchargement à l’aide du lien de partage.
 
 
 
@@ -83,12 +83,12 @@ L’interface utilisateur de Brand Portal est disponible dans les langues suiva
 * Français
 * Espagnol
 * Italien
-* Brésilien  Portugais
+* Brésilien   Portugais
 * Japonais
 * Chinois simplifié
 * Coréen
 
-## Plates-formes certifiées  {#certified-platforms}
+## Plates-formes certifiées   {#certified-platforms}
 
 Pour vérifier quelles sont les plates-formes certifiées pour exécuter cette version de Brand Portal, reportez-vous à la colonne **Prise en charge de l’interface utilisateur optimisée pour les écrans tactiles** du tableau **Navigateurs pris en charge pour l’interface utilisateur de création** dans la section [Exigences techniques](https://helpx.adobe.com/fr/experience-manager/6-4/sites/deploying/using/technical-requirements.html).
 
