@@ -9,11 +9,11 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
-translation-type: ht
-source-git-commit: 72a04e29d48ea5187d6624fdea5ec425e29e4a7a
-workflow-type: ht
-source-wordcount: '505'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
+workflow-type: tm+mt
+source-wordcount: '506'
+ht-degree: 96%
 
 ---
 
@@ -59,7 +59,7 @@ Cette version comprend des correctifs pour les problèmes critiques suivants :
 
 * La recherche prend plus de temps pour afficher les résultats de certains mots-clés.
 
-* Au cours du téléchargement, les cases à cocher **[!UICONTROL Accepter]** et **[!UICONTROL Refuser]** n’apparaissent pas lors de la sélection en bloc de ressources qui sont ou non sous licence.
+* The **[!UICONTROL Agree]** and **[!UICONTROL Disagree]** check boxes does not appear on bulk selection of licensed and unlicensed assets during download.
 
 * La recherche basée sur des filtres affiche le traitement sur l’interface du produit sans résultat de recherche.
 
