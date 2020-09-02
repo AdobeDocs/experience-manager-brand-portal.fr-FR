@@ -10,10 +10,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
 translation-type: tm+mt
-source-git-commit: ff0c8c23b6c76dc9027b560b9db4af2f4b35313e
+source-git-commit: 307bed102148f6e5a68bac8273a93729b9d49854
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 100%
+source-wordcount: '402'
+ht-degree: 95%
 
 ---
 
@@ -25,12 +25,11 @@ AEM Assets Brand Portal permet aux organisations de configurer les fonctionnal
 * Suppression des ressources par les administrateurs
 * Création de collections publiques par des utilisateurs non administrateurs
 * Création de collections dynamiques publiques par des utilisateurs non administrateurs
-* Accélération des téléchargements
 * Hiérarchie parente des dossiers partagés visible pour les utilisateurs non-administrateurs
 
 Ces fonctionnalités sont proposées sous la forme de configurations de **[!UICONTROL Paramètres généraux]** dans le panneau des outils d’administration.
 
-![](assets/general-configs.png)
+![](assets/general-config.png)
 
 **A** Configuration autorisant les administrateurs à supprimer des ressources de Brand Portal. (activée par défaut).
 
@@ -38,9 +37,7 @@ Ces fonctionnalités sont proposées sous la forme de configurations de **[!UICO
 
 **C** Configuration autorisant les utilisateurs non administrateurs à créer des collections dynamiques publiques. (activée par défaut).
 
-**D** Configuration autorisant l’accélération du téléchargement des ressources téléchargées à partir du portail et des liens partagés (désactivée par défaut).
-
-**E** Configuration pour afficher la hiérarchie de dossiers (à partir de la racine) partagés pour les utilisateurs non-administrateurs (éditeurs, observateurs et utilisateurs invités) (désactivée par défaut).
+**D** Configuration pour afficher la hiérarchie des dossiers (de la racine) des dossiers partagés aux utilisateurs non administrateurs (éditeurs, visionneuses, utilisateurs invités). (désactivée par défaut).
 
 ## Activation/désactivation des configurations générales    {#enable-disable-general-configurations}
 
@@ -65,9 +62,11 @@ La configuration [[!UICONTROL Autoriser la création de collections publiques]](
 
 La configuration [[!UICONTROL Autoriser la création de collections dynamiques publiques]](../using/brand-portal-searching.md#main-pars-header-500620467) contrôle si les non administrateurs peuvent enregistrer leurs recherches sous la forme de collections dynamiques et les rendre publiques pour ce client. La configuration est activée par défaut. En la désactivant, les organisations peuvent éviter la création d’un nombre très important de collections dynamiques publiques par les utilisateurs non-administrateurs sur le Brand Portal de l’organisation.
 
-## Autorisation de l’accélération des téléchargements {#allow-download-acceleration}
+<!-- 
+## Allow download acceleration {#allow-download-acceleration}
 
-La configuration [[!UICONTROL Autoriser l’accélération des téléchargements]](../using/accelerated-download.md) permet aux entreprises d’autoriser l’accélération des téléchargements des ressources à partir de Brand Portal et des liens partagés, grâce à l’intégration à IBM Aspera Connect, une application qui s’installe à la demande. L’application utilise une technologie propriétaire pour supprimer les en-têtes TCP.
+[[!UICONTROL Allow download acceleration]](../using/accelerated-download.md) configuration lets the organizations to allow accelerated downloads of assets from Brand Portal and shared links, by integrating with IBM Aspera Connect that is an install-on-demand application. The application uses proprietary technology to remove TCP overheads.
+-->
 
 ## Activation de la hiérarchie de dossiers    {#enable-folder-hierarchy}
 
