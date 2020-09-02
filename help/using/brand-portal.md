@@ -8,11 +8,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
-translation-type: ht
-source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
-workflow-type: ht
-source-wordcount: '1522'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
+workflow-type: tm+mt
+source-wordcount: '1524'
+ht-degree: 98%
 
 ---
 
@@ -32,11 +32,11 @@ L’environnement de portail de type navigateur permet de télécharger, parcour
 
 ## Configuration d’AEM Assets avec Brand Portal {#configure-brand-portal}
 
-Adobe Experience Manager (AEM) Assets est configuré avec Brand Portal via Adobe Developer Console, qui fournit un jeton IMS pour autoriser votre client Brand Portal.
+Adobe Experience Manager (AEM) Assets est configuré avec Brand Portal via Adobe Developer Console, qui fournit un jeton IMS pour autoriser votre client Brand Portal.
 
 >[!NOTE]
 >
->La configuration d’AEM Assets avec Brand Portal via Adobe Developer Console est prise en charge sur AEM Assets Cloud Service, AEM Assets 6.3 et versions ultérieures.
+>La configuration de AEM Assets avec Brand Portal via Adobe Developer Console est prise en charge sur AEM Assets en tant que Cloud Service, AEM Assets 6.3 et versions ultérieures.
 
 ### Conditions préalables à la configuration d’AEM Assets avec Brand Portal {#prerequisites}
 
