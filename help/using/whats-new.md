@@ -9,11 +9,11 @@ content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
-translation-type: ht
-source-git-commit: 43425f5987c017682d9060dfbbe789a150b2e267
-workflow-type: ht
-source-wordcount: '4753'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 80a7736d384383f7b196fe144ded1a3a4153eb91
+workflow-type: tm+mt
+source-wordcount: '4758'
+ht-degree: 98%
 
 ---
 
@@ -61,16 +61,18 @@ L’administrateur Brand Portal peut activer n’importe quelle combinaison pour
 
 <!--In Brand Portal 6.4.7, fast download, custom renditions, and system renditions are the three configurations available.-->
 
-* Si les trois configurations sont désactivées, les ressources sont téléchargées sans boîte de dialogue supplémentaire, ce qui simplifie l’expérience de téléchargement pour les utilisateurs de Brand Portal. En fonction de la configuration, le workflow de téléchargement reste le même pour les ressources uniques ou multiples, les dossiers contenant des ressources et les ressources qui sont ou non sous licence, ainsi que lorsque les ressources sont téléchargées à l’aide du lien de partage.
+* Si les configurations Rendus **** personnalisés et Rendus **** système sont désactivées, les rendus originaux des ressources sont téléchargés sans boîte de dialogue supplémentaire, ce qui simplifie le téléchargement pour les utilisateurs du portail de marques.
 
 * Si **[!UICONTROL Rendu personnalisé]** ou **[!UICONTROL Rendu système]** est activé, la boîte de dialogue **[!UICONTROL Télécharger]** s’affiche, et la ressource d’origine ainsi que ses rendus sont téléchargés. L’activation de la configuration **[!UICONTROL Téléchargement rapide]** accélère le processus de téléchargement.
+
+En fonction de la configuration, le processus de téléchargement reste constant pour les ressources autonomes, les fichiers multiples, les dossiers contenant des ressources, les ressources sous licence ou non, et le téléchargement des ressources à l’aide du lien de partage.
 
 ![](assets/download-configuration.png)
 
 
 ## Changements dans la version 6.4.6 {#what-changed-in-646}
 
-Dans Brand Portal 6.4.6, le canal d’autorisation entre AEM Assets et Brand Portal a été modifié. Brand Portal est désormais pris en charge sur AEM Assets Cloud Service, AEM Assets 6.3 et versions ultérieures. Jusqu’à AEM Assets 6.3, Brand Portal était configuré dans l’interface utilisateur classique via la passerelle OAuth héritée, qui fait appel à l’échange de jetons JWT pour obtenir un jeton d’accès IMS en vue de l’autorisation. AEM Assets est désormais configuré avec Brand Portal via Adobe Developer Console, qui fournit un jeton IMS pour autoriser votre client Brand Portal.
+Dans Brand Portal 6.4.6, le canal d’autorisation entre AEM Assets et Brand Portal a été modifié. Le portail de marque est désormais pris en charge sur AEM Assets en tant que Cloud Service, AEM Assets 6.3 et versions ultérieures. Jusqu’à AEM Assets 6.3, Brand Portal était configuré dans l’interface utilisateur classique via la passerelle OAuth héritée, qui fait appel à l’échange de jetons JWT pour obtenir un jeton d’accès IMS en vue de l’autorisation. AEM Assets est désormais configuré avec Brand Portal via Adobe Developer Console, qui fournit un jeton IMS pour autoriser votre client Brand Portal.
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
@@ -171,7 +173,6 @@ Lisez les sections suivantes pour en savoir plus sur la recherche de texte parti
 Vous pouvez maintenant rechercher des ressources en spécifiant uniquement une partie (c’est-à-dire un mot ou deux) de l’expression recherchée dans le volet de filtrage.
 
 **Cas d’utilisation**
-
 La recherche par expression partielle s’avère utile lorsque vous n’êtes pas sûr de la combinaison exacte des mots apparaissant dans l’expression recherchée.
 
 Par exemple, si votre formulaire de recherche dans Brand Portal utilise le prédicat de propriété pour une recherche partielle sur le titre des ressources, la spécification du terme **champ** renvoie toutes les ressources contenant le mot champ dans l’expression de leur titre.
