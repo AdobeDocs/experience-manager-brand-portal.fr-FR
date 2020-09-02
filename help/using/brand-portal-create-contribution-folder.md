@@ -9,11 +9,11 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: c359cf9c467fa6d20bebfdf2f8a72e8dd0e50916
-workflow-type: ht
-source-wordcount: '257'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 70d93d37b04d899979e38b454e342ebd78bad3bb
+workflow-type: tm+mt
+source-wordcount: '258'
+ht-degree: 94%
 
 ---
 
@@ -37,7 +37,7 @@ Pour créer un dossier de contribution, procédez comme suit :
 
 1. Cliquez sur **[!UICONTROL Créer]** pour créer un dossier. La boîte de dialogue **[!UICONTROL Créer un dossier]** apparaît.
 
-1. Saisissez le **[!UICONTROL Titre]** et le **[!UICONTROL Nom]** du dossier, puis cochez la case **[!UICONTROL Contribution des ressources]**.
+1. Enter **[!UICONTROL Title]** and **[!UICONTROL Name]** of the folder and select the **[!UICONTROL Asset Contribution]** check box.
 Il est recommandé d’utiliser dans le nom du dossier des lettres minuscules sans espace.
 
 1. Cliquez sur **[!UICONTROL Créer]**. Le dossier de contribution est répertorié dans le référentiel AEM Assets.
