@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 100%
+source-wordcount: '383'
+ht-degree: 98%
 
 ---
 
@@ -39,7 +39,7 @@ Les administrateurs d’AEM peuvent activer l’approvisionnement des ressources
 URL par défaut : http://localhost:4502/system/console/configMgr
 1. À l’aide du mot-clé **Approvisionnement des ressources**, recherchez la **[!UICONTROL configuration de l’indicateur de la fonctionnalité d’approvisionnement des ressources]**.
 1. Cliquez sur **[!UICONTROL Configuration de l’indicateur de la fonctionnalité d’approvisionnement des ressources]** pour ouvrir la fenêtre de configuration.
-1. Cochez la case **[!UICONTROL feature.flag.active.status]**.
+1. Cochez la case **[!UICONTROL feature.flag.principal.status]** .
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 ![](assets/enable-asset-sourcing.png)
