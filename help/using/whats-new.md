@@ -10,7 +10,7 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 80a7736d384383f7b196fe144ded1a3a4153eb91
+source-git-commit: 69ed6cd7dc3dad8c3d3b0a82a8480cbeb5a61af4
 workflow-type: tm+mt
 source-wordcount: '4758'
 ht-degree: 98%
@@ -48,7 +48,7 @@ Avec la visionneuse de document, les utilisateurs de Brand Portal peuvent désor
 
 ### Expérience de téléchargement {#download-configurations}
 
-Le processus de téléchargement des ressources a été repensé de façon à simplifier l’expérience de l’utilisateur lorsqu’il télécharge des ressources à partir de Brand Portal.
+The asset download process is revamped, providing a simplified user experience while [downloading assets from Brand Portal](brand-portal-download-users.md).
 
 Le workflow actuel de téléchargement de ressources à partir de Brand Portal est nécessairement suivi de l’apparition d’une boîte de dialogue **[!UICONTROL Télécharger]** avec plusieurs options de téléchargement.
 
