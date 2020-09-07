@@ -5,9 +5,9 @@ sub-product: experience manager brand portal
 audience: end-user
 user-guide-title: AEM Brand Portal
 user-guide-description: Use AEM Assets Brand Portal to meet marketing needs by securely distributing approved brand and product assets to external agencies, partners, internal teams, and resellers for download.
-translation-type: ht
-source-git-commit: 3ef894f4aa6f12054716315b343d3f85246a313e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 628c051cad7c3d3923b1b6c7f7eaf0e353f13227
+workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 100%
 
@@ -56,7 +56,7 @@ ht-degree: 100%
    + [Recherche de ressources sur Brand Portal](using/brand-portal-searching.md)
    + [Utilisation des facettes de recherche personnalisée](using/brand-portal-search-facets.md)
 + Utilisation des fonctionnalités de téléchargement {#download}
-   + [Téléchargement de ressources](using/brand-portal-download-users.md)
+   + [Téléchargement de ressources](using/brand-portal-download-assets.md)
    + [Prise en charge de la vidéo dynamique sur Brand Portal](using/dynamic-video-brand-portal.md)
    + [Gestion de la collection Lightbox](using/brand-portal-light-box.md)
    + [Gestion des droits numériques des ressources](using/manage-digital-rights-of-assets.md)
