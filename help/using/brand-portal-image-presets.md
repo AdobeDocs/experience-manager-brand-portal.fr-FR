@@ -2,17 +2,17 @@
 title: Application de paramètres d’image prédéfinis ou de rendus dynamiques
 seo-title: Application de paramètres d’image prédéfinis ou de rendus dynamiques
 description: 'Tout comme une macro, un paramètre d’image prédéfini est un ensemble prédéfini de commandes de dimensionnement et de formatage enregistrées sous un nom. Les paramètres d’image prédéfinis permettent à AEM Assets Brand Portal de fournir dynamiquement des images ayant des tailles, des propriétés et des formats différents. '
-seo-description: 'Tout comme une macro, un paramètre d’image prédéfini est une collection  ensemble prédéfinie de commandes de dimensionnement et de formatage enregistrées sous un nom. Les paramètres d’image prédéfinis permettent à AEM Assets Brand Portal de fournir dynamiquement des images ayant des tailles, des propriétés et des formats différents. '
+seo-description: 'Tout comme une macro, un paramètre d’image prédéfini est un ensemble prédéfini de commandes de dimensionnement et de formatage enregistrées sous un nom. Les paramètres d’image prédéfinis permettent à AEM Assets Brand Portal de fournir dynamiquement des images ayant des tailles, des propriétés et des formats différents. '
 uuid: a3c8705c-5fbd-472c-8b61-f65b3e552c1b
 content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 translation-type: tm+mt
-source-git-commit: 8fb85750f30ea1fee93cd770b94412bed7698c17
+source-git-commit: fd116ab18140ed0b90c71107746ee971103765ff
 workflow-type: tm+mt
 source-wordcount: '871'
-ht-degree: 90%
+ht-degree: 89%
 
 ---
 
@@ -23,7 +23,7 @@ Tout comme une macro, un paramètre d’image prédéfini est un ensemble préd�
 
 Un paramètre d’image prédéfini est utilisé pour générer des rendus dynamiques d’images qui peuvent être prévisualisées et téléchargées. Lorsque vous prévisualisez des images et leurs rendus, vous pouvez choisir un paramètre prédéfini en vue de reformater les images selon les spécifications définies par l’administrateur.
 
-(*Si l’instance AEM (Auteur) s’exécute en mode **hybride Contenu multimédia***dynamique) Pour vue des rendus dynamiques d’un fichier dans le portail de marques, assurez-vous que son rendu tiff pyramidal existe dans l’instance d’AEM auteur à partir de laquelle vous publiez sur le portail de marques. Lorsque vous publiez une ressource, son rendu PTIFF est également publié sur Brand Portal.
+(*If AEM author instance is running on **Dynamic Media Hybrid mode***) To view dynamic renditions of an asset in Brand Portal, ensure that its Pyramid tiff rendition exists at the AEM author instance from where you publish to Brand Portal. Lorsque vous publiez une ressource, son rendu PTIFF est également publié sur Brand Portal.
 
 >[!NOTE]
 >
@@ -34,16 +34,16 @@ Pour plus d’informations sur les paramètres requis lors de la création de pa
 
 ## Création d’un paramètre d’image prédéfini {#create-an-image-preset}
 
-Les administrateurs AEM peuvent créer des paramètres d’image prédéfinis qui apparaissent sous la forme de rendus dynamiques dans la page des détails du fichier. Vous pouvez créer entièrement un paramètre d’image prédéfini ou en enregistrer un existant sous un nouveau nom. Lors de la création d’un paramètre d’image prédéfini, choisissez une taille pour la diffusion des images et les commandes de formatage. Lorsqu’une image est diffusée en vue d’être affichée, son aspect est optimisé selon les commandes sélectionnées.
+Les administrateurs d’AEM peuvent créer des paramètres d’image prédéfinis qui apparaissent comme des rendus dynamiques sur la page des détails des ressources. Vous pouvez créer entièrement un paramètre d’image prédéfini ou en enregistrer un existant sous un nouveau nom. Lors de la création d’un paramètre d’image prédéfini, choisissez une taille pour la diffusion des images et les commandes de formatage. Lorsqu’une image est diffusée en vue d’être affichée, son aspect est optimisé selon les commandes sélectionnées.
 
 
 >[!NOTE]
 >
->Les rendus dynamiques d’une image sont créés à l’aide de son fichier Pyramid TIFF. Si le fichier Pyramid TIFF n’est disponible pour aucune ressource, les rendus dynamiques de cette ressource ne peuvent pas être récupérés dans Brand Portal.
+>Les rendus dynamiques d’une image sont créés à l’aide de son fichier Pyramid TIFF. Si le fichier Pyramid TIFF n’est disponible pour aucune ressource, les rendus dynamiques de cette ressource ne peuvent pas être récupérés dans Brand Portal.
 >
->Si l’instance AEM (Author) est en cours d’exécution en mode **Dynamic Media hybride**, les rendus Pyramid TIFF des ressources d’image sont créés et enregistrés dans le référentiel AEM.
+>If AEM author instance is running on **Dynamic Media Hybrid mode**, then Pyramid TIFF renditions of image assets are created and saved in AEM repository.
 >
->En revanche, si l’instance AEM (Author) est en cours d’exécution en mode **Dynamic Media Scene 7**, les rendus Pyramid TIFF des ressources d’image existent sur le serveur Scene 7.
+>Whereas, if AEM author instance is running on **Dynamic Media Scene 7 mode**, then Pyramid TIFF renditions of image assets exist on Scene 7 server.
 >Lorsque des ressources de ce type sont publiées sur Brand Portal, les paramètres d’image prédéfinis sont appliqués et les rendus dynamiques sont affichés.
 
 
@@ -57,7 +57,7 @@ Les administrateurs AEM peuvent créer des paramètres d’image prédéfinis qu
 
    ![](assets/image_preset_homepage.png)
 
-1. Dans la page **[!UICONTROL Modifier le paramètre d’image prédéfini]**, saisissez des valeurs opportunesadéquates dans les onglets **[!UICONTROL De base]** et **[!UICONTROL Avancé]**, notamment un nom. The options are outlined in [Image Preset options](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html#Image%20preset%20options). Les paramètres prédéfinis s’affichent dans le volet de gauche et peuvent être utilisés à la volée avec d’autres ressources.
+1. Dans la page **[!UICONTROL Modifier le paramètre d’image prédéfini]**, saisissez les valeurs adéquates dans les onglets **[!UICONTROL De base]** et **[!UICONTROL Avancé]**, notamment un nom. Les options sont décrites dans [Options d’image prédéfinies](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html#Image%20preset%20options). Les paramètres prédéfinis s’affichent dans le volet de gauche et peuvent être utilisés à la volée avec d’autres ressources.
 
    ![](assets/image_preset_create.png)
 
@@ -68,7 +68,7 @@ Les administrateurs AEM peuvent créer des paramètres d’image prédéfinis qu
 1. Cliquez sur **[!UICONTROL Enregistrer]**. Le paramètre d’image prédéfini est créé et affiché dans la page des paramètres d’image prédéfinis.
 1. Pour supprimer un paramètre d’image prédéfini, sélectionnez-le dans la page des paramètres d’image prédéfinis et cliquez sur **[!UICONTROL Supprimer]**. Dans la page de confirmation, cliquez sur **[!UICONTROL Supprimer]** pour confirmer la suppression. Le paramètre d’image prédéfini est supprimé de la page des paramètres d’image prédéfinis.
 
-## Application de paramètres d’image prédéfinis lors de la prévisualisation d’images  {#apply-image-presets-when-previewing-images}
+## Application de paramètres d’image prédéfinis lors de la prévisualisation d’images    {#apply-image-presets-when-previewing-images}
 
 Lorsque vous prévisualisez des images et leurs rendus, choisissez parmi les paramètres prédéfinis existants pour reformater les images selon les spécifications définies par l’administrateur.
 
@@ -81,13 +81,13 @@ Lorsque vous prévisualisez des images et leurs rendus, choisissez parmi les par
 
    ![](assets/image-preset-previewrenditionthumbnail.png)
 
-## Application de paramètres d’image prédéfinis lors du téléchargement d’images {#apply-image-presets-when-downloading-images}
+## Application de paramètres d’image prédéfinis lors du téléchargement d’images  {#apply-image-presets-when-downloading-images}
 
 Lorsque vous téléchargez des images et leurs rendus à partir de Brand Portal, vous ne pouvez pas effectuer de choix parmi les paramètres d’image prédéfinis existants. Vous pouvez toutefois personnaliser les propriétés des paramètres d’image prédéfinis en fonction du reformatage souhaité des images.
 
 1. Dans l’interface de Brand Portal, effectuez l’une des opérations suivantes :
 
-   * Placez le pointeur sur l’image que vous souhaitez télécharger. Dans les vignettesminiatures d’action rapide disponibles, cliquez sur l’icône **[!UICONTROL Télécharger]**.
+   * Placez le pointeur sur l’image que vous souhaitez télécharger. Dans les miniatures d’action rapide disponibles, cliquez sur l’icône **[!UICONTROL Télécharger]**.
 
    ![](assets/downloadsingleasset.png)
 
