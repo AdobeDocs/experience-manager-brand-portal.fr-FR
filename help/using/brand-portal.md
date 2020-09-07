@@ -9,10 +9,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
+source-git-commit: fd116ab18140ed0b90c71107746ee971103765ff
 workflow-type: tm+mt
 source-wordcount: '1524'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,13 +30,13 @@ Voir [Approvisionnement des ressources dans Brand Portal](brand-portal-asset-sou
 
 L’environnement de portail de type navigateur permet de télécharger, parcourir, rechercher, prévisualiser et exporter facilement des ressources dans des formats approuvés.
 
-## Configuration d’AEM Assets avec Brand Portal {#configure-brand-portal}
+## Configuration d’AEM Assets avec Brand Portal {#configure-brand-portal}
 
 Adobe Experience Manager (AEM) Assets est configuré avec Brand Portal via Adobe Developer Console, qui fournit un jeton IMS pour autoriser votre client Brand Portal.
 
 >[!NOTE]
 >
->La configuration de AEM Assets avec Brand Portal via Adobe Developer Console est prise en charge sur AEM Assets en tant que Cloud Service, AEM Assets 6.3 et versions ultérieures.
+>La configuration d’AEM Assets avec Brand Portal via Adobe Developer Console est prise en charge sur AEM Assets as a Cloud Service, AEM Assets 6.3 et versions ultérieures.
 
 ### Conditions préalables à la configuration d’AEM Assets avec Brand Portal {#prerequisites}
 
@@ -88,7 +88,7 @@ La session d’invité vous empêche toutefois de créer des collections et des 
 
 [Recherche parmi les ressources publiques](brand-portal-searching.md)
 
-[Téléchargement de ressources publiques](brand-portal-download-users.md)
+[Téléchargement de ressources publiques](brand-portal-download-assets.md)
 
 [Ajout de ressources à [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
 
@@ -100,7 +100,7 @@ Dans Brand Portal, un utilisateur standard est généralement un utilisateur qu
 
 [Recherche de ressources](brand-portal-searching.md)
 
-[Téléchargement de ressources](brand-portal-download-users.md)
+[Téléchargement de ressources](brand-portal-download-assets.md)
 
 ### Éditeur {#editor}
 
