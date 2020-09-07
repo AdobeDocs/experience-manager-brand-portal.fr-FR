@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 69ed6cd7dc3dad8c3d3b0a82a8480cbeb5a61af4
+source-git-commit: fd116ab18140ed0b90c71107746ee971103765ff
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
@@ -45,7 +45,7 @@ Cette version comprend les nouvelles fonctionnalités suivantes :
 * Download Settings configuration to configure asset download from Brand Portal. Fast download, custom renditions, and system renditions are the available configurations. 
 -->
 
-* Advances in the asset download process which improves the Brand Portal user experience while [downloading assets from Brand Portal](brand-portal-download-users.md). Les administrateurs de Brand Portal peuvent configurer les options **[!UICONTROL Téléchargement rapide]**, **[!UICONTROL Rendus personnalisés]** et **[!UICONTROL Rendus système]** dans les paramètres **[!UICONTROL Télécharger]**.
+* Advances in the asset download process which improves the Brand Portal user experience while [downloading assets from Brand Portal](brand-portal-download-assets.md). Les administrateurs de Brand Portal peuvent configurer les options **[!UICONTROL Téléchargement rapide]**, **[!UICONTROL Rendus personnalisés]** et **[!UICONTROL Rendus système]** dans les paramètres **[!UICONTROL Télécharger]**.
 
 Pour plus d’informations, voir [Nouveautés de Brand Portal 6.4.7](whats-new.md).
 
@@ -59,7 +59,7 @@ Cette version comprend des correctifs pour les problèmes critiques suivants :
 
 * La recherche prend plus de temps pour afficher les résultats de certains mots-clés.
 
-* The **[!UICONTROL Agree]** and **[!UICONTROL Disagree]** check boxes does not appear on bulk selection of licensed and unlicensed assets during download.
+* Au cours du téléchargement, les cases à cocher **[!UICONTROL Accepter]** et **[!UICONTROL Refuser]** n’apparaissent pas lors de la sélection en bloc de ressources qui sont ou non sous licence.
 
 * La recherche basée sur des filtres affiche le traitement sur l’interface du produit sans résultat de recherche.
 
@@ -83,12 +83,12 @@ L’interface utilisateur de Brand Portal est disponible dans les langues suiva
 * Français
 * Espagnol
 * Italien
-* Brésilien   Portugais
+* Brésilien  Portugais
 * Japonais
 * Chinois simplifié
 * Coréen
 
-## Plates-formes certifiées   {#certified-platforms}
+## Plates-formes certifiées  {#certified-platforms}
 
 Pour vérifier quelles sont les plates-formes certifiées pour exécuter cette version de Brand Portal, reportez-vous à la colonne **Prise en charge de l’interface utilisateur optimisée pour les écrans tactiles** du tableau **Navigateurs pris en charge pour l’interface utilisateur de création** dans la section [Exigences techniques](https://helpx.adobe.com/fr/experience-manager/6-4/sites/deploying/using/technical-requirements.html).
 
