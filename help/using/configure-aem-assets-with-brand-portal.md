@@ -1,6 +1,6 @@
 ---
-title: Configuration d’AEM Assets avec Brand Portal
-seo-title: Configuration d’AEM Assets avec Brand Portal
+title: Configuration d’AEM Assets avec Brand Portal
+seo-title: Configuration d’AEM Assets avec Brand Portal
 description: Découvrez comment configurer AEM Assets avec Brand Portal.
 seo-description: Découvrez comment configurer AEM Assets avec Brand Portal.
 uuid: null
@@ -9,26 +9,26 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: de21e84b93a657570db2024c2ceba58704ba5844
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '334'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
 
-# Configuration d’AEM Assets avec Brand Portal {#configure-integration}
+# Configuration d’AEM Assets avec Brand Portal {#configure-integration}
 
-La configuration de Adobe Experience Manager Assets en tant que Cloud Service avec Adobe Experience Manager Assets Brand Portal permet de publier et de distribuer des fichiers avec les utilisateurs du portail de marques. En revanche, la configuration de AEM 6.3 (et versions ultérieures) avec le portail de marque permet aux utilisateurs du portail de marque de publier des fichiers, de distribuer des fichiers et de contribuer aux fichiers.
+La configuration d’Adobe Experience Manager Assets as a Cloud Service avec Adobe Experience Manager Assets Brand Portal permet de publier et de distribuer des ressources avec les utilisateurs de Brand Portal. En revanche, la configuration d’AEM 6.3 (et versions ultérieures) avec Brand Portal permet aux utilisateurs de Brand Portal de bénéficier de fonctions de publication, de distribution et de contribution des ressources.
 
-Adobe Experience Manager Assets est configuré avec Brand Portal via Adobe Developer Console, qui fournit un jeton IMS (Adobe Identity Management Services) pour l’autorisation de votre locataire du portail Marque.
+Adobe Experience Manager Assets est configuré avec Brand Portal via Adobe Developer Console, qui fournit un jeton Adobe Identity Management Services (IMS) pour autoriser votre client Brand Portal.
 
 >[!NOTE]
 >
 >***Pour AEM Assets 6.3 et versions ultérieures***
 >
->Auparavant, le portail de marque était configuré dans une interface classique via la passerelle OAuth héritée, qui utilise l’échange JSON Web token (JWT) pour obtenir un jeton IMS pour autorisation.
+>Auparavant, Brand Portal était configuré dans l’interface classique via la passerelle OAuth héritée, qui fait appel à l’échange de jetons web JSON (JWT) pour obtenir un jeton IMS en vue de l’autorisation.
 >
 >La configuration via application OAuth héritée n’est plus prise en charge à partir du 6 avril 2020 et est remplacée par la configuration via Adobe Developer Console.
 
@@ -42,7 +42,7 @@ Adobe Experience Manager Assets est configuré avec Brand Portal via Adobe Devel
 >Si vous rencontrez des problèmes avec la configuration héritée de la passerelle OAuth, supprimez la configuration existante et créez une configuration via Adobe Developer Console.
 
 
-Les étapes de configuration d’AEM Assets avec Brand Portal sont différentes selon la version de votre AEM et selon que vous configurez pour la première fois ou mettez à niveau les configurations existantes :
+Les étapes de configuration d’AEM Assets avec Brand Portal sont différentes selon votre version d’AEM et selon que vous effectuez une configuration pour la première fois ou une mise à niveau des configurations existantes :
 
 | **Version d’AEM** | **Nouvelle configuration** | **Mise à niveau de la configuration** |
 |---|---|---|
