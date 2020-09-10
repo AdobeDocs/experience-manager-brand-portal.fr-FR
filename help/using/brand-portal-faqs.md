@@ -9,11 +9,11 @@ contentOwner: Vishabh Gupta
 topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1522'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Effectuez les étapes suivantes pour configurer l’agent de réplication :
 1. Cliquez sur l’URL de l’agent de réplication pour ouvrir les détails le concernant.
 1. Cliquez sur **[!UICONTROL Modifier]** pour modifier les paramètres de l’agent de réplication.
 1. Dans Paramètres d’agent, cliquez sur l’onglet **[!UICONTROL Étendu]**.
-1. Cochez la case **[!UICONTROL Fermer la connexion]** .
+1. Cochez la case **[!UICONTROL Fermer la connexion]**.
 1. Répétez les étapes 4 à 7 pour configurer les quatre agents de réplication.
 1. Redémarrez le serveur et vérifiez la connexion.
 
