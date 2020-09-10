@@ -9,11 +9,11 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '383'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Les administrateurs AEM peuvent configurer **l’approvisionnement des ressource
 
 La vidéo suivante explique comment configurer l’approvisionnement des ressources sur l’instance d’auteur AEM :
 
->[!VIDEO](https://video.tv.adobe.com/v/29771)
+>[!VIDEO](https://video.tv.adobe.com/v/29771?captions=fre_fr)
 
 ## Activation de l’approvisionnement des ressources {#enable-asset-sourcing}
 
@@ -39,7 +39,7 @@ Les administrateurs d’AEM peuvent activer l’approvisionnement des ressources
 URL par défaut : http://localhost:4502/system/console/configMgr
 1. À l’aide du mot-clé **Approvisionnement des ressources**, recherchez la **[!UICONTROL configuration de l’indicateur de la fonctionnalité d’approvisionnement des ressources]**.
 1. Cliquez sur **[!UICONTROL Configuration de l’indicateur de la fonctionnalité d’approvisionnement des ressources]** pour ouvrir la fenêtre de configuration.
-1. Cochez la case **[!UICONTROL feature.flag.principal.status]** .
+1. Cochez la case **[!UICONTROL feature.flag.active.status]**.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 ![](assets/enable-asset-sourcing.png)
