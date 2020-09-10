@@ -9,11 +9,11 @@ topic-tags: administration
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 307bed102148f6e5a68bac8273a93729b9d49854
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '402'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -37,9 +37,9 @@ Ces fonctionnalités sont proposées sous la forme de configurations de **[!UICO
 
 **C** Configuration autorisant les utilisateurs non administrateurs à créer des collections dynamiques publiques. (activée par défaut).
 
-**D** Configuration pour afficher la hiérarchie des dossiers (de la racine) des dossiers partagés aux utilisateurs non administrateurs (éditeurs, visionneuses, utilisateurs invités). (désactivée par défaut).
+**D** Configuration pour afficher la hiérarchie de dossiers (à partir de la racine) partagés pour les utilisateurs non-administrateurs (éditeurs, observateurs et utilisateurs invités) (désactivée par défaut).
 
-## Activation/désactivation des configurations générales    {#enable-disable-general-configurations}
+## Activation/désactivation des configurations générales      {#enable-disable-general-configurations}
 
 Pour activer/désactiver chacune de ces configurations :
 
@@ -50,17 +50,17 @@ Pour activer/désactiver chacune de ces configurations :
 1. **[!UICONTROL Enregistrez]** les modifications.
 1. Déconnectez-vous pour que les modifications soient appliquées.
 
-## Autorisation de la suppression des ressources de Brand Portal par les utilisateurs administrateurs  {#allow-admin-users-to-delete-assets-from-brand-portal}
+## Autorisation de la suppression des ressources de Brand Portal par les utilisateurs administrateurs  {#allow-admin-users-to-delete-assets-from-brand-portal}
 
-**[!UICONTROL La configuration Autoriser les utilisateurs à supprimer]** permet aux organisations d’autoriser les utilisateurs avec les privilèges d’administrateur à supprimer des ressources et des dossiers de Brand Portal, ou de les en restreindre.
+**[!UICONTROL La configuration Autoriser les utilisateurs à supprimer]** permet aux organisations d’autoriser les utilisateurs avec les privilèges d’administrateur à supprimer des ressources et des dossiers de Brand Portal, ou de les en restreindre.
 
-## Autorisation de la création de collections publiques par les utilisateurs non administrateurs {#allow-public-collections-creation-by-non-admins}
+## Autorisation de la création de collections publiques par les utilisateurs non-administrateurs {#allow-public-collections-creation-by-non-admins}
 
-La configuration [[!UICONTROL Autoriser la création de collections publiques]](../using/brand-portal-share-collection.md#main-pars-text-1915052376) contrôle si les utilisateurs non administrateurs peuvent créer des collections publiques sur Brand Portal. La configuration est activée par défaut. En la désactivant, les organisations peuvent éviter d’avoir de nombreuses collections publiques sur leur portail afin d’économiser l’espace du système.
+La configuration [[!UICONTROL Autoriser la création de collections publiques]](../using/brand-portal-share-collection.md#main-pars-text-1915052376) contrôle si les utilisateurs non-administrateurs peuvent créer des collections publiques sur Brand Portal. La configuration est activée par défaut. En la désactivant, les organisations peuvent éviter d’avoir de nombreuses collections publiques sur leur portail afin d’économiser l’espace du système.
 
 ## Autorisation de la création de collections dynamiques publiques par les utilisateurs non administrateurs {#allow-public-smart-collections-creation-by-non-admins}
 
-La configuration [[!UICONTROL Autoriser la création de collections dynamiques publiques]](../using/brand-portal-searching.md#main-pars-header-500620467) contrôle si les non administrateurs peuvent enregistrer leurs recherches sous la forme de collections dynamiques et les rendre publiques pour ce client. La configuration est activée par défaut. En la désactivant, les organisations peuvent éviter la création d’un nombre très important de collections dynamiques publiques par les utilisateurs non-administrateurs sur le Brand Portal de l’organisation.
+La configuration [[!UICONTROL Autoriser la création de collections dynamiques publiques]](../using/brand-portal-searching.md#main-pars-header-500620467) contrôle si les non-administrateurs peuvent enregistrer leurs recherches sous la forme de collections dynamiques et les rendre publiques pour ce client. La configuration est activée par défaut. En la désactivant, les organisations peuvent éviter la création d’un nombre très important de collections dynamiques publiques par les utilisateurs non-administrateurs sur le Brand Portal de l’organisation.
 
 <!-- 
 ## Allow download acceleration {#allow-download-acceleration}
@@ -68,6 +68,6 @@ La configuration [[!UICONTROL Autoriser la création de collections dynamiques p
 [[!UICONTROL Allow download acceleration]](../using/accelerated-download.md) configuration lets the organizations to allow accelerated downloads of assets from Brand Portal and shared links, by integrating with IBM Aspera Connect that is an install-on-demand application. The application uses proprietary technology to remove TCP overheads.
 -->
 
-## Activation de la hiérarchie de dossiers    {#enable-folder-hierarchy}
+## Activation de la hiérarchie de dossiers  {#enable-folder-hierarchy}
 
 La configuration [[!UICONTROL Activer la hiérarchie de dossiers]](../using/brand-portal-sharing-folders.md#non-admin-user-access-to-shared-folders) permet aux administrateurs de contrôler la façon dont, une fois connectés, les utilisateurs non-administrateurs (éditeurs, observateurs et utilisateurs invités) voient les dossiers partagés.
