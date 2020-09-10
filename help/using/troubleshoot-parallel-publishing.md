@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: 77555866aaf5185a99b83d94f265ad08ec2b337e
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 100%
+source-wordcount: '892'
+ht-degree: 94%
 
 ---
 
@@ -120,17 +120,15 @@ En fonction des erreurs, nous vous conseillons de soumettre un ticket d’assist
 
 ## Configuration des agents de réplication pour éviter l’erreur de délai d’expiration de connexion {#connection-timeout}
 
-**Problème** : je ne parviens pas à publier des ressources sur Brand Portal à partir d’AEM Assets. Le journal de réplication indique que la connexion a expiré.
-
-**Résolution** : en règle générale, la publication échoue avec une erreur de délai d’expiration si plusieurs requêtes en attente se trouvent dans la file d’attente de réplication. Pour résoudre ce problème, assurez-vous que les agents de réplication sont configurés pour éviter l’expiration.
+En règle générale, la tâche de publication échoue avec une erreur de délai d’expiration si plusieurs requêtes en attente se trouvent dans la file d’attente de réplication. Pour résoudre ce problème, assurez-vous que les agents de réplication sont configurés pour éviter le délai d’attente.
 
 Effectuez les étapes suivantes pour configurer l’agent de réplication :
 1. Connectez-vous à votre instance d’auteur AEM Assets.
 1. Dans le panneau **Outils**, accédez à **[!UICONTROL Déploiement]** > **[!UICONTROL Réplication]**.
-1. Sur la page Réplication, cliquez sur **[!UICONTROL Agents sur l’auteur]**. Vous voyez les quatre agents de réplication pour votre client Brand Portal.
+1. Sur la page Réplication, cliquez sur **[!UICONTROL Agents sur l’auteur]**. Vous pouvez voir les quatre agents de réplication de votre locataire du portail de marque.
 1. Cliquez sur l’URL de l’agent de réplication pour ouvrir les détails le concernant.
 1. Cliquez sur **[!UICONTROL Modifier]** pour modifier les paramètres de l’agent de réplication.
 1. Dans Paramètres d’agent, cliquez sur l’onglet **[!UICONTROL Étendu]**.
-1. Cochez la case **[!UICONTROL Fermer la connexion]** .
+1. Cochez la case **[!UICONTROL Fermer la connexion]**.
 1. Répétez les étapes 4 à 7 pour configurer les quatre agents de réplication.
 1. Redémarrez le serveur.
