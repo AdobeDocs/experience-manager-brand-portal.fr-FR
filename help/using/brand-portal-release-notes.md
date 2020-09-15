@@ -9,11 +9,11 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fd116ab18140ed0b90c71107746ee971103765ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '506'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Cette version comprend les nouvelles fonctionnalités suivantes :
 * Download Settings configuration to configure asset download from Brand Portal. Fast download, custom renditions, and system renditions are the available configurations. 
 -->
 
-* Advances in the asset download process which improves the Brand Portal user experience while [downloading assets from Brand Portal](brand-portal-download-assets.md). Les administrateurs de Brand Portal peuvent configurer les options **[!UICONTROL Téléchargement rapide]**, **[!UICONTROL Rendus personnalisés]** et **[!UICONTROL Rendus système]** dans les paramètres **[!UICONTROL Télécharger]**.
+* Le processus de téléchargement des ressources a été repensé de façon à simplifier l’expérience de l’utilisateur lorsqu’il [télécharge des ressources à partir de Brand Portal](brand-portal-download-assets.md). Les administrateurs de Brand Portal peuvent configurer les options **[!UICONTROL Téléchargement rapide]**, **[!UICONTROL Rendus personnalisés]** et **[!UICONTROL Rendus système]** dans les paramètres **[!UICONTROL Télécharger]**.
 
 Pour plus d’informations, voir [Nouveautés de Brand Portal 6.4.7](whats-new.md).
 
@@ -83,12 +83,12 @@ L’interface utilisateur de Brand Portal est disponible dans les langues suiva
 * Français
 * Espagnol
 * Italien
-* Brésilien  Portugais
+* Brésilien   Portugais
 * Japonais
 * Chinois simplifié
 * Coréen
 
-## Plates-formes certifiées  {#certified-platforms}
+## Plates-formes certifiées   {#certified-platforms}
 
 Pour vérifier quelles sont les plates-formes certifiées pour exécuter cette version de Brand Portal, reportez-vous à la colonne **Prise en charge de l’interface utilisateur optimisée pour les écrans tactiles** du tableau **Navigateurs pris en charge pour l’interface utilisateur de création** dans la section [Exigences techniques](https://helpx.adobe.com/fr/experience-manager/6-4/sites/deploying/using/technical-requirements.html).
 
