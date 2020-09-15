@@ -8,11 +8,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f4f92724cdd4ba8c79d3d72de5cba9451dceadb1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1294'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -90,7 +90,7 @@ Test..
 >Seuls les administrateurs peuvent télécharger les ressources expirées. Pour plus d’informations sur les ressources arrivées à expiration, voir [Gestion des droits numériques des ressources](../using/manage-digital-rights-of-assets.md).
 
 
-## Étapes de téléchargement des ressources  {#steps-to-download-assets}
+## Étapes de téléchargement des ressources   {#steps-to-download-assets}
 
 Vous trouverez ci-dessous la procédure à suivre pour télécharger des ressources ou des dossiers contenant des ressources à partir de Brand Portal :
 
@@ -157,7 +157,7 @@ Vous trouverez ci-dessous la procédure à suivre pour télécharger des ressour
       >
       >Brand Portal prend en charge la configuration de Dynamic Media dans les modes hybride et Scene 7.
       >
-      >(*If AEM author instance is running on **Dynamic Media Hybrid mode***)      >Pour prévisualiser ou télécharger les rendus dynamiques d’une ressource, vérifiez que Dynamic Media est activé et que le rendu Pyramid TIFF de la ressource existe au niveau de l’instance d’auteur AEM Assets à partir de laquelle les ressources ont été publiées. Lorsqu’une ressource est publiée sur Brand Portal, son rendu Pyramid TIFF l’est également.
+      >(*Si l’instance (d’auteur) AEM est en cours d’exécution en mode **hybride Dynamic Media***.)      >Pour prévisualiser ou télécharger les rendus dynamiques d’une ressource, vérifiez que Dynamic Media est activé et que le rendu Pyramid TIFF de la ressource existe au niveau de l’instance d’auteur AEM Assets à partir de laquelle les ressources ont été publiées. Lorsqu’une ressource est publiée sur Brand Portal, son rendu Pyramid TIFF l’est également.
 
    * Pour conserver la hiérarchie des dossiers de Brand Portal lors du téléchargement des ressources, cochez la case **[!UICONTROL Créer un dossier distinct pour chaque ressource]**. Par défaut, la hiérarchie des dossiers de Brand Portal est ignorée, et toutes les ressources sont téléchargées dans un dossier de votre système local.
 
