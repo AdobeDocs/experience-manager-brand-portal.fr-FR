@@ -8,11 +8,11 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a502a60a7d93595a202d50a79e2374c8d9734486
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '892'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ ii. Supprimez
    i. Recherchez l’utilisateur `mac-<tenantid>replication`
 ii. supprimez cet utilisateur.
 
-Le système est maintenant complètement nettoyé. Vous pouvez à présent essayer de créer            une configuration cloudservice et continuer à utiliser l’application JWT existante sur [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/). Il n’est pas nécessaire de créer une application ; seule la clé publique doit être mise à jour à partir de la configuration cloud que vous venez de créer.
+Le système est maintenant complètement nettoyé. Vous pouvez à présent essayer de créer              une configuration cloudservice et continuer à utiliser l’application JWT existante sur [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/). Il n’est pas nécessaire de créer une application ; seule la clé publique doit être mise à jour à partir de la configuration cloud que vous venez de créer.
 
 ## Problème de visibilité des clients d’applications JWT sur Developer Connection {#developer-connection-jwt-application-tenant-visibility-issue}
 
@@ -120,12 +120,12 @@ En fonction des erreurs, nous vous conseillons de soumettre un ticket d’assist
 
 ## Configuration des agents de réplication pour éviter l’erreur de délai d’expiration de connexion {#connection-timeout}
 
-En règle générale, la tâche de publication échoue avec une erreur de délai d’expiration si plusieurs requêtes en attente se trouvent dans la file d’attente de réplication. Pour résoudre ce problème, assurez-vous que les agents de réplication sont configurés pour éviter le délai d’attente.
+En règle générale, la tâche de publication échoue avec une erreur de délai d’expiration si plusieurs requêtes en attente se trouvent dans la file d’attente de réplication. Pour résoudre ce problème, assurez-vous que les agents de réplication sont configurés pour éviter l’expiration.
 
-Effectuez les étapes suivantes pour configurer les agents de réplication :
+Effectuez les étapes suivantes pour configurer les agents de réplication :
 1. Connectez-vous à votre instance d’auteur AEM Assets.
 1. Dans le panneau **Outils**, accédez à **[!UICONTROL Déploiement]** > **[!UICONTROL Réplication]**.
-1. Sur la page Réplication, cliquez sur **[!UICONTROL Agents sur l’auteur]**. Vous pouvez voir les quatre agents de réplication de votre locataire du portail de marque.
+1. Sur la page Réplication, cliquez sur **[!UICONTROL Agents sur l’auteur]**. Vous voyez les quatre agents de réplication de votre client Brand Portal.
 1. Cliquez sur l’URL de l’agent de réplication pour ouvrir les détails le concernant.
 1. Cliquez sur **[!UICONTROL Modifier]** pour modifier les paramètres de l’agent de réplication.
 1. Dans Paramètres d’agent, cliquez sur l’onglet **[!UICONTROL Étendu]**.
