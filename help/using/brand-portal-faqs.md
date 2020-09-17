@@ -9,11 +9,11 @@ contentOwner: Vishabh Gupta
 topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a87f85a11e8892e6f306a003d971403581a9e3d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1521'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Ce problème peut se produire lorsque vous avez configuré un client Brand Porta
 
 **Question Je ne parviens pas à publier des ressources sur Brand Portal à partir d’AEM Assets. Le journal de réplication indique que la connexion a expiré. Y a-t-il une solution rapide ?**
 
-**Réponse** En règle générale, la publication échoue avec une erreur de délai d’expiration si plusieurs requêtes en attente se trouvent dans la file d’attente de réplication. Pour résoudre ce problème, assurez-vous que les agents de réplication sont configurés pour éviter le délai d’attente.
+**Réponse** En règle générale, la tâche de publication échoue avec une erreur de délai d’expiration si plusieurs requêtes en attente se trouvent dans la file d’attente de réplication. Pour résoudre ce problème, assurez-vous que les agents de réplication sont configurés pour éviter l’expiration.
 
 Effectuez les étapes suivantes pour configurer l’agent de réplication :
 1. Connectez-vous à votre instance d’auteur AEM Assets.
