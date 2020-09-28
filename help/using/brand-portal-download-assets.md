@@ -8,11 +8,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
-translation-type: ht
-source-git-commit: f4f92724cdd4ba8c79d3d72de5cba9451dceadb1
-workflow-type: ht
-source-wordcount: '1294'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ca789ebfa9534a554e9fb973a36f8bef827a3a0d
+workflow-type: tm+mt
+source-wordcount: '1356'
+ht-degree: 95%
 
 ---
 
@@ -116,6 +116,12 @@ Vous trouverez ci-dessous la procédure à suivre pour télécharger des ressour
       >Dans le cas des ressources protégées par une licence, un [contrat de licence leur est associé](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) en définissant la [propriété de métadonnées](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) appropriée dans Experience Manager Assets.
 
       ![](assets/licensed-asset-download-1.png)
+
+      >[!NOTE]
+      >
+      >Veillez à sélectionner tous les rendus de ressource requis lors de leur téléchargement à partir de la page des détails de la ressource, puis cliquez sur **[!UICONTROL Télécharger]**. Les rendus sélectionnés sont téléchargés sur votre ordinateur local.
+      > 
+      >Une fois le téléchargement effectué, le bouton **[!UICONTROL Télécharger]** est désactivé afin d’éviter de créer des copies duplicata des rendus téléchargés. Pour télécharger d’autres rendus (ou une autre copie de rendus manquante), actualisez le navigateur pour réactiver le bouton de téléchargement.
 
       Si l’une des configurations **[!UICONTROL Rendus personnalisés]** ou **[!UICONTROL Rendus du système]** est activée dans les **[!UICONTROL Paramètres de téléchargement]**, la boîte de dialogue **[!UICONTROL Télécharger]** s’affiche avec la case **[!UICONTROL Ressources(s)]** cochée par défaut. Si la configuration **[!UICONTROL Téléchargement rapide]** est activée, la case **[!UICONTROL Activer l’accélération des téléchargements]** est cochée par défaut.
 
