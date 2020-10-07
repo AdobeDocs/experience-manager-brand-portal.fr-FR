@@ -9,10 +9,10 @@ content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
-translation-type: ht
-source-git-commit: 0c73578ea3be53f39e44d81826dcbc0be08acccf
-workflow-type: ht
-source-wordcount: '4758'
+translation-type: tm+mt
+source-git-commit: d06381d84c70ab1566ac40c825233577de40af87
+workflow-type: tm+mt
+source-wordcount: '4755'
 ht-degree: 100%
 
 ---
@@ -214,10 +214,12 @@ Les administrateurs peuvent maintenant configurer la façon dont les dossiers s�
 * **désactivée**, seuls les dossiers partagés sont affichés sur la page d’entrée.
 
 ![](assets/enable-folder-hierarchy.png)
-**Le cas d’utilisation**
 
 La fonctionnalité [Activer la hiérarchie de dossiers](../using/brand-portal-general-configuration.md) (lorsqu’elle est activée) vous aide à différencier les dossiers portant les mêmes noms, mais partagés depuis différentes hiérarchies. Lorsqu’ils se connectent, les utilisateurs non-administrateurs voient maintenant les dossiers parents virtuels (et ancêtres) des dossiers partagés.
-![](assets/disabled-folder-hierarchy1-2.png) ![](assets/enabled-hierarchy1-2.png)
+
+![](assets/disabled-folder-hierarchy1-2.png)
+
+![](assets/enabled-hierarchy1-2.png)
 
 Les dossiers partagés sont organisés au sein des répertoires respectifs dans des dossiers virtuels. Vous pouvez identifier ces dossiers virtuels grâce à leur icône de cadenas.
 
@@ -233,7 +235,8 @@ Le prédicat **Explorateur de chemins d’accès** a été introduit dans le for
 
 * Les utilisateurs administrateurs peuvent utiliser l’explorateur de chemins d’accès pour accéder à n’importe quel répertoire de dossiers sur Brand Portal.
 * Les utilisateurs non-administrateurs peuvent utiliser l’explorateur de chemins d’accès pour accéder uniquement aux dossiers partagés avec eux, et revenir vers les dossiers parents.
-`/content/dam/mac/<tenant-id>/folderA/folderB/folderC`, par exemple, est partagé avec un utilisateur non administrateur. L’utilisateur peut rechercher des ressources dans le folderC à l’aide de l’explorateur de chemins d’accès. Cet utilisateur peut également accéder à folderB et folderA (puisqu’il s’agit de parents du folderC partagé avec l’utilisateur).
+
+   `/content/dam/mac/<tenant-id>/folderA/folderB/folderC`, par exemple, est partagé avec un utilisateur non administrateur. L’utilisateur peut rechercher des ressources dans le folderC à l’aide de l’explorateur de chemins d’accès. Cet utilisateur peut également accéder à folderB et folderA (puisqu’il s’agit de parents du folderC partagé avec l’utilisateur).
 
 ![](assets/edit-search-form.png)
 
