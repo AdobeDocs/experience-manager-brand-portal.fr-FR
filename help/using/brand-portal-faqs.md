@@ -9,9 +9,9 @@ contentOwner: Vishabh Gupta
 topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: a87f85a11e8892e6f306a003d971403581a9e3d7
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 100%
 
@@ -187,20 +187,13 @@ Ces utilisateurs accèdent au dossier **Contribution** et téléchargent le cont
 **Réponse** Dans AEM, les journaux sont mis à jour pour chaque publication d&#39;un dossier dans Brand Portal. Lors de la publication, toutes les ressources non publiées dans Brand Portal sont mises en file d&#39;attente de copie. Les fichiers ajoutés au dossier une fois la tâche de publication déclenchée ne sont pas publiés dans Brand Portal. Lorsque l’utilisateur AEM republie le dossier, seules les ressources non publiées au préalable (et présentes dans la file d’attente de copie) le sont dans Brand Portal.
 C’est le cas pour les dossiers publiés d’AEM Assets vers Brand Portal et pour le dossier SHARED d’un dossier Contribution.
 
-
-
 **Question Qui dois-je contacter en cas de questions ?**
 
 **Réponse** Contactez votre gestionnaire de compte ou le service à la clientèle Adobe.
 
-
 >[!NOTE]
 >
 >Le calendrier des nouvelles versions est provisoire et susceptible d’être modifié. Contactez votre gestionnaire de compte ou le service clientèle Adobe pour obtenir le calendrier de version mis à jour.
-
-
-
-
 
 ## Assistance technique et accès au produit (sites à accès limité) {#product-access-and-support-restricted-sites}
 
