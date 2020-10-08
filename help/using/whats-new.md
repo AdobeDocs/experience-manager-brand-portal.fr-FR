@@ -10,7 +10,7 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: d06381d84c70ab1566ac40c825233577de40af87
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '4755'
 ht-degree: 100%
@@ -41,8 +41,6 @@ Avec la visionneuse de document, les utilisateurs de Brand Portal peuvent désor
 >[!NOTE]
 >
 >L’expérience d’affichage des autres formats de documents reste inchangée.
-
-
 
 ![](assets/doc-viewer.png)
 
