@@ -9,9 +9,9 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: ea7744001cfcf14cccf0e59eb2aa337ba8a3b1a2
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 100%
 
@@ -29,7 +29,6 @@ Ils peuvent alors créer des ressources à des fins de contribution et les charg
 >
 >La limite de chargement maximale pour tout client Brand Portal est de **10** Go ; elle est appliquée de manière cumulative à tous les dossiers de contribution.
 
-
 Après avoir publié les ressources nouvellement créées dans AEM Assets, les utilisateurs de Brand Portal peuvent les supprimer du dossier NEW. En revanche, l’administrateur de Brand Portal peut supprimer les ressources des dossiers NEW et SHARED.
 
 Une fois l’objectif de création du dossier de contribution atteint, l’administrateur de Brand Portal peut le supprimer afin de libérer l’espace de chargement pour d’autres utilisateurs.
@@ -39,7 +38,6 @@ Une fois l’objectif de création du dossier de contribution atteint, l’admin
 >Il est recommandé de libérer l’espace de chargement après avoir publié le dossier de contribution dans AEM Assets afin qu’il soit accessible aux autres utilisateurs de Brand Portal pour les contributions.
 >
 >S’il est nécessaire d’étendre la limite de chargement de votre client Brand Portal au-delà de **10** Go, contactez l’assistance Adobe en spécifiant la limite requise.
-
 
 **Pour charger de nouvelles ressources :**
 
