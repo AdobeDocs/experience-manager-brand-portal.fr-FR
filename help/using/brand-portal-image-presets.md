@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
-translation-type: ht
-source-git-commit: fd116ab18140ed0b90c71107746ee971103765ff
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 100%
 
@@ -29,13 +29,11 @@ Un paramètre d’image prédéfini est utilisé pour générer des rendus dynam
 >
 >Lorsque vous téléchargez des images et leurs rendus, il n’existe aucune option pour les paramètres prédéfinis existants. Vous pouvez en revanche spécifier les propriétés d’un paramètre prédéfini d’image personnalisé. Pour plus d’informations, voir [Application de paramètres d’image prédéfinis lors du téléchargement d’images](../using/brand-portal-image-presets.md#main-pars-text-1403412644).
 
-
 Pour plus d’informations sur les paramètres requis lors de la création de paramètres d’image prédéfinis, voir [Gestion des paramètres d’image prédéfinis](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html).
 
 ## Création d’un paramètre d’image prédéfini {#create-an-image-preset}
 
 Les administrateurs d’AEM peuvent créer des paramètres d’image prédéfinis qui apparaissent comme des rendus dynamiques sur la page des détails des ressources. Vous pouvez créer entièrement un paramètre d’image prédéfini ou en enregistrer un existant sous un nouveau nom. Lors de la création d’un paramètre d’image prédéfini, choisissez une taille pour la diffusion des images et les commandes de formatage. Lorsqu’une image est diffusée en vue d’être affichée, son aspect est optimisé selon les commandes sélectionnées.
-
 
 >[!NOTE]
 >
@@ -44,8 +42,8 @@ Les administrateurs d’AEM peuvent créer des paramètres d’image prédéfini
 >Si l’instance d’auteur AEM est en cours d’exécution en mode **hybride Dynamic Media**, les rendus Pyramid TIFF des ressources d’image sont créés et enregistrés dans le référentiel AEM.
 >
 >En revanche, si l’instance d’auteur AEM est en cours d’exécution en **mode Dynamic Media Scene 7**, les rendus Pyramid TIFF des ressources d’image existent sur le serveur Scene 7.
+>
 >Lorsque des ressources de ce type sont publiées sur Brand Portal, les paramètres d’image prédéfinis sont appliqués et les rendus dynamiques sont affichés.
-
 
 1. Dans la barre d’outils AEM supérieure, cliquez sur le logo Adobe pour accéder aux outils d’administration.
 
