@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 3a2a9d315a5db80232e6f7fc8470ada88fddc1ff
+source-git-commit: 71409bb00357a32541b0c7dbc001e7ec308d6dec
 workflow-type: tm+mt
 source-wordcount: '1356'
 ht-degree: 100%
@@ -121,7 +121,6 @@ Vous trouverez ci-dessous la procédure à suivre pour télécharger des ressour
       >Veillez à sélectionner tous les rendus de ressource requis lors du téléchargement à partir de la page des détails de la ressource, puis cliquez sur **[!UICONTROL Télécharger]**. Les rendus sélectionnés sont téléchargés sur votre ordinateur local.
       > 
       >Une fois le téléchargement effectué, le bouton **[!UICONTROL Télécharger]** est désactivé afin d’éviter de créer des doublons des rendus téléchargés. Pour en télécharger davantage (des rendus manquants ou une autre copie de rendus), actualisez le navigateur de façon à réactiver le bouton de téléchargement.
-
 
       Si l’une des configurations **[!UICONTROL Rendus personnalisés]** ou **[!UICONTROL Rendus du système]** est activée dans les **[!UICONTROL Paramètres de téléchargement]**, la boîte de dialogue **[!UICONTROL Télécharger]** s’affiche avec la case **[!UICONTROL Ressources(s)]** cochée par défaut. Si la configuration **[!UICONTROL Téléchargement rapide]** est activée, la case **[!UICONTROL Activer l’accélération des téléchargements]** est cochée par défaut.
 
