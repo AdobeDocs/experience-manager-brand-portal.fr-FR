@@ -10,7 +10,7 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 3a2a9d315a5db80232e6f7fc8470ada88fddc1ff
+source-git-commit: 71409bb00357a32541b0c7dbc001e7ec308d6dec
 workflow-type: tm+mt
 source-wordcount: '5387'
 ht-degree: 87%
@@ -60,7 +60,7 @@ Dans Brand Portal 2020.10.0, les utilisateurs peuvent accéder en un seul clic �
 
 ### Panneau de rendu amélioré {#rendition-panel}
 
-Auparavant, les utilisateurs ne pouvaient vue que la ressource d’origine et ses rendus dans le panneau **[!UICONTROL Rendus]** si l’un des rendus **** personnalisés ou le rendu **[!UICONTROL système était activé dans la configuration]** **[!UICONTROL Télécharger.]** En outre, les utilisateurs devaient télécharger tous les rendus de ressources car il n’existait aucun filtre pour exclure des rendus personnalisés ou dynamiques spécifiques qui n’étaient pas requis.
+Auparavant, les utilisateurs ne pouvaient vue que la ressource d’origine et ses rendus dans le panneau **[!UICONTROL Rendus]** si l’un des rendus **** personnalisés ou le rendu **[!UICONTROL système était activé dans la configuration]** **[!UICONTROL Télécharger.]** En outre, les utilisateurs devaient télécharger tous les rendus de ressources car il n’existait pas de filtre pour exclure des rendus personnalisés ou dynamiques spécifiques qui n’étaient pas requis.
 
 <!--
 Earlier, if any of the custom or system renditions was enabled in the **[!UICONTROL Download]** settings, an additional **[!UICONTROL Download]** dialog appeared on clicking the **[!UICONTROL Download]** button wherein the user had to manually select the set of renditions (original asset, custom renditions, dynamic renditions) to download.
@@ -101,7 +101,6 @@ L’onglet **[!UICONTROL Groupes]** de la page Rôles **** utilisateur permet au
 >[!NOTE]
 >
 >Si un utilisateur est ajouté à plusieurs groupes et si l’un de ces groupes est soumis à des restrictions, celles-ci s’appliquent à l’utilisateur.
-
 
 <!--
 >Restrictions to access the original asset and their renditions do not apply to administrators even if they are members of restricted groups.
