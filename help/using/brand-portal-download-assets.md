@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 3a2a9d315a5db80232e6f7fc8470ada88fddc1ff
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1356'
 ht-degree: 100%
 
 ---
@@ -115,14 +115,13 @@ Vous trouverez ci-dessous la procédure à suivre pour télécharger des ressour
 
       ![](assets/licensed-asset-download-1.png)
 
-      <!--
-     >>[!NOTE]
-     >
-     >Ensure to select all the required asset renditions while downloading them from the asset details page, and click **[!UICONTROL Download]**. The selected renditions are downloaded to your local machine.
-     > 
-     >Once you download, the **[!UICONTROL Download]** button is disabled to avoid creating duplicate copies of the downloaded renditions. To download more (missing or another copy of renditions), refresh the browser to re-enable the download button.
-     >
-     -->
+
+      >[!NOTE]
+      >
+      >Veillez à sélectionner tous les rendus de ressource requis lors du téléchargement à partir de la page des détails de la ressource, puis cliquez sur **[!UICONTROL Télécharger]**. Les rendus sélectionnés sont téléchargés sur votre ordinateur local.
+      > 
+      >Une fois le téléchargement effectué, le bouton **[!UICONTROL Télécharger]** est désactivé afin d’éviter de créer des doublons des rendus téléchargés. Pour en télécharger davantage (des rendus manquants ou une autre copie de rendus), actualisez le navigateur de façon à réactiver le bouton de téléchargement.
+
 
       Si l’une des configurations **[!UICONTROL Rendus personnalisés]** ou **[!UICONTROL Rendus du système]** est activée dans les **[!UICONTROL Paramètres de téléchargement]**, la boîte de dialogue **[!UICONTROL Télécharger]** s’affiche avec la case **[!UICONTROL Ressources(s)]** cochée par défaut. Si la configuration **[!UICONTROL Téléchargement rapide]** est activée, la case **[!UICONTROL Activer l’accélération des téléchargements]** est cochée par défaut.
 
