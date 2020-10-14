@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 71409bb00357a32541b0c7dbc001e7ec308d6dec
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '1356'
 ht-degree: 100%
@@ -107,11 +107,13 @@ Vous trouverez ci-dessous la procédure à suivre pour télécharger des ressour
       >
       >Si vous téléchargez les ressources pour la première fois et qu’IBM Aspera Connect n’est pas installé dans votre navigateur, vous êtes invité à installer l’accélérateur de téléchargement Aspera.
 
+
       >[!NOTE]
       >
       >Si les ressources que vous téléchargez comprennent également des ressources sous licence, vous êtes redirigé vers la page **[!UICONTROL Gestion des droits d’auteur]**. Dans cette page, sélectionnez les ressources, cliquez d&#39;abord sur **[!UICONTROL Accepter]**, puis sur **[!UICONTROL Télécharger]**. Si vous choisissez de ne pas accepter, les ressources sous licence ne sont pas téléchargées.
       > 
       >Dans le cas des ressources protégées par une licence, un [contrat de licence leur est associé](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) en définissant la [propriété de métadonnées](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) appropriée dans Experience Manager Assets.
+
 
       ![](assets/licensed-asset-download-1.png)
 
@@ -152,6 +154,7 @@ Vous trouverez ci-dessous la procédure à suivre pour télécharger des ressour
       >
       >Les administrateurs peuvent personnaliser les emails, à savoir le logo, la description et le pied de page, à l’aide de la fonctionnalité [Valorisation de marque](../using/brand-portal-branding.md).
 
+
    * Vous pouvez sélectionner un paramètre prédéfini d’image ou créer un rendu dynamique personnalisé à partir de la boîte de dialogue **[!UICONTROL Télécharger]**.
 
       Pour appliquer un [paramètre prédéfini d’image personnalisé à la ressource et ses rendus](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages), cochez la case **[!UICONTROL Rendu(s) dynamique(s)]**. Spécifiez les propriétés de paramètre prédéfini d’image (par exemple, la taille, le format, l’espace colorimétrique, la résolution et le modificateur d’image) à appliquer au paramètre prédéfini personnalisé lors du téléchargement de la ressource et de ses rendus. Pour télécharger uniquement les rendus dynamiques, désélectionnez la case **[!UICONTROL Ressource(s)]**.
@@ -166,6 +169,7 @@ Vous trouverez ci-dessous la procédure à suivre pour télécharger des ressour
       >
       >Pour prévisualiser ou télécharger les rendus dynamiques d’une ressource, vérifiez que Dynamic Media est activé et que le rendu Pyramid TIFF de la ressource existe au niveau de l’instance d’auteur AEM Assets à partir de laquelle les ressources ont été publiées. Lorsqu’une ressource est publiée sur Brand Portal, son rendu Pyramid TIFF l’est également.
 
+
    * Pour conserver la hiérarchie des dossiers de Brand Portal lors du téléchargement des ressources, cochez la case **[!UICONTROL Créer un dossier distinct pour chaque ressource]**. Par défaut, la hiérarchie des dossiers de Brand Portal est ignorée, et toutes les ressources sont téléchargées dans un dossier de votre système local.
 
 1. Cliquez sur **[!UICONTROL Télécharger]**.
@@ -177,6 +181,7 @@ Vous trouverez ci-dessous la procédure à suivre pour télécharger des ressour
    >[!NOTE]
    >
    >Les ressources téléchargées individuellement sont visibles dans le rapport sur les ressources téléchargées. Toutefois, si un dossier contenant des ressources est téléchargé, le dossier et les ressources ne sont pas affichés dans le rapport sur les ressources téléchargées.
+
 
 ## Performances de téléchargement attendues {#expected-download-performance}
 
@@ -193,6 +198,8 @@ L’expérience de téléchargement de fichier peut varier pour les utilisateurs
 | Londres | 179 millisecondes | 0,32 Mo/s. | 106 minutes |
 | Singapour | 196 millisecondes | 0,5 Mo/s. | 68 minutes |
 
+
 >[!NOTE]
 >
 >Les données citées sont observées dans les situations de test et peuvent varier pour des utilisateurs à des emplacements différents avec une latence et une bande passante différentes.
+
