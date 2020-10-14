@@ -10,7 +10,7 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 9c937603cf325919cb49d3418b06266fa1b93cf1
 workflow-type: tm+mt
 source-wordcount: '1118'
 ht-degree: 100%
@@ -31,6 +31,7 @@ Pour plus d’informations, voir [Gestion des utilisateurs, des groupes et des r
 >[!NOTE]
 >
 >La fonctionnalité de partage de lien de Brand Portal permet de télécharger jusqu’à 5 Go de fichiers compressés.
+
 
 Vous trouverez ci-dessous la procédure à suivre pour partager des ressources sous forme de lien :
 
