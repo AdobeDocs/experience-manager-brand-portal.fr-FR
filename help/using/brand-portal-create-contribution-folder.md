@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 100%
@@ -45,6 +45,7 @@ Il est recommandé d’utiliser dans le nom du dossier des lettres minuscules sa
    >[!NOTE]
    >
    >Un utilisateur non-administrateur peut créer et partager un dossier de contribution de ressources, mais il ne peut ni le modifier ni le supprimer.
+
 
    ![](assets/create-contribution-folder.png)
 
