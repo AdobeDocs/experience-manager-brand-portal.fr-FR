@@ -10,7 +10,7 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 71409bb00357a32541b0c7dbc001e7ec308d6dec
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '5387'
 ht-degree: 87%
@@ -102,6 +102,7 @@ L’onglet **[!UICONTROL Groupes]** de la page Rôles **** utilisateur permet au
 >
 >Si un utilisateur est ajouté à plusieurs groupes et si l’un de ces groupes est soumis à des restrictions, celles-ci s’appliquent à l’utilisateur.
 
+
 <!--
 >Restrictions to access the original asset and their renditions do not apply to administrators even if they are members of restricted groups.
  >
@@ -128,6 +129,7 @@ Avec la visionneuse de document, les utilisateurs de Brand Portal peuvent désor
 >[!NOTE]
 >
 >L’expérience d’affichage des autres formats de documents reste inchangée.
+
 
 ![](assets/doc-viewer.png)
 
