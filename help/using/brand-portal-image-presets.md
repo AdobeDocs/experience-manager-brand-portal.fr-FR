@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 100%
@@ -29,6 +29,7 @@ Un paramètre d’image prédéfini est utilisé pour générer des rendus dynam
 >
 >Lorsque vous téléchargez des images et leurs rendus, il n’existe aucune option pour les paramètres prédéfinis existants. Vous pouvez en revanche spécifier les propriétés d’un paramètre prédéfini d’image personnalisé. Pour plus d’informations, voir [Application de paramètres d’image prédéfinis lors du téléchargement d’images](../using/brand-portal-image-presets.md#main-pars-text-1403412644).
 
+
 Pour plus d’informations sur les paramètres requis lors de la création de paramètres d’image prédéfinis, voir [Gestion des paramètres d’image prédéfinis](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html).
 
 ## Création d’un paramètre d’image prédéfini {#create-an-image-preset}
@@ -44,6 +45,7 @@ Les administrateurs d’AEM peuvent créer des paramètres d’image prédéfini
 >En revanche, si l’instance d’auteur AEM est en cours d’exécution en **mode Dynamic Media Scene 7**, les rendus Pyramid TIFF des ressources d’image existent sur le serveur Scene 7.
 >
 >Lorsque des ressources de ce type sont publiées sur Brand Portal, les paramètres d’image prédéfinis sont appliqués et les rendus dynamiques sont affichés.
+
 
 1. Dans la barre d’outils AEM supérieure, cliquez sur le logo Adobe pour accéder aux outils d’administration.
 
