@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 2931e19289ad8a722e3bb952e39f25b374f743c4
+source-git-commit: 87169580dfa5386bd7b3b6a3cc0b611c0eceb1d5
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 59%
+source-wordcount: '544'
+ht-degree: 55%
 
 ---
 
@@ -55,19 +55,29 @@ Brand Portal users can exclude specific renditions which are not required and di
 
 * Outre les configurations de **[!UICONTROL téléchargement]** existantes, les administrateurs du portail de marque peuvent également configurer des autorisations pour différents groupes d’utilisateurs sur la vue et (ou) télécharger la ressource d’origine et ses rendus à partir de la page des détails de la ressource. Ces configurations définissent qui peut accéder et (ou) télécharger les rendus de ressources.
 
+### Améliorations {#enhancements}
 
-### Problèmes critiques résolus {#critical-issues-fixed}
+Les améliorations suivantes ont été apportées à cette version :
 
-Cette version comprend des correctifs pour le problème critique suivant :
+* Le délai d’attente de la session pour les utilisateurs invités est passé de 2 heures à 15 minutes.
+* L’option Pages **[!UICONTROL de]** Vue supplémentaires a été supprimée pour les fichiers PDF de plusieurs pages, car l’utilisateur peut désormais vue les pages PDF à partir du lecteur Adobe Document Cloud.
 
-* Les utilisateurs ne peuvent pas vue les pages PDF si le PDF contient des sous-ressources.
 
+<!--
+### Critical Issues Fixed {#critical-issues-fixed}
+
+This release includes fixes to the following critical issue:
+
+* The users are not able to view the PDF pages if the PDF contains sub assets.
+-->
 
 ### Problèmes connus {#known-issues}
 
 Cette version comprend le problème connu suivant :
 
-* Si l’utilisateur télécharge la ressource à l’aide du lien de partage, la ressource d’origine est téléchargée même lorsque l’option **[!UICONTROL Autoriser le téléchargement du fichier]** d’origine est désactivée.
+* La recherche dans les rapports **** sur les ressources affiche le traitement dans l’interface du produit sans résultat de recherche.
+* Les encodages de la vidéo DM ne sont pas visibles pour les utilisateurs non-administrateurs sur la page des détails de la ressource.
+* L’alignement de la taille des rendus de fichier individuels et de la taille totale du téléchargement est déformé dans la boîte de dialogue Télécharger.
 
 
 
