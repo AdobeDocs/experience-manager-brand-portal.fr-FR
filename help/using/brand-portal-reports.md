@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+source-git-commit: 9c937603cf325919cb49d3418b06266fa1b93cf1
 workflow-type: tm+mt
 source-wordcount: '994'
 ht-degree: 100%
@@ -78,7 +78,6 @@ Pour afficher un rapport, procédez comme suit :
    >[!NOTE]
    >
    >Le rapport Partage de liens n’affiche pas les utilisateurs qui ont accès à une ressource partagée par le biais du lien ou qui ont téléchargé la ressource via le lien.
-   >
    >
    >Pour effectuer le suivi des téléchargements réalisés par l’intermédiaire du lien partagé, vous devez générer le rapport de téléchargement après avoir sélectionné l’option **[!UICONTROL Uniquement les téléchargements via partage de lien]** sur la page **[!UICONTROL Créer un rapport]**. L&#39;utilisateur (Téléchargé par) devient anonyme dans ce cas.
 
