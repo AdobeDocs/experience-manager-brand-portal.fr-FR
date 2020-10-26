@@ -1,17 +1,17 @@
 ---
 title: Administration des configurations générales du client
 seo-title: Administration des configurations générales du client
-description: Configurez l’accélération des téléchargements, la création de [!UICONTROL collections] dynamiques publiques, ainsi que la création de [!UICONTROL collections] publiques, et autorisez les utilisateurs administrateurs à supprimer des ressources sur les clients.
-seo-description: Configurez l’accélération des téléchargements, la création de [!UICONTROL collections] dynamiques publiques, ainsi que la création de [!UICONTROL collections] publiques, et autorisez les utilisateurs administrateurs à supprimer des ressources sur les clients.
+description: Configurez l’accélération des téléchargements, la création de collections dynamiques publiques, ainsi que la création de collections publiques, et autorisez les utilisateurs administrateurs à supprimer des ressources sur les clients.
+seo-description: Configurez l’accélération des téléchargements, la création de collections dynamiques publiques, ainsi que la création de collections publiques, et autorisez les utilisateurs administrateurs à supprimer des ressources sur les clients.
 uuid: 3c46cd7c-c38b-4bc7-b566-93f977bc8227
 contentOwner: mgulati
 topic-tags: administration
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
-translation-type: ht
-source-git-commit: 307bed102148f6e5a68bac8273a93729b9d49854
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 59faef1d9ecdabad95326717548d534229cbff16
+workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 100%
 
