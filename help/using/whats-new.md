@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 20c557653305f15e32546481ab29d8efff969a4b
+source-git-commit: ffded73e9fc16c325c6a77e963ebdb9ede5a7458
 workflow-type: tm+mt
-source-wordcount: '5387'
+source-wordcount: '5439'
 ht-degree: 87%
 
 ---
@@ -32,6 +32,10 @@ La version 2020.10.0 de Brand Portal est une version améliorée qui se concentr
 Auparavant, la boîte de dialogue **[!UICONTROL Télécharger]** s’affichait avec plusieurs options, telles que créer un dossier distinct pour chaque ressource, envoyer un fichier par courrier électronique, sélectionner un fichier d’origine, des rendus personnalisés, des rendus dynamiques, exclure les rendus système et activer l’accélération du téléchargement, ce qui était ambigu pour les utilisateurs non techniques ou nouveaux, particulièrement lorsque plusieurs fichiers ou dossiers étaient sélectionnés pour le téléchargement. En outre, l’utilisateur ne pouvait pas afficher tous les rendus de ressources ni exclure un rendu personnalisé ou dynamique spécifique.
 
 La nouvelle boîte de dialogue de **[!UICONTROL téléchargement]** généralise le processus de sélection et de filtrage des ressources, ce qui facilite la prise de décisions efficaces par les utilisateurs du portail de la marque lors du téléchargement des rendus de ressources. Il liste tous les actifs sélectionnés et leurs rendus en fonction de la configuration de [**[!UICONTROL téléchargement]**](brand-portal-download-assets.md) et des paramètres de **[!UICONTROL téléchargement]** .
+
+>[!NOTE]
+>
+>Le téléchargement **** rapide de tous les utilisateurs est désormais activé par défaut et IBM Aspera Connect 3.9.9 doit être installé dans l’extension de leur navigateur avant de télécharger les ressources à partir de Brand Portal.
 
 <!--
 If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
@@ -67,7 +71,7 @@ Earlier, if any of the custom or system renditions was enabled in the **[!UICONT
 There was no filter to exclude specific custom or dynamic renditions which were not required for download.
 -->
 
-Dans Brand Portal 2020.10.0, les utilisateurs peuvent exclure des rendus spécifiques et télécharger directement les rendus sélectionnés à partir du panneau **[!UICONTROL Rendus]** de la page des détails de la ressource sans avoir à ouvrir la boîte de dialogue de **[!UICONTROL téléchargement]** .
+Dans Brand Portal 2020.10.0, les utilisateurs peuvent exclure des rendus spécifiques et [télécharger directement les rendus sélectionnés à partir du panneau **** Rendus de la page des détails de la ressource sans avoir à ouvrir la boîte de dialogue](brand-portal-download-assets.md#download-assets-from-asset-details-page) Télécharger **** .
 
 
 <!-- 
@@ -76,18 +80,18 @@ In Brand Portal 2020.10.0, direct download and exclude renditions features are i
 The user can clear the check boxes to exclude the renditions which are not required for download. And can click on the **[!UICONTROL Download]** button in the **[!UICONTROL Renditions]** panel to directly download the selected set of renditions in a zip folder without having to open the **[!UICONTROL Download]** dialog.
 -->
 
-![renditions-panel](assets/rendition-panel.png)
+![renditions-panel](assets/renditions-panel.png)
 
 
 ### Configuration des autorisations de téléchargement {#download-permissions}
 
-Outre les configurations de [**[!UICONTROL téléchargement]**](brand-portal-download-assets.md) existantes, les administrateurs du portail de marque peuvent également configurer des autorisations pour différents groupes d’utilisateurs sur la vue et (ou) télécharger la ressource d’origine et ses rendus à partir de la page des détails de la ressource. Ces configurations définissent qui peut accéder et (ou) télécharger les rendus de ressources.
+Outre les configurations de [**[!UICONTROL téléchargement]**](brand-portal-download-assets.md) existantes, les administrateurs du portail de marque peuvent également configurer des autorisations pour différents groupes d’utilisateurs sur la vue et (ou) télécharger la ressource d’origine et ses rendus à partir de la page des détails de la ressource.
+
+Log in to your Brand Portal tenant as an administrator and navigate to **[!UICONTROL Tools]** > **[!UICONTROL Users]**.
+
+Dans la page Rôles **** utilisateur, accédez à l’onglet **[!UICONTROL Groupes]** pour configurer la vue et (ou) les autorisations de téléchargement des groupes d’utilisateurs.
 
 Auparavant, les paramètres étaient disponibles uniquement pour empêcher les utilisateurs du groupe de télécharger la ressource d’origine.
-
-<!-- 
-If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the **[!UICONTROL Download]** configuration and **[!UICONTROL Download]** settings are enabled for the group users, then all the renditions of the selected assets or folders containing assets are available to the users for download.
--->
 
 L’onglet **[!UICONTROL Groupes]** de la page Rôles **** utilisateur permet aux administrateurs de configurer les paramètres de vue et de téléchargement :
 
