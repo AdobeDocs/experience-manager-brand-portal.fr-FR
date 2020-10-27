@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 71623676e70168fda2fef286119bb20a4c2f4782
+source-git-commit: 124cfde2f5a72636202a0614c0c77e3c3c6b1691
 workflow-type: tm+mt
-source-wordcount: '1873'
+source-wordcount: '1879'
 ht-degree: 37%
 
 ---
@@ -166,7 +166,7 @@ Vous trouverez ci-dessous la procédure à suivre pour télécharger des fichier
 
    Cliquez sur un fichier pour vue les rendus disponibles et cochez les cases correspondant aux rendus à télécharger.
 
-   Vous pouvez sélectionner ou exclure manuellement les rendus de fichiers individuels ou cliquer sur l’icône **Appliquer** pour appliquer le même jeu de rendus à tous les types de fichiers similaires (tous les fichiers image de cet exemple) sélectionnés pour le téléchargement. Cliquez sur **[!UICONTROL Terminé]** pour confirmer la règle appliquée.
+   Vous pouvez sélectionner ou exclure manuellement les rendus de fichiers individuels ou cliquer sur l’icône **Appliquer** pour sélectionner le même ensemble de rendus à télécharger pour des types de fichiers similaires (tous les fichiers image de cet exemple). Dans la boîte de dialogue **[!UICONTROL Appliquer tout]** , cliquez sur **[!UICONTROL Terminé]** pour appliquer la règle à tous les actifs similaires.
 
    ![appliquer tout](assets/apply.png)
 
