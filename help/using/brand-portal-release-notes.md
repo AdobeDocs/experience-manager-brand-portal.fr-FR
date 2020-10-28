@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 4774d8a78657c89081d229ce596a3bd404ae1bc8
+source-git-commit: 5cf924ce71433e33506449bbad608d5e57a41b8d
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 50%
@@ -39,7 +39,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de con
 
 Cette version comprend les nouvelles fonctionnalités suivantes :
 
-* La boîte de dialogue **[!UICONTROL Télécharger]** est repensée dans une vue de liste avec des options supplémentaires pour exclure les rendus qui ne sont pas requis, appliquer le même ensemble de règles pour des types de ressource similaires et télécharger les rendus de ressource sélectionnés. Voir [Procédure de téléchargement de fichiers à partir du portail](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets)de marque.
+* La boîte de dialogue **[!UICONTROL Télécharger]** est repensée dans une vue de liste avec des options supplémentaires pour exclure les rendus qui ne sont pas requis, appliquer le même ensemble de règles pour des types de ressource similaires et télécharger les rendus de ressource sélectionnés. Reportez-vous à la [procédure de téléchargement de fichiers à partir du portail](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets)de marque.
 
 <!--
 * The new **[!UICONTROL Download]** dialog now appears with all the renditions of the selected assets or folders containing assets in a list view, wherein the Brand Portal users can apply same set of renditions for similar asset types and download the selected asset renditions. 
@@ -47,7 +47,7 @@ Cette version comprend les nouvelles fonctionnalités suivantes :
 
 * La navigation vers les **[!UICONTROL fichiers]**, les **[!UICONTROL collections]** et les liens **** partagés est désormais possible à partir de toutes les pages du portail de marque en un seul clic.
 
-* Le panneau **[!UICONTROL Rendus]** de la page des détails de la ressource permet désormais aux utilisateurs du portail de la marque de sélectionner la ressource d’origine et (ou) des rendus de ressources spécifiques, puis de les télécharger directement à partir du panneau **[!UICONTROL Rendus]** sans avoir à ouvrir la boîte de dialogue **[!UICONTROL Télécharger]** . Voir [Téléchargement de fichiers à partir de la page](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page)Détails de la ressource.
+* Le panneau **[!UICONTROL Rendus]** de la page des détails de la ressource permet désormais aux utilisateurs du portail de la marque de sélectionner la ressource d’origine et (ou) des rendus de ressources spécifiques, puis de les télécharger directement à partir du panneau **[!UICONTROL Rendus]** sans avoir à ouvrir la boîte de dialogue **[!UICONTROL Télécharger]** . Voir [téléchargement de fichiers à partir de la page](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page)des détails de fichier.
 
 <!--
 Brand Portal users can exclude specific renditions which are not required and directly download the original asset and its renditions from the **[!UICONTROL Renditions]** panel on the asset details page. 
