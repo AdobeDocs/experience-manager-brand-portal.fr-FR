@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 124cfde2f5a72636202a0614c0c77e3c3c6b1691
+source-git-commit: 4774d8a78657c89081d229ce596a3bd404ae1bc8
 workflow-type: tm+mt
-source-wordcount: '1879'
-ht-degree: 37%
+source-wordcount: '1878'
+ht-degree: 35%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Experience Manager Assets Brand Portal améliore l’expérience de télé
 
 >[!NOTE]
 >
->Dans la version 2020.10.0 de Brand Portal (et ultérieure), le paramètre Téléchargement **** rapide est activé par défaut, qui utilise IBM Aspera Connect pour accélérer le téléchargement des ressources. Installez IBM Aspera Connect 3.9.9 dans l’extension de votre navigateur avant de télécharger les ressources à partir de Brand Portal.
+>Dans la version 2020.10.0 de Brand Portal (et ultérieure), le paramètre Téléchargement **** rapide est activé par défaut, qui utilise IBM Aspera Connect pour accélérer le téléchargement des ressources. Installez IBM Aspera Connect 3.9.9 dans l’extension de votre navigateur avant de télécharger les ressources à partir de Brand Portal. For more details, see [guide to accelerate downloads from Brand Portal](../using/accelerated-download.md).
 >
 >Si vous ne souhaitez pas utiliser IBM Aspera Connect et poursuivre le processus de téléchargement normal, contactez l’administrateur du portail des marques pour désactiver le paramètre Téléchargement **** rapide.
 
@@ -52,13 +52,11 @@ Les paramètres disponibles sont les suivants :
 
    Il permet un téléchargement accéléré des ressources à l’aide d’IBM Aspera Connect. By default, the **[!UICONTROL Fast Download]** setting is enabled in the **[!UICONTROL Download Settings]**.
 
-   Pour en savoir plus, reportez-vous au [guide d’accélération des téléchargements depuis Brand Portal](../using/accelerated-download.md).
-
 * **[!UICONTROL Rendus personnalisés]**
 
    Permet de télécharger des rendus personnalisés et (ou) dynamiques des ressources.
 
-   Tous les rendus de ressources autres que l’actif d’origine et les rendus générés par le système sont appelés rendus personnalisés. Ils comprennent des rendus statiques et dynamiques disponibles pour les ressources. Un utilisateur peut créer un rendu statique personnalisé dans AEM Assets, alors que seul l’administrateur AEM peut créer des rendus dynamiques personnalisés. Pour en savoir plus, découvrez [comment appliquer des paramètres d’image prédéfinis ou des rendus dynamiques](../using/brand-portal-image-presets.md)..
+   Tous les rendus de ressources autres que l’actif d’origine et les rendus générés par le système sont appelés rendus personnalisés. Ils comprennent des rendus statiques et dynamiques disponibles pour les ressources. Un utilisateur peut créer un rendu statique personnalisé dans AEM Assets, alors que seul l’administrateur AEM peut créer des rendus dynamiques personnalisés. For details, see [how to apply image presets or dynamic renditions](../using/brand-portal-image-presets.md).
 
 * **[!UICONTROL Rendus du système]**
 
