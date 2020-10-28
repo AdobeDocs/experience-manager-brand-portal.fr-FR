@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: df378757f901a92de7003790651f623dcb92a4e3
+source-git-commit: 4774d8a78657c89081d229ce596a3bd404ae1bc8
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 55%
+source-wordcount: '585'
+ht-degree: 50%
 
 ---
 
@@ -39,7 +39,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de con
 
 Cette version comprend les nouvelles fonctionnalités suivantes :
 
-* La boîte de dialogue **[!UICONTROL Télécharger]** est repensée dans une vue de liste avec des options supplémentaires pour exclure les rendus qui ne sont pas requis, appliquer le même ensemble de règles pour des types de ressource similaires et télécharger les rendus de ressource sélectionnés.
+* La boîte de dialogue **[!UICONTROL Télécharger]** est repensée dans une vue de liste avec des options supplémentaires pour exclure les rendus qui ne sont pas requis, appliquer le même ensemble de règles pour des types de ressource similaires et télécharger les rendus de ressource sélectionnés. Voir [Procédure de téléchargement de fichiers à partir du portail](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets)de marque.
 
 <!--
 * The new **[!UICONTROL Download]** dialog now appears with all the renditions of the selected assets or folders containing assets in a list view, wherein the Brand Portal users can apply same set of renditions for similar asset types and download the selected asset renditions. 
@@ -47,13 +47,13 @@ Cette version comprend les nouvelles fonctionnalités suivantes :
 
 * La navigation vers les **[!UICONTROL fichiers]**, les **[!UICONTROL collections]** et les liens **** partagés est désormais possible à partir de toutes les pages du portail de marque en un seul clic.
 
-* Le panneau **[!UICONTROL Rendus]** de la page des détails de la ressource permet désormais aux utilisateurs du portail de la marque de sélectionner la ressource d’origine et (ou) des rendus de ressources spécifiques, puis de les télécharger directement à partir du panneau **[!UICONTROL Rendus]** sans avoir à ouvrir la boîte de dialogue **[!UICONTROL Télécharger]** .
+* Le panneau **[!UICONTROL Rendus]** de la page des détails de la ressource permet désormais aux utilisateurs du portail de la marque de sélectionner la ressource d’origine et (ou) des rendus de ressources spécifiques, puis de les télécharger directement à partir du panneau **[!UICONTROL Rendus]** sans avoir à ouvrir la boîte de dialogue **[!UICONTROL Télécharger]** . Voir [Téléchargement de fichiers à partir de la page](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page)Détails de la ressource.
 
 <!--
 Brand Portal users can exclude specific renditions which are not required and directly download the original asset and its renditions from the **[!UICONTROL Renditions]** panel on the asset details page. 
 -->
 
-* Outre les configurations de **[!UICONTROL téléchargement]** existantes, les administrateurs du portail de marque peuvent également configurer des autorisations pour différents groupes d’utilisateurs sur la vue et (ou) télécharger la ressource d’origine et ses rendus à partir de la page des détails de la ressource. Ces configurations définissent qui peut accéder et (ou) télécharger les rendus de ressources.
+* Outre les configurations de **[!UICONTROL téléchargement]** existantes, les administrateurs du portail de marque peuvent également [configurer des autorisations pour différents groupes d’utilisateurs](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions) pour la vue et (ou) télécharger la ressource d’origine et ses rendus à partir de la page des détails de la ressource. Ces configurations définissent qui peut accéder et (ou) télécharger les rendus de ressources.
 
 ### Améliorations {#enhancements}
 
