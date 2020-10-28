@@ -10,10 +10,10 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: ffded73e9fc16c325c6a77e963ebdb9ede5a7458
+source-git-commit: 5226e167491f3b9ab4a9e905b1f25e3d89e93cf6
 workflow-type: tm+mt
-source-wordcount: '5439'
-ht-degree: 87%
+source-wordcount: '5471'
+ht-degree: 86%
 
 ---
 
@@ -50,7 +50,7 @@ Dans la boîte de dialogue **[!UICONTROL Télécharger]** , les utilisateurs peu
 * Créer un dossier distinct pour chaque ressource.
 * Téléchargez les ressources sélectionnées et leurs rendus.
 
-Le processus de téléchargement reste constant pour les ressources autonomes, les ressources multiples, les dossiers contenant des ressources, les ressources sous licence ou non, et le téléchargement des ressources à l’aide du lien de partage.
+Le processus de téléchargement reste constant pour les ressources autonomes, les ressources multiples, les dossiers contenant des ressources, les ressources sous licence ou non, et le téléchargement des ressources à l’aide du lien de partage. Reportez-vous à la [procédure de téléchargement de fichiers à partir du portail](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets)de marque.
 
 ![download-dialog](assets/download-dialog-box.png)
 
@@ -71,7 +71,7 @@ Earlier, if any of the custom or system renditions was enabled in the **[!UICONT
 There was no filter to exclude specific custom or dynamic renditions which were not required for download.
 -->
 
-Dans Brand Portal 2020.10.0, les utilisateurs peuvent exclure des rendus spécifiques et [télécharger directement les rendus sélectionnés à partir du panneau **** Rendus de la page des détails de la ressource sans avoir à ouvrir la boîte de dialogue](brand-portal-download-assets.md#download-assets-from-asset-details-page) Télécharger **** .
+Dans Brand Portal 2020.10.0, les utilisateurs peuvent exclure des rendus spécifiques et [télécharger directement les rendus sélectionnés à partir du panneau](brand-portal-download-assets.md#download-assets-from-asset-details-page) Rendus de la page des détails de la ressource sans avoir à ouvrir la boîte de dialogue de **[!UICONTROL téléchargement]** .
 
 
 <!-- 
@@ -85,7 +85,7 @@ The user can clear the check boxes to exclude the renditions which are not requi
 
 ### Configuration des autorisations de téléchargement {#download-permissions}
 
-Outre les configurations de [**[!UICONTROL téléchargement]**](brand-portal-download-assets.md) existantes, les administrateurs du portail de marque peuvent également configurer des autorisations pour différents groupes d’utilisateurs sur la vue et (ou) télécharger la ressource d’origine et ses rendus à partir de la page des détails de la ressource.
+Outre les configurations de **[!UICONTROL téléchargement]** existantes, les administrateurs du portail de marque peuvent également configurer des autorisations pour différents groupes d’utilisateurs sur la vue et (ou) télécharger la ressource d’origine et ses rendus à partir de la page des détails de la ressource.
 
 Log in to your Brand Portal tenant as an administrator and navigate to **[!UICONTROL Tools]** > **[!UICONTROL Users]**.
 
@@ -99,6 +99,8 @@ L’onglet **[!UICONTROL Groupes]** de la page Rôles **** utilisateur permet au
 * Si les deux paramètres sont désactivés, les utilisateurs peuvent uniquement vue les fichiers d’origine. Les rendus de fichier ne sont pas visibles par les utilisateurs sur la page des détails de fichier.
 * Si seul le paramètre **[!UICONTROL Télécharger l’original]** est activé, les utilisateurs peuvent vue et télécharger uniquement les fichiers d’origine à partir de la page des détails de la ressource.
 * Si seul le paramètre **[!UICONTROL Télécharger les rendus]** est activé, les utilisateurs peuvent vue la ressource d’origine mais ne peuvent pas la télécharger. Cependant, l’utilisateur peut vue et télécharger les rendus de ressources.
+
+Voir [Configuration du téléchargement](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions)de fichier.
 
 ![vue-téléchargement-autorisation](assets/download-permissions.png)
 
