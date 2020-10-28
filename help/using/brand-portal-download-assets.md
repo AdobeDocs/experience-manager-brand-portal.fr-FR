@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 4774d8a78657c89081d229ce596a3bd404ae1bc8
+source-git-commit: b27d61753367df23bcf707c290e036f201ab3351
 workflow-type: tm+mt
-source-wordcount: '1878'
+source-wordcount: '1886'
 ht-degree: 35%
 
 ---
@@ -29,7 +29,7 @@ Adobe Experience Manager Assets Brand Portal améliore l’expérience de télé
 
 >[!NOTE]
 >
->Dans la version 2020.10.0 de Brand Portal (et ultérieure), le paramètre Téléchargement **** rapide est activé par défaut, qui utilise IBM Aspera Connect pour accélérer le téléchargement des ressources. Installez IBM Aspera Connect 3.9.9 dans l’extension de votre navigateur avant de télécharger les ressources à partir de Brand Portal. For more details, see [guide to accelerate downloads from Brand Portal](../using/accelerated-download.md).
+>Dans la version 2020.10.0 de Brand Portal (et ultérieure), le paramètre Téléchargement **** rapide est activé par défaut, qui utilise IBM Aspera Connect pour accélérer le téléchargement des ressources. [Installez IBM Aspera Connect 3.9.9 dans l’extension de votre navigateur avant de télécharger les ressources à partir de Brand Portal. ](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) For more details, see [guide to accelerate downloads from Brand Portal](../using/accelerated-download.md).
 >
 >Si vous ne souhaitez pas utiliser IBM Aspera Connect et poursuivre le processus de téléchargement normal, contactez l’administrateur du portail des marques pour désactiver le paramètre Téléchargement **** rapide.
 
