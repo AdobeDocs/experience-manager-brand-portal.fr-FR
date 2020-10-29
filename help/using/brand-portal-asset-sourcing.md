@@ -18,9 +18,9 @@ activity: use
 audience: author, marketer
 version: 6.5
 kt: 3838
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9c937603cf325919cb49d3418b06266fa1b93cf1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '457'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ En outre, toutes les fonctionnalités existantes restent inchangées. Les utilis
 >L’approvisionnement des ressources n’est pas pris en charge dans AEM Assets as a Cloud Service.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12&captions=fre_fr)
 
 ![Approvisionnement des ressources dans Brand Portal](assets/asset-sourcing.png)
 
