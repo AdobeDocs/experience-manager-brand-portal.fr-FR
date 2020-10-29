@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9c937603cf325919cb49d3418b06266fa1b93cf1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '994'
 ht-degree: 100%
 
@@ -79,7 +79,7 @@ Pour afficher un rapport, procédez comme suit :
    >
    >Le rapport Partage de liens n’affiche pas les utilisateurs qui ont accès à une ressource partagée par le biais du lien ou qui ont téléchargé la ressource via le lien.
    >
-   >Pour effectuer le suivi des téléchargements réalisés par l’intermédiaire du lien partagé, vous devez générer le rapport de téléchargement après avoir sélectionné l’option **[!UICONTROL Uniquement les téléchargements via partage de lien]** sur la page **[!UICONTROL Créer un rapport]**. L&#39;utilisateur (Téléchargé par) devient anonyme dans ce cas.
+   >Pour effectuer le suivi des téléchargements réalisés par l’intermédiaire du lien partagé, vous devez générer le rapport de téléchargement après avoir sélectionné l’option **[!UICONTROL Uniquement les téléchargements via partage de lien]** sur la page **[!UICONTROL Créer un rapport]**. L’utilisateur (Téléchargé par) devient anonyme dans ce cas.
 
 ## Génération de rapports {#generate-reports}
 
@@ -88,7 +88,7 @@ Les administrateurs peuvent générer et gérer les rapports standard ci-après.
 * Connexions des utilisateurs
 * Téléchargement
 * Expiration
-* Publication 
+* Publication
 * Partage de liens
 
 L’affichage des colonnes des rapports Téléchargement, Expiration et Publication peut être personnalisé. Pour générer un rapport, procédez comme suit :
