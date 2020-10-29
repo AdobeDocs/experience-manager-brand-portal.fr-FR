@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: b27d61753367df23bcf707c290e036f201ab3351
 workflow-type: tm+mt
 source-wordcount: '1886'
-ht-degree: 35%
+ht-degree: 39%
 
 ---
 
@@ -81,11 +81,11 @@ Outre les paramètres **[!UICONTROL de]** téléchargement, les administrateurs 
 
 Log in to your Brand Portal tenant as an administrator and navigate to **[!UICONTROL Tools]** > **[!UICONTROL Users]**. Dans la page Rôles **** utilisateur, accédez à l’onglet **[!UICONTROL Groupes]** pour configurer la vue et (ou) les autorisations de téléchargement des groupes d’utilisateurs.
 
-![vue-téléchargement-autorisation](assets/download-permissions.png)
+![autorisation-téléchargement-affichage](assets/download-permissions.png)
 
 >[!NOTE]
 >
->Si un utilisateur est ajouté à plusieurs groupes et si l’un de ces groupes est soumis à des restrictions, celles-ci s’appliquent à l’utilisateur.
+>Si un utilisateur est ajouté à plusieurs groupes, et si l’un de ces groupes présente des restrictions, les restrictions s’appliquent à cet utilisateur.
 
 En fonction de la configuration, le workflow de téléchargement reste le même pour les ressources uniques ou multiples, les dossiers contenant des ressources, les ressources qui sont ou non sous licence, ainsi que le téléchargement de ressources à l’aide du lien de partage.
 
@@ -115,21 +115,21 @@ Les utilisateurs du portail de marque peuvent télécharger plusieurs fichiers, 
 >Contactez l’administrateur du portail des marques si vous n’êtes pas autorisé à accéder aux rendus ou à les télécharger.
 
 Si l’utilisateur a accès à des rendus, la boîte de dialogue de **[!UICONTROL téléchargement]** améliorée s’affiche avec les fonctionnalités suivantes :
-* Vue tous les rendus disponibles de tout fichier dans la liste de téléchargement.
-* Exclure les rendus des ressources qui ne sont pas nécessaires pour le téléchargement.
+* afficher tous les rendus disponibles de toutes les ressources dans la liste de téléchargement ;
+* exclure les rendus des ressources qui ne sont pas nécessaires pour le téléchargement ;
 * Appliquez le même jeu de rendus à tous les types de ressource similaires en un seul clic.
 * Appliquez un ensemble différent de rendus pour différents types de fichier.
 * Créez un dossier distinct pour chaque rendu de fichier.
-* Téléchargez les ressources sélectionnées et leurs rendus.
+* télécharger les ressources sélectionnées et leurs rendus.
 
-![download-dialog](assets/download-dialog-box.png)
+![boîte-de-dialogue-télécharger](assets/download-dialog-box.png)
 
 >[!NOTE]
 >
 >La boîte de dialogue **[!UICONTROL Télécharger]** s’affiche uniquement si les ressources sont sélectionnées pour le téléchargement et si les rendus **** personnalisés ou les rendus **** système sont activés dans les paramètres de **[!UICONTROL téléchargement.]**
 
 
-### Étapes de téléchargement des ressources   {#bulk-download}
+### Étapes de téléchargement des ressources {#bulk-download}
 
 Vous trouverez ci-dessous la procédure à suivre pour télécharger des fichiers ou des dossiers contenant des fichiers à partir de l’interface du portail de marque :
 
@@ -153,7 +153,7 @@ Vous trouverez ci-dessous la procédure à suivre pour télécharger des fichier
 
       >[!NOTE]
       >
-      >Si les ressources que vous téléchargez comprennent également des ressources sous licence, vous êtes redirigé vers la page **[!UICONTROL Gestion des droits d’auteur]**. Dans cette page, sélectionnez les ressources, cliquez d&#39;abord sur **[!UICONTROL Accepter]**, puis sur **[!UICONTROL Télécharger]**. Si vous choisissez de ne pas accepter, les ressources sous licence ne sont pas téléchargées.
+      >Si les ressources que vous téléchargez comprennent également des ressources sous licence, vous êtes redirigé vers la page **[!UICONTROL Gestion des droits d’auteur]**. Dans cette page, sélectionnez les ressources, cliquez d’abord sur **[!UICONTROL Accepter]**, puis sur **[!UICONTROL Télécharger]**. Si vous choisissez de ne pas accepter, les ressources sous licence ne sont pas téléchargées.
       > 
       >Dans le cas des ressources protégées par une licence, un [contrat de licence leur est associé](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) en définissant la [propriété de métadonnées](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) appropriée dans Experience Manager Assets.
 
@@ -176,7 +176,7 @@ Vous trouverez ci-dessous la procédure à suivre pour télécharger des fichier
 
    Le bouton de téléchargement indique le nombre d’éléments sélectionnés. Une fois les règles appliquées, cliquez sur **[!UICONTROL Télécharger les éléments]**.
 
-   ![download-dialog](assets/download-dialog-new.png)
+   ![boîte-de-dialogue-télécharger](assets/download-dialog-new.png)
 
 1. By default the **[!UICONTROL Fast Download]** setting is enabled in the **[!UICONTROL Download Settings]**. Par conséquent, une zone de confirmation s’affiche pour permettre un téléchargement accéléré à l’aide d’IBM Aspera Connect.
 
@@ -233,7 +233,7 @@ Vous trouverez ci-dessous la procédure à suivre pour télécharger des rendus 
 
    Sélectionnez les rendus spécifiques à télécharger, puis cliquez sur **[!UICONTROL Télécharger les éléments]**.
 
-   ![renditions-panel](assets/renditions-panel.png)
+   ![panneau-rendus](assets/renditions-panel.png)
 
 1. By default the **[!UICONTROL Fast Download]** setting is enabled in the **[!UICONTROL Download Settings]**. Par conséquent, une zone de confirmation s’affiche pour permettre un téléchargement accéléré à l’aide d’IBM Aspera Connect.
 
