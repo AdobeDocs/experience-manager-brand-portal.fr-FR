@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '871'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ Les administrateurs d’AEM peuvent créer des paramètres d’image prédéfini
 >
 >Si l’instance d’auteur AEM est en cours d’exécution en mode **hybride Dynamic Media**, les rendus Pyramid TIFF des ressources d’image sont créés et enregistrés dans le référentiel AEM.
 >
->En revanche, si l’instance d’auteur AEM est en cours d’exécution en **mode Dynamic Media Scene 7**, les rendus Pyramid TIFF des ressources d’image existent sur le serveur Scene 7.
+>En revanche, si l’instance d’auteur AEM est en cours d’exécution en **mode Dynamic Media Scene7**, les rendus Pyramid TIFF des ressources d’image existent sur le serveur Scene7.
 >
 >Lorsque des ressources de ce type sont publiées sur Brand Portal, les paramètres d’image prédéfinis sont appliqués et les rendus dynamiques sont affichés.
 
@@ -68,7 +68,7 @@ Les administrateurs d’AEM peuvent créer des paramètres d’image prédéfini
 1. Cliquez sur **[!UICONTROL Enregistrer]**. Le paramètre d’image prédéfini est créé et affiché dans la page des paramètres d’image prédéfinis.
 1. Pour supprimer un paramètre d’image prédéfini, sélectionnez-le dans la page des paramètres d’image prédéfinis et cliquez sur **[!UICONTROL Supprimer]**. Dans la page de confirmation, cliquez sur **[!UICONTROL Supprimer]** pour confirmer la suppression. Le paramètre d’image prédéfini est supprimé de la page des paramètres d’image prédéfinis.
 
-## Application de paramètres d’image prédéfinis lors de la prévisualisation d’images      {#apply-image-presets-when-previewing-images}
+## Application de paramètres d’image prédéfinis lors de la prévisualisation d’images {#apply-image-presets-when-previewing-images}
 
 Lorsque vous prévisualisez des images et leurs rendus, choisissez parmi les paramètres prédéfinis existants pour reformater les images selon les spécifications définies par l’administrateur.
 
@@ -81,7 +81,7 @@ Lorsque vous prévisualisez des images et leurs rendus, choisissez parmi les par
 
    ![](assets/image-preset-previewrenditionthumbnail.png)
 
-## Application de paramètres d’image prédéfinis lors du téléchargement d’images   {#apply-image-presets-when-downloading-images}
+## Application de paramètres d’image prédéfinis lors du téléchargement d’images {#apply-image-presets-when-downloading-images}
 
 Lorsque vous téléchargez des images et leurs rendus à partir de Brand Portal, vous ne pouvez pas effectuer de choix parmi les paramètres d’image prédéfinis existants. Vous pouvez toutefois personnaliser les propriétés des paramètres d’image prédéfinis en fonction du reformatage souhaité des images.
 
