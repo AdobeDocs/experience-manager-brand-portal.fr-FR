@@ -9,11 +9,11 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: ht
-source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
-workflow-type: ht
-source-wordcount: '383'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c8f859fd371f303a8424ed473927812f658d2b8e
+workflow-type: tm+mt
+source-wordcount: '382'
+ht-degree: 95%
 
 ---
 
@@ -28,7 +28,7 @@ Les administrateurs AEM peuvent configurer **l’approvisionnement des ressource
 
 La vidéo suivante explique comment configurer l’approvisionnement des ressources sur l’instance d’auteur AEM :
 
->[!VIDEO](https://video.tv.adobe.com/v/29771?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/29771)
 
 ## Activation de l’approvisionnement des ressources {#enable-asset-sourcing}
 
@@ -65,6 +65,6 @@ Recherchez sur votre ordinateur local le **fichier de configuration (.csv)** con
    ![](assets/upload-user-list2.png)
 
 
-Les administrateurs peuvent donner un accès à des utilisateurs/groupes spécifiques à partir de cette liste d’utilisateurs lors de la configuration du dossier de contribution.
+Les administrateurs peuvent fournir un accès à des utilisateurs spécifiques à partir de cette liste d’utilisateurs lors de la configuration du dossier de contributions.
 
 Pour plus d’informations, voir [Configuration du dossier de contribution](brand-portal-contribution-folder.md).
