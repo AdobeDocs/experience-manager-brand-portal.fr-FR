@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: e0f54b9a709d9414208bc6150e75a03f1d322cba
+source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
 workflow-type: tm+mt
-source-wordcount: '1886'
+source-wordcount: '1879'
 ht-degree: 39%
 
 ---
@@ -191,9 +191,8 @@ Vous trouverez ci-dessous la procédure à suivre pour télécharger des fichier
 
 >[!NOTE]
 >
->Si plus de 20 fichiers sont sélectionnés pour le téléchargement, la boîte de dialogue **[!UICONTROL Télécharger]** est ignorée et tous les rendus accessibles à l’utilisateur, à l’exception des rendus dynamiques, sont directement téléchargés dans un dossier zip.
->
->Le même comportement est suivi lors du téléchargement des dossiers contenant des ressources et des collections. Les rendus accessibles, à l’exclusion des rendus dynamiques, sont directement téléchargés dans un dossier zip.
+>Si un dossier, une collection ou plus de 20 fichiers sont sélectionnés pour téléchargement, la boîte de dialogue **[!UICONTROL Télécharger]** est ignorée et tous les rendus de fichiers accessibles à l’utilisateur, à l’exception des rendus dynamiques, sont téléchargés dans un dossier zip. Les rendus de fichier sont téléchargés dans un dossier distinct pour chaque fichier du dossier zip.
+
 
 >[!NOTE]
 >
