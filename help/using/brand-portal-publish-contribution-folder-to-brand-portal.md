@@ -10,17 +10,17 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
+source-git-commit: 0a3f1a4379398730e92e9ac85b04134f92af9d23
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 100%
+source-wordcount: '192'
+ht-degree: 88%
 
 ---
 
 
 # Publication du dossier de contribution sur Brand Portal {#publish-contribution-folder-to-brand-portal}
 
-Une fois le [dossier de contribution configuré](brand-portal-configure-contribution-folder-properties.md), l’utilisateur d’AEM (administrateur/non-administrateur) peut le publier d’AEM Assets sur Brand Portal. Les utilisateurs/groupes de Brand Portal autorisés à accéder au dossier de contribution recevront une notification Push/par courrier électronique à la fin de l’action de publication.
+Une fois le [dossier de contribution configuré](brand-portal-configure-contribution-folder-properties.md), l’utilisateur d’AEM (administrateur/non-administrateur) peut le publier d’AEM Assets sur Brand Portal. Les utilisateurs du portail de marque autorisés à accéder au dossier de contribution recevront une notification par courrier électronique ou par pulsation à la fin de l’action de publication.
 
 
 **Pour publier le dossier de contribution, procédez comme suit :**
