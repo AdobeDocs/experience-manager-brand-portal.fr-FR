@@ -11,10 +11,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
+source-git-commit: 0a3f1a4379398730e92e9ac85b04134f92af9d23
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 91%
+source-wordcount: '296'
+ht-degree: 82%
 
 ---
 
@@ -25,11 +25,9 @@ L’administrateur d’AEM effectue les activités ci-après lors de la configur
 
 * **Ajouter une description** : fournissez une description détaillée du dossier de contribution.
 * **Charger les instructions** : téléchargez le document sur les exigences en matière de ressources contenant des informations relatives aux ressources.
-* **Ajouter des contributeurs** : ajoutez des utilisateurs ou des groupes de Brand Portal pour leur accorder l’accès au dossier de contribution.
+* **Ajouter les contributeurs**: Ajoutez les utilisateurs du portail de marque à leur accorder l’accès au dossier de contribution.
 
 Les exigences en matière de ressources font référence aux détails fournis par les administrateurs pour aider les contributeurs (utilisateurs de Brand Portal) à comprendre le besoin et les exigences du dossier de contribution. L’administrateur charge un document sur les exigences en matière de ressources contenant un résumé sur le type de ressources à ajouter au dossier de contribution et des informations relatives aux ressources comme le but, le type d’images, la taille maximale, etc.
-
-L’administrateur peut alors octroyer aux utilisateurs/groupes de Brand Portal l’accès au dossier de contribution avant de publier le nouveau dossier Contribution sur Brand Portal.
 
 **Pour configurer les propriétés du dossier de contribution, procédez comme suit :**
 
@@ -49,10 +47,12 @@ URL par défaut : http://localhost:4502/aem/start.html
    ![](assets/upload.png)
 
 1. Dans le champ **[!UICONTROL Ajouter un utilisateur ou un groupe]**, ajoutez les utilisateurs de Brand Portal avec lesquels vous souhaitez partager le dossier de contribution. Ces utilisateurs peuvent accéder au dossier de contributions et le télécharger à l’aide de l’interface du portail de marque.
-1. Cliquez sur **[!UICONTROL Enregistrer]**.
+1. Cliquez sur **[!UICONTROL Save]**.
 
    ![](assets/contribution-folder-property2.png)
 
 >[!NOTE]
+>
+>Actuellement, les groupes ne peuvent pas être affectés à un dossier de contributions.
 >
 >Les résultats de la recherche sont basés sur la liste des utilisateurs Brand Portal configurée dans AEM Assets. Vérifiez que vous disposez de la liste mise à jour des utilisateurs de Brand Portal. Voir [Chargement de la liste des utilisateurs de Brand Portal](brand-portal-configure-asset-sourcing.md).
