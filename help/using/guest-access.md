@@ -10,10 +10,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 translation-type: tm+mt
-source-git-commit: e0f54b9a709d9414208bc6150e75a03f1d322cba
+source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 100%
+source-wordcount: '1029'
+ht-degree: 89%
 
 ---
 
@@ -42,8 +42,11 @@ Pour accéder à Brand Portal de manière anonyme, sélectionnez **[!UICONTROL 
 
 ## Durée d’une session d’invité {#guest-session-duration}
 
-Une session d’utilisateur invité reste active pendant deux heures. L’état de **[!UICONTROL Lightbox]** est ainsi conservé pendant une heure à compter du début de la session. Après deux heures, la session d’invité en cours redémarre et l’état de Lightbox est donc perdu.\
-Par exemple, un utilisateur invité se connecte à Brand Portal à 15 h 00 et ajoute des ressources dans Lightbox pour un téléchargement à 16 h 50. Si l’utilisateur ne télécharge pas la collection **[!UICONTROL Lightbox]** (ou ses ressources) avant 17 h 00, **[!UICONTROL Lightbox]** se vide, car l’utilisateur doit redémarrer la session à la fin de l’heure (c’est-à-dire à 17 h 00).
+
+Une session d’utilisateur invité reste principale pendant 15 minutes.
+This means that the state of the **[!UICONTROL Lightbox]** is preserved for 15 mins from the session start time, and after that the current guest session restarts so the Lightbox state is lost.
+
+For example, a guest user logs in to Brand Portal at 1500 hours and adds assets to **[!UICONTROL Lightbox]** for download at 15:05 hours. Si l’utilisateur ne télécharge pas la collection **[!UICONTROL Lightbox]** (ou ses ressources) avant 15h15 (dans les 15 minutes qui suivent la connexion), il devra redémarrer la session. La **[!UICONTROL Lightbox]** sera vide, ce qui signifie que les ressources téléchargées ne seront plus disponibles si la session a été perdue.
 
 ## Sessions d’invités simultanées permises {#concurrent-guest-sessions-allowed}
 
