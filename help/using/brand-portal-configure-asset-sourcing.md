@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
+source-git-commit: 0a3f1a4379398730e92e9ac85b04134f92af9d23
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 100%
+source-wordcount: '380'
+ht-degree: 91%
 
 ---
 
@@ -50,7 +50,7 @@ Les administrateurs d’AEM peuvent charger le fichier de configuration des util
 
 >[!NOTE]
 >
->Ce format de fichier CSV est identique à celui pris en charge par Admin Console pour importer des utilisateurs en bloc. Vous devez indiquer vos nom, prénom et adresse électronique.
+>Le format du fichier CSV est identique à celui pris en charge dans le Admin Console pour l’importation en masse par l’utilisateur. Vous devez indiquer vos nom, prénom et adresse électronique.
 
 Il peut ajouter de nouveaux utilisateurs dans AEM Admin Console. Pour plus d’informations, voir [Gestion des utilisateurs](brand-portal-adding-users.md). Une fois des utilisateurs ajoutés dans Admin Console, ceux-ci peuvent être ajoutés au fichier de configuration des utilisateurs de Brand Portal, puis se voir attribuer l’autorisation d’accéder au dossier de contribution.
 
@@ -68,6 +68,6 @@ Recherchez sur votre ordinateur local le **fichier de configuration (.csv)** con
    ![](assets/upload-user-list2.png)
 
 
-Les administrateurs peuvent donner un accès à des utilisateurs/groupes spécifiques à partir de cette liste d’utilisateurs lors de la configuration du dossier de contribution.
+Les administrateurs peuvent fournir un accès à des utilisateurs spécifiques à partir de cette liste d’utilisateurs lors de la configuration du dossier de contributions.
 
 Pour plus d’informations, voir [Configuration du dossier de contribution](brand-portal-contribution-folder.md).
