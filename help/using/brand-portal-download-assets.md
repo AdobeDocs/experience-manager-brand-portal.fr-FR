@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: a1c0811f8a1f6be0ecafcf6ed9b46eb52bcd49c5
+source-git-commit: e0f54b9a709d9414208bc6150e75a03f1d322cba
 workflow-type: tm+mt
-source-wordcount: '1883'
-ht-degree: 36%
+source-wordcount: '1886'
+ht-degree: 39%
 
 ---
 
@@ -56,7 +56,7 @@ Les paramètres disponibles sont les suivants :
 
    Permet de télécharger des rendus personnalisés et (ou) dynamiques des ressources.
 
-   Tous les rendus de ressources autres que l’actif d’origine et les rendus générés par le système sont appelés rendus personnalisés. Il comprend des rendus statiques et dynamiques disponibles pour la ressource. Un utilisateur peut créer un rendu statique personnalisé dans AEM Assets, alors que seul l’administrateur AEM peut créer des rendus dynamiques personnalisés. For details, see [how to apply image presets or dynamic renditions](../using/brand-portal-image-presets.md).
+   Tous les rendus de ressources autres que l’actif d’origine et les rendus générés par le système sont appelés rendus personnalisés. Ils comprennent des rendus statiques et dynamiques disponibles pour les ressources. Un utilisateur peut créer un rendu statique personnalisé dans AEM Assets, alors que seul l’administrateur AEM peut créer des rendus dynamiques personnalisés. For details, see [how to apply image presets or dynamic renditions](../using/brand-portal-image-presets.md).
 
 * **[!UICONTROL Rendus du système]**
 
@@ -201,7 +201,7 @@ Vous trouverez ci-dessous la procédure à suivre pour télécharger des fichier
 >
 >(*Si l’instance (d’auteur) AEM est en cours d’exécution en mode **hybride Dynamic Media***.)
 >
->Pour prévisualisation ou télécharger des rendus dynamiques d’un fichier, assurez-vous que le média dynamique est activé et que le rendu de l’élément pyramidale existe sur l’instance d’auteur AEM Assets à partir de laquelle les ressources ont été publiées. Lorsqu’un fichier est publié d’AEM au portail de marque, son rendu pyramidal est également publié.
+>Pour prévisualiser ou télécharger les rendus dynamiques d’une ressource, vérifiez que Dynamic Media est activé et que le rendu Pyramid TIFF de la ressource existe au niveau de l’instance d’auteur AEM Assets à partir de laquelle les ressources ont été publiées. Lorsqu’un fichier est publié d’AEM au portail de marque, son rendu pyramidal est également publié.
 
 
 
