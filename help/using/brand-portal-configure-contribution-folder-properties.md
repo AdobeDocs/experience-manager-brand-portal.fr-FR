@@ -25,7 +25,7 @@ L’administrateur d’AEM effectue les activités ci-après lors de la configur
 
 * **Ajouter une description** : fournissez une description détaillée du dossier de contribution.
 * **Charger les instructions** : téléchargez le document sur les exigences en matière de ressources contenant des informations relatives aux ressources.
-* **Ajouter les contributeurs**: Ajoutez les utilisateurs du portail de marque à leur accorder l’accès au dossier de contribution.
+* **Ajouter les contributeurs** : Ajoutez les utilisateurs du portail de marque à leur accorder l’accès au dossier de contribution.
 
 Les exigences en matière de ressources font référence aux détails fournis par les administrateurs pour aider les contributeurs (utilisateurs de Brand Portal) à comprendre le besoin et les exigences du dossier de contribution. L’administrateur charge un document sur les exigences en matière de ressources contenant un résumé sur le type de ressources à ajouter au dossier de contribution et des informations relatives aux ressources comme le but, le type d’images, la taille maximale, etc.
 
@@ -47,7 +47,7 @@ URL par défaut : http://localhost:4502/aem/start.html
    ![](assets/upload.png)
 
 1. Dans le champ **[!UICONTROL Ajouter un utilisateur ou un groupe]**, ajoutez les utilisateurs de Brand Portal avec lesquels vous souhaitez partager le dossier de contribution. Ces utilisateurs peuvent accéder au dossier de contributions et le télécharger à l’aide de l’interface du portail de marque.
-1. Cliquez sur **[!UICONTROL Save]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
    ![](assets/contribution-folder-property2.png)
 
