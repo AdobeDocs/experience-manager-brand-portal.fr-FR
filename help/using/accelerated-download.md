@@ -30,14 +30,14 @@ La configuration **[!UICONTROL Téléchargement rapide]** est activée par défa
 
 ![](assets/download-configuration.png)
 
-## Conditions préalables pour accélérer le téléchargement de fichiers  {#prerequisites-to-accelerate-file-download}
+## Conditions préalables pour accélérer le téléchargement de fichiers   {#prerequisites-to-accelerate-file-download}
 
 Pour télécharger les fichiers plus rapidement, vérifiez les points suivants :
 
 * Accédez à **[!UICONTROL Outils]** > **[!UICONTROL Télécharger]** et vérifiez que la configuration **[!UICONTROL Téléchargement rapide]** est activée dans les **[!UICONTROL Paramètres de téléchargement]**.
-* Assurez-vous que le port 33001 (TCP et UDP) est ouvert sur le pare-feu. For more information on the prerequisites, see [IBM Aspera Connect Client documentation](https://downloads.asperasoft.com/en/documentation/8).
+* Assurez-vous que le port 33001 (TCP et UDP) est ouvert sur le pare-feu. Pour plus d’informations sur les conditions préalables, voir [Documentation du client IBM Aspera Connect](https://downloads.asperasoft.com/en/documentation/8).
 * [Installez IBM Aspera Connect 3.9.9](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) dans l’extension de votre navigateur à l’aide des droits d’administrateur.
-* For platform support of Aspera transfer client, see [IBM Aspera Connect platform support matrix](https://www.asperasoft.com/company/support/transfer-clients/).
+* Pour la prise en charge de la plate-forme du client de transfert Aspera, voir [matrice de prise en charge de la plate-forme IBM Aspera Connect](https://www.asperasoft.com/company/support/transfer-clients/).
 
 ## Domaines de téléchargement {#download-domains}
 
@@ -132,7 +132,7 @@ Pour utiliser la fonctionnalité de téléchargement accéléré sur Microsoft 
 1. Cliquez sur **[!UICONTROL Zone Sites de confiance]**, puis sur **[!UICONTROL Sites]**.
 1. Supprimez le site Brand Portal de la liste.
 
-## Préférences du client Aspera Connect  {#aspera-connect-client-preferences}
+## Préférences du client Aspera Connect   {#aspera-connect-client-preferences}
 
 Certaines préférences utiles peuvent être définies dans les préférences du client IBM Aspera Connect en cliquant avec le bouton droit sur l’icône et en sélectionnant **[!UICONTROL Préférences]**.
 
@@ -146,7 +146,7 @@ En outre, le client Aspera Connect peut être marqué pour se lancer automatiqu
 
 ![](assets/aspera-automaticallylaunch.png)
 
-## Résolution des problèmes liés à l’accélération des téléchargements  {#troubleshoot-issues-with-download-acceleration}
+## Résolution des problèmes liés à l’accélération des téléchargements   {#troubleshoot-issues-with-download-acceleration}
 
 Si l’accélération des téléchargements ne fonctionne pas, suivez ces étapes de dépannage :
 
