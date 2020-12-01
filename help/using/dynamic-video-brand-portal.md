@@ -12,8 +12,8 @@ discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 translation-type: tm+mt
 source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 100%
+source-wordcount: '1207'
+ht-degree: 98%
 
 ---
 
@@ -48,7 +48,7 @@ Définissez l’une de ces configurations selon les configurations définies dan
 
 ![Les codes vidéo sont récupérés à partir du cloud](assets/VideoEncodes.png)
 
-Si les configurations Dynamic Media ([hybride](../using/dynamic-video-brand-portal.md#configure-dm-hybrid-settings) ou [[!DNL Scene 7]](../using/dynamic-video-brand-portal.md#configure-dm-scene7-settings)) sont définies sur Brand Portal, les rendus dynamiques sont récupérés à partir du serveur **[!DNL Scene 7]**. Les codages vidéo sont donc prévisualisés et lus sans retard ni distorsion.
+Si des configurations Contenu multimédia dynamique ([Hybrid](../using/dynamic-video-brand-portal.md#configure-dm-hybrid-settings) ou [[!DNL Scene 7]](../using/dynamic-video-brand-portal.md#configure-dm-scene7-settings)) sont configurées sur le portail de marque, les rendus dynamiques sont extraits du serveur **[!DNL Scene 7]**. Les codages vidéo sont donc prévisualisés et lus sans retard ni distorsion.
 
 Comme les codages vidéo ne sont pas stockés dans le référentiel Brand Portal et sont récupérés à partir du serveur **[!DNL Scene 7]**, vérifiez que les configurations Dynamic Media sur l’instance AEM Author et sur Brand Portal sont identiques.
 
@@ -104,9 +104,9 @@ Les adresses IP sortantes sont les suivantes :
 
 | **Zone géographique** | **Adresse IP sortante** |
 |--- |--- |
-| N/A | 192.243.237.86 |
-| EMEA | 185.34.189.4 |
-| APAC | 63.140.44.54 |
+| N/A | 192,243,237,86 |
+| EMEA | 185,34,189,4 |
+| APAC | 63,140,44,54 |
 
 ## Configuration des paramètres Dynamic Media (hybride){#configure-dm-hybrid-settings}
 
@@ -114,7 +114,7 @@ Si l’instance AEM Author s’exécute dans le mode hybride de Dynamic Media,
 
 >[!NOTE]
 >
->Les [profils de codage vidéo](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/video-profiles.html) ne sont pas publiés sur Brand Portal, mais sont récupérés du serveur **[!UICONTROL Scene 7]**. Par conséquent, pour que les codes vidéo soient lus correctement dans Brand Portal, assurez-vous que les détails de configuration sont identiques à la [[!UICONTROL configuration cloud Scene 7]](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) dans votre instance d’auteur AEM.
+>Les [profils de codage vidéo](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html) ne sont pas publiés sur Brand Portal, mais sont récupérés du serveur **[!UICONTROL Scene 7]**. Par conséquent, pour que les codes vidéo soient lus correctement dans Brand Portal, assurez-vous que les détails de configuration sont identiques à la [[!UICONTROL configuration cloud Scene 7]](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) dans votre instance d’auteur AEM.
 
 Pour définir les configurations Dynamic Media sur des clients Brand Portal :
 
