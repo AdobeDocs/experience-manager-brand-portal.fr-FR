@@ -41,7 +41,7 @@ Pour autoriser ce type d’accès, l’administrateur doit procéder comme suit�
 
 ![](assets/bp-welcome-screen.png)
 
-## Autoriser les utilisateurs à demander l’accès   {#allow-users-to-request-access}
+## Autoriser les utilisateurs à demander l’accès    {#allow-users-to-request-access}
 
 Les administrateurs peuvent autoriser les utilisateurs de l’entreprise à demander l’accès à Brand Portal à partir de l’écran de bienvenue. Toutefois, les administrateurs doivent activer la configuration **[!UICONTROL Autoriser les utilisateurs à demander l’accès]** de sorte que le lien de demande d’accès s’affiche sur l’écran de bienvenue.
 
