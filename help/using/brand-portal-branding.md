@@ -71,7 +71,7 @@ En l’absence d’image de papier peint de marque personnalisée, un papier pei
 
 
 
-## Personnalisation de l’en-tête     {#customize-the-header}
+## Personnalisation de l’en-tête      {#customize-the-header}
 
 L’en-tête apparaît sur différentes pages de Brand Portal une fois que vous êtes connecté à Brand Portal.
 
@@ -123,7 +123,7 @@ Pour enregistrer les modifications, cliquez sur **[!UICONTROL Enregistrer]** dan
 
 
 
-## Personnalisation des e-mails     {#customize-the-email-messaging}
+## Personnalisation des e-mails      {#customize-the-email-messaging}
 
 Lorsque des ressources sont partagées en tant que lien, l’utilisateur reçoit un e-mail contenant le lien. Les administrateurs peuvent personnaliser les messages, c’est-à-dire le logo, la description et le pied de page de ces e-mails.
 
