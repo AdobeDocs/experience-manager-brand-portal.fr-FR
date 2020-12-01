@@ -44,9 +44,9 @@ Pour accéder à Brand Portal de manière anonyme, sélectionnez **[!UICONTROL 
 
 
 Une session d’utilisateur invité reste principale pendant 15 minutes.
-This means that the state of the **[!UICONTROL Lightbox]** is preserved for 15 mins from the session start time, and after that the current guest session restarts so the Lightbox state is lost.
+Cela signifie que l’état de **[!UICONTROL Lightbox]** est conservé pendant 15 minutes à partir de l’heure de début de la session, puis que la session invitée active redémarre pour que l’état Lightbox soit perdu.
 
-For example, a guest user logs in to Brand Portal at 1500 hours and adds assets to **[!UICONTROL Lightbox]** for download at 15:05 hours. Si l’utilisateur ne télécharge pas la collection **[!UICONTROL Lightbox]** (ou ses ressources) avant 15h15 (dans les 15 minutes qui suivent la connexion), il devra redémarrer la session. La **[!UICONTROL Lightbox]** sera vide, ce qui signifie que les ressources téléchargées ne seront plus disponibles si la session a été perdue.
+Par exemple, un utilisateur invité se connecte à Brand Portal à 15 heures et ajoute des ressources à **[!UICONTROL Lightbox]** pour le téléchargement à 15 h 05. Si l’utilisateur ne télécharge pas la collection **[!UICONTROL Lightbox]** (ou ses ressources) avant 15:15 (dans les 15 minutes qui suivent la connexion), il devra redémarrer la session. **[!UICONTROL Lightbox]** sera vide, ce qui signifie que les ressources téléchargées ne sont plus disponibles si la session a été perdue.
 
 ## Sessions d’invités simultanées permises {#concurrent-guest-sessions-allowed}
 
