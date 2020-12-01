@@ -3,9 +3,9 @@ title: Guide d’Adobe Experience Manager Assets Brand Portal
 seo-title: Guide d’Adobe Experience Manager Assets Brand Portal
 description: Guide d’Adobe Experience Manager Assets Brand Portal
 seo-description: Décrit comment utiliser Brand Portal
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: bc9e2727ed3cccd9ce8f12601843f335c9578195
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 100%
 
