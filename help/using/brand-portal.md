@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1524'
 ht-degree: 100%
 
@@ -61,10 +61,10 @@ Le tableau suivant répertorie les tâches que peuvent réaliser les utilisateur
 
 |  | **Parcourir** | **Rechercher** | **Télécharger** | **Partage de dossiers** | **Partage d’une collection** | **Partager des ressources en tant que lien** | **Accéder aux outils d’administration** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
-| **Utilisateur invité** | ✓* | ✓* | ✓* | x | x | x | x |
-| **Observateur** | ✓ | ✓ | ✓ | x | x | x | x |
-| **Éditeur** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | x |
-| **Administrateur** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| **Utilisateur invité** | ✓* | obj* | obj* | x | x | x | x |
+| **Observateur** | ✓ | obj | obj | x | x | x | x |
+| **Éditeur** | obj | obj | obj | obj | obj | obj | x |
+| **Administrateur** | obj | obj | obj | obj | obj | obj | obj |
 
 * Les utilisateurs invités peuvent explorer des ressources, y accéder et en rechercher dans les dossiers et collections publics uniquement.
 
