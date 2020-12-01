@@ -8,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ca60fe1b76c6e99d835457627fcc4bf402b6bd87
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 100%
 
@@ -110,7 +110,7 @@ Le mode Liste répertorie les informations pour chaque ressource au niveau actue
 * Chemin du dossier présentant la hiérarchie des ressources<sup>*</sup>
 * Date de publication de cette ressource sur Brand Portal
 
-La colonne Chemin vous permet d’identifier facilement l’emplacement des ressources dans la hiérarchie de dossiers. Vous pouvez naviguer vers le bas de la hiérarchie en appuyant/cliquant sur le nom de la ressource, puis revenir vers le haut à l’aide des [chemins de navigation de l’en-tête](https://helpx.adobe.com/fr/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
+La colonne Chemin vous permet d’identifier facilement l’emplacement des ressources dans la hiérarchie de dossiers. Vous pouvez naviguer vers le bas de la hiérarchie en appuyant/cliquant sur le nom de la ressource, puis revenir vers le haut à l’aide des [chemins de navigation de l’en-tête](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Tap/click the vertical selection bar and drag the item to a new position in the list."
@@ -231,7 +231,7 @@ Comment Type: draft
 <p>In all views, all items can be deselected by tapping escape on the keyboard if you are using a desktop device.</p>
 -->
 
-## Arborescence de contenu    {#content-tree}
+## Arborescence de contenu     {#content-tree}
 
 En plus de ces vues, utilisez l’arborescence pour descendre dans la hiérarchie de ressources lorsque vous affichez et sélectionnez les ressources ou dossiers de votre choix.
 
@@ -243,7 +243,7 @@ Dans la hiérarchie de contenu, accédez à la ressource de votre choix.
 
 ![](assets/content-tree.png)
 
-## Détails de la ressource    {#asset-details}
+## Détails de la ressource     {#asset-details}
 
 La page Détails de la ressource permet d’afficher une ressource, de la télécharger, de partager son lien, de la déplacer vers une collection ou d’afficher sa page de propriétés. Elle vous permet également de parcourir la page de détails d’autres ressources au sein du même dossier, l’une après l’autre.
 
