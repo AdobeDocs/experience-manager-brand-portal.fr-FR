@@ -18,7 +18,7 @@ ht-degree: 39%
 ---
 
 
-# Téléchargement de fichiers depuis le portail des marques {#download-assets-from-bp}
+# Téléchargement de fichiers à partir du portail de marque {#download-assets-from-bp}
 
 <!-- Before update in Download experience - 26th Aug 2020 comment by Vishabh.
  All users can simultaneously download multiple assets and folders accessible to them from Brand Portal. This way, approved brand assets can be securely distributed for offline use. Read on to know how to download approved assets from Brand Portal, and what to expect from the [download performance](../using/brand-portal-download-assets.md#main-pars-header).
@@ -29,9 +29,9 @@ Adobe Experience Manager Assets Brand Portal améliore l’expérience de télé
 
 >[!NOTE]
 >
->Dans la version 2020.10.0 de Brand Portal (et ultérieure), le paramètre Téléchargement **** rapide est activé par défaut, qui utilise IBM Aspera Connect pour accélérer le téléchargement des ressources. [Installez IBM Aspera Connect 3.9.9 dans l’extension de votre navigateur avant de télécharger les ressources à partir de Brand Portal. ](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) For more details, see [guide to accelerate downloads from Brand Portal](../using/accelerated-download.md).
+>Dans la version 2020.10.0 de Brand Portal (et ultérieure), le paramètre **[!UICONTROL Téléchargement rapide]** est activé par défaut et utilise IBM Aspera Connect pour accélérer le téléchargement des ressources. [Installez IBM Aspera Connect 3.9.9 dans l’extension de votre navigateur avant de télécharger les ressources à partir de Brand Portal. ](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) Pour plus d&#39;informations, consultez le [guide pour accélérer les téléchargements à partir du portail de marque](../using/accelerated-download.md).
 >
->Si vous ne souhaitez pas utiliser IBM Aspera Connect et poursuivre le processus de téléchargement normal, contactez l’administrateur du portail des marques pour désactiver le paramètre Téléchargement **** rapide.
+>Si vous ne souhaitez pas utiliser IBM Aspera Connect et poursuivre le processus de téléchargement normal, contactez l’administrateur du portail de marque pour désactiver le paramètre **[!UICONTROL Téléchargement rapide]**.
 
 ## Configuration du téléchargement des ressources {#configure-download}
 
@@ -44,19 +44,19 @@ L’accès et le téléchargement des rendus à partir de Brand Portal sont déf
 
 ### Activer les paramètres de téléchargement {#enable-download-settings}
 
-Les administrateurs peuvent activer les paramètres **[!UICONTROL de]** téléchargement des ressources pour définir l’ensemble de rendus accessibles aux utilisateurs du portail de marque pour le téléchargement.
+Les administrateurs peuvent activer le fichier **[!UICONTROL Télécharger les paramètres]** pour définir le jeu de rendus accessible aux utilisateurs du portail de marque pour téléchargement.
 
 Les paramètres disponibles sont les suivants :
 
 * **[!UICONTROL Téléchargement rapide]**
 
-   Il permet un téléchargement accéléré des ressources à l’aide d’IBM Aspera Connect. By default, the **[!UICONTROL Fast Download]** setting is enabled in the **[!UICONTROL Download Settings]**.
+   Il permet un téléchargement accéléré des ressources à l’aide d’IBM Aspera Connect. Par défaut, le paramètre **[!UICONTROL Téléchargement rapide]** est activé dans les **[!UICONTROL Paramètres de téléchargement]**.
 
 * **[!UICONTROL Rendus personnalisés]**
 
    Permet de télécharger des rendus personnalisés et (ou) dynamiques des ressources.
 
-   Tous les rendus de ressources autres que l’actif d’origine et les rendus générés par le système sont appelés rendus personnalisés. Ils comprennent des rendus statiques et dynamiques disponibles pour les ressources. Un utilisateur peut créer un rendu statique personnalisé dans AEM Assets, alors que seul l’administrateur AEM peut créer des rendus dynamiques personnalisés. For details, see [how to apply image presets or dynamic renditions](../using/brand-portal-image-presets.md).
+   Tous les rendus de ressources autres que l’actif d’origine et les rendus générés par le système sont appelés rendus personnalisés. Ils comprennent des rendus statiques et dynamiques disponibles pour les ressources. Un utilisateur peut créer un rendu statique personnalisé dans AEM Assets, alors que seul l’administrateur AEM peut créer des rendus dynamiques personnalisés. Pour plus d’informations, voir [comment appliquer des paramètres d’image prédéfinis ou des rendus dynamiques](../using/brand-portal-image-presets.md).
 
 * **[!UICONTROL Rendus du système]**
 
@@ -77,9 +77,9 @@ Les administrateurs peuvent activer toute combinaison de paramètres permettant 
 
 ### Configuration des autorisations de téléchargement {#configure-download-permissions}
 
-Outre les paramètres **[!UICONTROL de]** téléchargement, les administrateurs du portail de marque peuvent configurer davantage les autorisations de vue de différents groupes d’utilisateurs et (ou) télécharger les ressources d’origine et leurs rendus.
+Outre les **[!UICONTROL paramètres de téléchargement]**, les administrateurs du portail de marque peuvent configurer davantage les autorisations de différents groupes d’utilisateurs pour la vue et (ou) télécharger les ressources d’origine et leurs rendus.
 
-Log in to your Brand Portal tenant as an administrator and navigate to **[!UICONTROL Tools]** > **[!UICONTROL Users]**. Dans la page Rôles **** utilisateur, accédez à l’onglet **[!UICONTROL Groupes]** pour configurer la vue et (ou) les autorisations de téléchargement des groupes d’utilisateurs.
+Connectez-vous à votre client du portail de marque en tant qu’administrateur et accédez à **[!UICONTROL Outils]** > **[!UICONTROL Utilisateurs]**. Dans la page **[!UICONTROL Rôles utilisateur]**, accédez à l&#39;onglet **[!UICONTROL Groupes]** pour configurer la vue et (ou) les autorisations de téléchargement pour les groupes d&#39;utilisateurs.
 
 ![autorisation-téléchargement-affichage](assets/download-permissions.png)
 
@@ -89,7 +89,7 @@ Log in to your Brand Portal tenant as an administrator and navigate to **[!UICON
 
 En fonction de la configuration, le workflow de téléchargement reste le même pour les ressources uniques ou multiples, les dossiers contenant des ressources, les ressources qui sont ou non sous licence, ainsi que le téléchargement de ressources à l’aide du lien de partage.
 
-La matrice suivante définit si un utilisateur a accès aux rendus en fonction des configurations [de](#configure-download)téléchargement :
+La matrice suivante définit si un utilisateur a accès aux rendus en fonction des [configurations de téléchargement](#configure-download) :
 
 | **Paramètres de téléchargement : Rendus personnalisés** | **Paramètres de téléchargement : Rendus système** | **Autorisations de groupe d’utilisateurs : Télécharger l’original** | **Autorisations de groupe d’utilisateurs : Télécharger des rendus** | **Résultat** |
 |---|---|---|---|---|
@@ -114,7 +114,7 @@ Les utilisateurs du portail de marque peuvent télécharger plusieurs fichiers, 
 >
 >Contactez l’administrateur du portail des marques si vous n’êtes pas autorisé à accéder aux rendus ou à les télécharger.
 
-Si l’utilisateur a accès à des rendus, la boîte de dialogue de **[!UICONTROL téléchargement]** améliorée s’affiche avec les fonctionnalités suivantes :
+Si l’utilisateur a accès à des rendus, la boîte de dialogue **[!UICONTROL Télécharger]** améliorée est fournie à l’utilisateur avec les fonctionnalités suivantes :
 * afficher tous les rendus disponibles de toutes les ressources dans la liste de téléchargement ;
 * exclure les rendus des ressources qui ne sont pas nécessaires pour le téléchargement ;
 * Appliquez le même jeu de rendus à tous les types de ressource similaires en un seul clic.
@@ -126,10 +126,10 @@ Si l’utilisateur a accès à des rendus, la boîte de dialogue de **[!UICONTRO
 
 >[!NOTE]
 >
->La boîte de dialogue **[!UICONTROL Télécharger]** s’affiche uniquement si les ressources sont sélectionnées pour le téléchargement et si les rendus **** personnalisés ou les rendus **** système sont activés dans les paramètres de **[!UICONTROL téléchargement.]**
+>La boîte de dialogue **[!UICONTROL Télécharger]** apparaît uniquement si les ressources sont sélectionnées pour le téléchargement et **[!UICONTROL Rendus personnalisés]** ou **[!UICONTROL Rendus système]** est activée dans les **[!UICONTROL Paramètres de téléchargement]**.
 
 
-### Étapes de téléchargement des ressources {#bulk-download}
+### Étapes de téléchargement des ressources  {#bulk-download}
 
 Vous trouverez ci-dessous la procédure à suivre pour télécharger des fichiers ou des dossiers contenant des fichiers à partir de l’interface du portail de marque :
 
@@ -141,7 +141,7 @@ Vous trouverez ci-dessous la procédure à suivre pour télécharger des fichier
 
       ![select-multiple-assets](assets/select-assets-new.png)
 
-   * To download specific asset renditions of an asset, hover the pointer over the asset and click the **[!UICONTROL Download]** icon available in the quick action thumbnails.
+   * Pour télécharger des rendus de fichier spécifiques d’un fichier, placez le pointeur sur le fichier et cliquez sur l’icône **[!UICONTROL Télécharger]** disponible dans les miniatures d’action rapide.
 
       ![select-asset](assets/select-asset.png)
 
@@ -155,20 +155,20 @@ Vous trouverez ci-dessous la procédure à suivre pour télécharger des fichier
       >
       >Si les ressources que vous téléchargez comprennent également des ressources sous licence, vous êtes redirigé vers la page **[!UICONTROL Gestion des droits d’auteur]**. Dans cette page, sélectionnez les ressources, cliquez d’abord sur **[!UICONTROL Accepter]**, puis sur **[!UICONTROL Télécharger]**. Si vous choisissez de ne pas accepter, les ressources sous licence ne sont pas téléchargées.
       > 
-      >Dans le cas des ressources protégées par une licence, un [contrat de licence leur est associé](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) en définissant la [propriété de métadonnées](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) appropriée dans Experience Manager Assets.
+      >Dans le cas des ressources protégées par une licence, un [contrat de licence leur est associé](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) en définissant la [propriété de métadonnées](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) appropriée dans Experience Manager Assets.
 
 
       ![license-asset](assets/licensed-asset-new.png)
 
-1. La boîte de dialogue **[!UICONTROL Télécharger]** répertoriant tous les fichiers sélectionnés s’ouvre.
+1. La boîte de dialogue **[!UICONTROL Télécharger]** répertoriant tous les actifs sélectionnés s’ouvre.
 
    Cliquez sur un fichier pour vue les rendus disponibles et cochez les cases correspondant aux rendus à télécharger.
 
-   Vous pouvez sélectionner ou exclure manuellement les rendus de fichiers individuels ou cliquer sur l’icône **Appliquer** pour sélectionner le même ensemble de rendus à télécharger pour des types de fichiers similaires (tous les fichiers image de cet exemple). Dans la boîte de dialogue **[!UICONTROL Appliquer tout]** , cliquez sur **[!UICONTROL Terminé]** pour appliquer la règle à tous les actifs similaires.
+   Vous pouvez sélectionner ou exclure manuellement les rendus pour des ressources individuelles ou cliquer sur l’icône **Appliquer** pour sélectionner le même ensemble de rendus à télécharger pour des types de ressources similaires (tous les fichiers image de cet exemple). Dans la boîte de dialogue **[!UICONTROL Appliquer tout]**, cliquez sur **[!UICONTROL Terminé]** pour appliquer la règle à tous les actifs similaires.
 
    ![appliquer tout](assets/apply.png)
 
-   Vous pouvez également supprimer un fichier de la liste de téléchargement (si nécessaire) en cliquant sur l’icône **Supprimer** .
+   Vous pouvez également supprimer un fichier de la liste de téléchargement (si nécessaire) en cliquant sur l’icône **Supprimer**.
 
    ![supprimer](assets/remove.png)
 
@@ -178,20 +178,20 @@ Vous trouverez ci-dessous la procédure à suivre pour télécharger des fichier
 
    ![boîte-de-dialogue-télécharger](assets/download-dialog-new.png)
 
-1. By default the **[!UICONTROL Fast Download]** setting is enabled in the **[!UICONTROL Download Settings]**. Par conséquent, une zone de confirmation s’affiche pour permettre un téléchargement accéléré à l’aide d’IBM Aspera Connect.
+1. Par défaut, le paramètre **[!UICONTROL Téléchargement rapide]** est activé dans les **[!UICONTROL Paramètres de téléchargement]**. Par conséquent, une zone de confirmation s’affiche pour permettre un téléchargement accéléré à l’aide d’IBM Aspera Connect.
 
-   Pour continuer à utiliser le téléchargement **** rapide, cliquez sur **[!UICONTROL Autoriser]**. Tous les rendus sélectionnés sont téléchargés dans un dossier zip à l’aide d’IBM Aspera Connect.
+   Pour continuer à utiliser **[!UICONTROL Téléchargement rapide]**, cliquez sur **[!UICONTROL Autoriser]**. Tous les rendus sélectionnés sont téléchargés dans un dossier zip à l’aide d’IBM Aspera Connect.
 
-   Si vous ne souhaitez pas utiliser IBM Aspera Connect, cliquez sur **[!UICONTROL Refuser]**. Si le téléchargement **** rapide est refusé ou échoue, le système remplit un message d’erreur. Cliquez sur le bouton Téléchargement **** normal pour continuer à télécharger les ressources. Les rendus sélectionnés sont téléchargés dans un dossier zip sans utiliser IBM Aspera Connect.
-
->[!NOTE]
->
->Si le paramètre Téléchargement **** rapide est désactivé par l’administrateur, les rendus sélectionnés sont directement téléchargés dans un dossier zip sans utiliser IBM Aspera Connect.
-
+   Si vous ne souhaitez pas utiliser IBM Aspera Connect, cliquez sur **[!UICONTROL Refuser]**. Si **[!UICONTROL Téléchargement rapide]** est refusé ou échoue, le système renseigne un message d’erreur. Cliquez sur le bouton **[!UICONTROL Téléchargement normal]** pour continuer à télécharger les ressources. Les rendus sélectionnés sont téléchargés dans un dossier zip sans utiliser IBM Aspera Connect.
 
 >[!NOTE]
 >
->Si un dossier, une collection ou plus de 20 fichiers sont sélectionnés pour téléchargement, la boîte de dialogue **[!UICONTROL Télécharger]** est ignorée et tous les rendus de fichiers accessibles à l’utilisateur, à l’exception des rendus dynamiques, sont téléchargés dans un dossier zip. Les rendus de fichier sont téléchargés dans un dossier distinct pour chaque fichier du dossier zip.
+>Si le paramètre **[!UICONTROL Téléchargement rapide]** est désactivé par l’administrateur, les rendus sélectionnés sont directement téléchargés dans un dossier zip sans utiliser IBM Aspera Connect.
+
+
+>[!NOTE]
+>
+>Si un dossier, une collection ou plus de 20 ressources sont sélectionnés pour téléchargement, la boîte de dialogue **[!UICONTROL Télécharger]** est ignorée et tous les rendus de ressources accessibles à l’utilisateur, à l’exception des rendus dynamiques, sont téléchargés dans un dossier zip. Les rendus de fichier sont téléchargés dans un dossier distinct pour chaque fichier du dossier zip.
 
 
 >[!NOTE]
@@ -214,35 +214,35 @@ Si vous n’êtes pas [autorisé par l’administrateur à accéder aux rendus d
 >Once you have downloaded the asset renditions, the **[!UICONTROL Download]** button is disabled to avoid creating duplicate copies of the renditions. To download more (missing or another copy of renditions), refresh the browser to re-enable the download button.
 -->
 
-### Téléchargement de fichiers à partir de la page des détails des fichiers {#download-assets-from-asset-details-page}
+### Télécharger des ressources à partir de la page des détails des ressources {#download-assets-from-asset-details-page}
 
 Outre le processus de téléchargement, il existe une autre méthode de téléchargement des rendus pour des ressources individuelles directement à partir de la page des détails de la ressource.
 
-Les utilisateurs peuvent prévisualisation différents rendus, sélectionner des rendus spécifiques et les télécharger directement depuis le panneau **[!UICONTROL Rendus]** de la page des détails de la ressource sans avoir à ouvrir la boîte de dialogue de **[!UICONTROL téléchargement]** .
+Les utilisateurs peuvent prévisualisation différents rendus, sélectionner des rendus spécifiques et les télécharger directement depuis le panneau **[!UICONTROL Rendus]** de la page des détails de la ressource sans avoir à ouvrir la boîte de dialogue **[!UICONTROL Télécharger]**.
 
 
 Vous trouverez ci-dessous la procédure à suivre pour télécharger des rendus de ressources à partir de la page des détails de la ressource :
 
 1. Connectez-vous à votre client du portail de marques et cliquez sur le fichier pour ouvrir la page des détails du fichier.
-1. Click the overlay icon on the left, and then click **[!UICONTROL Renditions]**.
+1. Cliquez sur l’icône d’incrustation située à gauche, puis sur **[!UICONTROL Rendus]**.
 
    ![rendu-navigation](assets/rendition-navigation.png)
 
-1. Le panneau **[!UICONTROL Rendus]** liste tous les rendus de ressources accessibles en fonction des configurations [de](#configure-download)téléchargement de ressources.
+1. Le panneau **[!UICONTROL Rendus]** liste tous les rendus de ressource accessibles en fonction des [configurations de téléchargement](#configure-download) de la ressource.
 
-   Sélectionnez les rendus spécifiques à télécharger, puis cliquez sur **[!UICONTROL Télécharger les éléments]**.
+   Sélectionnez les rendus spécifiques que vous souhaitez télécharger et cliquez sur **[!UICONTROL Télécharger les éléments]**.
 
    ![panneau-rendus](assets/renditions-panel.png)
 
-1. By default the **[!UICONTROL Fast Download]** setting is enabled in the **[!UICONTROL Download Settings]**. Par conséquent, une zone de confirmation s’affiche pour permettre un téléchargement accéléré à l’aide d’IBM Aspera Connect.
+1. Par défaut, le paramètre **[!UICONTROL Téléchargement rapide]** est activé dans les **[!UICONTROL Paramètres de téléchargement]**. Par conséquent, une zone de confirmation s’affiche pour permettre un téléchargement accéléré à l’aide d’IBM Aspera Connect.
 
-   Pour continuer à utiliser le téléchargement **** rapide, cliquez sur **[!UICONTROL Autoriser]**. Tous les rendus sélectionnés sont téléchargés dans un dossier zip à l’aide d’IBM Aspera Connect.
+   Pour continuer à utiliser **[!UICONTROL Téléchargement rapide]**, cliquez sur **[!UICONTROL Autoriser]**. Tous les rendus sélectionnés sont téléchargés dans un dossier zip à l’aide d’IBM Aspera Connect.
 
-   Si vous refusez d’utiliser le téléchargement **** rapide, le système renseigne un message d’erreur. Cliquez sur le bouton Téléchargement **** normal pour continuer le téléchargement. Les rendus sélectionnés sont téléchargés dans un dossier zip sans utiliser IBM Aspera Connect.
+   Si vous refusez d’utiliser **[!UICONTROL Téléchargement rapide]**, le système renseigne un message d’erreur. Cliquez sur le bouton **[!UICONTROL Téléchargement normal]** pour continuer le téléchargement. Les rendus sélectionnés sont téléchargés dans un dossier zip sans utiliser IBM Aspera Connect.
 
 >[!NOTE]
 >
->Si le paramètre Téléchargement **** rapide est désactivé par l’administrateur, les rendus sélectionnés sont directement téléchargés dans un dossier zip sans utiliser IBM Aspera Connect.
+>Si le paramètre **[!UICONTROL Téléchargement rapide]** est désactivé par l’administrateur, les rendus sélectionnés sont directement téléchargés dans un dossier zip sans utiliser IBM Aspera Connect.
 
 
 >[!NOTE]
