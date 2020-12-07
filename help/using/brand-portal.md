@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 7adc6b311a7f669b05dd8cc82cede62194cb8ec6
 workflow-type: tm+mt
 source-wordcount: '1524'
 ht-degree: 100%
@@ -234,4 +234,4 @@ Vous pouvez ignorer cette notification et continuer à utiliser Brand Portal. C
 ## Ressources connexes {#related-resources}
 
 * [Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/marketing-cloud/contact-support.html)
-* [Forums AEM](https://www.adobe.com/go/aod_forums_fr)
+* [Forums AEM](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
