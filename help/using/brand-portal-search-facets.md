@@ -9,10 +9,10 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+source-git-commit: cd6dc0501546a772b1ffd71ef1b09ba0a716e858
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 100%
+source-wordcount: '1298'
+ht-degree: 96%
 
 ---
 
@@ -69,6 +69,12 @@ Pour ajouter un prédicat de recherche au panneau **[!UICONTROL Filtres]** :
    >Lorsque vous cochez la case **[!UICONTROL Recherche partielle]**, l’option **[!UICONTROL Ignorer la casse]** est sélectionnée par défaut.
 
 1. Dans le champ **[!UICONTROL Nom de la propriété]**, ouvrez le sélecteur de propriétés, puis choisissez la propriété sur laquelle se base la recherche. Sinon, saisissez un nom de propriété. Par exemple, saisissez `  jcr :content/metadata/dc:title` ou `./jcr:content/metadata/dc:title`.
+
+   >[!NOTE]
+   >
+   >Dans le portail Marque, toutes les propriétés (à l’exception de celles commençant par `xmp`) dans `jcrcontent/metadata` de `dam:asset` sont indexées par défaut.
+   >
+   >Toute propriété indexée peut être utilisée lors de la création d’un prédicat de propriété. Si une propriété non indexée est configurée, la requête de recherche sur une propriété non indexée peut ne pas donner de résultat de recherche.
 
    ![](assets/title-prop.png)
 
