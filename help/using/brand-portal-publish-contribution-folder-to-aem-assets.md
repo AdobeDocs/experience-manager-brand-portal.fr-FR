@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
+source-git-commit: 8e08fdfb95686d28960c0fd440754b90c22ae557
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 100%
+source-wordcount: '263'
+ht-degree: 69%
 
 ---
 
@@ -39,5 +39,16 @@ Une notification Pulse/par e-mail est envoyée à l’utilisateur et aux adminis
 1. **En file d&#39;attente** : une notification est envoyée à l&#39;utilisateur et aux administrateurs de Brand Portal lorsqu&#39;un processus de publication se déclenche dans Brand Portal.
 
 1. **Terminé** : une notification est envoyée à l&#39;utilisateur et aux administrateurs de Brand Portal lorsque le dossier de contribution est publié avec succès dans AEM Assets.
+
+
+**Statut de la tâche de publication**
+
+Les administrateurs peuvent utiliser deux rapports pour vue de l’état des dossiers de contribution des ressources publiés de Brand Portal à AEM Assets.
+
+* Dans le portail de la marque, accédez à **[!UICONTROL Outils]** > **[!UICONTROL État de la contribution de l’actif]**. Ce rapport indique l’état de toutes les tâches de publication, y compris les différentes étapes du processus de publication (En file d’attente et Terminé).
+
+* Dans l’instance d’auteur AEM Assets, accédez à **[!UICONTROL Outils]** > **[!UICONTROL Tâches]**. Ce rapport ne reflète que les tâches de publication en attente.
+
+
 
 
