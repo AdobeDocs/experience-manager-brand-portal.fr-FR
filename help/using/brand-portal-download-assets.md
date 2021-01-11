@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
+source-git-commit: 46e6bf2865aa90953791fdee9f24673e92cb19b7
 workflow-type: tm+mt
-source-wordcount: '1879'
-ht-degree: 39%
+source-wordcount: '1940'
+ht-degree: 37%
 
 ---
 
@@ -35,12 +35,16 @@ Adobe Experience Manager Assets Brand Portal améliore l’expérience de télé
 
 ## Configuration du téléchargement des ressources {#configure-download}
 
-Les administrateurs du portail des marques peuvent configurer les paramètres de téléchargement des fichiers et les autorisations pour les utilisateurs du portail des marques, ce qui leur permet d’accéder aux rendus de fichiers et de les télécharger à partir de l’interface du portail des marques et de les télécharger.
+Les administrateurs du portail des marques peuvent configurer les paramètres de téléchargement et de groupe d’utilisateurs des ressources pour les utilisateurs du portail des marques, ce qui leur permet d’accéder aux rendus de ressources et de les télécharger à partir de l’interface du portail des marques et de les télécharger.
 
-L’accès et le téléchargement des rendus à partir de Brand Portal sont définis par les configurations suivantes :
+>[!NOTE]
+>
+>Les paramètres de téléchargement appliqués sur l’interface utilisateur facilitent la mise en libre-service des utilisateurs du portail de la marque pour configurer et télécharger facilement les rendus de ressources. Il ne limite pas le téléchargement des fichiers au niveau de la couche d’application ; par exemple, les utilisateurs peuvent toujours accéder aux rendus de fichiers et les télécharger avec le chemin d’accès URL complet.
+
+L’accès et le téléchargement des rendus de ressources à partir de l’interface du portail des marques sont définis par les configurations suivantes :
 
 * Activer les paramètres de téléchargement
-* Configuration des autorisations de téléchargement
+* Configuration des paramètres des groupes d’utilisateurs
 
 ### Activer les paramètres de téléchargement {#enable-download-settings}
 
@@ -75,11 +79,11 @@ Les administrateurs peuvent activer toute combinaison de paramètres permettant 
 >
 >Seuls les administrateurs peuvent télécharger les ressources expirées. Pour plus d’informations sur les ressources arrivées à expiration, voir [Gestion des droits numériques des ressources](../using/manage-digital-rights-of-assets.md).
 
-### Configuration des autorisations de téléchargement {#configure-download-permissions}
+### Configurer les paramètres du groupe d&#39;utilisateurs {#configure-user-group-settings}
 
-Outre les **[!UICONTROL paramètres de téléchargement]**, les administrateurs du portail de marque peuvent configurer davantage les autorisations de différents groupes d’utilisateurs pour la vue et (ou) télécharger les ressources d’origine et leurs rendus.
+Outre les **[!UICONTROL paramètres de téléchargement]**, les administrateurs du portail de marque peuvent configurer davantage les paramètres de différents groupes d’utilisateurs pour qu’ils les vues et (ou) télécharger les ressources d’origine et leurs rendus.
 
-Connectez-vous à votre client du portail de marque en tant qu’administrateur et accédez à **[!UICONTROL Outils]** > **[!UICONTROL Utilisateurs]**. Dans la page **[!UICONTROL Rôles utilisateur]**, accédez à l&#39;onglet **[!UICONTROL Groupes]** pour configurer la vue et (ou) les autorisations de téléchargement pour les groupes d&#39;utilisateurs.
+Connectez-vous à votre client du portail de marque en tant qu’administrateur et accédez à **[!UICONTROL Outils]** > **[!UICONTROL Utilisateurs]**. Dans la page **[!UICONTROL Rôles utilisateur]**, accédez à l&#39;onglet **[!UICONTROL Groupes]** pour configurer la vue et (ou) les paramètres de téléchargement des groupes d&#39;utilisateurs.
 
 ![autorisation-téléchargement-affichage](assets/download-permissions.png)
 
@@ -91,7 +95,7 @@ En fonction de la configuration, le workflow de téléchargement reste le même 
 
 La matrice suivante définit si un utilisateur a accès aux rendus en fonction des [configurations de téléchargement](#configure-download) :
 
-| **Paramètres de téléchargement : Rendus personnalisés** | **Paramètres de téléchargement : Rendus système** | **Autorisations de groupe d’utilisateurs : Télécharger l’original** | **Autorisations de groupe d’utilisateurs : Télécharger des rendus** | **Résultat** |
+| **Paramètres de téléchargement : Rendus personnalisés** | **Paramètres de téléchargement : Rendus système** | **Paramètres du groupe d’utilisateurs : Télécharger l’original** | **Paramètres du groupe d’utilisateurs : Télécharger des rendus** | **Résultat** |
 |---|---|---|---|---|
 | ACTIVE | ACTIVE | ACTIVE | ACTIVE | Vue et téléchargement de tous les rendus |
 | ACTIVE | ACTIVE | OFF | OFF | Ressource d’origine de la vue |
@@ -112,7 +116,7 @@ Les utilisateurs du portail de marque peuvent télécharger plusieurs fichiers, 
 
 >[!NOTE]
 >
->Contactez l’administrateur du portail des marques si vous n’êtes pas autorisé à accéder aux rendus ou à les télécharger.
+>Contactez l’administrateur du portail des marques si vous n’êtes pas autorisé à accéder aux rendus de ressources ou à les télécharger.
 
 Si l’utilisateur a accès à des rendus, la boîte de dialogue **[!UICONTROL Télécharger]** améliorée est fournie à l’utilisateur avec les fonctionnalités suivantes :
 * afficher tous les rendus disponibles de toutes les ressources dans la liste de téléchargement ;
@@ -196,7 +200,7 @@ Vous trouverez ci-dessous la procédure à suivre pour télécharger des fichier
 
 >[!NOTE]
 >
->Le portail de marque prend en charge la configuration de Contenu multimédia dynamique en mode hybride et Scene7.
+>Le portail de marque prend en charge la configuration de Dynamic Media en mode hybride et Scene7.
 >
 >(*Si l’instance (d’auteur) AEM est en cours d’exécution en mode **hybride Dynamic Media***.)
 >
