@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 8e08fdfb95686d28960c0fd440754b90c22ae557
+source-git-commit: 6eb01e2eec7de6b704976c990fb6ffacbc67471a
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 69%
+source-wordcount: '261'
+ht-degree: 70%
 
 ---
 
@@ -45,9 +45,13 @@ Une notification Pulse/par e-mail est envoyée à l’utilisateur et aux adminis
 
 Les administrateurs peuvent utiliser deux rapports pour vue de l’état des dossiers de contribution des ressources publiés de Brand Portal à AEM Assets.
 
-* Dans le portail de la marque, accédez à **[!UICONTROL Outils]** > **[!UICONTROL État de la contribution de l’actif]**. Ce rapport indique l’état de toutes les tâches de publication, y compris les différentes étapes du processus de publication (En file d’attente et Terminé).
+* Dans le portail de la marque, accédez à **[!UICONTROL Outils]** > **[!UICONTROL État de la contribution de l’actif]**. Ce rapport reflète l’état de toutes les tâches de publication à différentes étapes du processus de publication.
 
-* Dans l’instance d’auteur AEM Assets, accédez à **[!UICONTROL Outils]** > **[!UICONTROL Tâches]**. Ce rapport ne reflète que les tâches de publication en attente.
+   ![](assets/contribution-folder-status.png)
+
+* Dans l’instance d’auteur AEM Assets, accédez à **[!UICONTROL Outils]** > **[!UICONTROL Tâches]**. Ce rapport reflète l’état final (Réussite ou Erreur) de toutes les tâches de publication.
+
+   ![](assets/publishing-status.png)
 
 
 
