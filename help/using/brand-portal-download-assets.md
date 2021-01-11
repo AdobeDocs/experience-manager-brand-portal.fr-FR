@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 46e6bf2865aa90953791fdee9f24673e92cb19b7
+source-git-commit: 8ab18a4a177f9764150ff571f89ae94a1f699d89
 workflow-type: tm+mt
 source-wordcount: '1940'
 ht-degree: 37%
@@ -39,7 +39,7 @@ Les administrateurs du portail des marques peuvent configurer les paramètres de
 
 >[!NOTE]
 >
->Les paramètres de téléchargement appliqués sur l’interface utilisateur facilitent la mise en libre-service des utilisateurs du portail de la marque pour configurer et télécharger facilement les rendus de ressources. Il ne limite pas le téléchargement des fichiers au niveau de la couche d’application ; par exemple, les utilisateurs peuvent toujours accéder aux rendus de fichiers et les télécharger avec le chemin d’accès URL complet.
+>Les paramètres de téléchargement appliqués sur l’interface utilisateur facilitent la mise en libre-service des utilisateurs du portail de la marque pour configurer et télécharger facilement les rendus de ressources. Il ne limite pas le téléchargement des fichiers au niveau de la couche d’application. Par exemple, les utilisateurs peuvent toujours accéder aux rendus de fichiers et les télécharger avec le chemin d’accès URL complet.
 
 L’accès et le téléchargement des rendus de ressources à partir de l’interface du portail des marques sont définis par les configurations suivantes :
 
