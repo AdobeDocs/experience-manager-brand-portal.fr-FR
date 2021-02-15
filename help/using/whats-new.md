@@ -1,8 +1,8 @@
 ---
 title: Nouveautés d’AEM Assets Brand Portal
 seo-title: Nouveautés d’AEM Assets Brand Portal
-description: Découvrez les nouvelles fonctionnalités et améliorations de la version 2020.10.0.
-seo-description: Découvrez les nouvelles fonctionnalités et améliorations de la version 2020.10.0.
+description: Découvrez les nouvelles fonctionnalités et améliorations de la version 2021.02.0.
+seo-description: Découvrez les nouvelles fonctionnalités et améliorations de la version 2021.02.0.
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,10 +10,10 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 1d57e3ec19f1ffc944e2547989b2627988cd19c1
+source-git-commit: c26a5cbabd9d12f9cf8b0b0ac61aca596bea1b0e
 workflow-type: tm+mt
-source-wordcount: '5479'
-ht-degree: 97%
+source-wordcount: '5798'
+ht-degree: 91%
 
 ---
 
@@ -21,6 +21,44 @@ ht-degree: 97%
 # Nouveautés d’AEM Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de contrôler et de distribuer facilement et en toute sécurité des ressources créatives approuvées destinées à des tiers externes et aux collaborateurs de l’entreprise sur différents appareils. Brand Portal améliore l’efficacité du partage des ressources, accélère la mise sur le marché des ressources et réduit les risques de non-conformité et d’accès non autorisé. Adobe a pour objectif d’améliorer l’expérience globale de Brand Portal. Vous trouverez ci-dessous un aperçu des nouvelles fonctionnalités et améliorations.
+
+## Changements dans la version 2021.02.0 {#what-changed-in-feb-2021}
+
+Le portail de marque 2021.02.0 est une version améliorée qui met l’accent sur l’amélioration de l’expérience de téléchargement de ressources et comprend des correctifs critiques. Il permet aux administrateurs de configurer le comportement de téléchargement par défaut des dossiers, des collections et des fichiers téléchargés en masse au niveau du client. Le **[!UICONTROL rapport d’utilisation du portail de marque]** a également été modifié pour refléter les utilisateurs principaux du portail de marque. Consultez les dernières [Notes de mise à jour de Brand Portal](brand-portal-release-notes.md).
+
+
+### Téléchargement de fichier {#asset-download-setting}
+
+Outre les **[!UICONTROL Paramètres de téléchargement]** existants, les administrateurs du portail de marque peuvent désormais configurer le paramètre **[!UICONTROL Téléchargement de fichier]**. Ce paramètre permet aux administrateurs de contrôler le comportement de téléchargement par défaut des dossiers, des collections et des fichiers téléchargés en masse (plus de 20 fichiers) au niveau du client.
+
+<!--
+Earlier, all the asset renditions were directly downloaded in a zip folder in case of folder, collection, and bulk download of assets. As the **[!UICONTROL Download]** dialog is skipped for folders or collections, there was no mechanism to control the downloading behaviour of the assets. Due to this, the users were finding it difficut to search for a particular asset rendition from a folder containing huge bunch of downloaded renditions. 
+-->
+
+Auparavant, tous les rendus de fichier étaient directement téléchargés dans un dossier zip. La boîte de dialogue **[!UICONTROL Télécharger]** a été ignorée pour les dossiers et les collections, et il n’y avait aucune méthode pour contrôler le comportement de téléchargement des ressources, ce qui rendait difficile la recherche d’un rendu particulier à partir d’un grand nombre de téléchargements.
+
+**[!UICONTROL Le]** téléchargement des ressources permet désormais de créer un dossier distinct pour chaque ressource lors du téléchargement des dossiers, des collections ou du téléchargement en masse des ressources.
+
+Si le paramètre **[!UICONTROL Téléchargement de fichier]** est désactivé, les dossiers ou collections sont téléchargés dans un dossier zip contenant tous les rendus de fichier sous le même dossier, à l’exception du téléchargement des fichiers à l’aide du lien de partage.
+
+
+Connectez-vous à votre client Brand Portal en tant qu’administrateur et accédez à **[!UICONTROL Outils]** > **[!UICONTROL Télécharger]**. Les administrateurs peuvent activer le paramètre **[!UICONTROL Téléchargement de fichier]** pour créer un dossier distinct pour chaque fichier lors du téléchargement de dossiers, de collections et de téléchargements en masse de fichiers.
+
+![](assets/download-settings-new.png)
+
+<!--
+### Download using Share link {#download-using-share-link}
+
+The default behavior of downloading the assets using share link is now independent of the **[!UICONTROL Download Settings]**. A separate folder is created for each asset while downloading the assets using share link. 
+-->
+
+### Rapport d&#39;utilisation {#usage-report}
+
+Le rapport d’utilisation **[!UICONTROL du portail de la marque]** a été modifié afin de ne refléter que les principaux utilisateurs du portail de la marque. Les utilisateurs du portail de la marque qui ne sont affectés à aucun profil de produits dans le Admin Console sont considérés comme des utilisateurs inactifs et ne sont pas reflétés dans le **[!UICONTROL rapport d’utilisation]**.
+
+Auparavant, les utilisateurs principaux et inactifs étaient affichés dans le rapport d’utilisation.
+
+![](assets/usage-report.png)
 
 ## Changements dans la version 2020.10.0 {#what-changed-in-oct-2020}
 
@@ -83,13 +121,13 @@ The user can clear the check boxes to exclude the renditions which are not requi
 ![panneau-rendus](assets/renditions-panel.png)
 
 
-### Configuration des autorisations de téléchargement {#download-permissions}
+### Configurer les paramètres de téléchargement {#download-permissions}
 
-Outre les configurations de **[!UICONTROL téléchargement]** existantes, les administrateurs de Brand Portal peuvent configurer des autorisations pour différents groupes d’utilisateurs afin de voir ou télécharger la ressource d’origine et ses rendus à partir de la page des détails de la ressource.
+Outre les configurations **[!UICONTROL Télécharger]** existantes, les administrateurs du portail de marque peuvent également configurer les paramètres de différents groupes d’utilisateurs à vue et (ou) télécharger la ressource d’origine et ses rendus à partir de la page des détails de la ressource.
 
 Connectez-vous à votre client du portail de marque en tant qu’administrateur et accédez à **[!UICONTROL Outils]** > **[!UICONTROL Utilisateurs]**.
 
-Dans la page **[!UICONTROL Rôles utilisateur]**, accédez à l&#39;onglet **[!UICONTROL Groupes]** pour configurer la vue et (ou) les autorisations de téléchargement des groupes d&#39;utilisateurs.
+Dans la page **[!UICONTROL Rôles utilisateur]**, accédez à l&#39;onglet **[!UICONTROL Groupes]** pour configurer la vue et (ou) les paramètres de téléchargement des groupes d&#39;utilisateurs.
 
 Auparavant, les paramètres étaient disponibles uniquement pour restreindre le nombre d’utilisateurs du groupe pouvant télécharger la ressource d’origine.
 
@@ -159,8 +197,6 @@ L’administrateur Brand Portal peut activer n’importe quelle combinaison pour
 * Si **[!UICONTROL Rendu personnalisé]** ou **[!UICONTROL Rendu système]** est activé, la boîte de dialogue **[!UICONTROL Télécharger]** s’affiche, et la ressource d’origine ainsi que ses rendus sont téléchargés. L’activation de la configuration **[!UICONTROL Téléchargement rapide]** accélère le processus de téléchargement.
 
 En fonction de la configuration, le workflow de téléchargement reste le même pour les ressources uniques ou multiples, les dossiers contenant des ressources, les ressources qui sont ou non sous licence, ainsi que le téléchargement de ressources à l’aide du lien de partage.
-
-![](assets/download-configuration.png)
 
 
 ## Changements dans la version 6.4.6 {#what-changed-in-646}
@@ -261,7 +297,7 @@ Brand Portal 6.4.4 et les versions ultérieures prennent en charge la recherch
 
 Lisez les sections suivantes pour en savoir plus sur la recherche de texte partielle et la recherche par caractères génériques.
 
-#### Recherche par expression partielle  {#partial-phrase-search}
+#### Recherche par expression partielle {#partial-phrase-search}
 
 Vous pouvez maintenant rechercher des ressources en spécifiant uniquement une partie (c’est-à-dire un mot ou deux) de l’expression recherchée dans le volet de filtrage.
 
