@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 8ab18a4a177f9764150ff571f89ae94a1f699d89
+source-git-commit: f552aaa31c06cfe33b387e22d0a6e70fef9d147d
 workflow-type: tm+mt
-source-wordcount: '1940'
+source-wordcount: '1960'
 ht-degree: 37%
 
 ---
@@ -68,11 +68,16 @@ Les paramètres disponibles sont les suivants :
 
    Il s’agit des miniatures qui sont automatiquement générées dans AEM Assets en fonction du workflow de mise à jour de ressource DAM.
 
+* **[!UICONTROL Téléchargement de fichier]**
+
+   Permet de télécharger les rendus dans un dossier distinct pour chaque fichier. Ce paramètre s’applique au téléchargement de dossiers, de collections et de fichiers en vrac (plus de 20 fichiers).
+
+
 Connectez-vous à votre client Brand Portal en tant qu’administrateur et accédez à **[!UICONTROL Outils]** > **[!UICONTROL Télécharger]**.
 
 Les administrateurs peuvent activer toute combinaison de paramètres permettant aux utilisateurs du portail de marque d’accéder aux rendus et de les télécharger.
 
-![](assets/download-configuration.png)
+![](assets/download-settings-new.png)
 
 
 >[!NOTE]
@@ -123,7 +128,7 @@ Si l’utilisateur a accès à des rendus, la boîte de dialogue **[!UICONTROL T
 * exclure les rendus des ressources qui ne sont pas nécessaires pour le téléchargement ;
 * Appliquez le même jeu de rendus à tous les types de ressource similaires en un seul clic.
 * Appliquez un ensemble différent de rendus pour différents types de fichier.
-* Créez un dossier distinct pour chaque rendu de fichier.
+* Créez un dossier distinct pour chaque fichier.
 * télécharger les ressources sélectionnées et leurs rendus.
 
 ![boîte-de-dialogue-télécharger](assets/download-dialog-box.png)
@@ -133,7 +138,7 @@ Si l’utilisateur a accès à des rendus, la boîte de dialogue **[!UICONTROL T
 >La boîte de dialogue **[!UICONTROL Télécharger]** apparaît uniquement si les ressources sont sélectionnées pour le téléchargement et **[!UICONTROL Rendus personnalisés]** ou **[!UICONTROL Rendus système]** est activée dans les **[!UICONTROL Paramètres de téléchargement]**.
 
 
-### Étapes de téléchargement des ressources  {#bulk-download}
+### Étapes de téléchargement des ressources {#bulk-download}
 
 Vous trouverez ci-dessous la procédure à suivre pour télécharger des fichiers ou des dossiers contenant des fichiers à partir de l’interface du portail de marque :
 
@@ -176,7 +181,7 @@ Vous trouverez ci-dessous la procédure à suivre pour télécharger des fichier
 
    ![supprimer](assets/remove.png)
 
-   Pour conserver la hiérarchie des dossiers de Brand Portal lors du téléchargement des ressources, cochez la case **[!UICONTROL Créer un dossier distinct pour chaque ressource]**. Par défaut, la hiérarchie des dossiers du portail des marques est ignorée et tous les fichiers sont téléchargés dans un dossier zip.
+   Pour conserver la hiérarchie des dossiers de Brand Portal lors du téléchargement des ressources, cochez la case **[!UICONTROL Créer un dossier distinct pour chaque ressource.]**
 
    Le bouton de téléchargement indique le nombre d’éléments sélectionnés. Une fois les règles appliquées, cliquez sur **[!UICONTROL Télécharger les éléments]**.
 
@@ -195,7 +200,9 @@ Vous trouverez ci-dessous la procédure à suivre pour télécharger des fichier
 
 >[!NOTE]
 >
->Si un dossier, une collection ou plus de 20 ressources sont sélectionnés pour téléchargement, la boîte de dialogue **[!UICONTROL Télécharger]** est ignorée et tous les rendus de ressources accessibles à l’utilisateur, à l’exception des rendus dynamiques, sont téléchargés dans un dossier zip. Les rendus de fichier sont téléchargés dans un dossier distinct pour chaque fichier du dossier zip.
+>Si un dossier, une collection ou plus de 20 ressources sont sélectionnés pour téléchargement, la boîte de dialogue **[!UICONTROL Télécharger]** est ignorée et tous les rendus de ressources accessibles à l’utilisateur, à l’exception des rendus dynamiques, sont téléchargés dans un dossier zip.
+>
+>Si le paramètre **[!UICONTROL Téléchargement de fichier]** est activé dans les **[!UICONTROL Paramètres de téléchargement]**, les rendus de fichier sont téléchargés dans un dossier distinct pour chaque fichier du dossier zip.
 
 
 >[!NOTE]
