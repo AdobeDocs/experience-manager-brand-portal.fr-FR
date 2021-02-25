@@ -9,10 +9,10 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 translation-type: tm+mt
-source-git-commit: 9c937603cf325919cb49d3418b06266fa1b93cf1
+source-git-commit: 0e26e6ae38d7b62576bc1751965a71168ad8faf5
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 100%
+source-wordcount: '1023'
+ht-degree: 92%
 
 ---
 
@@ -39,11 +39,12 @@ Pour afficher un rapport, procédez comme suit :
 
    >[!NOTE]
    >
-   >Le rapport Utilisation figure par défaut dans Brand Portal. Il ne peut pas être créé ni supprimé. Vous pouvez toutefois créer, télécharger et supprimer les rapports Téléchargement, Expiration, Publication, Partage de lien et Connexions des utilisateurs.
+   >Le rapport d’utilisation est un rapport par défaut généré dans le portail des marques. Il ne peut pas être créé ni supprimé. Vous pouvez toutefois créer, télécharger et supprimer les rapports Téléchargement, Expiration, Publication, Partage de lien et Connexions des utilisateurs.
 
-   Pour afficher un rapport, appuyez/cliquez sur le lien du rapport. Vous pouvez également sélectionner le rapport et appuyez/cliquez sur l’icône Afficher de la barre d’outils.
+   Pour vue d&#39;un rapport, cliquez sur le lien du rapport. Vous pouvez également sélectionner le rapport et appuyer/cliquer sur l’icône Afficher de la barre d’outils.
 
-   Le rapport **[!UICONTROL Utilisation]** affiche des informations sur le nombre d’utilisateurs de Brand Portal actuels, l’espace de stockage occupé par toutes les ressources et le nombre total des ressources dans Brand Portal. Il affiche également la capacité autorisée pour chacune de ces mesures.
+   **[!UICONTROL Les]** rapports d’utilisation affichent des informations sur le nombre d’utilisateurs principaux du portail de marques, l’espace d’enregistrement occupé par tous les actifs et le nombre total de actifs dans le portail de marques. Les utilisateurs du portail de la marque qui ne sont affectés à aucun profil de produits dans le Admin Console sont considérés comme des utilisateurs inactifs et ne sont pas reflétés dans le **[!UICONTROL rapport d’utilisation]**.
+Il affiche également la capacité autorisée pour chacune de ces mesures.
 
    ![](assets/usage-report.png)
 
@@ -94,8 +95,6 @@ Les administrateurs peuvent générer et gérer les rapports standard ci-après.
 L’affichage des colonnes des rapports Téléchargement, Expiration et Publication peut être personnalisé. Pour générer un rapport, procédez comme suit :
 
 1. Dans la barre d’outils supérieure, appuyez/cliquez sur le logo AEM pour accéder aux outils d’administration.
-
-   ![](assets/aemlogo.png)
 
 1. Dans le panneau des outils d’administration, appuyez/cliquez sur **[!UICONTROL Créer/gérer des rapports]** pour ouvrir la page **[!UICONTROL Rapports de ressources]**.
 
