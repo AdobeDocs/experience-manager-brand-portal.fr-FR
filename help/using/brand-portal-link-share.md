@@ -9,22 +9,23 @@ content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
-translation-type: ht
-source-git-commit: 9c937603cf325919cb49d3418b06266fa1b93cf1
-workflow-type: ht
-source-wordcount: '1118'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: fab0855e8d30e7b6ddf9b4ae5b2ce1fb627c81ce
+workflow-type: tm+mt
+source-wordcount: '1002'
+ht-degree: 70%
 
 ---
 
 
 # Partage de ressources en tant que lien {#share-assets-as-a-link}
 
-Les administrateurs d’AEM Assets Brand Portal peuvent partager des liens de plusieurs ressources avec des utilisateurs internes autorisés et des tiers, notamment des partenaires et des fournisseurs. Les éditeurs peuvent uniquement afficher et partager les ressources partagées avec eux.
+Les administrateurs du portail de marques Adobe Experience Manager Assets peuvent partager des liens de plusieurs ressources avec des utilisateurs internes et des entités externes autorisés, y compris des partenaires et des fournisseurs. Les éditeurs peuvent uniquement afficher et partager les ressources partagées avec eux.
 
 Le partage des ressources par le biais d’un lien est un moyen pratique pour mettre les ressources à la disposition de tiers externes sans qu’ils aient besoin de se connecter à Brand Portal.
 
-Le partage de liens est réservé aux éditeurs et aux administrateurs.
+<!-- Link sharing access is restricted to editors and administrators. 
+-->
 
 Pour plus d’informations, voir [Gestion des utilisateurs, des groupes et des rôles utilisateur](../using/brand-portal-adding-users.md#manage-user-roles).
 
@@ -35,17 +36,11 @@ Pour plus d’informations, voir [Gestion des utilisateurs, des groupes et des r
 
 Vous trouverez ci-dessous la procédure à suivre pour partager des ressources sous forme de lien :
 
-1. Cliquez sur l’icône de recouvrement située à gauche, puis sélectionnez **[!UICONTROL Navigation]**.
+1. Connectez-vous à votre locataire du portail de marques. Par défaut, la vue **[!UICONTROL Fichiers]** s’ouvre et contient tous les fichiers et dossiers publiés.
 
-   ![](assets/siderail.png)
+1. Sélectionnez les fichiers ou les dossiers que vous souhaitez partager ou accédez à la vue **[!UICONTROL Collections]** pour partager les collections que vous avez créées.
 
-1. Dans le rail latéral gauche, cliquez sur **[!UICONTROL Fichiers]** pour partager des dossiers ou des images. Pour partager des collections, cliquez sur **[!UICONTROL Collections]**.
-
-   ![](assets/navigationrail.png)
-
-1. Sélectionnez les dossiers ou les collections à partager en tant que lien.
-
-   ![](assets/asset-link-share.png)
+   ![select-multiple-assets](assets/select-assets-new.png)
 
 1. Dans la barre d’outils supérieure, cliquez sur l’icône **[!UICONTROL Partager le lien]**.
 
@@ -53,25 +48,24 @@ Vous trouverez ci-dessous la procédure à suivre pour partager des ressources s
 
    ![](assets/link-sharing.png)
 
-   >[!NOTE]
-   >
-   >Le champ **[!UICONTROL Partager le lien]** affiche un lien de ressource automatiquement créé. Le délai d’expiration par défaut du lien est de 7 jours. Vous pouvez copier ce lien et le partager séparément avec des utilisateurs. Vous pouvez aussi le partager depuis la boîte de dialogue **[!UICONTROL Partage de lien]**.
+   * Dans la zone d’e-mail, saisissez l’e-mail de l’utilisateur avec lequel vous souhaitez partager le lien. Vous pouvez partager le lien avec plusieurs utilisateurs. Si l’utilisateur appartient à votre organisation, sélectionnez son e-mail dans la liste déroulante de suggestions qui s’affiche. Si l’utilisateur est externe à votre organisation, saisissez l’e-mail complet et appuyez sur **[!UICONTROL Entrée]** pour l’ajouter à la liste des utilisateurs.
 
-1. Dans la zone d’e-mail, saisissez l’e-mail de l’utilisateur avec lequel vous souhaitez partager le lien. Vous pouvez partager le lien avec plusieurs utilisateurs.
+      ![](assets/link-sharing-text.png)
 
-   Si l’utilisateur appartient à votre organisation, sélectionnez son e-mail dans la liste déroulante de suggestions qui s’affiche. Si l’utilisateur est externe à votre organisation, saisissez l’e-mail complet et appuyez sur **[!UICONTROL Entrée]** pour l’ajouter à la liste des utilisateurs.
-
-   ![](assets/link-sharing-text.png)
-
-1. Dans la zone **[!UICONTROL Objet]**, indiquez l’objet de la ressource que vous souhaitez partager.
-1. Dans la zone **[!UICONTROL Message]**, vous pouvez, au besoin, saisir un message.
-1. Dans le champ **[!UICONTROL Expiration]**, spécifiez la date et l’heure d’expiration du lien à l’aide du sélecteur de date. Par défaut, la date d’expiration est définie sur 7 jours à compter de la date à laquelle vous partagez le lien.
+   * Dans la zone **[!UICONTROL Objet]**, indiquez l’objet de la ressource que vous souhaitez partager.
+   * Dans la zone **[!UICONTROL Message]**, vous pouvez, au besoin, saisir un message.
+   * Dans le champ **[!UICONTROL Expiration]**, spécifiez la date et l’heure d’expiration du lien à l’aide du sélecteur de date. Par défaut, la date d’expiration est définie sur 7 jours à compter de la date à laquelle vous partagez le lien.
+   * Activez la case à cocher **[!UICONTROL Autoriser le téléchargement du fichier d’origine]** pour permettre aux destinataires de télécharger le rendu d’origine.
 
    Les ressources partagées via le lien arrivent à expiration une fois que la date et l’heure spécifiées dans le champ **[!UICONTROL Expiration]** ont été atteintes. Pour plus d’informations sur le comportement des ressources arrivées à expiration et les modifications des activités possibles en fonction des rôles utilisateur dans Brand Portal, voir [Gestion des droits numériques des ressources](../using/manage-digital-rights-of-assets.md#asset-expiration).
 
-1. Cliquez sur **[!UICONTROL Partager]**. Un message confirme le partage du lien avec les utilisateurs. Les utilisateurs reçoivent un e-mail contenant le lien.
+   >[!NOTE]
+   >
+   >L’expiration par défaut du lien est de 7 jours. Le lien doit être envoyé par courriel aux utilisateurs à l’aide de la boîte de dialogue de partage de liens **[!UICONTROL Lien]**, ne copiez pas et ne partagez pas le lien séparément.
 
-   ![](assets/link-sharing-email.png)
+1. Cliquez sur **[!UICONTROL Partager]**. Un message confirme le partage du lien avec les utilisateurs. Les utilisateurs reçoivent un courrier électronique contenant le lien partagé.
+
+   ![](assets/link-share-email.png)
 
    >[!NOTE]
    >
@@ -79,46 +73,64 @@ Vous trouverez ci-dessous la procédure à suivre pour partager des ressources s
 
 ## Téléchargement de ressources à partir de liens partagés {#download-assets-from-shared-links}
 
-Cliquez sur le lien de l’e-mail pour afficher la ressource partagée. La page Partage de lien AEM s’ouvre.
+Cliquez sur le lien dans le courrier électronique pour accéder à la ressource partagée. La page Partage de lien AEM s’ouvre.
 
 Pour télécharger les ressources partagées :
 
-1. Cliquez sur les ressources, puis sur l’icône **[!UICONTROL Télécharger]** de la barre d’outils.
+1. Cliquez sur les fichiers ou les dossiers, puis sur l’icône **[!UICONTROL Télécharger]** de la barre d’outils.
 
-   ![](assets/assets-shared-link.png)
+   ![](assets/download-share-link.png)
 
    >[!NOTE]
    >
    >Vous pouvez actuellement générer un aperçu et une miniature uniquement pour certaines ressources, selon le format de fichier. Pour plus d’informations sur les formats de fichiers pris en charge, voir [Prise en charge des aperçus et des miniatures pour les formats de ressource](#preview-thumbnail-support).
 
+1. La boîte de dialogue **[!UICONTROL Téléchargement]** s’affiche.
+
+   ![boîte-de-dialogue-télécharger](assets/download-dialog-box-new.png)
+
+1. Par défaut, le paramètre **[!UICONTROL Téléchargement rapide]** est activé dans les **[!UICONTROL Paramètres de téléchargement]**. Par conséquent, une boîte de confirmation s’affiche pour continuer le téléchargement à l’aide d’IBM Aspera Connect.
+
+   Pour continuer à utiliser **[!UICONTROL Téléchargement rapide]**, cliquez sur **[!UICONTROL Autoriser]**.
+
+   Tous les rendus sélectionnés sont téléchargés dans un dossier zip contenant un dossier distinct pour chaque fichier.
+
    >[!NOTE]
    >
-   >Si les ressources que vous téléchargez comprennent également des ressources sous licence, vous êtes redirigé vers la page **[!UICONTROL Gestion des droits d’auteur]**. Dans cette page, sélectionnez les ressources sous licence, cliquez sur **[!UICONTROL Accepter]**, puis cliquez sur **[!UICONTROL Télécharger]**. Si vous choisissez de ne pas accepter, seules les ressources sans licence sont téléchargées.\
-   >Les ressources protégées par licence sont [accompagnées d’un accord de licence](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) grâce à la définition de la [propriété des métadonnées](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) des ressources dans [!DNL AEM Assets].
-
-   ![](assets/licensed-asset-download.png)
-
-   La boîte de dialogue **[!UICONTROL Téléchargement]** s’affiche.
-
-   ![](assets/download-linkshare.png)
-
-   * Pour accélérer le téléchargement des fichiers de ressources partagés sous forme de lien, sélectionnez l’option **[!UICONTROL Autoriser l’accélération des téléchargements]** et [suivez l’assistant](../using/accelerated-download.md#download-workflow-using-file-accelerator). Pour en savoir plus sur le téléchargement rapide des ressources sur Brand Portal, consultez le [Guide d’accélération des téléchargements à partir de Brand Portal](../using/accelerated-download.md).
-
-1. Pour télécharger les rendus des ressources en plus des ressources à partir du lien partagé, sélectionnez l’option **[!UICONTROL Rendu(s)]**. Lorsque vous procédez de la sorte, l’option **[!UICONTROL Exclure les rendus système]** qui apparaît est sélectionnée par défaut. Cela empêche le téléchargement des rendus prêts à l’emploi avec les ressources approuvées ou leurs rendus personnalisés.
-
-   Toutefois, pour permettre le téléchargement des rendus auto-générés avec les rendus personnalisés, désélectionnez l’option **[!UICONTROL Exclure les rendus système]**.
+   >Si un dossier, une collection ou plus de 20 ressources sont sélectionnés pour téléchargement, la boîte de dialogue **[!UICONTROL Télécharger]** est ignorée et tous les rendus de ressources accessibles à l’utilisateur, à l’exception des rendus dynamiques, sont téléchargés dans un dossier zip. Un dossier distinct est créé pour chaque fichier contenu dans le dossier zip.
 
    >[!NOTE]
    >
    >Les rendus originaux ne sont pas téléchargés à l’aide du lien partagé si l’utilisateur qui a partagé les ressources sous forme de lien n’est pas [autorisé par l’administrateur à accéder aux rendus originaux](../using/brand-portal-adding-users.md#manage-group-roles-and-privileges).
 
-   ![](assets/download-linkshare-autoren.png)
-
-1. Appuyez/cliquez sur **[!UICONTROL Télécharger]**. Les ressources, et les rendus s’ils sont sélectionnés, sont téléchargés en tant que fichier ZIP dans votre dossier local. Cependant, aucun fichier ZIP n’est créé lorsqu’une seule ressource est téléchargée sans aucun des rendus, assurant ainsi un téléchargement rapide.
 
 >[!NOTE]
 >
 >Brand Portal limite le téléchargement des ressources dont la taille de fichier est supérieure à 5 Go.
+
+<!--
+1. The **[!UICONTROL Download]** dialog box appears.
+
+   ![](assets/download-linkshare.png)
+
+    * To speed up the download of asset files shared as the link, select **[!UICONTROL Enable download acceleration]** option and [follow the wizard](../using/accelerated-download.md#download-workflow-using-file-accelerator). To know more about the fast download of assets on Brand Portal refer [Guide to accelerate downloads from Brand Portal](../using/accelerated-download.md).
+    
+1. To download the renditions of assets in addition to the assets from the shared link, select **[!UICONTROL Rendition(s)]** option. When you do so, **[!UICONTROL Exclude System Renditions]** option appears that is selected by default. This prevents the download of out-of-the-box renditions along with approved assets or their custom renditions.
+
+   However, to allow auto-generated renditions to download along with custom renditions, deselect the **[!UICONTROL Exclude System Renditions]** option.
+
+   >[!NOTE]
+   >
+   >Original renditions are not downloaded using the shared link if the user who shared the assets as a link is not [authorized by the administrator to have access to the original renditions](../using/brand-portal-adding-users.md#manage-group-roles-and-privileges).
+
+   ![](assets/download-linkshare-autoren.png)
+
+1. Click **[!UICONTROL Download]**. The assets (and renditions if selected) are downloaded as a ZIP file to your local folder. However, no zip file is created if a single asset is downloaded without any of the renditions, thereby ensuring speedy download.
+
+>[!NOTE]
+>
+>Brand Portal restricts downloading assets larger than 5GB per file size.
+-->
 
 ## Prise en charge des aperçus et des miniatures pour les formats de ressource {#preview-thumbnail-support}
 
@@ -126,39 +138,39 @@ Le tableau suivant répertorie les formats de ressource pour lesquels Brand Por
 
 | Format de ressource | Prise en charge des miniatures | Prise en charge des aperçus |
 |--------------|-------------------|-----------------|
-| PNG | ✓ | ✓ |
-| GIF | ✓ | ✓ |
-| TIFF | ✓ | ✕ |
-| JPEG | ✓ | ✓ |
-| BMP | ✓ | ✕ |
+| PNG | ✓ | obj |
+| GIF | obj | obj |
+| TIFF | obj | ✕ |
+| JPEG | obj | obj |
+| BMP | obj | ✕ |
 | PNM* | N/A | N/A |
 | PGM* | N/A | N/A |
 | PBM* | N/A | N/A |
 | PPM* | N/A | N/A |
-| PSD | ✓ | ✕ |
+| PSD | obj | ✕ |
 | EPS | N/A | ✕ |
-| DNG | ✓ | ✕ |
-| PICT | ✓ | ✕ |
-| PSB* | ✓ | ✕ |
-| JPG | ✓ | ✓ |
-| AI | ✓ | ✕ |
+| DNG | obj | ✕ |
+| PICT | obj | ✕ |
+| PSB* | obj | ✕ |
+| JPG | obj | obj |
+| AI | obj | ✕ |
 | DOC | ✕ | ✕ |
 | DOCX | ✕ | ✕ |
 | ODT* | ✕ | ✕ |
-| PDF | ✓ | ✕ |
+| PDF | obj | ✕ |
 | HTML | ✕ | ✕ |
 | RTF | ✕ | ✕ |
-| TXT | ✓ | ✕ |
+| TXT | obj | ✕ |
 | XLS | ✕ | ✕ |
 | XLSX | ✕ | ✕ |
 | ODS | ✕ | ✕ |
-| PPT | ✓ | ✕ |
+| PPT | obj | ✕ |
 | PPTX | ✕ | ✕ |
 | ODP | ✕ | ✕ |
-| INDD | ✓ | ✕ |
+| INDD | obj | ✕ |
 | PS | ✕ | ✕ |
 | QXP | ✕ | ✕ |
-| EPUB | ✓ | ✕ |
+| EPUB | obj | ✕ |
 | AAC | ✕ | ✕ |
 | MIDI | ✕ | ✕ |
 | 3GP | ✕ | ✕ |
@@ -178,16 +190,16 @@ Le tableau suivant répertorie les formats de ressource pour lesquels Brand Por
 | WMV | ✕ | ✕ |
 | SWF | ✕ | ✕ |
 | TGZ | N/A | ✕ |
-| JAR | ✓ | ✕ |
+| JAR | obj | ✕ |
 | RAR | N/A | ✕ |
 | TAR | N/A | ✕ |
-| ZIP | ✓ | ✕ |
+| ZIP | obj | ✕ |
 
 La légende suivante explique les symboles utilisés dans le tableau :
 
 | Symbole | Signification |
 |---|---|
-| ✓ | Ce format de fichier prend en charge cette fonctionnalité. |
+| obj | Ce format de fichier prend en charge cette fonctionnalité. |
 | ✕ | Ce format de fichier ne prend pas en charge cette fonctionnalité. |
 | N/A | Cette fonctionnalité ne s’applique pas à ce format de fichier. |
 | * | Cette fonctionnalité requiert la prise en charge d’un module complémentaire pour ce format de fichier sur une instance de création AEM, mais pas sur Brand Portal une fois que les ressources ont été publiées sur Brand Portal. |
@@ -196,18 +208,15 @@ La légende suivante explique les symboles utilisés dans le tableau :
 
 Pour annuler le partage des ressources partagées auparavant en tant que lien, procédez comme suit :
 
-1. Pour afficher les ressources que vous avez partagées en tant que liens, cliquez sur l’icône de recouvrement à gauche, puis sélectionnez **[!UICONTROL Navigation]**.
-
-   ![](assets/siderail.png)
-
-1. Dans le rail latéral, cliquez sur **[!UICONTROL Liens partagés]**.
-
-   ![](assets/navigationrail.png)
+1. Lorsque vous vous connectez au portail de marque, la vue **[!UICONTROL Fichier]** s’ouvre par défaut. Pour vue des ressources que vous avez partagées en tant que liens, accédez à la vue **[!UICONTROL Liens partagés]**.
 
 1. Passez en revue les liens que vous avez partagés dans la liste affichée.
-1. Pour annuler le partage d’un lien à partir de la liste, sélectionnez-le et cliquez sur l’icône de la corbeille en regard de l’entrée du lien ou sur l’icône **[!UICONTROL Annuler le partage]** dans la barre d’outils supérieure.
 
-   ![](assets/unshare-links.jpg)
+   ![](assets/shared-links.png)
+
+1. Pour annuler le partage d’un lien de la liste, sélectionnez-le et cliquez sur l’icône **[!UICONTROL Annuler le partage]** de la barre d’outils située en haut de l’écran.
+
+   ![](assets/unshare-asset.png)
 
    >[!NOTE]
    >
