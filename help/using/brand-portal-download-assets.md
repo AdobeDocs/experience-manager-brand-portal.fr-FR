@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: f552aaa31c06cfe33b387e22d0a6e70fef9d147d
+source-git-commit: fab0855e8d30e7b6ddf9b4ae5b2ce1fb627c81ce
 workflow-type: tm+mt
-source-wordcount: '1960'
-ht-degree: 37%
+source-wordcount: '1935'
+ht-degree: 36%
 
 ---
 
@@ -70,7 +70,7 @@ Les paramètres disponibles sont les suivants :
 
 * **[!UICONTROL Téléchargement de fichier]**
 
-   Permet de télécharger les rendus dans un dossier distinct pour chaque fichier. Ce paramètre s’applique au téléchargement de dossiers, de collections et de fichiers en vrac (plus de 20 fichiers).
+   Permet de télécharger les rendus dans un dossier distinct pour chaque fichier. Ce paramètre s’applique aux dossiers, aux collections et aux téléchargements en masse de fichiers (plus de 20 fichiers).
 
 
 Connectez-vous à votre client Brand Portal en tant qu’administrateur et accédez à **[!UICONTROL Outils]** > **[!UICONTROL Télécharger]**.
@@ -135,7 +135,7 @@ Si l’utilisateur a accès à des rendus, la boîte de dialogue **[!UICONTROL T
 
 >[!NOTE]
 >
->La boîte de dialogue **[!UICONTROL Télécharger]** apparaît uniquement si les ressources sont sélectionnées pour le téléchargement et **[!UICONTROL Rendus personnalisés]** ou **[!UICONTROL Rendus système]** est activée dans les **[!UICONTROL Paramètres de téléchargement]**.
+>La boîte de dialogue **[!UICONTROL Télécharger]** apparaît uniquement si **[!UICONTROL Rendus personnalisés]** et (ou) **[!UICONTROL Rendus système]** est activé dans **[!UICONTROL Paramètres de téléchargement]**.
 
 
 ### Étapes de téléchargement des ressources {#bulk-download}
@@ -157,7 +157,7 @@ Vous trouverez ci-dessous la procédure à suivre pour télécharger des fichier
 
       >[!NOTE]
       >
-      >Si vous téléchargez les ressources pour la première fois et qu’IBM Aspera Connect n’est pas installé dans votre navigateur, vous êtes invité à installer l’accélérateur de téléchargement Aspera.
+      >Si vous téléchargez les ressources pour la première fois et si IBM Aspera Connect n’est pas installé dans votre navigateur, vous serez invité à [installer l’accélérateur de téléchargement d’Aspera](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html).
 
 
       >[!NOTE]
@@ -185,13 +185,13 @@ Vous trouverez ci-dessous la procédure à suivre pour télécharger des fichier
 
    Le bouton de téléchargement indique le nombre d’éléments sélectionnés. Une fois les règles appliquées, cliquez sur **[!UICONTROL Télécharger les éléments]**.
 
-   ![boîte-de-dialogue-télécharger](assets/download-dialog-new.png)
+   ![boîte-de-dialogue-télécharger](assets/download-dialog-box-new.png)
 
 1. Par défaut, le paramètre **[!UICONTROL Téléchargement rapide]** est activé dans les **[!UICONTROL Paramètres de téléchargement]**. Par conséquent, une zone de confirmation s’affiche pour permettre un téléchargement accéléré à l’aide d’IBM Aspera Connect.
 
    Pour continuer à utiliser **[!UICONTROL Téléchargement rapide]**, cliquez sur **[!UICONTROL Autoriser]**. Tous les rendus sélectionnés sont téléchargés dans un dossier zip à l’aide d’IBM Aspera Connect.
 
-   Si vous ne souhaitez pas utiliser IBM Aspera Connect, cliquez sur **[!UICONTROL Refuser]**. Si **[!UICONTROL Téléchargement rapide]** est refusé ou échoue, le système renseigne un message d’erreur. Cliquez sur le bouton **[!UICONTROL Téléchargement normal]** pour continuer à télécharger les ressources. Les rendus sélectionnés sont téléchargés dans un dossier zip sans utiliser IBM Aspera Connect.
+   Si vous ne souhaitez pas utiliser IBM Aspera Connect, cliquez sur **[!UICONTROL Refuser]**. Si **[!UICONTROL Téléchargement rapide]** est refusé ou échoue, le système renseigne un message d’erreur. Cliquez sur le bouton **[!UICONTROL Téléchargement normal]** pour continuer à télécharger les ressources.
 
 >[!NOTE]
 >
@@ -249,7 +249,7 @@ Vous trouverez ci-dessous la procédure à suivre pour télécharger des rendus 
 
    Pour continuer à utiliser **[!UICONTROL Téléchargement rapide]**, cliquez sur **[!UICONTROL Autoriser]**. Tous les rendus sélectionnés sont téléchargés dans un dossier zip à l’aide d’IBM Aspera Connect.
 
-   Si vous refusez d’utiliser **[!UICONTROL Téléchargement rapide]**, le système renseigne un message d’erreur. Cliquez sur le bouton **[!UICONTROL Téléchargement normal]** pour continuer le téléchargement. Les rendus sélectionnés sont téléchargés dans un dossier zip sans utiliser IBM Aspera Connect.
+   Si vous refusez d’utiliser **[!UICONTROL Téléchargement rapide]**, le système renseigne un message d’erreur. Cliquez sur le bouton **[!UICONTROL Téléchargement normal]** pour continuer à télécharger les ressources.
 
 >[!NOTE]
 >
