@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 268ee9dc83e98e01107f474780b658b8ccefafa4
+source-git-commit: 4221199d874ce63a936e5e6e02a16ee95cab4499
 workflow-type: tm+mt
-source-wordcount: '1108'
-ht-degree: 81%
+source-wordcount: '1113'
+ht-degree: 80%
 
 ---
 
@@ -68,7 +68,7 @@ Il est recommandé d’utiliser dans le nom du dossier des lettres minuscules sa
 
    ![](assets/contribution-folder.png)
 
-Vous pouvez désormais configurer les propriétés du dossier de contribution.
+Vous pouvez également configurer les propriétés du dossier de contributions lors de la création du dossier de contributions.
 
 ## Configuration des propriétés du dossier de contribution {#configure-contribution-folder-properties}
 
