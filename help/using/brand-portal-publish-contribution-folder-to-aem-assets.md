@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 268ee9dc83e98e01107f474780b658b8ccefafa4
+source-git-commit: 4221199d874ce63a936e5e6e02a16ee95cab4499
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 81%
+source-wordcount: '1043'
+ht-degree: 76%
 
 ---
 
@@ -121,7 +121,7 @@ Après avoir publié les ressources nouvellement créées dans AEM Assets, les u
 
 Une fois l’objectif de création du dossier de contribution atteint, l’administrateur de Brand Portal peut le supprimer afin de libérer l’espace de chargement pour d’autres utilisateurs.
 
-**Statut de la tâche de publication**
+## Statut de la tâche de publication {#publishing-job-status}
 
 Les administrateurs peuvent utiliser deux rapports pour vue de l’état des dossiers de contribution des ressources publiés de Brand Portal à AEM Assets.
 
@@ -129,13 +129,27 @@ Les administrateurs peuvent utiliser deux rapports pour vue de l’état des dos
 
    ![](assets/contribution-folder-status.png)
 
-* Dans l’instance d’auteur AEM Assets, accédez à **[!UICONTROL Outils]** > **[!UICONTROL Tâches]**. Ce rapport reflète l’état final (Réussite ou Erreur) de toutes les tâches de publication.
+* En AEM Assets (sur site ou service géré), accédez à **[!UICONTROL Outils]** > **[!UICONTROL Emplois]**. Ce rapport reflète l’état final (Réussite ou Erreur) de toutes les tâches de publication.
 
    ![](assets/publishing-status.png)
 
+* Dans AEM Assets en tant que Cloud Service, accédez à **[!UICONTROL Outils]** > **[!UICONTROL Ressources]** > **[!UICONTROL Rapports]**.
+
+   Cliquez sur le bouton **[!UICONTROL Créer]** et sélectionnez **[!UICONTROL Publier]** pour créer un rapport de publication.
+
+   ![](assets/create-publish-report.png)
+
+   Saisissez les **[!UICONTROL Titre]** et **[!UICONTROL Description]**, puis sélectionnez le **[!UICONTROL Chemin d’accès au dossier]** du dossier de contribution et planifiez le rapport pour **[!UICONTROL Maintenant]**. Cliquez sur **[!UICONTROL Next]** (Suivant).
+
+   ![](assets/create-publish-report1.png)
+
+   Sélectionnez les attributs de champ à inclure dans le rapport et générez-les. Ce rapport reflète l’état final (Réussite ou Erreur) de toutes les tâches de publication.
+
+<!--
 >[!NOTE]
 >
->L’interface utilisateur d’AEM Assets en tant que Cloud Service peut présenter une légère différence, mais le flux de travail reste inchangé.
+>Currently, no report is generated in AEM Assets as a Cloud Service for the Asset Sourcing workflow. 
+-->
 
 
 
