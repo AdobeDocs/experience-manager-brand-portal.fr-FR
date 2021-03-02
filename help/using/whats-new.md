@@ -10,10 +10,10 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: ff7f7c15d6852fe798152ac9960b3adef9c7676f
+source-git-commit: 302bbf441453a760fe53d981a61b2eb014ebd1f0
 workflow-type: tm+mt
-source-wordcount: '5796'
-ht-degree: 91%
+source-wordcount: '5907'
+ht-degree: 90%
 
 ---
 
@@ -24,8 +24,14 @@ Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de con
 
 ## Changements dans la version 2021.02.0 {#what-changed-in-feb-2021}
 
-Le portail de marque 2021.02.0 est une version améliorée qui met l’accent sur l’amélioration de l’expérience de téléchargement de ressources et comprend des correctifs critiques. Il permet aux administrateurs de configurer le comportement de téléchargement par défaut des dossiers, des collections et des fichiers téléchargés en masse au niveau du client. Le **[!UICONTROL rapport d’utilisation du portail de marque]** a également été modifié pour refléter les utilisateurs principaux du portail de marque. Consultez les dernières [Notes de mise à jour de Brand Portal](brand-portal-release-notes.md).
+Le portail de marque 2021.02.0 est une version améliorée qui met l’accent sur la facilitation de la fonctionnalité d’origine des ressources sur AEM Assets en tant que Cloud Service, sur l’amélioration de l’expérience de téléchargement des ressources et comprend des correctifs critiques. Il permet aux administrateurs de configurer le comportement de téléchargement par défaut des dossiers, des collections et des fichiers téléchargés en masse au niveau du client. Le **[!UICONTROL rapport d’utilisation du portail de marque]** a également été modifié pour refléter les utilisateurs principaux du portail de marque. Consultez les dernières [Notes de mise à jour de Brand Portal](brand-portal-release-notes.md).
 
+
+### Ressource sur AEM Assets en tant que Cloud Service {#asset-sourcing-on-cloud-service}
+
+La fonction d’origine des ressources est désormais disponible en tant que Cloud Service sur AEM Assets. Les fonctionnalités sont activées par défaut pour tous les utilisateurs du service cloud. Les utilisateurs autorisés du portail de marques peuvent contribuer à l’approvisionnement en ressources en téléchargeant de nouveaux actifs dans les dossiers de contributions et en publiant le dossier de contributions de Brand Portal en AEM Assets en tant qu’instance Cloud Service. Les administrateurs peuvent examiner et approuver la contribution des utilisateurs du portail des marques afin de les distribuer à d’autres utilisateurs du portail des marques.
+
+Auparavant, l’approvisionnement en ressources n’était disponible qu’à AEM Assets (sur site et service géré).
 
 ### Téléchargement de fichier {#asset-download-setting}
 
@@ -258,7 +264,7 @@ Brand Portal 6.4.5 est une version qui vise à offrir aux utilisateurs de Bran
 
 L’approvisionnement des ressources permet aux utilisateurs d’AEM (administrateurs/non-administrateurs) de créer des dossiers avec une propriété **Contribution des ressources** supplémentaire, en s’assurant que les nouveaux dossiers s’ouvrent lorsque des utilisateurs Brand Portal envoient des ressources. Cela déclenche automatiquement un workflow qui crée deux sous-dossiers supplémentaires, appelés NEW et SHARED, dans le dossier **Contribution** nouvellement créé.
 
-L’utilisateur d’AEM définit ensuite les exigences en [chargeant un résumé](brand-portal-configure-contribution-folder-properties.md) relatif aux types de ressources à ajouter au dossier de contribution, ainsi qu’un [ensemble de ressources de base](brand-portal-upload-baseline-assets.md), dans le dossier **SHARED**, afin de s’assurer que les utilisateurs de Brand Portal disposent des informations de référence dont ils ont besoin. L’administrateur peut alors octroyer aux utilisateurs actifs de Brand Portal l’accès au dossier de contribution avant de publier le nouveau dossier **Contribution** sur Brand Portal.
+L’utilisateur d’AEM définit ensuite les exigences en chargeant un résumé relatif aux types de ressources à ajouter au dossier de contribution, ainsi qu’un ensemble de ressources de base, dans le dossier **SHARED**, afin de s’assurer que les utilisateurs de Brand Portal disposent des informations de référence dont ils ont besoin. L’administrateur peut alors octroyer aux utilisateurs actifs de Brand Portal l’accès au dossier de contribution avant de publier le nouveau dossier **Contribution** sur Brand Portal.
 
 
 Dès que l’utilisateur a fini d’ajouter du contenu dans le dossier **NEW**, il peut republier le dossier de contribution dans l’environnement d’auteur AEM. Notez que l’importation du nouveau contenu publié dans AEM Assets et la prise en compte de cette opération peuvent prendre quelques minutes.
@@ -273,7 +279,7 @@ En outre, toutes les fonctionnalités existantes restent inchangées. Les utilis
 
 ### Chargement de ressources dans le dossier de contribution {#upload-assets-in-bp}
 
-Les utilisateurs de Brand Portal qui disposent des autorisations adéquates peuvent [télécharger les exigences en matière de ressources](brand-portal-download-asset-requirements.md) pour comprendre le besoin en termes de contribution et charger plusieurs ressources ou dossiers contenant plusieurs ressources dans le dossier de contribution. Notez toutefois que les utilisateurs de Brand Portal peuvent transférer des ressources uniquement vers le sous-dossier **NEW**. Le dossier **SHARED** est destiné à la distribution des exigences et des ressources de base. Voir [Chargement de ressources dans le dossier de contribution](brand-portal-upload-assets-to-contribution-folder.md)
+Les utilisateurs de Brand Portal qui disposent des autorisations adéquates peuvent télécharger les exigences en matière de ressources pour comprendre le besoin en termes de contribution et charger plusieurs ressources ou dossiers contenant plusieurs ressources dans le dossier de contribution. Notez toutefois que les utilisateurs de Brand Portal peuvent transférer des ressources uniquement vers le sous-dossier **NEW**. Le dossier **SHARED** est destiné à la distribution des exigences et des ressources de base.
 
 ![](assets/upload-asset6.png)
 
