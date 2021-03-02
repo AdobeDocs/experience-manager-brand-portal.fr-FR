@@ -7,10 +7,10 @@ user-guide-title: AEM Brand Portal
 breadcrumb-title: Guide de Brand Portal
 user-guide-description: Utilisez AEM Assets Brand Portal pour répondre aux besoins marketing en distribuant des ressources de marque et de produit approuvées à des agences externes, des partenaires, des équipes internes et des revendeurs pour téléchargement, et ce en toute sécurité.
 translation-type: tm+mt
-source-git-commit: bc9e2727ed3cccd9ce8f12601843f335c9578195
+source-git-commit: 268ee9dc83e98e01107f474780b658b8ccefafa4
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 100%
+source-wordcount: '283'
+ht-degree: 97%
 
 ---
 
@@ -36,19 +36,9 @@ ht-degree: 100%
    + [Publication de balises sur Brand Portal](using/brand-portal-publish-tags.md)
    + [Publication de paramètres prédéfinis, de schémas et de facettes sur Brand Portal](using/publish-schema-search-facets-presets.md)
 + Approvisionnement des ressources dans Brand Portal {#asset-sourcing-in-brand-portal}
-   + [Présentation](using/brand-portal-asset-sourcing.md)
-   + [Configuration de l’approvisionnement des ressources dans AEM](using/brand-portal-configure-asset-sourcing.md)
-   + Configuration du dossier de contribution dans AEM Assets {#configure-contribution-folder}
-      + [Présentation](using/brand-portal-contribution-folder.md)
-      + [Création d’un dossier de contribution](using/brand-portal-create-contribution-folder.md)
-      + [Configuration des propriétés du dossier de contribution](using/brand-portal-configure-contribution-folder-properties.md)
-      + [Chargement de ressources de base](using/brand-portal-upload-baseline-assets.md)
-      + [Publication du dossier de contribution sur Brand Portal](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
-   + Utilisation de l’approvisionnement des ressources dans Brand Portal {#using-asset-sourcing}
-      + [Présentation](using/brand-portal-overiew-using-asset-sourcing.md)
-      + [Téléchargement des exigences en matière de ressources](using/brand-portal-download-asset-requirements.md)
-      + [Chargement de ressources dans le dossier de contribution](using/brand-portal-upload-assets-to-contribution-folder.md)
-      + [Publication du dossier de contribution sur AEM Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
+   + [Présentation de l’approvisionnement des ressources](using/brand-portal-asset-sourcing.md)
+   + [Configuration du dossier de contributions en AEM Assets](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
+   + [Publication du dossier de contribution sur AEM Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + Partage de ressources avec les utilisateurs {#share}
    + [Partage d’une collection](using/brand-portal-share-collection.md)
    + [Partage de dossiers](using/brand-portal-sharing-folders.md)
