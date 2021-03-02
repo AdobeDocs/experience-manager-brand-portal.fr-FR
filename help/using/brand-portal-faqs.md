@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
+source-git-commit: 4983e2e160b5cfb213e249f731e1858fab2cf972
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1516'
 ht-degree: 100%
 
 ---
@@ -96,7 +96,7 @@ Pour les mises à jour et les changements de versions, il est recommandé de sui
 
 **Question: Dois-je intervenir en tant qu’utilisateur Brand Portal ?**
 
-**Réponse:** La version 6.4.5 de Brand Portal comprend une nouvelle fonctionnalité d’approvisionnement des ressources. L’administrateur AEM doit configurer la fonction d’approvisionnement des ressources dans AEM Assets, afin que les utilisateurs Brand Portal puissent l’activer. Pour plus d’informations, voir [Activation de la fonction d’approvisionnement des ressources](brand-portal-configure-asset-sourcing.md).
+**Réponse:** La version 6.4.5 de Brand Portal comprend une nouvelle fonctionnalité d’approvisionnement des ressources. L’administrateur AEM doit configurer la fonction d’approvisionnement des ressources dans AEM Assets, afin que les utilisateurs Brand Portal puissent l’activer. Pour plus d’informations, voir [Activation de la fonction d’approvisionnement des ressources](brand-portal-asset-sourcing.md).
 
 
 
@@ -138,7 +138,7 @@ Ces utilisateurs accèdent au dossier **Contribution** et téléchargent le cont
 
 >[!NOTE]
 >
->Si vous n’utilisez pas Brand Portal, demandez à l’administrateur AEM de vous créer un profil d’utilisateur dans la console d’administration AEM et de l’ajouter au fichier de configuration d’utilisateur de la liste d’utilisateurs Brand Portal. Voir [Ajout d’un utilisateur Brand Portal](brand-portal-configure-asset-sourcing.md).
+>Si vous n’utilisez pas Brand Portal, demandez à l’administrateur AEM de vous créer un profil d’utilisateur dans la console d’administration AEM et de l’ajouter au fichier de configuration d’utilisateur de la liste d’utilisateurs Brand Portal.
 
 **Question: Quel est le format du fichier CSV utilisé pour importer des utilisateurs ?**
 
@@ -172,7 +172,7 @@ Ces utilisateurs accèdent au dossier **Contribution** et téléchargent le cont
 
 **Question: Comment télécharger de nouvelles ressources dans un dossier Contribution ?**
 
-**Réponse:** Voir la documentation détaillée correspondante pour savoir comment [télécharger des ressources vers le dossier Contribution](brand-portal-upload-assets-to-contribution-folder.md).
+**Réponse:** Voir la documentation détaillée correspondante pour savoir comment [télécharger des ressources vers le dossier Contribution](brand-portal-publish-contribution-folder-to-brand-portal.md).
 
 
 
