@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 69cf1756a546355ed767ac13c51fb09932254dbc
+source-git-commit: 302bbf441453a760fe53d981a61b2eb014ebd1f0
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 59%
+source-wordcount: '558'
+ht-degree: 55%
 
 ---
 
@@ -38,6 +38,8 @@ Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de con
 ### Nouvelles fonctionnalités {#new-features}
 
 Cette version comprend les nouvelles fonctionnalités suivantes :
+
+* La fonction d’origine des ressources est désormais disponible en Cloud Service sur AEM Assets. Il permet aux utilisateurs du portail de marque de télécharger des fichiers vers les dossiers de contribution autorisés et de publier le dossier de contribution de Brand Portal vers AEM Assets en tant qu’instance Cloud Service.
 
 * Un autre paramètre **[!UICONTROL Téléchargement de fichier]** a été introduit sous **[!UICONTROL Paramètres de téléchargement]**. Il crée un dossier distinct pour chaque fichier lors du téléchargement des dossiers, des collections ou du téléchargement en masse des fichiers. Voir [paramètres de téléchargement](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download).
 
