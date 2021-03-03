@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 4221199d874ce63a936e5e6e02a16ee95cab4499
+source-git-commit: d70817274ac7be84528778352f34934a0d4a60fc
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1125'
 ht-degree: 80%
 
 ---
@@ -41,9 +41,12 @@ L’utilisateur d’AEM effectue les activités suivantes lors de la configurati
 Les administrateurs AEM et les utilisateurs non-administrateurs autorisés à créer un dossier peuvent créer un dossier Contribution dans AEM Assets.
 Pour créer un dossier Contribution, créez un nouveau dossier de type Contribution des ressources, en vous assurant qu’il accepte l’envoi de ressources de la part des utilisateurs de Brand Portal.  Cela déclenche automatiquement un workflow qui crée deux sous-dossiers supplémentaires, SHARED et NEW, dans le dossier Contribution.
 
+
 >[!NOTE]
 >
 >Vous pouvez créer plusieurs dossiers de contribution dans un dossier. Ne créez pas de dossier de contribution dans un autre dossier de contribution.
+
+Vous pouvez configurer les propriétés du dossier de contribution séparément, ainsi que lors de la création du dossier de contribution. Dans cet exemple, nous configurons les propriétés séparément.
 
 **Pour créer un dossier de contribution, procédez comme suit :**
 1. Connectez-vous à votre instance AEM Assets.
@@ -68,7 +71,6 @@ Il est recommandé d’utiliser dans le nom du dossier des lettres minuscules sa
 
    ![](assets/contribution-folder.png)
 
-Vous pouvez également configurer les propriétés du dossier de contributions lors de la création du dossier de contributions.
 
 ## Configuration des propriétés du dossier de contribution {#configure-contribution-folder-properties}
 
