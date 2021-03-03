@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 302bbf441453a760fe53d981a61b2eb014ebd1f0
 workflow-type: tm+mt
 source-wordcount: '5907'
-ht-degree: 90%
+ht-degree: 92%
 
 ---
 
@@ -79,7 +79,7 @@ La nouvelle boîte de dialogue **[!UICONTROL Télécharger]** généralise le pr
 
 >[!NOTE]
 >
->**[!UICONTROL Téléchargement rapide]** est désormais activé par défaut pour tous les utilisateurs et [IBM Aspera Connect 3.9.9](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) doit être installé dans l’extension de leur navigateur avant de télécharger les ressources à partir de Brand Portal.
+>Le **[!UICONTROL téléchargement rapide]** est désormais activé par défaut pour tous les utilisateurs et [IBM Aspera Connect 3.9.9](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) doit être installé dans l’extension de leur navigateur avant de télécharger les ressources à partir de Brand Portal.
 
 <!--
 If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
@@ -94,7 +94,7 @@ Dans la boîte de dialogue **[!UICONTROL Télécharger]**, les utilisateurs peuv
 * créer un dossier distinct pour chaque ressource ;
 * télécharger les ressources sélectionnées et leurs rendus.
 
-Le workflow de téléchargement reste le même pour les ressources uniques ou multiples, les dossiers contenant des ressources, les ressources qui sont ou non sous licence, ainsi que le téléchargement de ressources à l’aide du lien de partage. Voir [étapes de téléchargement des ressources à partir du portail de marque](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
+Le workflow de téléchargement reste le même pour les ressources uniques ou multiples, les dossiers contenant des ressources, les ressources qui sont ou non sous licence, ainsi que le téléchargement de ressources à l’aide d’un lien de partage. Consultez la [procédure de téléchargement des ressources à partir de Brand Portal](https://docs.adobe.com/content/help/fr-FR/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
 
 ![boîte-de-dialogue-télécharger](assets/download-dialog-box.png)
 
@@ -115,7 +115,7 @@ Earlier, if any of the custom or system renditions was enabled in the **[!UICONT
 There was no filter to exclude specific custom or dynamic renditions which were not required for download.
 -->
 
-Dans Brand Portal 2020.10.0, les utilisateurs peuvent exclure des rendus spécifiques et [télécharger directement les rendus sélectionnés à partir du panneau Rendus](brand-portal-download-assets.md#download-assets-from-asset-details-page) dans la page des détails de la ressource sans avoir à ouvrir la boîte de dialogue **[!UICONTROL Télécharger]**.
+Dans Brand Portal 2020.10.0, les utilisateurs peuvent exclure des rendus spécifiques et [télécharger directement les rendus sélectionnés à partir du panneau Rendus](brand-portal-download-assets.md#download-assets-from-asset-details-page) de la page de détails de la ressource sans avoir à ouvrir la boîte de dialogue **[!UICONTROL Télécharger]**.
 
 
 <!-- 
@@ -131,7 +131,7 @@ The user can clear the check boxes to exclude the renditions which are not requi
 
 Outre les configurations **[!UICONTROL Télécharger]** existantes, les administrateurs du portail de marque peuvent également configurer les paramètres de différents groupes d’utilisateurs à vue et (ou) télécharger la ressource d’origine et ses rendus à partir de la page des détails de la ressource.
 
-Connectez-vous à votre client du portail de marque en tant qu’administrateur et accédez à **[!UICONTROL Outils]** > **[!UICONTROL Utilisateurs]**.
+Connectez-vous à votre client Brand Portal en tant qu’administrateur et accédez à **[!UICONTROL Outils]** > **[!UICONTROL Utilisateurs]**.
 
 Dans la page **[!UICONTROL Rôles utilisateur]**, accédez à l&#39;onglet **[!UICONTROL Groupes]** pour configurer la vue et (ou) les paramètres de téléchargement des groupes d&#39;utilisateurs.
 
@@ -144,7 +144,7 @@ L’onglet **[!UICONTROL Groupes]** de la page **[!UICONTROL Rôles utilisateur]
 * Si seul le paramètre **[!UICONTROL Télécharger l’original]** est activé, les utilisateurs peuvent afficher et télécharger uniquement les ressources d’origine à partir de la page des détails de la ressource.
 * Si seul le paramètre **[!UICONTROL Télécharger les rendus]** est activé, les utilisateurs peuvent afficher la ressource d’origine, mais ne peuvent pas la télécharger. Cependant, l’utilisateur peut afficher et télécharger les rendus de ressources.
 
-Voir [configuration du téléchargement de fichier](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions).
+Consultez [Configuration du téléchargement de ressource](https://docs.adobe.com/content/help/fr-FR/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions).
 
 ![autorisation-téléchargement-affichage](assets/download-permissions.png)
 
@@ -327,9 +327,9 @@ Par exemple, la spécification de **climb*** renvoie toutes les ressources ayant
 
 De même, la spécification de :
 
-* ***climb** renvoie toutes les ressources ayant des mots se terminant par les caractères **climb** dans l’expression de leur titre.
+* **\*climb** renvoie toutes les ressources ayant des mots se terminant par les caractères **climb** dans l’expression de leur titre.
 
-* ***climb*** renvoie toutes les ressources ayant des mots comprenant les caractères **climb** dans l’expression de leur titre.
+* **\*climb\*** renvoie toutes les ressources ayant des mots comprenant les caractères **climb** dans l’expression de leur titre.
 
 >[!NOTE]
 >
