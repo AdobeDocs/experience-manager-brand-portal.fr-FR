@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 4221199d874ce63a936e5e6e02a16ee95cab4499
+source-git-commit: d70817274ac7be84528778352f34934a0d4a60fc
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 76%
+source-wordcount: '1025'
+ht-degree: 74%
 
 ---
 
@@ -43,15 +43,24 @@ Le tableau de bord de Brand Portal répertorie tous les dossiers existants auxqu
 
 1. Connectez-vous à votre instance Brand Portal.
 1. Sélectionnez le dossier de contribution dans le tableau de bord de Brand Portal.
-1. Cliquez sur **[!UICONTROL Propriétés]** ![](assets/properties.png). La fenêtre Propriété s’affiche. Elle contient les détails du dossier Contribution des ressources.
-   ![](assets/download-asset-requirement1.png)
-1. Cliquez sur **[!UICONTROL Download Brief]** ![](assets/download.png) (Télécharger le résumé) pour télécharger sur votre ordinateur local le document sur les exigences en matière de ressources.
+1. Cliquez sur **[!UICONTROL Propriétés]**. La fenêtre Propriété contenant les détails du dossier de contribution s&#39;affiche.
+
+   ![](assets/properties.png)
+
    ![](assets/download-asset-requirement2.png)
+
+1. Cliquez sur l&#39;option **[!UICONTROL Télécharger la brève]** pour télécharger le document de besoins en ressources sur votre ordinateur local.
+
+   ![](assets/download.png)
+
 1. Retournez dans le tableau de bord de Brand Portal.
 1. Cliquez pour ouvrir le dossier de contribution. Vous pouvez voir deux sous-dossiers, **[!UICONTROL SHARED]** et **[!UICONTROL NEW]**, à l’intérieur. Le dossier SHARED contient toutes les ressources de base (contenu de référence) partagées par les administrateurs.
 1. Vous pouvez télécharger sur votre ordinateur local le dossier **[!UICONTROL SHARED]** contenant toutes les ressources de base.
-Vous pouvez également ouvrir le dossier **[!UICONTROL SHARED]** et cliquer sur l’icône **Télécharger** ![](assets/download.png) pour télécharger des ressources/dossiers distincts.
-   ![](assets/download-asset-requirement3.png)
+Vous pouvez également ouvrir le dossier **[!UICONTROL PARTAGÉ]** et cliquer sur l&#39;icône **Télécharger** pour télécharger des fichiers/dossiers individuels.
+
+   ![](assets/download.png)
+
+   ![](assets/download-asset-requirement4.png)
 
 Passez en revue le résumé (document sur les exigences en matière de ressources) et reportez-vous aux ressources de base pour comprendre les exigences en matière de ressources. Vous pouvez maintenant créer des ressources à des fins de contribution et les charger dans le dossier de contribution..
 
@@ -82,15 +91,15 @@ Le tableau de bord de Brand Portal répertorie tous les dossiers existants auxqu
 
 1. Cliquez sur le dossier **[!UICONTROL NEW]**.
 
-   ![](assets/upload-new-assets1.png)
+   ![](assets/upload-new-assets4.png)
 
 1. Cliquez sur **[!UICONTROL Créer]** > **[!UICONTROL Fichiers]** afin de charger des fichiers distincts ou un dossier (.zip) contenant plusieurs ressources.
 
-   ![](assets/upload-new-assets2.png)
+   ![](assets/upload-new-assets5.png)
 
 1. Parcourez les ressources (fichiers/dossiers) et chargez-les dans le dossier **[!UICONTROL NEW]**.
 
-   ![](assets/upload-new-assets3.png)
+   ![](assets/upload-new-assets6.png)
 
 Après avoir chargé tous les fichiers ou dossiers dans le dossier NEW, publiez le dossier de contribution dans AEM Assets.
 
@@ -110,7 +119,7 @@ Vérifiez que vous avez respecté les exigences en matière de ressources et cha
 
    ![](assets/export.png)
 
-   ![](assets/publish-contribution-folder-to-aem.png)
+   ![](assets/publish-contribution-folder-to-aem1.png)
 
 Une notification Pulse/par e-mail est envoyée à l’utilisateur et aux administrateurs de Brand Portal à différentes étapes du workflow de publication :
 1. **En file d&#39;attente** : une notification est envoyée à l&#39;utilisateur et aux administrateurs de Brand Portal lorsqu&#39;un processus de publication se déclenche dans Brand Portal.
@@ -129,21 +138,17 @@ Les administrateurs peuvent utiliser deux rapports pour vue de l’état des dos
 
    ![](assets/contribution-folder-status.png)
 
-* En AEM Assets (sur site ou service géré), accédez à **[!UICONTROL Outils]** > **[!UICONTROL Emplois]**. Ce rapport reflète l’état final (Réussite ou Erreur) de toutes les tâches de publication.
+* En AEM Assets (sur site ou service géré), accédez à **[!UICONTROL Assets]** > **[!UICONTROL Jobs]**. Ce rapport reflète l’état final (Réussite ou Erreur) de toutes les tâches de publication.
 
    ![](assets/publishing-status.png)
 
-* Dans AEM Assets en tant que Cloud Service, accédez à **[!UICONTROL Outils]** > **[!UICONTROL Ressources]** > **[!UICONTROL Rapports]**.
+* Dans AEM Assets en tant que Cloud Service, accédez à **[!UICONTROL Assets]** > **[!UICONTROL Jobs]**.
 
-   Cliquez sur le bouton **[!UICONTROL Créer]** et sélectionnez **[!UICONTROL Publier]** pour créer un rapport de publication.
+   Vous pouvez également accéder directement à **[!UICONTROL Tâches]** à partir de la navigation globale.
 
-   ![](assets/create-publish-report.png)
+   Ce rapport reflète l’état final (Réussite ou Erreur) de toutes les tâches de publication, y compris l’importation de ressources de Brand Portal vers AEM Assets en tant que Cloud Service.
 
-   Saisissez les **[!UICONTROL Titre]** et **[!UICONTROL Description]**, puis sélectionnez le **[!UICONTROL Chemin d’accès au dossier]** du dossier de contribution et planifiez le rapport pour **[!UICONTROL Maintenant]**. Cliquez sur **[!UICONTROL Next]** (Suivant).
-
-   ![](assets/create-publish-report1.png)
-
-   Sélectionnez les attributs de champ à inclure dans le rapport et générez-les. Ce rapport reflète l’état final (Réussite ou Erreur) de toutes les tâches de publication.
+   ![](assets/cloud-service-job-status.png)
 
 <!--
 >[!NOTE]
