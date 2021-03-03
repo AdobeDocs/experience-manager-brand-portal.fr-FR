@@ -13,28 +13,28 @@ translation-type: tm+mt
 source-git-commit: a587061bc8afe250a88b4a02b42b6acd9ef6bbeb
 workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 38%
+ht-degree: 100%
 
 ---
 
 
-# Partager des collections {#share-collections}
+# Partage de collections {#share-collections}
 
-Une collection représente un groupe d’actifs connexes stockés ensemble dans Adobe Experience Manager Assets Brand Portal. Les utilisateurs peuvent créer des collections dynamiques en [appliquant omnisearch ou facet search pour filtrer les ressources connexes](brand-portal-searching.md) et les stocker ensemble pour y accéder facilement et les partager davantage avec d&#39;autres utilisateurs du portail de marque.
+Une collection représente un groupe de ressources connexes stockées ensemble dans Adobe Experience Manager Assets Brand Portal. Les utilisateurs peuvent créer des collections dynamiques en [appliquant l’omni-recherche ou la recherche de facettes pour filtrer les ressources](brand-portal-searching.md) associées, les stocker ensemble pour y accéder facilement et les partager ensuite avec d’autres utilisateurs de Brand Portal.
 
-Les administrateurs peuvent partager et annuler le partage d’une collection avec les utilisateurs autorisés du portail de marques. Les éditeurs et les utilisateurs peuvent vue et partager les collections qu’ils ont créées, partagées avec eux et les collections publiques.
+Les administrateurs peuvent partager et annuler le partage d’une collection avec les utilisateurs autorisés de Brand Portal. Les éditeurs et les observateurs peuvent uniquement visualiser et partager les collections créées par eux et partagées avec eux, ainsi que les collections publiques.
 
 >[!NOTE]
 >
->Les éditeurs ne peuvent pas changer une collection publique en collection non publique et ne disposent donc pas de la case **[!UICONTROL Collection publique]** disponible dans la boîte de dialogue **[!UICONTROL Paramètres de collection]**.
+>Les éditeurs ne peuvent pas modifier le statut d’une collection publique en non publique. Par conséquent, la case à cocher **[!UICONTROL Collection publique]** n’est pas disponible dans la boîte de dialogue **[!UICONTROL Paramètres de la collection]**.
 
 ## Partage d’une collection {#share-collection}
 
-Vous trouverez ci-dessous la procédure à suivre pour partager une collection avec les utilisateurs autorisés du portail de marques :
+Vous trouverez ci-dessous la procédure à suivre pour partager une collection avec les utilisateurs autorisés de Brand Portal :
 
-1. Connectez-vous à votre locataire du portail de marques. Par défaut, la vue **[!UICONTROL Fichiers]** s’ouvre et contient tous les fichiers et dossiers publiés.
+1. Connectez-vous à votre client Brand Portal. Par défaut, la vue **[!UICONTROL Fichiers]** s’ouvre et contient toutes les ressources et dossiers publiés.
 
-1. Dans les navigations rapides en haut, cliquez sur **[!UICONTROL Collections]**.
+1. Dans les icônes de navigation rapide en haut, cliquez sur **[!UICONTROL Collections]**.
 
 1. Dans la console **[!UICONTROL Collections]**, effectuez l’une des opérations suivantes :
 
@@ -46,17 +46,17 @@ Vous trouverez ci-dessous la procédure à suivre pour partager une collection a
 
       ![](assets/collection-console.png)
 
-1. Dans la boîte de dialogue **[!UICONTROL Paramètres de collection]**, sélectionnez les utilisateurs avec lesquels vous souhaitez partager la collection et sélectionnez le rôle de l’utilisateur pour qu’il corresponde à son rôle global. Par exemple, attribuez le rôle Editeur à un éditeur global, le rôle Lecteur à une visionneuse globale.
+1. Dans la boîte de dialogue **[!UICONTROL Paramètres de la collection]**, sélectionnez les utilisateurs avec qui vous voulez partager la collection et choisissez le rôle d’utilisateur pour qu’il corresponde à leur rôle global. Par exemple, affectez le rôle Éditeur à un éditeur global ou le rôle Observateur à un observateur global.
 
-   Vous pouvez également rendre la collection accessible à tous les utilisateurs, indépendamment de leur appartenance et de leur rôle au groupe, en la rendant publique en cochant la case **[!UICONTROL Collection publique]**.
+   Pour que la collection soit disponible pour tous les utilisateurs, quel que soit le groupe auquel ils appartiennent et leur rôle, vous pouvez également la rendre publique en activant la case à cocher **[!UICONTROL Collection publique]**.
 
    >[!NOTE]
    >
-   >Les utilisateurs qui ne sont pas administrateurs peuvent toutefois ne pas être autorisés à créer des collections publiques, afin de limiter le nombre de collections publiques et gagner ainsi de l’espace sur le système. Les organisations peuvent désactiver la configuration **[!UICONTROL Autoriser la création de collections publiques]** à partir des paramètres **[!UICONTROL Général]** disponibles dans le panneau Outils d’administration.
+   >Les utilisateurs qui ne sont pas administrateurs peuvent toutefois ne pas être autorisés à créer des collections publiques, afin de limiter le nombre de collections publiques et gagner ainsi de l’espace sur le système. Les entreprises peuvent désactiver la configuration **[!UICONTROL Autoriser la création de collections publiques]** dans **[!UICONTROL Paramètres généraux]** au niveau du panneau des outils d’administration.
 
    ![](assets/collection_sharingadduser.png)
 
-   Les éditeurs ne peuvent pas remplacer une collection publique par une collection non publique et ne disposent donc pas de la case **[!UICONTROL Collection publique]** disponible dans la boîte de dialogue **[!UICONTROL Paramètres de collection]**.
+   Les éditeurs ne peuvent pas modifier le statut d’une collection publique en non publique. Par conséquent, la case à cocher **[!UICONTROL Collection publique]** n’est pas disponible dans la boîte de dialogue **[!UICONTROL Paramètres de la collection]**.
 
    ![](assets/collection-setting-editor.png)
 
@@ -66,7 +66,7 @@ Vous trouverez ci-dessous la procédure à suivre pour partager une collection a
    >
    >Le rôle d’un utilisateur détermine l’accès aux ressources et aux dossiers d’une collection. Si un utilisateur n’a pas accès aux ressources, une collection vide est partagée avec celui-ci. Le rôle d’un utilisateur détermine aussi les actions disponibles pour les collections.
 
-## Annulation du partage d’une collection    {#unshare-a-collection}
+## Annulation du partage d’une collection {#unshare-a-collection}
 
 Pour annuler le partage d’une collection précédemment partagée, procédez comme suit :
 
@@ -76,7 +76,7 @@ Pour annuler le partage d’une collection précédemment partagée, procédez c
 
    ![](assets/collection_settings.png)
 
-1. Dans la boîte de dialogue **[!UICONTROL Paramètres de collection]**, sous la section **[!UICONTROL Membres]**, cliquez sur le symbole **[!UICONTROL x]** en regard des utilisateurs pour les supprimer de la liste des utilisateurs ayant accès à la collection.
+1. Dans la boîte de dialogue **[!UICONTROL Paramètres de la collection]**, dans la section **[!UICONTROL Membres]**, cliquez sur le symbole **[!UICONTROL x]** en regard des utilisateurs pour les supprimer de la liste des utilisateurs ayant accès à la collection.
 
    ![](assets/unshare_collection.png)
 
@@ -84,7 +84,7 @@ Pour annuler le partage d’une collection précédemment partagée, procédez c
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour appliquer les modifications.
 
-   Une fois l’utilisateur supprimé de la liste partagée, la collection non partagée est supprimée de la console **[!UICONTROL Collections]** de l’utilisateur.
+   Une fois que l’utilisateur est supprimé de la liste partagée, la collection non partagée est supprimée de la console **[!UICONTROL Collections]** de l’utilisateur.
 
 <!--
 1. Click the overlay icon on the left, and choose **[!UICONTROL Navigation]**.
