@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: fab0855e8d30e7b6ddf9b4ae5b2ce1fb627c81ce
 workflow-type: tm+mt
 source-wordcount: '1049'
-ht-degree: 68%
+ht-degree: 91%
 
 ---
 
@@ -30,14 +30,14 @@ La configuration **[!UICONTROL Téléchargement rapide]** est activée par défa
 
 ![](assets/download-settings-new.png)
 
-## Conditions préalables pour accélérer le téléchargement de fichiers  {#prerequisites-to-accelerate-file-download}
+## Conditions préalables pour accélérer le téléchargement de fichiers {#prerequisites-to-accelerate-file-download}
 
 Pour télécharger les fichiers plus rapidement, vérifiez les points suivants :
 
 * Accédez à **[!UICONTROL Outils]** > **[!UICONTROL Télécharger]** et vérifiez que la configuration **[!UICONTROL Téléchargement rapide]** est activée dans les **[!UICONTROL Paramètres de téléchargement]**.
-* Assurez-vous que le port 33001 (TCP et UDP) est ouvert sur le pare-feu. Pour plus d’informations sur les conditions préalables, voir [Documentation du client IBM Aspera Connect](https://downloads.asperasoft.com/en/documentation/8).
-* [Installez IBM Aspera Connect 3.9.9](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) dans l’extension de votre navigateur à l’aide des droits d’administrateur.
-* Pour la prise en charge de la plate-forme du client de transfert Aspera, voir [matrice de prise en charge de la plate-forme IBM Aspera Connect](https://www.asperasoft.com/company/support/transfer-clients/).
+* Veillez à ce que le port 33001 (TCP et UDP) soit ouvert sur le pare-feu. Pour plus d’informations sur les conditions préalables requises, consultez la [documentation du client IBM Aspera Connect](https://downloads.asperasoft.com/en/documentation/8).
+* [Installez IBM Aspera Connect 3.9.9](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) dans l’extension de votre navigateur à l’aide des droits d’administrateur.
+* Pour connaître les plates-formes prises en charge par le client de transfert Aspera, consultez le [Tableau des plates-formes prises en charge par IBM Aspera Connect](https://www.asperasoft.com/company/support/transfer-clients/).
 
 ## Domaines de téléchargement {#download-domains}
 
@@ -56,7 +56,7 @@ Le tableau suivant affiche les performances de téléchargement obtenues pour un
 
 *Les résultats observés varient en fonction de facteurs tels que la bande passante du réseau, la latence du serveur et l’emplacement du client, en sachant que le serveur Brand Portal se situe dans l’État de l’Oregon aux États-Unis.*
 
-| Emplacement du client | Latence entre le client et le serveur  (millisecondes) | Vitesse mesurée avec l’accélérateur de transfert de fichiers d’Aspera Connect (Mbit/s) | Temps nécessaire pour télécharger un fichier de 2 Go avec l’accélérateur de transfert de fichiers Aspera (en secondes) |
+| Emplacement du client | Latence entre le client et le serveur (millisecondes) | Vitesse mesurée avec l’accélérateur de transfert de fichiers d’Aspera Connect (Mbit/s) | Temps nécessaire pour télécharger un fichier de 2 Go avec l’accélérateur de transfert de fichiers Aspera (en secondes) |
 |---------------------------|-----------------------------------|---------------------------------------------|-------------------------------------------------------------------------|
 | Ouest des États-Unis (Californie du Nord) | 18 | 36 | 57 |
 | Ouest des États-Unis (Oregon) | 42 | 36 | 57 |
@@ -71,19 +71,19 @@ Le tableau suivant affiche les performances de téléchargement obtenues pour un
 
 Pour télécharger des ressources plus rapidement à partir de Brand Portal :
 
-1. Connectez-vous à votre locataire du portail de marques. Par défaut, la vue **[!UICONTROL Fichiers]** s’ouvre et contient tous les fichiers et dossiers publiés.
+1. Connectez-vous à votre client Brand Portal. Par défaut, la vue **[!UICONTROL Fichiers]** s’ouvre et contient toutes les ressources et dossiers publiés.
 
    Utilisez l’une des méthodes suivantes :
 
-   * Sélectionnez les fichiers ou les dossiers à télécharger. Dans la barre d’outils supérieure, cliquez sur l’icône **[!UICONTROL Télécharger]**.
+   * Sélectionnez les ressources ou les dossiers que vous souhaitez télécharger. Dans la barre d’outils supérieure, cliquez sur l’icône **[!UICONTROL Télécharger]**.
 
-      ![select-multiple-assets](assets/select-assets-new.png)
+      ![sélectionner-plusieurs-ressources](assets/select-assets-new.png)
 
-   * Pour télécharger des rendus de fichier spécifiques d’un fichier, placez le pointeur sur le fichier et cliquez sur l’icône **[!UICONTROL Télécharger]** disponible dans les miniatures d’action rapide.
+   * Pour télécharger des rendus de ressource spécifiques pour une ressource, survolez celle-ci avec le pointeur et cliquez sur l’icône **[!UICONTROL Télécharger]** disponible dans les miniatures d’action rapide.
 
-      ![select-asset](assets/select-asset.png)
+      ![sélectionner-une-ressource](assets/select-asset.png)
 
-1. La boîte de dialogue **[!UICONTROL Télécharger]** répertoriant tous les actifs sélectionnés s’ouvre.
+1. La boîte de dialogue **[!UICONTROL Télécharger]** qui répertorie toutes les ressources sélectionnées s’ouvre.
 
    Pour conserver la hiérarchie des dossiers de Brand Portal lors du téléchargement des ressources, cochez la case **[!UICONTROL Créer un dossier distinct pour chaque ressource.]**
 
@@ -91,7 +91,7 @@ Pour télécharger des ressources plus rapidement à partir de Brand Portal :
 
    ![boîte-de-dialogue-télécharger](assets/download-dialog-box-new.png)
 
-1. Par défaut, le paramètre **[!UICONTROL Téléchargement rapide]** est activé dans les **[!UICONTROL Paramètres de téléchargement]**. Par conséquent, une zone de confirmation s’affiche pour télécharger des fichiers à l’aide d’IBM Aspera Connect.
+1. Par défaut le paramètre **[!UICONTROL Téléchargement rapide]** est activé dans les **[!UICONTROL Paramètres de téléchargement]**. Par conséquent, une zone de confirmation s’affiche pour télécharger des fichiers à l’aide d’IBM Aspera Connect.
 
    Si vous téléchargez les ressources pour la première fois et si IBM Aspera Connect n’est pas installé dans votre navigateur ou si la version existante est obsolète, vous serez invité à [installer l’accélérateur de téléchargement d’Aspera](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html).
 
@@ -99,19 +99,19 @@ Pour télécharger des ressources plus rapidement à partir de Brand Portal :
 
 1. **Installez le client Aspera Connect**
 
-   Pour installer la configuration du client IBM Aspera Connect, exécutez le programme d’installation à partir du fichier .msi de l’’application cliente IBM Aspera Connect et suivez l’assistant d’installation.
+   Pour installer la configuration du client IBM Aspera Connect, exécutez le programme d’installation à partir du fichier .msi de l’application cliente IBM Aspera Connect et suivez l’assistant d’installation.
 
    ![](assets/aspera-download-1.png)
 
 1. Une fois le client installé, actualisez la page du navigateur et relancez les étapes de téléchargement.
 
-1. Pour continuer à utiliser **[!UICONTROL Téléchargement rapide]**, cliquez sur **[!UICONTROL Autoriser]**. Tous les rendus sélectionnés sont téléchargés dans un dossier zip à l’aide d’IBM Aspera Connect.
+1. Pour continuer à utiliser le **[!UICONTROL téléchargement rapide]**, cliquez sur **[!UICONTROL Autoriser]**. Tous les rendus sélectionnés sont téléchargés dans un dossier zip à l’aide d’IBM Aspera Connect.
 
    À la fin du téléchargement, une boîte de dialogue affiche l’emplacement où les ressources sont téléchargées sur le système de l’utilisateur.
 
    ![](assets/aspera-download-2.png)
 
-   Si vous ne souhaitez pas utiliser IBM Aspera Connect, cliquez sur **[!UICONTROL Refuser]**. Si **[!UICONTROL Téléchargement rapide]** est refusé ou échoue, le système renseigne un message d’erreur. Cliquez sur le bouton **[!UICONTROL Téléchargement normal]** pour continuer à télécharger les ressources.
+   Si vous ne souhaitez pas utiliser IBM Aspera Connect, cliquez sur **[!UICONTROL Refuser]**. Si le **[!UICONTROL téléchargement rapide]** est refusé ou échoue, le système renvoie un message d’erreur. Cliquez sur le bouton **[!UICONTROL Téléchargement normal]** pour continuer à télécharger les ressources.
 
 >[!NOTE]
 >
@@ -187,7 +187,7 @@ Pour utiliser la fonctionnalité de téléchargement accéléré sur Microsoft 
 1. Cliquez sur **[!UICONTROL Zone Sites de confiance]**, puis sur **[!UICONTROL Sites]**.
 1. Supprimez le site Brand Portal de la liste.
 
-## Préférences du client Aspera Connect   {#aspera-connect-client-preferences}
+## Préférences du client Aspera Connect  {#aspera-connect-client-preferences}
 
 Certaines préférences utiles peuvent être définies dans les préférences du client IBM Aspera Connect en cliquant avec le bouton droit sur l’icône et en sélectionnant **[!UICONTROL Préférences]**.
 
@@ -201,7 +201,7 @@ En outre, le client Aspera Connect peut être marqué pour se lancer automatiqu
 
 ![](assets/aspera-automaticallylaunch.png)
 
-## Résolution des problèmes liés à l’accélération des téléchargements   {#troubleshoot-issues-with-download-acceleration}
+## Résolution des problèmes liés à l’accélération des téléchargements  {#troubleshoot-issues-with-download-acceleration}
 
 Si l’accélération des téléchargements ne fonctionne pas, suivez ces étapes de dépannage :
 
@@ -214,6 +214,6 @@ Si l’accélération des téléchargements ne fonctionne pas, suivez ces étape
    Si la bande passante est faible (1 à 10 Mbit/s) ou en Kbit/s, utilisez les Préférences Aspera et essayez de limiter la bande passante en fonction de celle disponible.
 
 1. Pour confirmer que les téléchargements à partir du serveur de démonstration d’Aspera fonctionnent, utilisez [https://demo.asperasoft.com/aspera/user](https://demo.asperasoft.com/aspera/user).\
-   (nom d&#39;utilisateur : asperaweb, mot de passe : demoaspera).
+   (nom d’utilisateur : asperaweb, mot de passe : demoaspera).
 
 1. Si aucune des étapes de dépannage ci-dessus ne fonctionne, désélectionnez l’option Activer l’accélération des téléchargements et utilisez le téléchargement normal.
