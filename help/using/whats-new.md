@@ -10,10 +10,10 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: d32c06e08499acb97badff40658fded0edeb2038
+source-git-commit: 7bb5e71bd25b312a77f0a6cc15ad86b6f9d43407
 workflow-type: tm+mt
-source-wordcount: '6053'
-ht-degree: 88%
+source-wordcount: '6125'
+ht-degree: 87%
 
 ---
 
@@ -28,9 +28,19 @@ Brand Portal 2021.02.0 est une version améliorée qui intègre le flux de trava
 
 ### Automatisation du portail de marque sur AEM Assets en tant que Cloud Service {#bp-automation-on-cloud-service}
 
-AEM Assets en tant que Cloud Service est automatiquement configuré avec le portail des marques en activant le portail des marques à partir de Cloud Manager. Un utilisateur de Cloud Manager déclenche le processus d’activation qui crée les configurations requises sur l’arrière-plan et active le portail de marque sur la même organisation IMS que dans la AEM Assets en tant qu’instance Cloud Service.
+AEM Assets en tant que Cloud Service est automatiquement configuré avec le portail des marques en activant le portail des marques à partir de Cloud Manager.
 
 Auparavant, AEM Assets en tant que Cloud Service était configuré manuellement avec Brand Portal à l’aide d’Adobe Developer Console.
+
+Un utilisateur de Cloud Manager déclenche le processus d’activation qui crée les configurations requises sur l’arrière-plan et active le portail de marque sur la même organisation IMS que dans la AEM Assets en tant qu’instance Cloud Service.
+
+Pour activer le portail des marques sur votre AEM Assets en tant qu’instance de Cloud Service :
+
+1. Connectez-vous à Adobe Cloud Manager et accédez à **[!UICONTROL Environnements]**.
+1. Sélectionnez les environnements (un par un) de la liste à la vue des détails de l&#39;environnement. Une fois que vous avez trouvé l&#39;environnement associé au portail de la marque, cliquez sur le bouton **[!UICONTROL Activer le portail de la marque]** pour lancer le processus d&#39;activation.
+1. Une fois que le client du portail de marques est activé, l’état devient Activé.
+
+![État de la vue](assets/create-environment5.png)
 
 Voir [activer le portail de marque sur AEM Assets en tant que Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html?lang=en).
 
