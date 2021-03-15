@@ -9,10 +9,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: 7adc6b311a7f669b05dd8cc82cede62194cb8ec6
+source-git-commit: c7e76a1b06d94eec3bdd38411eb40dbaa4238eaf
 workflow-type: tm+mt
-source-wordcount: '1524'
-ht-degree: 100%
+source-wordcount: '1553'
+ht-degree: 92%
 
 ---
 
@@ -32,21 +32,17 @@ L’environnement de portail de type navigateur permet de télécharger, parcour
 
 ## Configuration d’AEM Assets avec Brand Portal {#configure-brand-portal}
 
-Adobe Experience Manager (AEM) Assets est configuré avec Brand Portal via Adobe Developer Console, qui fournit un jeton IMS pour autoriser votre client Brand Portal.
+La configuration des ressources Adobe Experience Manager avec le portail de marques permet aux utilisateurs du portail de marques de publier des fichiers, de les distribuer et de leur proposer des fonctions de contribution.
 
 >[!NOTE]
 >
->La configuration d’AEM Assets avec Brand Portal via Adobe Developer Console est prise en charge sur AEM Assets as a Cloud Service, AEM Assets 6.3 et versions ultérieures.
+>La configuration d’AEM Assets avec Brand Portal est prise en charge sur AEM Assets as a Cloud Service, AEM Assets 6.3 et versions ultérieures.
 
-### Conditions préalables à la configuration d’AEM Assets avec Brand Portal {#prerequisites}
+AEM Assets en tant que Cloud Service est automatiquement configuré avec le portail des marques en activant le portail des marques à partir de Cloud Manager. Le processus d’activation crée les configurations requises à l’arrière-plan et active Brand Portal sur la même organisation IMS que l’instance de Cloud Service dans la AEM Assets.
 
-Pour configurer AEM Assets avec Brand Portal, vous devez disposer des éléments suivants :
+En revanche, AEM Assets (sur site et Managed Services) est configuré manuellement avec Brand Portal à l’aide d’Adobe Developer Console, qui achète un jeton Adobe Identity Management Services (IMS) pour l’autorisation du locataire du portail Marque.
 
-* Une instance AEM Assets en cours d’exécution.
-* L’adresse URL du client Brand Portal
-* Un utilisateur disposant de droits d’administrateur système sur l’organisation IMS du client Brand Portal
-
-Pour plus d’informations, voir [Configuration d’AEM Assets avec Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+Pour plus d’informations, voir [configuration d’AEM Assets avec Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 ## Différents types d’utilisateurs de Brand Portal {#Personas}
 
