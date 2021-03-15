@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 979545105694eca65652d6c8e6ad5b9fdd9eea86
+source-git-commit: d32c06e08499acb97badff40658fded0edeb2038
 workflow-type: tm+mt
-source-wordcount: '6069'
+source-wordcount: '6053'
 ht-degree: 88%
 
 ---
@@ -30,7 +30,7 @@ Brand Portal 2021.02.0 est une version améliorée qui intègre le flux de trava
 
 AEM Assets en tant que Cloud Service est automatiquement configuré avec le portail des marques en activant le portail des marques à partir de Cloud Manager. Un utilisateur de Cloud Manager déclenche le processus d’activation qui crée les configurations requises sur l’arrière-plan et active le portail de marque sur la même organisation IMS que dans la AEM Assets en tant qu’instance Cloud Service.
 
-Auparavant, AEM Assets en tant que Cloud Service était configuré manuellement avec le portail de marques à l’aide de la Console de développement des Adobes, qui achète un jeton Adobe Identity Management Services (IMS) pour l’autorisation du locataire du portail de marques.
+Auparavant, AEM Assets en tant que Cloud Service était configuré manuellement avec Brand Portal à l’aide d’Adobe Developer Console.
 
 Voir [activer le portail de marque sur AEM Assets en tant que Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html?lang=en).
 
