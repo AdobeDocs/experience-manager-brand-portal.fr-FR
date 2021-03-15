@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: c7e76a1b06d94eec3bdd38411eb40dbaa4238eaf
+source-git-commit: 59eeaedd7f66a0a5affa53f82f3ebbb2bcea535d
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1554'
 ht-degree: 92%
 
 ---
@@ -40,7 +40,7 @@ La configuration des ressources Adobe Experience Manager avec le portail de marq
 
 AEM Assets en tant que Cloud Service est automatiquement configuré avec le portail des marques en activant le portail des marques à partir de Cloud Manager. Le processus d’activation crée les configurations requises à l’arrière-plan et active Brand Portal sur la même organisation IMS que l’instance de Cloud Service dans la AEM Assets.
 
-En revanche, AEM Assets (sur site et Managed Services) est configuré manuellement avec Brand Portal à l’aide d’Adobe Developer Console, qui achète un jeton Adobe Identity Management Services (IMS) pour l’autorisation du locataire du portail Marque.
+En revanche, AEM Assets (sur site et service géré) est configuré manuellement avec Brand Portal à l’aide d’Adobe Developer Console, qui achète un jeton Adobe Identity Management Services (IMS) pour l’autorisation du locataire du portail Marque.
 
 Pour plus d’informations, voir [configuration d’AEM Assets avec Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
