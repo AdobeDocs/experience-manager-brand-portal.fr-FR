@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: d70817274ac7be84528778352f34934a0d4a60fc
+source-git-commit: 59eeaedd7f66a0a5affa53f82f3ebbb2bcea535d
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '587'
 ht-degree: 54%
 
 ---
@@ -27,7 +27,7 @@ Découvrez les fonctionnalités, les améliorations, les problèmes critiques r�
 | Produit | Adobe Experience Manager Assets Brand Portal |
 |---|---|
 | Version | 2021.02.0 |
-| Date | Février 2021 |
+| Date |  février 2021 |
 
 ## Présentation {#overview}
 
@@ -39,9 +39,11 @@ Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de con
 
 Cette version comprend les nouvelles fonctionnalités suivantes :
 
+* AEM Assets en tant que Cloud Service est automatiquement configuré avec le portail des marques en activant le portail des marques à partir de Cloud Manager.
+
 * La fonction d’origine des ressources est désormais disponible en Cloud Service sur AEM Assets. Il permet aux utilisateurs du portail de marque de télécharger des fichiers vers les dossiers de contribution autorisés et de publier le dossier de contribution de Brand Portal vers AEM Assets en tant qu’instance Cloud Service.
 
-* Un autre paramètre **[!UICONTROL Téléchargement de fichier]** a été introduit sous **[!UICONTROL Paramètres de téléchargement]**. Il crée un dossier distinct pour chaque fichier lors du téléchargement des dossiers, des collections ou du téléchargement en masse des fichiers. Voir [paramètres de téléchargement](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download).
+* Un autre paramètre **[!UICONTROL Téléchargement de fichier]** a été introduit sous **[!UICONTROL Paramètres de téléchargement]**. Il crée un dossier distinct pour chaque fichier lors du téléchargement des dossiers, des collections ou du téléchargement en masse des fichiers.
 
 <!-- 
 * The **[!UICONTROL Download]** dialog is revamped in a list view with additional options to exclude the renditions which are not required, apply the same set of rules for similar asset types, and download the selected asset renditions. See [steps to download assets from Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
