@@ -10,10 +10,10 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 302bbf441453a760fe53d981a61b2eb014ebd1f0
+source-git-commit: 979545105694eca65652d6c8e6ad5b9fdd9eea86
 workflow-type: tm+mt
-source-wordcount: '5907'
-ht-degree: 92%
+source-wordcount: '6069'
+ht-degree: 88%
 
 ---
 
@@ -24,16 +24,25 @@ Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de con
 
 ## Changements dans la version 2021.02.0 {#what-changed-in-feb-2021}
 
-Le portail de marque 2021.02.0 est une version améliorée qui met l’accent sur la facilitation de la fonctionnalité d’origine des ressources sur AEM Assets en tant que Cloud Service, sur l’amélioration de l’expérience de téléchargement des ressources et comprend des correctifs critiques. Il permet aux administrateurs de configurer le comportement de téléchargement par défaut des dossiers, des collections et des fichiers téléchargés en masse au niveau du client. Le **[!UICONTROL rapport d’utilisation du portail de marque]** a également été modifié pour refléter les utilisateurs principaux du portail de marque. Consultez les dernières [Notes de mise à jour de Brand Portal](brand-portal-release-notes.md).
+Brand Portal 2021.02.0 est une version améliorée qui intègre le flux de travaux d’automatisation du portail des marques à AEM Assets en tant que Cloud Service, facilite la fonction d’approvisionnement en ressources de AEM Assets en tant que Cloud Service, améliore l’expérience de téléchargement de ressources et inclut des correctifs critiques. Il permet également aux administrateurs de configurer le comportement de téléchargement par défaut des dossiers, des collections et des fichiers téléchargés en masse au niveau du client. Le **[!UICONTROL rapport d’utilisation du portail de marque]** a également été modifié pour refléter les utilisateurs principaux du portail de marque. Consultez les dernières [Notes de mise à jour de Brand Portal](brand-portal-release-notes.md).
 
+### Automatisation du portail de marque sur AEM Assets en tant que Cloud Service {#bp-automation-on-cloud-service}
+
+AEM Assets en tant que Cloud Service est automatiquement configuré avec le portail des marques en activant le portail des marques à partir de Cloud Manager. Un utilisateur de Cloud Manager déclenche le processus d’activation qui crée les configurations requises sur l’arrière-plan et active le portail de marque sur la même organisation IMS que dans la AEM Assets en tant qu’instance Cloud Service.
+
+Auparavant, AEM Assets en tant que Cloud Service était configuré manuellement avec le portail de marques à l’aide de la Console de développement des Adobes, qui achète un jeton Adobe Identity Management Services (IMS) pour l’autorisation du locataire du portail de marques.
+
+Voir [activer le portail de marque sur AEM Assets en tant que Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html?lang=en).
 
 ### Ressource sur AEM Assets en tant que Cloud Service {#asset-sourcing-on-cloud-service}
 
-La fonction d’origine des ressources est désormais disponible en tant que Cloud Service sur AEM Assets. Les fonctionnalités sont activées par défaut pour tous les utilisateurs du service cloud. Les utilisateurs autorisés du portail de marques peuvent contribuer à l’approvisionnement en ressources en téléchargeant de nouveaux actifs dans les dossiers de contributions et en publiant le dossier de contributions de Brand Portal en AEM Assets en tant qu’instance Cloud Service. Les administrateurs peuvent examiner et approuver la contribution des utilisateurs du portail des marques afin de les distribuer à d’autres utilisateurs du portail des marques.
+La fonction d’origine des ressources est désormais disponible en tant que Cloud Service sur AEM Assets. Par défaut, la fonction est activée pour tous les utilisateurs du service cloud. Les utilisateurs autorisés du portail de marques peuvent contribuer à l’approvisionnement en ressources en téléchargeant de nouveaux actifs dans les dossiers de contributions et en publiant le dossier de contributions de Brand Portal en AEM Assets en tant qu’instance Cloud Service. Les administrateurs peuvent examiner et approuver la contribution des utilisateurs du portail des marques afin de les distribuer à d’autres utilisateurs du portail des marques.
 
 Auparavant, l’approvisionnement en ressources n’était disponible qu’à AEM Assets (sur site et service géré).
 
-### Téléchargement de fichier {#asset-download-setting}
+Voir [Affectation de ressources dans le portail de marques](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing.html?lang=en).
+
+### Téléchargement de ressources {#asset-download-setting}
 
 Outre les **[!UICONTROL Paramètres de téléchargement]** existants, les administrateurs du portail de marque peuvent désormais configurer le paramètre **[!UICONTROL Téléchargement de fichier]**. Ce paramètre permet aux administrateurs de contrôler le comportement de téléchargement par défaut des dossiers, des collections et des fichiers téléchargés en masse (plus de 20 fichiers) au niveau du client.
 
@@ -52,6 +61,7 @@ Connectez-vous à votre client Brand Portal en tant qu’administrateur et acc�
 
 ![](assets/download-settings-new.png)
 
+Voir [téléchargement de ressources à partir du portail de marque](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html?lang=en).
 <!--
 ### Download using Share link {#download-using-share-link}
 
@@ -178,7 +188,7 @@ Avec la visionneuse de document, les utilisateurs de Brand Portal peuvent désor
 
 >[!NOTE]
 >
->L’expérience d’affichage des autres formats de documents reste inchangée.
+>L’expérience d’affichage pour les autres formats de document reste inchangée.
 
 
 ![](assets/doc-viewer.png)
@@ -223,7 +233,7 @@ Dans Brand Portal 6.4.6, le canal d’autorisation entre AEM Assets et Brand Po
 
    -->
 
-Les étapes de configuration d’AEM Assets avec Brand Portal sont différentes selon votre version d’AEM et selon que vous effectuez une configuration pour la première fois ou une mise à niveau des configurations existantes :
+Les étapes de configuration d’AEM Assets avec Brand Portal sont différentes selon votre version d’AEM et selon que vous effectuez une configuration pour la première fois ou une mise à niveau des configurations existantes :
 
 <!--| **AEM Version** |**New Configuration** |**Upgrade Configuration** |
 |---|---|---|
@@ -339,7 +349,7 @@ De même, la spécification de :
 
 ## Changements dans la version 6.4.3 {#what-changed-in}
 
-La version 6.4.3 de Brand Portal propose aux organisations un alias alternatif en plus de leur ID de client dans l’URL d’accès à Brand Portal, une nouvelle configuration de hiérarchie de dossiers, des améliorations de la prise en charge des vidéos, la publication programmée à partir de l’instance d’auteur AEM vers Brand Portal ainsi que des améliorations opérationnelles. Elle répond également aux demandes des clients.
+La version 6.4.3 de Brand Portal se concentre sur : fournir aux entreprises un autre alias en plus de leur ID de client dans l’URL d’accès du portail de marque, nouvelle configuration de la hiérarchie des dossiers, améliorations de la prise en charge vidéo, publication planifiée depuis l’instance d’auteur AEM vers le portail de marque, améliorations opérationnelles et répondre aux demandes des clients.
 
 ### Navigation dans la hiérarchie de dossiers pour les non-administrateurs
 
