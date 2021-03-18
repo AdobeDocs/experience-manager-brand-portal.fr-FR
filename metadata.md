@@ -1,19 +1,14 @@
 ---
 cloud: experience-cloud
-solution-title: Formation et assistance
-solution-hub-url: https://helpx.adobe.com/support/experience-manager.html
-solution-image: null
-getting-started-title: Prise en main
-getting-started-url: https://docs.adobe.com/content/help/fr-FR/experience-manager-brand-portal/using/home.html
-tutorials-title: Tutoriels
-tutorials-url: https://guided.adobe.com/#recommended/solutions/experience-manager
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-brand-portal.fr-FR
 solution: Experience Manager
+feature-set: Experience Manager Assets
+type: Documentation
 index: y
-translation-type: ht
-source-git-commit: 0c73578ea3be53f39e44d81826dcbc0be08acccf
-workflow-type: ht
-source-wordcount: '133'
+translation-type: tm+mt
+source-git-commit: 06a7a37c2978351342369c703416fbdb58145f20
+workflow-type: tm+mt
+source-wordcount: '112'
 ht-degree: 100%
 
 ---
