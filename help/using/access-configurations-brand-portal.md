@@ -9,10 +9,11 @@ topic-tags: administration
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 393025b4-722d-4e81-8a47-f83415d0b9b6
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '303'
 ht-degree: 100%
 
 ---
@@ -41,7 +42,7 @@ Pour autoriser ce type d’accès, l’administrateur doit procéder comme suit�
 
 ![](assets/bp-welcome-screen.png)
 
-## Autoriser les utilisateurs à demander l’accès    {#allow-users-to-request-access}
+## Autoriser les utilisateurs à demander l’accès   {#allow-users-to-request-access}
 
 Les administrateurs peuvent autoriser les utilisateurs de l’entreprise à demander l’accès à Brand Portal à partir de l’écran de bienvenue. Toutefois, les administrateurs doivent activer la configuration **[!UICONTROL Autoriser les utilisateurs à demander l’accès]** de sorte que le lien de demande d’accès s’affiche sur l’écran de bienvenue.
 
