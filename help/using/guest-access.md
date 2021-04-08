@@ -9,11 +9,11 @@ topic-tags: introduction
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1029'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -43,10 +43,10 @@ Pour accéder à Brand Portal de manière anonyme, sélectionnez **[!UICONTROL 
 ## Durée d’une session d’invité {#guest-session-duration}
 
 
-Une session d’utilisateur invité reste principale pendant 15 minutes.
-Cela signifie que l’état de **[!UICONTROL Lightbox]** est conservé pendant 15 minutes à partir de l’heure de début de la session, puis que la session invitée active redémarre pour que l’état Lightbox soit perdu.
+Une session d’utilisateur invité reste active pendant 15 minutes.
+L’état de **[!UICONTROL Lightbox]** est ainsi conservé jusqu’à 15 min à compter du début de la session. Après cela, la session d’invité en cours redémarre et l’état de Lightbox est donc perdu.
 
-Par exemple, un utilisateur invité se connecte à Brand Portal à 15 heures et ajoute des ressources à **[!UICONTROL Lightbox]** pour le téléchargement à 15 h 05. Si l’utilisateur ne télécharge pas la collection **[!UICONTROL Lightbox]** (ou ses ressources) avant 15:15 (dans les 15 minutes qui suivent la connexion), il devra redémarrer la session. **[!UICONTROL Lightbox]** sera vide, ce qui signifie que les ressources téléchargées ne sont plus disponibles si la session a été perdue.
+Par exemple, un utilisateur invité se connecte à Brand Portal à 15 h 00 et ajoute des ressources dans **[!UICONTROL Lightbox]** pour un téléchargement à 15 h 05. Si l’utilisateur ne télécharge pas la collection **[!UICONTROL Lightbox]** (ou ses ressources) avant 15 h 15 (dans les 15 minutes qui suivent la connexion), il devra redémarrer la session. **[!UICONTROL Lightbox]** sera alors vide, ce qui signifie que les ressources téléchargées ne seront plus disponibles si la session a été perdue.
 
 ## Sessions d’invités simultanées permises {#concurrent-guest-sessions-allowed}
 
@@ -123,7 +123,7 @@ Pour télécharger des ressources et des collections, utilisez l’icône Télé
 
 ![](assets/download-on-guest.png)
 
-Sélectionnez **[!UICONTROL Activer l’accélération des téléchargements]** dans la boîte de dialogue [!UICONTROL Téléchargement] afin d’[améliorer les performances de téléchargement](../using/accelerated-download.md).
+Sélectionnez **[!UICONTROL Activer l’accélération des téléchargements]** dans la boîte de dialogue [!UICONTROL Télécharger] afin d’[améliorer les performances de téléchargement](../using/accelerated-download.md).
 
 ## Quitter une session d’invité {#exit-guest-session}
 
@@ -133,4 +133,4 @@ Pour quitter une session d’invité, utilisez **[!UICONTROL Terminer la session
 
 ## Surveillance des activités des utilisateurs invités {#monitoring-guest-user-activities}
 
-Les administrateurs peuvent suivre l’interaction des utilisateurs invités avec Brand Portal. Les rapports générés dans Brand Portal peuvent fournir des informations clés sur les activités des utilisateurs invités. Par exemple, le rapport **[!UICONTROL Téléchargement]** peut être utilisé pour le suivi du nombre de ressources téléchargées par un utilisateur invité. Le rapport **[!UICONTROL Connexions des utilisateurs]** peut indiquer lorsqu’un utilisateur invité s’est connecté pour la dernière fois au portail et la fréquence de ses connexions au cours d’une période donnée.
+Les administrateurs peuvent suivre l’interaction des utilisateurs invités avec Brand Portal. Les rapports générés dans Brand Portal peuvent fournir des informations clés sur les activités des utilisateurs invités. Par exemple, le rapport **[!UICONTROL Télécharger]** peut être utilisé pour le suivi du nombre de ressources téléchargées par un utilisateur invité. Le rapport **[!UICONTROL Connexions des utilisateurs]** peut indiquer lorsqu’un utilisateur invité s’est connecté pour la dernière fois au portail et la fréquence de ses connexions au cours d’une période donnée.
