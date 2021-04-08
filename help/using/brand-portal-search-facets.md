@@ -9,14 +9,14 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 role: Administrator
+exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141,cd0e6c36-aa23-4a50-aca6-81ca365ce447
 translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+source-git-commit: 1185de93369fc80231e64e3b5d81ac73837c153f
 workflow-type: tm+mt
-source-wordcount: '1299'
-ht-degree: 96%
+source-wordcount: '1298'
+ht-degree: 100%
 
 ---
-
 
 # Utilisation des facettes de recherche personnalisée {#use-custom-search-facets}
 
@@ -73,9 +73,9 @@ Pour ajouter un prédicat de recherche au panneau **[!UICONTROL Filtres]** :
 
    >[!NOTE]
    >
-   >Dans le portail Marque, toutes les propriétés (à l’exception de celles commençant par `xmp`) dans `jcrcontent/metadata` de `dam:asset` sont indexées par défaut.
+   >Dans le Brand Portal, toutes les propriétés (à l’exception de celles commençant par `xmp`) dans `jcrcontent/metadata` de `dam:asset` sont indexées par défaut.
    >
-   >Toute propriété indexée peut être utilisée lors de la création d’un prédicat de propriété. Si une propriété non indexée est configurée, la requête de recherche sur une propriété non indexée peut ne pas donner de résultat de recherche.
+   >Toute propriété indexée peut être utilisée lors de la création d’un prédicat de propriété. Si une propriété non indexée est configurée, la requête de recherche sur une telle propriété peut ne pas donner de résultat de recherche.
 
    ![](assets/title-prop.png)
 
