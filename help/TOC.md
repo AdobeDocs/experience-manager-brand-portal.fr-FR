@@ -7,12 +7,12 @@ user-guide-title: AEM Brand Portal
 breadcrumb-title: Guide de Brand Portal
 user-guide-description: Utilisez AEM Assets Brand Portal pour répondre aux besoins marketing en distribuant des ressources de marque et de produit approuvées à des agences externes, des partenaires, des équipes internes et des revendeurs pour téléchargement, et ce en toute sécurité.
 feature: Brand Portal
-role: Professionnel
+role: Business Practitioner
 translation-type: tm+mt
 source-git-commit: 0240080cf98fa0c1ba12dbcc9df17b2836064847
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 97%
+source-wordcount: '285'
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 97%
    + [Publication de paramètres prédéfinis, de schémas et de facettes sur Brand Portal](using/publish-schema-search-facets-presets.md)
 + Approvisionnement des ressources dans Brand Portal {#asset-sourcing-in-brand-portal}
    + [Présentation de l’approvisionnement des ressources](using/brand-portal-asset-sourcing.md)
-   + [Configuration du dossier de contributions en AEM Assets](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
+   + [Configuration du dossier de contribution dans AEM Assets](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
    + [Publication du dossier de contribution sur AEM Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + Partage de ressources avec les utilisateurs {#share}
    + [Partage d’une collection](using/brand-portal-share-collection.md)
