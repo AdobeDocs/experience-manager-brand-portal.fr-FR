@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0ae9860e2b6beb96f53e92bb114bb5756e371ad6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1154'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 Les ressources doivent être publiées sur Brand Portal à partir d’une instance AEM Author préconfigurée, car Brand Portal ne prend pas en charge l’ingestion des ressources.
 
-## Workflow de partage de dossiers dans Brand Portal        {#folder-sharing-workflow-in-brand-portal}
+## Workflow de partage de dossiers dans Brand Portal {#folder-sharing-workflow-in-brand-portal}
 
 La section suivante décrit le workflow de partage de dossiers et l’accès utilisateur :
 
@@ -64,13 +64,13 @@ Le tableau suivant indique les droits d’accès et les droits de partage/d’an
 >
 >Par défaut, l’option **[!UICONTROL Publication de dossier public]** est désactivée lors de la configuration de la réplication de Brand Portal avec un auteur AEM. Si l’option est activée, les dossiers publiés sur Brand Portal sont accessibles à tous les utilisateurs (également aux utilisateurs non administrateurs) par défaut.
 
-### Accès des utilisateurs non-administrateurs aux dossiers partagés        {#non-admin-user-access-to-shared-folders}
+### Accès des utilisateurs non-administrateurs aux dossiers partagés {#non-admin-user-access-to-shared-folders}
 
 Les utilisateurs non-administrateurs ne peuvent accéder qu’aux dossiers partagés avec eux sur Brand Portal. Cependant, le mode d’affichage de ces dossiers sur le portail lorsqu’ils se connectent dépend des paramètres de la configuration **[!UICONTROL Activer la hiérarchie de dossiers]**.
 
 **Si la configuration est désactivée**
 
-Les utilisateurs non-administrateurs voient tous les dossiers partagés avec eux sur la     page d’entrée, lors de leur connexion à Brand Portal.
+Les utilisateurs non-administrateurs voient tous les dossiers partagés avec eux sur la page d’entrée, lors de leur connexion à Brand Portal.
 
 ![](assets/disabled-folder-hierarchy1-1.png)
 
@@ -88,7 +88,7 @@ Aucune tâche d’action n’est visible lorsque vous les survolez ou les sélec
 
 ![](assets/enabled-hierarchy1-1.png) ![](assets/hierarchy1-nonadmin-1.png) ![](assets/hierarchy-nonadmin-1.png) ![](assets/hierarchy2-nonadmin-1.png)
 
-## Partage de dossiers      {#how-to-share-folders}
+## Partage de dossiers {#how-to-share-folders}
 
 Pour partager un dossier avec des utilisateurs sur Brand Portal, suivez ces étapes :
 
@@ -127,7 +127,7 @@ Pour partager le dossier uniquement avec les utilisateurs invités, et aucun aut
 
 1. Pour accéder au dossier partagé, connectez-vous à Brand Portal à l’aide des informations d’identification de l’utilisateur avec lequel vous avez partagé le dossier. Examinez le dossier partagé dans l’interface.
 
-## Annulation du partage de dossiers      {#unshare-the-folders}
+## Annulation du partage de dossiers {#unshare-the-folders}
 
 Pour annuler le partage d’un dossier précédemment partagé, procédez comme suit :
 
