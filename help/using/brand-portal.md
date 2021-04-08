@@ -8,14 +8,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
+exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
 translation-type: tm+mt
-source-git-commit: 59eeaedd7f66a0a5affa53f82f3ebbb2bcea535d
+source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
 workflow-type: tm+mt
 source-wordcount: '1554'
 ht-degree: 92%
 
 ---
-
 
 # Présentation d’AEM Assets Brand Portal {#overview-of-aem-assets-brand-portal}
 
