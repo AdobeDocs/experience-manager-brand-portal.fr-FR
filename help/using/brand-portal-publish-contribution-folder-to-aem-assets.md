@@ -1,19 +1,19 @@
 ---
-title: Téléchargement de fichiers et publication du dossier de contributions de Brand Portal vers AEM Assets
-seo-title: Téléchargement de fichiers et publication du dossier de contributions de Brand Portal vers AEM Assets
-description: Découvrez comment télécharger de nouveaux actifs et publier le dossier de contributions de Brand Portal à AEM Assets.
-seo-description: Découvrez comment télécharger de nouveaux actifs et publier le dossier de contributions de Brand Portal à AEM Assets.
+title: Chargement de ressources et publication du dossier de contribution de Brand Portal vers AEM Assets
+seo-title: Chargement de ressources et publication du dossier de contribution de Brand Portal vers AEM Assets
+description: Découvrez comment charger de nouvelles ressources et publier le dossier de contribution de Brand Portal vers AEM Assets.
+seo-description: Découvrez comment charger de nouvelles ressources et publier le dossier de contribution de Brand Portal vers AEM Assets.
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d70817274ac7be84528778352f34934a0d4a60fc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1025'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Les utilisateurs de Brand Portal reçoivent automatiquement des notifications P
 
 L’utilisateur de Brand Portal effectue les activités suivantes pour télécharger les exigences en matière de ressources :
 
-* **Charger les instructions** : chargez le résumé (document sur les exigences en matière de ressources) joint au dossier de contribution qui contient des informations relatives aux ressources, telles que le type de ressources, le but, les formats pris en charge, la taille maximale des ressources, etc.
+* **Télécharger le résumé** : chargez le résumé (document sur les exigences en matière de ressources) joint au dossier de contribution qui contient des informations relatives aux ressources, telles que le type de ressources, le but, les formats pris en charge, la taille maximale des ressources, etc.
 * **Télécharger des ressources de base** : téléchargez des ressources de base qui peuvent être utilisées pour comprendre les types de ressources requis. Les utilisateurs de Brand Portal peuvent utiliser ces ressources comme référence afin de créer des ressources à des fins de contribution.
 
 Le tableau de bord de Brand Portal répertorie tous les dossiers existants auxquels l’utilisateur de Brand Portal est autorisé à accéder, ainsi que le dossier de contribution nouvellement partagé. Dans cet exemple, l’utilisateur de Brand Portal a uniquement accès au dossier de contribution nouvellement créé. Aucun autre dossier existant n’est partagé avec lui.
@@ -43,20 +43,20 @@ Le tableau de bord de Brand Portal répertorie tous les dossiers existants auxqu
 
 1. Connectez-vous à votre instance Brand Portal.
 1. Sélectionnez le dossier de contribution dans le tableau de bord de Brand Portal.
-1. Cliquez sur **[!UICONTROL Propriétés]**. La fenêtre Propriété contenant les détails du dossier de contribution s&#39;affiche.
+1. Cliquez sur **[!UICONTROL Propriétés]**. La fenêtre Propriété contenant les détails du dossier de contribution s’affiche.
 
    ![](assets/properties.png)
 
    ![](assets/download-asset-requirement2.png)
 
-1. Cliquez sur l&#39;option **[!UICONTROL Télécharger la brève]** pour télécharger le document de besoins en ressources sur votre ordinateur local.
+1. Cliquez sur l’option **[!UICONTROL Télécharger le résumé]** pour télécharger sur votre ordinateur local le document sur les exigences en matière de ressources.
 
    ![](assets/download.png)
 
 1. Retournez dans le tableau de bord de Brand Portal.
 1. Cliquez pour ouvrir le dossier de contribution. Vous pouvez voir deux sous-dossiers, **[!UICONTROL SHARED]** et **[!UICONTROL NEW]**, à l’intérieur. Le dossier SHARED contient toutes les ressources de base (contenu de référence) partagées par les administrateurs.
 1. Vous pouvez télécharger sur votre ordinateur local le dossier **[!UICONTROL SHARED]** contenant toutes les ressources de base.
-Vous pouvez également ouvrir le dossier **[!UICONTROL PARTAGÉ]** et cliquer sur l&#39;icône **Télécharger** pour télécharger des fichiers/dossiers individuels.
+Vous pouvez également ouvrir le dossier **[!UICONTROL SHARED]** et cliquer sur l’icône **Télécharger** pour télécharger des fichiers/dossiers distincts.
 
    ![](assets/download.png)
 
@@ -67,7 +67,7 @@ Passez en revue le résumé (document sur les exigences en matière de ressource
 
 ## Chargement de ressources dans le dossier de contribution {#uplad-new-assets-to-contribution-folder}
 
-Après avoir examiné les exigences relatives aux ressources, les utilisateurs du portail de marque peuvent créer de nouvelles ressources pour contribution et les télécharger dans le dossier NEW du dossier de contribution.
+Après avoir examiné les exigences relatives aux ressources, les utilisateurs de Brand Portal peuvent créer des ressources pour contribution et les charger dans le dossier NEW du dossier de contribution.
 
 >[!NOTE]
 >
@@ -87,7 +87,7 @@ Après avoir examiné les exigences relatives aux ressources, les utilisateurs d
 1. Connectez-vous à votre instance Brand Portal.
 Le tableau de bord de Brand Portal répertorie tous les dossiers existants auxquels l’utilisateur de Brand Portal est autorisé à accéder, ainsi que le dossier de contribution nouvellement partagé.
 
-1. Sélectionnez le dossier de contribution et cliquez dessus pour l’ouvrir. Le dossier de contribution contient deux sous-dossiers : **[!UICONTROL SHARED]** (PARTAGÉ) et **[!UICONTROL NEW]** (NOUVEAU).
+1. Sélectionnez le dossier de contribution et cliquez dessus pour l’ouvrir. Le dossier de contribution contient deux sous-dossiers : **[!UICONTROL SHARED]** et **[!UICONTROL NEW]**.
 
 1. Cliquez sur le dossier **[!UICONTROL NEW]**.
 
@@ -122,31 +122,31 @@ Vérifiez que vous avez respecté les exigences en matière de ressources et cha
    ![](assets/publish-contribution-folder-to-aem1.png)
 
 Une notification Pulse/par e-mail est envoyée à l’utilisateur et aux administrateurs de Brand Portal à différentes étapes du workflow de publication :
-1. **En file d&#39;attente** : une notification est envoyée à l&#39;utilisateur et aux administrateurs de Brand Portal lorsqu&#39;un processus de publication se déclenche dans Brand Portal.
+1. **Placé en file d’attente** : une notification est envoyée à l’utilisateur et aux administrateurs de Brand Portal lorsqu’un processus de publication se déclenche dans Brand Portal.
 
-1. **Terminé** : une notification est envoyée à l&#39;utilisateur et aux administrateurs de Brand Portal lorsque le dossier de contribution est publié avec succès dans AEM Assets.
+1. **Terminé** : une notification est envoyée à l’utilisateur et aux administrateurs de Brand Portal lorsque le dossier de contribution est publié avec succès dans AEM Assets.
 
 Après avoir publié les ressources nouvellement créées dans AEM Assets, les utilisateurs de Brand Portal peuvent les supprimer du dossier NEW. En revanche, l’administrateur de Brand Portal peut supprimer les ressources des dossiers NEW et SHARED.
 
 Une fois l’objectif de création du dossier de contribution atteint, l’administrateur de Brand Portal peut le supprimer afin de libérer l’espace de chargement pour d’autres utilisateurs.
 
-## Statut de la tâche de publication {#publishing-job-status}
+## État de la tâche de publication {#publishing-job-status}
 
-Les administrateurs peuvent utiliser deux rapports pour vue de l’état des dossiers de contribution des ressources publiés de Brand Portal à AEM Assets.
+Les administrateurs peuvent utiliser deux rapports pour afficher l’état des dossiers de contribution des ressources publiés de Brand Portal vers AEM Assets.
 
-* Dans le portail de la marque, accédez à **[!UICONTROL Outils]** > **[!UICONTROL État de la contribution de l’actif]**. Ce rapport reflète l’état de toutes les tâches de publication à différentes étapes du processus de publication.
+* Dans le Brand Portal, accédez à **[!UICONTROL Outils]** > **[!UICONTROL État de contribution des ressources]**. Ce rapport reflète l’état de toutes les tâches de publication à différentes étapes du processus de publication.
 
    ![](assets/contribution-folder-status.png)
 
-* En AEM Assets (sur site ou service géré), accédez à **[!UICONTROL Assets]** > **[!UICONTROL Jobs]**. Ce rapport reflète l’état final (Réussite ou Erreur) de toutes les tâches de publication.
+* Dans AEM Assets (On-Premise ou Managed Service), accédez à **[!UICONTROL Ressources]** > **[!UICONTROL Tâches]**. Ce rapport reflète l’état final (Réussite ou Erreur) de toutes les tâches de publication.
 
    ![](assets/publishing-status.png)
 
-* Dans AEM Assets en tant que Cloud Service, accédez à **[!UICONTROL Assets]** > **[!UICONTROL Jobs]**.
+* Dans AEM Assets as a Cloud Service, accédez à **[!UICONTROL Ressources]** > **[!UICONTROL Tâches]**.
 
    Vous pouvez également accéder directement à **[!UICONTROL Tâches]** à partir de la navigation globale.
 
-   Ce rapport reflète l’état final (Réussite ou Erreur) de toutes les tâches de publication, y compris l’importation de ressources de Brand Portal vers AEM Assets en tant que Cloud Service.
+   Ce rapport reflète l’état final (Réussite ou Erreur) de toutes les tâches de publication, y compris de l’importation de ressources de Brand Portal vers AEM Assets as a Cloud Service.
 
    ![](assets/cloud-service-job-status.png)
 
