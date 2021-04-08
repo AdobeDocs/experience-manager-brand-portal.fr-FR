@@ -1,26 +1,26 @@
 ---
-title: 'Configuration et publication du dossier de contribution d’AEM Assets à Brand Portal '
-seo-title: Configuration et publication du dossier de contribution d’AEM Assets à Brand Portal
-description: Découvrez comment configurer et publier un dossier de contributions d'AEM Assets vers Brand Portal.
-seo-description: Découvrez comment configurer et publier un dossier de contributions d'AEM Assets vers Brand Portal.
+title: 'Configuration et publication d’un dossier de contribution d’AEM Assets vers Brand Portal '
+seo-title: Configuration et publication d’un dossier de contribution d’AEM Assets vers Brand Portal
+description: Découvrez comment configurer et publier un dossier de contribution d’AEM Assets vers Brand Portal.
+seo-description: Découvrez comment configurer et publier un dossier de contribution d’AEM Assets vers Brand Portal.
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d70817274ac7be84528778352f34934a0d4a60fc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1125'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 
-# Configurer le dossier de contribution en AEM Assets {#configure-contribution-folder}
+# Configuration d’un dossier de contribution dans AEM Assets {#configure-contribution-folder}
 
-Dans le cas de l’approvisionnement collaboratif des ressources, les utilisateurs d’AEM (administrateurs et non-administrateurs autorisés) peuvent créer des dossiers de type **Contribution des ressources**, en s’assurant qu’ils acceptent l’envoi de ressources de la part des utilisateurs de Brand Portal. Cela déclenche automatiquement un workflow qui crée deux sous-dossiers supplémentaires, appelés **SHARED** et **NEW**, dans le dossier **Contribution** nouvellement créé. 
+Dans le cas de l’approvisionnement collaboratif des ressources, les utilisateurs d’AEM (administrateurs et non-administrateurs autorisés) peuvent créer des dossiers de type **Contribution des ressources**, en s’assurant qu’ils acceptent l’envoi de ressources de la part des utilisateurs de Brand Portal.  Cela déclenche automatiquement un workflow qui crée deux sous-dossiers supplémentaires, appelés **SHARED** et **NEW**, dans le dossier **Contribution** nouvellement créé.
 
 L’utilisateur d’AEM définit ensuite les exigences en chargeant un résumé relatif aux types de ressources à ajouter au dossier de contribution, ainsi qu’un ensemble de ressources de base, dans le dossier **SHARED**, afin de s’assurer que les utilisateurs de Brand Portal disposent des informations de référence dont ils ont besoin. L’administrateur peut alors octroyer aux utilisateurs actifs de Brand Portal l’accès au dossier de contribution avant de publier le nouveau dossier Contribution sur Brand Portal.
 
@@ -31,22 +31,22 @@ La vidéo suivante explique comment configurer un dossier Contribution dans AEM�
 L’utilisateur d’AEM effectue les activités suivantes lors de la configuration d’un dossier de contribution :
 
 * [Création d’un dossier de contribution](#create-contribution-folder)
-* [Télécharger les besoins en ressources et affecter des contributeurs](#configure-contribution-folder-properties)
+* [Téléchargement des exigences relatives aux ressources et affectation des contributeurs](#configure-contribution-folder-properties)
 * [Chargement de ressources de base](#uplad-new-assets-to-contribution-folder)
-* [Publier le dossier de contribution d’AEM Assets vers le portail des marques](#publish-contribution-folder-to-brand-portal)
+* [Publication d’un dossier de contribution d’AEM Assets vers Brand Portal](#publish-contribution-folder-to-brand-portal)
 
 ## Création d’un dossier de contribution {#create-contribution-folder}
 
 
-Les administrateurs AEM et les utilisateurs non-administrateurs autorisés à créer un dossier peuvent créer un dossier Contribution dans AEM Assets.
-Pour créer un dossier Contribution, créez un nouveau dossier de type Contribution des ressources, en vous assurant qu’il accepte l’envoi de ressources de la part des utilisateurs de Brand Portal.  Cela déclenche automatiquement un workflow qui crée deux sous-dossiers supplémentaires, SHARED et NEW, dans le dossier Contribution.
+Les administrateurs AEM et les utilisateurs non-administrateurs autorisés à créer un dossier peuvent créer un dossier de contribution dans AEM Assets.
+Pour créer un dossier de contribution, créez un dossier de type Contribution des ressources, en vous assurant qu’il accepte l’envoi de ressources de la part des utilisateurs de Brand Portal.  Cela déclenche automatiquement un workflow qui crée deux sous-dossiers supplémentaires, SHARED et NEW, dans le dossier de contribution.
 
 
 >[!NOTE]
 >
->Vous pouvez créer plusieurs dossiers de contribution dans un dossier. Ne créez pas de dossier de contribution dans un autre dossier de contribution.
+>Vous pouvez créer plusieurs dossiers de contribution dans un dossier. Ne créez pas de dossier de contribution à l’intérieur d’un autre dossier de contribution.
 
-Vous pouvez configurer les propriétés du dossier de contribution séparément, ainsi que lors de la création du dossier de contribution. Dans cet exemple, nous configurons les propriétés séparément.
+Vous pouvez configurer les propriétés du dossier de contribution séparément ainsi que lors de sa création. Dans cet exemple, nous configurons les propriétés séparément.
 
 **Pour créer un dossier de contribution, procédez comme suit :**
 1. Connectez-vous à votre instance AEM Assets.
@@ -77,8 +77,8 @@ Il est recommandé d’utiliser dans le nom du dossier des lettres minuscules sa
 L’administrateur d’AEM effectue les activités ci-après lors de la configuration des propriétés d’un dossier de contribution.
 
 * **Ajouter une description** : fournissez une description détaillée du dossier de contribution.
-* **Charger les instructions** : téléchargez le document sur les exigences en matière de ressources contenant des informations relatives aux ressources.
-* **Ajouter les contributeurs** : Ajoutez les utilisateurs du portail de marque à leur accorder l’accès au dossier de contribution.
+* **Charger les instructions** : chargez le document sur les exigences en matière de ressources contenant des informations relatives aux ressources.
+* **Ajouter des contributeurs** : ajoutez des utilisateurs de Brand Portal pour leur accorder l’accès au dossier de contribution.
 
 Les exigences en matière de ressources font référence aux détails fournis par les administrateurs pour aider les contributeurs (utilisateurs de Brand Portal) à comprendre le besoin et les exigences du dossier de contribution. L’administrateur charge un document sur les exigences en matière de ressources contenant un résumé sur le type de ressources à ajouter au dossier de contribution et des informations relatives aux ressources comme le but, le type d’images, la taille maximale, etc.
 
@@ -95,18 +95,18 @@ Les exigences en matière de ressources font référence aux détails fournis pa
 
 1. Accédez à l’onglet **[!UICONTROL Contribution des ressources]**.
 1. Saisissez une **[!UICONTROL Description]** détaillée du dossier de contribution.
-1. Cliquez sur **[!UICONTROL Upload Brief]**  (Charger un résumé) pour parcourir votre ordinateur local et charger un **document relatif aux exigences en matière de ressources**.
+1. Cliquez sur **[!UICONTROL Charger les instructions]** pour parcourir votre ordinateur local et charger un **document relatif aux exigences en matière de ressources**.
 
    ![](assets/upload.png)
 
-1. Dans le champ **[!UICONTROL Ajouter l’utilisateur]**, ajoutez les utilisateurs du portail de marque avec lesquels vous souhaitez partager le dossier de contribution. Ces utilisateurs peuvent accéder au dossier de contributions et le télécharger à l’aide de l’interface du portail de marque.
+1. Dans le champ **[!UICONTROL Ajouter un utilisateur]**, ajoutez les utilisateurs de Brand Portal avec lesquels vous souhaitez partager le dossier de contribution. Ces utilisateurs peuvent accéder au dossier de contribution et y charger du contenu à l’aide de l’interface de Brand Portal.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
    ![](assets/contribution-folder-property3.png)
 
 >[!NOTE]
 >
->Les résultats de la recherche sont basés sur la liste des utilisateurs Brand Portal configurée dans AEM Assets. Vérifiez que vous disposez de la liste mise à jour des utilisateurs de Brand Portal.
+>Les résultats de la recherche sont basés sur la liste des utilisateurs de Brand Portal configurée dans AEM Assets. Vérifiez que vous disposez de la liste mise à jour des utilisateurs de Brand Portal.
 
 ## Chargement de ressources dans le dossier de contribution {#uplad-new-assets-to-contribution-folder}
 
@@ -136,7 +136,7 @@ Une fois l’objectif de création du dossier de contribution atteint, l’admin
 1. Connectez-vous à votre instance Brand Portal.
 Le tableau de bord de Brand Portal répertorie tous les dossiers existants auxquels l’utilisateur de Brand Portal est autorisé à accéder, ainsi que le dossier de contribution nouvellement partagé.
 
-1. Sélectionnez le dossier de contribution et cliquez dessus pour l’ouvrir. Le dossier de contribution contient deux sous-dossiers : **[!UICONTROL SHARED]** (PARTAGÉ) et **[!UICONTROL NEW]** (NOUVEAU).
+1. Sélectionnez le dossier de contribution et cliquez dessus pour l’ouvrir. Le dossier de contribution contient deux sous-dossiers : **[!UICONTROL SHARED]** et **[!UICONTROL NEW]**.
 
 1. Cliquez sur le dossier **[!UICONTROL NEW]**.
 
@@ -155,7 +155,7 @@ Après avoir chargé tous les fichiers ou dossiers dans le dossier NEW, publiez 
 
 ## Publication du dossier de contribution sur Brand Portal {#publish-contribution-folder-to-brand-portal}
 
-Une fois le dossier de contribution configuré, l’utilisateur d’AEM (administrateur/non-administrateur) peut le publier d’AEM Assets sur Brand Portal. Les utilisateurs du portail de marque autorisés à accéder au dossier de contribution recevront une notification par courrier électronique ou par pulsation à la fin de l’action de publication.
+Une fois le dossier de contribution configuré, l’utilisateur d’AEM (administrateur/non-administrateur) peut le publier d’AEM Assets sur Brand Portal. Les utilisateurs de Brand Portal autorisés à accéder au dossier de contribution recevront une notification Push ou par email à la fin de l’action de publication.
 
 
 **Pour publier le dossier de contribution, procédez comme suit :**
@@ -163,10 +163,10 @@ Une fois le dossier de contribution configuré, l’utilisateur d’AEM (adminis
 1. Connectez-vous à votre instance AEM Assets.
 
 1. Accédez à **[!UICONTROL Ressources > Fichiers]** et localisez le dossier de contribution dans lequel vous souhaitez publier du contenu sur Brand Portal.
-1. Sélectionnez le dossier de contribution et cliquez sur **[!UICONTROL Publication rapide]** > **[!UICONTROL Publier sur le portail de marque]**.
+1. Sélectionnez le dossier de contribution et cliquez sur **[!UICONTROL Publication rapide]** > **[!UICONTROL Publier sur Brand Portal]**.
 
    ![](assets/publish-contribution-folder-to-bp.png)
 
    Vous recevrez un message de réussite une fois que le dossier de contribution sera publié sur Brand Portal.
 
-Une notification Push/par courrier électronique est envoyée aux utilisateurs de Brand Portal affectés au dossier de contribution. Les utilisateurs de Brand Portal peuvent accéder au dossier de contribution et commencer la contribution. Voir [Télécharger des ressources vers le dossier de contributions et publier vers AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).
+Une notification Push/par courrier électronique est envoyée aux utilisateurs de Brand Portal affectés au dossier de contribution. Les utilisateurs de Brand Portal peuvent accéder au dossier de contribution et commencer la contribution. Consultez [Chargement de ressources vers le dossier de contribution et publication sur AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).
