@@ -9,14 +9,14 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
+exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 translation-type: tm+mt
-source-git-commit: 26fbcf9970a77fc531b82919b29010bc37a1ab8e
+source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 52%
+ht-degree: 94%
 
 ---
-
 
 # Notes de mise à jour {#release-notes}
 
@@ -27,7 +27,7 @@ Découvrez les fonctionnalités, les améliorations, les problèmes critiques r�
 | Produit | Adobe Experience Manager Assets Brand Portal |
 |---|---|
 | Version | 2021.02.0 |
-| Date |  février 2021 |
+| Date | Février 2021 |
 
 ## Présentation {#overview}
 
@@ -41,9 +41,9 @@ Cette version comprend les nouvelles fonctionnalités suivantes :
 
 * AEM Assets en tant que Cloud Service est désormais autorisé à disposer d’une instance préconfigurée du portail de marques. L’utilisateur de Cloud Manager peut activer le portail de marque sur l’AEM Assets en tant qu’instance de Cloud Service.
 
-* La fonction d’origine des ressources est désormais disponible en Cloud Service sur AEM Assets. Il permet aux utilisateurs du portail de marque de télécharger des fichiers vers les dossiers de contribution autorisés et de publier le dossier de contribution de Brand Portal vers AEM Assets en tant qu’instance Cloud Service.
+* La fonctionnalité d’approvisionnement des ressources est désormais disponible dans AEM Assets as a Cloud Service. Elle permet aux utilisateurs de Brand Portal de charger des ressources vers les dossiers de contribution autorisés et de publier les dossiers de contribution de Brand Portal vers AEM Assets as a Cloud Service.
 
-* Un autre paramètre **[!UICONTROL Téléchargement de fichier]** a été introduit sous **[!UICONTROL Paramètres de téléchargement]**. Il crée un dossier distinct pour chaque fichier lors du téléchargement des dossiers, des collections ou du téléchargement en masse des fichiers.
+* Un paramètre **[!UICONTROL Téléchargement de ressources]** supplémentaire a été introduit dans les **[!UICONTROL Paramètres de téléchargement]**. Ce paramètre crée un dossier distinct pour chaque ressource lors du téléchargement des dossiers, des collections ou du téléchargement en masse de ressources.
 
 <!-- 
 * The **[!UICONTROL Download]** dialog is revamped in a list view with additional options to exclude the renditions which are not required, apply the same set of rules for similar asset types, and download the selected asset renditions. See [steps to download assets from Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
@@ -71,8 +71,8 @@ Brand Portal users can exclude specific renditions which are not required and di
 
 Les améliorations suivantes ont été apportées à cette version :
 
-* Pour le téléchargement de dossier, un dossier distinct est créé pour chaque ressource à l’aide du lien de partage, quel que soit le **[!UICONTROL Paramètres de téléchargement]**.
-* Le **[!UICONTROL rapport d’utilisation du portail de marque]** a été modifié pour refléter uniquement les utilisateurs principaux du portail de marque.
+* Pour le téléchargement de dossiers, un dossier distinct est créé pour chaque ressource à l’aide du lien de partage, quels que soient les **[!UICONTROL Paramètres de téléchargement]** sélectionnés.
+* Le **[!UICONTROL rapport d’utilisation]** de Brand Portal a été modifié pour refléter uniquement les utilisateurs actifs de Brand Portal.
 
 <!--
 * The threshold of session timeout for the guest users has been reduced from 2 hours to 15 minutes.
@@ -84,22 +84,22 @@ Les améliorations suivantes ont été apportées à cette version :
 
 Cette version comprend des correctifs pour les problèmes critiques suivants :
 
-* Au cas où seuls les fichiers d’origine seraient téléchargés, le fichier refléterait sa propre extension et ne s’ouvrirait pas tant que l’extension n’a pas été manuellement remplacée par zip.
-* L’interface utilisateur du dossier de collecte ne répond pas lorsque vous cliquez sur la flèche de navigation.
-* **[!UICONTROL Le]** bouton Créer est visible dans l’ **** affichage Colonne même si les dossiers sont vides.
-* **[!UICONTROL La]** recherche Omni échoue avec un message d’erreur 414 (Request-URI Too Long) si le répartiteur est ignoré lors de l’accès à l’instance du portail de marques.
-* Un dossier zip vide est téléchargé si le fichier contient une virgule (`,`) dans son nom.
-* Les utilisateurs du lecteur de contenu peuvent ajouter des utilisateurs à la collection qu’ils ont créée.
-* Un comportement incohérent se produit lorsqu’un fichier (miniature ou rendu Web) est téléchargé à l’aide d’un lien de partage.
+* Au cas où seules les ressources d’origine sont téléchargées, la ressource affiche sa propre extension et ne s’ouvre pas tant que l’extension n’a pas été manuellement remplacée par .zip.
+* L’interface utilisateur du dossier de collection ne répond pas lorsque vous cliquez sur la flèche de navigation.
+* Le bouton **[!UICONTROL Créer]** est visible dans la vue **[!UICONTROL Colonne]** même si les dossiers sont vides.
+* La fonctionnalité de recherche **[!UICONTROL Omni]** échoue avec un message d’erreur 414 (Request-URI Too Long) si le Dispatcher est ignoré lors de l’accès à l’instance de Brand Portal.
+* Un dossier .zip vide est téléchargé si la ressource contient une virgule (`,`) dans son nom.
+* Les utilisateurs observateurs peuvent ajouter des utilisateurs à la collection qu’ils ont créée.
+* Un comportement incohérent se produit lorsqu’une ressource (miniature ou rendu web) est téléchargée à l’aide d’un lien de partage.
 
-Voir [les nouveautés de Brand Portal 2021.02.0](whats-new.md).
+Consultez les [Nouveautés de Brand Portal 2021.02.0](whats-new.md).
 
 
 ### Problèmes connus {#known-issues}
 
 Cette version présente les problèmes connus suivants :
 
-* Les utilisateurs ne reçoivent pas de notifications par courrier électronique pour les workflows de publication Ressource.
+* Les utilisateurs ne reçoivent pas de notifications par email pour les workflows de publication de l’approvisionnement des ressources.
 
 <!--
 ### Known Issues {#known-issues}
