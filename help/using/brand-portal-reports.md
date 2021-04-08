@@ -9,14 +9,14 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 role: Administrator
+exl-id: 03d0292c-23c2-4ea0-9781-eb27768e6c33
 translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
 workflow-type: tm+mt
-source-wordcount: '1024'
-ht-degree: 92%
+source-wordcount: '1023'
+ht-degree: 100%
 
 ---
-
 
 # Utilisation des rapports {#work-with-reports}
 
@@ -40,11 +40,11 @@ Pour afficher un rapport, procédez comme suit :
 
    >[!NOTE]
    >
-   >Le rapport d’utilisation est un rapport par défaut généré dans le portail des marques. Il ne peut pas être créé ni supprimé. Vous pouvez toutefois créer, télécharger et supprimer les rapports Téléchargement, Expiration, Publication, Partage de lien et Connexions des utilisateurs.
+   >Le rapport d’utilisation est un rapport par défaut généré dans Brand Portal. Il ne peut pas être créé ni supprimé. Vous pouvez toutefois créer, télécharger et supprimer les rapports Télécharger, Expiration, Publier, Partage de lien et Connexions des utilisateurs.
 
-   Pour vue d&#39;un rapport, cliquez sur le lien du rapport. Vous pouvez également sélectionner le rapport et appuyer/cliquer sur l’icône Afficher de la barre d’outils.
+   Pour afficher un rapport, cliquez sur son lien. Vous pouvez également sélectionner le rapport et appuyer/cliquer sur l’icône Afficher de la barre d’outils.
 
-   **[!UICONTROL Les]** rapports d’utilisation affichent des informations sur le nombre d’utilisateurs principaux du portail de marques, l’espace d’enregistrement occupé par tous les actifs et le nombre total de actifs dans le portail de marques. Les utilisateurs du portail de la marque qui ne sont affectés à aucun profil de produits dans le Admin Console sont considérés comme des utilisateurs inactifs et ne sont pas reflétés dans le **[!UICONTROL rapport d’utilisation]**.
+   Le **[!UICONTROL rapport d’utilisation]** affiche des informations sur le nombre d’utilisateurs actifs de Brand Portal, l’espace de stockage occupé par toutes les ressources et le nombre total des ressources dans Brand Portal. Les utilisateurs de Brand Portal qui ne sont affectés à aucun profil de produit dans Admin Console sont considérés comme des utilisateurs inactifs et ne figurent pas dans le **[!UICONTROL rapport d’utilisation]**.
 Il affiche également la capacité autorisée pour chacune de ces mesures.
 
    ![](assets/usage-report.png)
@@ -53,13 +53,13 @@ Il affiche également la capacité autorisée pour chacune de ces mesures.
 
    ![](assets/user-logins.png)
 
-   Le rapport **[!UICONTROL Téléchargement]** détaille toutes les ressources téléchargées pendant une période et une plage horaire spécifiques.
+   Le rapport **[!UICONTROL Télécharger]** détaille toutes les ressources téléchargées pendant une période et une plage horaire spécifiques.
 
    ![](assets/download-report.png)
 
    >[!NOTE]
    >
-   >Le rapport **[!UICONTROL Téléchargement]** de ressources affiche uniquement les ressources qui ont été sélectionnées et téléchargées individuellement à partir de Brand Portal. Si un utilisateur a téléchargé un dossier contenant des ressources, le rapport n’affiche pas le dossier ou les ressources qu’il contient.
+   >Le rapport **[!UICONTROL Télécharger]** de ressources affiche uniquement les ressources qui ont été sélectionnées et téléchargées individuellement à partir de Brand Portal. Si un utilisateur a téléchargé un dossier contenant des ressources, le rapport n’affiche pas le dossier ou les ressources qu’il contient.
 
    Le rapport **[!UICONTROL Expiration]** répertorie toutes les ressources qui sont arrivées à expiration pendant une période spécifique.
 
@@ -106,7 +106,7 @@ L’affichage des colonnes des rapports Téléchargement, Expiration et Publicat
 
    ![](assets/crete-report.png)
 
-1. Configurez les détails du rapport. Indiquez le titre, la description, la structure de dossiers (où le rapport doit s’exécuter et générer des statistiques) et la période pour les rapports **[!UICONTROL Téléchargement]**, **[!UICONTROL Expiration]** et **[!UICONTROL Publication]**.
+1. Configurez les détails du rapport. Indiquez le titre, la description, la structure de dossiers (où le rapport doit s’exécuter et générer des statistiques) et la période pour les rapports **[!UICONTROL Télécharger]**, **[!UICONTROL Expiration]** et **[!UICONTROL Publier]**.
 
    ![](assets/create-report-page.png)
 
@@ -118,14 +118,14 @@ L’affichage des colonnes des rapports Téléchargement, Expiration et Publicat
    >
    >Dans le titre du rapport, les caractères spéciaux # et % sont remplacés par un trait d’union (-) lors de la génération du rapport.
 
-1. Appuyez/cliquez sur **[!UICONTROL Suivant]** pour configurer les colonnes des rapports Téléchargement, Expiration et Publication.
-1. Cochez ou décochez les cases pertinentes selon vos besoins. Par exemple, pour afficher le nom des utilisateurs (qui ont téléchargé des ressources) dans le rapport **[!UICONTROL Téléchargement]**, sélectionnez **[!UICONTROL Téléchargé par]**. L’image suivante montre comment sélectionner les colonnes par défaut dans le rapport Téléchargement.
+1. Appuyez/cliquez sur **[!UICONTROL Suivant]** pour configurer les colonnes des rapports Télécharger, Expiration et Publier.
+1. Cochez ou décochez les cases pertinentes selon vos besoins. Par exemple, pour afficher le nom des utilisateurs (qui ont téléchargé des ressources) dans le rapport **[!UICONTROL Télécharger]**, sélectionnez **[!UICONTROL Téléchargé par]**. L’image suivante montre comment sélectionner les colonnes par défaut dans le rapport Téléchargement.
 
    ![](assets/createdownloadreport.png)
 
    Vous pouvez également ajouter des colonnes personnalisées à ces rapports pour adapter l’affichage des données à vos besoins.
 
-   Pour ajouter des colonnes personnalisées aux rapports Téléchargement, Publication et Expiration, procédez comme suit :
+   Pour ajouter des colonnes personnalisées aux rapports Télécharger, Publier et Expiration, procédez comme suit :
 
    1. Pour afficher une colonne personnalisée, appuyez/cliquez sur **[!UICONTROL Ajouter]** dans [!UICONTROL Colonnes personnalisées].
    1. Indiquez le nom de la colonne dans le champ **[!UICONTROL Nom de la colonne]**.
