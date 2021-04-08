@@ -9,14 +9,14 @@ content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
+exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
 translation-type: tm+mt
-source-git-commit: 26fbcf9970a77fc531b82919b29010bc37a1ab8e
+source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
 workflow-type: tm+mt
 source-wordcount: '6138'
-ht-degree: 87%
+ht-degree: 94%
 
 ---
-
 
 # Nouveautés d’AEM Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
@@ -24,7 +24,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de con
 
 ## Changements dans la version 2021.02.0 {#what-changed-in-feb-2021}
 
-Brand Portal 2021.02.0 est une version améliorée qui intègre le flux de travaux d’activation du portail des marques sur AEM Assets en tant que Cloud Service, facilite la fonctionnalité d’approvisionnement des ressources sur AEM Assets en tant que Cloud Service, améliore l’expérience de téléchargement des ressources et inclut des correctifs critiques. Il permet également aux administrateurs de configurer le comportement de téléchargement par défaut des dossiers, des collections et des fichiers téléchargés en masse au niveau du client. Le **[!UICONTROL rapport d’utilisation du portail de marque]** a également été modifié pour refléter les utilisateurs principaux du portail de marque. Consultez les dernières [Notes de mise à jour de Brand Portal](brand-portal-release-notes.md).
+Brand Portal 2021.02.0 est une version améliorée qui intègre le flux de travaux d’activation du portail des marques sur AEM Assets en tant que Cloud Service, facilite la fonctionnalité d’approvisionnement des ressources sur AEM Assets en tant que Cloud Service, améliore l’expérience de téléchargement des ressources et inclut des correctifs critiques. Il permet également aux administrateurs de configurer le comportement de téléchargement par défaut des dossiers, des collections et des fichiers téléchargés en masse au niveau du client. Le **[!UICONTROL rapport d’utilisation]** de Brand Portal a également été modifié pour refléter les utilisateurs actifs de Brand Portal. Consultez les dernières [Notes de mise à jour de Brand Portal](brand-portal-release-notes.md).
 
 ### Activer le portail de marque sur AEM Assets en tant que Cloud Service {#bp-automation-on-cloud-service}
 
@@ -44,30 +44,30 @@ Pour activer le portail des marques sur votre AEM Assets en tant qu’instance d
 
 Voir [activer le portail de marque sur AEM Assets en tant que Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html?lang=en).
 
-### Ressource sur AEM Assets en tant que Cloud Service {#asset-sourcing-on-cloud-service}
+### Approvisionnement des ressources sur AEM Assets as a Cloud Service {#asset-sourcing-on-cloud-service}
 
-La fonction d’origine des ressources est désormais disponible en tant que Cloud Service sur AEM Assets. Par défaut, la fonction est activée pour tous les utilisateurs du service cloud. Les utilisateurs autorisés du portail de marques peuvent contribuer à l’approvisionnement en ressources en téléchargeant de nouveaux actifs dans les dossiers de contributions et en publiant le dossier de contributions de Brand Portal en AEM Assets en tant qu’instance Cloud Service. Les administrateurs peuvent examiner et approuver la contribution des utilisateurs du portail des marques afin de les distribuer à d’autres utilisateurs du portail des marques.
+La fonction d’approvisionnement des ressources est désormais disponible sur AEM Assets as a Cloud Service. Par défaut, la fonction est activée pour tous les utilisateurs du service cloud. Les utilisateurs autorisés de Brand Portal peuvent contribuer à l’approvisionnement des ressources en téléchargeant de nouvelles ressources dans les dossiers de contribution et en publiant le dossier de contribution de Brand Portal vers AEM Assets as a Cloud Service. Les administrateurs peuvent examiner et approuver la contribution des utilisateurs de Brand Portal afin de les distribuer à d’autres utilisateurs de Brand Portal.
 
-Auparavant, l’approvisionnement en ressources n’était disponible qu’à AEM Assets (sur site et service géré).
+Auparavant, l’approvisionnement des ressources n’était disponible que sur AEM Assets (On-Premise et Managed Service).
 
 Voir [Affectation de ressources dans le portail de marques](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing.html?lang=en).
 
 ### Téléchargement de ressources {#asset-download-setting}
 
-Outre les **[!UICONTROL Paramètres de téléchargement]** existants, les administrateurs du portail de marque peuvent désormais configurer le paramètre **[!UICONTROL Téléchargement de fichier]**. Ce paramètre permet aux administrateurs de contrôler le comportement de téléchargement par défaut des dossiers, des collections et des fichiers téléchargés en masse (plus de 20 fichiers) au niveau du client.
+Outre les **[!UICONTROL Paramètres de téléchargement]** existants, les administrateurs de Brand Portal peuvent désormais configurer le paramètre **[!UICONTROL Téléchargement de ressources]**. Ce paramètre permet aux administrateurs de contrôler le comportement de téléchargement par défaut des dossiers, des collections et des ressources téléchargées en masse (plus de 20 ressources) au niveau du client.
 
 <!--
 Earlier, all the asset renditions were directly downloaded in a zip folder in case of folder, collection, and bulk download of assets. As the **[!UICONTROL Download]** dialog is skipped for folders or collections, there was no mechanism to control the downloading behaviour of the assets. Due to this, the users were finding it difficut to search for a particular asset rendition from a folder containing huge bunch of downloaded renditions. 
 -->
 
-Auparavant, tous les rendus de fichier étaient directement téléchargés dans un dossier zip. La boîte de dialogue **[!UICONTROL Télécharger]** a été ignorée pour les dossiers et les collections, et il n’y avait aucune méthode pour contrôler le comportement de téléchargement des ressources, ce qui rendait difficile la recherche d’un rendu particulier à partir d’un grand nombre de téléchargements.
+Auparavant, tous les rendus de ressources étaient directement téléchargés dans un dossier zip. La boîte de dialogue **[!UICONTROL Télécharger]** a été ignorée pour les dossiers et les collections et il n’existait aucune méthode pour contrôler le comportement de téléchargement des ressources, ce qui rendait difficile la recherche d’un rendu particulier à partir d’un grand nombre de téléchargements.
 
-**[!UICONTROL Le]** téléchargement des ressources permet désormais de créer un dossier distinct pour chaque ressource lors du téléchargement des dossiers, des collections ou du téléchargement en masse des ressources.
+Le paramètre **[!UICONTROL Téléchargement de ressources]** permet désormais de créer un dossier distinct pour chaque ressource lors du téléchargement des dossiers, des collections ou du téléchargement en masse des ressources.
 
-Si le paramètre **[!UICONTROL Téléchargement de fichier]** est désactivé, les dossiers ou collections sont téléchargés dans un dossier zip contenant tous les rendus de fichier sous le même dossier, à l’exception du téléchargement des fichiers à l’aide du lien de partage.
+Si le paramètre **[!UICONTROL Téléchargement de ressources]** est désactivé, les dossiers ou collections sont téléchargés dans un dossier zip contenant tous les rendus de ressources sous le même dossier, à l’exception du téléchargement des ressources à l’aide du lien de partage.
 
 
-Connectez-vous à votre client Brand Portal en tant qu’administrateur et accédez à **[!UICONTROL Outils]** > **[!UICONTROL Télécharger]**. Les administrateurs peuvent activer le paramètre **[!UICONTROL Téléchargement de fichier]** pour créer un dossier distinct pour chaque fichier lors du téléchargement de dossiers, de collections et de téléchargements en masse de fichiers.
+Connectez-vous à votre client Brand Portal en tant qu’administrateur et accédez à **[!UICONTROL Outils]** > **[!UICONTROL Télécharger]**. Les administrateurs peuvent activer le paramètre **[!UICONTROL Téléchargement de ressources]** pour créer un dossier distinct pour chaque ressource lors du téléchargement de dossiers, de collections et de téléchargements en masse de ressources.
 
 ![](assets/download-settings-new.png)
 
@@ -78,11 +78,11 @@ Voir [téléchargement de ressources à partir du portail de marque](https://exp
 The default behavior of downloading the assets using share link is now independent of the **[!UICONTROL Download Settings]**. A separate folder is created for each asset while downloading the assets using share link. 
 -->
 
-### Rapport d&#39;utilisation {#usage-report}
+### Rapport d’utilisation {#usage-report}
 
-Le rapport d’utilisation **[!UICONTROL du portail de la marque]** a été modifié afin de ne refléter que les principaux utilisateurs du portail de la marque. Les utilisateurs du portail de la marque qui ne sont affectés à aucun profil de produits dans le Admin Console sont considérés comme des utilisateurs inactifs et ne sont pas reflétés dans le **[!UICONTROL rapport d’utilisation]**.
+Le **[!UICONTROL rapport d’utilisation]** de Brand Portal a été modifié afin de ne refléter que les utilisateurs actifs de Brand Portal. Les utilisateurs de Brand Portal qui ne sont affectés à aucun profil de produits dans Admin Console sont considérés comme des utilisateurs inactifs et ne sont pas reflétés dans le **[!UICONTROL rapport d’utilisation]**.
 
-Auparavant, les utilisateurs principaux et inactifs étaient affichés dans le rapport d’utilisation.
+Auparavant, les utilisateurs actifs comme inactifs figuraient dans le rapport d’utilisation.
 
 ![](assets/usage-report.png)
 
@@ -147,13 +147,13 @@ The user can clear the check boxes to exclude the renditions which are not requi
 ![panneau-rendus](assets/renditions-panel.png)
 
 
-### Configurer les paramètres de téléchargement {#download-permissions}
+### Configuration des paramètres de téléchargement {#download-permissions}
 
-Outre les configurations **[!UICONTROL Télécharger]** existantes, les administrateurs du portail de marque peuvent également configurer les paramètres de différents groupes d’utilisateurs à vue et (ou) télécharger la ressource d’origine et ses rendus à partir de la page des détails de la ressource.
+Outre les configurations de **[!UICONTROL téléchargement]** existantes, les administrateurs de Brand Portal peuvent configurer des paramètres pour différents groupes d’utilisateurs afin d’afficher ou de télécharger la ressource d’origine et ses rendus à partir de la page d’information de la ressource.
 
 Connectez-vous à votre client Brand Portal en tant qu’administrateur et accédez à **[!UICONTROL Outils]** > **[!UICONTROL Utilisateurs]**.
 
-Dans la page **[!UICONTROL Rôles utilisateur]**, accédez à l&#39;onglet **[!UICONTROL Groupes]** pour configurer la vue et (ou) les paramètres de téléchargement des groupes d&#39;utilisateurs.
+Dans la page **[!UICONTROL Rôles utilisateur]**, accédez à l’onglet **[!UICONTROL Groupes]** pour configurer la vue ou les paramètres de téléchargement des groupes d’utilisateurs.
 
 Auparavant, les paramètres étaient disponibles uniquement pour restreindre le nombre d’utilisateurs du groupe pouvant télécharger la ressource d’origine.
 
@@ -220,7 +220,7 @@ L’administrateur Brand Portal peut activer n’importe quelle combinaison pour
 
 * Si les configurations **[!UICONTROL Rendus personnalisés]** et **[!UICONTROL Rendus du système]** sont désactivées, les rendus originaux des ressources sont téléchargés sans boîte de dialogue supplémentaire, ce qui simplifie le téléchargement pour les utilisateurs de Brand Portal.
 
-* Si **[!UICONTROL Rendu personnalisé]** ou **[!UICONTROL Rendu système]** est activé, la boîte de dialogue **[!UICONTROL Télécharger]** s’affiche, et la ressource d’origine ainsi que ses rendus sont téléchargés. L’activation de la configuration **[!UICONTROL Téléchargement rapide]** accélère le processus de téléchargement.
+* Si **[!UICONTROL Rendus personnalisés]** ou **[!UICONTROL Rendus du système]** est activé, la boîte de dialogue **[!UICONTROL Télécharger]** s’affiche, et la ressource d’origine ainsi que ses rendus sont téléchargés. L’activation de la configuration **[!UICONTROL Téléchargement rapide]** accélère le processus de téléchargement.
 
 En fonction de la configuration, le workflow de téléchargement reste le même pour les ressources uniques ou multiples, les dossiers contenant des ressources, les ressources qui sont ou non sous licence, ainsi que le téléchargement de ressources à l’aide du lien de partage.
 
@@ -299,7 +299,7 @@ En outre, toutes les fonctionnalités existantes restent inchangées. Les utilis
 
 ### Chargement de ressources dans le dossier de contribution {#upload-assets-in-bp}
 
-Les utilisateurs de Brand Portal qui disposent des autorisations adéquates peuvent télécharger les exigences en matière de ressources pour comprendre le besoin en termes de contribution et charger plusieurs ressources ou dossiers contenant plusieurs ressources dans le dossier de contribution. Notez toutefois que les utilisateurs de Brand Portal peuvent transférer des ressources uniquement vers le sous-dossier **NEW**. Le dossier **SHARED** est destiné à la distribution des exigences et des ressources de base.
+Les utilisateurs de Brand Portal qui disposent des autorisations adéquates peuvent télécharger les exigences en matière de ressources pour comprendre le besoin en termes de contribution et charger plusieurs ressources ou dossiers contenant plusieurs ressources dans le dossier de contribution. Notez toutefois que les utilisateurs de Brand Portal peuvent charger des ressources uniquement vers le sous-dossier **NEW**. Le dossier **SHARED** est destiné à la distribution des exigences et des ressources de base.
 
 ![](assets/upload-asset6.png)
 
