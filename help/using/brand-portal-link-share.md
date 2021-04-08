@@ -9,18 +9,18 @@ content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fab0855e8d30e7b6ddf9b4ae5b2ce1fb627c81ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1002'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
 
 # Partage de ressources en tant que lien {#share-assets-as-a-link}
 
-Les administrateurs du portail de marques Adobe Experience Manager Assets peuvent partager des liens de plusieurs ressources avec des utilisateurs internes et des entités externes autorisés, y compris des partenaires et des fournisseurs. Les éditeurs peuvent uniquement afficher et partager les ressources partagées avec eux.
+Les administrateurs d’Adobe Experience Manager Assets Brand Portal peuvent partager des liens de plusieurs ressources avec des utilisateurs internes autorisés et des tiers, notamment des partenaires et des fournisseurs. Les éditeurs peuvent uniquement afficher et partager les ressources partagées avec eux.
 
 Le partage des ressources par le biais d’un lien est un moyen pratique pour mettre les ressources à la disposition de tiers externes sans qu’ils aient besoin de se connecter à Brand Portal.
 
@@ -36,11 +36,11 @@ Pour plus d’informations, voir [Gestion des utilisateurs, des groupes et des r
 
 Vous trouverez ci-dessous la procédure à suivre pour partager des ressources sous forme de lien :
 
-1. Connectez-vous à votre locataire du portail de marques. Par défaut, la vue **[!UICONTROL Fichiers]** s’ouvre et contient tous les fichiers et dossiers publiés.
+1. Connectez-vous à votre client Brand Portal. Par défaut, la vue **[!UICONTROL Fichiers]** s’ouvre et contient toutes les ressources et dossiers publiés.
 
-1. Sélectionnez les fichiers ou les dossiers que vous souhaitez partager ou accédez à la vue **[!UICONTROL Collections]** pour partager les collections que vous avez créées.
+1. Sélectionnez les ressources ou les dossiers que vous souhaitez partager, ou accédez à la vue **[!UICONTROL Collections]** pour partager les collections que vous avez créées.
 
-   ![select-multiple-assets](assets/select-assets-new.png)
+   ![sélectionner-plusieurs-ressources](assets/select-assets-new.png)
 
 1. Dans la barre d’outils supérieure, cliquez sur l’icône **[!UICONTROL Partager le lien]**.
 
@@ -48,22 +48,22 @@ Vous trouverez ci-dessous la procédure à suivre pour partager des ressources s
 
    ![](assets/link-sharing.png)
 
-   * Dans la zone d’e-mail, saisissez l’e-mail de l’utilisateur avec lequel vous souhaitez partager le lien. Vous pouvez partager le lien avec plusieurs utilisateurs. Si l’utilisateur appartient à votre organisation, sélectionnez son e-mail dans la liste déroulante de suggestions qui s’affiche. Si l’utilisateur est externe à votre organisation, saisissez l’e-mail complet et appuyez sur **[!UICONTROL Entrée]** pour l’ajouter à la liste des utilisateurs.
+   * Dans la zone d’email, saisissez l’adresse email de l’utilisateur avec lequel vous souhaitez partager le lien. Vous pouvez partager le lien avec plusieurs utilisateurs. Si l’utilisateur appartient à votre organisation, sélectionnez son e-mail dans la liste déroulante de suggestions qui s’affiche. Si l’utilisateur est externe à votre organisation, saisissez l’e-mail complet et appuyez sur **[!UICONTROL Entrée]** pour l’ajouter à la liste des utilisateurs.
 
       ![](assets/link-sharing-text.png)
 
    * Dans la zone **[!UICONTROL Objet]**, indiquez l’objet de la ressource que vous souhaitez partager.
    * Dans la zone **[!UICONTROL Message]**, vous pouvez, au besoin, saisir un message.
    * Dans le champ **[!UICONTROL Expiration]**, spécifiez la date et l’heure d’expiration du lien à l’aide du sélecteur de date. Par défaut, la date d’expiration est définie sur 7 jours à compter de la date à laquelle vous partagez le lien.
-   * Activez la case à cocher **[!UICONTROL Autoriser le téléchargement du fichier d’origine]** pour permettre aux destinataires de télécharger le rendu d’origine.
+   * Cochez la case **[!UICONTROL Autoriser le téléchargement du fichier d’origine]** pour permettre aux destinataires de télécharger le rendu d’origine.
 
    Les ressources partagées via le lien arrivent à expiration une fois que la date et l’heure spécifiées dans le champ **[!UICONTROL Expiration]** ont été atteintes. Pour plus d’informations sur le comportement des ressources arrivées à expiration et les modifications des activités possibles en fonction des rôles utilisateur dans Brand Portal, voir [Gestion des droits numériques des ressources](../using/manage-digital-rights-of-assets.md#asset-expiration).
 
    >[!NOTE]
    >
-   >L’expiration par défaut du lien est de 7 jours. Le lien doit être envoyé par courriel aux utilisateurs à l’aide de la boîte de dialogue de partage de liens **[!UICONTROL Lien]**, ne copiez pas et ne partagez pas le lien séparément.
+   >Le délai d’expiration par défaut du lien est de 7 jours. Le lien doit être envoyé par email aux utilisateurs à l’aide de la boîte de dialogue **[!UICONTROL Partage de lien]**, ne copiez pas et ne partagez pas le lien séparément.
 
-1. Cliquez sur **[!UICONTROL Partager]**. Un message confirme le partage du lien avec les utilisateurs. Les utilisateurs reçoivent un courrier électronique contenant le lien partagé.
+1. Cliquez sur **[!UICONTROL Partager]**. Un message confirme le partage du lien avec les utilisateurs. Les utilisateurs reçoivent un email contenant le lien partagé.
 
    ![](assets/link-share-email.png)
 
@@ -73,11 +73,11 @@ Vous trouverez ci-dessous la procédure à suivre pour partager des ressources s
 
 ## Téléchargement de ressources à partir de liens partagés {#download-assets-from-shared-links}
 
-Cliquez sur le lien dans le courrier électronique pour accéder à la ressource partagée. La page Partage de lien AEM s’ouvre.
+Cliquez sur le lien de l’email pour accéder à la ressource partagée. La page Partage de lien AEM s’ouvre.
 
 Pour télécharger les ressources partagées :
 
-1. Cliquez sur les fichiers ou les dossiers, puis sur l’icône **[!UICONTROL Télécharger]** de la barre d’outils.
+1. Cliquez sur les ressources ou sur les dossiers, puis sur l’icône **[!UICONTROL Télécharger]** dans la barre d’outils.
 
    ![](assets/download-share-link.png)
 
@@ -85,19 +85,19 @@ Pour télécharger les ressources partagées :
    >
    >Vous pouvez actuellement générer un aperçu et une miniature uniquement pour certaines ressources, selon le format de fichier. Pour plus d’informations sur les formats de fichiers pris en charge, voir [Prise en charge des aperçus et des miniatures pour les formats de ressource](#preview-thumbnail-support).
 
-1. La boîte de dialogue **[!UICONTROL Téléchargement]** s’affiche.
+1. La boîte de dialogue **[!UICONTROL Télécharger]** s’affiche.
 
    ![boîte-de-dialogue-télécharger](assets/download-dialog-box-new.png)
 
-1. Par défaut, le paramètre **[!UICONTROL Téléchargement rapide]** est activé dans les **[!UICONTROL Paramètres de téléchargement]**. Par conséquent, une boîte de confirmation s’affiche pour continuer le téléchargement à l’aide d’IBM Aspera Connect.
+1. Par défaut, le paramètre **[!UICONTROL Téléchargement rapide]** est activé dans les **[!UICONTROL Paramètres de téléchargement]**. Par conséquent, une zone de confirmation s’affiche pour poursuivre le téléchargement à l’aide d’IBM Aspera Connect.
 
-   Pour continuer à utiliser **[!UICONTROL Téléchargement rapide]**, cliquez sur **[!UICONTROL Autoriser]**.
+   Pour continuer à utiliser le **[!UICONTROL Téléchargement rapide]**, cliquez sur **[!UICONTROL Autoriser]**.
 
-   Tous les rendus sélectionnés sont téléchargés dans un dossier zip contenant un dossier distinct pour chaque fichier.
+   Tous les rendus sélectionnés sont téléchargés dans un dossier zip contenant un dossier distinct pour chaque ressource.
 
    >[!NOTE]
    >
-   >Si un dossier, une collection ou plus de 20 ressources sont sélectionnés pour téléchargement, la boîte de dialogue **[!UICONTROL Télécharger]** est ignorée et tous les rendus de ressources accessibles à l’utilisateur, à l’exception des rendus dynamiques, sont téléchargés dans un dossier zip. Un dossier distinct est créé pour chaque fichier contenu dans le dossier zip.
+   >Si un dossier, une collection ou plus de 20 ressources sont sélectionnées pour le téléchargement, la boîte de dialogue **[!UICONTROL Télécharger]** est ignorée et tous les rendus accessibles à l’utilisateur, à l’exception des rendus dynamiques, sont téléchargés dans un dossier zip. Un dossier distinct est créé pour chaque fichier contenu dans le dossier zip.
 
    >[!NOTE]
    >
@@ -138,39 +138,39 @@ Le tableau suivant répertorie les formats de ressource pour lesquels Brand Por
 
 | Format de ressource | Prise en charge des miniatures | Prise en charge des aperçus |
 |--------------|-------------------|-----------------|
-| PNG | ✓ | obj |
-| GIF | obj | obj |
-| TIFF | obj | ✕ |
-| JPEG | obj | obj |
-| BMP | obj | ✕ |
+| PNG | ✓ | ✓ |
+| GIF | ✓ | ✓ |
+| TIFF | ✓ | ✕ |
+| JPEG | ✓ | ✓ |
+| BMP | ✓ | ✕ |
 | PNM* | N/A | N/A |
 | PGM* | N/A | N/A |
 | PBM* | N/A | N/A |
 | PPM* | N/A | N/A |
-| PSD | obj | ✕ |
+| PSD | ✓ | ✕ |
 | EPS | N/A | ✕ |
-| DNG | obj | ✕ |
-| PICT | obj | ✕ |
-| PSB* | obj | ✕ |
-| JPG | obj | obj |
-| AI | obj | ✕ |
+| DNG | ✓ | ✕ |
+| PICT | ✓ | ✕ |
+| PSB* | ✓ | ✕ |
+| JPG | ✓ | ✓ |
+| AI | ✓ | ✕ |
 | DOC | ✕ | ✕ |
 | DOCX | ✕ | ✕ |
 | ODT* | ✕ | ✕ |
-| PDF | obj | ✕ |
+| PDF | ✓ | ✕ |
 | HTML | ✕ | ✕ |
 | RTF | ✕ | ✕ |
-| TXT | obj | ✕ |
+| TXT | ✓ | ✕ |
 | XLS | ✕ | ✕ |
 | XLSX | ✕ | ✕ |
 | ODS | ✕ | ✕ |
-| PPT | obj | ✕ |
+| PPT | ✓ | ✕ |
 | PPTX | ✕ | ✕ |
 | ODP | ✕ | ✕ |
-| INDD | obj | ✕ |
+| INDD | ✓ | ✕ |
 | PS | ✕ | ✕ |
 | QXP | ✕ | ✕ |
-| EPUB | obj | ✕ |
+| EPUB | ✓ | ✕ |
 | AAC | ✕ | ✕ |
 | MIDI | ✕ | ✕ |
 | 3GP | ✕ | ✕ |
@@ -190,16 +190,16 @@ Le tableau suivant répertorie les formats de ressource pour lesquels Brand Por
 | WMV | ✕ | ✕ |
 | SWF | ✕ | ✕ |
 | TGZ | N/A | ✕ |
-| JAR | obj | ✕ |
+| JAR | ✓ | ✕ |
 | RAR | N/A | ✕ |
 | TAR | N/A | ✕ |
-| ZIP | obj | ✕ |
+| ZIP | ✓ | ✕ |
 
 La légende suivante explique les symboles utilisés dans le tableau :
 
 | Symbole | Signification |
 |---|---|
-| obj | Ce format de fichier prend en charge cette fonctionnalité. |
+| ✓ | Ce format de fichier prend en charge cette fonctionnalité. |
 | ✕ | Ce format de fichier ne prend pas en charge cette fonctionnalité. |
 | N/A | Cette fonctionnalité ne s’applique pas à ce format de fichier. |
 | * | Cette fonctionnalité requiert la prise en charge d’un module complémentaire pour ce format de fichier sur une instance de création AEM, mais pas sur Brand Portal une fois que les ressources ont été publiées sur Brand Portal. |
@@ -208,7 +208,7 @@ La légende suivante explique les symboles utilisés dans le tableau :
 
 Pour annuler le partage des ressources partagées auparavant en tant que lien, procédez comme suit :
 
-1. Lorsque vous vous connectez au portail de marque, la vue **[!UICONTROL Fichier]** s’ouvre par défaut. Pour vue des ressources que vous avez partagées en tant que liens, accédez à la vue **[!UICONTROL Liens partagés]**.
+1. Lorsque vous vous connectez à Brand Portal, la vue **[!UICONTROL Fichier]** s’ouvre par défaut. Pour afficher les ressources que vous avez partagées en tant que liens, accédez à la vue **[!UICONTROL Liens partagés]**.
 
 1. Passez en revue les liens que vous avez partagés dans la liste affichée.
 
