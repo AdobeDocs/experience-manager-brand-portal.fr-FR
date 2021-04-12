@@ -9,9 +9,9 @@ user-guide-description: Utilisez AEM Assets Brand Portal pour répondre aux beso
 feature: Brand Portal
 role: Business Practitioner
 translation-type: tm+mt
-source-git-commit: 0240080cf98fa0c1ba12dbcc9df17b2836064847
+source-git-commit: be344fc258d82c39fe0d6a0af1fbebdc9bef2dcf
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '281'
 ht-degree: 100%
 
 ---
@@ -60,7 +60,6 @@ ht-degree: 100%
    + [Première connexion](using/brand-portal-onboarding.md)
    + [Gestion des utilisateurs, des groupes et des rôles utilisateur](using/brand-portal-adding-users.md)
    + [Personnalisation du papier peint, de l’en-tête et des e-mails](using/brand-portal-branding.md)
-   + [Utilisation des facettes de recherche personnalisée](using/brand-portal-search-facets.md)
    + [Utilisation du formulaire de schéma de métadonnées](using/brand-portal-metadata-schemas.md)
    + [Application de paramètres d’image prédéfinis ou de rendus dynamiques](using/brand-portal-image-presets.md)
    + [Utilisation des rapports](using/brand-portal-reports.md)
