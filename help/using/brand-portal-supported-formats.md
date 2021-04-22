@@ -8,14 +8,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: fe1c2df8-39f4-4d5c-91d1-7b6cd4f1f589
-translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
-workflow-type: tm+mt
+exl-id: fa5d87a8-dc45-4c8a-8a96-ac7ec793952b
+translation-type: ht
+source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+workflow-type: ht
 source-wordcount: '330'
 ht-degree: 100%
 
 ---
-
 
 # Formats de fichiers pris en charge {#supported-file-formats}
 
