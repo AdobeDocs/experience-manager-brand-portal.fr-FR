@@ -9,14 +9,14 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
+exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
 translation-type: ht
-source-git-commit: d70817274ac7be84528778352f34934a0d4a60fc
+source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
 workflow-type: ht
 source-wordcount: '1025'
 ht-degree: 100%
 
 ---
-
 
 # Publication du dossier de contribution sur AEM Assets {#using-asset-souring-in-bp}
 
@@ -155,9 +155,3 @@ Les administrateurs peuvent utiliser deux rapports pour afficher l’état des d
 >
 >Currently, no report is generated in AEM Assets as a Cloud Service for the Asset Sourcing workflow. 
 -->
-
-
-
-
-
-
