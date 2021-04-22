@@ -10,11 +10,11 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '600'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de con
 
 Cette version comprend les nouvelles fonctionnalités suivantes :
 
-* AEM Assets en tant que Cloud Service est désormais autorisé à disposer d’une instance préconfigurée du portail de marques. L’utilisateur de Cloud Manager peut activer le portail de marque sur l’AEM Assets en tant qu’instance de Cloud Service.
+* AEM Assets as a Cloud Service peut désormais disposer d’une instance préconfigurée de Brand Portal. L’utilisateur de Cloud Manager peut activer Brand Portal sur l’instance AEM Assets as a Cloud Service.
 
 * La fonctionnalité d’approvisionnement des ressources est désormais disponible dans AEM Assets as a Cloud Service. Elle permet aux utilisateurs de Brand Portal de charger des ressources vers les dossiers de contribution autorisés et de publier les dossiers de contribution de Brand Portal vers AEM Assets as a Cloud Service.
 
