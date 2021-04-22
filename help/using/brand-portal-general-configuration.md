@@ -10,14 +10,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
 role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
-workflow-type: tm+mt
-source-wordcount: '403'
+exl-id: 5607be8e-0a7f-4692-b71b-5f66eb9ac5ee
+translation-type: ht
+source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+workflow-type: ht
+source-wordcount: '402'
 ht-degree: 100%
 
 ---
-
 
 # Administration des configurations générales du client {#administer-general-tenant-configurations}
 
@@ -51,7 +51,7 @@ Pour activer/désactiver chacune de ces configurations :
 1. **[!UICONTROL Enregistrez]** les modifications.
 1. Déconnectez-vous pour que les modifications soient appliquées.
 
-## Autorisation de la suppression des ressources de Brand Portal par les utilisateurs administrateurs  {#allow-admin-users-to-delete-assets-from-brand-portal}
+## Autorisation de la suppression des ressources de Brand Portal par les utilisateurs administrateurs {#allow-admin-users-to-delete-assets-from-brand-portal}
 
 La configuration **[!UICONTROL Autoriser les utilisateurs à supprimer]** permet aux organisations d’autoriser les utilisateurs avec les privilèges d’administrateur à supprimer des ressources et des dossiers de Brand Portal, ou de les en restreindre.
 
@@ -69,6 +69,6 @@ La configuration [[!UICONTROL Autoriser la création de collections dynamiques p
 [[!UICONTROL Allow download acceleration]](../using/accelerated-download.md) configuration lets the organizations to allow accelerated downloads of assets from Brand Portal and shared links, by integrating with IBM Aspera Connect that is an install-on-demand application. The application uses proprietary technology to remove TCP overheads.
 -->
 
-## Activation de la hiérarchie de dossiers  {#enable-folder-hierarchy}
+## Activation de la hiérarchie de dossiers {#enable-folder-hierarchy}
 
 La configuration [[!UICONTROL Activer la hiérarchie de dossiers]](../using/brand-portal-sharing-folders.md#non-admin-user-access-to-shared-folders) permet aux administrateurs de contrôler la façon dont, une fois connectés, les utilisateurs non-administrateurs (éditeurs, observateurs et utilisateurs invités) voient les dossiers partagés.
