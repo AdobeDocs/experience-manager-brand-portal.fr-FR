@@ -9,14 +9,14 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
 role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
-workflow-type: tm+mt
-source-wordcount: '1757'
+exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
+translation-type: ht
+source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+workflow-type: ht
+source-wordcount: '1756'
 ht-degree: 100%
 
 ---
-
 
 # Utilisation du formulaire de schéma de métadonnées {#use-the-metadata-schema-form}
 
@@ -101,7 +101,7 @@ L’onglet **[!UICONTROL Créer le formulaire]** répertorie les éléments que 
 
 #### Modification du composant de métadonnées {#edit-the-metadata-component}
 
-Pour modifier les propriétés d&#39;un composant de métadonnées dans le formulaire, cliquez sur le composant et modifiez ses propriétés dans l&#39;onglet **[!UICONTROL Paramètres]**.
+Pour modifier les propriétés d’un composant de métadonnées dans le formulaire, cliquez sur le composant et modifiez ses propriétés dans l’onglet **[!UICONTROL Paramètres]**.
 
 * **[!UICONTROL Libellé du champ]** : nom de la propriété de métadonnées affiché dans la page Propriétés de la ressource.
 
@@ -132,13 +132,13 @@ Le formulaire de schéma par défaut contient les onglets **[!UICONTROL De base]
 
 ![](assets/add_delete_tabs_metadataschemaform.png)
 
-* Pour ajouter un nouvel onglet dans un formulaire de schéma, cliquez sur **[!UICONTROL +]**. Par défaut, le nouvel onglet porte le nom « Sans nom -1 ». Vous pouvez modifier le nom à partir de l&#39;onglet **[!UICONTROL Paramètres]**.
+* Pour ajouter un nouvel onglet dans un formulaire de schéma, cliquez sur **[!UICONTROL +]**. Par défaut, le nouvel onglet porte le nom « Sans nom -1 ». Vous pouvez modifier le nom à partir de l’onglet **[!UICONTROL Paramètres]**.
 
 ![](assets/add-tab-metadata-form.png)
 
 * Pour supprimer un onglet, cliquez sur **[!UICONTROL x]**. Cliquez sur **[!UICONTROL Enregistrer]** pour enregistrer les modifications.
 
-## Application d’un schéma de métadonnées à un dossier   {#apply-a-metadata-schema-to-a-folder}
+## Application d’un schéma de métadonnées à un dossier {#apply-a-metadata-schema-to-a-folder}
 
 Brand Portal permet de personnaliser et de contrôler le schéma de métadonnées afin que la page **[!UICONTROL Propriétés]** d’une ressource n’affiche que les informations spécifiques que vous souhaitez montrer. Pour contrôler les métadonnées affichées dans la page **[!UICONTROL Propriétés]**, supprimez les métadonnées requises du formulaire de schéma de métadonnées et appliquez-les au dossier spécifique.
 
@@ -170,7 +170,7 @@ Pour appliquer un formulaire de schéma de métadonnées à un dossier, procéde
 >
 >Si vous appliquez un schéma qui comporte des schémas imbriqués à un dossier contenant des fichiers vidéo, les propriétés de métadonnées des fichiers vidéo peuvent ne pas s’afficher correctement. Pour veiller à ce que les propriétés de métadonnées s’affichent correctement, supprimez les schémas imbriqués et appliquez uniquement le schéma parent au dossier.
 
-## Suppression d’un formulaire de schéma de métadonnées    {#delete-a-metadata-schema-form}
+## Suppression d’un formulaire de schéma de métadonnées {#delete-a-metadata-schema-form}
 
 Brand Portal vous permet uniquement de supprimer des formulaires de schéma personnalisés. Il ne vous permet pas de supprimer les formulaires/modèles de schéma par défaut. Cependant, vous pouvez supprimer toutes les modifications personnalisées dans ces formulaires.
 
@@ -182,7 +182,7 @@ Pour supprimer un formulaire, sélectionnez-le puis cliquez sur l’icône **[!U
 >
 >Après avoir supprimé les modifications personnalisées apportées à un formulaire par défaut, le symbole représentant un **[!UICONTROL cadenas]** réapparaît devant le nom de ce formulaire dans l’interface Schéma de métadonnées pour indiquer que l’état par défaut du formulaire a été rétabli.
 
-## Formulaires de schéma pour les types MIME      {#schema-forms-for-mime-types}
+## Formulaires de schéma pour les types MIME {#schema-forms-for-mime-types}
 
 ### Ajout de formulaires pour les types MIME {#adding-new-forms-for-mime-types}
 
@@ -200,7 +200,7 @@ Dans ce cas, créez un nœud sous [!UICONTROL `/etc/dam/metadataeditor/mimetypem
 | mimetypes | Chaîne[] | image/png |
 
 * **exposedmimetype** : nom du formulaire existant à mapper.
-* **** mimetypes : liste des types MIME qui utilisent le formulaire défini dans l’attribut **exposedmimetype**.
+* **mimetypes** : liste des types MIME qui utilisent le formulaire défini dans l’attribut **exposedmimetype**.
 
 Brand Portal mappe les types MIME et les formulaires de schéma suivants :
 
