@@ -9,14 +9,14 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
 role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
-workflow-type: tm+mt
-source-wordcount: '813'
+exl-id: 9f5c2a6a-8844-4ca4-b0d9-8f50b6164219
+translation-type: ht
+source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+workflow-type: ht
+source-wordcount: '812'
 ht-degree: 100%
 
 ---
-
 
 # Personnalisation du papier peint, de l’en-tête et des e-mails {#customize-wallpaper-header-and-email-message}
 
@@ -60,7 +60,7 @@ En l’absence d’image de papier peint de marque personnalisée, un papier pei
 
 1. Pour activer ou désactiver le papier peint par défaut, effectuez les opérations suivantes sur la page **[!UICONTROL Configurer la valorisation de la marque > Papier peint]** :
 
-   * Pour afficher l’image du papier peint par défaut dans la page de connexion de Brand Portal, cliquez sur l&#39;option **[!UICONTROL Désactiver le papier peint]** de la barre d’outils supérieure. Un message confirme la désactivation de l’image personnalisée.
+   * Pour afficher l’image du papier peint par défaut dans la page de connexion de Brand Portal, cliquez sur l’option **[!UICONTROL Désactiver le papier peint]** de la barre d’outils supérieure. Un message confirme la désactivation de l’image personnalisée.
 
    ![](assets/chlimage_1-1.png)
 
@@ -72,7 +72,7 @@ En l’absence d’image de papier peint de marque personnalisée, un papier pei
 
 
 
-## Personnalisation de l’en-tête     {#customize-the-header}
+## Personnalisation de l’en-tête {#customize-the-header}
 
 L’en-tête apparaît sur différentes pages de Brand Portal une fois que vous êtes connecté à Brand Portal.
 
@@ -124,7 +124,7 @@ Pour enregistrer les modifications, cliquez sur **[!UICONTROL Enregistrer]** dan
 
 
 
-## Personnalisation des e-mails      {#customize-the-email-messaging}
+## Personnalisation des e-mails {#customize-the-email-messaging}
 
 Lorsque des ressources sont partagées en tant que lien, l’utilisateur reçoit un e-mail contenant le lien. Les administrateurs peuvent personnaliser les messages, c’est-à-dire le logo, la description et le pied de page de ces e-mails.
 
