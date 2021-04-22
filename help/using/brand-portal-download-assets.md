@@ -9,14 +9,14 @@ contentOwner: Vishabh Gupta
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
+exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
 translation-type: ht
-source-git-commit: fab0855e8d30e7b6ddf9b4ae5b2ce1fb627c81ce
+source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
 workflow-type: ht
 source-wordcount: '1935'
 ht-degree: 100%
 
 ---
-
 
 # Téléchargement de ressources depuis Brand Portal {#download-assets-from-bp}
 
@@ -419,4 +419,3 @@ L’expérience de téléchargement de fichier peut varier pour les utilisateurs
 >[!NOTE]
 >
 >Les données citées sont observées dans les situations de test et peuvent varier pour des utilisateurs à des emplacements différents avec une latence et une bande passante différentes.
-
