@@ -9,14 +9,14 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: ed79b120-a1c1-479c-a843-6546dcc660d7
 role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
-workflow-type: tm+mt
-source-wordcount: '285'
+exl-id: 84160b81-e321-4920-9a86-e4cce3fa874c
+translation-type: ht
+source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+workflow-type: ht
+source-wordcount: '284'
 ht-degree: 100%
 
 ---
-
 
 # Gestion de la collection Lightbox {#manage-the-lightbox-collection}
 
@@ -40,7 +40,7 @@ Pour ajouter des ressources à **[!UICONTROL Lightbox]**, procédez comme suit 
 
    ![](assets/add_to_collectionlightbox.png)
 
-1. Pour passer en revue les ressources ajoutées à **[!UICONTROL Lightbox]**, cliquez sur **[!UICONTROL Collections]** dans le rail de gauche, puis cliquez sur la collection **[!UICONTROL Lightbox]** 
+1. Pour passer en revue les ressources ajoutées à **[!UICONTROL Lightbox]**, cliquez sur **[!UICONTROL Collections]** dans le rail de gauche, puis cliquez sur la collection **[!UICONTROL Lightbox]**.
 
    ![](assets/collections_lightbox.png)
 
