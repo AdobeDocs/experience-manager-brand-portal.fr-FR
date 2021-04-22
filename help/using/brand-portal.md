@@ -9,11 +9,11 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1554'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -32,17 +32,17 @@ L’environnement de portail de type navigateur permet de télécharger, parcour
 
 ## Configuration d’AEM Assets avec Brand Portal {#configure-brand-portal}
 
-La configuration des ressources Adobe Experience Manager avec le portail de marques permet aux utilisateurs du portail de marques de publier des fichiers, de les distribuer et de leur proposer des fonctions de contribution.
+La configuration d’Adobe Experience Manager Assets avec Brand Portal permet aux utilisateurs de Brand Portal de bénéficier de fonctions de publication, de distribution et de contribution des ressources.
 
 >[!NOTE]
 >
 >La configuration d’AEM Assets avec Brand Portal est prise en charge sur AEM Assets as a Cloud Service, AEM Assets 6.3 et versions ultérieures.
 
-AEM Assets en tant que Cloud Service est automatiquement configuré avec le portail des marques en activant le portail des marques à partir de Cloud Manager. Le processus d’activation crée les configurations requises à l’arrière-plan et active Brand Portal sur la même organisation IMS que l’instance de Cloud Service dans la AEM Assets.
+AEM Assets as a Cloud Service est automatiquement configuré avec Brand Portal en activant celui-ci à partir de Cloud Manager. Le workflow d’activation crée les configurations requises en arrière-plan et active Brand Portal sur la même organisation IMS qu’AEM Assets as a Cloud Service.
 
-En revanche, AEM Assets (sur site et service géré) est configuré manuellement avec Brand Portal à l’aide d’Adobe Developer Console, qui achète un jeton Adobe Identity Management Services (IMS) pour l’autorisation du locataire du portail Marque.
+En revanche, AEM Assets (On-Premise et Managed Service) est configuré avec Brand Portal à l’aide d’Adobe Developer Console qui fournit un jeton Adobe Identity Management Services (IMS) pour l’autorisation du client Brand Portal.
 
-Pour plus d’informations, voir [configuration d’AEM Assets avec Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+Pour plus d’informations, consultez [Configuration d’AEM Assets avec Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 ## Différents types d’utilisateurs de Brand Portal {#Personas}
 
@@ -57,10 +57,10 @@ Le tableau suivant répertorie les tâches que peuvent réaliser les utilisateur
 
 |  | **Parcourir** | **Rechercher** | **Télécharger** | **Partage de dossiers** | **Partage d’une collection** | **Partager des ressources en tant que lien** | **Accéder aux outils d’administration** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
-| **Utilisateur invité** | ✓* | obj* | obj* | x | x | x | x |
-| **Observateur** | ✓ | obj | obj | x | x | x | x |
-| **Éditeur** | obj | obj | obj | obj | obj | obj | x |
-| **Administrateur** | obj | obj | obj | obj | obj | obj | obj |
+| **Utilisateur invité** | ✓* | ✓* | ✓* | x | x | x | x |
+| **Observateur** | ✓ | ✓ | ✓ | x | x | x | x |
+| **Éditeur** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | x |
+| **Administrateur** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 
 * Les utilisateurs invités peuvent explorer des ressources, y accéder et en rechercher dans les dossiers et collections publics uniquement.
 
