@@ -9,14 +9,14 @@ contentOwner: Vishabh Gupta
 topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
+exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
 translation-type: ht
-source-git-commit: 4983e2e160b5cfb213e249f731e1858fab2cf972
+source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
 workflow-type: ht
 source-wordcount: '1516'
 ht-degree: 100%
 
 ---
-
 
 # Questions fréquentes {#frequently-asked-questions}
 
