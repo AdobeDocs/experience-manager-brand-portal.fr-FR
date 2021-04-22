@@ -9,14 +9,14 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
-workflow-type: tm+mt
-source-wordcount: '2210'
+exl-id: 35b1fd75-f9e4-4145-80bd-84de091f8b2b
+translation-type: ht
+source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+workflow-type: ht
+source-wordcount: '2209'
 ht-degree: 100%
 
 ---
-
 
 # Gestion des utilisateurs, des groupes et des rôles utilisateur {#manage-users-groups-and-user-roles}
 
@@ -174,7 +174,7 @@ Pour ajouter des utilisateurs à un groupe Brand Portal, ajoutez-les au profil 
 
    Les utilisateurs ajoutés à un nouveau profil de produit ou à un profil de produit personnalisé ne reçoivent pas de notifications par e-mail.
 
-## Octroi de privilèges d’administrateur aux utilisateurs  {#provide-administrator-privileges-to-users}
+## Octroi de privilèges d’administrateur aux utilisateurs {#provide-administrator-privileges-to-users}
 
 Vous pouvez accorder à un utilisateur de Brand Portal le privilège d’administrateur système ou d’administrateur de produit. N’octroyez pas d’autres droits d’administration disponibles dans [!UICONTROL Admin Console], tels qu’administrateur de profil de produit, administrateur de groupe d’utilisateurs et administrateur de support. Pour en savoir plus sur ces rôles, voir [Rôles administratifs](https://helpx.adobe.com/fr/enterprise/using/admin-roles.html).
 
@@ -225,7 +225,7 @@ Vous pouvez accorder à un utilisateur de Brand Portal le privilège d’admini
    >Pour retirer les privilèges d’administrateur d’un utilisateur, apportez les modifications nécessaires sur la page **[!UICONTROL Modifier l’administrateur]**, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
 
-## Gestion des rôles utilisateur  {#manage-user-roles}
+## Gestion des rôles utilisateur {#manage-user-roles}
 
 Un administrateur peut modifier les rôles des utilisateurs dans Brand Portal.
 
@@ -297,4 +297,3 @@ Pour modifier le rôle et le droit d’accès aux rendus originaux pour des memb
    >[!NOTE]
    >
    >L’association utilisateur/groupe ou l’appartenance d’un utilisateur à un groupe est synchronisée dans Brand Portal toutes les 8 heures. Les modifications apportées aux rôles des utilisateurs ou des groupes sont prises en compte après l’exécution de la prochaine tâche de synchronisation.
-
