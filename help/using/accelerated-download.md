@@ -9,14 +9,14 @@ topic-tags: download-install
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
+exl-id: cf28df58-c6dd-4b12-8279-01351892009f
 translation-type: ht
-source-git-commit: fab0855e8d30e7b6ddf9b4ae5b2ce1fb627c81ce
+source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
 workflow-type: ht
 source-wordcount: '1049'
 ht-degree: 100%
 
 ---
-
 
 # Accélération des téléchargements de Brand Portal {#guide-to-accelerate-downloads-from-brand-portal}
 
@@ -91,7 +91,7 @@ Pour télécharger des ressources plus rapidement à partir de Brand Portal :
 
    ![boîte-de-dialogue-télécharger](assets/download-dialog-box-new.png)
 
-1. Par défaut le paramètre **[!UICONTROL Téléchargement rapide]** est activé dans les **[!UICONTROL Paramètres de téléchargement]**. Par conséquent, une zone de confirmation s’affiche pour télécharger des ressources à l’aide d’IBM Aspera Connect.
+1. Par défaut, le paramètre **[!UICONTROL Téléchargement rapide]** est activé dans les **[!UICONTROL Paramètres de téléchargement]**. Par conséquent, une zone de confirmation s’affiche pour télécharger des ressources à l’aide d’IBM Aspera Connect.
 
    Si vous téléchargez les ressources pour la première fois et qu’IBM Aspera Connect n’est pas installé dans votre navigateur ou si votre version existante est périmée, vous êtes invité à [installer l’accélérateur de téléchargement Aspera](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html).
 
