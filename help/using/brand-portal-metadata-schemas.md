@@ -10,9 +10,8 @@ topic-tags: administration
 discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
 role: Administrator
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
-translation-type: ht
 source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1756'
 ht-degree: 100%
 
@@ -170,7 +169,7 @@ Pour appliquer un formulaire de schéma de métadonnées à un dossier, procéde
 >
 >Si vous appliquez un schéma qui comporte des schémas imbriqués à un dossier contenant des fichiers vidéo, les propriétés de métadonnées des fichiers vidéo peuvent ne pas s’afficher correctement. Pour veiller à ce que les propriétés de métadonnées s’affichent correctement, supprimez les schémas imbriqués et appliquez uniquement le schéma parent au dossier.
 
-## Suppression d’un formulaire de schéma de métadonnées {#delete-a-metadata-schema-form}
+## Suppression d’un formulaire de schéma de métadonnées  {#delete-a-metadata-schema-form}
 
 Brand Portal vous permet uniquement de supprimer des formulaires de schéma personnalisés. Il ne vous permet pas de supprimer les formulaires/modèles de schéma par défaut. Cependant, vous pouvez supprimer toutes les modifications personnalisées dans ces formulaires.
 
@@ -182,7 +181,7 @@ Pour supprimer un formulaire, sélectionnez-le puis cliquez sur l’icône **[!U
 >
 >Après avoir supprimé les modifications personnalisées apportées à un formulaire par défaut, le symbole représentant un **[!UICONTROL cadenas]** réapparaît devant le nom de ce formulaire dans l’interface Schéma de métadonnées pour indiquer que l’état par défaut du formulaire a été rétabli.
 
-## Formulaires de schéma pour les types MIME {#schema-forms-for-mime-types}
+## Formulaires de schéma pour les types MIME  {#schema-forms-for-mime-types}
 
 ### Ajout de formulaires pour les types MIME {#adding-new-forms-for-mime-types}
 
