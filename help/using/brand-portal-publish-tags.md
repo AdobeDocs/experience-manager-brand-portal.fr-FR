@@ -9,9 +9,8 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: 3c8e9251-195d-4c56-a9a9-27bc8b2a82a4
 exl-id: 842656a6-1a2b-4b64-954d-1e663923a1a1
-translation-type: ht
 source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 100%
 
@@ -68,7 +67,7 @@ Chemin JCR de la balise.
 
 1. **Joignez la balise à une ressource (ou collection)**.
 
-   Sélectionnez une ressource (ou collection) et joignez la balise désirée en utilisant la section Propriétés ou Gérer les balises de cette ressource. Pour plus d’informations sur la manière d’affecter des balises aux ressources dans AEM Assets, voir [Utilisation de balises pour organiser des ressources](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets).
+   Sélectionnez une ressource (ou collection) et joignez la balise désirée en utilisant la section Propriétés ou Gérer les balises de cette ressource. Pour plus d’informations sur la manière d’affecter des balises aux ressources dans AEM Assets, voir [Utilisation de balises pour organiser des ressources](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets).
 
 1. **Publiez les ressources (ou les collections) sur Brand Portal**.\
    Quand vous publiez une ressource (ou collection) sur Brand Portal, la balise jointe est également disponible sur Brand Portal.
