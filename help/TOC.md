@@ -8,9 +8,8 @@ breadcrumb-title: Guide de Brand Portal
 user-guide-description: Utilisez AEM Assets Brand Portal pour répondre aux besoins marketing en distribuant des ressources de marque et de produit approuvées à des agences externes, des partenaires, des équipes internes et des revendeurs pour téléchargement, et ce en toute sécurité.
 feature: Brand Portal
 role: Business Practitioner
-translation-type: ht
 source-git-commit: be344fc258d82c39fe0d6a0af1fbebdc9bef2dcf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 100%
 
@@ -20,7 +19,7 @@ ht-degree: 100%
 # Guide d’Adobe Experience Manager Assets Brand Portal {#using}
 
 + [Guide de Brand Portal](using/home.md)
-+ Introduction {#introduction}
++ Présentation {#introduction}
    + [Présentation](using/brand-portal.md)
    + [Nouveautés d’AEM Assets Brand Portal](using/whats-new.md)
    + [Notes de mise à jour](using/brand-portal-release-notes.md)
@@ -30,7 +29,7 @@ ht-degree: 100%
    + [Présentation de Brand Portal avec AEM Assets](https://docs.adobe.com/content/help/fr-FR/experience-manager-brand-portal/using/home.html)
    + [Exploration des ressources sur Brand Portal](using/browse-assets-brand-portal.md)
 + Publication de ressources à partir d’AEM Assets sur Brand Portal {#publish}
-   + [Configuration d’AEM Assets avec Brand Portal](using/configure-aem-assets-with-brand-portal.md)
+   + [Configuration d’AEM Assets avec Brand Portal](using/configure-aem-assets-with-brand-portal.md)
    + [Publication de ressources sur Brand Portal](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/assets/brandportal/brand-portal-publish-assets.html)
    + [Publication de dossiers sur Brand Portal](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
    + [Publication de collections sur Brand Portal](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
