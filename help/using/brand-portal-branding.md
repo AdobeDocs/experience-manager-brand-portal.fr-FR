@@ -10,9 +10,8 @@ topic-tags: administration
 discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
 role: Administrator
 exl-id: 9f5c2a6a-8844-4ca4-b0d9-8f50b6164219
-translation-type: ht
 source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 100%
 
@@ -124,7 +123,7 @@ Pour enregistrer les modifications, cliquez sur **[!UICONTROL Enregistrer]** dan
 
 
 
-## Personnalisation des e-mails {#customize-the-email-messaging}
+## Personnalisation des e-mails  {#customize-the-email-messaging}
 
 Lorsque des ressources sont partagées en tant que lien, l’utilisateur reçoit un e-mail contenant le lien. Les administrateurs peuvent personnaliser les messages, c’est-à-dire le logo, la description et le pied de page de ces e-mails.
 
