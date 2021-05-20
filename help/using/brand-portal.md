@@ -9,9 +9,8 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-translation-type: ht
 source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1554'
 ht-degree: 100%
 
@@ -106,7 +105,7 @@ En plus des tâches d’un observateur, un éditeur peut effectuer les tâches s
 
 [Partage d’une collection](brand-portal-share-collection.md)
 
-[Partager des ressources en tant que lien](brand-portal-link-share.md)
+[Partage de ressources en tant que lien](brand-portal-link-share.md)
 
 ### Administrateur {#administrator}
 
@@ -128,7 +127,7 @@ Un administrateur peut effectuer toutes les tâches exécutées par un éditeur,
 
 En plus des tâches mentionnées ci-dessus, un auteur dans AEM Assets peut effectuer les tâches suivantes :
 
-[Configuration d’AEM Assets avec Brand Portal](../using/configure-aem-assets-with-brand-portal.md)
+[Configuration d’AEM Assets avec Brand Portal](../using/configure-aem-assets-with-brand-portal.md)
 
 [Publication de dossiers sur Brand Portal](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
 
