@@ -10,9 +10,8 @@ content-type: reference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
-translation-type: ht
 source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1207'
 ht-degree: 100%
 
@@ -56,7 +55,7 @@ Comme les codages vidéo ne sont pas stockés dans le référentiel Brand Porta
 >
 >Les visionneuses vidéo et les paramètres prédéfinis de visionneuses ne sont pas pris en charge dans Brand Portal. Les vidéos sont prévisualisées et lues sur les visionneuses par défaut dans Brand Portal.
 
-## Conditions préalables {#prerequisites}
+## Prérequis {#prerequisites}
 
 Pour utiliser des vidéos dynamiques sur Brand Portal, veillez à :
 
@@ -79,7 +78,7 @@ Les adresses IP sortantes sont les suivantes :
 | EMEA | 185.34.189.1 |
 | APAC | 63.140.44.54 |
 
-Pour mettre l’une de ces adresses IP sortantes sur liste blanche, voir [Préparation de votre compte pour un test sécurisé](https://docs.adobe.com/content/help/fr/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service).
+Pour mettre l’une de ces adresses IP sortantes sur liste blanche, voir [Préparation de votre compte pour un test sécurisé](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service).
 
 ## Meilleures pratiques
 
@@ -97,14 +96,14 @@ Assurez-vous que les informations de configuration, telles que **[!UICONTROL Tit
 
 ### Mise sur liste blanche des adresses IP sortantes publiques pour le mode Scene7 Dynamic Media
 
-Si le mode **[!UICONTROL Scene7]** de Dynamic Media avec l’[aperçu sécurisé activé](https://docs.adobe.com/content/help/fr/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html) est utilisé pour diffuser des ressources vidéo sur Brand Portal, **[!UICONTROL Scene7]** crée un serveur d’images dédié pour les environnements d’évaluation ou les applications internes. Toute requête à ce serveur vérifie l’adresse IP d’origine. Si la requête entrante ne figure pas dans la liste approuvée des adresses IP, une réponse d’échec est renvoyée.
+Si le mode **[!UICONTROL Scene7]** de Dynamic Media avec l’[aperçu sécurisé activé](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html) est utilisé pour diffuser des ressources vidéo sur Brand Portal, **[!UICONTROL Scene7]** crée un serveur d’images dédié pour les environnements d’évaluation ou les applications internes. Toute requête à ce serveur vérifie l’adresse IP d’origine. Si la requête entrante ne figure pas dans la liste approuvée des adresses IP, une réponse d’échec est renvoyée.
 L’administrateur d’entreprise **[!UICONTROL Scene-7]** configure par conséquent une liste approuvée d’adresses IP pour l’environnement de **[!UICONTROL test sécurisé]** de la société via l’IU Flash de **[!UICONTROL SPS]** (Scene-7 Publishing System). Vérifiez que l’adresse IP sortante pour votre zone géographique respective (parmi les suivantes) est ajoutée à cette liste approuvée.
-Pour mettre l’une de ces adresses IP sortantes sur liste blanche, voir [Préparation de votre compte pour un test sécurisé](https://docs.adobe.com/content/help/fr/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service).
+Pour mettre l’une de ces adresses IP sortantes sur liste blanche, voir [Préparation de votre compte pour un test sécurisé](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service).
 Les adresses IP sortantes sont les suivantes :
 
 | **Zone géographique** | **Adresse IP sortante** |
 |--- |--- |
-| N/A | 130.248.160.66,  52.151.32.108 |
+| N/A | 130.248.160.66, 52.151.32.108 |
 | EMEA | 185.34.189.1 |
 | APAC | 63.140.44.54 |
 
@@ -114,7 +113,7 @@ Si l’instance AEM Author s’exécute dans le mode hybride de Dynamic Media,
 
 >[!NOTE]
 >
->Les [profils de codage vidéo](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/video-profiles.html) ne sont pas publiés sur Brand Portal, mais sont récupérés du serveur **[!UICONTROL Scene7]**. Par conséquent, pour que les codes vidéo soient lus correctement dans Brand Portal, assurez-vous que les détails de configuration sont identiques à la [[!UICONTROL configuration cloud Scene7]](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) dans votre instance d’auteur AEM.
+>Les [profils de codage vidéo](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html) ne sont pas publiés sur Brand Portal, mais sont récupérés du serveur **[!UICONTROL Scene7]**. Par conséquent, pour que les codes vidéo soient lus correctement dans Brand Portal, assurez-vous que les détails de configuration sont identiques à la [[!UICONTROL configuration cloud Scene7]](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) dans votre instance d’auteur AEM.
 
 Pour définir les configurations Dynamic Media sur des clients Brand Portal :
 
