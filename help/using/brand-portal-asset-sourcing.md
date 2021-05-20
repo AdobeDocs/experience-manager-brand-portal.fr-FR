@@ -17,9 +17,8 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-translation-type: ht
 source-git-commit: e8bb1149582329f5304bda7e5e67e8dcc27cfc7b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '841'
 ht-degree: 100%
 
@@ -31,7 +30,7 @@ L’**approvisionnement des ressources** permet aux utilisateurs d’AEM (admini
 
 En outre, toutes les fonctionnalités existantes restent inchangées. Les utilisateurs de Brand Portal peuvent afficher, rechercher et télécharger des ressources à partir du dossier de contribution, ainsi que des autres dossiers autorisés. Quant aux administrateurs, ils peuvent partager le dossier de contribution de manière plus avancée, modifier les propriétés et ajouter des ressources aux collections.
 
-## Conditions préalables {#prerequisites}
+## Prérequis {#prerequisites}
 
 * AEM Assets as a Cloud Service, AEM Assets 6.5.2 ou version ultérieure.
 * Vérifiez que votre instance d’AEM Assets est configurée avec Brand Portal. Voir [Configuration d’AEM Assets avec Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
