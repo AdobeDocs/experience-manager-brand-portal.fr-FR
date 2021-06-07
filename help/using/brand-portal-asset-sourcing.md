@@ -17,10 +17,10 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: e8bb1149582329f5304bda7e5e67e8dcc27cfc7b
+source-git-commit: bfbc90e3cdc9e3fc72a6e54f6730922753585471
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 100%
+source-wordcount: '684'
+ht-degree: 91%
 
 ---
 
@@ -30,16 +30,24 @@ L’**approvisionnement des ressources** permet aux utilisateurs d’AEM (admini
 
 En outre, toutes les fonctionnalités existantes restent inchangées. Les utilisateurs de Brand Portal peuvent afficher, rechercher et télécharger des ressources à partir du dossier de contribution, ainsi que des autres dossiers autorisés. Quant aux administrateurs, ils peuvent partager le dossier de contribution de manière plus avancée, modifier les propriétés et ajouter des ressources aux collections.
 
+![Approvisionnement des ressources dans Brand Portal](assets/asset-sourcing.png)
+
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
+
 ## Prérequis {#prerequisites}
 
 * AEM Assets as a Cloud Service, AEM Assets 6.5.2 ou version ultérieure.
 * Vérifiez que votre instance d’AEM Assets est configurée avec Brand Portal. Voir [Configuration d’AEM Assets avec Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
-* Assurez-vous que votre client Brand Portal est configuré avec une instance d’auteur AEM Assets.
 
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
+<!--
+* Ensure that your Brand Portal tenant is configured with one AEM Assets author instance.
+-->
 
-![Approvisionnement des ressources dans Brand Portal](assets/asset-sourcing.png)
-
+>[!NOTE]
+>
+>La fonctionnalité d’approvisionnement des ressources est activée par défaut sur AEM Assets as a Cloud Service, AEM Assets 6.5.9 et versions ultérieures.
+>
+>Les configurations existantes continueront à fonctionner sur les versions antérieures.
 
 >[!NOTE]
 >
@@ -49,44 +57,55 @@ En outre, toutes les fonctionnalités existantes restent inchangées. Les utilis
 >
 >Pour une solution immédiate sur AEM 6.5.4, il est recommandé de [télécharger le correctif](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) et de l’installer sur votre instance d’auteur.
 
-## Configuration de l’approvisionnement des ressources {#configure-asset-sourcing}
+<!--
+## Configure Asset Sourcing {#configure-asset-sourcing}
 
-L’**approvisionnement des ressources** est configuré à partir de l’instance d’auteur AEM Assets. Les administrateurs peuvent activer la configuration de l’indicateur de la fonctionnalité d’approvisionnement des ressources depuis la **configuration de la console web AEM** et charger la liste des utilisateurs Brand Portal actifs dans **AEM Assets**.
-
->[!NOTE]
->
->L’approvisionnement des ressources est activé par défaut dans AEM Assets as a Cloud Service. L’administrateur AEM peut directement charger les utilisateurs actifs de Brand Portal pour leur permettre d’accéder à la fonction d’approvisionnement des ressources.
+**Asset Sourcing** is configured from within the AEM Assets author instance. The administrators can enable the Asset Sourcing feature flag configuration from the **AEM Web Console Configuration** and upload the active Brand Portal users list in **AEM Assets**.
 
 >[!NOTE]
 >
->Veillez à configurer l’instance d’AEM Assets à Brand Portal avant de commencer la configuration. Voir [Configuration d’AEM Assets avec Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+>Asset Sourcing is by default enabled on AEM Assets as a Cloud Service. The AEM administrator can directly upload the active Brand Portal users to allow them access to the Asset Sourcing feature.
 
-La vidéo suivante explique comment configurer l’approvisionnement des ressources sur l’instance d’auteur AEM Assets :
+>[!NOTE]
+>
+>Before you begin with the configuration, ensure that your AEM Assets instance is configured with Brand Portal. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md). 
+
+The following video demonstrates, how to configure Asset Sourcing on your AEM Assets author instance:
 
 >[!VIDEO](https://video.tv.adobe.com/v/29771)
+-->
 
-### Activation de l’approvisionnement des ressources {#enable-asset-sourcing}
+<!--
+### Enable Asset Sourcing {#enable-asset-sourcing}
 
-Les administrateurs d’AEM peuvent activer l’indicateur d’approvisionnement des ressources depuis Configuration de la console web AEM (ou Configuration Manager).
+AEM administrators can enable the Asset Sourcing feature flag from within the AEM Web Console Configuration (a.k.a Configuration Manager).
 
 >[!NOTE]
 >
->Cette étape ne s’applique pas à AEM Assets as a Cloud Service.
+>This step is not applicable for AEM Assets as a Cloud Service.
 
 
-**Pour activer l’approvisionnement des ressources, procédez comme suit :**
-1. Connectez-vous à votre instance d’auteur AEM Assets et ouvrez Configuration Manager.
-URL par défaut : http:// localhost:4502/system/console/configMgr.
-1. À l’aide du mot-clé **Asset Sourcing** (Approvisionnement des ressources), recherchez la **[!UICONTROL Asset Sourcing Feature Flag Config]** (Configuration de l’indicateur de la fonctionnalité d’approvisionnement des ressources).
-1. Cliquez sur **[!UICONTROL Asset Sourcing Feature Flag Config]** (Configuration de l’indicateur de la fonctionnalité d’approvisionnement des ressources) pour ouvrir la fenêtre de configuration.
-1. Cochez la case **[!UICONTROL feature.flag.active.status]**.
-1. Cliquez sur **[!UICONTROL Enregistrer]**.
+**To enable Asset Sourcing:**
+1. Log in to your AEM Assets author instance and open Configuration Manager. 
+Default URL: http:// localhost:4502/system/console/configMgr.
+1. Search using the keyword **Asset Sourcing** to locate **[!UICONTROL Asset Sourcing Feature Flag Config]**.
+1. Click **[!UICONTROL Asset Sourcing Feature Flag Config]** to open the configuration window.
+1. Select the **[!UICONTROL feature.flag.active.status]** check box.
+1. Click **[!UICONTROL Save]**.
 
 ![](assets/enable-asset-sourcing.png)
+-->
+
 
 ### Chargement de la liste des utilisateurs de Brand Portal {#upload-bp-user-list}
 
-Les administrateurs d’AEM peuvent charger le fichier de configuration des utilisateurs de Brand Portal (.csv) contenant la liste des utilisateurs Brand Portal actifs dans AEM Assets. Un dossier de contribution peut uniquement être partagé avec les utilisateurs actifs de Brand Portal définis dans la liste des utilisateurs. L’administrateur peut également ajouter de nouveaux utilisateurs dans le fichier de configuration et charger la liste modifiée des utilisateurs.
+Les administrateurs AEM peuvent charger le fichier de configuration des utilisateurs Brand Portal (.csv) contenant la principale liste des utilisateurs Brand Portal dans AEM Assets pour leur permettre d’accéder à la fonctionnalité d’approvisionnement des ressources.
+
+Un dossier de contribution peut uniquement être partagé avec les utilisateurs actifs de Brand Portal définis dans la liste des utilisateurs. L’administrateur peut également ajouter de nouveaux utilisateurs dans le fichier de configuration et charger la liste modifiée des utilisateurs.
+
+>[!NOTE]
+>
+>Vérifiez que votre instance d’AEM Assets est configurée avec Brand Portal. Voir [Configuration d’AEM Assets avec Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 >[!NOTE]
 >
