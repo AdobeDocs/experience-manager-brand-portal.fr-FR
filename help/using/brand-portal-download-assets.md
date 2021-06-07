@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 0999d50f9e33d079c082afda28d7690015a13303
 workflow-type: tm+mt
-source-wordcount: '1935'
-ht-degree: 100%
+source-wordcount: '1960'
+ht-degree: 98%
 
 ---
 
@@ -199,10 +199,11 @@ Vous trouverez ci-dessous la procédure à suivre pour télécharger des ressour
 
 >[!NOTE]
 >
->Si un dossier, une collection ou plus de 20 ressources sont sélectionnés pour le téléchargement, la boîte de dialogue **[!UICONTROL Télécharger]** est ignorée et tous les rendus accessibles à l’utilisateur, à l’exception des rendus dynamiques, sont téléchargés dans un dossier zip.
->
 >Si le paramètre **[!UICONTROL Téléchargement de ressources]** est activé dans les **[!UICONTROL Paramètres de téléchargement]**, les rendus de ressources sont téléchargés dans un dossier distinct pour chaque ressource du dossier zip.
-
+>  
+>Si les ressources sont téléchargées à partir d’un lien partagé, les rendus de ressources sont téléchargés dans un dossier distinct pour chaque ressource dans le dossier zip.
+>
+>Si un dossier, une collection ou plus de 20 ressources sont sélectionnés pour le téléchargement, la boîte de dialogue **[!UICONTROL Télécharger]** est ignorée et tous les rendus accessibles à l’utilisateur, à l’exception des rendus dynamiques, sont téléchargés dans un dossier zip.
 
 >[!NOTE]
 >
