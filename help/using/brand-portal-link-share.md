@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
 source-git-commit: a7cd98a48a92f45e439577c352c8b399d24912a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1013'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -98,7 +98,7 @@ Pour télécharger les ressources partagées :
    >
    >Un dossier distinct est créé pour chaque ressource lors du téléchargement des ressources à partir d’un lien partagé.
    >
-   >Si un dossier, une collection ou plus de 20 ressources sont sélectionnés pour le téléchargement, la boîte de dialogue **[!UICONTROL Télécharger]** est ignorée et tous les rendus de ressources accessibles à l’utilisateur à l’exclusion des rendus dynamiques sont téléchargés dans un dossier zip contenant un dossier distinct pour chaque ressource.
+   >Si un dossier, une collection ou plus de 20 ressources sont sélectionnés pour le téléchargement, la boîte de dialogue **[!UICONTROL Télécharger]** est ignorée et tous les rendus accessibles à l’utilisateur, à l’exception des rendus dynamiques, sont téléchargés dans un dossier zip contenant un dossier séparé pour chaque ressource.
 
    >[!NOTE]
    >
