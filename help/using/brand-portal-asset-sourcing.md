@@ -18,9 +18,9 @@ version: 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
 source-git-commit: bfbc90e3cdc9e3fc72a6e54f6730922753585471
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '684'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ En outre, toutes les fonctionnalités existantes restent inchangées. Les utilis
 
 >[!NOTE]
 >
->La fonctionnalité d’approvisionnement des ressources est activée par défaut sur AEM Assets as a Cloud Service, AEM Assets 6.5.9 et versions ultérieures.
+>La fonctionnalité d’approvisionnement des ressources est activée par défaut dans AEM Assets as a Cloud Service, AEM Assets 6.5.9 et versions ultérieures.
 >
 >Les configurations existantes continueront à fonctionner sur les versions antérieures.
 
@@ -99,7 +99,7 @@ Default URL: http:// localhost:4502/system/console/configMgr.
 
 ### Chargement de la liste des utilisateurs de Brand Portal {#upload-bp-user-list}
 
-Les administrateurs AEM peuvent charger le fichier de configuration des utilisateurs Brand Portal (.csv) contenant la principale liste des utilisateurs Brand Portal dans AEM Assets pour leur permettre d’accéder à la fonctionnalité d’approvisionnement des ressources.
+Les administrateurs AEM peuvent charger le fichier de configuration des utilisateurs Brand Portal (au format .csv) contenant la liste des utilisateurs actifs de Brand Portal dans AEM Assets pour leur permettre d’accéder à la fonctionnalité d’approvisionnement des ressources.
 
 Un dossier de contribution peut uniquement être partagé avec les utilisateurs actifs de Brand Portal définis dans la liste des utilisateurs. L’administrateur peut également ajouter de nouveaux utilisateurs dans le fichier de configuration et charger la liste modifiée des utilisateurs.
 
