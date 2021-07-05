@@ -1,8 +1,8 @@
 ---
 title: Notes de mise à jour
 seo-title: Notes de mise à jour
-description: Découvrez les fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 2021.02.0.
-seo-description: Découvrez les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 2021.02.0.
+description: Découvrez les fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 2021.06.0.
+seo-description: Découvrez les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 2021.06.0.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,40 +10,41 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 54af86b96ef3c3cfe3b1c0db7772d369cac9bb71
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 100%
+source-wordcount: '327'
+ht-degree: 86%
 
 ---
 
 # Notes de mise à jour {#release-notes}
 
-Découvrez les fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 2021.02.0.
+Découvrez les fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 2021.06.0.
 
 ## Informations sur la version {#release-information}
 
 | Produit | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 2021.02.0 |
-| Date | Février 2021 |
+| Version | 2021.06.0 |
+| Date  |  juin 2021 |
 
 ## Présentation {#overview}
 
 Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de contrôler et de distribuer facilement et en toute sécurité des ressources créatives approuvées destinées à des tiers externes et aux collaborateurs de l’entreprise sur différents appareils. Brand Portal améliore l’efficacité du partage des ressources, accélère la mise sur le marché des ressources et réduit les risques de non-conformité et d’accès non autorisé. Brand Portal permet aux utilisateurs de parcourir, rechercher, prévisualiser, télécharger et exporter des ressources dans des formats approuvés, à tout moment et n’importe où.
 
-## Nouveautés de la version 2021.02.0 {#whats-new-in-2021.02.0}
+## Nouveautés de la version 2021.06.0 {#whats-new-in-2021.06.0}
 
-### Nouvelles fonctionnalités {#new-features}
+<!--
+### New Features {#new-features}
 
-Cette version comprend les nouvelles fonctionnalités suivantes :
+This release includes the following new features:
 
-* AEM Assets as a Cloud Service peut désormais disposer d’une instance préconfigurée de Brand Portal. L’utilisateur de Cloud Manager peut activer Brand Portal sur l’instance AEM Assets as a Cloud Service.
+* AEM Assets as a Cloud Service is now entitled to have a pre-configured Brand Portal instance. The Cloud Manager user can activate Brand Portal on the AEM Assets as a Cloud Service instance.
 
-* La fonctionnalité d’approvisionnement des ressources est désormais disponible dans AEM Assets as a Cloud Service. Elle permet aux utilisateurs de Brand Portal de charger des ressources vers les dossiers de contribution autorisés et de publier les dossiers de contribution de Brand Portal vers AEM Assets as a Cloud Service.
+* Asset Sourcing feature is now available on AEM Assets as a Cloud Service. It allows the Brand Portal users to upload assets to the permitted contribution folders and publish the contribution folder from Brand Portal to AEM Assets as a Cloud Service instance. 
 
-* Un paramètre **[!UICONTROL Téléchargement de ressources]** supplémentaire a été introduit dans les **[!UICONTROL Paramètres de téléchargement]**. Ce paramètre crée un dossier distinct pour chaque ressource lors du téléchargement des dossiers, des collections ou du téléchargement en masse de ressources.
-
+* An additional **[!UICONTROL Asset Download]** setting has been introduced under the **[!UICONTROL Download Settings]**. It creates a separate folder for each asset while downloading the folders, collections, or bulk download of assets. 
+-->
 <!-- 
 * The **[!UICONTROL Download]** dialog is revamped in a list view with additional options to exclude the renditions which are not required, apply the same set of rules for similar asset types, and download the selected asset renditions. See [steps to download assets from Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
 -->
@@ -66,12 +67,25 @@ Brand Portal users can exclude specific renditions which are not required and di
 * In addition to the existing **[!UICONTROL Download]** configurations, the Brand Portal administrators can also [configure permissions for different group of users](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions) to view and (or) download the original asset and its renditions from the asset details page. These configurations will define who can access and (or) download the asset renditions.
 -->
 
-### Améliorations {#enhancements}
+<!--
+### Enhancements {#enhancements}
 
-Les améliorations suivantes ont été apportées à cette version :
+Brand Portal 2021.06.0 is an internal release for T2E migration that introduces a new workflow to facilitate orgranization specific entitlement to the Brand Portal users. 
 
-* Pour le téléchargement de dossiers, un dossier distinct est créé pour chaque ressource à l’aide du lien de partage, quels que soient les **[!UICONTROL Paramètres de téléchargement]** sélectionnés.
-* Le **[!UICONTROL rapport d’utilisation]** de Brand Portal a été modifié pour refléter uniquement les utilisateurs actifs de Brand Portal.
+This release includes the following enhancements:
+
+* For a new or migrated T2E organization, the users will have an organization specific entitlement. 
+
+
+* The new users added to Admin Console will have to **Join Team** to get entitled to the T2E organization. 
+
+* The administrators will get an additional screen to select the T2E organization while navigating from Brand Portal to Admin Console.
+-->
+
+<!-- 
+* For folder download, a separate folder is created for each asset using share link irrespective of the **[!UICONTROL Download Settings]**. 
+* The Brand Portal **[!UICONTROL Usage Report]** has been modified to reflect only the active Brand Portal users.
+-->
 
 <!--
 * The threshold of session timeout for the guest users has been reduced from 2 hours to 15 minutes.
@@ -81,24 +95,39 @@ Les améliorations suivantes ont été apportées à cette version :
 
 ### Problèmes critiques résolus {#critical-issues-fixed}
 
-Cette version comprend des correctifs pour les problèmes critiques suivants :
+Brand Portal 2021.06.0 est une version interne qui comprend des correctifs pour les problèmes critiques suivants :
 
-* Au cas où seules les ressources d’origine sont téléchargées, la ressource affiche sa propre extension et ne s’ouvre pas tant que l’extension n’a pas été manuellement remplacée par .zip.
-* L’interface utilisateur du dossier de collection ne répond pas lorsque vous cliquez sur la flèche de navigation.
-* Le bouton **[!UICONTROL Créer]** est visible dans la vue **[!UICONTROL Colonne]** même si les dossiers sont vides.
-* La fonctionnalité de recherche **[!UICONTROL Omni]** échoue avec un message d’erreur 414 (Request-URI Too Long) si le Dispatcher est ignoré lors de l’accès à l’instance de Brand Portal.
-* Un dossier .zip vide est téléchargé si la ressource contient une virgule (`,`) dans son nom.
-* Les utilisateurs observateurs peuvent ajouter des utilisateurs à la collection qu’ils ont créée.
-* Un comportement incohérent se produit lorsqu’une ressource (miniature ou rendu web) est téléchargée à l’aide d’un lien de partage.
+* Les notifications par e-mail d’approvisionnement des ressources ne sont pas diffusées pour certaines organisations.
 
-Consultez les [Nouveautés de Brand Portal 2021.02.0](whats-new.md).
+* Les fichiers vidéo avec l’extension .mov ne sont pas exécutés sur Brand Portal.
 
+* Dans la liste déroulante Collections dynamiques , seules 10 collections enregistrées sont visibles.
 
-### Problèmes connus {#known-issues}
+<!--
+* *_deleted tenants are listed as valid tenant which fails during the execution of TenantCustomizers/TenantUpdates where tenant id is returned as /etc/tenants/`<nodename>`.
+-->
 
-Cette version présente les problèmes connus suivants :
+<!--
+In case only the original assets are downloaded, the asset reflects its own extension and does not open until the extension is manually changed to zip. 
+* The user interface of the collection folder does not respond on clicking the navigation arrow. 
+* **[!UICONTROL Create]** button is visible in the **[!UICONTROL Column]** view even when the folders are empty.
+* **[!UICONTROL Omni search]** fails with a 414 error message (Request-URI Too Long) if the dispatcher is bypassed while accessing the Brand Portal instance.
+* An empty zip folder is downloaded if the asset contains a comma (`,`) in the file name.
+* The viewer users get the option to add users to the collection they have created. 
+* Inconsistent behavior is experienced when an asset (thumbnail or web rendition) is downloaded using share link.
 
-* Les utilisateurs ne reçoivent pas de notifications par email pour les workflows de publication de l’approvisionnement des ressources.
+See [what's new in Brand Portal 2021.02.0](whats-new.md).
+-->
+
+<!--
+### Known Issues {#known-issues}
+
+This release includes the following known issue:
+
+* The users will not be able to login to Brand Portal during the migration of their existing organization to T2E. 
+
+  However, the active users will be able to continue to work untill their current session expires or the migration is complete.   
+-->
 
 <!--
 ### Known Issues {#known-issues}
