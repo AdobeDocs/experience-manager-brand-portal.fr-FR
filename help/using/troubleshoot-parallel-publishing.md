@@ -8,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
-role: Administrator
+role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 100%
@@ -37,7 +37,7 @@ Pour valider vos configurations de publication :
 
 1. Vérifiez les journaux des erreurs.
 1. Vérifiez si l’agent de réplication est créé.
-1. Testez la connexion.
+1. Test de la connexion
 
 **Fin des journaux lors de la création du Cloud Service**
 
@@ -65,7 +65,7 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 
 Si la publication échoue, cela est généralement dû au fait que l’utilisateur qui publie (`mac-<tenantid>-replication`, par exemple) ne dispose pas de la clé privée la plus récente. Il s’ensuit l’échec de la publication avec une erreur « 401 non autorisé » et aucune autre erreur n’est consignée dans les journaux des agents de réplication. Vous pouvez éviter le dépannage en créant une nouvelle configuration. Pour que la nouvelle configuration fonctionne correctement, nettoyez les éléments suivants dans la configuration d’AEM Author :
 
-1. Accédez à `localhost:4502/crx/de/` (à condition que vous exécutiez l’instance d’auteur sur localhost:4502) :\
+1. Accédez à `localhost:4502/crx/de/` (à condition que vous exécutiez l’instance d’auteur sur localhost:4502:\
    i. Supprimez `/etc/replication/agents.author/mp_replication`
 ii. Supprimez 
 `/etc/cloudservices/mediaportal/<config_name>`
