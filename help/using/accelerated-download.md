@@ -10,10 +10,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: 6e6d771e93a3b76f72548f1a3cc61d75e31342ad
-workflow-type: ht
-source-wordcount: '1049'
-ht-degree: 100%
+source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
+workflow-type: tm+mt
+source-wordcount: '1043'
+ht-degree: 99%
 
 ---
 
@@ -35,7 +35,7 @@ Pour télécharger les fichiers plus rapidement, vérifiez les points suivants 
 
 * Accédez à **[!UICONTROL Outils]** > **[!UICONTROL Télécharger]** et vérifiez que la configuration **[!UICONTROL Téléchargement rapide]** est activée dans les **[!UICONTROL Paramètres de téléchargement]**.
 * Veillez à ce que le port 33001 (TCP et UDP) soit ouvert sur le pare-feu. Pour plus d’informations sur les conditions préalables requises, consultez la [documentation du client IBM Aspera Connect](https://downloads.asperasoft.com/en/documentation/8).
-* [Installez IBM Aspera Connect 3.9.9](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) dans l’extension de votre navigateur à l’aide des droits d’administrateur.
+* [Installez IBM Aspera Connect 3.9.9](https://www.ibm.com/docs/en/aspera-connect/3.9.9) dans l’extension de votre navigateur à l’aide des droits d’administrateur.
 * Pour connaître les plates-formes prises en charge par le client de transfert Aspera, consultez le [Tableau des plates-formes prises en charge par IBM Aspera Connect](https://www.asperasoft.com/company/support/transfer-clients/).
 
 ## Domaines de téléchargement {#download-domains}
@@ -92,7 +92,7 @@ Pour télécharger des ressources plus rapidement à partir de Brand Portal :
 
 1. Par défaut, le paramètre **[!UICONTROL Téléchargement rapide]** est activé dans les **[!UICONTROL Paramètres de téléchargement]**. Par conséquent, une zone de confirmation s’affiche pour télécharger des ressources à l’aide d’IBM Aspera Connect.
 
-   Si vous téléchargez les ressources pour la première fois et qu’IBM Aspera Connect n’est pas installé dans votre navigateur ou si votre version existante est périmée, vous êtes invité à [installer l’accélérateur de téléchargement Aspera](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html).
+   Si vous téléchargez les ressources pour la première fois et qu’IBM Aspera Connect n’est pas installé dans votre navigateur ou si votre version existante est périmée, vous êtes invité à [installer l’accélérateur de téléchargement Aspera](https://www.ibm.com/docs/en/aspera-connect/3.9.9).
 
    ![](assets/aspera-not-launched.png)
 
