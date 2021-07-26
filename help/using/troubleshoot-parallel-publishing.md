@@ -10,10 +10,10 @@ topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 100%
+source-wordcount: '884'
+ht-degree: 98%
 
 ---
 
@@ -74,11 +74,11 @@ ii. Supprimez
    i. Recherchez l’utilisateur `mac-<tenantid>replication`
 ii. supprimez cet utilisateur.
 
-Le système est maintenant complètement nettoyé. Vous pouvez à présent essayer de créer  une configuration cloudservice et continuer à utiliser l’application JWT existante sur [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/). Il n’est pas nécessaire de créer une application ; seule la clé publique doit être mise à jour à partir de la configuration cloud que vous venez de créer.
+Le système est maintenant complètement nettoyé. Vous pouvez à présent essayer de créer  une configuration cloudservice et continuer à utiliser l’application JWT existante sur `https://legacy-oauth.cloud.adobe.io/`. Il n’est pas nécessaire de créer une application ; seule la clé publique doit être mise à jour à partir de la configuration cloud que vous venez de créer.
 
 ## Problème de visibilité des clients d’applications JWT sur Developer Connection {#developer-connection-jwt-application-tenant-visibility-issue}
 
-Si, sur [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/), toutes les organisations (clients) pour lesquelles les utilisateurs actuels sont hébergés par l’administrateur système sont répertoriées. Si vous n’y trouvez pas le nom de l’organisation ou si vous ne pouvez pas y créer d’application pour un client requis, vérifiez si vous possédez les droits suffisants (d’administrateur système) pour le faire.
+Si sur `https://legacy-oauth.cloud.adobe.io/`, toutes les organisations (clients) pour lesquelles les utilisateurs actuels sont hébergés par l’administrateur système sont répertoriées. Si vous n’y trouvez pas le nom de l’organisation ou si vous ne pouvez pas y créer d’application pour un client requis, vérifiez si vous possédez les droits suffisants (d’administrateur système) pour le faire.
 
 Cette interface utilisateur présente un problème connu qui fait que seules les 10 premières applications sont visibles pour n’importe quel client. Quand vous créez l’application, restez sur cette page et marquez l’URL d’un signet. Vous n’aurez ainsi pas besoin d’accéder à la page répertoriant l’application pour y trouver celle que vous avez créée. Vous pouvez utiliser directement cette URL marquée d’un signet et mettre à jour/supprimer l’application lorsque cela s’avère nécessaire.
 
