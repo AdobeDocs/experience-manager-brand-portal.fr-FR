@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: 30a97ddeda3df4714f2746cb60b5c25dae0848f1
-workflow-type: ht
-source-wordcount: '1960'
-ht-degree: 100%
+source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
+workflow-type: tm+mt
+source-wordcount: '1954'
+ht-degree: 99%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Experience Manager Assets Brand Portal améliore l’expérience de télé
 
 >[!NOTE]
 >
->Dans la version 2020.10.0 de Brand Portal (et ultérieures), le paramètre **[!UICONTROL Téléchargement rapide]** est activé par défaut, ce qui active l’utilisation d’IBM Aspera Connect pour accélérer le téléchargement des ressources. [Installez IBM Aspera Connect 3.9.9](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) dans l’extension de votre navigateur avant de télécharger les ressources à partir de Brand Portal. Pour plus d’informations, reportez-vous au [guide d’accélération des téléchargements depuis Brand Portal](../using/accelerated-download.md).
+>Dans la version 2020.10.0 de Brand Portal (et ultérieures), le paramètre **[!UICONTROL Téléchargement rapide]** est activé par défaut, ce qui active l’utilisation d’IBM Aspera Connect pour accélérer le téléchargement des ressources. [Installez IBM Aspera Connect 3.9.9](https://www.ibm.com/docs/en/aspera-connect/3.9.9) dans l’extension de votre navigateur avant de télécharger les ressources à partir de Brand Portal. Pour plus d’informations, reportez-vous au [guide d’accélération des téléchargements depuis Brand Portal](../using/accelerated-download.md).
 >
 >Si vous ne souhaitez pas utiliser IBM Aspera Connect et préférez poursuivre un processus de téléchargement normal, contactez l’administrateur de Brand Portal pour désactiver le paramètre **[!UICONTROL Téléchargement rapide]**.
 
@@ -83,7 +83,7 @@ Les administrateurs peuvent activer toutes les combinaisons de paramètres néce
 >
 >Seuls les administrateurs peuvent télécharger les ressources expirées. Pour plus d’informations sur les ressources arrivées à expiration, voir [Gestion des droits numériques des ressources](../using/manage-digital-rights-of-assets.md).
 
-### Configuration des paramètres du groupe d’utilisateurs {#configure-user-group-settings}
+### Configuration des paramètres des groupes d’utilisateurs {#configure-user-group-settings}
 
 Outre les **[!UICONTROL Paramètres de téléchargement]**, les administrateurs de Brand Portal peuvent configurer les paramètres des différents groupes d’utilisateurs pour qu’ils puissent ou non afficher ou télécharger les ressources d’origine et leurs rendus.
 
@@ -156,14 +156,14 @@ Vous trouverez ci-dessous la procédure à suivre pour télécharger des ressour
 
       >[!NOTE]
       >
-      >Si vous téléchargez les ressources pour la première fois et qu’IBM Aspera Connect n’est pas installé dans votre navigateur, vous êtes invité à [installer l’accélérateur de téléchargement Aspera](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html).
+      >Si vous téléchargez les ressources pour la première fois et qu’IBM Aspera Connect n’est pas installé dans votre navigateur, vous êtes invité à [installer l’accélérateur de téléchargement Aspera](https://www.ibm.com/docs/en/aspera-connect/3.9.9).
 
 
       >[!NOTE]
       >
       >Si les ressources que vous téléchargez comprennent également des ressources sous licence, vous êtes redirigé vers la page **[!UICONTROL Gestion des droits d’auteur]**. Dans cette page, sélectionnez les ressources, cliquez d’abord sur **[!UICONTROL Accepter]**, puis sur **[!UICONTROL Télécharger]**. Si vous choisissez de ne pas accepter, les ressources sous licence ne sont pas téléchargées.
       > 
-      >Dans le cas des ressources protégées par une licence, un [contrat de licence leur est associé](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) en définissant la [propriété de métadonnées](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) appropriée dans Experience Manager Assets.
+      >Dans le cas des ressources protégées par une licence, un [contrat de licence leur est associé](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) en définissant la [propriété de métadonnées](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) appropriée dans Experience Manager Assets.
 
 
       ![ressource-sous-licence](assets/licensed-asset-new.png)
