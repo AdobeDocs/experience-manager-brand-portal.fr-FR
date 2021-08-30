@@ -1,8 +1,8 @@
 ---
 title: Nouveautés d’AEM Assets Brand Portal
-seo-title: Nouveautés d’AEM Assets Brand Portal
+seo-title: What's new in AEM Assets Brand Portal
 description: Découvrez les nouvelles fonctionnalités et améliorations de la version 2021.06.0.
-seo-description: Découvrez les nouvelles fonctionnalités et améliorations de la version 2021.06.0.
+seo-description: Take a look at the new features and enhancements for 2021.06.0.
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -12,8 +12,8 @@ discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
 source-git-commit: 3333b15ed5ce22f54f0f2cd55b8f31ad9d9272c7
 workflow-type: tm+mt
-source-wordcount: '6143'
-ht-degree: 98%
+source-wordcount: '6126'
+ht-degree: 99%
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de con
 
 ## Changements dans la version 2021.06.0 {#what-changed-in-june-2021}
 
-Brand Portal 2021.06.0 est une version interne qui comprend des correctifs pour les problèmes critiques. Consultez les dernières [Notes de mise à jour de Brand Portal](brand-portal-release-notes.md).
+Brand Portal 2021.06.0 est une version interne qui comprend des correctifs pour les problèmes critiques. Consultez les dernières [Notes de mise à jour de Brand Portal](brand-portal-release-notes.md).
 
 <!--
 Brand Portal 2021.06.0 is an internal release for T2E migration that introduces a new workflow to facilitate orgranization specific entitlement to the Brand Portal users. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
@@ -347,7 +347,7 @@ Les utilisateurs de Brand Portal qui disposent des autorisations adéquates peu
 
 ### Publication du dossier de contribution sur AEM Assets {#publish-assets-to-aem}
 
-Une fois le transfert terminé dans le dossier **NEW**, les utilisateurs de Brand Portal peuvent republier le dossier de contribution dans AEM. L’importation des ressources ou du contenu publiés dans AEM Assets et la prise en compte de cette opération peuvent prendre quelques minutes. Voir [Publication du dossier de contribution sur AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)
+Une fois le chargement terminé dans le dossier **NEW**, les utilisateurs de Brand Portal peuvent republier le dossier de contribution dans AEM. L’importation des ressources ou du contenu publiés dans AEM Assets et la prise en compte de cette opération peuvent prendre quelques minutes. Voir [Publication du dossier de contribution sur AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)
 
 
 ![](assets/upload-asset5.png)

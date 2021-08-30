@@ -1,8 +1,8 @@
 ---
 title: Dépannage des problèmes de publication en parallèle sur Brand Portal
-seo-title: Dépannage des problèmes de publication en parallèle sur Brand Portal
+seo-title: Troubleshoot issues in parallel publishing to Brand Portal
 description: Dépannez la publication en parallèle.
-seo-description: Dépannez la publication en parallèle.
+seo-description: Troubleshoot parallel publishing.
 uuid: 51e45cca-8c96-4c69-84ef-2ef34f3bcde2
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -12,7 +12,7 @@ role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
 source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '873'
 ht-degree: 98%
 
 ---

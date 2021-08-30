@@ -1,8 +1,8 @@
 ---
 title: Gestion des utilisateurs, des groupes et des rôles utilisateur
-seo-title: Gestion des utilisateurs, des groupes et des rôles utilisateur
+seo-title: Manage users, groups, and user roles
 description: Les administrateurs peuvent utiliser Adobe Admin Console pour créer des utilisateurs et des profils de produit AEM Assets Brand Portal et gérer leurs rôles à l’aide de l’interface utilisateur de Brand Portal. Ce privilège n’est pas disponible pour les observateurs et les éditeurs.
-seo-description: Les administrateurs peuvent utiliser Adobe Admin Console pour créer des utilisateurs et des profils de produit AEM Assets Brand Portal et gérer leurs rôles à l’aide de l’interface utilisateur de Brand Portal. Ce privilège n’est pas disponible pour les observateurs et les éditeurs.
+seo-description: Administrators can use Adobe Admin Console to create AEM Assets Brand Portal users and product profiles, and manage their roles using the Brand Portal user interface. This privilege is not available to Viewers and Editors.
 uuid: 0dc1867c-6d1b-4d0d-a25e-0df207c269b8
 content-type: reference
 topic-tags: administration
@@ -12,7 +12,7 @@ role: Admin
 exl-id: 35b1fd75-f9e4-4145-80bd-84de091f8b2b
 source-git-commit: 1e6da0b6576d0314bf3b4fc3929662359f003399
 workflow-type: tm+mt
-source-wordcount: '2222'
+source-wordcount: '2181'
 ht-degree: 97%
 
 ---
