@@ -11,7 +11,7 @@ discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
 source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1298'
 ht-degree: 100%
 
@@ -62,7 +62,7 @@ Pour ajouter un prédicat de recherche au panneau **[!UICONTROL Filtres]** :
 1. Dans l’onglet **[!UICONTROL Paramètres]**, saisissez un libellé, un texte d’espace réservé et une description pour le prédicat de propriété.
 
    * Sélectionnez **[!UICONTROL Recherche partielle]** si vous souhaitez autoriser la recherche par expression partielle (et la recherche par caractères génériques) de ressources en fonction des valeurs de propriétés spécifiées. Par défaut, le prédicat prend en charge la recherche en texte intégral.
-   * Sélectionnez **[!UICONTROL Ignorer la casse ]** si vous souhaitez que la recherche de ressources en fonction des valeurs de propriétés ne soit pas sensible à la casse. Par défaut, la recherche des valeurs de propriétés dans le filtre de recherche est sensible à la casse.
+   * Sélectionnez **[!UICONTROL Ignorer la casse]** si vous souhaitez que la recherche de ressources en fonction des valeurs de propriétés ne soit pas sensible à la casse. Par défaut, la recherche des valeurs de propriétés dans le filtre de recherche est sensible à la casse.
 
    >[!NOTE]
    >
