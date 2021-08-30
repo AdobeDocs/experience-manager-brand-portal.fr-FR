@@ -12,7 +12,7 @@ discoiquuid: 393025b4-722d-4e81-8a47-f83415d0b9b6
 role: Admin
 exl-id: 27a9cd26-9bb3-473b-b1ac-37f77975c912
 source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '302'
 ht-degree: 100%
 
@@ -30,10 +30,10 @@ ht-degree: 100%
 
 ## Autoriser l’accès des invités {#allow-guest-access}
 
-Autoriser l’accès d’invité permet aux utilisateurs d’accéder aux ressources publiques sans avoir à se connecter à Brand Portal.
+Autoriser l’accès des invités permet aux utilisateurs d’accéder aux ressources publiques sans avoir à se connecter à Brand Portal.
 Pour autoriser ce type d’accès, l’administrateur doit procéder comme suit :
 
-1. Sélectionner le logo AEM pour accéder aux outils d’administration dans la barre d’outils supérieure.
+1. Sélectionnez le logo AEM pour accéder aux outils d’administration dans la barre d’outils supérieure.
 1. À partir du panneau des outils d’administration, sélectionnez **[!UICONTROL Accès]** pour ouvrir la page **[!UICONTROL Paramètres d’accès]**.
 1. Activez la configuration **[!UICONTROL Autoriser l’accès des invités]**.
 1. **[!UICONTROL Enregistrez]** les modifications.
@@ -47,7 +47,7 @@ Les administrateurs peuvent autoriser les utilisateurs de l’entreprise à dema
 
 Pour autoriser les utilisateurs de l’entreprise à demander l’accès à Brand Portal, les administrateurs doivent procéder comme suit :
 
-1. Sélectionner le logo AEM pour accéder aux outils d’administration dans la barre d’outils supérieure.
+1. Sélectionnez le logo AEM pour accéder aux outils d’administration dans la barre d’outils supérieure.
 1. À partir du panneau des outils d’administration, sélectionnez **[!UICONTROL Accès]** pour ouvrir la page **[!UICONTROL Paramètres d’accès]**.
 1. Activez la configuration **[!UICONTROL Autoriser les utilisateurs à demander l’accès]**.
 1. **[!UICONTROL Enregistrez]** les modifications.
