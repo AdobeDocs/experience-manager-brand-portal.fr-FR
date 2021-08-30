@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 source-git-commit: 54af86b96ef3c3cfe3b1c0db7772d369cac9bb71
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '327'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Découvrez les fonctionnalités, les améliorations, les problèmes critiques r�
 | Produit | Adobe Experience Manager Assets Brand Portal |
 |---|---|
 | Version | 2021.06.0 |
-| Date  |  juin 2021 |
+| Date  | Juin 2021 |
 
 ## Présentation {#overview}
 
@@ -95,13 +95,13 @@ This release includes the following enhancements:
 
 ### Problèmes critiques résolus {#critical-issues-fixed}
 
-Brand Portal 2021.06.0 est une version interne qui comprend des correctifs pour les problèmes critiques suivants :
+Brand Portal 2021.06.0 est une version interne qui comprend des correctifs pour les problèmes critiques suivants :
 
 * Les notifications par e-mail d’approvisionnement des ressources ne sont pas diffusées pour certaines organisations.
 
 * Les fichiers vidéo avec l’extension .mov ne sont pas exécutés sur Brand Portal.
 
-* Dans la liste déroulante Collections dynamiques , seules 10 collections enregistrées sont visibles.
+* Dans la liste déroulante Collections dynamiques, seules 10 collections enregistrées sont visibles.
 
 <!--
 * *_deleted tenants are listed as valid tenant which fails during the execution of TenantCustomizers/TenantUpdates where tenant id is returned as /etc/tenants/`<nodename>`.
