@@ -9,7 +9,7 @@ user-guide-description: Utilisez AEM Assets Brand Portal pour répondre aux beso
 feature: Brand Portal
 role: User
 source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '281'
 ht-degree: 100%
 
