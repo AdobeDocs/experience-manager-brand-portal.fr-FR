@@ -1,8 +1,8 @@
 ---
 title: Partage de ressources en tant que lien
-seo-title: Partage de ressources en tant que lien
+seo-title: Share assets as a link
 description: Les administrateurs d’AEM Assets Brand Portal peuvent partager des liens de plusieurs ressources avec des utilisateurs internes autorisés et des tiers, notamment des partenaires et des fournisseurs. Les éditeurs peuvent uniquement afficher et partager les ressources partagées avec eux.
-seo-description: Les administrateurs d’AEM Assets Brand Portal peuvent partager des liens de plusieurs ressources avec des utilisateurs internes autorisés et des tiers, notamment des partenaires et des fournisseurs. Les éditeurs peuvent uniquement afficher et partager les ressources partagées avec eux.
+seo-description: AEM Assets Brand Portal Administrators can share links of multiple assets with authorized internal users and external entities, including partners and vendors. Editors can view and share only the assets shared with them.
 uuid: 8889ac24-c56d-4a47-b792-80c34ffb5c3f
 contentOwner: bdhar
 content-type: reference
@@ -10,10 +10,10 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
-source-git-commit: a7cd98a48a92f45e439577c352c8b399d24912a9
-workflow-type: ht
-source-wordcount: '1013'
-ht-degree: 100%
+source-git-commit: b1f72b060b88f1de0a16d75319f21f02a4b72915
+workflow-type: tm+mt
+source-wordcount: '965'
+ht-degree: 98%
 
 ---
 
@@ -27,10 +27,6 @@ Le partage des ressources par le biais d’un lien est un moyen pratique pour me
 -->
 
 Pour plus d’informations, voir [Gestion des utilisateurs, des groupes et des rôles utilisateur](../using/brand-portal-adding-users.md#manage-user-roles).
-
->[!NOTE]
->
->La fonctionnalité de partage de lien de Brand Portal permet de télécharger jusqu’à 5 Go de fichiers compressés.
 
 
 Vous trouverez ci-dessous la procédure à suivre pour partager des ressources sous forme de lien :
@@ -107,7 +103,7 @@ Pour télécharger les ressources partagées :
 
 >[!NOTE]
 >
->Brand Portal limite le téléchargement des ressources dont la taille de fichier est supérieure à 5 Go.
+>Brand Portal limite le téléchargement des ressources dont la taille est supérieure à **1** Go par taille de fichier à l’aide du partage de lien.
 
 <!--
 1. The **[!UICONTROL Download]** dialog box appears.
@@ -128,9 +124,6 @@ Pour télécharger les ressources partagées :
 
 1. Click **[!UICONTROL Download]**. The assets (and renditions if selected) are downloaded as a ZIP file to your local folder. However, no zip file is created if a single asset is downloaded without any of the renditions, thereby ensuring speedy download.
 
->[!NOTE]
->
->Brand Portal restricts downloading assets larger than 5GB per file size.
 -->
 
 ## Prise en charge des aperçus et des miniatures pour les formats de ressource {#preview-thumbnail-support}
