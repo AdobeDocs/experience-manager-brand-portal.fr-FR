@@ -1,8 +1,8 @@
 ---
 title: Accélération des téléchargements de Brand Portal
-seo-title: Accélération des téléchargements de Brand Portal
+seo-title: Speed up the Brand Portal downloads
 description: Améliorez les performances de téléchargement à partir de Brand Portal et des liens partagés.
-seo-description: Améliorez les performances de téléchargement à partir de Brand Portal et des liens partagés.
+seo-description: Enhance download performance from Brand Portal and the shared links.
 uuid: 2871137e-6471-49a7-872a-841bd92543d1
 contentOwner: mgulati
 topic-tags: download-install
@@ -11,8 +11,8 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
 source-git-commit: 3333b15ed5ce22f54f0f2cd55b8f31ad9d9272c7
-workflow-type: tm+mt
-source-wordcount: '1033'
+workflow-type: ht
+source-wordcount: '1017'
 ht-degree: 100%
 
 ---
@@ -55,7 +55,7 @@ Le tableau suivant affiche les performances de téléchargement obtenues pour un
 
 *Les résultats observés varient en fonction de facteurs tels que la bande passante du réseau, la latence du serveur et l’emplacement du client, en sachant que le serveur Brand Portal se situe dans l’État de l’Oregon aux États-Unis.*
 
-| Emplacement du client | Latence entre le client et le serveur (millisecondes) | Vitesse mesurée avec l’accélérateur de transfert de fichiers d’Aspera Connect (Mbit/s) | Temps nécessaire pour télécharger un fichier de 2 Go avec l’accélérateur de transfert de fichiers Aspera (en secondes) |
+| Emplacement du client | Latence entre le client et le serveur  (millisecondes) | Vitesse mesurée avec l’accélérateur de transfert de fichiers d’Aspera Connect (Mbit/s) | Temps nécessaire pour télécharger un fichier de 2 Go avec l’accélérateur de transfert de fichiers Aspera (en secondes) |
 |---------------------------|-----------------------------------|---------------------------------------------|-------------------------------------------------------------------------|
 | Ouest des États-Unis (Californie du Nord) | 18 | 36 | 57 |
 | Ouest des États-Unis (Oregon) | 42 | 36 | 57 |
