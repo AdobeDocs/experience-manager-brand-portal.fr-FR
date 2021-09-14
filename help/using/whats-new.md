@@ -626,7 +626,7 @@ Les configurations ci-dessus sont disponibles sous Accès et Paramètres génér
 
 ### Interface utilisateur Adobe I/O pour configurer les intégrations OAuth
 
-À compter de la version 6.4.2, Brand Portal utilise l’interface OAuth héritée (`https://legacy-oauth.cloud.adobe.io/`) pour créer l’application JWT qui permet de configurer les intégrations oAuth de manière à permettre l’intégration d’AEM Assets à Brand Portal. Auparavant, l’IU de configuration des intégrations OAuth était hébergée à l’adresse `https://marketing.adobe.com/developer/`. Pour en savoir plus sur l’intégration d’AEM Assets à Brand Portal pour publier des ressources et des collections sur Brand Portal, consultez [Configuration de l’intégration d’AEM Assets à Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html).
+À compter de la version 6.4.2, Brand Portal utilise l’interface Legacy OAuth (`https://legacy-oauth.cloud.adobe.io/`) pour créer l’application JWT qui rend possible la configuration des intégrations OAuth de façon à permettre l’intégration d’AEM Assets à Brand Portal. Auparavant, l’IU de configuration des intégrations OAuth était hébergée à l’adresse `https://marketing.adobe.com/developer/`. Pour en savoir plus sur l’intégration d’AEM Assets à Brand Portal pour publier des ressources et des collections sur Brand Portal, consultez [Configuration de l’intégration d’AEM Assets à Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html).
 
 ## Améliorations de la recherche
 
@@ -680,7 +680,7 @@ Brand Portal 6.4.1 est une version de mise à niveau de la plate-forme qui con
 * Un seul fichier volumineux est directement téléchargé, sans créer de fichier compressé, afin d’améliorer la vitesse et le débit.
 * La limite de téléchargement par taille de fichier pour la fonction de partage de lien est de **1** Go.
 
-* Les utilisateurs peuvent maintenant choisir de télécharger uniquement les fichiers personnalisés et originaux et de bloquer les rendus prêts à l’emploi, lors du téléchargement de ressources à partir de Brand Portal ou via la fonctionnalité de liens partagés.
+* Les utilisateurs peuvent maintenant choisir de télécharger uniquement les fichiers personnalisés et originaux  et de bloquer les rendus prêts à l’emploi, lors du téléchargement de ressources à partir de Brand Portal ou via la fonctionnalité de liens partagés.
 
 ![](assets/excludeautorendition.png)
 
@@ -695,11 +695,13 @@ Brand Portal 6.4.1 est une version de mise à niveau de la plate-forme qui con
 ### Amélioration des fonctionnalités de création de rapports
 
 **Ajout du rapport Partage de liens**
+
 Introduction d’un nouveau rapport afin de fournir des informations sur les liens partagés. Le rapport Partage de liens répertorie toutes les URL vers les ressources partagées avec des utilisateurs internes et externes à l’organisation pendant la période spécifiée. Il indique également si le lien a été partagé, par qui et sa date d’expiration.
 
 ![](assets/navigatereport.png)
 
 **Modification du point d’entrée pour accéder au rapport d’utilisation**
+
 Le rapport d’utilisation est maintenant consolidé avec d’autres rapports. Il est désormais consultable dans la console Rapports de ressources. Pour accéder à la console Rapports de ressources, naviguez jusqu’à **Créer/gérer des rapports** dans le panneau des outils d’administration.
 
 ![](assets/accessassetreport.png)
