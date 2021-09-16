@@ -1,15 +1,14 @@
 ---
 cloud: Experience Cloud
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-brand-portal.fr-FR
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Assets
 feature-set: Experience Manager Assets
 type: Documentation
 index: y
-translation-type: ht
-source-git-commit: 0240080cf98fa0c1ba12dbcc9df17b2836064847
-workflow-type: ht
-source-wordcount: '111'
-ht-degree: 100%
+source-git-commit: 3cecf26345fee25c60b5e4bf7063a30da28de2a6
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +21,7 @@ Le fichier metadata.md comprend des métadonnées de niveau référentiel qui tr
 |--- |--- |
 | solution-title | Utilisé dans l’en-tête de l’article en tant que lien. |
 | solution-hub-url | Ouvre la page hub helpx. |
-| solution-icon | Affiche l’icône de solution en regard du titre de la solution. Pas encore implémenté |
+| solution-icon | Affiche l’icône de solution en regard du titre de la solution. Pas encore implémenté. |
 | getting-started-url | Lien vers la page de démarrage helpx. |
 | tutorials-url | Lien vers les tutoriels vidéo : tutoriels helpx ou KT. |
 | mini-toc-levels | Détermine le nombre de niveaux d’en-tête qui apparaissent dans le rail droit. La valeur par défaut est 2. |
