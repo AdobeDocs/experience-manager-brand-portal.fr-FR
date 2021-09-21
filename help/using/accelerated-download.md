@@ -10,10 +10,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: 3333b15ed5ce22f54f0f2cd55b8f31ad9d9272c7
-workflow-type: ht
-source-wordcount: '1017'
-ht-degree: 100%
+source-git-commit: f5b5840897b3975631e072744a01fedb624379ff
+workflow-type: tm+mt
+source-wordcount: '1037'
+ht-degree: 92%
 
 ---
 
@@ -37,6 +37,10 @@ Pour télécharger les fichiers plus rapidement, vérifiez les points suivants 
 * Veillez à ce que le port 33001 (TCP et UDP) soit ouvert sur le pare-feu. Pour plus d’informations sur les conditions préalables requises, consultez la [documentation du client IBM Aspera Connect](https://downloads.asperasoft.com/en/documentation/8).
 * **Installez IBM Aspera Connect 3.9.9** dans l’extension de votre navigateur à l’aide des droits d’administrateur (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
 * Pour connaître les plates-formes prises en charge par le client de transfert Aspera, consultez le [Tableau des plates-formes prises en charge par IBM Aspera Connect](https://www.asperasoft.com/company/support/transfer-clients/).
+
+>[!NOTE]
+>
+>Il existe un problème connu avec IBM Aspera Connect. Le téléchargement rapide ne fonctionne pas avec les versions 3.10 et ultérieures d’IBM Aspera Connect.
 
 ## Domaines de téléchargement {#download-domains}
 
@@ -92,7 +96,7 @@ Pour télécharger des ressources plus rapidement à partir de Brand Portal :
 
 1. Par défaut, le paramètre **[!UICONTROL Téléchargement rapide]** est activé dans les **[!UICONTROL Paramètres de téléchargement]**. Par conséquent, une zone de confirmation s’affiche pour télécharger des ressources à l’aide d’IBM Aspera Connect.
 
-   Si vous téléchargez les ressources pour la première fois et qu’IBM Aspera Connect n’est pas installé dans votre navigateur ou si votre version existante est périmée, vous êtes invité à installer l’accélérateur de téléchargement Aspera (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
+   Si vous téléchargez les ressources pour la première fois et qu’IBM Aspera Connect n’est pas installé dans votre navigateur ou que la version existante est obsolète, vous êtes invité à installer l’accélérateur de téléchargement Aspera (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
 
    ![](assets/aspera-not-launched.png)
 
@@ -208,7 +212,7 @@ Si l’accélération des téléchargements ne fonctionne pas, suivez ces étape
 
    Si les ports ne sont pas ouverts, demandez à votre équipe réseau de veiller à ce que les ports 33001 (à la fois TCP et UDP) ne soient pas bloqués dans le pare-feu.
 
-1. Si les ports sont ouverts, vérifiez que votre réseau n’est pas trop lent en mesurant la bande passante disponible à l’aide de [https://www.speedtest.net/](https://www.speedtest.net/).
+1. Si les ports sont ouverts, vérifiez si votre réseau n’est pas lent en mesurant la bande passante disponible à l’aide de [https://www.speedtest.net/](https://www.speedtest.net/).
 
    Si la bande passante est faible (1 à 10 Mbit/s) ou en Kbit/s, utilisez les Préférences Aspera et essayez de limiter la bande passante en fonction de celle disponible.
 
