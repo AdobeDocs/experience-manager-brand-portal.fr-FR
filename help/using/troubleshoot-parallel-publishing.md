@@ -10,8 +10,8 @@ topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
-source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
-workflow-type: ht
+source-git-commit: fa346d075c6f8c5bd7aeed2318932b1747c388c2
+workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 100%
 
@@ -123,6 +123,7 @@ En fonction des erreurs, nous vous conseillons de soumettre un ticket d’assist
 En règle générale, la tâche de publication échoue avec une erreur de délai d’expiration si plusieurs requêtes en attente se trouvent dans la file d’attente de réplication. Pour résoudre ce problème, assurez-vous que les agents de réplication sont configurés pour éviter l’expiration.
 
 Effectuez les étapes suivantes pour configurer les agents de réplication :
+
 1. Connectez-vous à votre instance d’auteur AEM Assets.
 1. Dans le panneau **Outils**, accédez à **[!UICONTROL Déploiement]** > **[!UICONTROL Réplication]**.
 1. Sur la page Réplication, cliquez sur **[!UICONTROL Agents sur l’auteur]**. Vous voyez les quatre agents de réplication de votre client Brand Portal.
