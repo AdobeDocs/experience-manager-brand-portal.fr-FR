@@ -1,27 +1,27 @@
 ---
 title: Accès des invités à Brand Portal
-seo-title: Accès des invités à Brand Portal
-description: Autorisez l’accès des invités et économisez les efforts d’intégration de nombreux utilisateurs qui n’ont pas besoin d’être authentifiés.
-seo-description: Autorisez l’accès des invités et économisez les efforts d’intégration de nombreux utilisateurs qui n’ont pas besoin d’être authentifiés.
+seo-title: Guest Access to Brand Portal
+description: Autorisez l’accès des invités et économisez les efforts d’intégration de nombreux utilisateurs sans authentification.
+seo-description: Allow guest access and save the effort to onboard numerous users without authentication.
 uuid: edb4378d-1710-44a2-97a6-594d99f62fff
-contentOwner: mgulati
+contentOwner: VG
 topic-tags: introduction
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: e7877973da87362c5fddd6c3aa8135719eff044a
 workflow-type: tm+mt
-source-wordcount: '1029'
-ht-degree: 100%
+source-wordcount: '998'
+ht-degree: 80%
 
 ---
 
 # Accès des invités à Brand Portal {#guest-access-to-brand-portal}
 
-AEM Brand Portal permet à des invités d’accéder au portail. Un utilisateur invité n’a pas besoin d’identifiants pour accéder au portail et a accès aux ressources (et aux collections) publiques du portail. Les utilisateurs se trouvant dans une session d’invité peuvent ajouter des ressources à leur Lightbox (collection privée) et les télécharger jusqu’au terme de leur session qui dure deux heures, à moins que l’utilisateur invité choisisse de [[!UICONTROL Terminer la session]](#exit-guest-session).
+Experience Manager Assets Brand Portal permet aux invités d’accéder au portail. Un utilisateur invité n’a pas besoin d’informations d’identification pour accéder au portail et a accès aux ressources (et collections) publiques du portail. Les utilisateurs de la session d’invité peuvent ajouter des ressources à Lightbox (collection privée) et les télécharger jusqu’au terme de leur session, qui dure deux heures, à moins que l’utilisateur invité choisisse de [[!UICONTROL Terminer la session]](#exit-guest-session).
 
-La fonctionnalité d’accès des invités permet aux entreprises de [partager rapidement les ressources approuvées](../using/brand-portal-sharing-folders.md#how-to-share-folders) avec l’audience prévue à grande échelle sans avoir besoin d’une intégration. À compter de la version 6.4.2, Brand Portal est capable de servir plusieurs utilisateurs invités simultanés sans dépasser 10 % du nombre total d’utilisateurs par entreprise. Autoriser l’accès des invités permet de gagner du temps dans le cadre de la gestion et de l’intégration de nombreux utilisateurs qui doivent utiliser des fonctionnalités limitées sur Brand Portal.\
+La fonctionnalité d’accès des invités permet aux entreprises de [partager rapidement les ressources approuvées](../using/brand-portal-sharing-folders.md#how-to-share-folders) avec l’audience prévue à grande échelle sans avoir besoin d’une intégration. À compter de la version 6.4.2, Brand Portal est capable de servir plusieurs utilisateurs invités simultanés sans dépasser 10 % du nombre total d’utilisateurs par entreprise. Permettre l’accès des invités permet de gagner du temps pour gérer et intégrer de nombreux utilisateurs avec des fonctionnalités limitées dans Brand Portal.\
 Les entreprises peuvent activer (ou désactiver) l’accès des invités à leur compte à l’aide de l’option **[!UICONTROL Autoriser l’accès des invités]** dans les paramètres **[!UICONTROL Accès]** du panneau des outils d’administration.
 
 <!--
@@ -35,7 +35,7 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 ## Démarrage d’une session d’invité {#begin-guest-session}
 
-Pour accéder à Brand Portal de manière anonyme, sélectionnez **[!UICONTROL Cliquez ici]** en regard de **[!UICONTROL Accès d’invité ?]** sur l’écran de bienvenue de Brand Portal. Saisissez la réponse à la vérification de sécurité captcha pour obtenir l’accès à Brand Portal.
+Pour accéder à Brand Portal de manière anonyme, sélectionnez **[!UICONTROL Cliquez ici]** en regard de **[!UICONTROL Accès d’invité ?]** sur l’écran de bienvenue de Brand Portal. Saisissez le captcha de contrôle de sécurité pour accorder l&#39;accès à l&#39;utilisation de Brand Portal.
 
 ![](assets/bp-login-screen.png)
 
@@ -45,11 +45,11 @@ Pour accéder à Brand Portal de manière anonyme, sélectionnez **[!UICONTROL 
 Une session d’utilisateur invité reste active pendant 15 minutes.
 L’état de **[!UICONTROL Lightbox]** est ainsi conservé jusqu’à 15 min à compter du début de la session. Après cela, la session d’invité en cours redémarre et l’état de Lightbox est donc perdu.
 
-Par exemple, un utilisateur invité se connecte à Brand Portal à 15 h 00 et ajoute des ressources dans **[!UICONTROL Lightbox]** pour un téléchargement à 15 h 05. Si l’utilisateur ne télécharge pas la collection **[!UICONTROL Lightbox]** (ou ses ressources) avant 15 h 15 (dans les 15 minutes qui suivent la connexion), il devra redémarrer la session. **[!UICONTROL Lightbox]** sera alors vide, ce qui signifie que les ressources téléchargées ne seront plus disponibles si la session a été perdue.
+Par exemple, un utilisateur invité se connecte à Brand Portal à 15 h 00 et ajoute des ressources dans **[!UICONTROL Lightbox]** pour un téléchargement à 15 h 05. Si l’utilisateur ne télécharge pas la collection **[!UICONTROL Lightbox]** (ou ses ressources) avant 15 h 15 (dans les 15 minutes qui suivent la connexion), il doit redémarrer la session. **[!UICONTROL Lightbox]** est vide, ce qui signifie que les ressources chargées ne sont plus disponibles si la session a été perdue.
 
 ## Sessions d’invités simultanées permises {#concurrent-guest-sessions-allowed}
 
-Le nombre de sessions d’invités simultanées est limité à 10 % du nombre total d’utilisateurs pour chaque entreprise. Pour une société disposant de 200 utilisateurs, un maximum de 20 utilisateurs invités peuvent ainsi travailler en même temps. Le 21e utilisateur se voit refuser l’accès et ne peut donc bénéficier d’un accès invité que si la session de l’un des 20 utilisateurs invités actifs se termine.
+Le nombre de sessions d’invités simultanées est limité à 10 % du nombre total d’utilisateurs pour chaque entreprise. Cela signifie que pour une organisation disposant d’un quota d’utilisateurs de 200, 20 utilisateurs invités au maximum peuvent travailler en même temps. Le 21e utilisateur se voit refuser l’accès et ne peut donc bénéficier d’un accès invité que si la session de l’un des 20 utilisateurs invités actifs se termine.
 
 ## Interaction des utilisateurs invités avec Brand Portal {#guest-user-interaction-with-brand-portal}
 
@@ -83,11 +83,12 @@ Brand Portal fournit aux utilisateurs invités l’option **[!UICONTROL Aperçu
 
 * dans la barre d’outils supérieure lors de la sélection d’une ressource/d’un dossier ;
 * dans le menu déroulant, lors de la sélection du sélecteur de rail.
+
 S’ils choisissent l’option **[!UICONTROL Aperçu]** lorsqu’une ressource/un dossier est sélectionné, les utilisateurs peuvent voir le titre, le chemin et l’heure de création de la ressource. En revanche, sur la page des détails de la ressource, l’option **[!UICONTROL Aperçu]** permet aux utilisateurs d’afficher les métadonnées de la ressource.
 
 ![](assets/overview-option-1.png)
 
-![](assets/overview-rail-selector-1.png)<br />
+![](assets/overview-rail-selector-1.png)
 
 L’option **[!UICONTROL Navigation]** dans le rail de gauche permet de naviguer des fichiers aux collections, et inversement, lors d’une session d’invité afin de permettre aux utilisateurs de parcourir les ressources dans les fichiers ou les collections.
 
