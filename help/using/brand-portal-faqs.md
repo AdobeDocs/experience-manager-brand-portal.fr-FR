@@ -10,10 +10,10 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
-source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
-workflow-type: ht
-source-wordcount: '1482'
-ht-degree: 100%
+source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+workflow-type: tm+mt
+source-wordcount: '1480'
+ht-degree: 99%
 
 ---
 
@@ -38,7 +38,7 @@ Les FAQ Brand Portal sont axées sur les questions et problèmes que les utilis
 
 **Réponse :** Oui, un problème connu se produit lors de la publication des ressources du dossier de contribution dans AEM Assets sur AEM 6.5.4 via Adobe Developer Console.
 
-Le problème a été corrigé dans AEM 6.5.5. Vous pouvez mettre à niveau votre instance AEM Assets vers le Service Pack le plus récent, AEM 6.5.5, et [mettre à niveau vos configurations](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) sur Adobe Developer Console.
+Le problème a été corrigé dans AEM 6.5.5. Vous pouvez mettre à niveau votre instance AEM Assets vers le Service Pack le plus récent, AEM 6.5.5, et [mettre à niveau vos configurations](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) sur Adobe Developer Console.
 
 <!--
 Broken link of download hotfix, comment out this section until we have the latest URL.
@@ -58,6 +58,7 @@ Ce problème peut se produire lorsque vous avez configuré un client Brand Porta
 **Réponse :** En règle générale, la tâche de publication échoue avec une erreur de délai d’expiration si plusieurs requêtes en attente se trouvent dans la file d’attente de réplication. Pour résoudre ce problème, assurez-vous que les agents de réplication sont configurés pour éviter l’expiration.
 
 Effectuez les étapes suivantes pour configurer l’agent de réplication :
+
 1. Connectez-vous à votre instance d’auteur AEM Assets.
 1. Dans le panneau **Outils**, accédez à **[!UICONTROL Déploiement]** > **[!UICONTROL Réplication]**.
 1. Sur la page Réplication, cliquez sur **[!UICONTROL Agents sur l’auteur]**. Vous voyez les quatre agents de réplication pour votre client Brand Portal.

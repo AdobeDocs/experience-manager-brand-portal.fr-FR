@@ -1,8 +1,8 @@
 ---
 title: Recherche de ressources sur Brand Portal
-seo-title: Recherche de ressources et recherche enregistrée sur AEM Brand Portal
+seo-title: Asset searching and saved search on AEM Brand Portal
 description: La fonctionnalité de recherche de Brand Portal vous permet de rechercher rapidement des ressources appropriées au moyen de l’omni-recherche. Les filtres de recherche vous permettent d’affiner encore davantage votre recherche. Enregistrez vos recherches sous la forme de collections dynamiques pour une utilisation ultérieure.
-seo-description: La fonctionnalité de recherche de Brand Portal vous permet de rechercher rapidement des ressources appropriées au moyen de l’omni-recherche. Les filtres de recherche vous permettent d’affiner encore davantage votre recherche. Enregistrez vos recherches sous la forme de collections dynamiques pour une utilisation ultérieure.
+seo-description: Brand Portal search capability lets you quickly search for relevant assets using omnisearch, and search filters help you further narrow down your search. Save your searches as smart collections for future.
 uuid: c2955198-bdc0-4853-a13a-661e6a9ec61f
 contentOwner: bdhar
 content-type: reference
@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1123'
 ht-degree: 100%
 
 ---
@@ -45,11 +45,11 @@ Pour rechercher des ressources sur Brand Portal :
 
 Pour en savoir plus sur le comportement de la recherche avec des ressources avec balisage intelligent, consultez la section traitant de la [présentation du comportement et des résultats de recherche](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/search-assets.html).
 
-## Recherche à l’aide des facettes du panneau Filtres {#search-using-facets-in-filters-panel}
+## Recherche à l’aide des facettes du panneau Filtres   {#search-using-facets-in-filters-panel}
 
 Les facettes de recherche du panneau Filtres ajoutent de la granularité à votre expérience de recherche et optimisent la fonctionnalité de recherche. Elles utilisent plusieurs dimensions (prédicats) qui vous permettent d’effectuer des recherches complexes. Vous pouvez facilement descendre dans la hiérarchie jusqu’au niveau de détail souhaité pour effectuer une recherche plus précise.
 
-Par exemple, si vous recherchez une image, vous pouvez indiquer si vous souhaitez une image bitmap ou vectorielle. Vous pouvez réduire davantage l’étendue de la recherche en spécifiant le type MIME de l’image dans la facette de recherche Type de fichier. De même, lors de la recherche de documents, vous pouvez spécifier le format, par exemple PDF ou MS Word.<br />
+Par exemple, si vous recherchez une image, vous pouvez indiquer si vous souhaitez une image bitmap ou vectorielle. Vous pouvez réduire davantage la portée de la recherche en spécifiant le type MIME de l’image dans la facette de recherche Type de fichier. De même, lors de la recherche de documents, vous pouvez spécifier le format, par exemple PDF ou MS Word.
 
 ![Panneau Filtres dans Brand Portal](assets/file-type-search.png "Panneau Filtres dans Brand Portal")
 

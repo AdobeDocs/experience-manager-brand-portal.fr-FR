@@ -1,13 +1,13 @@
 ---
 title: Guide d’Adobe Experience Manager Assets Brand Portal
-seo-title: Guide d’Adobe Experience Manager Assets Brand Portal
+seo-title: Adobe Experience Manager Assets Brand Portal Guide
 description: Guide d’Adobe Experience Manager Assets Brand Portal
-seo-description: Décrit comment utiliser Brand Portal
+seo-description: Describes how to use Brand Portal
 exl-id: bc9a7ab7-4d43-4004-94b3-b2c9eadad9e3
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 100%
+source-wordcount: '345'
+ht-degree: 98%
 
 ---
 
@@ -49,4 +49,4 @@ Ce guide de l’utilisateur présente des informations sur les offres Brand Por
 
 ### Ressources utiles
 
-* [Présentation de Brand Portal avec AEM Assets](https://docs.adobe.com/content/help/fr-FR/experience-manager-brand-portal/using/home.html)
+* [Présentation de Brand Portal avec AEM Assets](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)

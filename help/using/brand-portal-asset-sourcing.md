@@ -17,10 +17,10 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: 88526c235a12d47f5cbb5f442683f8b0ac2f21e5
-workflow-type: ht
-source-wordcount: '628'
-ht-degree: 100%
+source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+workflow-type: tm+mt
+source-wordcount: '626'
+ht-degree: 98%
 
 ---
 
@@ -53,7 +53,7 @@ En outre, toutes les fonctionnalités existantes restent inchangées. Les utilis
 >
 >Il existe un problème connu dans AEM Assets 6.5.4. Les utilisateurs de Brand Portal ne peuvent pas publier les ressources du dossier de contribution dans AEM Assets lors de la mise à niveau vers Adobe Developer Console.
 >
->Le problème a été corrigé dans AEM 6.5.5. Vous pouvez mettre à niveau votre instance AEM Assets vers le Service Pack le plus récent, AEM 6.5.5, et [mettre à niveau vos configurations](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) sur Adobe Developer Console.
+>Le problème a été corrigé dans AEM 6.5.5. Vous pouvez mettre à niveau votre instance AEM Assets vers le Service Pack le plus récent, AEM 6.5.5, et [mettre à niveau vos configurations](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) sur Adobe Developer Console.
 
 <!--
 
@@ -117,6 +117,7 @@ Un dossier de contribution peut uniquement être partagé avec les utilisateurs 
 Les administrateurs peuvent ajouter de nouveaux utilisateurs dans AEM Admin Console. Pour plus d’informations, voir [Gestion des utilisateurs](brand-portal-adding-users.md). Une fois des utilisateurs ajoutés dans Admin Console, ceux-ci peuvent être ajoutés au fichier de configuration des utilisateurs de Brand Portal, puis se voir attribuer l’autorisation d’accéder au dossier de contribution.
 
 **Pour charger la liste des utilisateurs de Brand Portal, procédez comme suit :**
+
 1. Connectez-vous à votre instance AEM Assets.
 1. Dans le panneau **Outils**, accédez à **[!UICONTROL Ressources]** > **[!UICONTROL Utilisateurs Brand Portal]**.
 
