@@ -10,10 +10,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
-source-git-commit: e7877973da87362c5fddd6c3aa8135719eff044a
+source-git-commit: 51dc6f9c3b3a59751d7910513279e52906d97b88
 workflow-type: tm+mt
-source-wordcount: '998'
-ht-degree: 80%
+source-wordcount: '1026'
+ht-degree: 78%
 
 ---
 
@@ -50,6 +50,10 @@ Par exemple, un utilisateur invité se connecte à Brand Portal à 15 h 00 et
 ## Sessions d’invités simultanées permises {#concurrent-guest-sessions-allowed}
 
 Le nombre de sessions d’invités simultanées est limité à 10 % du nombre total d’utilisateurs pour chaque entreprise. Cela signifie que pour une organisation disposant d’un quota d’utilisateurs de 200, 20 utilisateurs invités au maximum peuvent travailler en même temps. Le 21e utilisateur se voit refuser l’accès et ne peut donc bénéficier d’un accès invité que si la session de l’un des 20 utilisateurs invités actifs se termine.
+
+>[!NOTE]
+>
+>Brand Portal n’envoie pas de notification si le nombre d’utilisateurs sous licence dépasse la valeur convenue (quota). En outre, elle ne limite aucune activité des utilisateurs sous licence.
 
 ## Interaction des utilisateurs invités avec Brand Portal {#guest-user-interaction-with-brand-portal}
 
