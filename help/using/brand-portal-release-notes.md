@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+source-git-commit: 67a745fed6a13cfdb30e26062eecc3c8d1775e36
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '485'
 ht-degree: 55%
 
 ---
@@ -213,6 +213,6 @@ Ces sites sont réservés aux clients. Si vous êtes client et avez besoin d’u
 * [https://daycare.day.com](https://daycare.day.com) 
 -->
 
-* [Accès aux produits](https://login.marketing.adobe.com)
-
-* [Assistance clientèle](https://helpx.adobe.com/fr/contact.html)
+<!--
+* [Customer Support](https://helpx.adobe.com/contact.html)
+-->
