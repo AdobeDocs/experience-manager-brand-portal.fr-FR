@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: d5e39edc43d6d405e96edc76cbd1357ade58ea89
+source-git-commit: a2a6eb19fb5405f59e3c88182c2a9c15f2bb4183
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 64%
+source-wordcount: '396'
+ht-degree: 63%
 
 ---
 
@@ -100,8 +100,8 @@ This release includes the following enhancements:
 
 Cette version comprend des correctifs pour les problèmes critiques suivants :
 
-* Les ressources publiées à partir de Brand Portal ne s’affichent pas dans les ressources Experience Manager pour un dossier de contribution particulier.
-* La valeur **[!UICONTROL totalUploadSize]** d’un client Brand Portal n’est pas réduite lorsqu’un dossier de contribution est dépublié.
+* Les ressources d’un dossier de contribution de la même taille ne sont pas publiées de Brand Portal vers les ressources du Experience Manager.
+* La taille d’un dossier de contribution de ressources n’est pas réduite lorsque le dossier de contribution est dépublié.
 * Les utilisateurs ne peuvent pas supprimer le profil de schéma de métadonnées appliqué d’un dossier.
 * Le nombre de groupes sur la page des autorisations utilisateur est incorrect.
 * La page Collections prend trop de temps lors de la navigation dans la liste.
