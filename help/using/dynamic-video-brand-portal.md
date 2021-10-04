@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
-source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '1185'
-ht-degree: 96%
+source-wordcount: '1190'
+ht-degree: 87%
 
 ---
 
@@ -29,19 +29,19 @@ Les utilisateurs de Brand Portal peuvent effectuer les opérations suivantes :
 
 >[!NOTE]
 >
->Pour utiliser des vidéos et les publier sur Brand Portal, vérifiez que votre instance AEM Author est configurée sur le mode hybride Dynamic Media ou le mode Dynamic Media **[!DNL Scene 7]**.
+>Pour utiliser des vidéos et les publier dans Brand Portal, assurez-vous que votre instance d’auteur de Experience Manager est configurée en mode hybride Dynamic Media ou en mode Dynamic Media **[!DNL Scene 7]**.
 
 Pour prévisualiser, lire et télécharger des vidéos, Brand Portal expose les deux configurations suivantes aux administrateurs :
 
-* [Configuration hybride Dynamic Media](#configure-dm-hybrid-settings)
-Si l’instance AEM Author est en cours d’exécution sur le mode hybride Dynamic Media.
-* [Configuration [!DNL Scene 7] Dynamic Media](#configure-dm-scene7-settings)
-Si l’instance d’auteur AEM est en cours d’exécution en mode Dynamic Media **[!DNL Scene 7]**.
-Définissez l’une de ces configurations selon les configurations définies dans votre instance d’auteur AEM avec laquelle le client Brand Portal est répliqué.
+* [Configuration hybride Dynamic Media ](#configure-dm-hybrid-settings)
+: si l’instance d’auteur du Experience Manager est en cours d’exécution en mode hybride Dynamic Media.
+* [Configuration Dynamic  [!DNL Scene 7] ](#configure-dm-scene7-settings)
+MediaSi l’instance d’auteur du Experience Manager est en cours d’exécution en mode Dynamic Media **[!DNL Scene 7]** .
+Définissez l’une de ces configurations en fonction des configurations définies dans votre instance d’auteur de Experience Manager avec laquelle le client Brand Portal est répliqué.
 
 >[!NOTE]
 >
->Les vidéos dynamiques ne sont pas prises en charge sur les clients Brand Portal configurés avec une instance d’auteur AEM s’exécutant en mode **[!UICONTROL Scene7Connect]**.
+>Les vidéos dynamiques ne sont pas prises en charge sur les clients Brand Portal configurés avec l’auteur Experience Manager s’exécutant en mode **[!UICONTROL Scene7Connect]** .
 
 ## Comment les vidéos dynamiques sont-elles lues ?  {#how-are-dynamic-videos-played}
 

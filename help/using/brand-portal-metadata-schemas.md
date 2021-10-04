@@ -1,8 +1,8 @@
 ---
 title: Utilisation du formulaire de schéma de métadonnées
-seo-title: Utilisation du formulaire de schéma de métadonnées
+seo-title: Use the metadata schema form
 description: Un schéma de métadonnées décrit la disposition de la page Propriétés et des propriétés de métadonnées affichées pour les ressources qui utilisent ce schéma en particulier. Le schéma que vous appliquez à une ressource détermine les champs de métadonnées qui s’affichent sur sa page Propriétés.
-seo-description: Un schéma de métadonnées décrit la disposition de la page Propriétés et des propriétés de métadonnées affichées pour les ressources qui utilisent ce schéma en particulier. Le schéma que vous appliquez à une ressource détermine les champs de métadonnées qui s’affichent sur sa page Propriétés.
+seo-description: A metadata schema describes the layout of the Properties page and the metadata properties displayed for assets that use the particular schema. The schema that you apply to an asset determines the metadata fields that appear on its Properties page.
 uuid: 1a944a3b-5152-425f-b1ea-bfe3331de928
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -10,10 +10,10 @@ topic-tags: administration
 discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
 role: Admin
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
-workflow-type: ht
-source-wordcount: '1756'
-ht-degree: 100%
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+workflow-type: tm+mt
+source-wordcount: '1718'
+ht-degree: 91%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 100%
 
 Un schéma de métadonnées décrit la disposition de la page Propriétés et des propriétés de métadonnées affichées pour les ressources qui utilisent ce schéma en particulier. Le schéma que vous appliquez à une ressource détermine les champs de métadonnées qui s’affichent sur sa page Propriétés.
 
-La page **[!UICONTROL Propriétés]** de chaque ressource comprend des propriétés de métadonnées par défaut selon le type MIME de la ressource. Les administrateurs peuvent utiliser l’éditeur de schéma de métadonnées pour modifier des schémas existants ou ajouter des schémas de métadonnées personnalisés. AEM Assets Brand Portal propose des formulaires par défaut pour les ressources avec différents types MIME. Cependant, vous pouvez également ajouter des formulaires personnalisés pour ces ressources.
+La page **[!UICONTROL Propriétés]** de chaque ressource comprend des propriétés de métadonnées par défaut selon le type MIME de la ressource. Les administrateurs peuvent utiliser l’éditeur de schéma de métadonnées pour modifier des schémas existants ou ajouter des schémas de métadonnées personnalisés. Experience Manager Assets Brand Portal fournit des formulaires par défaut pour les ressources de différents types MIME. Vous pouvez toutefois ajouter des formulaires personnalisés pour ces ressources.
 
 ## Ajout d’un formulaire de schéma de métadonnées {#add-a-metadata-schema-form}
 
 Pour créer un formulaire de schéma de métadonnées, procédez comme suit :
 
-1. Dans la barre d’outils AEM supérieure, cliquez sur le logo Adobe pour accéder aux outils d’administration.
+1. Dans la barre d’outils supérieure, cliquez sur le logo du Experience Manager pour accéder aux outils d’administration.
 
    ![](assets/aemlogo.png)
 
@@ -51,7 +51,7 @@ Vous pouvez ajouter des onglets ou des éléments de formulaire au formulaire de
 
 Pour modifier un formulaire de schéma de métadonnées, procédez comme suit :
 
-1. Dans la barre d’outils AEM supérieure, cliquez sur le logo Adobe pour accéder aux outils d’administration.
+1. Dans la barre d’outils supérieure, cliquez sur le logo du Experience Manager pour accéder aux outils d’administration.
 
    ![](assets/aemlogo.png)
 
@@ -86,12 +86,12 @@ L’onglet **[!UICONTROL Créer le formulaire]** répertorie les éléments que 
 | **[!UICONTROL Nombre]** | Permet d’ajouter un composant de nombre. |
 | **[!UICONTROL Date]** | Permet d’ajouter un composant de date. |
 | **[!UICONTROL Liste déroulante]** | Permet d’ajouter une liste déroulante. |
-| **[!UICONTROL Balises standard]** | Permet d’ajouter une balise. **Remarque** : il se peut que les administrateurs doivent modifier la valeur de chemin, par exemple `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`, s’ils publient le formulaire de schéma de métadonnées à partir d’AEM, où le chemin d’accès n’inclut pas les informations du client comme `/etc/tags/<custom_tag_namespace>`. |
-| **[!UICONTROL Balises intelligentes]** | Balises détectées automatiquement si vous avez acheté et configuré le module complémentaire des balises intelligentes AEM. |
+| **[!UICONTROL Balises standard]** | Permet d’ajouter une balise. **Remarque :** Les administrateurs doivent peut-être modifier la valeur de chemin, par exemple  `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`, s’ils publient le formulaire de schéma de métadonnées à partir de ressources Experience Manager, où le chemin d’accès n’inclut pas les informations du client, par exemple  `/etc/tags/<custom_tag_namespace>`. |
+| **[!UICONTROL Balises intelligentes]** | Balises détectées automatiquement si vous avez acheté et configuré le module complémentaire de balises intelligentes Experience Manager Assets. |
 | **[!UICONTROL Champ masqué]** | Permet d’ajouter un champ masqué. Il est envoyé en tant que paramètre POST lorsque la ressource est enregistrée. |
 | **[!UICONTROL Ressource référencée par]** | Ajoutez ce composant pour afficher la liste des ressources référencées par la ressource. |
 | **[!UICONTROL Référencement des ressources]** | Ajoutez ce composant pour afficher la liste des ressources qui référencent la ressource. |
-| **[!UICONTROL Évaluation des ressources]** | Évaluation moyenne d’une ressource ajoutée à partir d’AEM Assets avant sa publication sur Brand Portal. |
+| **[!UICONTROL Évaluation des ressources]** | Évaluation moyenne d’une ressource ajoutée à partir de ressources du Experience Manager avant sa publication sur Brand Portal. |
 | **[!UICONTROL Métadonnées contextuelles]** | Ajoutez ce composant pour contrôler l’affichage des autres onglets de métadonnées dans la page Propriétés des ressources. |
 
 >[!NOTE]
@@ -123,7 +123,7 @@ Les valeurs admises pour cette propriété sont les suivantes :
 
 >[!NOTE]
 >
->Tous les champs de métadonnées sont en lecture seule dans le formulaire Éditeur de schéma d’une ressource. Les métadonnées de la ressource doivent être modifiées dans AEM Assets avant que la ressource ne soit publiée sur Brand Portal.
+>Tous les champs de métadonnées sont en lecture seule dans le formulaire Éditeur de schéma d’une ressource. Les métadonnées de la ressource doivent être modifiées dans les ressources Experience Manager avant qu’une ressource ne soit publiée dans Brand Portal.
 
 #### Ajout ou suppression d’un onglet dans le formulaire de schéma {#add-or-delete-a-tab-in-the-schema-form}
 
@@ -143,7 +143,7 @@ Brand Portal permet de personnaliser et de contrôler le schéma de métadonné
 
 Pour appliquer un formulaire de schéma de métadonnées à un dossier, procédez comme suit :
 
-1. Dans la barre d’outils AEM supérieure, cliquez sur le logo Adobe pour accéder aux outils d’administration.
+1. Dans la barre d’outils supérieure, cliquez sur le logo du Experience Manager pour accéder aux outils d’administration.
 
    ![](assets/aemlogo.png)
 

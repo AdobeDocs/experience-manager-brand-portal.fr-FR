@@ -1,8 +1,8 @@
 ---
 title: Personnalisation du papier peint, de l’en-tête et des e-mails
-seo-title: Personnalisation du papier peint, de l’en-tête et des e-mails
+seo-title: Customize wallpaper, header, and email message
 description: Les administrateurs de Brand Portal peuvent personnaliser de façon limitée l’interface s’affichant sur l’écran des utilisateurs. Vous pouvez choisir une image d’arrière-plan spécifique (papier peint) pour la page de connexion de Brand Portal. Vous pouvez également ajouter une image d’en-tête et personnaliser les e-mails de partage des ressources pour correspondre à la marque du client.
-seo-description: Les administrateurs de Brand Portal peuvent personnaliser de façon limitée l’interface s’affichant sur l’écran des utilisateurs. Vous pouvez choisir une image d’arrière-plan spécifique (papier peint) pour la page de connexion de Brand Portal. Vous pouvez également ajouter une image d’en-tête et personnaliser les e-mails de partage des ressources pour correspondre à la marque du client.
+seo-description: Brand Portal administrators can make limited customizations to the interface displayed to users. You can choose a specific background image (wallpaper) for the Brand Portal login page. You can also add a header image and customize asset sharing emails to match the customer’s brand.
 uuid: e078d0b9-18b5-467a-ae90-7f0b9fd0d414
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -10,10 +10,10 @@ topic-tags: administration
 discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
 role: Admin
 exl-id: 9f5c2a6a-8844-4ca4-b0d9-8f50b6164219
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
-workflow-type: ht
-source-wordcount: '812'
-ht-degree: 100%
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+workflow-type: tm+mt
+source-wordcount: '762'
+ht-degree: 94%
 
 ---
 
@@ -25,7 +25,7 @@ Les administrateurs de Brand Portal peuvent personnaliser de façon limitée l�
 
 En l’absence d’image de papier peint de marque personnalisée, un papier peint par défaut est affiché sur la page de connexion.
 
-1. Dans la barre d’outils AEM supérieure, cliquez sur le logo Adobe pour accéder aux outils d’administration.
+1. Dans la barre d’outils supérieure, cliquez sur le logo du Experience Manager pour accéder aux outils d’administration.
 
    ![](assets/aemlogo.png)
 
@@ -75,7 +75,7 @@ En l’absence d’image de papier peint de marque personnalisée, un papier pei
 
 L’en-tête apparaît sur différentes pages de Brand Portal une fois que vous êtes connecté à Brand Portal.
 
-1. Dans la barre d’outils AEM supérieure, cliquez sur le logo Adobe pour accéder aux outils d’administration.
+1. Dans la barre d’outils supérieure, cliquez sur le logo du Experience Manager pour accéder aux outils d’administration.
 
    ![](assets/aemlogo.png)
 
@@ -127,7 +127,7 @@ Pour enregistrer les modifications, cliquez sur **[!UICONTROL Enregistrer]** dan
 
 Lorsque des ressources sont partagées en tant que lien, l’utilisateur reçoit un e-mail contenant le lien. Les administrateurs peuvent personnaliser les messages, c’est-à-dire le logo, la description et le pied de page de ces e-mails.
 
-1. Dans la barre d’outils AEM supérieure, cliquez sur le logo Adobe pour accéder aux outils d’administration.
+1. Dans la barre d’outils supérieure, cliquez sur le logo du Experience Manager pour accéder aux outils d’administration.
 
    ![](assets/aemlogo.png)
 

@@ -1,30 +1,30 @@
 ---
 title: Partage de dossiers
-seo-title: Partage de dossiers
-description: Brand Portal ne prend pas en charge l’ingestion des ressources. Celles-ci doivent donc être publiées sur Brand Portal à partir d’une instance d’auteur AEM préconfigurée. Les ressources publiées ne sont pas accessibles aux utilisateurs qui ne sont pas administrateurs de Brand Portal, à moins qu’elles n’aient été configurées lors de la configuration de la réplication avec une instance AEM et qu’elles doivent être partagées avec eux.
-seo-description: Brand Portal ne prend pas en charge l’ingestion des ressources. Celles-ci doivent donc être publiées sur Brand Portal à partir d’une instance d’auteur AEM préconfigurée. Les ressources publiées ne sont pas accessibles aux utilisateurs qui ne sont pas administrateurs de Brand Portal, à moins qu’elles n’aient été configurées lors de la configuration de la réplication avec une instance AEM et qu’elles doivent être partagées avec eux.
+seo-title: Share folders
+description: Brand Portal ne prend pas en charge l’ingestion des ressources. Les ressources doivent donc être publiées sur Brand Portal à partir d’une instance d’auteur de ressources Experience Manager préconfigurée. Les ressources publiées ne sont pas accessibles aux utilisateurs non-administrateurs de Brand Portal, sauf si elles sont configurées lors de la configuration de la réplication avec l’instance de Experience Manager et doivent être partagées avec eux.
+seo-description: Brand Portal does not support asset ingestion so assets must be published to Brand Portal from a pre-configured Experience Manager Assets Author instance. Published assets are not accessible to non-admin users of Brand Portal, unless configured while configuring replication with Experience Manager instance, and need to be shared with them.
 uuid: 340d0a49-b708-4f0e-9fb8-99c824942f34
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 exl-id: d28cf927-60e8-437e-9cba-92f7e19020e7
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 100%
+source-wordcount: '1110'
+ht-degree: 90%
 
 ---
 
 # Partage de dossiers sur Brand Portal {#share-folders}
 
-Les ressources doivent être publiées sur Brand Portal à partir d’une instance AEM Author préconfigurée, car Brand Portal ne prend pas en charge l’ingestion des ressources.
+Les ressources doivent être publiées sur Brand Portal à partir d’une instance d’auteur de Experience Manager préconfigurée, car Brand Portal ne prend pas en charge l’ingestion des ressources.
 
 ## Workflow de partage de dossiers dans Brand Portal {#folder-sharing-workflow-in-brand-portal}
 
 La section suivante décrit le workflow de partage de dossiers et l’accès utilisateur :
 
-* Par défaut, tous les dossiers publiés depuis AEM Assets sur Brand Portal ne sont visibles que par l’administrateur de Brand Portal, sauf s’ils ont été désignés comme publics lors de la configuration de la réplication.
+* Par défaut, tous les dossiers publiés à partir de Experience Manager Assets vers Brand Portal sont visibles uniquement par l’administrateur Brand Portal, sauf s’ils sont marqués comme publics lors de la configuration de la réplication.
 * L’administrateur utilise la console **[!UICONTROL Propriétés du dossier]** pour partager un dossier avec des utilisateurs ou des groupes sélectionnés. Seuls les utilisateurs ou les groupes avec lesquels le dossier est partagé peuvent le visualiser une fois connectés à Brand Portal. Le dossier n’est pas visible par les autres utilisateurs.
 * L’administrateur peut également choisir de rendre un dossier public en cochant la case **[!UICONTROL Dossier public]** dans la console **[!UICONTROL Propriétés du dossier]**. Un dossier public est visible par tous les utilisateurs.
 
@@ -63,7 +63,7 @@ Le tableau suivant indique les droits d’accès et les droits de partage/d’an
 >
 >Par défaut, l’option **[!UICONTROL Publication de dossier public]** est désactivée lors de la configuration de la réplication de Brand Portal avec un auteur AEM. Si l’option est activée, les dossiers publiés sur Brand Portal sont accessibles à tous les utilisateurs (également aux utilisateurs non administrateurs) par défaut.
 
-### Accès des utilisateurs non-administrateurs aux dossiers partagés  {#non-admin-user-access-to-shared-folders}
+### Accès des utilisateurs non-administrateurs aux dossiers partagés {#non-admin-user-access-to-shared-folders}
 
 Les utilisateurs non-administrateurs ne peuvent accéder qu’aux dossiers partagés avec eux sur Brand Portal. Cependant, le mode d’affichage de ces dossiers sur le portail lorsqu’ils se connectent dépend des paramètres de la configuration **[!UICONTROL Activer la hiérarchie de dossiers]**.
 
@@ -87,7 +87,7 @@ Aucune tâche d’action n’est visible lorsque vous les survolez ou les sélec
 
 ![](assets/enabled-hierarchy1-1.png) ![](assets/hierarchy1-nonadmin-1.png) ![](assets/hierarchy-nonadmin-1.png) ![](assets/hierarchy2-nonadmin-1.png)
 
-## Partage de dossiers  {#how-to-share-folders}
+## Partage de dossiers {#how-to-share-folders}
 
 Pour partager un dossier avec des utilisateurs sur Brand Portal, suivez ces étapes :
 
@@ -126,7 +126,7 @@ Pour partager le dossier uniquement avec les utilisateurs invités, et aucun aut
 
 1. Pour accéder au dossier partagé, connectez-vous à Brand Portal à l’aide des informations d’identification de l’utilisateur avec lequel vous avez partagé le dossier. Examinez le dossier partagé dans l’interface.
 
-## Annulation du partage de dossiers  {#unshare-the-folders}
+## Annulation du partage de dossiers {#unshare-the-folders}
 
 Pour annuler le partage d’un dossier précédemment partagé, procédez comme suit :
 

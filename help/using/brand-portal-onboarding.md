@@ -1,24 +1,24 @@
 ---
 title: Première connexion
-seo-title: Première connexion
-description: La première connexion est identique pour tous les nouveaux utilisateurs d’AEM Assets Brand Portal, y compris les administrateurs. Une fois que l’administrateur vous a ajouté au compte Brand Portal de l’entreprise, vous n’avez pas besoin d’accepter d’invitations ; vous êtes automatiquement ajouté. Vous recevez un e-mail de bienvenue contenant un lien vers le compte Brand Portal de l’entreprise.
-seo-description: La première connexion est identique pour tous les nouveaux utilisateurs d’AEM Assets Brand Portal, y compris les administrateurs. Une fois que l’administrateur vous a ajouté au compte Brand Portal de l’entreprise, vous n’avez pas besoin d’accepter d’invitations ; vous êtes automatiquement ajouté. Vous recevez un e-mail de bienvenue contenant un lien vers le compte Brand Portal de l’entreprise.
+seo-title: First-time login experience
+description: La première connexion est identique pour tous les nouveaux utilisateurs de Assets Brand Portal Experience Manager, y compris les administrateurs. Une fois que l’administrateur vous a ajouté au compte Brand Portal de l’entreprise, vous n’avez pas besoin d’accepter d’invitations ; vous êtes automatiquement ajouté. Vous recevez un e-mail de bienvenue contenant un lien vers le compte Brand Portal de l’entreprise.
+seo-description: The first-time login experience is same for all new Experience Manager Assets Brand Portal users, including Administrators. After an Administrator adds you to your organization's Brand Portal account, you need not accept invitations, you are automatically added. You receive a welcome email that contains a link to your organization’s Brand Portal account.
 uuid: 654bdead-2fd9-4b9b-9272-21fd7c4df066
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: e8d06818-29c7-4810-bff1-40b3e2818114
 exl-id: 1f52045b-afb1-4501-878d-c327d394e258
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 100%
+source-wordcount: '274'
+ht-degree: 79%
 
 ---
 
 # Première connexion {#first-time-login-experience}
 
-La première connexion est identique pour tous les nouveaux utilisateurs d’AEM Assets Brand Portal, y compris les administrateurs. Une fois que l’administrateur vous a ajouté au compte Brand Portal de l’entreprise, vous n’avez pas besoin d’accepter d’invitations ; vous êtes automatiquement ajouté. Vous recevez un e-mail de bienvenue contenant un lien vers le compte Brand Portal de l’entreprise.
+La première connexion est identique pour tous les nouveaux utilisateurs de Assets Brand Portal Experience Manager, y compris les administrateurs. Une fois que l’administrateur vous a ajouté au compte Brand Portal de l’entreprise, vous n’avez pas besoin d’accepter d’invitations ; vous êtes automatiquement ajouté. Vous recevez un e-mail de bienvenue contenant un lien vers le compte Brand Portal de l’entreprise.
 
 La procédure décrite ci-dessous s’adresse aux utilisateurs qui se connectent à Brand Portal pour la première fois :
 
@@ -40,4 +40,4 @@ La procédure décrite ci-dessous s’adresse aux utilisateurs qui se connectent
 
    >[!NOTE]
    >
-   >Vous ne pouvez pas accéder à Brand Portal si vous n’êtes associé à aucun profil de produit. Pour vous connecter à Brand Portal, vous devez être associé à au moins un profil de produits AEM.
+   >Pour vous connecter à Brand Portal, vous devez avoir droit à au moins un profil de produit Ressources du Experience Manager.

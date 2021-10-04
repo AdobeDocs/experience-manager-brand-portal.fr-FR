@@ -10,23 +10,23 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
-source-git-commit: 67a745fed6a13cfdb30e26062eecc3c8d1775e36
+source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
 workflow-type: tm+mt
-source-wordcount: '1468'
-ht-degree: 99%
+source-wordcount: '1509'
+ht-degree: 57%
 
 ---
 
 # Questions fréquentes {#frequently-asked-questions}
 
-Les FAQ Brand Portal sont axées sur les questions et problèmes que les utilisateurs finaux peuvent avoir durant l’utilisation de la dernière version d’AEM Assets Brand Portal (la version 6.4.6) ou les versions antérieures.
+Les questions fréquentes de Brand Portal sont axées sur les questions et problèmes que les utilisateurs finaux peuvent rencontrer lorsqu’ils utilisent la dernière version de Assets Brand Portal 6.4.6 ou les versions antérieures de Experience Manager.
 
 
 ## FAQ de Brand Portal 6.4.6   {#faqs-bp646}
 
 **Question : Le point d’entrée OAuth hérité existant (`https://legacy-oauth.cloud.adobe.io/login`) ne fonctionne pas. Quelle pourrait en être la raison ?**
 
-**Réponse :** La configuration OAuth héritée est obsolète. Vous devez mettre à niveau les instances d’auteur AEM Assets vers le dernier Service Pack et les configurer à l’aide d’Adobe Developer Console. Voir [Configuration d’AEM Assets avec Brand Portal](configure-aem-assets-with-brand-portal.md) pour plus de détails. Toutefois, pour que la configuration OAuth héritée fonctionne jusqu’à la mise à niveau, mettez à jour le point d’entrée OAuth hérité vers `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
+**Réponse :** La configuration OAuth héritée est obsolète. Vous devez mettre à niveau les instances d’auteur Experience Manager Assets vers le dernier Service Pack et les configurer via Adobe Developer Console. Pour plus d’informations, voir [Configuration de ressources Experience Manager avec Brand Portal](configure-aem-assets-with-brand-portal.md) . Toutefois, pour que la configuration OAuth héritée fonctionne jusqu’à la mise à niveau, mettez à jour le point d’entrée OAuth hérité vers `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
 
 <!--
 **Ques. I have created a collection using the asset link shared by the administrator. But I am unable to create a share link for my collection. Do I need special permissions to do this?**
@@ -34,11 +34,11 @@ Les FAQ Brand Portal sont axées sur les questions et problèmes que les utilis
 **Ans.** The functionality is by design, the viewer users are not permitted to share link for collections as they have limited privileges due to which they cannot add users to create a share link. It is a known issue that the share link for collections is currently visible to the viewer users. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.    
 -->
 
-**Question : Je ne suis pas en mesure de publier les ressources du dossier de contribution depuis Brand Portal vers AEM Assets après la mise à niveau vers Adobe Developer Console. Mon instance d’auteur se trouve sur AEM 6.5.4. Quelle peut en être la raison ?**
+**Question : Je ne parviens pas à publier les ressources du dossier de contribution de Brand Portal vers les ressources du Experience Manager après la mise à niveau vers Adobe Developer Console. Mon instance d’auteur se trouve sur Experience Manager Assets 6.5.4. Quelle pourrait en être la raison ?**
 
-**Réponse :** Oui, un problème connu se produit lors de la publication des ressources du dossier de contribution dans AEM Assets sur AEM 6.5.4 via Adobe Developer Console.
+**Réponse :** Oui, il existe un problème connu lors de la publication des ressources du dossier de contribution vers Experience Manager Assets 6.5.4 via Adobe Developer Console.
 
-Le problème a été corrigé dans AEM 6.5.5. Vous pouvez mettre à niveau votre instance AEM Assets vers le Service Pack le plus récent, AEM 6.5.5, et [mettre à niveau vos configurations](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) sur Adobe Developer Console.
+Le problème a été corrigé dans Experience Manager Assets 6.5.5. Vous pouvez mettre à niveau votre instance Experience Manager Assets vers le dernier Service Pack et [mettre à niveau vos configurations](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) sur Adobe Developer Console.
 
 <!--
 Broken link of download hotfix, comment out this section until we have the latest URL.
@@ -46,20 +46,20 @@ Broken link of download hotfix, comment out this section until we have the lates
 For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) and install on your AEM author instance.
 -->
 
-**Question : Je ne vois pas le contenu du dossier de contribution publié sur AEM Assets à partir de Brand Portal. Quelle pourrait en être la raison ?**
+**Question : Je ne vois pas le contenu du dossier de contribution publié à partir de Brand Portal dans les ressources du Experience Manager. Quelle pourrait en être la raison ?**
 
-**Réponse :** Contactez votre administrateur AEM Assets pour vérifier les configurations et vous assurer que votre client Brand Portal est configuré avec une seule instance d’auteur AEM Assets.
+**Réponse :** Contactez votre administrateur Ressources du Experience Manager pour vérifier les configurations et vous assurer que votre client Brand Portal est configuré avec une seule instance d’auteur Ressources du Experience Manager.
 
-Ce problème peut se produire lorsque vous avez configuré un client Brand Portal sur plusieurs instances d’auteur AEM Assets. Par exemple, l’administrateur configure le même client Brand Portal sur l’instance d’auteur AEM Assets de l’environnement d’évaluation et de production. Dans ce cas, les déclencheurs de publication de ressources dans Brand Portal, mais l’instance d’auteur AEM Assets n’a pas pu importer la ressource, car l’agent de réplication ne reçoit pas le jeton de demande.
+Ce problème peut se produire lorsque vous avez configuré un client Brand Portal sur plusieurs instances d’auteur Assets Experience Manager. Par exemple, l’administrateur configure le même client Brand Portal sur l’instance d’auteur Ressources du Experience Manager de l’environnement d’évaluation et de production. Dans ce cas, les déclencheurs de publication de ressources dans Brand Portal mais l’instance d’auteur Ressources du Experience Manager n’a pas pu importer la ressource car l’agent de réplication ne reçoit pas le jeton de demande.
 
 
-**Question : Je ne parviens pas à publier des ressources sur Brand Portal à partir d’AEM Assets. Le journal de réplication indique que la connexion a expiré. Y a-t-il une solution rapide ?**
+**Question : Je ne parviens pas à publier des ressources à partir de ressources Experience Manager vers Brand Portal. Le journal de réplication indique que la connexion a expiré. Y a-t-il une solution rapide ?**
 
 **Réponse :** En règle générale, la tâche de publication échoue avec une erreur de délai d’expiration si plusieurs requêtes en attente se trouvent dans la file d’attente de réplication. Pour résoudre ce problème, assurez-vous que les agents de réplication sont configurés pour éviter l’expiration.
 
 Effectuez les étapes suivantes pour configurer l’agent de réplication :
 
-1. Connectez-vous à votre instance d’auteur AEM Assets.
+1. Connectez-vous à votre instance d’auteur Assets Experience Manager.
 1. Dans le panneau **Outils**, accédez à **[!UICONTROL Déploiement]** > **[!UICONTROL Réplication]**.
 1. Sur la page Réplication, cliquez sur **[!UICONTROL Agents sur l’auteur]**. Vous voyez les quatre agents de réplication pour votre client Brand Portal.
 1. Cliquez sur l’URL de l’agent de réplication pour ouvrir les détails le concernant.
@@ -74,7 +74,7 @@ Effectuez les étapes suivantes pour configurer l’agent de réplication :
 
 **Question : Quel changement majeur intervient dans la version 6.4.5 de Brand Portal ?**
 
-**Réponse :** La version 6.4.5 d’AEM Assets Brand Portal dispose d’une fonctionnalité permettant aux utilisateurs Brand Portal de télécharger des contenus depuis l’instance Brand Portal et de republier le dossier Contribution dans AEM Assets sans avoir à demander de droits d’administrateur.
+**Réponse :** Experience Manager Assets Brand Portal 6.4.5 est une version qui permet aux utilisateurs de Brand Portal de charger du contenu à partir de l’instance Brand Portal et de republier le dossier Contribution dans Ressources du Experience Manager sans avoir besoin de droits d’administrateur.
 Pour plus d’informations, voir [Approvisionnement des ressources dans Brand Portal](brand-portal-asset-sourcing.md).
 
 
@@ -100,13 +100,13 @@ Pour les mises à jour et les changements de versions, il est recommandé de sui
 
 **Question : Dois-je intervenir en tant qu’utilisateur Brand Portal ?**
 
-**Réponse :** La version 6.4.5 de Brand Portal comprend une nouvelle fonctionnalité d’approvisionnement des ressources. L’administrateur AEM doit configurer la fonction d’approvisionnement des ressources dans AEM Assets, afin que les utilisateurs Brand Portal puissent l’activer. Pour plus d’informations, voir [Activation de la fonction d’approvisionnement des ressources](brand-portal-asset-sourcing.md).
+**Réponse :** La version 6.4.5 de Brand Portal comprend une nouvelle fonctionnalité d’approvisionnement des ressources. L’administrateur doit configurer la fonctionnalité d’approvisionnement des ressources dans Ressources du Experience Manager pour l’activer pour les utilisateurs de Brand Portal. Pour plus d’informations, voir [Activation de la fonction d’approvisionnement des ressources](brand-portal-asset-sourcing.md).
 
 
 
 **Question : Qui peut créer un dossier Contribution ?**
 
-**Réponse :** Tout utilisateur AEM autorisé à créer un dossier dans AEM Assets peut créer un dossier **Contribution**. Pour créer un dossier **Contribution**, créez un dossier de type **Contribution des ressources**.
+**Réponse :** Tout utilisateur de ressources Experience Manager autorisé à créer un dossier dans Ressources Experience Manager peut créer un dossier de  **** contribution. Pour créer un dossier **Contribution**, créez un dossier de type **Contribution des ressources**.
 Ce dossier est partagé avec les utilisateurs Brand Portal actifs à des fins de contribution.
 
 
@@ -132,7 +132,7 @@ Ces utilisateurs accèdent au dossier **Contribution** et téléchargent le cont
 
 **Question : Puis-je télécharger des ressources vers un dossier autorisé ?**
 
-**Réponse :** Tous les dossiers ne sont pas autorisés. Les utilisateurs Brand Portal ne peuvent télécharger des contenus que vers le dossier **Contribution** partagé par l’administrateur AEM ou Brand Portal.
+**Réponse :** Tous les dossiers ne sont pas autorisés. Un utilisateur Brand Portal peut charger du contenu uniquement vers le dossier **Contribution** partagé par l’administrateur Experience Manager Assets ou Brand Portal.
 
 
 
@@ -142,7 +142,7 @@ Ces utilisateurs accèdent au dossier **Contribution** et téléchargent le cont
 
 >[!NOTE]
 >
->Si vous n’utilisez pas Brand Portal, demandez à l’administrateur AEM de vous créer un profil d’utilisateur dans la console d’administration AEM et de l’ajouter au fichier de configuration d’utilisateur de la liste d’utilisateurs Brand Portal.
+>Si vous n’êtes pas un utilisateur Brand Portal existant, demandez à l’administrateur de ressources du Experience Manager de créer votre utilisateur dans la console d’administration et d’ajouter votre profil au fichier de configuration de l’utilisateur dans la liste des utilisateurs de Brand Portal.
 
 **Question : Quel est le format du fichier CSV utilisé pour importer des utilisateurs ?**
 
@@ -152,25 +152,25 @@ Ces utilisateurs accèdent au dossier **Contribution** et téléchargent le cont
 
 **Question : Comment la liste d’utilisateurs (contributeurs Brand Portal) est-elle renseignée dans la liste déroulante d’utilisateurs de contributions des ressources ?**
 
-**Réponse :** La liste d’utilisateurs est renseignée depuis le fichier de configuration d’utilisateur Brand Portal (.csv) téléchargé dans AEM.
+**Réponse :** Les utilisateurs de la liste déroulante sont renseignés à partir du fichier de configuration d’utilisateur Brand Portal (.csv) téléchargé dans les ressources Experience Manager.
 
 
 
 **Question : Où consulter le statut des tâches d’importation et de publication ?**
 
-**Réponse :** Dans AEM, vous pouvez consulter le statut des tâches sur la page des tâches **asynchrones**. Dans Brand Portal, vous pouvez consulter le statut d’une tâche de publication dans **[!UICONTROL Outils > Statut de contribution des ressources]**.
+**Réponse :** Dans Experience Manager Assets, vous pouvez voir l’état d’un import dans la page  **** asynchrone. Dans Brand Portal, vous pouvez consulter le statut d’une tâche de publication dans **[!UICONTROL Outils > Statut de contribution des ressources]**.
 
 
 
-**Question : Quelle est la fréquence d’une tâche d’importation s’exécutant régulièrement dans AEM ?**
+**Question : Quelle est la fréquence d&#39;une tâche d&#39;import qui s&#39;exécute régulièrement en Experience Manager ?**
 
-**Réponse :** Dans AEM, l’interrogation a lieu toutes les 5 minutes.
+**Réponse :** Dans Experience Manager Assets, l’interrogation a lieu toutes les 5 minutes.
 
 
 
-**Question : La fréquence de publication d’un dossier de Brand Portal vers AEM Assets est-elle limitée ?**
+**Question : Le nombre de fois qu’un dossier peut être publié de Brand Portal vers Experience Manager Assets est-il limité ?**
 
-**Réponse :** Non, toutes les ressources du dossier **NEW** sont publiées dans AEM Assets, qu’elles aient ou non déjà été publiées. Lorsqu’un dossier **Contribution** est publié de Brand Portal vers AEM Assets, il remplace le contenu du dossier **NEW**.
+**Réponse :** Non, toutes les ressources du dossier  **** NEW sont publiées sur Experience Manager Assets, qu’elles aient été publiées précédemment. Chaque fois qu’un dossier **Contribution** est publié de Brand Portal vers Experience Manager Assets, il remplace le contenu du dossier **NEW**.
 
 
 
@@ -186,10 +186,10 @@ Ces utilisateurs accèdent au dossier **Contribution** et téléchargent le cont
 
 
 
-**Question : Que se passe-t-il si un dossier utilisé dans ce processus est publié d’AEM Assets vers Brand Portal ?**
+**Question : Que se passe-t-il si un dossier publié de ressources Experience Manager vers Brand Portal est en flux continu ?**
 
-**Réponse :** Dans AEM, les journaux sont mis à jour pour chaque publication d’un dossier dans Brand Portal. Lors de la publication, toutes les ressources non publiées dans Brand Portal sont mises en file d’attente de copie. Les fichiers ajoutés au dossier une fois la tâche de publication déclenchée ne sont pas publiés dans Brand Portal. Lorsque l’utilisateur AEM republie le dossier, seules les ressources non publiées au préalable (et présentes dans la file d’attente de copie) le sont dans Brand Portal.
-C’est le cas pour les dossiers publiés d’AEM Assets vers Brand Portal et pour le dossier SHARED d’un dossier Contribution.
+**Réponse :** Dans Experience Manager Assets, les journaux sont conservés pour chaque publication d’un dossier dans Brand Portal. Lors de la publication, toutes les ressources non publiées dans Brand Portal sont mises en file d’attente de copie. Les fichiers ajoutés au dossier une fois la tâche de publication déclenchée ne sont pas publiés dans Brand Portal. Lorsque l’utilisateur Ressources du Experience Manager republie le dossier, seules les ressources qui n’ont pas été publiées précédemment (qui existent dans la file d’attente de réplication) sont publiées sur Brand Portal.
+Cela est vrai pour tout dossier publié à partir de Ressources du Experience Manager vers Brand Portal et dans un dossier SHARED d’un dossier Contribution.
 
 **Question : Qui dois-je contacter en cas de questions ?**
 
@@ -207,5 +207,5 @@ Ces sites sont réservés aux clients. Si vous êtes client et avez besoin d’u
 <!--
 * [](https://daycare.day.com) [Product Access](https://login.marketing.adobe.com)
 
-* [Adobe Customer Care](https://helpx.adobe.com/contact.html)
+* [Adobe Customer Support](https://helpx.adobe.com/contact.html)
 -->

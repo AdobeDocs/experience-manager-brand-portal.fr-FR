@@ -1,8 +1,8 @@
 ---
 title: Utilisation des rapports
-seo-title: Utilisation des rapports
-description: Les administrateurs d’AEM Assets Brand Portal peuvent consulter des rapports sur l’utilisation de Brand Portal, de même que créer, gérer et afficher des rapports sur les ressources téléchargées, expirées, publiées, ainsi que sur les liens partagés via Brand Portal.
-seo-description: Les administrateurs d’AEM Assets Brand Portal peuvent consulter des rapports sur l’utilisation de Brand Portal, de même que créer, gérer et afficher des rapports sur les ressources téléchargées, expirées, publiées, ainsi que sur les liens partagés via Brand Portal.
+seo-title: Work with reports
+description: Les administrateurs Assets Brand Portal de Experience Manager peuvent afficher des rapports sur l’utilisation de Brand Portal, ainsi que créer, gérer et afficher des rapports sur les ressources téléchargées, expirées, publiées et les liens partagés via Brand Portal.
+seo-description: Experience Manager Assets Brand Portal Administrators can view report about Brand Portal usage, and create, manage, and view reports around assets downloaded, expired, published, and link shared through Brand Portal.
 uuid: dc4e5275-a614-4b95-8c70-2b7e470c50a7
 content-type: reference
 topic-tags: administration
@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 role: Admin
 exl-id: 03d0292c-23c2-4ea0-9781-eb27768e6c33
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
-workflow-type: ht
-source-wordcount: '1023'
-ht-degree: 100%
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+workflow-type: tm+mt
+source-wordcount: '996'
+ht-degree: 91%
 
 ---
 
@@ -27,7 +27,7 @@ L’interface de gestion des rapports est intuitive et contient des options et c
 
 Pour afficher un rapport, procédez comme suit :
 
-1. Dans la barre d’outils supérieure, appuyez/cliquez sur le logo AEM pour accéder aux outils d’administration.
+1. Dans la barre d’outils supérieure, appuyez/cliquez sur le logo du Experience Manager pour accéder aux outils d’administration.
 
    ![](assets/aemlogo.png)
 
@@ -64,7 +64,7 @@ Il affiche également la capacité autorisée pour chacune de ces mesures.
 
    ![](assets/expiration-report.png)
 
-   Le rapport **[!UICONTROL Publication]** répertorie et donne des informations sur toutes les ressources qui sont publiées d’AEM sur Brand Portal dans une période spécifiée.
+   **** Le rapport de publication répertorie et fournit des informations sur toutes les ressources publiées des ressources Experience Manager vers Brand Portal au cours d’une période donnée.
 
    ![](assets/publish-report.png)
 
@@ -94,7 +94,7 @@ Les administrateurs peuvent générer et gérer les rapports standard ci-après.
 
 L’affichage des colonnes des rapports Téléchargement, Expiration et Publication peut être personnalisé. Pour générer un rapport, procédez comme suit :
 
-1. Dans la barre d’outils supérieure, appuyez/cliquez sur le logo AEM pour accéder aux outils d’administration.
+1. Dans la barre d’outils supérieure, appuyez/cliquez sur le logo du Experience Manager pour accéder aux outils d’administration.
 
 1. Dans le panneau des outils d’administration, appuyez/cliquez sur **[!UICONTROL Créer/gérer des rapports]** pour ouvrir la page **[!UICONTROL Rapports de ressources]**.
 

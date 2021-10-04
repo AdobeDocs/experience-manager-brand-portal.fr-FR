@@ -1,6 +1,6 @@
 ---
 title: Recherche de ressources sur Brand Portal
-seo-title: Asset searching and saved search on AEM Brand Portal
+seo-title: Asset searching and saved search on Experience Manager Assets Brand Portal
 description: La fonctionnalité de recherche de Brand Portal vous permet de rechercher rapidement des ressources appropriées au moyen de l’omni-recherche. Les filtres de recherche vous permettent d’affiner encore davantage votre recherche. Enregistrez vos recherches sous la forme de collections dynamiques pour une utilisation ultérieure.
 seo-description: Brand Portal search capability lets you quickly search for relevant assets using omnisearch, and search filters help you further narrow down your search. Save your searches as smart collections for future.
 uuid: c2955198-bdc0-4853-a13a-661e6a9ec61f
@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
 source-wordcount: '1123'
 ht-degree: 100%

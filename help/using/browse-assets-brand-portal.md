@@ -1,26 +1,26 @@
 ---
 title: Exploration des ressources sur Brand Portal
-seo-title: Exploration des ressources sur Brand Portal
+seo-title: Browse assets on Brand Portal
 description: Explorez les ressources, parcourez les hiérarchies de ressources et recherchez des ressources grâce à diverses options de modes et d’éléments d’IU sur Brand Portal.
-seo-description: Explorez les ressources, parcourez les hiérarchies de ressources et recherchez des ressources grâce à diverses options de modes et d’éléments d’IU sur Brand Portal.
+seo-description: Browse through assets, traverse asset hierarchies, and search assets, using different view options and UI elements on Brand Portal.
 uuid: 178ce217-0050-4922-a204-f4539d46f539
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 100%
+source-wordcount: '1016'
+ht-degree: 95%
 
 ---
 
 # Exploration des ressources sur Brand Portal {#browsing-assets-on-brand-portal}
 
-AEM Assets Brand Portal fournit plusieurs fonctionnalités et éléments d’IU pour faciliter l’exploration des ressources, la navigation à travers les hiérarchies de ressources et la recherche de ressources en utilisant différentes options de modes.
+Experience Manager Assets Brand Portal fournit diverses fonctionnalités et éléments d’interface utilisateur qui facilitent l’exploration des ressources, la navigation à travers les hiérarchies de ressources et la recherche de ressources tout en utilisant différentes options de vue.
 
-Le logo AEM dans la barre d’outils AEM supérieure permet aux utilisateurs administrateurs d’accéder au panneau des outils d’administration.
+Le logo du Experience Manager dans la barre d’outils supérieure permet aux utilisateurs administrateurs d’accéder facilement au panneau des outils d’administration.
 
 ![](assets/aemlogo.png)
 
@@ -242,7 +242,7 @@ Dans la hiérarchie de contenu, accédez à la ressource de votre choix.
 
 ![](assets/content-tree.png)
 
-## Détails de la ressource  {#asset-details}
+## Détails de la ressource {#asset-details}
 
 La page Détails de la ressource permet d’afficher une ressource, de la télécharger, de partager son lien, de la déplacer vers une collection ou d’afficher sa page de propriétés. Elle vous permet également de parcourir la page de détails d’autres ressources au sein du même dossier, l’une après l’autre.
 

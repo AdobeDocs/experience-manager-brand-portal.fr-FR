@@ -1,8 +1,8 @@
 ---
 title: Utilisation des facettes de recherche personnalisée
-seo-title: Utilisation des facettes de recherche personnalisée
+seo-title: Use custom search facets
 description: Les administrateurs peuvent ajouter des prédicats de recherche au panneau Filtres pour personnaliser les recherches et rendre la fonction de recherche polyvalente.
-seo-description: Les administrateurs peuvent ajouter des prédicats de recherche au panneau Filtres pour personnaliser les recherches et rendre la fonction de recherche polyvalente.
+seo-description: Administrators can add search predicates to the Filters panel to customize search and make the search functionality versatile.
 uuid: 986fba5a-fac5-4128-ac75-d04da5b52d45
 content-type: reference
 topic-tags: administration
@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
-workflow-type: ht
-source-wordcount: '1298'
-ht-degree: 100%
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+workflow-type: tm+mt
+source-wordcount: '1279'
+ht-degree: 96%
 
 ---
 
@@ -27,13 +27,13 @@ Vous pouvez utiliser différents prédicats de recherche pour personnaliser le p
 
 >[!NOTE]
 >
->AEM permet aux entreprises de [publier les formulaires de recherche personnalisés sur Brand Portal à partir d’AEM Author](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal), au lieu de recréer le même formulaire sur Brand Portal.
+>Experience Manager Assets permet aux entreprises de [publier les formulaires de recherche personnalisés d’AEM Author](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal) vers Brand Portal, au lieu de recréer le même formulaire sur Brand Portal.
 
 ## Ajout d’un prédicat de recherche {#add-a-search-predicate}
 
 Pour ajouter un prédicat de recherche au panneau **[!UICONTROL Filtres]** :
 
-1. Pour accéder aux outils d’administration, cliquez sur le logo AEM dans la barre d’outils supérieure.
+1. Pour accéder aux outils d’administration, cliquez sur le logo du Experience Manager dans la barre d’outils supérieure.
 
    ![](assets/aemlogo.png)
 

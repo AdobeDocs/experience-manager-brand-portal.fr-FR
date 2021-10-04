@@ -10,14 +10,14 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: d5e39edc43d6d405e96edc76cbd1357ade58ea89
+source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
 workflow-type: tm+mt
-source-wordcount: '6339'
+source-wordcount: '6340'
 ht-degree: 85%
 
 ---
 
-# Nouveautés d’AEM Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
+# Nouveautés de Assets Brand Portal Experience Manager {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager Assets Brand Portal vous permet d’acquérir, de contrôler et de distribuer facilement et en toute sécurité des ressources créatives destinées à des tiers externes et aux collaborateurs de l’entreprise sur différents appareils. Brand Portal améliore l’efficacité du partage des ressources, accélère la mise sur le marché des ressources et réduit les risques de non-conformité et d’accès non autorisé. Adobe a pour objectif d’améliorer l’expérience globale de Brand Portal. Vous trouverez ci-dessous un aperçu des nouvelles fonctionnalités et améliorations.
 
@@ -525,7 +525,7 @@ De même, les ressources publiées peuvent être supprimées du portail ultérie
 
 ### Alias de client configurable dans l’URL
 
-Les organisations peuvent obtenir une URL de portail personnalisée comprenant un préfixe alternatif dans l’URL. Pour obtenir un alias pour le nom du client dans l’URL de leur portail existant, les entreprises doivent contacter l’assistance Adobe.
+Les organisations peuvent obtenir une URL de portail personnalisée comprenant un préfixe alternatif dans l’URL. Pour obtenir un alias pour le nom du client dans l’URL de leur portail existant, les entreprises doivent contacter le service clientèle.
 
 Seul le préfixe de l’URL Brand Portal peut être personnalisé, et non l’URL entière.\
 Par exemple, une entreprise avec le domaine existant **geomettrix.brand-portal.adobe.com** peut demander et obtenir la création de **geomettrixinc.brand-portal.adobe.com**.
@@ -668,7 +668,7 @@ Brand Portal 6.4.1 est une version de mise à niveau de la plate-forme qui con
 
 * Possibilité de prévisualiser les fichiers audio, téléchargés depuis AEM, dans la page des détails des ressources.
 * Nouvelle fonctionnalité Ressources associées dans les propriétés des ressources. Les ressources associées à d’autres ressources sources/dérivées dans AEM et publiées sur Brand Portal préservent désormais leurs relations intactes dans Brand Portal, avec des liens vers les ressources associées dans la page des propriétés.
-* Introduction d’une nouvelle configuration pour limiter la création de collections publiques par les utilisateurs n’étant pas administrateurs. Les entreprises peuvent collaborer avec l’équipe de support Adobe pour configurer cette fonctionnalité sur des comptes spécifiques.
+* Introduction d’une nouvelle configuration pour limiter la création de collections publiques par les utilisateurs n’étant pas administrateurs. Les entreprises peuvent collaborer avec l’équipe du service clientèle pour configurer cette fonctionnalité sur des comptes spécifiques.
 
 ### Améliorations de la recherche
 

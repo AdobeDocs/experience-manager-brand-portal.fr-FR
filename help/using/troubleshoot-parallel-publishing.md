@@ -10,20 +10,20 @@ topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
-source-git-commit: 96ce77b306c207bb20e0fdc56dd218295fbaeffe
+source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 57%
+source-wordcount: '871'
+ht-degree: 54%
 
 ---
 
 # Dépannage des problèmes de publication en parallèle sur Brand Portal {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-Brand Portal est configuré avec AEM Assets, de sorte que les ressources de marque approuvées soient automatiquement ingérées (ou publiées) à partir de l’instance d’auteur AEM Assets. Une fois [configuré](../using/configure-aem-assets-with-brand-portal.md), l’auteur du Experience Manager utilise un agent de réplication pour répliquer la ou les ressources sélectionnées sur le service cloud Brand Portal pour une utilisation approuvée par les utilisateurs de Brand Portal. Plusieurs agents de réplication sont utilisés dans Experience Manager 6.2 SP1-CFP5, Experience Manager CFP 6.3.0.2 et versions ultérieures pour permettre une publication parallèle à grande vitesse.
+Brand Portal est configuré avec les ressources du Experience Manager pour que les ressources de marque approuvées soient automatiquement ingérées (ou publiées) à partir de l’instance d’auteur Ressources du Experience Manager. Une fois [configuré](../using/configure-aem-assets-with-brand-portal.md), l’auteur du Experience Manager utilise un agent de réplication pour répliquer la ou les ressources sélectionnées sur le service cloud Brand Portal pour une utilisation approuvée par les utilisateurs de Brand Portal. Plusieurs agents de réplication sont utilisés dans Experience Manager 6.2 SP1-CFP5, Experience Manager CFP 6.3.0.2 et versions ultérieures pour permettre une publication parallèle à grande vitesse.
 
 >[!NOTE]
 >
->Adobe recommande d’effectuer la mise à niveau vers Experience Manager 6.4.1.0 pour s’assurer qu’AEM Assets Brand Portal est correctement configuré avec AEM Assets. Une limitation de Experience Manager 6.4 entraîne une erreur lors de la configuration d’AEM Assets avec Brand Portal et l’échec de la réplication.
+>Adobe recommande d’effectuer la mise à niveau vers Experience Manager 6.4.1.0 pour s’assurer que Experience Manager Assets Brand Portal est correctement configuré avec les ressources du Experience Manager. Une limitation de Experience Manager 6.4 entraîne une erreur lors de la configuration des ressources Experience Manager avec Brand Portal et l’échec de la réplication.
 
 Lors de la configuration du service cloud pour Brand Portal sous **[!UICONTROL /etc/cloudservice]**, tous les utilisateurs et jetons nécessaires sont générés automatiquement et enregistrés dans le référentiel. La configuration du Cloud Service est créée, de même que les utilisateurs des services requis pour la réplication et les agents de réplication pour répliquer le contenu. Il crée quatre agents de réplication. Ainsi, lorsque vous publiez de nombreuses ressources de Experience Manager vers Brand Portal, les ressources sont placées en file d’attente et distribuées entre les agents de réplication par le biais de Round Robin.
 
@@ -49,7 +49,7 @@ Si le Cloud Service n’est pas correctement configuré après des modifications
 
 Consultez le journal et si vous trouvez des erreurs dans le journal de réplication :
 
-1. Contactez l’assistance Adobe.
+1. Contactez le service clientèle.
 
 1. Essayez à nouveau le [nettoyage](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config) et créez une nouvelle fois la configuration de publication.
 
