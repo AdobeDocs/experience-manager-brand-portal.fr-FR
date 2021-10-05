@@ -13,7 +13,7 @@ exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
 source-wordcount: '967'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -64,7 +64,7 @@ Vous trouverez ci-dessous la procédure à suivre pour partager des ressources s
 
    >[!NOTE]
    >
-   >Les administrateurs peuvent personnaliser les e-mails, à savoir le logo, la description et le pied de page avec la fonction [Valorisation de la marque](../using/brand-portal-branding.md).
+   >Les administrateurs peuvent personnaliser les e-mails, à savoir le logo, la description et le pied de page avec la fonction [Valorisation de marque](../using/brand-portal-branding.md).
 
 ## Téléchargement de ressources à partir de liens partagés {#download-assets-from-shared-links}
 
@@ -103,7 +103,7 @@ Pour télécharger les ressources partagées :
 
 >[!NOTE]
 >
->Brand Portal limite le téléchargement des ressources dont la taille est supérieure à **1** Go par taille de fichier à l’aide du partage de lien.
+>Brand Portal limite le téléchargement des ressources dont la taille est supérieure à **1** Go par taille de fichier à l’aide du partage de lien.
 
 <!--
 1. The **[!UICONTROL Download]** dialog box appears.

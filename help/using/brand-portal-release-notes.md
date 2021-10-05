@@ -13,20 +13,20 @@ exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 source-git-commit: 262d69829eda31b6f55d2e9c3254efd62fe259c1
 workflow-type: tm+mt
 source-wordcount: '396'
-ht-degree: 63%
+ht-degree: 85%
 
 ---
 
 # Notes de mise à jour {#release-notes}
 
-Découvrez les fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 2021.10.0.
+Découvrez les nouvelles fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 2021.10.0.
 
 ## Informations sur la version {#release-information}
 
 | Produit | Adobe Experience Manager Assets Brand Portal |
 |---|---|
 | Version | 2021.10.0 |
-| Date  | Octobre 2021 |
+| Date | Octobre 2021 |
 
 ## Présentation {#overview}
 
@@ -204,12 +204,12 @@ L’interface utilisateur de Brand Portal est disponible dans les langues suiva
 
 ## Plates-formes certifiées {#certified-platforms}
 
-Pour vérifier quelles sont les plates-formes certifiées pour exécuter cette version de Brand Portal, reportez-vous à la colonne **Prise en charge de l’interface utilisateur optimisée pour les écrans tactiles** du tableau **Navigateurs pris en charge pour l’interface utilisateur de création** dans la section [Exigences techniques](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html).
+Pour vérifier quelles sont les plates-formes certifiées pour exécuter cette version de Brand Portal, reportez-vous à la colonne **Prise en charge de l’interface utilisateur optimisée pour les écrans tactiles** du tableau **Navigateurs pris en charge pour l’interface utilisateur de création** dans la section [Exigences techniques](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html?lang=fr).
 
 ## Liens {#links}
 
-* [Page du produit Adobe Experience Manager sur adobe.com](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
-* [Documentation Assets Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
+* [Page du produit Adobe Experience Manager sur adobe.com](https://business.adobe.com/fr/products/experience-manager/adobe-experience-manager.html)
+* [Documentation Assets Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html?lang=fr)
 
 ## Assistance technique et accès au produit (sites à accès limité) {#product-access-and-support-restricted-sites}
 
