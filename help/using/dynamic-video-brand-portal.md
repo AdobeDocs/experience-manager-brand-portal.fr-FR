@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '1190'
-ht-degree: 87%
+source-wordcount: '1191'
+ht-degree: 83%
 
 ---
 
@@ -60,14 +60,14 @@ Comme les codages vidéo ne sont pas stockés dans le référentiel Brand Porta
 Pour utiliser des vidéos dynamiques sur Brand Portal, veillez à :
 
 * **Démarrer l’auteur AEM en mode DM (Dynamic Media)**
-Démarrez l’instance d’auteur AEM (avec laquelle Brand Portal est configuré) en [mode hybride Dynamic Media](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/config-dynamic.html#EnablingDynamicMedia) ou en [mode Dynamic Media [!DNL Scene 7] ](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/config-dms7.html#EnablingDynamicMediainScene7mode).
+Démarrez l’instance d’auteur AEM (avec laquelle Brand Portal est configuré) en [mode hybride Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html) ou en [mode Dynamic Media [!DNL Scene 7] ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html).
 * **Configurer Dynamic Media Cloud Services sur l’auteur AEM**
-En fonction du mode Dynamic Media dans lequel l’auteur AEM s’exécute, définissez soit [Dynamic Media Cloud Services](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/config-dynamic.html#ConfiguringDynamicMediaCloudServices), soit [[!DNL Scene 7] Cloud Services](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) sur l’auteur AEM depuis **Outils** | **Services cloud** | **Dynamic Media**.
+En fonction du mode Dynamic Media dans lequel l’auteur AEM s’exécute, définissez soit [Dynamic Media Cloud Services](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html), soit [[!DNL Scene 7] Cloud Services](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html) sur l’auteur AEM depuis **Outils** | **Services cloud** | **Dynamic Media**.
 * **Configurer Dynamic Media sur Brand Portal**
 Selon les configurations cloud de Dynamic Media sur l’auteur AEM, configurez les [paramètres Dynamic Media](#configure-dm-hybrid-settings) ou les [[!DNL Scene 7] paramètres](#configure-dm-scene7-settings) à partir des outils d’administration de Brand Portal.
 Assurez-vous de bien [séparer les clients Brand Portal](#separate-tenants) utilisés pour les instances d’auteur AEM configurées en modes hybride et **[!UICONTROL Scene7]** de Dynamic Media, si vous utilisez des fonctionnalités des modes hybride et **[!UICONTROL S7]** de Dynamic Media.
 * **Publier des dossiers avec des codes vidéo appliqués à Brand Portal**
-Appliquez des [codes vidéo](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/video-profiles.html) et publiez le dossier contenant des ressources multimédias enrichies depuis l’instance d’auteur AEM sur Brand Portal.
+Appliquez des [codes vidéo](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/video-profiles.html) et publiez le dossier contenant des ressources multimédias enrichies depuis l’instance d’auteur AEM sur Brand Portal.
 * **Mettre sur liste blanche les adresses IP sortantes dans SPS si l’aperçu sécurisé est activé**
 En cas d’utilisation de Dynamic Media **[!DNL Scene 7]** (avec l’[aperçu sécurisé activé](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html) pour une entreprise), il est conseillé à l’**[!DNL Scene 7]** administrateur de l’entreprise[ de mettre les adresses IP sortantes publiques sur liste blanche](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service) pour les zones géographiques respectives utilisant l’interface utilisateur Flash de SPS (**[!UICONTROL Scene7]** Publishing System).
 Les adresses IP sortantes sont les suivantes :
@@ -114,7 +114,7 @@ Si l’instance AEM Author s’exécute dans le mode hybride de Dynamic Media,
 
 >[!NOTE]
 >
->Les [profils de codage vidéo](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html) ne sont pas publiés sur Brand Portal, mais sont récupérés du serveur **[!UICONTROL Scene7]**. Par conséquent, pour que les codes vidéo soient lus correctement dans Brand Portal, assurez-vous que les détails de configuration sont identiques à la [[!UICONTROL configuration cloud Scene7]](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) dans votre instance d’auteur AEM.
+>Les [profils de codage vidéo](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/video-profiles.html) ne sont pas publiés sur Brand Portal, mais sont récupérés du serveur **[!UICONTROL Scene7]**. Par conséquent, pour que les codes vidéo soient lus correctement dans Brand Portal, assurez-vous que les détails de configuration sont identiques à la [configuration cloud Scene7](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html) dans votre instance d’auteur AEM.
 
 Pour définir les configurations Dynamic Media sur des clients Brand Portal :
 

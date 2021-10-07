@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
 source-wordcount: '1924'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -65,7 +65,7 @@ Les paramètres disponibles sont les suivants :
 
    Permet de télécharger les rendus des ressources générés par le système.
 
-   Il s’agit des miniatures qui sont automatiquement générées dans les ressources Experience Manager en fonction du workflow &quot;Ressource de mise à jour de gestion des actifs numériques&quot;.
+   Il s’agit des miniatures qui sont générées automatiquement dans Experience Manager Assets en fonction du workflow &quot;Ressource de mise à jour de gestion des actifs numériques&quot;.
 
 * **[!UICONTROL Téléchargement de ressources]**
 
@@ -163,7 +163,7 @@ Vous trouverez ci-dessous la procédure à suivre pour télécharger des ressour
       >
       >Si les ressources que vous téléchargez comprennent également des ressources sous licence, vous êtes redirigé vers la page **[!UICONTROL Gestion des droits d’auteur]**. Dans cette page, sélectionnez les ressources, cliquez d’abord sur **[!UICONTROL Accepter]**, puis sur **[!UICONTROL Télécharger]**. Si vous choisissez de ne pas accepter, les ressources sous licence ne sont pas téléchargées.
       > 
-      >Dans le cas des ressources protégées par une licence, un [contrat de licence leur est associé](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) en définissant la [propriété de métadonnées](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) appropriée dans Experience Manager Assets.
+      >Dans le cas des ressources protégées par une licence, un [contrat de licence leur est associé](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html) en définissant la [propriété de métadonnées](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html) appropriée dans Experience Manager Assets.
 
 
       ![ressource-sous-licence](assets/licensed-asset-new.png)
@@ -208,9 +208,9 @@ Vous trouverez ci-dessous la procédure à suivre pour télécharger des ressour
 >
 >Brand Portal prend en charge la configuration de Dynamic Media dans les modes hybride et Scene7.
 >
->(*Si l’instance d’auteur Ressources Experience Manager est en cours d’exécution en **mode hybride Dynamic Media***)
+>(*Si l’instance d’auteur Experience Manager Assets est en cours d’exécution en **mode hybride Dynamic Media***)
 >
->Pour prévisualiser ou télécharger les rendus dynamiques d’une ressource, vérifiez que Dynamic Media est activé et que le rendu Pyramid tiff de la ressource existe au niveau de l’instance d’auteur Ressources du Experience Manager à partir de laquelle les ressources ont été publiées. Lorsqu’une ressource est publiée à partir de ressources Experience Manager vers Brand Portal, son rendu Pyramid tiff est également publié.
+>Pour prévisualiser ou télécharger les rendus dynamiques d’une ressource, vérifiez que Dynamic Media est activé et que le rendu Pyramid tiff de la ressource existe au niveau de l’instance d’auteur Experience Manager Assets à partir de laquelle les ressources ont été publiées. Lorsqu’une ressource est publiée de Experience Manager Assets vers Brand Portal, son rendu Pyramid tiff est également publié.
 
 
 
@@ -328,7 +328,7 @@ Following are the steps to download assets or folders containing assets from Bra
      >
      >If the assets you are downloading also include licensed assets, you are redirected to the **[!UICONTROL Copyright Management]** page. In this page, select the assets, click **[!UICONTROL Agree]**, and then click **[!UICONTROL Download]**. If you choose to disagree, licensed assets are not downloaded. 
      > 
-     >License-protected assets have [license agreement attached](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) to them, which is done by setting asset's [metadata property](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in Experience Manager Assets.
+     >License-protected assets have [license agreement attached]() to them, which is done by setting asset's [metadata property]() in Experience Manager Assets.
 
 
      ![](assets/licensed-asset-download-1.png)

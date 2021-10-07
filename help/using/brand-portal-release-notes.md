@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 262d69829eda31b6f55d2e9c3254efd62fe259c1
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 85%
@@ -100,7 +100,7 @@ This release includes the following enhancements:
 
 Cette version comprend des correctifs pour les problèmes critiques suivants :
 
-* Les ressources d’un dossier de contribution de la même taille ne sont pas publiées de Brand Portal vers les ressources du Experience Manager.
+* Les ressources d’un dossier de contribution de la même taille ne sont pas publiées de Brand Portal vers Experience Manager Assets.
 * Lorsqu’un dossier de contribution de ressources est dépublié, sa taille n’est pas réduite.
 * Les utilisateurs ne peuvent pas supprimer le profil de schéma de métadonnées appliqué d’un dossier.
 * Le nombre de groupes sur la page des autorisations utilisateur est incorrect.
@@ -220,5 +220,5 @@ Ces sites sont réservés aux clients. Si vous êtes client et avez besoin d’u
 -->
 
 <!--
-* [Customer Support](https://helpx.adobe.com/contact.html)
+* [Customer Support]()
 -->

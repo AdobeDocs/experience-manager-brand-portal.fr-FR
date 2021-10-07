@@ -1,7 +1,7 @@
 ---
 title: Partage de dossiers
 seo-title: Share folders
-description: Brand Portal ne prend pas en charge l’ingestion des ressources. Les ressources doivent donc être publiées sur Brand Portal à partir d’une instance d’auteur de ressources Experience Manager préconfigurée. Les ressources publiées ne sont pas accessibles aux utilisateurs non-administrateurs de Brand Portal, sauf si elles sont configurées lors de la configuration de la réplication avec l’instance de Experience Manager et doivent être partagées avec eux.
+description: Brand Portal ne prend pas en charge l’ingestion des ressources. Les ressources doivent donc être publiées sur Brand Portal à partir d’une instance d’auteur Experience Manager Assets préconfigurée. Les ressources publiées ne sont pas accessibles aux utilisateurs non-administrateurs de Brand Portal, sauf si elles sont configurées lors de la configuration de la réplication avec l’instance de Experience Manager et doivent être partagées avec eux.
 seo-description: Brand Portal does not support asset ingestion so assets must be published to Brand Portal from a pre-configured Experience Manager Assets Author instance. Published assets are not accessible to non-admin users of Brand Portal, unless configured while configuring replication with Experience Manager instance, and need to be shared with them.
 uuid: 340d0a49-b708-4f0e-9fb8-99c824942f34
 content-type: reference
@@ -9,9 +9,9 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 exl-id: d28cf927-60e8-437e-9cba-92f7e19020e7
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1109'
 ht-degree: 90%
 
 ---
@@ -24,7 +24,7 @@ Les ressources doivent être publiées sur Brand Portal à partir d’une instan
 
 La section suivante décrit le workflow de partage de dossiers et l’accès utilisateur :
 
-* Par défaut, tous les dossiers publiés à partir de Experience Manager Assets vers Brand Portal sont visibles uniquement par l’administrateur Brand Portal, sauf s’ils sont marqués comme publics lors de la configuration de la réplication.
+* Par défaut, tous les dossiers publiés de Experience Manager Assets vers Brand Portal ne sont visibles que par l’administrateur Brand Portal, sauf s’ils sont marqués comme publics lors de la configuration de la réplication.
 * L’administrateur utilise la console **[!UICONTROL Propriétés du dossier]** pour partager un dossier avec des utilisateurs ou des groupes sélectionnés. Seuls les utilisateurs ou les groupes avec lesquels le dossier est partagé peuvent le visualiser une fois connectés à Brand Portal. Le dossier n’est pas visible par les autres utilisateurs.
 * L’administrateur peut également choisir de rendre un dossier public en cochant la case **[!UICONTROL Dossier public]** dans la console **[!UICONTROL Propriétés du dossier]**. Un dossier public est visible par tous les utilisateurs.
 
@@ -32,7 +32,7 @@ La section suivante décrit le workflow de partage de dossiers et l’accès uti
 
 ### Partage de dossiers avec des groupes d’utilisateurs sur Brand Portal {#sharing-folders-with-user-groups-on-brand-portal}
 
-Les droits d’accès aux ressources d’un dossier dépendent des droits d’accès à son dossier parent, indépendamment des paramètres des dossiers enfants. Ce comportement est régi par les listes [ACL](https://helpx.adobe.com/fr/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM) dans AEM, car les dossiers enfants héritent des listes ACL de leurs dossiers parents. Par exemple, si un dossier A contient un dossier B qui contient un dossier C, alors un groupe d’utilisateurs (ou des utilisateurs) possédant les droits d’accès au dossier A bénéficient des mêmes droits d’accès aux dossiers B et C. En tant que dossier enfant de A, le dossier B hérite de ses listes ACL. Tandis que le dossier C hérite de ses listes ACL en tant que dossier enfant de B.
+Les droits d’accès aux ressources d’un dossier dépendent des droits d’accès à son dossier parent, indépendamment des paramètres des dossiers enfants. Ce comportement est régi par les listes [ACL](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=fr) dans AEM, car les dossiers enfants héritent des listes ACL de leurs dossiers parents. Par exemple, si un dossier A contient un dossier B qui contient un dossier C, alors un groupe d’utilisateurs (ou des utilisateurs) possédant les droits d’accès au dossier A bénéficient des mêmes droits d’accès aux dossiers B et C. En tant que dossier enfant de A, le dossier B hérite de ses listes ACL. Tandis que le dossier C hérite de ses listes ACL en tant que dossier enfant de B.
 
 De même, les groupes d’utilisateurs (ou les utilisateurs) possédant les autorisations pour accéder seulement au dossier B disposent des mêmes autorisations d’accès au dossier C, mais pas au dossier A. Par conséquent, il est conseillé aux organisations de hiérarchiser leur contenu de façon à ce que les ressources les plus exposées soient placées dans les dossiers enfants, et l’accès des enfants au dossier racine peut être restreint.
 

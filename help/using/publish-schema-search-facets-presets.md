@@ -1,18 +1,18 @@
 ---
 title: Publication de paramètres prédéfinis, de schémas et de facettes sur Brand Portal
-seo-title: Publication de paramètres prédéfinis, de schémas et de facettes sur Brand Portal
+seo-title: Publish presets, schema, and facets to Brand Portal
 description: Découvrez comment publier des paramètres prédéfinis, des schémas et des facettes sur Brand Portal.
-seo-description: Découvrez comment publier des paramètres prédéfinis, des schémas et des facettes sur Brand Portal.
+seo-description: Learn how to publish presets, schema, and facets to Brand Portal.
 uuid: c836d9bb-074a-4113-9c91-b2bf7658b88d
 topic-tags: publish
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: bc305abc-9373-4d33-9179-0a5f3904b352
 exl-id: 9b585606-6538-459b-87a9-2e68df0087b3
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '1160'
-ht-degree: 100%
+source-wordcount: '1141'
+ht-degree: 99%
 
 ---
 
@@ -49,7 +49,7 @@ Pour annuler la publication d’un paramètre d’image prédéfini sur Brand P
 1. Dans l’instance d’auteur AEM, appuyez/cliquez sur le logo pour accéder à la console de navigation globale, puis appuyez/cliquez sur l’icône **[!UICONTROL Outils]** et accédez à **[!UICONTROL Ressources > Paramètres d’image prédéfinis]**.
 1. Sélectionnez un paramètre d’image prédéfini puis **[!UICONTROL Supprimer de Brand Portal]** parmi les options disponibles dans la partie supérieure.
 
-## Publication d’un schéma de métadonnées sur Brand Portal {#publish-metadata-schema-to-brand-portal}
+## Publication d’un schéma de métadonnées sur Brand Portal   {#publish-metadata-schema-to-brand-portal}
 
 Le schéma de métadonnées décrit la mise en page et les propriétés affichées sur la page de propriétés d’une ressource ou de collections.
 
@@ -85,7 +85,7 @@ Pour annuler la publication d’un schéma de métadonnées sur Brand Portal :
 
 ## Publication de facettes de recherche sur Brand Portal {#publish-search-facets-to-brand-portal}
 
-Les formulaires de recherche fournissent aux utilisateurs la fonctionnalité de [recherche facettée](../using/brand-portal-search-facets.md) sur Brand Portal. Les facettes de recherche permettent d’effectuer des recherches plus précises sur Brand Portal. Tous les [prédicats ajoutés](https://helpx.adobe.com/fr/experience-manager/6-5/assets/using/search-facets.html#AddingaPredicate) dans le formulaire de recherche sont disponibles pour les utilisateurs en tant que facettes de recherche dans les filtres de recherche.
+Les formulaires de recherche fournissent aux utilisateurs la fonctionnalité de [recherche facettée](../using/brand-portal-search-facets.md) sur Brand Portal. Les facettes de recherche permettent d’effectuer des recherches plus précises sur Brand Portal. Tous les [prédicats ajoutés](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/search-facets.html) dans le formulaire de recherche sont disponibles pour les utilisateurs en tant que facettes de recherche dans les filtres de recherche.
 
 ![](assets/property-predicate-removed.png)
 ![](assets/search-form.png)
