@@ -11,23 +11,23 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 role: Admin
 exl-id: 261c0e84-6b3d-459c-b6b9-a9af106d6943
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 5503a34f4896816bf991216b457cd824707ae5ed
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '421'
 ht-degree: 49%
 
 ---
 
 # Configuration d’Experience Manager Assets avec Brand Portal {#configure-integration}
 
-La configuration d’Adobe Experience Manager Assets avec Brand Portal permet aux utilisateurs de Brand Portal de bénéficier de fonctions de publication, de distribution et de contribution des ressources. Il permet aux utilisateurs de ressources Experience Manager de publier et de distribuer des ressources avec les utilisateurs de Brand Portal. Les utilisateurs de Brand Portal peuvent accéder aux ressources partagées et y contribuer en chargeant de nouvelles ressources dans les dossiers de contribution des ressources et en les republiant dans les ressources du Experience Manager.
+La configuration d’Adobe Experience Manager Assets avec Brand Portal permet aux utilisateurs de Brand Portal de bénéficier de fonctions de publication, de distribution et de contribution des ressources. Il permet aux utilisateurs de Experience Manager Assets de publier et de distribuer des ressources avec les utilisateurs de Brand Portal. Les utilisateurs de Brand Portal peuvent accéder aux ressources partagées et y contribuer en chargeant de nouvelles ressources dans les dossiers de contribution des ressources et en les republiant dans Experience Manager Assets.
 
-La configuration des ressources Experience Manager avec Brand Portal est prise en charge sur :
+La configuration de Experience Manager Assets avec Brand Portal est prise en charge sur :
 
-* Ressources Experience Manager en tant que Cloud Service
+* Experience Manager Assets as a Cloud Service
 * Experience Manager Assets (on premise and managed service) 6.3 et versions ultérieures
 
-Experience Manager Assets as a Cloud Service est automatiquement configuré avec Brand Portal en activant Brand Portal à partir de Cloud Manager. Le workflow d’activation crée les configurations requises sur le serveur principal et active Brand Portal sur la même organisation IMS que dans les ressources du Experience Manager en tant qu’instance du Cloud Service.
+Experience Manager Assets as a Cloud Service est automatiquement configuré avec Brand Portal en activant Brand Portal à partir de Cloud Manager. Le workflow d’activation crée les configurations requises sur le serveur principal et active Brand Portal sur la même organisation IMS que l’instance as a Cloud Service Experience Manager Assets.
 
 En revanche, Experience Manager Assets (on-premise and managed service) est configuré manuellement avec Brand Portal à l’aide d’Adobe Developer Console, qui fournit un jeton Adobe Identity Management Services (IMS) pour autoriser le client Brand Portal.
 
@@ -52,8 +52,8 @@ Les étapes de configuration d’AEM Assets avec Brand Portal sont différentes 
 
 | **Version d’AEM** | **Nouvelle configuration** | **Mise à niveau de la configuration** |
 |---|---|---|
-| **AEM Assets as a Cloud Service** | [Activer Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
+| **AEM Assets as a Cloud Service** | [Activer Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html?lang=fr) | - |
 | **AEM 6.5 (6.5.4.0 et versions ultérieures)** | [Création d’une configuration](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Mise à niveau de la configuration](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
 | **AEM 6.4 (6.4.8.0 et versions ultérieures)** | [Création d’une configuration](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Mise à niveau de la configuration](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
 | **AEM 6.3 (6.3.3.8 et versions ultérieures)** | [Création d’une configuration](https://helpx.adobe.com/fr/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [Mise à niveau de la configuration](https://helpx.adobe.com/fr/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
-| **AEM 6.2** | Contacter le support technique | Contacter le support technique |
+| **AEM 6.2** | Contacter le service clientèle | Contacter le service clientèle |
