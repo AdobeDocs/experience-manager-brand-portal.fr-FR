@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
+source-git-commit: e7545344a0fc6dd5e0176705a16625c2976e0de6
 workflow-type: tm+mt
 source-wordcount: '1014'
 ht-degree: 94%
@@ -26,7 +26,7 @@ Le logo du Experience Manager dans la barre d’outils supérieure permet aux ut
 
 ![](assets/admin-tools-panel-2.png)
 
-![](assets/bp_subheader.png)<br />
+![](assets/bp_subheader.png)
 
 Le sélecteur de rail dans la partie supérieure gauche de Brand Portal se déroule pour afficher les options permettant de naviguer au sein des hiérarchies de ressources, de simplifier la recherche et d’afficher les ressources.
 
@@ -106,7 +106,7 @@ Le mode Liste répertorie les informations pour chaque ressource au niveau actue
 * Dimension
 * Taille
 * Évaluation
-* Chemin du dossier présentant la hiérarchie des ressources<sup>*</sup>
+* Chemin du dossier présentant la hiérarchie des ressources
 * Date de publication de cette ressource sur Brand Portal
 
 La colonne Chemin vous permet d’identifier facilement l’emplacement des ressources dans la hiérarchie de dossiers. Vous pouvez naviguer vers le bas de la hiérarchie en appuyant/cliquant sur le nom de la ressource, puis revenir vers le haut à l’aide des [chemins de navigation de l’en-tête](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html).

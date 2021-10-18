@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
-source-git-commit: 47e810aebedd5dbc945828fe8bdd987639538317
+source-git-commit: e7545344a0fc6dd5e0176705a16625c2976e0de6
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 62%
+source-wordcount: '1149'
+ht-degree: 61%
 
 ---
 
@@ -43,9 +43,9 @@ Pour créer un dossier de contribution, créez un dossier de type Contribution d
 
 >[!NOTE]
 >
->Vous pouvez créer plusieurs dossiers de contribution dans un dossier.
+>Les administrateurs peuvent créer plusieurs dossiers de contribution de ressources dans un dossier.
 >
->Un dossier de contribution de ressources contient les dossiers NEW et SHARED pour la distribution et la contribution des ressources. Ne créez pas de ressource, de dossier ou de dossier de contribution dans un dossier de contribution de ressource.
+>Un dossier de contribution de ressources contient les dossiers NEW et SHARED pour la distribution et la contribution des ressources. Ne créez pas de ressource, de dossier ou de dossier de contribution dans un dossier de contribution.
 
 
 Vous pouvez configurer les propriétés du dossier de contribution séparément ainsi que lors de sa création. Dans cet exemple, nous configurons les propriétés séparément.
