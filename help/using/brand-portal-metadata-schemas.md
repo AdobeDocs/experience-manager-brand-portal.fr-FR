@@ -11,9 +11,9 @@ discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
 role: Admin
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1718'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ La page **[!UICONTROL Propriétés]** de chaque ressource comprend des propriét
 
 Pour créer un formulaire de schéma de métadonnées, procédez comme suit :
 
-1. Dans la barre d’outils supérieure, cliquez sur le logo du Experience Manager pour accéder aux outils d’administration.
+1. Dans la barre d’outils supérieure, cliquez sur le logo Experience Manager pour accéder aux outils d’administration.
 
    ![](assets/aemlogo.png)
 
@@ -51,7 +51,7 @@ Vous pouvez ajouter des onglets ou des éléments de formulaire au formulaire de
 
 Pour modifier un formulaire de schéma de métadonnées, procédez comme suit :
 
-1. Dans la barre d’outils supérieure, cliquez sur le logo du Experience Manager pour accéder aux outils d’administration.
+1. Dans la barre d’outils supérieure, cliquez sur le logo Experience Manager pour accéder aux outils d’administration.
 
    ![](assets/aemlogo.png)
 
@@ -74,7 +74,7 @@ Pour modifier un formulaire de schéma de métadonnées, procédez comme suit :
 
 1. Pour configurer un composant, sélectionnez-le et modifiez ses propriétés dans l’onglet **[!UICONTROL Paramètres]**.
 
-### Composants de l’onglet Créer le formulaire {#components-in-the-build-form-tab}
+### Composants de l’onglet Créer le formulaire  {#components-in-the-build-form-tab}
 
 L’onglet **[!UICONTROL Créer le formulaire]** répertorie les éléments que vous pouvez utiliser dans votre formulaire de schéma. L’onglet **[!UICONTROL Paramètres]** contient les attributs de chaque élément sélectionné dans l’onglet **[!UICONTROL Créer le formulaire]**. Le tableau suivant répertorie les éléments de formulaire disponibles dans l’onglet **[!UICONTROL Créer le formulaire]** :
 
@@ -86,12 +86,12 @@ L’onglet **[!UICONTROL Créer le formulaire]** répertorie les éléments que 
 | **[!UICONTROL Nombre]** | Permet d’ajouter un composant de nombre. |
 | **[!UICONTROL Date]** | Permet d’ajouter un composant de date. |
 | **[!UICONTROL Liste déroulante]** | Permet d’ajouter une liste déroulante. |
-| **[!UICONTROL Balises standard]** | Permet d’ajouter une balise. **Remarque :** Les administrateurs doivent peut-être modifier la valeur de chemin, par exemple  `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`, s’ils publient le formulaire de schéma de métadonnées à partir de ressources Experience Manager, où le chemin d’accès n’inclut pas les informations du client, par exemple  `/etc/tags/<custom_tag_namespace>`. |
-| **[!UICONTROL Balises intelligentes]** | Balises détectées automatiquement si vous avez acheté et configuré le module complémentaire de balises intelligentes Experience Manager Assets. |
+| **[!UICONTROL Balises standard]** | Permet d’ajouter une balise. **Remarque** : Il se peut que les administrateurs doivent modifier la valeur de chemin, par exemple `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`, s’ils publient le formulaire de schéma de métadonnées à partir d’Experience Manager Assets, où le chemin d’accès n’inclut pas les informations du client comme `/etc/tags/<custom_tag_namespace>`. |
+| **[!UICONTROL Balises intelligentes]** | Balises détectées automatiquement si vous avez acheté et configuré le module complémentaire des balises intelligentes Experience Manager Assets. |
 | **[!UICONTROL Champ masqué]** | Permet d’ajouter un champ masqué. Il est envoyé en tant que paramètre POST lorsque la ressource est enregistrée. |
 | **[!UICONTROL Ressource référencée par]** | Ajoutez ce composant pour afficher la liste des ressources référencées par la ressource. |
 | **[!UICONTROL Référencement des ressources]** | Ajoutez ce composant pour afficher la liste des ressources qui référencent la ressource. |
-| **[!UICONTROL Évaluation des ressources]** | Évaluation moyenne d’une ressource ajoutée à partir de ressources du Experience Manager avant sa publication sur Brand Portal. |
+| **[!UICONTROL Évaluation des ressources]** | Évaluation moyenne d’une ressource ajoutée à partir d’Experience Manager Assets avant sa publication sur Brand Portal. |
 | **[!UICONTROL Métadonnées contextuelles]** | Ajoutez ce composant pour contrôler l’affichage des autres onglets de métadonnées dans la page Propriétés des ressources. |
 
 >[!NOTE]
@@ -123,7 +123,7 @@ Les valeurs admises pour cette propriété sont les suivantes :
 
 >[!NOTE]
 >
->Tous les champs de métadonnées sont en lecture seule dans le formulaire Éditeur de schéma d’une ressource. Les métadonnées de la ressource doivent être modifiées dans les ressources Experience Manager avant qu’une ressource ne soit publiée dans Brand Portal.
+>Tous les champs de métadonnées sont en lecture seule dans le formulaire Éditeur de schéma d’une ressource. Les métadonnées de la ressource doivent être modifiées dans Experience Manager Assets avant que la ressource ne soit publiée sur Brand Portal.
 
 #### Ajout ou suppression d’un onglet dans le formulaire de schéma {#add-or-delete-a-tab-in-the-schema-form}
 
@@ -143,7 +143,7 @@ Brand Portal permet de personnaliser et de contrôler le schéma de métadonné
 
 Pour appliquer un formulaire de schéma de métadonnées à un dossier, procédez comme suit :
 
-1. Dans la barre d’outils supérieure, cliquez sur le logo du Experience Manager pour accéder aux outils d’administration.
+1. Dans la barre d’outils supérieure, cliquez sur le logo Experience Manager pour accéder aux outils d’administration.
 
    ![](assets/aemlogo.png)
 
