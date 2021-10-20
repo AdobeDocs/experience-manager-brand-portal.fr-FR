@@ -12,15 +12,15 @@ discoiquuid: 393025b4-722d-4e81-8a47-f83415d0b9b6
 role: Admin
 exl-id: 27a9cd26-9bb3-473b-b1ac-37f77975c912
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '288'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # Administration de l’accès des utilisateurs sur Brand Portal {#administer-user-access-on-brand-portal}
 
-À compter de la version 6.4.2, Adobe Experience Manager Assets Brand Portal autorise les administrateurs à configurer l’accès des invités et à permettre aux utilisateurs de demander l’accès sur Brand Portal de leur entreprise. Ces configurations sont proposées sous forme de configurations de **[!UICONTROL Paramètres d’accès]** dans le panneau d’administration. Les deux paramètres sont désactivés par défaut.
+À compter de la version 6.4.2, Adobe Experience Manager Assets Brand Portal autorise les administrateurs à configurer l’accès des invités et à permettre aux utilisateurs de demander l’accès sur le portail Brand Portal de leur entreprise. Ces configurations sont proposées sous forme de configurations de **[!UICONTROL Paramètres d’accès]** dans le panneau d’administration. Les deux paramètres sont désactivés par défaut.
 
 ![](assets/access-configs.png)
 
