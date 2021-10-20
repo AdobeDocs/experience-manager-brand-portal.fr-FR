@@ -12,15 +12,15 @@ discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
 role: Admin
 exl-id: 5607be8e-0a7f-4692-b71b-5f66eb9ac5ee
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # Administration des configurations générales du client {#administer-general-tenant-configurations}
 
-Experience Manager Assets Brand Portal permet aux entreprises de configurer les fonctionnalités suivantes pour des clients spécifiques :
+Experience Manager Assets Brand Portal permet aux organisations de configurer les fonctionnalités suivantes pour des clients spécifiques :
 
 * Suppression des ressources par les administrateurs
 * Création de collections publiques par des utilisateurs non administrateurs
@@ -44,7 +44,7 @@ Ces fonctionnalités sont proposées sous la forme de configurations de **[!UICO
 Pour activer/désactiver chacune de ces configurations :
 
 1. Connectez-vous avec les privilèges d’administrateur.
-1. Sélectionnez le logo du Experience Manager pour accéder aux outils d’administration dans la barre d’outils supérieure.
+1. Sélectionnez le logo Experience Manager pour accéder aux outils d’administration dans la barre d’outils supérieure.
 1. À partir du panneau des outils d’administration, sélectionnez **[!UICONTROL Général]** pour ouvrir la page **[!UICONTROL Paramètres généraux]**.
 1. Utilisez le commutateur respectif pour activer/désactiver chacune des configurations générales.
 1. **[!UICONTROL Enregistrez]** les modifications.
