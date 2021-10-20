@@ -1,7 +1,7 @@
 ---
 title: Formats de fichiers pris en charge
 seo-title: Supported file formats
-description: 'Chaque Assets Brand Portal de Experience Manager prend en charge des formats de fichiers spécifiques, comme indiqué dans le tableau. '
+description: 'Chaque portail Experience Manager Assets Brand Portal prend en charge des formats de fichiers spécifiques, comme indiqué dans le tableau. '
 seo-description: Each Experience Manager Assets Brand Portal supports specific file formats, as indicated in the matrix.
 uuid: c92ada3a-6fc3-4ef2-88ff-8e67a50c8c95
 content-type: reference
@@ -10,15 +10,15 @@ topic-tags: introduction
 discoiquuid: fe1c2df8-39f4-4d5c-91d1-7b6cd4f1f589
 exl-id: fa5d87a8-dc45-4c8a-8a96-ac7ec793952b
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '315'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # Formats de fichiers pris en charge {#supported-file-formats}
 
-Chaque Assets Brand Portal de Experience Manager prend en charge des formats de fichiers spécifiques, comme indiqué dans le tableau.
+Chaque portail Experience Manager Assets Brand Portal prend en charge des formats de fichiers spécifiques, comme indiqué dans le tableau.
 
 | Format de fichier | Ressources publiées sur Brand Portal | Rendus publiés sur Brand Portal | Métadonnées publiées sur Brand Portal | Miniatures publiées sur Brand Portal | Pages des détails des ressources publiées sur Brand Portal | Partages de liens | Miniatures des partages de liens | Aperçus des partages de liens |
 |-------------|----------------------------------|--------------------------------------|------------------------------------|--------------------------------------|-----------------------------------------------|-------------|-----------------------|---------------------|
