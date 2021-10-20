@@ -1,7 +1,7 @@
 ---
 title: Partage de ressources en tant que lien
 seo-title: Share assets as a link
-description: Les administrateurs Adobe Experience Manager Assets Brand Portal peuvent partager des liens de plusieurs ressources avec des utilisateurs internes autorisés et des entités externes, notamment des partenaires et des fournisseurs. Les éditeurs peuvent uniquement afficher et partager les ressources partagées avec eux.
+description: Les administrateurs d’Adobe Experience Manager Assets Brand Portal peuvent partager des liens de plusieurs ressources avec des utilisateurs internes autorisés et des tiers, notamment des partenaires et des fournisseurs. Les éditeurs peuvent uniquement afficher et partager les ressources partagées avec eux.
 seo-description: Adobe Experience Manager Assets Brand Portal Administrators can share links of multiple assets with authorized internal users and external entities, including partners and vendors. Editors can view and share only the assets shared with them.
 uuid: 8889ac24-c56d-4a47-b792-80c34ffb5c3f
 contentOwner: bdhar
@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '967'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Vous trouverez ci-dessous la procédure à suivre pour partager des ressources s
 
    ![](assets/link-sharing.png)
 
-   * Dans la zone d’email, saisissez l’adresse email de l’utilisateur avec lequel vous souhaitez partager le lien. Vous pouvez partager le lien avec plusieurs utilisateurs. Si l’utilisateur appartient à votre organisation, sélectionnez son e-mail dans la liste déroulante de suggestions qui s’affiche. Si l’utilisateur est externe à votre organisation, saisissez l’e-mail complet et appuyez sur **[!UICONTROL Entrée]** pour l’ajouter à la liste des utilisateurs.
+   * Dans la zone d’e-mail, saisissez l’adresse e-mail de l’utilisateur avec lequel vous souhaitez partager le lien. Vous pouvez partager le lien avec plusieurs utilisateurs. Si l’utilisateur appartient à votre organisation, sélectionnez son e-mail dans la liste déroulante de suggestions qui s’affiche. Si l’utilisateur est externe à votre organisation, saisissez l’e-mail complet et appuyez sur **[!UICONTROL Entrée]** pour l’ajouter à la liste des utilisateurs.
 
       ![](assets/link-sharing-text.png)
 
@@ -56,9 +56,9 @@ Vous trouverez ci-dessous la procédure à suivre pour partager des ressources s
 
    >[!NOTE]
    >
-   >Le délai d’expiration par défaut du lien est de 7 jours. Le lien doit être envoyé par email aux utilisateurs à l’aide de la boîte de dialogue **[!UICONTROL Partage de lien]**, ne copiez pas et ne partagez pas le lien séparément.
+   >Le délai d’expiration par défaut du lien est de 7 jours. Le lien doit être envoyé par e-mail aux utilisateurs à l’aide de la boîte de dialogue **[!UICONTROL Partage de lien]**, ne copiez pas et ne partagez pas le lien séparément.
 
-1. Cliquez sur **[!UICONTROL Partager]**. Un message confirme le partage du lien avec les utilisateurs. Les utilisateurs reçoivent un email contenant le lien partagé.
+1. Cliquez sur **[!UICONTROL Partager]**. Un message confirme le partage du lien avec les utilisateurs. Les utilisateurs reçoivent un e-mail contenant le lien partagé.
 
    ![](assets/link-share-email.png)
 
@@ -68,7 +68,7 @@ Vous trouverez ci-dessous la procédure à suivre pour partager des ressources s
 
 ## Téléchargement de ressources à partir de liens partagés {#download-assets-from-shared-links}
 
-Cliquez sur le lien de l’email pour accéder à la ressource partagée. La page Partage de lien AEM s’ouvre.
+Cliquez sur le lien de l’e-mail pour accéder à la ressource partagée. La page Partage de lien AEM s’ouvre.
 
 Pour télécharger les ressources partagées :
 
