@@ -18,15 +18,15 @@ version: 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '646'
-ht-degree: 46%
+ht-degree: 100%
 
 ---
 
 # Présentation de l’approvisionnement des ressources {#overview-asset-sourcing-in-bp}
 
-**L’** approvisionnement des ressources permet aux utilisateurs de ressources Experience Manager (administrateurs/non-administrateurs) de créer des dossiers avec une propriété  **Contribution des** ressources supplémentaire, en s’assurant que les nouveaux dossiers s’ouvrent lorsque des utilisateurs de Brand Portal envoient des ressources. Cela déclenche automatiquement un workflow qui crée deux sous-dossiers supplémentaires, appelés **SHARED** et **NEW**, dans le dossier **Contribution** nouvellement créé. L’administrateur définit ensuite les exigences en chargeant un résumé relatif aux types de ressources à ajouter au dossier de contribution, ainsi qu’un ensemble de ressources de base, dans le dossier **SHARED** afin de s’assurer que les utilisateurs de Brand Portal disposent des informations de référence dont ils ont besoin. L’administrateur peut alors octroyer aux utilisateurs actifs de Brand Portal l’accès au dossier de contribution avant de publier le nouveau dossier **Contribution** sur Brand Portal. Une fois que l’utilisateur a fini d’ajouter du contenu dans le dossier **NEW** , il peut republier le dossier de contribution dans l’environnement de création du Experience Manager. Notez que l’importation du contenu récemment publié dans Experience Manager Assets peut prendre quelques minutes et refléter le contenu que vous venez de publier.
+L’**approvisionnement des ressources** permet aux utilisateurs d’Experience Manager Assets (administrateurs/non-administrateurs) de créer des dossiers avec une propriété **Contribution des ressources** supplémentaire, en s’assurant que les nouveaux dossiers s’ouvrent lorsque des utilisateurs de Brand Portal envoient des ressources. Cela déclenche automatiquement un workflow qui crée deux sous-dossiers supplémentaires, appelés **SHARED** et **NEW**, dans le dossier **Contribution** nouvellement créé. L’administrateur définit ensuite les exigences en chargeant un résumé relatif aux types de ressources à ajouter au dossier de contribution, ainsi qu’un ensemble de ressources de base, dans le dossier **SHARED**, afin de s’assurer que les utilisateurs de Brand Portal disposent des informations de référence dont ils ont besoin. L’administrateur peut alors octroyer aux utilisateurs actifs de Brand Portal l’accès au dossier de contribution avant de publier le nouveau dossier **Contribution** sur Brand Portal. Dès que l’utilisateur a fini d’ajouter du contenu dans le dossier **NEW**, il peut republier le dossier de contribution dans l’environnement d’auteur Experience Manager. Notez que l’importation du nouveau contenu publié dans Experience Manager Assets et la prise en compte de cette opération peuvent prendre quelques minutes.
 
 En outre, toutes les fonctionnalités existantes restent inchangées. Les utilisateurs de Brand Portal peuvent afficher, rechercher et télécharger des ressources à partir du dossier de contribution, ainsi que des autres dossiers autorisés. Quant aux administrateurs, ils peuvent partager le dossier de contribution de manière plus avancée, modifier les propriétés et ajouter des ressources aux collections.
 
@@ -36,8 +36,8 @@ En outre, toutes les fonctionnalités existantes restent inchangées. Les utilis
 
 ## Prérequis {#prerequisites}
 
-* Experience Manager Assets en tant qu’instance de Cloud Service, Experience Manager Assets 6.5.2 ou version ultérieure.
-* Assurez-vous que votre instance Experience Manager Assets est configurée avec Brand Portal. Voir [Configuration de ressources Experience Manager avec Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+* Experience Manager Assets as a Cloud Service, Experience Manager Assets 6.5.2 ou version ultérieure.
+* Vérifiez que votre instance d’Experience Manager Assets est configurée avec Brand Portal. Consultez [Configuration d’Experience Manager Assets avec Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 <!--
 * Ensure that your Brand Portal tenant is configured with one AEM Assets author instance.
@@ -45,15 +45,15 @@ En outre, toutes les fonctionnalités existantes restent inchangées. Les utilis
 
 >[!NOTE]
 >
->La fonctionnalité d’approvisionnement des ressources est activée par défaut sur Ressources du Experience Manager en tant que Cloud Service, Ressources du Experience Manager 6.5.9 et versions ultérieures.
+>La fonctionnalité d’approvisionnement des ressources est activée par défaut dans Experience Manager Assets as a Cloud Service, Experience Manager Assets 6.5.9 et versions ultérieures.
 >
 >Les configurations existantes continueront à fonctionner sur les versions antérieures.
 
 >[!NOTE]
 >
->Il existe un problème connu dans Experience Manager Assets 6.5.4. Les utilisateurs de Brand Portal ne peuvent pas publier les ressources du dossier de contribution dans Experience Manager Assets lors de la mise à niveau vers Adobe Developer Console.
+>Il existe un problème connu dans Experience Manager Assets 6.5.4. Les utilisateurs de Brand Portal ne peuvent pas publier les ressources du dossier de contribution dans Experience Manager Assets lors de la mise à niveau vers Adobe Developer Console.
 >
->Le problème a été corrigé dans Experience Manager Assets 6.5.5. Vous pouvez mettre à niveau votre instance Experience Manager Assets vers le dernier Service Pack et [mettre à niveau vos configurations](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) sur Adobe Developer Console.
+>Le problème a été corrigé dans la version 6.5.5 d’Experience Manager Assets. Vous pouvez mettre à niveau votre instance Experience Manager Assets vers le Service Pack le plus récent et [mettre à niveau vos configurations](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html?lang=fr#upgrade-integration-65) sur Adobe Developer Console.
 
 <!--
 
@@ -102,23 +102,23 @@ Default URL: http:// localhost:4502/system/console/configMgr.
 
 ### Chargement de la liste des utilisateurs de Brand Portal {#upload-bp-user-list}
 
-Les administrateurs de ressources Experience Manager peuvent charger le fichier de configuration d’utilisateur Brand Portal (.csv) contenant la liste d’utilisateurs Brand Portal principale dans Ressources du Experience Manager pour leur permettre d’accéder à la fonctionnalité d’approvisionnement des ressources.
+Les administrateurs Experience Manager Assets peuvent charger le fichier de configuration des utilisateurs Brand Portal (au format .csv) contenant la liste des utilisateurs actifs de Brand Portal dans Experience Manager Assets pour leur permettre d’accéder à la fonctionnalité d’approvisionnement des ressources.
 
 Un dossier de contribution peut uniquement être partagé avec les utilisateurs actifs de Brand Portal définis dans la liste des utilisateurs. L’administrateur peut également ajouter de nouveaux utilisateurs dans le fichier de configuration et charger la liste modifiée des utilisateurs.
 
 >[!NOTE]
 >
->Assurez-vous que votre instance Experience Manager Assets est configurée avec Brand Portal. Voir [Configuration de ressources Experience Manager avec Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+>Vérifiez que votre instance d’Experience Manager Assets est configurée avec Brand Portal. Consultez [Configuration d’Experience Manager Assets avec Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 >[!NOTE]
 >
->Ce format de fichier CSV est identique à celui pris en charge dans Admin Console pour importer des utilisateurs en bloc. Vous devez indiquer vos nom, prénom et adresse email.
+>Ce format de fichier CSV est identique à celui pris en charge dans Admin Console pour importer des utilisateurs en bloc. Vous devez indiquer vos nom, prénom et adresse e-mail.
 
-Les administrateurs peuvent ajouter de nouveaux utilisateurs dans  Admin Console. Pour plus d’informations, voir [Gestion des utilisateurs](brand-portal-adding-users.md). Une fois des utilisateurs ajoutés dans Admin Console, ceux-ci peuvent être ajoutés au fichier de configuration des utilisateurs de Brand Portal, puis se voir attribuer l’autorisation d’accéder au dossier de contribution.
+Les administrateurs peuvent ajouter de nouveaux utilisateurs dans Admin Console. Pour plus d’informations, voir [Gestion des utilisateurs](brand-portal-adding-users.md). Une fois des utilisateurs ajoutés dans Admin Console, ceux-ci peuvent être ajoutés au fichier de configuration des utilisateurs de Brand Portal, puis se voir attribuer l’autorisation d’accéder au dossier de contribution.
 
 **Pour charger la liste des utilisateurs de Brand Portal, procédez comme suit :**
 
-1. Connectez-vous à votre instance Assets Experience Manager.
+1. Connectez-vous à votre instance Experience Manager Assets.
 1. Dans le panneau **Outils**, accédez à **[!UICONTROL Ressources]** > **[!UICONTROL Utilisateurs Brand Portal]**.
 
 1. La fenêtre de chargement des contributeurs de Brand Portal s’affiche.
@@ -128,7 +128,7 @@ Recherchez sur votre ordinateur local le **fichier de configuration (.csv)** con
    ![](assets/upload-user-list2.png)
 
 
-Les administrateurs peuvent donner un accès à des utilisateurs spécifiques à partir de cette liste d’utilisateurs lors de la configuration d’un dossier de contribution. Seuls les utilisateurs affectés à un dossier de contribution auront accès au dossier de contribution et publieront les ressources de Brand Portal vers les ressources du Experience Manager.
+Les administrateurs peuvent donner un accès à des utilisateurs spécifiques à partir de cette liste d’utilisateurs lors de la configuration d’un dossier de contribution. Seuls les utilisateurs affectés à un dossier de contribution auront accès au dossier de contribution et publieront des fichiers de Brand Portal vers Experience Manager Assets.
 
 ## Voir également {#reference-articles}
 
