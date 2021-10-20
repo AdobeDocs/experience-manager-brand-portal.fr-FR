@@ -1,7 +1,7 @@
 ---
-title: Chargement de ressources et publication du dossier de contribution de Brand Portal vers Experience Manager Assets
+title: Chargement de ressources et publication du dossier de contribution de Brand Portal vers Experience Manager Assets
 seo-title: Upload assets and publish the Contribution folder from Brand Portal to Experience Manager Assets
-description: Découvrez comment charger de nouvelles ressources et publier le dossier de contribution de Brand Portal vers Experience Manager Assets.
+description: Découvrez comment charger de nouvelles ressources et publier le dossier de contribution de Brand Portal vers Experience Manager Assets.
 seo-description: Get an insight into uploading new assets and publishing the contribution folder from Brand Portal to Experience Manager Assets.
 uuid: null
 content-type: reference
@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
 source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1011'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ L’utilisateur de Brand Portal autorisé à accéder au dossier de contributio
 
 ## Téléchargement des exigences en matière de ressources {#download-asset-requirements}
 
-Les utilisateurs de Brand Portal reçoivent automatiquement des notifications Push/par courrier électronique lorsqu’un dossier de contribution est partagé par l’utilisateur de ressources du Experience Manager, ce qui leur permet de télécharger le document de résumé (exigences en matière de ressources), ainsi que les ressources de base (contenu de référence), à partir du dossier **SHARED** , afin de s’assurer qu’ils comprennent les exigences en matière de ressources.
+Les utilisateurs de Brand Portal reçoivent automatiquement des notifications Push/par e-mail lorsqu’un dossier de contribution est partagé par l’utilisateur d’Experience Manager Assets, ce qui leur permet de télécharger le document de résumé (exigences en matière de ressources) et les ressources de base (contenu de référence) depuis le dossier **SHARED** afin de s’assurer qu’ils comprennent les exigences en matière de ressources.
 
 L’utilisateur de Brand Portal effectue les activités suivantes pour télécharger les exigences en matière de ressources :
 
@@ -76,9 +76,9 @@ Après avoir examiné les exigences relatives aux ressources, les utilisateurs d
 
 >[!NOTE]
 >
->Il est recommandé de libérer l’espace de chargement après la publication du dossier de contribution dans Ressources Experience Manager afin qu’il soit disponible pour les autres utilisateurs de Brand Portal à des fins de contribution.
+>Il est recommandé de libérer l’espace de chargement après avoir publié le dossier de contribution dans Experience Manager Assets afin qu’il soit accessible aux autres utilisateurs de Brand Portal pour les contributions.
 >
->S’il est nécessaire d’étendre la limite de chargement de votre client Brand Portal au-delà de **10** Go, contactez le service clientèle en spécifiant les exigences.
+>S’il est nécessaire d’étendre la limite de chargement de votre client Brand Portal au-delà de **10** Go, contactez le service clientèle en spécifiant la limite requise.
 
 
 **Pour charger de nouvelles ressources :**
@@ -100,12 +100,12 @@ Le tableau de bord de Brand Portal répertorie tous les dossiers existants auxqu
 
    ![](assets/upload-new-assets6.png)
 
-Après avoir transféré toutes les ressources ou tous les dossiers dans le dossier NEW , publiez le dossier de contribution dans Ressources du Experience Manager.
+Après avoir chargé tous les fichiers ou dossiers dans le dossier NEW, publiez le dossier de contribution dans Experience Manager Assets.
 
 
 ## Publication du dossier de contribution sur Experience Manager Assets {#publish-contribution-folder-to-aem}
 
-Les utilisateurs de Brand Portal peuvent publier le dossier de contribution sur Ressources du Experience Manager sans avoir à accéder à l’instance de création du Experience Manager.
+Les utilisateurs de Brand Portal peuvent publier le dossier de contribution sur Experience Manager Assets sans avoir besoin d’accéder à l’instance d’auteur Experience Manager Assets.
 
 Vérifiez que vous avez respecté les exigences en matière de ressources et chargez les ressources nouvellement créées dans le dossier **NEW** au sein du dossier de contribution.
 
@@ -124,29 +124,29 @@ Une notification Pulse/par e-mail est envoyée à l’utilisateur et aux adminis
 
 1. **Placé en file d’attente** : une notification est envoyée à l’utilisateur et aux administrateurs de Brand Portal lorsqu’un processus de publication se déclenche dans Brand Portal.
 
-1. **Terminé**  : une notification est envoyée à l’utilisateur Brand Portal et aux administrateurs de Brand Portal lorsque le dossier de contribution est publié avec succès sur les ressources du Experience Manager.
+1. **Terminé** : une notification est envoyée à l’utilisateur et aux administrateurs de Brand Portal lorsque le dossier de contribution est publié dans Experience Manager Assets.
 
-Après avoir publié les ressources nouvellement créées dans Experience Manager Assets, les utilisateurs de Brand Portal peuvent les supprimer du dossier NEW . En revanche, l’administrateur de Brand Portal peut supprimer les ressources des dossiers NEW et SHARED.
+Après avoir publié les ressources nouvellement créées dans Experience Manager Assets, les utilisateurs de Brand Portal peuvent les supprimer du dossier NEW. En revanche, l’administrateur de Brand Portal peut supprimer les ressources des dossiers NEW et SHARED.
 
 Une fois l’objectif de création du dossier de contribution atteint, l’administrateur de Brand Portal peut le supprimer afin de libérer l’espace de chargement pour d’autres utilisateurs.
 
 ## État de la tâche de publication {#publishing-job-status}
 
-Les administrateurs peuvent utiliser deux rapports pour afficher l’état des dossiers de contribution des ressources publiés de Brand Portal vers Experience Manager Assets.
+Les administrateurs peuvent utiliser deux rapports pour afficher l’état des dossiers de contribution des ressources publiés de Brand Portal vers Experience Manager Assets.
 
 * Dans le Brand Portal, accédez à **[!UICONTROL Outils]** > **[!UICONTROL État de contribution des ressources]**. Ce rapport reflète l’état de toutes les tâches de publication à différentes étapes du processus de publication.
 
    ![](assets/contribution-folder-status.png)
 
-* Dans Experience Manager Assets (on-premise ou managed service), accédez à **[!UICONTROL Assets]** > **[!UICONTROL Tâches]**. Ce rapport reflète l’état final (Réussite ou Erreur) de toutes les tâches de publication.
+* Dans Experience Manager Assets (On-Premise ou Managed Service), accédez à **[!UICONTROL Ressources]** > **[!UICONTROL Tâches]**. Ce rapport reflète l’état final (Réussite ou Erreur) de toutes les tâches de publication.
 
    ![](assets/publishing-status.png)
 
-* Dans Experience Manager Assets as a Cloud Service, accédez à **[!UICONTROL Ressources]** > **[!UICONTROL Tâches]**.
+* Dans Experience Manager Assets as a Cloud Service, accédez à **[!UICONTROL Ressources]** > **[!UICONTROL Tâches]**.
 
    Vous pouvez également accéder directement à **[!UICONTROL Tâches]** à partir de la navigation globale.
 
-   Ce rapport reflète l’état final (Réussite ou Erreur) de toutes les tâches de publication, y compris l’importation des ressources de Brand Portal vers Experience Manager Assets en tant que Cloud Service.
+   Ce rapport reflète l’état final (Succès ou Erreur) de toutes les tâches de publication, y compris de l’importation de ressources de Brand Portal vers Experience Manager Assets as a Cloud Service.
 
    ![](assets/cloud-service-job-status.png)
 
