@@ -11,27 +11,27 @@ discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
 source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '871'
-ht-degree: 54%
+ht-degree: 100%
 
 ---
 
 # Dépannage des problèmes de publication en parallèle sur Brand Portal {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-Brand Portal est configuré avec les ressources du Experience Manager pour que les ressources de marque approuvées soient automatiquement ingérées (ou publiées) à partir de l’instance d’auteur Ressources du Experience Manager. Une fois [configuré](../using/configure-aem-assets-with-brand-portal.md), l’auteur du Experience Manager utilise un agent de réplication pour répliquer la ou les ressources sélectionnées sur le service cloud Brand Portal pour une utilisation approuvée par les utilisateurs de Brand Portal. Plusieurs agents de réplication sont utilisés dans Experience Manager 6.2 SP1-CFP5, Experience Manager CFP 6.3.0.2 et versions ultérieures pour permettre une publication parallèle à grande vitesse.
+Brand Portal est configuré avec Experience Manager Assets, de sorte que les ressources de marque approuvées soient automatiquement ingérées (ou publiées) à partir de l’instance d’auteur Experience Manager Assets. Une fois [configuré](../using/configure-aem-assets-with-brand-portal.md), l’auteur Experience Manager utilise un agent de réplication afin de répliquer la ou les ressources sélectionnées sur le Cloud Service Brand Portal pour l’utilisation approuvée par les utilisateurs de Brand Portal. Plusieurs agents de réplication sont utilisés dans Experience Manager 6.2 SP1-CFP5, AEM CFP 6.3.0.2 et les versions ultérieures pour permettre une publication parallèle à haute vitesse.
 
 >[!NOTE]
 >
->Adobe recommande d’effectuer la mise à niveau vers Experience Manager 6.4.1.0 pour s’assurer que Experience Manager Assets Brand Portal est correctement configuré avec les ressources du Experience Manager. Une limitation de Experience Manager 6.4 entraîne une erreur lors de la configuration des ressources Experience Manager avec Brand Portal et l’échec de la réplication.
+>Adobe recommande d’effectuer la mise à niveau vers Experience Manager 6.4.1.0 pour s’assurer qu’Experience Manager Assets Brand Portal est correctement configuré avec Experience Manager Assets. Experience Manager 6.4 présente une limitation, en ce sens qu’il renvoie une erreur lors de la configuration d’Experience Manager Assets avec Brand Portal et entraîne l’échec de la réplication.
 
-Lors de la configuration du service cloud pour Brand Portal sous **[!UICONTROL /etc/cloudservice]**, tous les utilisateurs et jetons nécessaires sont générés automatiquement et enregistrés dans le référentiel. La configuration du Cloud Service est créée, de même que les utilisateurs des services requis pour la réplication et les agents de réplication pour répliquer le contenu. Il crée quatre agents de réplication. Ainsi, lorsque vous publiez de nombreuses ressources de Experience Manager vers Brand Portal, les ressources sont placées en file d’attente et distribuées entre les agents de réplication par le biais de Round Robin.
+Lors de la configuration du Cloud Service pour Brand Portal sous **[!UICONTROL /etc/cloudservice]**, tous les utilisateurs et jetons nécessaires sont générés automatiquement et enregistrés dans le référentiel. La configuration du Cloud Service est créée, de même que les utilisateurs des services requis pour la réplication et les agents de réplication pour répliquer le contenu. Cette étape crée quatre agents de réplication. Ainsi, lorsque vous publiez de nombreuses ressources d’Experience Manager sur Brand Portal, celles-ci sont placées en file d’attente et distribuées entre ces agents de réplication de manière cyclique.
 
-Cependant, la publication peut échouer par intermittence en raison de tâches Sling volumineuses, d’une augmentation du volume d’E/S réseau et **[!UICONTROL disque sur l’instance d’auteur du Experience Manager ou d’un ralentissement des performances de l’instance d’auteur du Experience Manager.]** Il est donc conseillé de tester la connexion avec le ou les agents de réplication avant de commencer la publication.
+Cependant, la publication peut échouer par intermittence en raison de tâches Sling volumineuses, d’une augmentation du volume d’**[!UICONTROL E/S]** réseau et disque sur l’instance d’auteur Experience Manager, ou d’un ralentissement des performances de l’instance d’auteur Experience Manager. Par conséquent, il est conseillé de tester la connexion avec le ou les agents de réplication avant de démarrer la publication.
 
 ![](assets/test-connection.png)
 
-## Résolution des problèmes liés à la première publication : validation de votre configuration de publication {#troubleshoot-failures-in-first-time-publishing-validating-your-publish-configuration}
+## Résolution des problèmes lors de la première publication : validation de la configuration de publication {#troubleshoot-failures-in-first-time-publishing-validating-your-publish-configuration}
 
 Pour valider vos configurations de publication :
 
@@ -63,7 +63,7 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 
 ### Nettoyage des configurations de publication existantes dans Brand Portal {#clean-up-existing-config}
 
-Si la publication échoue, cela est généralement dû au fait que l’utilisateur qui publie (`mac-<tenantid>-replication`, par exemple) ne dispose pas de la clé privée la plus récente. Il s’ensuit l’échec de la publication avec une erreur « 401 non autorisé » et aucune autre erreur n’est consignée dans les journaux des agents de réplication. Vous pouvez éviter le dépannage et créer une configuration à la place. Pour que la nouvelle configuration fonctionne correctement, nettoyez les éléments suivants de la configuration de l’auteur du Experience Manager :
+Si la publication échoue, cela est généralement dû au fait que l’utilisateur qui publie (`mac-<tenantid>-replication`, par exemple) ne dispose pas de la clé privée la plus récente. Il s’ensuit l’échec de la publication avec une erreur « 401 non autorisé » et aucune autre erreur n’est consignée dans les journaux des agents de réplication. Vous pouvez éviter le dépannage en créant une configuration. Pour que la nouvelle configuration fonctionne correctement, nettoyez les éléments suivants dans la configuration auteur d’Experience Manager :
 
 1. Accédez à `localhost:4502/crx/de/` (à condition que vous exécutiez l’instance d’auteur sur localhost:4502:\
    i. Supprimez `/etc/replication/agents.author/mp_replication`
@@ -74,7 +74,7 @@ ii. Supprimez
    i. Recherchez l’utilisateur `mac-<tenantid>replication`
 ii. supprimez cet utilisateur.
 
-Le système est maintenant complètement nettoyé. Vous pouvez maintenant essayer de créer une configuration de service cloud tout en utilisant l’application JWT existante. Il n’est pas nécessaire de créer une application, mais de mettre à jour la clé publique à partir de la nouvelle configuration cloud créée.
+Le système est maintenant complètement nettoyé. Vous pouvez maintenant essayer de créer une configuration de service cloud tout en utilisant l’application JWT existante. Il n’est pas nécessaire de créer une application, mais vous devez mettre à jour la clé publique à partir de la configuration cloud créée.
 
 >[!NOTE]
 >
@@ -83,7 +83,7 @@ Le système est maintenant complètement nettoyé. Vous pouvez maintenant essaye
 
 ## Problème de visibilité des clients d’applications JWT sur Developer Connection {#developer-connection-jwt-application-tenant-visibility-issue}
 
-Si, sur `https://legacy-oauth.cloud.adobe.io/`, toutes les organisations (clients) pour lesquelles les utilisateurs actuels sont hébergés par l’administrateur système sont répertoriées. Si vous ne trouvez pas le nom de l’organisation ici ou si vous ne pouvez pas y créer d’application pour un client requis, vérifiez si vous disposez des droits suffisants (d’administrateur système).
+Si, sur `https://legacy-oauth.cloud.adobe.io/`, toutes les organisations (clients) pour lesquelles les utilisateurs actuels sont hébergés par l’administrateur système sont répertoriées. Si vous n’y trouvez pas le nom de l’organisation ou si vous ne pouvez pas y créer d’application pour un client requis, vérifiez si vous possédez les droits suffisants (d’administrateur système).
 
 Cette interface utilisateur présente un problème connu qui fait que seules les dix premières applications sont visibles pour n’importe quel client. Quand vous créez l’application, restez sur cette page et marquez l’URL d’un signet. Vous n’aurez ainsi pas besoin d’accéder à la page répertoriant l’application pour y trouver celle que vous avez créée. Vous pouvez utiliser directement cette URL marquée d’un signet et mettre à jour/supprimer l’application lorsque cela s’avère nécessaire.
 
@@ -116,7 +116,7 @@ permission
 </g> denied to dam-replication-service, raise a support ticket.</p>
 -->
 
-Si un agent de réplication (qui publiait correctement sur Brand Portal) cesse de traiter les tâches de publication, vérifiez les journaux de réplication. Experience Manager intègre une fonction de reprise automatique. Par conséquent, si la publication d’une ressource particulière échoue, elle est automatiquement reprise. En cas de problème intermittent, comme une erreur réseau, il se peut qu’il réussisse lors d’une nouvelle tentative.
+Si un agent de réplication (qui publiait correctement sur Brand Portal) cesse de traiter les tâches de publication, vérifiez les journaux de réplication. Experience Manager intègre une fonction de réessai automatique qui permet de retenter automatiquement la publication d’une ressource particulière suite à un échec. En cas de problème intermittent telles qu’une erreur réseau, la publication peut réussir lors de la nouvelle tentative.
 
 En revanche, en cas d’échecs de publication continus et si la file d’attente est bloquée, vous devez cocher la case **[!UICONTROL Tester la connexion]** et essayer de résoudre les erreurs qui sont signalées.
 
@@ -127,7 +127,7 @@ En fonction des erreurs, nous vous conseillons de soumettre un ticket d’assist
 
 En règle générale, la tâche de publication échoue avec une erreur de délai d’expiration si plusieurs requêtes en attente se trouvent dans la file d’attente de réplication. Pour résoudre ce problème, assurez-vous que les agents de réplication sont configurés pour éviter l’expiration.
 
-Pour configurer les agents de réplication :
+Pour configurer les agents de réplication, suivez les étapes suivantes :
 
 1. Connectez-vous à votre instance d’auteur AEM Assets.
 1. Dans le panneau **Outils**, accédez à **[!UICONTROL Déploiement]** > **[!UICONTROL Réplication]**.
