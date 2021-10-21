@@ -1,7 +1,7 @@
 ---
 title: Publication de balises sur Brand Portal
 seo-title: Publish tags to Brand Portal
-description: Découvrez comment publier des balises de Experience Manager Assets vers Brand Portal.
+description: Découvrez comment publier des balises à partir d’Experience Manager Assets sur Brand Portal.
 seo-description: Learn how to publish tags from Experience Manager Assets to Brand Portal.
 uuid: 4167367e-1af8-476b-97a5-730c43bd0816
 topic-tags: publish
@@ -11,16 +11,16 @@ discoiquuid: 3c8e9251-195d-4c56-a9a9-27bc8b2a82a4
 exl-id: 842656a6-1a2b-4b64-954d-1e663923a1a1
 source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 89%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Publication de balises sur Brand Portal {#publish-tags-to-brand-portal}
 
-Découvrez comment publier des balises de Experience Manager Assets vers Brand Portal.
+Découvrez comment publier des balises à partir d’Experience Manager Assets sur Brand Portal.
 
-Les balises sont utiles pour organiser les ressources et faciliter la recherche des ressources auxquelles elles sont associées. Les balises peuvent être considérées comme des mots-clés ou des étiquettes (métadonnées) qui sont attachés aux ressources, et permettent de les trouver rapidement suite à une recherche. Pour savoir comment attribuer des balises à des ressources dans Experience Manager Assets, reportez-vous à la section [Utilisation de balises pour organiser les ressources](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/organize-assets.html).
+Les balises sont utiles pour organiser les ressources et faciliter la recherche des ressources auxquelles elles sont associées. Les balises peuvent être considérées comme des mots-clés ou des étiquettes (métadonnées) qui sont attachés aux ressources, et permettent de les trouver rapidement suite à une recherche. Pour savoir comment affecter des balises à des ressources dans Experience Manager Assets, reportez-vous à [Utilisation des balises pour organiser les ressources](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/organize-assets.html).
 
 Les balises (liées aux ressources et aux collections dans AEM) sont automatiquement publiées sur Brand Portal quand les ressources (et les collections) associées à des balises sont publiées sur Brand Portal. Les balises publiées sont utiles pour retrouver les ressources associées.
 

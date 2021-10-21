@@ -12,15 +12,15 @@ exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
 source-git-commit: e7545344a0fc6dd5e0176705a16625c2976e0de6
 workflow-type: tm+mt
 source-wordcount: '1014'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
 # Exploration des ressources sur Brand Portal {#browsing-assets-on-brand-portal}
 
-Experience Manager Assets Brand Portal fournit diverses fonctionnalités et éléments d’interface utilisateur qui facilitent l’exploration des ressources, la navigation à travers les hiérarchies de ressources et la recherche de ressources tout en utilisant différentes options de vue.
+Experience Manager Assets Brand Portal fournit plusieurs fonctionnalités et éléments d’interface utilisateur pour faciliter l’exploration des ressources, la navigation à travers les hiérarchies de ressources et la recherche de ressources en utilisant différentes options de modes.
 
-Le logo du Experience Manager dans la barre d’outils supérieure permet aux utilisateurs administrateurs d’accéder facilement au panneau des outils d’administration.
+Le logo Experience Manager dans la barre d’outils supérieure permet aux utilisateurs administrateurs d’accéder au panneau des outils d’administration.
 
 ![](assets/aemlogo.png)
 
@@ -50,7 +50,7 @@ Vous pouvez afficher, parcourir et sélectionner (pour une action ultérieure) v
 
 ![](assets/card-view.png)
 
-Le mode Carte affiche les cartes d’informations de chaque élément au niveau actuel. Ces cartes présentent les les informations suivantes :
+Le mode Carte affiche les cartes d’informations de chaque élément au niveau actuel. Ces cartes présentent les informations suivantes :
 
 * Représentation visuelle de la ressource/du dossier.
 * Type

@@ -1,7 +1,7 @@
 ---
-title: 'Configuration et publication du dossier de contribution de Experience Manager Assets vers Brand Portal '
+title: 'Configuration et publication d’un dossier de contribution d’AEM Assets vers Brand Portal '
 seo-title: Configure and publish contribution folder from Experience Manager Assets to Brand Portal
-description: Découvrez comment configurer et publier un dossier de contribution de Experience Manager Assets vers Brand Portal.
+description: Découvrez comment configurer et publier un dossier de contribution d’Experience Manager Assets vers Brand Portal.
 seo-description: Get an insight into configuring and publishing a contribution folder from Experience Manager Assets to Brand Portal.
 uuid: null
 content-type: reference
@@ -12,32 +12,32 @@ discoiquuid: null
 exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
 source-git-commit: 533b2a637700770ff08c88da92892af863265902
 workflow-type: tm+mt
-source-wordcount: '1217'
-ht-degree: 57%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Configuration du dossier de contribution dans Experience Manager Assets {#configure-contribution-folder}
 
-Pour l’approvisionnement collaboratif des ressources, les utilisateurs de Experience Manager Assets (administrateurs et non-administrateurs autorisés) peuvent créer des dossiers de type **Contribution des ressources**, en s’assurant que les nouveaux dossiers s’ouvrent lorsque des utilisateurs de Brand Portal envoient des ressources.  Cela déclenche automatiquement un workflow qui crée deux sous-dossiers supplémentaires, appelés **SHARED** et **NEW**, dans le dossier **Contribution** nouvellement créé.
+Dans le cas de l’approvisionnement collaboratif des ressources, les utilisateurs d’Experience Manager Assets (administrateurs et non-administrateurs autorisés) peuvent créer des dossiers de type **Contribution des ressources**, en s’assurant qu’ils acceptent l’envoi de ressources de la part des utilisateurs de Brand Portal.  Cela déclenche automatiquement un workflow qui crée deux sous-dossiers supplémentaires, appelés **SHARED** et **NEW**, dans le dossier **Contribution** nouvellement créé.
 
-L’utilisateur de Experience Manager Assets définit ensuite les exigences en chargeant un résumé relatif aux types de ressources à ajouter au dossier de contribution, ainsi qu’un ensemble de ressources de base, dans le dossier **SHARED** afin de s’assurer que les utilisateurs de Brand Portal disposent des informations dont ils ont besoin. L’administrateur peut alors octroyer aux utilisateurs actifs de Brand Portal l’accès au dossier de contribution avant de publier le nouveau dossier Contribution sur Brand Portal.
+L’utilisateur d’Experience Manager Assets définit ensuite les exigences en chargeant un résumé relatif aux types de ressources à ajouter au dossier de contribution, ainsi qu’un ensemble de ressources de base, dans le dossier **SHARED**, afin de s’assurer que les utilisateurs de Brand Portal disposent des informations de référence dont ils ont besoin. L’administrateur peut alors octroyer aux utilisateurs actifs de Brand Portal l’accès au dossier de contribution avant de publier le nouveau dossier Contribution sur Brand Portal.
 
-La vidéo suivante explique comment configurer un dossier Contribution dans Experience Manager Assets :
+La vidéo suivante explique comment configurer un dossier Contribution dans Experience Manager Assets :
 
 >[!VIDEO](https://video.tv.adobe.com/v/30547)
 
-L’utilisateur de Experience Manager Assets effectue les activités suivantes lors de la configuration d’un dossier de contribution :
+L’utilisateur d’Experience Manager Assets effectue les activités suivantes lors de la configuration d’un dossier de contribution :
 
 * [Création d’un dossier de contribution](#create-contribution-folder)
-* [Téléchargement des exigences relatives aux ressources et affectation des contributeurs](#configure-contribution-folder-properties)
+* [Chargement des exigences relatives aux ressources et affectation des contributeurs](#configure-contribution-folder-properties)
 * [Chargement de ressources de base](#uplad-new-assets-to-contribution-folder)
-* [Publication du dossier de contribution de Experience Manager Assets vers Brand Portal](#publish-contribution-folder-to-brand-portal)
+* [Publication d’un dossier de contribution d’Experience Manager Assets vers Brand Portal](#publish-contribution-folder-to-brand-portal)
 
 ## Création d’un dossier de contribution {#create-contribution-folder}
 
 
-Les administrateurs de Experience Manager Assets et les utilisateurs non-administrateurs autorisés à créer un dossier peuvent créer un dossier de contribution dans Experience Manager Assets.
+Les administrateurs Experience Manager Assets et les utilisateurs non-administrateurs autorisés à créer un dossier peuvent créer un dossier de contribution dans Experience Manager Assets.
 Pour créer un dossier de contribution, créez un dossier de type Contribution des ressources, en vous assurant qu’il accepte l’envoi de ressources de la part des utilisateurs de Brand Portal.  Cela déclenche automatiquement un workflow qui crée deux sous-dossiers supplémentaires, SHARED et NEW, dans le dossier de contribution.
 
 
@@ -54,7 +54,7 @@ Vous pouvez configurer les propriétés du dossier de contribution séparément 
 
 1. Connectez-vous à votre instance Experience Manager Assets.
 
-1. Accédez à **[!UICONTROL Ressources]** > **[!UICONTROL Fichiers]**. Il répertorie tous les dossiers existants dans le référentiel Experience Manager Assets.
+1. Accédez à **[!UICONTROL Ressources]** > **[!UICONTROL Fichiers]**. Il répertorie tous les dossiers existants dans le référentiel Experience Manager Assets.
 
 1. Cliquez sur **[!UICONTROL Créer]** pour créer un dossier. La boîte de dialogue **[!UICONTROL Créer un dossier]** apparaît.
 
@@ -77,7 +77,7 @@ Il est recommandé d’utiliser dans le nom du dossier des lettres minuscules sa
 
 ## Configuration des propriétés du dossier de contribution {#configure-contribution-folder-properties}
 
-L’administrateur de Experience Manager Assets effectue les activités suivantes lors de la configuration des propriétés d’un dossier de contribution.
+L’administrateur d’Experience Manager Assets effectue les activités ci-après lors de la configuration des propriétés d’un dossier de contribution.
 
 * **Ajouter une description** : fournissez une description détaillée du dossier de contribution.
 * **Charger les instructions** : chargez le document sur les exigences en matière de ressources contenant des informations relatives aux ressources.
@@ -109,9 +109,9 @@ Les exigences en matière de ressources font référence aux détails fournis pa
 
 >[!NOTE]
 >
->Les résultats de la recherche sont basés sur la liste des utilisateurs Brand Portal configurée dans Experience Manager Assets. Vérifiez que vous disposez de la liste des utilisateurs Brand Portal mise à jour.
+>Les résultats de la recherche sont basés sur la liste des utilisateurs de Brand Portal configurée dans Experience Manager Assets. Vérifiez que vous disposez de la liste des utilisateurs Brand Portal mise à jour.
 
-Les administrateurs peuvent télécharger le fichier `user.csv` à partir de [!DNL Admin Console] et l’utiliser comme modèle de base pour ajouter des utilisateurs Brand Portal. Accédez à [!UICONTROL Utilisateurs] et cliquez sur l’option [!UICONTROL Exporter les utilisateurs vers csv] pour télécharger le fichier `users.csv`. La liste d’exemples d’utilisateurs suivante détaille les attributs requis pour l’ajout des utilisateurs. Le seul attribut obligatoire pour une entrée utilisateur est `Email` et tous les autres attributs sont facultatifs.
+Les administrateurs peuvent télécharger les `user.csv` fichier à partir de [!DNL Admin Console] et l’utiliser comme modèle de base pour ajouter des utilisateurs Brand Portal. Accédez à [!UICONTROL Utilisateurs] et cliquez sur le bouton [!UICONTROL Exportation de la liste des utilisateurs vers csv] pour télécharger l’option `users.csv` fichier . La liste d’exemples d’utilisateurs suivante détaille les attributs requis pour l’ajout des utilisateurs. Le seul attribut obligatoire pour une entrée utilisateur est `Email` et tous les autres attributs sont facultatifs.
 
 [Obtenir le fichier](assets/users.csv)
 
@@ -127,15 +127,15 @@ Ils peuvent alors créer des ressources à des fins de contribution et les charg
 >La limite de chargement maximale pour tout client Brand Portal est de **10** Go ; elle est appliquée de manière cumulative à tous les dossiers de contribution.
 
 
-Après avoir publié les ressources nouvellement créées dans Experience Manager Assets, les utilisateurs de Brand Portal peuvent les supprimer du dossier NEW . En revanche, l’administrateur de Brand Portal peut supprimer les ressources des dossiers NEW et SHARED.
+Après avoir publié les ressources nouvellement créées dans Experience Manager Assets, les utilisateurs de Brand Portal peuvent les supprimer du dossier NEW. En revanche, l’administrateur de Brand Portal peut supprimer les ressources des dossiers NEW et SHARED.
 
 Une fois l’objectif de création du dossier de contribution atteint, l’administrateur de Brand Portal peut le supprimer afin de libérer l’espace de chargement pour d’autres utilisateurs.
 
 >[!NOTE]
 >
->Il est recommandé de libérer l’espace de chargement après la publication du dossier de contribution dans Experience Manager Assets afin qu’il soit disponible pour les autres utilisateurs de Brand Portal à des fins de contribution.
+>Il est recommandé de libérer l’espace de chargement après avoir publié le dossier de contribution dans Experience Manager Assets afin qu’il soit accessible aux autres utilisateurs de Brand Portal pour les contributions.
 >
->S’il est nécessaire d’étendre la limite de chargement de votre client Brand Portal au-delà de **10** Go, contactez le service clientèle en spécifiant les exigences.
+>S’il est nécessaire d’étendre la limite de chargement de votre client Brand Portal au-delà de **10** Go, contactez le service clientèle en spécifiant la limite requise.
 
 
 **Pour charger de nouvelles ressources :**
@@ -157,12 +157,12 @@ Le tableau de bord de Brand Portal répertorie tous les dossiers existants auxqu
 
    ![](assets/upload-new-assets3.png)
 
-Après avoir transféré toutes les ressources ou tous les dossiers dans le dossier NEW , publiez le dossier de contribution dans Experience Manager Assets.
+Après avoir chargé tous les fichiers ou dossiers dans le dossier NEW, publiez le dossier de contribution dans Experience Manager Assets.
 
 
 ## Publication du dossier de contribution sur Brand Portal {#publish-contribution-folder-to-brand-portal}
 
-Une fois le dossier de contribution configuré, l’utilisateur de Experience Manager Assets (administrateur/non-administrateur) peut le publier de Experience Manager Assets vers Brand Portal. Les utilisateurs de Brand Portal autorisés à accéder au dossier de contribution recevront une notification Push ou par email à la fin de l’action de publication.
+Une fois le dossier de contribution configuré, l’utilisateur d’Experience Manager Assets (administrateur/non-administrateur) peut le publier d’Experience Manager Assets sur Brand Portal. Les utilisateurs de Brand Portal autorisés à accéder au dossier de contribution recevront une notification Push ou par e-mail à la fin de l’action de publication.
 
 
 **Pour publier le dossier de contribution, procédez comme suit :**
@@ -176,4 +176,4 @@ Une fois le dossier de contribution configuré, l’utilisateur de Experience Ma
 
    Vous recevrez un message de réussite une fois que le dossier de contribution sera publié sur Brand Portal.
 
-Une notification Push/par courrier électronique est envoyée aux utilisateurs de Brand Portal affectés au dossier de contribution. Les utilisateurs de Brand Portal peuvent accéder au dossier de contribution et commencer la contribution. Voir [Chargement de ressources dans le dossier de contribution et publication sur Experience Manager Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).
+Une notification Push/par courrier électronique est envoyée aux utilisateurs de Brand Portal affectés au dossier de contribution. Les utilisateurs de Brand Portal peuvent accéder au dossier de contribution et commencer la contribution. Consultez [Chargement de ressources vers le dossier de contribution et publication sur Experience Manager Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).

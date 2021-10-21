@@ -12,8 +12,8 @@ discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
 source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '1124'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -45,7 +45,7 @@ Pour rechercher des ressources sur Brand Portal :
 
 Pour en savoir plus sur le comportement de la recherche avec des ressources avec balisage intelligent, consultez la section traitant de la [présentation du comportement et des résultats de recherche](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/search-assets.html).
 
-## Recherche à l’aide des facettes du panneau Filtres   {#search-using-facets-in-filters-panel}
+## Recherche à l’aide des facettes du panneau Filtres {#search-using-facets-in-filters-panel}
 
 Les facettes de recherche du panneau Filtres ajoutent de la granularité à votre expérience de recherche et optimisent la fonctionnalité de recherche. Elles utilisent plusieurs dimensions (prédicats) qui vous permettent d’effectuer des recherches complexes. Vous pouvez facilement descendre dans la hiérarchie jusqu’au niveau de détail souhaité pour effectuer une recherche plus précise.
 

@@ -178,7 +178,7 @@ La version 2020.10.0 de Brand Portal est une version améliorée qui se concent
 
 ### Expérience de téléchargement simplifiée {#download-dialog}
 
-Auparavant, la boîte de dialogue **[!UICONTROL Télécharger]** s’affichait avec plusieurs options, telles que créer un dossier distinct pour chaque ressource, envoyer une ressource par email, sélectionner une ressource d’origine, des rendus personnalisés, des rendus dynamiques, exclure les rendus système et activer l’accélération du téléchargement. Cela était ambigu pour les utilisateurs non techniques ou nouveaux, particulièrement lorsque plusieurs ressources ou dossiers étaient sélectionnés pour le téléchargement. En outre, l’utilisateur ne pouvait pas afficher tous les rendus de ressources ni exclure un rendu personnalisé ou dynamique spécifique.
+Auparavant, la boîte de dialogue **[!UICONTROL Télécharger]** s’affichait avec plusieurs options, telles que créer un dossier distinct pour chaque ressource, envoyer une ressource par e-mail, sélectionner une ressource d’origine, des rendus personnalisés, des rendus dynamiques, exclure les rendus système et activer l’accélération du téléchargement. Cela était ambigu pour les utilisateurs non techniques ou nouveaux, particulièrement lorsque plusieurs ressources ou dossiers étaient sélectionnés pour le téléchargement. En outre, l’utilisateur ne pouvait pas afficher tous les rendus de ressources ni exclure un rendu personnalisé ou dynamique spécifique.
 
 La nouvelle boîte de dialogue **[!UICONTROL Télécharger]** généralise le processus de sélection et de filtrage des ressources, ce qui permet aux utilisateurs de Brand Portal de prendre des décisions efficaces lors du téléchargement des rendus de ressources. Il liste toutes les [**[!UICONTROL ressources]**](brand-portal-download-assets.md) sélectionnées et leurs rendus en fonction de la configuration et des paramètres de **[!UICONTROL téléchargement]**.
 
@@ -348,10 +348,10 @@ Les étapes de configuration d’AEM Assets avec Brand Portal sont différentes 
 | **Version d’AEM** | **Nouvelle configuration** | **Mise à niveau de la configuration** |
 |---|---|---|
 | **AEM Assets as a Cloud Service** | [Création d’une configuration](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
-| **AEM 6.5 (6.5.4.0 et versions ultérieures)** | [Création d’une configuration](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Mise à niveau de la configuration](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
-| **AEM 6.4 (6.4.8.0 et versions ultérieures)** | [Création d’une configuration](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Mise à niveau de la configuration](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
+| **AEM 6.5 (6.5.4.0 et versions ultérieures)** | [Création d’une configuration](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html?lang=fr) | [Mise à niveau de la configuration](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html?lang=fr#upgrade-integration-65) |
+| **AEM 6.4 (6.4.8.0 et versions ultérieures)** | [Création d’une configuration](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html?lang=fr) | [Mise à niveau de la configuration](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html?lang=fr#upgrade-integration-64) |
 | **AEM 6.3 (6.3.3.8 et versions ultérieures)** | [Création d’une configuration](https://helpx.adobe.com/fr/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [Mise à niveau de la configuration](https://helpx.adobe.com/fr/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
-| **AEM 6.2** | Contacter le service clientèle | Contacter le service clientèle |
+| **AEM 6.2** | Contactez le service clientèle | Contactez le service clientèle |
 
 >[!NOTE]
 >
@@ -366,7 +366,7 @@ Voir [FAQ Brand Portal](brand-portal-faqs.md).
 
 Brand Portal 6.4.5 est une version qui vise à offrir aux utilisateurs de Brand Portal (agences/équipes externes) la possibilité de charger du contenu vers Brand Portal et de le publier sur AEM Assets, sans qu’il faille accéder à l’environnement de création. Cette fonctionnalité, qui est appelée **[Approvisionnement des ressources dans Brand Portal](brand-portal-asset-sourcing.md)**, améliore l’expérience client en permettant aux utilisateurs de contribuer et de partager des ressources avec d’autres utilisateurs de Brand Portal répartis dans le monde entier.
 
-### Approvisionnement en ressources dans Brand Portal {#asset-sourcing-in-bp}
+### Approvisionnement des ressources dans Brand Portal {#asset-sourcing-in-bp}
 
 L’approvisionnement des ressources permet aux utilisateurs d’AEM (administrateurs/non-administrateurs) de créer des dossiers avec une propriété **Contribution des ressources** supplémentaire, en s’assurant que les dossiers s’ouvrent lorsque des utilisateurs Brand Portal envoient des ressources. Cela déclenche automatiquement un workflow qui crée deux sous-dossiers supplémentaires, appelés NEW et SHARED, dans le dossier **Contribution** nouvellement créé.
 
@@ -525,7 +525,7 @@ De façon similaire, les ressources publiées peuvent être supprimées du porta
 
 ### Alias de client configurable dans l’URL
 
-Les organisations peuvent obtenir une URL de portail personnalisée comprenant un préfixe alternatif dans l’URL. Pour obtenir un alias pour le nom du client dans l’URL de leur portail existant, les entreprises doivent contacter le service clientèle.
+Les organisations peuvent obtenir une URL de portail personnalisée comprenant un préfixe alternatif dans l’URL. Pour obtenir un alias pour le nom de client dans leur URL de portail existante, les organisations doivent entrer en contact avec le service clientèle.
 
 Seul le préfixe de l’URL Brand Portal peut être personnalisé et non l’URL entière.\
 Par exemple, une entreprise avec le domaine existant **geomettrix.brand-portal.adobe.com** peut demander et obtenir la création de **geomettrixinc.brand-portal.adobe.com**.
@@ -699,7 +699,7 @@ Brand Portal 6.4.1 est une version de mise à niveau de la plate-forme qui con
 
 ### Amélioration des fonctionnalités de création de rapports
 
-**Ajout du rapport Partage de liens**
+**Introduction du rapport Lien partagé**
 Introduction d’un nouveau rapport afin de fournir des informations sur les liens partagés. Le rapport Partage de liens répertorie toutes les URL vers les ressources partagées avec des utilisateurs internes et externes à l’organisation pendant la période spécifiée. Il indique également si le lien a été partagé, par qui et sa date d’expiration.
 
 ![](assets/navigatereport.png)

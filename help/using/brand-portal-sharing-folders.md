@@ -1,7 +1,7 @@
 ---
 title: Partage de dossiers
 seo-title: Share folders
-description: Brand Portal ne prend pas en charge l’ingestion des ressources. Les ressources doivent donc être publiées sur Brand Portal à partir d’une instance d’auteur Experience Manager Assets préconfigurée. Les ressources publiées ne sont pas accessibles aux utilisateurs non-administrateurs de Brand Portal, sauf si elles sont configurées lors de la configuration de la réplication avec l’instance de Experience Manager et doivent être partagées avec eux.
+description: Brand Portal ne prend pas en charge l’ingestion des ressources. Celles-ci doivent donc être publiées sur Brand Portal à partir d’une instance d’auteur Experience Manager Assets préconfigurée. Les ressources publiées ne sont pas accessibles aux utilisateurs qui ne sont pas administrateurs de Brand Portal, à moins qu’elles n’aient été configurées lors de la configuration de la réplication avec une instance Experience Manager et qu’elles doivent être partagées avec eux.
 seo-description: Brand Portal does not support asset ingestion so assets must be published to Brand Portal from a pre-configured Experience Manager Assets Author instance. Published assets are not accessible to non-admin users of Brand Portal, unless configured while configuring replication with Experience Manager instance, and need to be shared with them.
 uuid: 340d0a49-b708-4f0e-9fb8-99c824942f34
 content-type: reference
@@ -11,20 +11,20 @@ discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 exl-id: d28cf927-60e8-437e-9cba-92f7e19020e7
 source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '1109'
-ht-degree: 90%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Partage de dossiers sur Brand Portal {#share-folders}
 
-Les ressources doivent être publiées sur Brand Portal à partir d’une instance d’auteur de Experience Manager préconfigurée, car Brand Portal ne prend pas en charge l’ingestion des ressources.
+Les ressources doivent être publiées sur Brand Portal à partir d’une instance auteur Experience Manager préconfigurée car Brand Portal ne prend pas en charge l’ingestion des ressources.
 
 ## Workflow de partage de dossiers dans Brand Portal {#folder-sharing-workflow-in-brand-portal}
 
 La section suivante décrit le workflow de partage de dossiers et l’accès utilisateur :
 
-* Par défaut, tous les dossiers publiés de Experience Manager Assets vers Brand Portal ne sont visibles que par l’administrateur Brand Portal, sauf s’ils sont marqués comme publics lors de la configuration de la réplication.
+* Par défaut, tous les dossiers publiés depuis Experience Manager Assets sur Brand Portal ne sont visibles que par l’administrateur de Brand Portal, sauf s’ils ont été désignés comme publics lors de la configuration de la réplication.
 * L’administrateur utilise la console **[!UICONTROL Propriétés du dossier]** pour partager un dossier avec des utilisateurs ou des groupes sélectionnés. Seuls les utilisateurs ou les groupes avec lesquels le dossier est partagé peuvent le visualiser une fois connectés à Brand Portal. Le dossier n’est pas visible par les autres utilisateurs.
 * L’administrateur peut également choisir de rendre un dossier public en cochant la case **[!UICONTROL Dossier public]** dans la console **[!UICONTROL Propriétés du dossier]**. Un dossier public est visible par tous les utilisateurs.
 

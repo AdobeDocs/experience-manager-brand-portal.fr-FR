@@ -12,8 +12,8 @@ discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
 source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '1924'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -59,13 +59,13 @@ Les paramètres disponibles sont les suivants :
 
    Permet de télécharger des rendus personnalisés ou dynamiques des ressources.
 
-   Tous les rendus de ressources autres que les rendus de ressources d’origine et générés par le système sont appelés rendus personnalisés. Ils comprennent des rendus statiques et dynamiques disponibles pour les ressources. Tout utilisateur peut créer un rendu statique personnalisé dans Experience Manager Assets, tandis que seul l’administrateur peut créer des rendus dynamiques personnalisés. Pour plus d’informations, consultez [comment appliquer des paramètres d’image prédéfinis ou des rendus dynamiques](../using/brand-portal-image-presets.md).
+   Tous les rendus de ressources autres que les rendus de ressources d’origine et générés par le système sont appelés rendus personnalisés. Ils comprennent des rendus statiques et dynamiques disponibles pour les ressources. Un utilisateur peut créer un rendu statique personnalisé dans Experience Manager Assets, alors que seul l’administrateur AEM peut créer des rendus dynamiques personnalisés. Pour plus d’informations, consultez [comment appliquer des paramètres d’image prédéfinis ou des rendus dynamiques](../using/brand-portal-image-presets.md).
 
 * **[!UICONTROL Rendus du système]**
 
    Permet de télécharger les rendus des ressources générés par le système.
 
-   Il s’agit des miniatures qui sont générées automatiquement dans Experience Manager Assets en fonction du workflow &quot;Ressource de mise à jour de gestion des actifs numériques&quot;.
+   Il s’agit des miniatures qui sont automatiquement générées dans Experience Manager Assets en fonction du workflow de mise à jour de ressource DAM.
 
 * **[!UICONTROL Téléchargement de ressources]**
 
@@ -208,9 +208,9 @@ Vous trouverez ci-dessous la procédure à suivre pour télécharger des ressour
 >
 >Brand Portal prend en charge la configuration de Dynamic Media dans les modes hybride et Scene7.
 >
->(*Si l’instance d’auteur Experience Manager Assets est en cours d’exécution en **mode hybride Dynamic Media***)
+>(*Si l’instance d’auteur Experience Manager Assets est en cours d’exécution en mode **hybride Dynamic Media***.)
 >
->Pour prévisualiser ou télécharger les rendus dynamiques d’une ressource, vérifiez que Dynamic Media est activé et que le rendu Pyramid tiff de la ressource existe au niveau de l’instance d’auteur Experience Manager Assets à partir de laquelle les ressources ont été publiées. Lorsqu’une ressource est publiée de Experience Manager Assets vers Brand Portal, son rendu Pyramid tiff est également publié.
+>Pour prévisualiser ou télécharger les rendus dynamiques d’une ressource, vérifiez que Dynamic Media est activé et que le rendu Pyramid TIFF de la ressource existe au niveau de l’instance d’auteur Experience Manager Assets à partir de laquelle les ressources ont été publiées. Lorsqu’une ressource est publiée à partir d’Experience Manager Assets sur Brand Portal, son rendu Pyramid TIFF l’est également.
 
 
 
