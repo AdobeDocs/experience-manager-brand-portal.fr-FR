@@ -10,10 +10,10 @@ topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
-source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
-workflow-type: ht
-source-wordcount: '871'
-ht-degree: 100%
+source-git-commit: 72cd0ebbf05067287d94e1dc4e1b68f5fb6c2888
+workflow-type: tm+mt
+source-wordcount: '953'
+ht-degree: 91%
 
 ---
 
@@ -61,7 +61,7 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 <p>?? another thing to check in /useradmin</p>
 -->
 
-### Nettoyage des configurations de publication existantes dans Brand Portal {#clean-up-existing-config}
+## Nettoyage des configurations de publication existantes dans Brand Portal {#clean-up-existing-config}
 
 Si la publication échoue, cela est généralement dû au fait que l’utilisateur qui publie (`mac-<tenantid>-replication`, par exemple) ne dispose pas de la clé privée la plus récente. Il s’ensuit l’échec de la publication avec une erreur « 401 non autorisé » et aucune autre erreur n’est consignée dans les journaux des agents de réplication. Vous pouvez éviter le dépannage en créant une configuration. Pour que la nouvelle configuration fonctionne correctement, nettoyez les éléments suivants dans la configuration auteur d’Experience Manager :
 
@@ -121,6 +121,14 @@ Si un agent de réplication (qui publiait correctement sur Brand Portal) cesse 
 En revanche, en cas d’échecs de publication continus et si la file d’attente est bloquée, vous devez cocher la case **[!UICONTROL Tester la connexion]** et essayer de résoudre les erreurs qui sont signalées.
 
 En fonction des erreurs, nous vous conseillons de soumettre un ticket d’assistance, de sorte que l’équipe d’ingénieurs de Brand Portal puisse vous aider à résoudre les problèmes.
+
+## Jeton de configuration Brand Portal IMS expiré {#token-expired}
+
+Si votre environnement Brand Portal s’arrête brusquement, il est possible que les configurations IMS ne fonctionnent pas correctement. Le système affiche une configuration IMS malsaine et reflète un message d’erreur (similaire à ce qui suit) indiquant que votre jeton d’accès a expiré.
+
+`com.adobe.granite.auth.oauth.AccessTokenProvider failed to get access token from authorization server status: 400 response: Unknown macro: {"error"}`
+
+Pour résoudre ce problème, il est recommandé d’enregistrer et de fermer manuellement la configuration IMS et de vérifier à nouveau l’état d’intégrité. Si les configurations ne fonctionnent pas, supprimez les configurations existantes et créez-en une.
 
 
 ## Configuration des agents de réplication pour éviter l’erreur de délai d’expiration de connexion {#connection-timeout}
