@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
 source-git-commit: 533b2a637700770ff08c88da92892af863265902
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1217'
+ht-degree: 100%
 
 ---
 
@@ -109,9 +109,9 @@ Les exigences en matière de ressources font référence aux détails fournis pa
 
 >[!NOTE]
 >
->Les résultats de la recherche sont basés sur la liste des utilisateurs de Brand Portal configurée dans Experience Manager Assets. Vérifiez que vous disposez de la liste des utilisateurs Brand Portal mise à jour.
+>Les résultats de la recherche sont basés sur la liste des utilisateurs de Brand Portal configurée dans Experience Manager Assets. Vérifiez que vous disposez de la liste mise à jour des utilisateurs de Brand Portal.
 
-Les administrateurs peuvent télécharger les `user.csv` fichier à partir de [!DNL Admin Console] et l’utiliser comme modèle de base pour ajouter des utilisateurs Brand Portal. Accédez à [!UICONTROL Utilisateurs] et cliquez sur le bouton [!UICONTROL Exportation de la liste des utilisateurs vers csv] pour télécharger l’option `users.csv` fichier . La liste d’exemples d’utilisateurs suivante détaille les attributs requis pour l’ajout des utilisateurs. Le seul attribut obligatoire pour une entrée utilisateur est `Email` et tous les autres attributs sont facultatifs.
+Les administrateurs peuvent télécharger le fichier `user.csv` à partir d’[!DNL Admin Console] et l’utiliser comme modèle de base pour ajouter des utilisateurs Brand Portal. Accédez à [!UICONTROL Utilisateurs] et cliquez sur le bouton [!UICONTROL Exportation de la liste des utilisateurs en csv] pour télécharger le fichier `users.csv`. La liste d’exemples d’utilisateurs suivante détaille les attributs requis pour l’ajout des utilisateurs. Le seul attribut obligatoire pour une entrée utilisateur est `Email` et tous les autres attributs sont facultatifs.
 
 [Obtenir le fichier](assets/users.csv)
 
