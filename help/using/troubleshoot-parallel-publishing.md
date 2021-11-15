@@ -11,9 +11,9 @@ discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
 source-git-commit: 72cd0ebbf05067287d94e1dc4e1b68f5fb6c2888
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '953'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -124,11 +124,11 @@ En fonction des erreurs, nous vous conseillons de soumettre un ticket d’assist
 
 ## Jeton de configuration Brand Portal IMS expiré {#token-expired}
 
-Si votre environnement Brand Portal s’arrête brusquement, il est possible que les configurations IMS ne fonctionnent pas correctement. Le système affiche une configuration IMS malsaine et reflète un message d’erreur (similaire à ce qui suit) indiquant que votre jeton d’accès a expiré.
+Si votre environnement Brand Portal s’arrête brusquement, il est possible que les configurations IMS ne fonctionnent pas correctement. Le système indique une configuration IMS non intègre et affiche un message d’erreur (similaire à ce qui suit) indiquant que votre jeton d’accès a expiré.
 
 `com.adobe.granite.auth.oauth.AccessTokenProvider failed to get access token from authorization server status: 400 response: Unknown macro: {"error"}`
 
-Pour résoudre ce problème, il est recommandé d’enregistrer et de fermer manuellement la configuration IMS et de vérifier à nouveau l’état d’intégrité. Si les configurations ne fonctionnent pas, supprimez les configurations existantes et créez-en une.
+Pour résoudre ce problème, il est recommandé d’enregistrer et de fermer manuellement la configuration IMS et de vérifier à nouveau son intégrité. Si la configuration ne fonctionne pas, supprimez les configurations existantes et créez-en une nouvelle.
 
 
 ## Configuration des agents de réplication pour éviter l’erreur de délai d’expiration de connexion {#connection-timeout}
