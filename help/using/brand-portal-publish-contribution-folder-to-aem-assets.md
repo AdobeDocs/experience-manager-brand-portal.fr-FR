@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
-source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
-workflow-type: ht
-source-wordcount: '1011'
-ht-degree: 100%
+source-git-commit: 3845d9fa17e75d59493383303ca0978349ca0401
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -59,7 +59,7 @@ Vous pouvez également ouvrir le dossier **[!UICONTROL SHARED]** et cliquer sur 
 
    ![](assets/download.png)
 
-   ![](assets/download-asset-requirement4.png)
+   ![](assets/download-asset-requirement5.png)
 
 Passez en revue le résumé (document sur les exigences en matière de ressources) et reportez-vous aux ressources de base pour comprendre les exigences en matière de ressources. Vous pouvez maintenant créer des ressources à des fins de contribution et les charger dans le dossier de contribution..
 
@@ -73,6 +73,8 @@ Après avoir examiné les exigences relatives aux ressources, les utilisateurs d
 >Les utilisateurs de Brand Portal peuvent charger des ressources uniquement vers le dossier NEW.
 >
 >La limite de chargement maximale pour tout client Brand Portal est de **10** Go ; elle est appliquée de manière cumulative à tous les dossiers de contribution.
+>
+>Les ressources chargées dans Brand Portal ne sont pas traitées pour les rendus et ne contiennent pas d’aperçus.
 
 >[!NOTE]
 >
@@ -98,7 +100,7 @@ Le tableau de bord de Brand Portal répertorie tous les dossiers existants auxqu
 
 1. Parcourez les ressources (fichiers/dossiers) et chargez-les dans le dossier **[!UICONTROL NEW]**.
 
-   ![](assets/upload-new-assets6.png)
+   ![](assets/upload-asset4.png)
 
 Après avoir chargé tous les fichiers ou dossiers dans le dossier NEW, publiez le dossier de contribution dans Experience Manager Assets.
 

@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
-source-git-commit: 533b2a637700770ff08c88da92892af863265902
-workflow-type: ht
-source-wordcount: '1217'
-ht-degree: 100%
+source-git-commit: 3845d9fa17e75d59493383303ca0978349ca0401
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -117,33 +117,15 @@ Les administrateurs peuvent télécharger le fichier `user.csv` à partir d’[!
 
 ## Chargement de ressources dans le dossier de contribution {#uplad-new-assets-to-contribution-folder}
 
-Les utilisateurs de Brand Portal peuvent télécharger les exigences en matière de ressources pour comprendre le besoin en termes de contribution.
-Ils peuvent alors créer des ressources à des fins de contribution et les charger dans le dossier NEW au sein du dossier de contribution.
+L’utilisateur de Experience Manager Assets charge un ensemble de ressources de base dans le **PARTAGÉ** pour vous assurer que les utilisateurs de Brand Portal disposent des informations dont ils ont besoin.
 
->[!NOTE]
->
->Les utilisateurs de Brand Portal peuvent charger des ressources uniquement vers le dossier NEW.
->
->La limite de chargement maximale pour tout client Brand Portal est de **10** Go ; elle est appliquée de manière cumulative à tous les dossiers de contribution.
+**Pour charger des ressources de base, procédez comme suit :**
 
+1. Connectez-vous à votre instance Experience Manager Assets.
 
-Après avoir publié les ressources nouvellement créées dans Experience Manager Assets, les utilisateurs de Brand Portal peuvent les supprimer du dossier NEW. En revanche, l’administrateur de Brand Portal peut supprimer les ressources des dossiers NEW et SHARED.
+1. Accédez à **[!UICONTROL Ressources > Fichiers]** et localisez le dossier de contribution.
 
-Une fois l’objectif de création du dossier de contribution atteint, l’administrateur de Brand Portal peut le supprimer afin de libérer l’espace de chargement pour d’autres utilisateurs.
-
->[!NOTE]
->
->Il est recommandé de libérer l’espace de chargement après avoir publié le dossier de contribution dans Experience Manager Assets afin qu’il soit accessible aux autres utilisateurs de Brand Portal pour les contributions.
->
->S’il est nécessaire d’étendre la limite de chargement de votre client Brand Portal au-delà de **10** Go, contactez le service clientèle en spécifiant la limite requise.
-
-
-**Pour charger de nouvelles ressources :**
-
-1. Connectez-vous à votre instance Brand Portal.
-Le tableau de bord de Brand Portal répertorie tous les dossiers existants auxquels l’utilisateur de Brand Portal est autorisé à accéder, ainsi que le dossier de contribution nouvellement partagé.
-
-1. Sélectionnez le dossier de contribution et cliquez dessus pour l’ouvrir. Le dossier de contribution contient deux sous-dossiers : **[!UICONTROL SHARED]** et **[!UICONTROL NEW]**.
+1. Sélectionnez le dossier de contribution et cliquez dessus pour l’ouvrir.
 
 1. Cliquez sur le dossier **[!UICONTROL NEW]**.
 
@@ -155,7 +137,7 @@ Le tableau de bord de Brand Portal répertorie tous les dossiers existants auxqu
 
 1. Parcourez les ressources (fichiers/dossiers) et chargez-les dans le dossier **[!UICONTROL NEW]**.
 
-   ![](assets/upload-new-assets3.png)
+   ![](assets/upload-asset4.png)
 
 Après avoir chargé tous les fichiers ou dossiers dans le dossier NEW, publiez le dossier de contribution dans Experience Manager Assets.
 
