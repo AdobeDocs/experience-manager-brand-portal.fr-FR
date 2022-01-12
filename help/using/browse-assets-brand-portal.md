@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: e7545344a0fc6dd5e0176705a16625c2976e0de6
-workflow-type: ht
-source-wordcount: '1014'
-ht-degree: 100%
+source-git-commit: 3abf39161febc536f431206c2f098e7d61a10846
+workflow-type: tm+mt
+source-wordcount: '1080'
+ht-degree: 91%
 
 ---
 
@@ -109,7 +109,7 @@ Le mode Liste répertorie les informations pour chaque ressource au niveau actue
 * Chemin du dossier présentant la hiérarchie des ressources
 * Date de publication de cette ressource sur Brand Portal
 
-La colonne Chemin vous permet d’identifier facilement l’emplacement des ressources dans la hiérarchie de dossiers. Vous pouvez naviguer vers le bas de la hiérarchie en appuyant/cliquant sur le nom de la ressource, puis revenir vers le haut à l’aide des [chemins de navigation de l’en-tête](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html?lang=fr).
+La colonne Chemin vous permet d’identifier facilement l’emplacement des ressources dans la hiérarchie de dossiers. Vous pouvez naviguer vers le bas de la hiérarchie en appuyant/cliquant sur le nom de la ressource, puis revenir vers le haut à l’aide des [chemins de navigation de l’en-tête](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html).
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Tap/click the vertical selection bar and drag the item to a new position in the list."
@@ -252,9 +252,17 @@ Pour consulter les métadonnées de la ressource, ou afficher ses différents re
 
 ![](assets/asset-overview.png)
 
-Vous pouvez afficher tous les rendus disponibles de la ressource sur la page Détails de la ressource, puis sélectionner un rendu pour le prévisualiser.
+Vous pouvez afficher tous les rendus disponibles de la ressource sur la page des détails de la ressource, puis sélectionner un rendu dans le **[!UICONTROL Rendus]** pour la prévisualiser.
 
 ![](assets/renditions.png)
+
+>[!CAUTION]
+>
+>(**Experience Manager Assets as a Cloud Service** uniquement) Les problèmes connus suivants seront corrigés dans la prochaine version :
+>
+>Le **[!UICONTROL Rendus]** ne répertorie pas tous les rendus statiques des ressources publiées sur Brand Portal après le 16 décembre 2021.
+>
+>Le **[!UICONTROL Rendus]** Le panneau répertorie les rendus de recadrage intelligent de la ressource. Cependant, l’utilisateur ne peut pas prévisualiser ni télécharger les rendus de recadrage intelligent.
 
 Pour ouvrir la page des propriétés de la ressource, utilisez l’option **[!UICONTROL Propriétés (p)]** de la barre supérieure.
 

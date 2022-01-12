@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
-workflow-type: ht
-source-wordcount: '1924'
-ht-degree: 100%
+source-git-commit: 3abf39161febc536f431206c2f098e7d61a10846
+workflow-type: tm+mt
+source-wordcount: '2026'
+ht-degree: 94%
 
 ---
 
@@ -163,7 +163,7 @@ Vous trouverez ci-dessous la procédure à suivre pour télécharger des ressour
       >
       >Si les ressources que vous téléchargez comprennent également des ressources sous licence, vous êtes redirigé vers la page **[!UICONTROL Gestion des droits d’auteur]**. Dans cette page, sélectionnez les ressources, cliquez d’abord sur **[!UICONTROL Accepter]**, puis sur **[!UICONTROL Télécharger]**. Si vous choisissez de ne pas accepter, les ressources sous licence ne sont pas téléchargées.
       > 
-      >Dans le cas des ressources protégées par une licence, un [contrat de licence leur est associé](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html?lang=fr) en définissant la [propriété de métadonnées](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html?lang=fr) appropriée dans Experience Manager Assets.
+      >Dans le cas des ressources protégées par une licence, un [contrat de licence leur est associé](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html?lang=fr) en définissant la [propriété de métadonnées](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html) appropriée dans Experience Manager Assets.
 
 
       ![ressource-sous-licence](assets/licensed-asset-new.png)
@@ -185,6 +185,12 @@ Vous trouverez ci-dessous la procédure à suivre pour télécharger des ressour
    Le bouton de téléchargement indique le nombre d’éléments sélectionnés. Une fois les règles appliquées, cliquez sur **[!UICONTROL Télécharger les éléments]**.
 
    ![boîte-de-dialogue-télécharger](assets/download-dialog-box-new.png)
+
+   >[!CAUTION]
+   >
+   >(**Experience Manager Assets as a Cloud Service** uniquement) Les problèmes connus suivants seront corrigés dans la prochaine version :
+   >
+   >La boîte de dialogue de téléchargement répertorie les rendus de recadrage intelligent de la ressource sélectionnée. Cependant, l’utilisateur ne peut pas télécharger les rendus de recadrage intelligent.
 
 1. Par défaut le paramètre **[!UICONTROL Téléchargement rapide]** est activé dans les **[!UICONTROL Paramètres de téléchargement]**. Par conséquent, une zone de confirmation s’affiche pour permettre un téléchargement accéléré à l’aide d’IBM Aspera Connect.
 
@@ -243,6 +249,14 @@ Vous trouverez ci-dessous la procédure à suivre pour télécharger des rendus 
    Sélectionnez les rendus spécifiques que vous voulez télécharger, puis cliquez sur **[!UICONTROL Télécharger les éléments]**.
 
    ![panneau-rendus](assets/renditions-panel.png)
+
+   >[!CAUTION]
+   >
+   >(**Experience Manager Assets as a Cloud Service** uniquement) Les problèmes connus suivants seront corrigés dans la prochaine version :
+   >
+   >Le **[!UICONTROL Rendus]** ne répertorie pas tous les rendus statiques des ressources publiées sur Brand Portal après le 16 décembre 2021.
+   >
+   >Le **[!UICONTROL Rendus]** Le panneau répertorie les rendus de recadrage intelligent de la ressource. Cependant, l’utilisateur ne peut pas prévisualiser ni télécharger les rendus de recadrage intelligent.
 
 1. Par défaut le paramètre **[!UICONTROL Téléchargement rapide]** est activé dans les **[!UICONTROL Paramètres de téléchargement]**. Par conséquent, une zone de confirmation s’affiche pour permettre un téléchargement accéléré à l’aide d’IBM Aspera Connect.
 
