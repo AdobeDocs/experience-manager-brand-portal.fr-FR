@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
 source-git-commit: 3845d9fa17e75d59493383303ca0978349ca0401
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1037'
+ht-degree: 100%
 
 ---
 
@@ -117,13 +117,13 @@ Les administrateurs peuvent télécharger le fichier `user.csv` à partir d’[!
 
 ## Chargement de ressources dans le dossier de contribution {#uplad-new-assets-to-contribution-folder}
 
-L’utilisateur de Experience Manager Assets charge un ensemble de ressources de base dans le **PARTAGÉ** pour vous assurer que les utilisateurs de Brand Portal disposent des informations dont ils ont besoin.
+L’utilisateur d’Experience Manager Assets charge un ensemble de ressources de base dans le dossier **PARTAGÉ** afin de garantir que les utilisateurs de Brand Portal disposent des informations nécessaires.
 
 **Pour charger des ressources de base, procédez comme suit :**
 
 1. Connectez-vous à votre instance Experience Manager Assets.
 
-1. Accédez à **[!UICONTROL Ressources > Fichiers]** et localisez le dossier de contribution.
+1. Accédez à **[!UICONTROL Ressources > Fichiers]** et localisez le dossier de contribution.
 
 1. Sélectionnez le dossier de contribution et cliquez dessus pour l’ouvrir.
 
