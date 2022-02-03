@@ -10,8 +10,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: f5b5840897b3975631e072744a01fedb624379ff
-workflow-type: ht
+source-git-commit: 12187c4a98e1541be27b06eefedb1b654c5fb083
+workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 100%
 
@@ -90,7 +90,7 @@ Pour télécharger des ressources plus rapidement à partir de Brand Portal :
 
    Pour conserver la hiérarchie des dossiers de Brand Portal lors du téléchargement des ressources, cochez la case **[!UICONTROL Créer un dossier distinct pour chaque ressource]**.
 
-   Le bouton de téléchargement indique le nombre d’éléments sélectionnés. Une fois les règles appliquées, cliquez sur **[!UICONTROL Télécharger les éléments]**. Pour en savoir plus sur l’application des règles, consultez [Téléchargement de ressources](../using/brand-portal-download-assets.md#download-assets).
+   Le bouton de téléchargement indique le nombre d’éléments sélectionnés. Une fois les règles appliquées, cliquez sur **[!UICONTROL Télécharger les éléments]**. Pour en savoir plus sur l’application des règles, consultez [Téléchargement de ressources](../using/download-assets.md#download-assets).
 
    ![boîte-de-dialogue-télécharger](assets/download-dialog-box-new.png)
 
