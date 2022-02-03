@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: 12187c4a98e1541be27b06eefedb1b654c5fb083
+source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
 workflow-type: tm+mt
 source-wordcount: '1528'
 ht-degree: 100%
@@ -83,7 +83,7 @@ La session d’invité vous empêche toutefois de créer des collections et des 
 
 * [Recherche parmi les ressources publiques](brand-portal-searching.md)
 
-* [Téléchargement de ressources publiques](download-assets.md)
+* [Téléchargement de ressources publiques](brand-portal-download-assets.md)
 
 * [Ajout de ressources à [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
 
@@ -95,7 +95,7 @@ Dans Brand Portal, un utilisateur standard est généralement un utilisateur qu
 
 * [Recherche de ressources](brand-portal-searching.md)
 
-* [Téléchargement de ressources](download-assets.md)
+* [Téléchargement de ressources](brand-portal-download-assets.md)
 
 ### Éditeur {#editor}
 
