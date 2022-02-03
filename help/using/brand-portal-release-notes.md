@@ -1,8 +1,8 @@
 ---
 title: Notes de mise à jour
 seo-title: Release Notes
-description: Découvrez les fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 2021.10.0.
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2021.10.0 release.
+description: Découvrez les fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 2022.02.0.
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2022.02.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,29 +10,29 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
-workflow-type: ht
-source-wordcount: '396'
-ht-degree: 100%
+source-git-commit: 853b4f8abf085bdad4f9537aacb23b8c45a083d5
+workflow-type: tm+mt
+source-wordcount: '537'
+ht-degree: 60%
 
 ---
 
 # Notes de mise à jour {#release-notes}
 
-Découvrez les nouvelles fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 2021.10.0.
+Découvrez les nouvelles fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 2022.02.0.
 
 ## Informations sur la version {#release-information}
 
 | Produit | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 2021.10.0 |
-| Date | Octobre 2021 |
+| Version | 2022.02.0 |
+| Date  | Février 2022 |
 
 ## Présentation {#overview}
 
 Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de contrôler et de distribuer facilement et en toute sécurité des ressources créatives approuvées destinées à des tiers externes et aux collaborateurs de l’entreprise sur différents appareils. Brand Portal améliore l’efficacité du partage des ressources, accélère la mise sur le marché des ressources et réduit les risques de non-conformité et d’accès non autorisé. Brand Portal permet aux utilisateurs de parcourir, rechercher, prévisualiser, télécharger et exporter des ressources dans des formats approuvés, à tout moment et n’importe où.
 
-## Nouveautés de la version 2021.10.0 {#whats-new-in-2021.10.0}
+## Nouveautés de la version 2022.02.0 {#whats-new-in-2022.02.0}
 
 <!--
 ### New Features {#new-features}
@@ -100,11 +100,16 @@ This release includes the following enhancements:
 
 Cette version comprend des correctifs pour les problèmes critiques suivants :
 
-* Les ressources d’un dossier de contribution de la même taille ne sont pas publiées de Brand Portal vers Experience Manager Assets.
-* Lorsqu’un dossier de contribution de ressources est dépublié, sa taille n’est pas réduite.
-* Les utilisateurs ne peuvent pas supprimer le profil de schéma de métadonnées appliqué d’un dossier.
-* Le nombre de groupes sur la page des autorisations utilisateur est incorrect.
-* La page Collections prend trop de temps lors de la navigation dans la liste.
+* Les utilisateurs ne peuvent pas rechercher, parcourir ou ouvrir des dossiers. L’interface utilisateur reflète le message d’erreur : `Failed to load data`.
+* Le **[!UICONTROL Rendus]** ne répertorie pas tous les rendus statiques des ressources publiées sur Brand Portal.
+* Le **[!UICONTROL Rendus]** Le panneau répertorie les rendus de recadrage intelligent de la ressource. Cependant, l’utilisateur ne peut pas prévisualiser ni télécharger les rendus de recadrage intelligent.
+* La boîte de dialogue de téléchargement répertorie les rendus de recadrage intelligent de la ressource sélectionnée. Cependant, l’utilisateur ne peut pas télécharger les rendus de recadrage intelligent.
+* Un utilisateur non administrateur obtient uniquement le rendu de ressource d’origine lors du téléchargement d’une ressource. Les rendus système et personnalisés ne sont pas téléchargés.
+* Lors de l’application d’un filtre de recherche pour télécharger une ressource, la variable `Download` est désactivé dans la boîte de dialogue de téléchargement et ne permet pas à l’utilisateur de télécharger la ressource.
+* If `Smart Tags` et (ou) `Color Tags` sont activés, la boîte de dialogue de téléchargement répertorie les `json` fichiers en tant que rendus et téléchargements de ces `json` dans le dossier zip archivé.
+* Les utilisateurs anonymes ne peuvent pas télécharger de ressources à l’aide d’un lien partagé, car le lien redirige vers la page de connexion de Brand Portal.
+* Le système ne reflète pas la valeur correcte pour le nombre d’utilisateurs simultanés principaux.
+
 
 <!--
 * Asset Sourcing email notifications are not delivered for some organizations. 
@@ -139,6 +144,8 @@ Cette version présente les problèmes connus suivants :
    Toutefois, les principaux utilisateurs connectés à Brand Portal peuvent continuer à travailler jusqu’à l’expiration de leur session en cours.
 
 * Lorsque vous naviguez de Brand Portal vers Admin Console, les administrateurs peuvent voir un écran supplémentaire pour sélectionner l’organisation.
+
+* If `Color Tags` sont activés et l’utilisateur télécharge un dossier ou une collection, une `xml` est téléchargé pour chaque ressource du dossier (ou collection) dans le dossier zip archivé.
 
 
 <!--

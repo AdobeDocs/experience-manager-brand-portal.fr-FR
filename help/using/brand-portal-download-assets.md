@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: 98b6ed1aad82d773f0e6d6866d6b197428d3f3df
+source-git-commit: 7f08db48bb259795860415a0569929eef58f8ca5
 workflow-type: tm+mt
-source-wordcount: '2026'
-ht-degree: 94%
+source-wordcount: '1924'
+ht-degree: 100%
 
 ---
 
@@ -123,6 +123,7 @@ Les utilisateurs de Brand Portal peuvent télécharger plusieurs ressources, do
 >Contactez l’administrateur de Brand Portal si vous n’êtes pas autorisé à accéder aux rendus des ressources ou à les télécharger.
 
 Si l’utilisateur a accès à des rendus, la boîte de dialogue **[!UICONTROL Télécharger]** améliorée apparaît avec les fonctionnalités suivantes :
+
 * afficher tous les rendus disponibles de toutes les ressources dans la liste de téléchargement ;
 * exclure les rendus des ressources qui ne sont pas nécessaires pour le téléchargement ;
 * appliquer le même jeu de rendus à tous les types de ressource similaires en un seul clic ;
@@ -186,17 +187,19 @@ Vous trouverez ci-dessous la procédure à suivre pour télécharger des ressour
 
    ![boîte-de-dialogue-télécharger](assets/download-dialog-box-new.png)
 
-   >[!CAUTION]
-   >
-   >(**Experience Manager Assets as a Cloud Service** uniquement) Le problème connu suivant sera corrigé dans la prochaine version :
-   >
-   >La boîte de dialogue de téléchargement répertorie les rendus de recadrage intelligent de la ressource sélectionnée. Cependant, l’utilisateur ne peut pas télécharger les rendus de recadrage intelligent.
-
 1. Par défaut le paramètre **[!UICONTROL Téléchargement rapide]** est activé dans les **[!UICONTROL Paramètres de téléchargement]**. Par conséquent, une zone de confirmation s’affiche pour permettre un téléchargement accéléré à l’aide d’IBM Aspera Connect.
 
    Pour continuer à utiliser le **[!UICONTROL Téléchargement rapide]**, cliquez sur **[!UICONTROL Autoriser]**. Tous les rendus sélectionnés sont téléchargés dans un dossier zip à l’aide d’IBM Aspera Connect.
 
    Si vous ne souhaitez pas utiliser IBM Aspera Connect, cliquez sur **[!UICONTROL Refuser]**. Si le **[!UICONTROL téléchargement rapide]** est refusé ou échoue, le système renvoie un message d’erreur. Cliquez sur le bouton **[!UICONTROL Téléchargement normal]** pour continuer à télécharger les ressources.
+
+<!-- removed the known issue from step 2 as it is fixed in 2022.02.0 release.
+   >[!CAUTION]
+   >
+   >(**Experience Manager Assets as a Cloud Service** only) The following known issue will be fixed in the upcoming release:
+   >
+   >The download dialog lists the smart crop renditions of the selected asset, however, the user cannot download the smart crop renditions.
+-->
 
 >[!NOTE]
 >
@@ -250,19 +253,22 @@ Vous trouverez ci-dessous la procédure à suivre pour télécharger des rendus 
 
    ![panneau-rendus](assets/renditions-panel.png)
 
-   >[!CAUTION]
-   >
-   >(**Experience Manager Assets as a Cloud Service** uniquement) Les problèmes connus suivants seront corrigés dans la prochaine version :
-   >
-   >Le **[!UICONTROL Rendus]** ne répertorie pas tous les rendus statiques des ressources publiées sur Brand Portal après le 16 décembre 2021.
-   >
-   >Le **[!UICONTROL Rendus]** Le panneau répertorie les rendus de recadrage intelligent de la ressource. Cependant, l’utilisateur ne peut pas prévisualiser ni télécharger les rendus de recadrage intelligent.
 
 1. Par défaut le paramètre **[!UICONTROL Téléchargement rapide]** est activé dans les **[!UICONTROL Paramètres de téléchargement]**. Par conséquent, une zone de confirmation s’affiche pour permettre un téléchargement accéléré à l’aide d’IBM Aspera Connect.
 
    Pour continuer à utiliser le **[!UICONTROL Téléchargement rapide]**, cliquez sur **[!UICONTROL Autoriser]**. Tous les rendus sélectionnés sont téléchargés dans un dossier zip à l’aide d’IBM Aspera Connect.
 
    Si vous refusez d’utiliser le **[!UICONTROL téléchargement rapide]**, le système renvoie un message d’erreur. Cliquez sur le bouton **[!UICONTROL Téléchargement normal]** pour continuer à télécharger les ressources.
+
+<!-- removed the known issue from step 3 as it is fixed in 2022.02.0 release.
+   >[!CAUTION]
+   >
+   >(**Experience Manager Assets as a Cloud Service** only) The following known issues will be fixed in the upcoming release:
+   >
+   >The **[!UICONTROL Renditions]** panel does not list all the static renditions of the assets that are published to Brand Portal after December 16, 2021.
+   >
+   >The **[!UICONTROL Renditions]** panel lists the smart crop renditions of the asset, however, the user cannot preview or download the smart crop renditions.
+-->
 
 >[!NOTE]
 >
