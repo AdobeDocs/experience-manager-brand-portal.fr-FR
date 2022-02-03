@@ -4,15 +4,15 @@ seo-title: Speed up the Brand Portal downloads
 description: Améliorez les performances de téléchargement à partir de Brand Portal et des liens partagés.
 seo-description: Enhance download performance from Brand Portal and the shared links.
 uuid: 2871137e-6471-49a7-872a-841bd92543d1
-contentOwner: mgulati
-topic-tags: download-install
+contentOwner: Vishabh Gupta
+topic-tags: download-install, download assets
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: 12187c4a98e1541be27b06eefedb1b654c5fb083
+source-git-commit: 63b7bdd34ff185a96ea69560d2b94c2dc04129de
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1034'
 ht-degree: 100%
 
 ---
@@ -70,7 +70,7 @@ Le tableau suivant affiche les performances de téléchargement obtenues pour un
 | Londres | 179 | 35 | 58 |
 | Singapour | 196 | 34 | 60 |
 
-## Workflow de téléchargement avec l’accélérateur de fichiers {#download-workflow-using-file-accelerator}
+## Téléchargement de ressources {#download-assets}
 
 Pour télécharger des ressources plus rapidement à partir de Brand Portal :
 
