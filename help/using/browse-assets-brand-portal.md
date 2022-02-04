@@ -12,7 +12,7 @@ exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
 source-git-commit: a219adc020d63897b10dca83d9ce31fd3ebf847c
 workflow-type: tm+mt
 source-wordcount: '1018'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -252,7 +252,7 @@ Pour consulter les métadonnées de la ressource, ou afficher ses différents re
 
 ![](assets/asset-overview.png)
 
-Vous pouvez afficher tous les rendus disponibles de la ressource sur la page des détails de la ressource, puis sélectionner un rendu dans le **[!UICONTROL Rendus]** pour la prévisualiser.
+Vous pouvez afficher tous les rendus disponibles de la ressource sur la page Détails de la ressource, puis sélectionner un rendu à partir du panneau **[!UICONTROL Rendus]** pour le prévisualiser.
 
 ![](assets/renditions.png)
 
