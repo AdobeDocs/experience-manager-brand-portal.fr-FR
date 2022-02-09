@@ -10,16 +10,22 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: dc425522f134781b4420eb8643ee6ee65d98b6cc
+source-git-commit: 100b0945c04a21a7bf6810c9ae0fee750809ebdb
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 96%
+source-wordcount: '1225'
+ht-degree: 90%
 
 ---
 
 # Recherche de ressources sur Brand Portal {#search-assets-on-brand-portal}
 
-La fonctionnalité de recherche de Brand Portal vous permet de rechercher rapidement des ressources appropriées au moyen de l’omni-recherche et de la recherche à facettes qui utilise des filtres pour vous permettre d’affiner davantage encore votre recherche. Vous pouvez rechercher des ressources au niveau des fichiers ou des dossiers et enregistrer vos résultats de recherche sous la forme de collections dynamiques. Cependant, vous ne pouvez pas rechercher des ressources d’une collection à l’aide de l’omni-recherche ou de la recherche de facettes.
+La fonctionnalité de recherche de Brand Portal vous permet de rechercher rapidement des ressources appropriées au moyen de l’omni-recherche et de la recherche à facettes qui utilise des filtres pour vous permettre d’affiner davantage encore votre recherche. Vous pouvez rechercher des ressources au niveau des fichiers ou des dossiers et enregistrer vos résultats de recherche sous la forme de collections dynamiques.
+
+>[!NOTE]
+>
+>Brand Portal ne prend pas en charge la recherche de collections à l’aide de l’omni-recherche.
+>
+>Cependant, vous pouvez utiliser [filtres de recherche pour obtenir la liste des collections pertinentes](#search-collection).
 
 ## Recherche de ressources à l’aide de l’omni-recherche {#search-assets-using-omnisearch}
 
@@ -134,3 +140,12 @@ Pour enregistrer les paramètres de recherche comme collection dynamique :
 1. Dans la boîte de dialogue **[!UICONTROL Modifier la collecte dynamique]**, sélectionnez **[!UICONTROL Enregistrer sous]** et saisissez le nom de la collection dynamique. Cliquez sur **[!UICONTROL Enregistrer]**.
 
    ![](assets/saveas_smartsearch.png)
+
+
+## Recherche de collections {#search-collection}
+
+L’omni-recherche n’est pas prise en charge pour les collections. Cependant, vous pouvez appliquer des filtres de recherche pour répertorier les collections pertinentes à partir de l’ [!UICONTROL Collections] .
+
+Dans la [!UICONTROL Collections] , cliquez sur l’icône de recouvrement pour ouvrir le panneau de filtrage dans le rail de gauche. Appliquer un ou plusieurs filtres de recherche à partir des filtres disponibles (`modified date`, `access type`, et `tags`). Il répertorie l’ensemble de collections le plus pertinent en fonction des filtres appliqués.
+
+![](assets/collection-search.png)
