@@ -1,7 +1,7 @@
 ---
 title: Téléchargement de ressources
 seo-title: Download assets
-description: Tous les utilisateurs peuvent simultanément télécharger des ressources et des dossiers auxquels ils ont accès. Ainsi, les ressources de marque approuvées peuvent être distribuées en toute sécurité pour une utilisation en mode hors connexion.
+description: Tous les utilisateurs peuvent télécharger simultanément plusieurs ressources et dossiers auxquels ils ont accès. Ainsi, les ressources de marque approuvées peuvent être distribuées en toute sécurité pour une utilisation en mode hors connexion.
 seo-description: All users can simultaneously download assets and folders accessible to them. This way, approved brand assets can be securely distributed for offline use.
 uuid: 4b57118e-a76e-4d8a-992a-cb3c3097bc03
 content-type: reference
@@ -11,30 +11,30 @@ topic-tags: download, download-install, download assets
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
 source-git-commit: fe6677df928a4125185051d80ae3055afb479369
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1921'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # Téléchargement de ressources {#download-assets-from-bp}
 
-Adobe Experience Manager Assets Brand Portal améliore l’expérience de téléchargement en permettant aux utilisateurs de télécharger simultanément des ressources et des dossiers auxquels ils ont accès à partir de Brand Portal. Ainsi, les ressources de marque approuvées peuvent être distribuées en toute sécurité pour une utilisation en mode hors connexion. Lisez ce qui suit pour savoir comment télécharger des ressources (ressources approuvées) à partir de Brand Portal et en savoir plus sur les [performances de téléchargement](#expected-download-performance).
+Adobe Experience Manager Assets Brand Portal améliore l’expérience de téléchargement en permettant aux utilisateurs de télécharger simultanément plusieurs dossiers et ressources auxquels ils ont accès à partir de Brand Portal. Ainsi, les ressources de marque approuvées peuvent être distribuées en toute sécurité pour une utilisation en mode hors connexion. Lisez ce qui suit pour savoir comment télécharger des ressources (ressources approuvées) à partir de Brand Portal et en savoir plus sur les [performances de téléchargement](#expected-download-performance).
 
 
 >[!NOTE]
 >
->Dans la version 2020.10.0 de Brand Portal (et ultérieures), le paramètre **[!UICONTROL Téléchargement rapide]** est activé par défaut, ce qui active l’utilisation d’IBM Aspera Connect pour accélérer le téléchargement des ressources. Installez IBM Aspera Connect 3.9.9`https://www.ibm.com/docs/en/aspera-connect/3.9.9` dans l’extension de votre navigateur avant de télécharger les ressources à partir de Brand Portal. Pour plus d’informations, reportez-vous au [guide d’accélération des téléchargements depuis Brand Portal](../using/accelerated-download.md).
+>Dans la version 2020.10.0 de Brand Portal (et ultérieures), le paramètre **[!UICONTROL Téléchargement rapide]** est activé par défaut, ce qui active l’utilisation d’IBM Aspera Connect pour accélérer le téléchargement des ressources. Installez IBM Aspera Connect 3.9.9`https://www.ibm.com/docs/en/aspera-connect/3.9.9` dans l’extension de votre navigateur avant de télécharger les ressources à partir de Brand Portal. Pour plus d’informations, reportez-vous au [guide d’accélération des téléchargements depuis Brand Portal](../using/accelerated-download.md).
 >
 >Si vous ne souhaitez pas utiliser IBM Aspera Connect et préférez poursuivre un processus de téléchargement normal, contactez l’administrateur de Brand Portal pour désactiver le paramètre **[!UICONTROL Téléchargement rapide]**.
 
 ## Configuration du téléchargement des ressources {#configure-download}
 
-Les administrateurs de Brand Portal peuvent configurer les paramètres de téléchargement des ressources et des groupes d’utilisateurs et les autorisations pour les utilisateurs de Brand Portal, ce qui leur permet d’accéder aux rendus de ressources et de les télécharger à partir de l’interface de Brand Portal.
+Les administrateurs de Brand Portal peuvent configurer les paramètres de téléchargement des ressources et des groupes d’utilisateurs pour les utilisateurs de Brand Portal, ce qui leur permet d’accéder aux rendus de ressources et de les télécharger à partir de l’interface de Brand Portal.
 
 >[!NOTE]
 >
->Les paramètres de téléchargement appliqués à l’interface utilisateur permettent aux utilisateurs de Brand Portal de configurer et de télécharger facilement des rendus de ressources en libre-service. Cela ne limite pas le téléchargement des ressources au niveau de la couche de l’application. Par exemple, les utilisateurs peuvent toujours accéder aux rendus de ressources et les télécharger avec le chemin d’accès URL complet.
+>Les paramètres de téléchargement appliqués à l’interface utilisateur facilitent la mise en libre-service des utilisateurs de Brand Portal pour configurer et télécharger facilement les rendus de ressources. Cela ne limite pas le téléchargement des ressources au niveau de la couche d’application. Par exemple, les utilisateurs peuvent toujours accéder aux rendus de ressources et les télécharger avec le chemin d’accès URL complet.
 
 L’accès aux rendus et le téléchargement des rendus de ressources à partir de l’interface de Brand Portal sont définis par les configurations suivantes :
 
@@ -70,7 +70,7 @@ Les paramètres disponibles sont les suivants :
 
 Connectez-vous à votre client Brand Portal en tant qu’administrateur et accédez à **[!UICONTROL Outils]** > **[!UICONTROL Télécharger]**.
 
-Les administrateurs peuvent activer n’importe quelle combinaison de paramètres pour permettre aux utilisateurs de Brand Portal d’accéder aux rendus de ressources et de les télécharger.
+Les administrateurs peuvent activer toutes les combinaisons de paramètres nécessaires pour que les utilisateurs de Brand Portal puissent accéder aux rendus et les télécharger.
 
 ![](assets/download-settings-new.png)
 
@@ -160,7 +160,7 @@ Vous trouverez ci-dessous la procédure à suivre pour télécharger des ressour
       >
       >Si les ressources que vous téléchargez comprennent également des ressources sous licence, vous êtes redirigé vers la page **[!UICONTROL Gestion des droits d’auteur]**. Dans cette page, sélectionnez les ressources, cliquez d’abord sur **[!UICONTROL Accepter]**, puis sur **[!UICONTROL Télécharger]**. Si vous choisissez de ne pas accepter, les ressources sous licence ne sont pas téléchargées.
       > 
-      >Dans le cas des ressources protégées par une licence, un [contrat de licence leur est associé](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html?lang=fr) en définissant la [propriété de métadonnées](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html) appropriée dans Experience Manager Assets.
+      >Dans le cas des ressources protégées par une licence, un [contrat de licence leur est associé](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html?lang=fr) en définissant la [propriété de métadonnées](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html?lang=fr) appropriée dans Experience Manager Assets.
 
 
       ![ressource-sous-licence](assets/licensed-asset-new.png)
@@ -233,7 +233,7 @@ Si vous n’êtes pas [autorisé par l’administrateur à accéder aux rendus d
 
 Outre le workflow de téléchargement, il existe une autre méthode pour télécharger des rendus pour des ressources individuelles directement à partir de la page des détails de la ressource.
 
-Les utilisateurs peuvent prévisualiser différents rendus de ressources, sélectionner des rendus spécifiques et télécharger directement les rendus de ressources à partir du **[!UICONTROL Rendus]** dans la page des détails de la ressource sans avoir à ouvrir le panneau **[!UICONTROL Télécharger]** boîte de dialogue.
+Les utilisateurs peuvent prévisualiser différents rendus de ressources, sélectionner des rendus spécifiques et les télécharger directement depuis le panneau **[!UICONTROL Rendus]** de la page des détails de la ressource, sans avoir à ouvrir la boîte de dialogue **[!UICONTROL Télécharger]**.
 
 
 Vous trouverez ci-dessous la procédure à suivre pour télécharger des rendus de ressources à partir de la page des détails de la ressource :
