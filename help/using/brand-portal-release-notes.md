@@ -1,7 +1,7 @@
 ---
 title: Notes de mise à jour
 seo-title: Release Notes
-description: Découvrez les fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 2022.02.0.
+description: Découvrez les fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 2022.02.0.
 seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2022.02.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
@@ -11,15 +11,15 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '537'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
 # Notes de mise à jour {#release-notes}
 
-Découvrez les nouvelles fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 2022.02.0.
+Découvrez les nouvelles fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 2022.02.0.
 
 ## Informations sur la version {#release-information}
 
@@ -100,15 +100,15 @@ This release includes the following enhancements:
 
 Cette version comprend des correctifs pour les problèmes critiques suivants :
 
-* Les utilisateurs ne peuvent pas rechercher, parcourir ou ouvrir des dossiers. L’interface utilisateur reflète le message d’erreur : `Failed to load data`.
-* Le **[!UICONTROL Rendus]** ne répertorie pas tous les rendus statiques des ressources publiées sur Brand Portal.
-* Le **[!UICONTROL Rendus]** Le panneau répertorie les rendus de recadrage intelligent de la ressource. Cependant, l’utilisateur ne peut pas prévisualiser ni télécharger les rendus de recadrage intelligent.
+* Les utilisateurs ne peuvent pas rechercher, parcourir ou ouvrir des dossiers. L’interface utilisateur renvoie le message dʼerreur suivant : `Failed to load data`.
+* Le panneau **[!UICONTROL Rendus]** ne répertorie pas tous les rendus statiques des ressources publiées sur Brand Portal.
+* Le panneau **[!UICONTROL Rendus]** répertorie les rendus de recadrage intelligent de la ressource. Cependant, l’utilisateur ne peut ni prévisualiser ni télécharger les rendus de recadrage intelligent.
 * La boîte de dialogue de téléchargement répertorie les rendus de recadrage intelligent de la ressource sélectionnée. Cependant, l’utilisateur ne peut pas télécharger les rendus de recadrage intelligent.
-* Un utilisateur non administrateur obtient uniquement le rendu de ressource d’origine lors du téléchargement d’une ressource. Les rendus système et personnalisés ne sont pas téléchargés.
-* Lors de l’application d’un filtre de recherche pour télécharger une ressource, la variable `Download` est désactivé dans la boîte de dialogue de téléchargement et ne permet pas à l’utilisateur de télécharger la ressource.
-* If `Smart Tags` et (ou) `Color Tags` sont activés, la boîte de dialogue de téléchargement répertorie les `json` fichiers en tant que rendus et téléchargements de ces `json` dans le dossier zip archivé.
-* Les utilisateurs anonymes ne peuvent pas télécharger de ressources à l’aide d’un lien partagé, car le lien redirige vers la page de connexion de Brand Portal.
-* Le système ne reflète pas la valeur correcte pour le nombre d’utilisateurs simultanés principaux.
+* Lors du téléchargement d’une ressource, un utilisateur non administrateur obtient uniquement le rendu dʼorigine de la ressource. Les rendus système et personnalisés ne sont pas téléchargés.
+* Lors de l’application du filtre de recherche pour télécharger une ressource, le bouton `Download` est désactivé dans la boîte de dialogue de téléchargement et ne permet pas à l’utilisateur de télécharger la ressource.
+* Si les balises `Smart Tags` et/ou `Color Tags` sont activées, la boîte de dialogue de téléchargement répertorie les fichiers `json` comme des rendus et télécharge ces fichiers `json` dans le dossier zip archivé.
+* Les utilisateurs anonymes ne peuvent pas télécharger de ressources à l’aide d’un lien partagé, car le lien redirige vers la page de connexion de Brand Portal.
+* Le système ne reflète pas la valeur correcte pour le nombre d’utilisateurs simultanés actifs.
 
 
 <!--
@@ -145,7 +145,7 @@ Cette version présente les problèmes connus suivants :
 
 * Lorsque vous naviguez de Brand Portal vers Admin Console, les administrateurs peuvent voir un écran supplémentaire pour sélectionner l’organisation.
 
-* If `Color Tags` sont activés et l’utilisateur télécharge un dossier ou une collection, une `xml` est téléchargé pour chaque ressource du dossier (ou collection) dans le dossier zip archivé.
+* Si les balises `Color Tags` sont activées et que l’utilisateur télécharge un dossier ou une collection, un fichier `xml` supplémentaire est téléchargé pour chaque ressource du dossier (ou de la collection) dans le dossier zip archivé.
 
 
 <!--
@@ -204,7 +204,7 @@ L’interface utilisateur de Brand Portal est disponible dans les langues suiva
 * Français
 * Espagnol
 * Italien
-* Portugais  brésilien
+* Portugais brésilien
 * Japonais
 * Chinois simplifié
 * Coréen
