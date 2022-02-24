@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
-source-git-commit: 3845d9fa17e75d59493383303ca0978349ca0401
-workflow-type: ht
-source-wordcount: '1027'
-ht-degree: 100%
+source-git-commit: 7046f6523a2aa38ef2d4c7edf266953953543ae0
+workflow-type: tm+mt
+source-wordcount: '1032'
+ht-degree: 98%
 
 ---
 
@@ -70,7 +70,7 @@ Après avoir examiné les exigences relatives aux ressources, les utilisateurs d
 
 >[!NOTE]
 >
->Les utilisateurs de Brand Portal peuvent charger des ressources uniquement vers le dossier NEW.
+>Les utilisateurs de Brand Portal peuvent charger des ressources (au maximum : **2** Go par taille de fichier) dans le dossier NEW .
 >
 >La limite de chargement maximale pour tout client Brand Portal est de **10** Go ; elle est appliquée de manière cumulative à tous les dossiers de contribution.
 >

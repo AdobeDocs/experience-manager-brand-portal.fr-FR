@@ -11,10 +11,10 @@ content-type: reference
 discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
 role: Admin
 exl-id: 86c31891-0627-41ca-b571-8dac3a074d55
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
-workflow-type: ht
-source-wordcount: '805'
-ht-degree: 100%
+source-git-commit: d1487434b10b01eaf55f34672267490fd8fd907e
+workflow-type: tm+mt
+source-wordcount: '907'
+ht-degree: 84%
 
 ---
 
@@ -75,9 +75,22 @@ Pour plus d’informations sur le partage de lien, voir [Partage de ressources e
 
 Les ressources sous licence sont sujettes à l’acceptation d’un accord de licence avant leur téléchargement à partir de Brand Portal. Cet accord pour les ressources sous licence s’affiche quand vous téléchargez directement des ressources à partir de Brand Portal ou par l’intermédiaire d’un lien partagé. Qu’elles soient ou non expirées, les ressources protégées par une licence peuvent être affichées par tous les utilisateurs. Cependant, le téléchargement et l’utilisation des ressources sous licence expirées sont limités. Pour connaître le comportement des ressources sous licence expirées et des activités permises en fonction des rôles d’utilisateur, voir [Autorisations d’utilisation des ressources expirées](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
 
-Dans le cas des ressources protégées par une licence, un [contrat de licence leur est associé](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html?lang=fr) en définissant la [propriété de métadonnées](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html?lang=fr) appropriée dans AEM Assets.
+Les ressources protégées par une licence ont [contrat de licence joint](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html?lang=fr) pour les modifier, en définissant la propriété de métadonnées de la ressource dans [!DNL Experience Manager Assets].
 
-Si vous choisissez de télécharger des ressources protégées par une licence, vous êtes redirigé vers la page **[!UICONTROL Gestion des droits d’auteur]**.
+Une ressource est considérée comme protégée si elle contient l’une des propriétés de métadonnées suivantes (ou les deux) :
+
+* `xmpRights:WebStatement`: Cette propriété fait référence au chemin d’accès à la page qui contient le contrat de licence de la ressource. `xmpRights:WebStatement` doit être un chemin d’accès valide dans le référentiel.
+* `adobe_dam:restrictions`: La valeur de cette propriété est un HTML brut qui spécifie le contrat de licence.
+
+
+Si vous choisissez de télécharger des ressources protégées par une licence, vous êtes redirigé vers le **[!UICONTROL Gestion des droits d’auteur]** en fonction des propriétés des métadonnées.
+
+| `adobe_dam:restrictions` | `xmpRights:WebStatement` | Gestion des droits d’auteur |
+| --- | --- | --- |
+| Oui | - | L’interface s’affiche à la fois dans Assets et dans Brand Portal. |
+| - | Oui (chemin non valide) | Aucune interface |
+| Oui | Oui (chemin non valide) | Aucune interface |
+| Oui | Oui (chemin valide) | L’interface s’affiche dans Assets ou Brand Portal </br> Selon que le chemin d’accès est valide pour Assets ou Brand Portal (ou les deux). |
 
 ![](assets/asset-copyright-mgmt.png)
 
