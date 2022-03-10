@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
 source-git-commit: 7046f6523a2aa38ef2d4c7edf266953953543ae0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1032'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -66,13 +66,13 @@ Passez en revue le résumé (document sur les exigences en matière de ressource
 
 ## Chargement de ressources dans le dossier de contribution {#uplad-new-assets-to-contribution-folder}
 
-Après avoir examiné les exigences relatives aux ressources, les utilisateurs de Brand Portal peuvent créer des ressources pour contribution et les charger dans le dossier NEW du dossier de contribution.
+Après avoir passé en revue les exigences relatives aux ressources, les utilisateurs de Brand Portal peuvent créer des ressources pour la contribution et les charger dans le dossier NEW du dossier de contribution.
 
 >[!NOTE]
 >
->Les utilisateurs de Brand Portal peuvent charger des ressources (au maximum : **2** Go par taille de fichier) dans le dossier NEW .
+>Les utilisateurs de Brand Portal peuvent charger des ressources (taille maximale de **2** Go par fichier) dans le dossier NEW.
 >
->La limite de chargement maximale pour tout client Brand Portal est de **10** Go ; elle est appliquée de manière cumulative à tous les dossiers de contribution.
+>La limite maximale de chargement pour tout client Brand Portal est de **10** Go. Elle est appliquée de manière cumulative à tous les dossiers de contribution.
 >
 >Les ressources chargées dans Brand Portal ne sont pas traitées pour les rendus et ne contiennent pas d’aperçus.
 
