@@ -9,10 +9,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
+source-git-commit: 72a303082c1456b98143f740c228c73926f2fb3e
 workflow-type: tm+mt
-source-wordcount: '1528'
-ht-degree: 100%
+source-wordcount: '1558'
+ht-degree: 97%
 
 ---
 
@@ -113,7 +113,11 @@ En plus des tâches d’un observateur, un éditeur peut effectuer les tâches s
 
 Un administrateur comprend un utilisateur désigné comme administrateur système ou administrateur de produit Brand Portal dans [!UICONTROL Admin Console]. Un administrateur peut ajouter et supprimer des administrateurs système et des utilisateurs, définir des paramètres prédéfinis, envoyer des e-mails aux utilisateurs et afficher des rapports sur l’utilisation et le stockage du portail.
 
-Un administrateur peut effectuer toutes les tâches exécutées par un éditeur, ainsi que les tâches suivantes :
+>[!NOTE]
+>
+>Dans Brand Portal, un utilisateur marqué par le rôle d’administrateur du service clientèle dans [!UICONTROL Admin Console] dispose des mêmes privilèges qu’un administrateur système.
+
+Un administrateur peut effectuer toutes les tâches qu’un éditeur peut effectuer. Voici les tâches supplémentaires qu’un administrateur peut effectuer :
 
 * [Gestion des utilisateurs, des groupes et des rôles utilisateur](brand-portal-adding-users.md)
 
