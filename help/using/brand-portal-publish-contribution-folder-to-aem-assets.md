@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
-source-git-commit: 7046f6523a2aa38ef2d4c7edf266953953543ae0
-workflow-type: ht
-source-wordcount: '1032'
-ht-degree: 100%
+source-git-commit: 443ead94da2f253e28c438f1238a4667ca0d5d29
+workflow-type: tm+mt
+source-wordcount: '1053'
+ht-degree: 98%
 
 ---
 
@@ -66,7 +66,7 @@ Passez en revue le résumé (document sur les exigences en matière de ressource
 
 ## Chargement de ressources dans le dossier de contribution {#uplad-new-assets-to-contribution-folder}
 
-Après avoir passé en revue les exigences relatives aux ressources, les utilisateurs de Brand Portal peuvent créer des ressources pour la contribution et les charger dans le dossier NEW du dossier de contribution.
+Après avoir passé en revue les exigences relatives aux ressources, les utilisateurs de Brand Portal peuvent créer des ressources pour la contribution et les charger dans le dossier NEW du dossier de contribution. Un utilisateur peut charger plusieurs ressources dans un dossier de contribution. Cependant, un seul dossier peut être créé à la fois.
 
 >[!NOTE]
 >
