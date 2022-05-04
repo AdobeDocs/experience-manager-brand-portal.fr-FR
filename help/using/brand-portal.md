@@ -12,7 +12,7 @@ exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
 source-git-commit: af697978ce140a618fda59cec050dfaedb0c296b
 workflow-type: tm+mt
 source-wordcount: '1585'
-ht-degree: 91%
+ht-degree: 94%
 
 ---
 
@@ -117,9 +117,9 @@ Un administrateur comprend un utilisateur désigné comme administrateur systèm
 
 >[!NOTE]
 >
->Dans Brand Portal, un utilisateur marqué par le rôle d’administrateur du service clientèle dans [!UICONTROL Admin Console] dispose des mêmes privilèges qu’un administrateur système.
+>Dans Brand Portal, un utilisateur disposant du rôle d’administrateur d’assistance dans l’[!UICONTROL Admin Console] dispose des mêmes privilèges qu’un administrateur système.
 
-Un administrateur peut effectuer toutes les tâches qu’un éditeur peut effectuer. Voici les tâches supplémentaires qu’un administrateur peut effectuer :
+Un administrateur peut effectuer toutes les tâches qu’un éditeur. Voici les tâches supplémentaires qu’un administrateur peut effectuer :
 
 * [Gestion des utilisateurs, des groupes et des rôles utilisateur](brand-portal-adding-users.md)
 
