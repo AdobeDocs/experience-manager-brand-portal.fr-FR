@@ -1,38 +1,38 @@
 ---
 title: Notes de mise à jour
 seo-title: Release Notes
-description: Découvrez les fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 2022.02.0.
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2022.02.0 release.
+description: Découvrez les fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 2022.05.0.
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2022.05.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
-contentOwner: Vishabh Gupta
+contentOwner: Anuj Kapoor
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
-workflow-type: ht
-source-wordcount: '537'
-ht-degree: 100%
+source-git-commit: 5ca00738be59632ffcd481c2d007f869b561b9db
+workflow-type: tm+mt
+source-wordcount: '445'
+ht-degree: 60%
 
 ---
 
 # Notes de mise à jour {#release-notes}
 
-Découvrez les nouvelles fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 2022.02.0.
+Découvrez les nouvelles fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 2022.05.0.
 
 ## Informations sur la version {#release-information}
 
 | Produit | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 2022.02.0 |
-| Date  | Février 2022 |
+| Version | 2022.05.0 |
+| Date  | Mai 2022 |
 
 ## Présentation {#overview}
 
 Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de contrôler et de distribuer facilement et en toute sécurité des ressources créatives approuvées destinées à des tiers externes et aux collaborateurs de l’entreprise sur différents appareils. Brand Portal améliore l’efficacité du partage des ressources, accélère la mise sur le marché des ressources et réduit les risques de non-conformité et d’accès non autorisé. Brand Portal permet aux utilisateurs de parcourir, rechercher, prévisualiser, télécharger et exporter des ressources dans des formats approuvés, à tout moment et n’importe où.
 
-## Nouveautés de la version 2022.02.0 {#whats-new-in-2022.02.0}
+## Nouveautés de la version 2022.05.0 {#whats-new-in-2022.05.0}
 
 <!--
 ### New Features {#new-features}
@@ -93,22 +93,38 @@ This release includes the following enhancements:
 <!--
 * The threshold of session timeout for the guest users has been reduced from 2 hours to 15 minutes.
 * The additional **[!UICONTROL View pages]** option has been removed for multi-page PDFs as the user can now view the PDF pages from the Adobe Document Cloud Viewer.
+
+* The users are unable to search, navigate, or open folders. The user interface reflects the error message: `Failed to load data`. 
+* The **[!UICONTROL Renditions]** panel does not list all the static renditions of the assets that are published to Brand Portal.
+* The **[!UICONTROL Renditions]** panel lists the smart crop renditions of the asset, however, the user cannot preview or download the smart crop renditions.
+* The download dialog lists the smart crop renditions of the selected asset, however, the user cannot download the smart crop renditions. 
+* A non-admin user is getting only the original asset rendition when downloading an asset. The system and custom renditions are not downloaded.  
+* When applying search filter to download an asset, the `Download` button is disabled in the download dialog and does not allows the user to download the asset.
+* If `Smart Tags` and (or) `Color Tags` are enabled, the download dialog lists the `json` files as renditions and downloads these `json` files in the archived zip folder.
+* The anonymous users are unable to download assets using a shared link because the link redirects to the Brand Portal login page. 
+* The system is not reflecting the correct value for the number of active concurrent users.
 -->
+
+### Nouvelles fonctionnalités {#new-features}
+
+Brand Portal exécute désormais des tâches automatiques toutes les douze heures afin de supprimer toutes les ressources Brand Portal publiées sur AEM. Par conséquent, vous n’avez pas besoin de supprimer manuellement les ressources du dossier Contribution pour que la taille du dossier reste inférieure à la limite de seuil. Voir [Nouveautés de Experience Manager Assets Brand Portal](whats-new.md).
 
 
 ### Problèmes critiques résolus {#critical-issues-fixed}
 
 Cette version comprend des correctifs pour les problèmes critiques suivants :
 
-* Les utilisateurs ne peuvent pas rechercher, parcourir ou ouvrir des dossiers. L’interface utilisateur renvoie le message dʼerreur suivant : `Failed to load data`.
-* Le panneau **[!UICONTROL Rendus]** ne répertorie pas tous les rendus statiques des ressources publiées sur Brand Portal.
-* Le panneau **[!UICONTROL Rendus]** répertorie les rendus de recadrage intelligent de la ressource. Cependant, l’utilisateur ne peut ni prévisualiser ni télécharger les rendus de recadrage intelligent.
-* La boîte de dialogue de téléchargement répertorie les rendus de recadrage intelligent de la ressource sélectionnée. Cependant, l’utilisateur ne peut pas télécharger les rendus de recadrage intelligent.
-* Lors du téléchargement d’une ressource, un utilisateur non administrateur obtient uniquement le rendu dʼorigine de la ressource. Les rendus système et personnalisés ne sont pas téléchargés.
-* Lors de l’application du filtre de recherche pour télécharger une ressource, le bouton `Download` est désactivé dans la boîte de dialogue de téléchargement et ne permet pas à l’utilisateur de télécharger la ressource.
-* Si les balises `Smart Tags` et/ou `Color Tags` sont activées, la boîte de dialogue de téléchargement répertorie les fichiers `json` comme des rendus et télécharge ces fichiers `json` dans le dossier zip archivé.
-* Les utilisateurs anonymes ne peuvent pas télécharger de ressources à l’aide d’un lien partagé, car le lien redirige vers la page de connexion de Brand Portal.
-* Le système ne reflète pas la valeur correcte pour le nombre d’utilisateurs simultanés actifs.
+* Lorsque vous téléchargez un dossier ou une collection contenant des ressources avec des balises de couleur, un fichier XML est également téléchargé.
+
+* Lorsque vous téléchargez une vidéo qui comprend des rendus, Brand Portal crée un fichier .ZIP non valide.
+
+* Lorsque vous créez des paramètres prédéfinis et des ressources sur AEM et que vous les publiez dans Brand Portal, puis sélectionnez des rendus dynamiques lors du téléchargement des ressources, vous ne pouvez pas extraire les éléments téléchargés. fichier ZIP.
+
+* Problèmes lors du téléchargement de ressources vidéo à partir de certains dossiers disponibles dans Brand Portal.
+
+* Lorsque vous partagez l’URL du dossier Contribution à l’aide d’un courrier électronique, les rôles Observateur et Éditeur rencontrent des problèmes lors de l’accès à leur dossier parent à l’aide du chemin de navigation.
+
+* L’approvisionnement du rapport publié affiche une heure de début de tâche incorrecte.
 
 
 <!--
@@ -139,13 +155,7 @@ See [what's new in Brand Portal 2021.02.0](whats-new.md).
 
 Cette version présente les problèmes connus suivants :
 
-* Les utilisateurs ne peuvent pas se connecter à Brand Portal lors de la migration de leur organisation existante.
-
-   Toutefois, les principaux utilisateurs connectés à Brand Portal peuvent continuer à travailler jusqu’à l’expiration de leur session en cours.
-
-* Lorsque vous naviguez de Brand Portal vers Admin Console, les administrateurs peuvent voir un écran supplémentaire pour sélectionner l’organisation.
-
-* Si les balises `Color Tags` sont activées et que l’utilisateur télécharge un dossier ou une collection, un fichier `xml` supplémentaire est téléchargé pour chaque ressource du dossier (ou de la collection) dans le dossier zip archivé.
+* Localisation partielle du contenu du rapport d’approvisionnement des ressources.
 
 
 <!--

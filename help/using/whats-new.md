@@ -1,8 +1,8 @@
 ---
 title: Nouveautés d’Experience Manager Assets Brand Portal
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: Nouveautés et améliorations de la version 2022.02.0
-seo-description: What are the new features and enhancements for 2022.02.0
+description: Nouveautés et améliorations de la version 2022.05.0
+seo-description: What are the new features and enhancements for 2022.05.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,16 +10,35 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 443ead94da2f253e28c438f1238a4667ca0d5d29
+source-git-commit: feaf10256c2dfb97d53d665edfb4b4de0e824fea
 workflow-type: tm+mt
-source-wordcount: '6325'
-ht-degree: 98%
+source-wordcount: '6482'
+ht-degree: 95%
 
 ---
 
 # Nouveautés d’Experience Manager Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager Assets Brand Portal permet d’acquérir, de contrôler et de distribuer facilement et en toute sécurité des ressources créatives approuvées destinées à des tiers externes et aux collaborateurs de l’entreprise sur différents appareils. Brand Portal améliore l’efficacité du partage des ressources, accélère la mise sur le marché des ressources et réduit les risques de non-conformité et d’accès non autorisé. Adobe a pour objectif d’améliorer l’expérience globale de Brand Portal. Vous trouverez ci-dessous un aperçu des nouvelles fonctionnalités et améliorations.
+
+## Changements dans la version 2022.05.0 {#what-changed-in-May-2022}
+
+Brand Portal exécute désormais des tâches automatiques toutes les douze heures afin de supprimer toutes les ressources Brand Portal publiées sur AEM. Par conséquent, vous n’avez pas besoin de supprimer manuellement les ressources du dossier Contribution pour que la taille du dossier reste inférieure à la limite de seuil. Vous pouvez également surveiller l’état des tâches de suppression exécutées automatiquement à l’aide de la variable **[!UICONTROL Outils]** > **[!UICONTROL État de la contribution des ressources]** > **[!UICONTROL Rapports de suppression]** dans Brand Portal. Le rapport relatif à une tâche fournit les détails suivants :
+
+* Heure de début de la tâche
+* Heure de fin de la tâche
+* État de la tâche
+* Total des ressources incluses dans une tâche
+* Nombre total de ressources supprimées dans une tâche.
+
+![Rapport de suppression](assets/deletion-reports.png)
+
+Vous pouvez également approfondir l’analyse pour afficher les détails de chaque ressource incluse dans une tâche de suppression. Des détails tels que le titre, la taille, l’auteur, l’état de suppression et la durée de suppression de la ressource sont inclus dans le rapport.
+
+![Rapport de suppression détaillé](assets/deletion-reports-detailed.png)
+
+En outre, Brand Portal 2022.05.0 comprend des correctifs pour les problèmes critiques. Consultez les dernières [Notes de mise à jour de Brand Portal](brand-portal-release-notes.md).
+
 
 ## Changements dans la version 2022.02.0 {#what-changed-in-Feb-2022}
 
