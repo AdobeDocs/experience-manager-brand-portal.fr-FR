@@ -10,9 +10,9 @@ topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
 source-git-commit: af697978ce140a618fda59cec050dfaedb0c296b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1585'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -73,9 +73,9 @@ Le tableau suivant répertorie les tâches que peuvent réaliser les utilisateur
 >There is a known issue that the share link for collections is currently visible to the viewer users. The viewer users does not have the privilege to add users to create a share link. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.
 -->
 
-### Utilisateur invité (utilisateur léger) {#guest-user}
+### Utilisateur invité (Utilisateur léger) {#guest-user}
 
-Experience Manager Assets Brand Portal autorise [accès invité](#request-access-to-brand-portal) à Brand Portal. Un utilisateur invité n’a pas besoin d’informations d’identification pour accéder au portail et a accès aux dossiers et collections publics. En tant qu’utilisateur invité, vous pouvez explorer les détails des ressources et bénéficier d’une vue complète sur les ressources des membres des dossiers et collections publics. Vous pouvez rechercher, télécharger et ajouter des ressources publiques à une collection [!UICONTROL Lightbox].
+Brand Portal Experience Manager Assets permet aux [invités](#request-access-to-brand-portal) d’accéder au portail. Un utilisateur invité n’a pas besoin d’identifiants pour accéder au portail et a accès aux dossiers et aux collections publics. En tant qu’utilisateur invité, vous pouvez explorer les détails des ressources et bénéficier d’une vue complète sur les ressources des membres des dossiers et collections publics. Vous pouvez rechercher, télécharger et ajouter des ressources publiques à une collection [!UICONTROL Lightbox].
 
 La session d’invité vous empêche toutefois de créer des collections et des recherches enregistrées, et de les partager. Lors d’une session d’invité, les utilisateurs ne peuvent ni accéder aux paramètres des dossiers et des collections, ni partager des ressources sous la forme de lien. Voici la liste des tâches que peut réaliser un utilisateur invité :
 
@@ -87,11 +87,11 @@ La session d’invité vous empêche toutefois de créer des collections et des 
 
 * [Ajout de ressources à [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
 
-Pour plus d’informations, voir [Accès des invités à Brand Portal](../using/guest-access.md).
+Pour plus d’informations, consultez [accès des utilisateurs invités à Brand Portal](../using/guest-access.md).
 
-### Visionneuse (utilisateur standard) {#viewer}
+### Observateur (Utilisateur standard) {#viewer}
 
-Un utilisateur standard est un utilisateur Brand Portal défini dans [!DNL Admin Console] qui a accès à Brand Portal avec le rôle Observateur. Un utilisateur disposant de ce rôle peut se connecter à Brand Portal et accéder aux dossiers, collections et ressources autorisés. L’utilisateur peut également parcourir, prévisualiser, télécharger et exporter des ressources (rendus d’origine ou spécifiques), configurer des paramètres de compte et rechercher des ressources. Voici la liste des tâches que peut réaliser un observateur :
+Un utilisateur standard est un utilisateur Brand Portal défini dans l’[!DNL Admin Console] qui a accès à Brand Portal avec le rôle Observateur. Un utilisateur disposant de ce rôle peut se connecter à Brand Portal et accéder aux dossiers, collections et ressources autorisés. L’utilisateur peut également parcourir, prévisualiser, télécharger et exporter des ressources (rendus d’origine ou spécifiques), configurer des paramètres de compte et rechercher des ressources. Voici la liste des tâches que peut réaliser un observateur :
 
 * [Exploration des ressources](browse-assets-brand-portal.md)
 
