@@ -13,7 +13,7 @@ exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
 source-git-commit: feaf10256c2dfb97d53d665edfb4b4de0e824fea
 workflow-type: tm+mt
 source-wordcount: '6482'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -408,9 +408,9 @@ En outre, toutes les fonctionnalités existantes restent inchangées. Les utilis
 
 ### Chargement de ressources dans le dossier de contribution {#upload-assets-in-bp}
 
-Les utilisateurs de Brand Portal disposant des autorisations appropriées peuvent charger des ressources individuelles ou un dossier (fichier .zip) contenant plusieurs ressources dans le dossier de contribution. Un utilisateur peut charger plusieurs ressources dans un dossier de contribution. Cependant, un seul dossier peut être créé à la fois.
+Les utilisateurs de Brand Portal qui disposent des autorisations appropriées peuvent transférer individuellement des ressources ou des dossiers (fichier .zip) contenant plusieurs ressources vers le dossier de contribution. Un utilisateur peut charger plusieurs ressources dans un dossier de contribution. Cependant, un seul dossier peut être créé à la fois.
 
-Les utilisateurs de Brand Portal ne peuvent charger que des ressources dans la variable **NEW** sous-dossier . Le dossier **SHARED** est destiné à la distribution des exigences et des ressources de base.
+Notez que les utilisateurs de Brand Portal peuvent uniquement charger des ressources vers le dossier **NEW**. Le dossier **SHARED** est destiné à la distribution des exigences et des ressources de base.
 
 
 ![](assets/upload-asset6.png)
@@ -448,11 +448,11 @@ Par exemple, si votre formulaire de recherche dans Brand Portal utilise le pré
 
 #### Recherche par caractères génériques {#wildcard-search}
 
-Brand Portal permet d’utiliser l’astérisque (&#42;) dans la requête de recherche avec une partie du mot dans l’expression recherchée.
+Brand Portal permet d’utiliser un astérisque (&#42;) dans la requête de recherche avec une partie du mot de l’expression recherchée.
 
-**Cas d’utilisation. Si vous n’êtes pas sûr des mots exacts apparaissant dans l’expression recherchée, vous pouvez utiliser une recherche par caractères génériques pour remplir les trous de votre requête.
+Cas d’utilisation. Si vous n’êtes pas sûr des mots exacts apparaissant dans l’expression recherchée, vous pouvez utiliser une recherche par caractères génériques pour remplir les trous de votre requête.
 
-Par exemple, la spécification de **climb&#42;** renvoie toutes les ressources ayant des mots commençant par les caractères **climb** dans l’expression de leur titre si le formulaire de recherche dans Brand Portal utilise le prédicat de propriété pour une recherche partielle sur le titre des ressources.
+Par exemple, la requête **climb&#42;** renvoie toutes les ressources avec des mots commençant par les caractères **climb** dans leur titre si le formulaire de recherche dans Brand Portal utilise le prédicat de propriété pour une recherche partielle sur le titre des ressources.
 
 ![](assets/wildcard-prop.png)
 
@@ -460,7 +460,7 @@ De même, la spécification de :
 
 * **&#42;climb** renvoie toutes les ressources ayant des mots se terminant par les caractères **climb** dans l’expression de leur titre.
 
-* **&#42;climb&#42;** renvoie toutes les ressources contenant des mots comprenant les caractères **climb** dans l’expression de leur titre.
+* **&#42;climb&#42;** renvoie toutes les ressources avec des mots comprenant les caractères **climb** dans l’expression de leur titre.
 
 >[!NOTE]
 >
@@ -711,7 +711,7 @@ Brand Portal 6.4.1 est une version de mise à niveau de la plate-forme qui con
 * Un seul fichier volumineux est directement téléchargé, sans créer de fichier compressé, afin d’améliorer la vitesse et le débit.
 * La limite de téléchargement par taille de fichier pour la fonction de partage de lien est de **1** Go.
 
-* Les utilisateurs peuvent maintenant choisir de télécharger uniquement les fichiers personnalisés et originaux  et de bloquer les rendus prêts à l’emploi, lors du téléchargement de ressources à partir de Brand Portal ou via la fonctionnalité de liens partagés.
+* Les utilisateurs peuvent maintenant choisir de télécharger uniquement les fichiers personnalisés et originaux et de bloquer les rendus prêts à l’emploi, lors du téléchargement de ressources à partir de Brand Portal ou via la fonctionnalité de liens partagés.
 
 ![](assets/excludeautorendition.png)
 
