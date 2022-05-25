@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
-source-git-commit: 443ead94da2f253e28c438f1238a4667ca0d5d29
-workflow-type: ht
-source-wordcount: '1053'
-ht-degree: 100%
+source-git-commit: 606f4389780025f5cf92b11bf8cac464e36be44a
+workflow-type: tm+mt
+source-wordcount: '1471'
+ht-degree: 71%
 
 ---
 
@@ -64,7 +64,7 @@ Vous pouvez également ouvrir le dossier **[!UICONTROL SHARED]** et cliquer sur 
 Passez en revue le résumé (document sur les exigences en matière de ressources) et reportez-vous aux ressources de base pour comprendre les exigences en matière de ressources. Vous pouvez maintenant créer des ressources à des fins de contribution et les charger dans le dossier de contribution..
 
 
-## Chargement de ressources dans le dossier de contribution {#uplad-new-assets-to-contribution-folder}
+## Chargement de ressources dans le dossier de contribution {#upload-new-assets-to-contribution-folder}
 
 Après avoir passé en revue les exigences relatives aux ressources, les utilisateurs de Brand Portal peuvent créer des ressources pour la contribution et les charger dans le dossier NEW du dossier de contribution. Un utilisateur peut charger plusieurs ressources dans un dossier de contribution. Cependant, un seul dossier peut être créé à la fois.
 
@@ -138,7 +138,7 @@ Les administrateurs peuvent utiliser deux rapports pour afficher l’état des d
 
 * Dans le Brand Portal, accédez à **[!UICONTROL Outils]** > **[!UICONTROL État de contribution des ressources]**. Ce rapport reflète l’état de toutes les tâches de publication à différentes étapes du processus de publication.
 
-   ![](assets/contribution-folder-status.png)
+   ![](assets/contribution-folder-status-v2.png)
 
 * Dans Experience Manager Assets (On-Premise ou Managed Service), accédez à **[!UICONTROL Ressources]** > **[!UICONTROL Tâches]**. Ce rapport reflète l’état final (Réussite ou Erreur) de toutes les tâches de publication.
 
@@ -157,3 +157,58 @@ Les administrateurs peuvent utiliser deux rapports pour afficher l’état des d
 >
 >Currently, no report is generated in AEM Assets as a Cloud Service for the Asset Sourcing workflow. 
 -->
+
+## Suppression automatique des ressources publiées dans Experience Manager Assets à partir du dossier Contribution {#automatically-delete-published-assets-from-contribution-folder}
+
+Brand Portal exécute désormais des tâches automatiques toutes les douze heures afin d’analyser tous les dossiers de contribution et de supprimer toutes les ressources publiées sur AEM. Par conséquent, vous n’avez pas besoin de supprimer manuellement les ressources du dossier Contribution pour que la taille du dossier reste inférieure à la valeur [limite de seuil](#upload-new-assets-to-contribution-folder). Vous pouvez également surveiller le statut des tâches de suppression automatiquement exécutées au cours des sept derniers jours. Le rapport relatif à une tâche fournit les détails suivants :
+
+* Heure de début de la tâche
+* Heure de fin de la tâche
+* État de la tâche
+* Total des ressources incluses dans une tâche
+* Total des ressources supprimées dans une tâche
+* Stockage total mis à disposition suite à l’exécution de la tâche
+
+   ![Rapport de suppression](assets/deletion-reports.png)
+
+Vous pouvez également approfondir l’analyse pour afficher les détails de chaque ressource incluse dans une tâche de suppression. Des détails tels que le titre, la taille, l’auteur, l’état de suppression et la durée de suppression de la ressource sont inclus dans le rapport.
+
+![Rapport de suppression détaillé](assets/deletion-reports-detailed.png)
+
+>[!NOTE]
+>
+> * Les clients peuvent demander au service clientèle d’Adobe de désactiver et de réactiver la fonctionnalité de suppression automatique ou de modifier la fréquence d’exécution de celle-ci.
+> * Cette fonctionnalité est disponible avec Experience Manager 6.5.13.0 et versions ultérieures.
+
+
+### Affichage et téléchargement de rapports de suppression {#view-delete-jobs}
+
+Pour afficher et télécharger des rapports pour une tâche de suppression :
+
+1. Dans Brand Portal, accédez à **[!UICONTROL Outils]**>**[!UICONTROL État de la contribution des ressources]**>**[!UICONTROL Rapports de suppression]** .
+
+1. Sélectionnez une tâche et cliquez sur **[!UICONTROL Affichage]** pour afficher le rapport.
+
+   Affichez les détails de chaque ressource incluse dans une tâche de suppression. Des détails tels que le titre, la taille, l’auteur, l’état de suppression et la durée de suppression de la ressource sont inclus dans le rapport. Cliquez sur **[!UICONTROL Télécharger]** pour télécharger le rapport de la tâche au format CSV.
+
+   L’état de suppression d’une ressource du rapport peut avoir les valeurs suivantes :
+
+   * **Supprimé** - La ressource a été supprimée du dossier Contribution.
+
+   * **Introuvable** - Brand Portal n’a pas pu trouver la ressource dans le dossier Contribution. La ressource est déjà supprimée manuellement du dossier.
+
+   * **Ignoré** - Brand Portal a ignoré la suppression de la ressource, car une nouvelle version de la ressource est disponible dans le dossier Contribution, qui n’est pas encore publié sur Experience Manager.
+
+   * **En échec** - Brand Portal n’a pas réussi à supprimer la ressource. Il existe trois tentatives de suppression d’une ressource avec une `Failed` Supprimez l’état . Si la ressource échoue lors de la troisième tentative de suppression, vous devez la supprimer manuellement.
+
+### Suppression d’un rapport
+
+Brand Portal vous permet également de sélectionner un ou plusieurs rapports et de les supprimer manuellement.
+
+Pour supprimer un rapport :
+
+1. Accédez à **[!UICONTROL Outils]**>**[!UICONTROL État de la contribution des ressources]**>**[!UICONTROL Rapports de suppression]** .
+
+1. Sélectionnez un ou plusieurs rapports, puis cliquez sur **[!UICONTROL Supprimer]**.
+
+
