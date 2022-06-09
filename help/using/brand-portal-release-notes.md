@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 source-git-commit: 5ca00738be59632ffcd481c2d007f869b561b9db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '445'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Découvrez les nouvelles fonctionnalités, les améliorations, les problèmes cr
 | Produit | Adobe Experience Manager Assets Brand Portal |
 |---|---|
 | Version | 2022.05.0 |
-| Date  | Mai 2022 |
+| Date | Mai 2022 |
 
 ## Présentation {#overview}
 
@@ -107,7 +107,7 @@ This release includes the following enhancements:
 
 ### Nouvelles fonctionnalités {#new-features}
 
-Brand Portal exécute désormais des tâches automatiques toutes les douze heures afin de supprimer toutes les ressources Brand Portal publiées sur AEM. Par conséquent, vous n’avez pas besoin de supprimer manuellement les ressources du dossier Contribution pour que la taille du dossier reste inférieure à la limite de seuil. Voir [Nouveautés de Experience Manager Assets Brand Portal](whats-new.md).
+Brand Portal exécute désormais des tâches automatiques toutes les douze heures afin de supprimer toutes les ressources Brand Portal publiées sur AEM. Par conséquent, vous n’avez pas besoin de supprimer manuellement les ressources du dossier Contribution pour que la taille du dossier reste inférieure à la limite de seuil. [Nouveautés d’Experience Manager Assets Brand Portal](whats-new.md).
 
 
 ### Problèmes critiques résolus {#critical-issues-fixed}
@@ -116,13 +116,13 @@ Cette version comprend des correctifs pour les problèmes critiques suivants :
 
 * Lorsque vous téléchargez un dossier ou une collection contenant des ressources avec des balises de couleur, un fichier XML est également téléchargé.
 
-* Lorsque vous téléchargez une vidéo qui comprend des rendus, Brand Portal crée un fichier .ZIP non valide.
+* Lorsque vous téléchargez une vidéo qui comprend des rendus, Brand Portal crée un fichier .ZIP non valide.
 
-* Lorsque vous créez des paramètres prédéfinis et des ressources sur AEM et que vous les publiez dans Brand Portal, puis sélectionnez des rendus dynamiques lors du téléchargement des ressources, vous ne pouvez pas extraire les éléments téléchargés. fichier ZIP.
+* Lorsque vous créez des paramètres prédéfinis et des ressources sur AEM et que vous les publiez dans Brand Portal, puis sélectionnez des rendus dynamiques lors du téléchargement des ressources, vous ne pouvez pas extraire les éléments téléchargés fichier ZIP.
 
-* Problèmes lors du téléchargement de ressources vidéo à partir de certains dossiers disponibles dans Brand Portal.
+* Problèmes lors du téléchargement de ressources vidéo à partir de certains dossiers disponibles dans Brand Portal.
 
-* Lorsque vous partagez l’URL du dossier Contribution à l’aide d’un courrier électronique, les rôles Observateur et Éditeur rencontrent des problèmes lors de l’accès à leur dossier parent à l’aide du chemin de navigation.
+* Lorsque vous partagez l’URL du dossier Contribution à l’aide d’un e-mail, les rôles Observateur et Éditeur rencontrent des problèmes lors de l’accès à leur dossier parent à l’aide du chemin de navigation.
 
 * L’approvisionnement du rapport publié affiche une heure de début de tâche incorrecte.
 
