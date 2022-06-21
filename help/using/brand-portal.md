@@ -10,9 +10,9 @@ topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
 source-git-commit: fb2ce4d39fd9e7aa69ba541bd48a6b9cddd3b4c5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1576'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -91,7 +91,7 @@ Pour plus d’informations, consultez [accès des utilisateurs invités à Brand
 
 ### Observateur {#viewer}
 
-Utilisateur Brand Portal défini dans [!DNL Admin Console] qui a accès à Brand Portal avec le rôle Observateur. Un utilisateur disposant de ce rôle peut se connecter à Brand Portal et accéder aux dossiers, collections et ressources autorisés. L’utilisateur peut également parcourir, prévisualiser, télécharger et exporter des ressources (rendus d’origine ou spécifiques), configurer des paramètres de compte et rechercher des ressources. Voici la liste des tâches que peut réaliser un observateur :
+Un utilisateur de Brand Portal défini dans [!DNL Admin Console] qui a accès à Brand Portal avec le rôle d’observateur. Un utilisateur disposant de ce rôle peut se connecter à Brand Portal et accéder aux dossiers, collections et ressources autorisés. L’utilisateur peut également parcourir, prévisualiser, télécharger et exporter des ressources (rendus d’origine ou spécifiques), configurer des paramètres de compte et rechercher des ressources. Voici la liste des tâches que peut réaliser un observateur :
 
 * [Exploration des ressources](browse-assets-brand-portal.md)
 
