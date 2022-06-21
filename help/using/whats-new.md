@@ -13,7 +13,7 @@ exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
 source-git-commit: d02b9b347c37e6960f18fe3772b219d0d79dc8c5
 workflow-type: tm+mt
 source-wordcount: '6493'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,8 +29,8 @@ Brand Portal exécute désormais des tâches automatiques toutes les douze heur
 * Heure de fin de la tâche.
 * Statut de la tâche.
 * Total des ressources incluses dans une tâche.
-* Nombre total de ressources supprimées dans une tâche
-* Stockage total mis à disposition suite à l’exécution de la tâche
+* Nombre total de ressources supprimées dans une tâche.
+* Stockage total mis à disposition suite à l’exécution de la tâche.
 
 ![Rapport de suppression](assets/deletion-reports.png)
 
