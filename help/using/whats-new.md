@@ -10,16 +10,20 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: d02b9b347c37e6960f18fe3772b219d0d79dc8c5
+source-git-commit: 002647322fe105c5551a89e8fd65a7f7314963a2
 workflow-type: tm+mt
-source-wordcount: '6493'
-ht-degree: 100%
+source-wordcount: '6498'
+ht-degree: 99%
 
 ---
 
 # Nouveautés d’Experience Manager Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager Assets Brand Portal permet d’acquérir, de contrôler et de distribuer facilement et en toute sécurité des ressources créatives approuvées destinées à des tiers externes et aux collaborateurs de l’entreprise sur différents appareils. Brand Portal améliore l’efficacité du partage des ressources, accélère la mise sur le marché des ressources et réduit les risques de non-conformité et d’accès non autorisé. Adobe a pour objectif d’améliorer l’expérience globale de Brand Portal. Vous trouverez ci-dessous un aperçu des nouvelles fonctionnalités et améliorations.
+
+## Changements de la version 2022.08.0 {#what-changed-in-August-2022}
+
+Brand Portal 2022.08.0 comprend des correctifs pour les problèmes critiques. Consultez les dernières [Notes de mise à jour de Brand Portal](brand-portal-release-notes.md).
 
 ## Changements de la version 2022.05.0 {#what-changed-in-May-2022}
 

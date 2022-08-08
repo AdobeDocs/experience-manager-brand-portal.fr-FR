@@ -10,29 +10,38 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 5ca00738be59632ffcd481c2d007f869b561b9db
-workflow-type: ht
-source-wordcount: '445'
-ht-degree: 100%
+source-git-commit: 8a34c69a8ca3868fb7904897ac4970ded91883a5
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 66%
 
 ---
 
 # Notes de mise à jour {#release-notes}
 
-Découvrez les nouvelles fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 2022.05.0.
+Découvrez les nouvelles fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 2022.08.0.
 
 ## Informations sur la version {#release-information}
 
 | Produit | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 2022.05.0 |
-| Date | Mai 2022 |
+| Version | 2022.08.0 |
+| Date | Août 2022 |
 
 ## Présentation {#overview}
 
-Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de contrôler et de distribuer facilement et en toute sécurité des ressources créatives approuvées destinées à des tiers externes et aux collaborateurs de l’entreprise sur différents appareils. Brand Portal améliore l’efficacité du partage des ressources, accélère la mise sur le marché des ressources et réduit les risques de non-conformité et d’accès non autorisé. Brand Portal permet aux utilisateurs de parcourir, rechercher, prévisualiser, télécharger et exporter des ressources dans des formats approuvés, à tout moment et n’importe où.
+Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de contrôler et de distribuer facilement et en toute sécurité des ressources créatives approuvées destinées à des tiers externes et aux collaborateurs de l’entreprise sur différents appareils. Cela contribue à améliorer l’efficacité du partage des ressources, accélère le délai de mise sur le marché des ressources et réduit le risque de non-conformité et d’accès non autorisé. Brand Portal permet aux utilisateurs de parcourir, rechercher, prévisualiser, télécharger et exporter des ressources dans des formats approuvés, à tout moment et n’importe où.
 
-## Nouveautés de la version 2022.05.0 {#whats-new-in-2022.05.0}
+## Nouveautés de la version 2022.08.0 {#whats-new-in-2022.08.0}
+
+### Problèmes critiques résolus {#critical-issues-fixed}
+
+Cette version comprend des correctifs pour les problèmes critiques suivants :
+* Lorsque NUI ne traite pas une ressource en Experience Manager, Brand Portal affiche un état d’importation de ressource inexact.
+* Lorsque l’action de prévisualisation échoue, aucune notification n’est envoyée pour signaler l’échec.
+* La propriété de chargement de client est incorrectement définie pour les clients.
+* Lorsque vous cliquez sur **Télécharger tous les éléments** et il existe un grand nombre de rendus disponibles pour une ressource, Brand Portal télécharge un fichier .ZIP non valide.
+* La traduction de certaines chaînes est tronquée dans l’interface utilisateur de Brand Portal.
 
 <!--
 ### New Features {#new-features}
@@ -105,28 +114,28 @@ This release includes the following enhancements:
 * The system is not reflecting the correct value for the number of active concurrent users.
 -->
 
-### Nouvelles fonctionnalités {#new-features}
+<!--
+### New features {#new-features}
 
-Brand Portal exécute désormais des tâches automatiques toutes les douze heures afin de supprimer toutes les ressources Brand Portal publiées sur AEM. Par conséquent, vous n’avez pas besoin de supprimer manuellement les ressources du dossier Contribution pour que la taille du dossier reste inférieure à la limite de seuil. [Nouveautés d’Experience Manager Assets Brand Portal](whats-new.md).
+Brand Portal now executes automatic jobs every twelve hours to delete all Brand Portal assets that are published to AEM. As a result, you do not need to delete the assets in the Contribution folder manually to keep the folder size below the threshold limit. See [What's new in Experience Manager Assets Brand Portal](whats-new.md).
+-->
 
+<!--
+This release includes fixes to the following critical issues:
 
-### Problèmes critiques résolus {#critical-issues-fixed}
+* When you download a folder or a collection that includes assets with color tags, an XML file gets downloaded as well.
 
-Cette version comprend des correctifs pour les problèmes critiques suivants :
+* When you download a video that includes renditions, Brand Portal creates an invalid .ZIP file.
 
-* Lorsque vous téléchargez un dossier ou une collection contenant des ressources avec des balises de couleur, un fichier XML est également téléchargé.
+* When you create presets and assets on AEM author and publish them to Brand Portal and then select dynamic renditions while downloading the assets, you cannot extract the downloaded .ZIP file.
 
-* Lorsque vous téléchargez une vidéo qui comprend des rendus, Brand Portal crée un fichier .ZIP non valide.
+* Issues while downloading video assets from certain folders available on Brand Portal.
 
-* Lorsque vous créez des paramètres prédéfinis et des ressources sur AEM et que vous les publiez dans Brand Portal, puis sélectionnez des rendus dynamiques lors du téléchargement des ressources, vous ne pouvez pas extraire les éléments téléchargés fichier ZIP.
+* When you share the Contribution folder’s URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
 
-* Problèmes lors du téléchargement de ressources vidéo à partir de certains dossiers disponibles dans Brand Portal.
-
-* Lorsque vous partagez l’URL du dossier Contribution à l’aide d’un e-mail, les rôles Observateur et Éditeur rencontrent des problèmes lors de l’accès à leur dossier parent à l’aide du chemin de navigation.
-
-* L’approvisionnement du rapport publié affiche une heure de début de tâche incorrecte.
-
-
+* Sourcing published report displays an incorrect job start time.
+>
+ 
 <!--
 * Asset Sourcing email notifications are not delivered for some organizations. 
 
@@ -155,7 +164,7 @@ See [what's new in Brand Portal 2021.02.0](whats-new.md).
 
 Cette version présente les problèmes connus suivants :
 
-* Localisation partielle du contenu du rapport d’approvisionnement des ressources.
+* Localisation partielle du contenu du rapport d’approvisionnement des ressources
 
 
 <!--
