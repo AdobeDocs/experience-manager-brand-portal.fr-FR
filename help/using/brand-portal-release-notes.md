@@ -13,7 +13,7 @@ exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 source-git-commit: 383528c3efa0d2c77b00f70b1103fc8c9122ab1f
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 69%
+ht-degree: 94%
 
 ---
 
@@ -30,7 +30,7 @@ Découvrez les nouvelles fonctionnalités, les améliorations, les problèmes cr
 
 ## Présentation {#overview}
 
-Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de contrôler et de distribuer facilement et en toute sécurité des ressources créatives approuvées destinées à des tiers externes et aux collaborateurs de l’entreprise sur différents appareils. Cela contribue à améliorer l’efficacité du partage des ressources, accélère le délai de mise sur le marché des ressources et réduit le risque de non-conformité et d’accès non autorisé. Brand Portal permet aux utilisateurs de parcourir, rechercher, prévisualiser, télécharger et exporter des ressources dans des formats approuvés, à tout moment et n’importe où.
+Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de contrôler et de distribuer facilement et en toute sécurité des ressources de création approuvées destinées à des tiers externes et aux collaborateurs de l’entreprise sur différents appareils. Brand Portal améliore l’efficacité du partage des ressources, accélère la mise sur le marché des ressources et réduit les risques de non-conformité et d’accès non autorisé. Brand Portal permet aux utilisateurs de parcourir, rechercher, prévisualiser, télécharger et exporter des ressources dans des formats approuvés, à tout moment et n’importe où.
 
 ## Nouveautés de la version 2022.08.0 {#whats-new-in-2022.08.0}
 
@@ -40,8 +40,8 @@ Cette version comprend des correctifs pour les problèmes critiques suivants :
 
 * Lorsque Asset compute ne traite pas une ressource dans Experience Manager, Brand Portal affiche un état d’importation de ressource inexact.
 * Lorsque l’action de prévisualisation échoue, aucune notification n’est envoyée pour signaler l’échec.
-* La propriété de chargement de client est incorrectement définie pour les clients.
-* Lorsque vous cliquez sur **Télécharger tous les éléments** et il existe un grand nombre de rendus disponibles pour une ressource, Brand Portal télécharge un fichier .ZIP non valide.
+* La propriété du quota de chargement du client est incorrectement définie pour les clients.
+* Lorsque vous cliquez sur **Télécharger tous les éléments** et qu’il existe un grand nombre de rendus disponibles pour une ressource, Brand Portal télécharge un fichier .ZIP non valide.
 * La traduction de certaines chaînes est tronquée dans l’interface utilisateur de Brand Portal.
 
 <!--
