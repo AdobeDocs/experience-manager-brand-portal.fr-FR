@@ -11,9 +11,9 @@ topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
 source-git-commit: 002647322fe105c5551a89e8fd65a7f7314963a2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6498'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Experience Manager Assets Brand Portal permet d’acquérir, de contrôle
 
 ## Changements de la version 2022.08.0 {#what-changed-in-August-2022}
 
-Brand Portal 2022.08.0 comprend des correctifs pour les problèmes critiques. Consultez les dernières [Notes de mise à jour de Brand Portal](brand-portal-release-notes.md).
+Brand Portal 2022.08.0 comprend des correctifs pour les problèmes critiques. Consultez les dernières [Notes de mise à jour de Brand Portal](brand-portal-release-notes.md).
 
 ## Changements de la version 2022.05.0 {#what-changed-in-May-2022}
 
@@ -227,7 +227,7 @@ Dans la boîte de dialogue **[!UICONTROL Télécharger]**, les utilisateurs peuv
 * créer un dossier distinct pour chaque ressource ;
 * télécharger les ressources sélectionnées et leurs rendus.
 
-Le workflow de téléchargement reste le même pour les ressources uniques ou multiples, les dossiers contenant des ressources, les ressources qui sont ou non sous licence, ainsi que le téléchargement de ressources à l’aide d’un lien de partage. Consultez la [procédure de téléchargement des ressources à partir de Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html).
+Le workflow de téléchargement reste le même pour les ressources uniques ou multiples, les dossiers contenant des ressources, les ressources qui sont ou non sous licence, ainsi que le téléchargement de ressources à l’aide d’un lien de partage. Consultez la [procédure de téléchargement des ressources à partir de Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html?lang=fr).
 
 ![boîte-de-dialogue-télécharger](assets/download-dialog-box.png)
 
@@ -277,7 +277,7 @@ L’onglet **[!UICONTROL Groupes]** de la page **[!UICONTROL Rôles utilisateur]
 * Si seul le paramètre **[!UICONTROL Télécharger l’original]** est activé, les utilisateurs peuvent afficher et télécharger uniquement les ressources d’origine à partir de la page des détails de la ressource.
 * Si seul le paramètre **[!UICONTROL Télécharger les rendus]** est activé, les utilisateurs peuvent afficher la ressource d’origine, mais ne peuvent pas la télécharger. Cependant, l’utilisateur peut afficher et télécharger les rendus de ressources.
 
-Consultez [Configuration du téléchargement de ressource](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions).
+Consultez [Configuration du téléchargement de ressource](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html?lang=fr#configure-download-permissions).
 
 ![autorisation-téléchargement-affichage](assets/download-permissions.png)
 
@@ -375,7 +375,7 @@ Les étapes de configuration d’AEM Assets avec Brand Portal sont différentes 
 
 | **Version d’AEM** | **Nouvelle configuration** | **Mise à niveau de la configuration** |
 |---|---|---|
-| **AEM Assets as a Cloud Service** | [Création d’une configuration](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
+| **AEM Assets as a Cloud Service** | [Création d’une configuration](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html?lang=fr) | - |
 | **AEM 6.5 (6.5.4.0 et versions ultérieures)** | [Création d’une configuration](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html?lang=fr) | [Mise à niveau de la configuration](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html?lang=fr#upgrade-integration-65) |
 | **AEM 6.4 (6.4.8.0 et versions ultérieures)** | [Création d’une configuration](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html?lang=fr) | [Mise à niveau de la configuration](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html?lang=fr#upgrade-integration-64) |
 | **AEM 6.3 (6.3.3.8 et versions ultérieures)** | [Création d’une configuration](https://helpx.adobe.com/fr/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [Mise à niveau de la configuration](https://helpx.adobe.com/fr/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
@@ -561,7 +561,7 @@ Les organisations peuvent obtenir une URL de portail personnalisée comprenant u
 Seul le préfixe de l’URL Brand Portal peut être personnalisé et non l’URL entière.\
 Par exemple, une entreprise avec le domaine existant **geomettrix.brand-portal.adobe.com** peut demander et obtenir la création de **geomettrixinc.brand-portal.adobe.com**.
 
-Cependant, l’instance d’auteur AEM peut uniquement être [configurée](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) avec l’URL d’ID du client et non avec l’URL (alternative) d’alias de client.
+Cependant, l’instance d’auteur AEM peut uniquement être [configurée](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html?lang=fr) avec l’URL d’ID du client et non avec l’URL (alternative) d’alias de client.
 
 Les organisations peuvent répondre à leurs besoins en matière de branding en personnalisant l’URL de leur portail, au lieu de se contenter de l’URL fournie par Adobe.
 
@@ -662,7 +662,7 @@ Les configurations ci-dessus sont disponibles sous Accès et Paramètres génér
 
 ### Interface utilisateur Adobe I/O pour configurer les intégrations OAuth
 
-À compter de la version 6.4.2, Brand Portal utilise l’interface Legacy OAuth (`https://legacy-oauth.cloud.adobe.io/`) pour créer l’application JWT qui rend possible la configuration des intégrations OAuth de façon à permettre l’intégration d’AEM Assets à Brand Portal. Auparavant, l’IU de configuration des intégrations OAuth était hébergée à l’adresse `https://marketing.adobe.com/developer/`. Pour en savoir plus sur l’intégration d’AEM Assets à Brand Portal pour publier des ressources et des collections sur Brand Portal, consultez [Configuration de l’intégration d’AEM Assets à Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html).
+À compter de la version 6.4.2, Brand Portal utilise l’interface Legacy OAuth (`https://legacy-oauth.cloud.adobe.io/`) pour créer l’application JWT qui rend possible la configuration des intégrations OAuth de façon à permettre l’intégration d’AEM Assets à Brand Portal. Auparavant, l’IU de configuration des intégrations OAuth était hébergée à l’adresse `https://marketing.adobe.com/developer/`. Pour en savoir plus sur l’intégration d’AEM Assets à Brand Portal pour publier des ressources et des collections sur Brand Portal, consultez [Configuration de l’intégration d’AEM Assets à Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html?lang=fr).
 
 ## Améliorations de la recherche
 
