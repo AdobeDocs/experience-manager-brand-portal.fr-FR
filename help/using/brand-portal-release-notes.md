@@ -13,7 +13,7 @@ exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 source-git-commit: 383528c3efa0d2c77b00f70b1103fc8c9122ab1f
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de con
 
 Cette version comprend des correctifs pour les problèmes critiques suivants :
 
-* Lorsque Asset compute ne traite pas une ressource dans Experience Manager, Brand Portal affiche un état d’importation de ressource inexact.
+* Lorsqu’Asset Compute échoue dans le traitement d’une ressource dans Experience Manager, Brand Portal affiche un statut d’importation de ressource inexact.
 * Lorsque l’action de prévisualisation échoue, aucune notification n’est envoyée pour signaler l’échec.
 * La propriété du quota de chargement du client est incorrectement définie pour les clients.
 * Lorsque vous cliquez sur **Télécharger tous les éléments** et qu’il existe un grand nombre de rendus disponibles pour une ressource, Brand Portal télécharge un fichier .ZIP non valide.
