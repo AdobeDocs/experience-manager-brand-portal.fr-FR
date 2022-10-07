@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: fd7aed4cfa3104c1e8359d5f0eb8ae3d5c740b17
+source-git-commit: 6a111a24d999bdbf1aaa306ad95ae359053f374e
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 76%
+source-wordcount: '382'
+ht-degree: 68%
 
 ---
 
@@ -37,18 +37,19 @@ Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de con
 ### Problèmes critiques résolus {#critical-issues-fixed}
 
 Cette version comprend des correctifs pour les problèmes critiques suivants :
+
 * Temps de réponse lent lors de la copie de fichiers volumineux de Brand Portal vers un outil tiers.
 * Lorsque vous cochez la case Nombre de rendus , les cases permettant de sélectionner des rendus individuels sont désactivées.
 * Temps de réponse lent pour la recherche.
 
 >[!IMPORTANT]
 >
->Les notifications Pulse dans AEM Assets Brand Portal vont cesser à partir du 1er décembre 2022. Au lieu des notifications Pulse, vous continuerez à recevoir des notifications par e-mail pour les événements suivants :
->* Partage de ressources via un lien
->* Workflow de demande d’accès
->* Partage du dossier de contribution
->* Lancement de l&#39;export vers AEM
->* Exportation vers AEM terminée
+>Les notifications Pulse dans AEM Assets Brand Portal vont cesser à partir du 1er décembre 2022. Vous continuerez à recevoir des notifications par e-mail pour les événements suivants :
+>* Lorsque des ressources Brand Portal sont partagées avec vous via un lien de partage
+>* Lorsque l’administrateur valide votre demande d’accès Brand Portal. L’administrateur reçoit également une notification lorsque vous demandez l’accès à Brand Portal.
+>* Lorsque le dossier de contribution est partagé avec vous
+>* Lorsque vous commencez à publier des ressources de Brand Portal vers AEM
+>* Lorsque les ressources sont publiées correctement de Brand Portal vers AEM
 
 
 <!--
@@ -152,7 +153,7 @@ This release includes fixes to the following critical issues:
 
 * Issues while downloading video assets from certain folders available on Brand Portal.
 
-* When you share the Contribution folder’s URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
+* When you share the Contribution folder's URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
 
 * Sourcing published report displays an incorrect job start time.
 >
