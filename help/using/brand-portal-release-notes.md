@@ -10,40 +10,60 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 383528c3efa0d2c77b00f70b1103fc8c9122ab1f
+source-git-commit: fd7aed4cfa3104c1e8359d5f0eb8ae3d5c740b17
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 100%
+source-wordcount: '343'
+ht-degree: 76%
 
 ---
 
 # Notes de mise à jour {#release-notes}
 
-Découvrez les nouvelles fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 2022.08.0.
+Découvrez les nouvelles fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 2022.10.0.
 
 ## Informations sur la version {#release-information}
 
 | Produit | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 2022.08.0 |
-| Date | Août 2022 |
+| Version | 2022.10.0 |
+| Date | Octobre 2022 |
 
 ## Présentation {#overview}
 
 Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de contrôler et de distribuer facilement et en toute sécurité des ressources de création approuvées destinées à des tiers externes et aux collaborateurs de l’entreprise sur différents appareils. Brand Portal améliore l’efficacité du partage des ressources, accélère la mise sur le marché des ressources et réduit les risques de non-conformité et d’accès non autorisé. Brand Portal permet aux utilisateurs de parcourir, rechercher, prévisualiser, télécharger et exporter des ressources dans des formats approuvés, à tout moment et n’importe où.
 
-## Nouveautés de la version 2022.08.0 {#whats-new-in-2022.08.0}
+## Nouveautés de la version 2022.10.0 {#whats-new-in-2022.10.0}
 
 ### Problèmes critiques résolus {#critical-issues-fixed}
 
 Cette version comprend des correctifs pour les problèmes critiques suivants :
+* Temps de réponse lent lors de la copie de fichiers volumineux de Brand Portal vers un outil tiers.
+* Lorsque vous cochez la case Nombre de rendus , les cases permettant de sélectionner des rendus individuels sont désactivées.
+* Temps de réponse lent pour la recherche.
 
-* Lorsqu’Asset Compute échoue dans le traitement d’une ressource dans Experience Manager, Brand Portal affiche un statut d’importation de ressource inexact.
-* Lorsque l’action de prévisualisation échoue, aucune notification n’est envoyée pour signaler l’échec.
-* La propriété du quota de chargement du client est incorrectement définie pour les clients.
-* Lorsque vous cliquez sur **Télécharger tous les éléments** et qu’il existe un grand nombre de rendus disponibles pour une ressource, Brand Portal télécharge un fichier .ZIP non valide.
-* La traduction de certaines chaînes est tronquée dans l’interface utilisateur de Brand Portal.
+>[!IMPORTANT]
+>
+>Les notifications Pulse dans AEM Assets Brand Portal vont cesser à partir du 1er décembre 2022. Au lieu des notifications Pulse, vous continuerez à recevoir des notifications par e-mail pour les événements suivants :
+>* Partage de ressources via un lien
+>* Workflow de demande d’accès
+>* Partage du dossier de contribution
+>* Lancement de l&#39;export vers AEM
+>* Exportation vers AEM terminée
 
+
+<!--
+## What's New in 2022.08.0 {#whats-new-in-2022.08.0}
+
+### Critical Issues Fixed {#critical-issues-fixed}
+
+This release includes fixes to the following critical issues:
+
+* When Asset Compute fails to process an asset in Experience Manager, Brand Portal displays an inaccurate asset import status.
+* When the preview action fails, there is no notification to communicate the failure.
+* Tenant Upload Quota property is getting inaccurately set for tenants.
+* When you click **Download all items** and there are large number of renditions available for an asset, Brand Portal downloads an invalid .ZIP file.
+* The translation of some strings gets truncated on the Brand Portal user interface.
+-->
 <!--
 ### New Features {#new-features}
 
@@ -160,13 +180,13 @@ In case only the original assets are downloaded, the asset reflects its own exte
 See [what's new in Brand Portal 2021.02.0](whats-new.md).
 -->
 
+<!--
+### Known Issues {#known-issues}
 
-### Problèmes connus {#known-issues}
+This release includes the following known issue:
 
-Cette version présente les problèmes connus suivants :
-
-* Localisation partielle du contenu du rapport d’approvisionnement des ressources
-
+* Partial localization in Asset sourcing report content
+-->
 
 <!--
 ### Known Issues {#known-issues}
@@ -224,7 +244,7 @@ L’interface utilisateur de Brand Portal est disponible dans les langues suiva
 * Français
 * Espagnol
 * Italien
-* Portugais brésilien
+* Portugais  brésilien
 * Japonais
 * Chinois simplifié
 * Coréen
