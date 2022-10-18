@@ -13,7 +13,7 @@ exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 source-git-commit: 6a111a24d999bdbf1aaa306ad95ae359053f374e
 workflow-type: tm+mt
 source-wordcount: '382'
-ht-degree: 68%
+ht-degree: 77%
 
 ---
 
@@ -39,7 +39,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de con
 Cette version comprend des correctifs pour les problèmes critiques suivants :
 
 * Temps de réponse lent lors de la copie de fichiers volumineux de Brand Portal vers un outil tiers.
-* Lorsque vous cochez la case Nombre de rendus , les cases permettant de sélectionner des rendus individuels sont désactivées.
+* Lorsque vous cochez la case Nombre de rendus, les cases permettant de sélectionner des rendus individuels sont désactivées.
 * Temps de réponse lent pour la recherche.
 
 >[!IMPORTANT]
