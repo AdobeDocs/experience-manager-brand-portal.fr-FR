@@ -13,7 +13,7 @@ exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 source-git-commit: 6a111a24d999bdbf1aaa306ad95ae359053f374e
 workflow-type: tm+mt
 source-wordcount: '382'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -38,18 +38,18 @@ Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de con
 
 Cette version comprend des correctifs pour les problèmes critiques suivants :
 
-* Temps de réponse lent lors de la copie de fichiers volumineux de Brand Portal vers un outil tiers.
+* Temps de réponse lent lors de la copie de fichiers volumineux de Brand Portal vers un outil tiers.
 * Lorsque vous cochez la case Nombre de rendus, les cases permettant de sélectionner des rendus individuels sont désactivées.
 * Temps de réponse lent pour la recherche.
 
 >[!IMPORTANT]
 >
->Les notifications Pulse dans AEM Assets Brand Portal vont cesser à partir du 1er décembre 2022. Vous continuerez à recevoir des notifications par e-mail pour les événements suivants :
->* Lorsque des ressources Brand Portal sont partagées avec vous via un lien de partage
->* Lorsque l’administrateur valide votre demande d’accès Brand Portal. L’administrateur reçoit également une notification lorsque vous demandez l’accès à Brand Portal.
+>Les notifications Pulse dans AEM Assets Brand Portal vont cesser à partir du 1er décembre 2022. Vous continuerez à recevoir des notifications par e-mail pour les événements suivants :
+>* Lorsque des ressources Brand Portal sont partagées avec vous via un lien de partage
+>* Lorsque l’administrateur valide votre demande d’accès à Brand Portal. L’administrateur reçoit également une notification lorsque vous demandez l’accès à Brand Portal.
 >* Lorsque le dossier de contribution est partagé avec vous
->* Lorsque vous commencez à publier des ressources de Brand Portal vers AEM
->* Lorsque les ressources sont publiées correctement de Brand Portal vers AEM
+>* Lorsque vous commencez à publier des ressources de Brand Portal vers AEM
+>* Lorsque les ressources sont publiées de Brand Portal vers AEM
 
 
 <!--
@@ -245,7 +245,7 @@ L’interface utilisateur de Brand Portal est disponible dans les langues suiva
 * Français
 * Espagnol
 * Italien
-* Portugais  brésilien
+* Portugais brésilien
 * Japonais
 * Chinois simplifié
 * Coréen
