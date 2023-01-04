@@ -13,7 +13,7 @@ exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
 source-git-commit: ca43599fb0b35d1cdf3e368509288c11d9f4282c
 workflow-type: tm+mt
 source-wordcount: '1254'
-ht-degree: 90%
+ht-degree: 99%
 
 ---
 
@@ -55,7 +55,7 @@ Pour en savoir plus sur le comportement de la recherche avec des ressources avec
 
 Les facettes de recherche du panneau Filtres ajoutent de la granularité à votre expérience de recherche et optimisent la fonctionnalité de recherche. Elles utilisent plusieurs dimensions (prédicats) qui vous permettent d’effectuer des recherches complexes. Vous pouvez facilement descendre dans la hiérarchie jusqu’au niveau de détail souhaité pour effectuer une recherche plus précise.
 
-Par exemple, si vous recherchez une image, vous pouvez indiquer si vous souhaitez une image bitmap ou vectorielle. Vous pouvez réduire davantage la portée de la recherche en spécifiant le type MIME de l’image dans la facette de recherche Type de fichier. De même, lors de la recherche de documents, vous pouvez spécifier le format, par exemple, PDF ou MS® Word.
+Par exemple, si vous recherchez une image, vous pouvez indiquer si vous souhaitez une image bitmap ou vectorielle. Vous pouvez réduire davantage la portée de la recherche en spécifiant le type MIME de l’image dans la facette de recherche Type de fichier. De même, lors de la recherche de documents, vous pouvez spécifier le format, par exemple PDF ou MS® Word.
 
 ![Panneau Filtres dans Brand Portal](assets/file-type-search.png "Panneau Filtres dans Brand Portal")
 
@@ -76,7 +76,7 @@ Par exemple, utilisez les filtres standard suivants :
    >Pour les utilisateurs non administrateurs, l’[!UICONTROL Explorateur de chemins d’accès] du panneau [!UICONTROL Filtres] affiche seulement la structure de contenu des dossiers (et de leurs ancêtres) partagés avec l’utilisateur.\
    >Pour les utilisateurs administrateurs, l’Explorateur de chemins d’accès permet d’accéder à n’importe quel dossier de Brand Portal.
 
-   * **[!UICONTROL Type de fichier]** pour spécifier le type (image, document, fichier multimédia, archive) du fichier de ressource que vous recherchez. En outre, vous pouvez réduire la portée de votre recherche, par exemple, spécifier le type MIME (Tiff, Bitmap, Images GIMP) pour l’image ou le format (PDF ou MS® Word) pour les documents.
+   * **[!UICONTROL Type de fichier]** pour spécifier le type (image, document, fichier multimédia, archive) du fichier de ressource que vous recherchez. En outre, vous pouvez réduire l’étendue de votre recherche. Par exemple, spécifiez le type MIME (TIFF, Bitmap, Images GIMP) de l’image ou le format (PDF ou MS® Word) des documents.
    * **[!UICONTROL Taille de fichier]** pour rechercher des ressources en fonction de leur taille. Vous pouvez spécifier les limites inférieure et supérieure de la plage de tailles afin d’affiner votre recherche et déterminer l’unité de mesure à rechercher.
    * **[!UICONTROL État]** pour rechercher des ressources en fonction de leur état comme l’Approbation (approuvée, modifications requises, rejetée, en attente) et l’Expiration.
    * **[!UICONTROL Évaluation moyenne]** pour rechercher des ressources en fonction de leur évaluation.
@@ -90,25 +90,25 @@ Par exemple, utilisez les filtres standard suivants :
       Par exemple, si l’attribut Propriété est mappé sur [!UICONTROL `jcr:content /metadata/dc:title`], vous pouvez rechercher des fichiers en fonction de leur titre.\
       [!UICONTROL Prédicat de propriété] prend en charge les recherches de texte pour les éléments suivants :
 
-      les **Expressions partielles**
+      **Expressions partielles**
 Pour permettre la recherche de ressources à l’aide d’expressions partielles dans le prédicat de propriété, cochez la case **[!UICONTROL Recherche partielle]** dans le formulaire de recherche. Vous pouvez ainsi rechercher les ressources souhaitées même si vous ne spécifiez pas les mots/expressions exacts utilisés dans les métadonnées de la ressource.
 
       >[!NOTE]
       >
       > Brand Portal prend en charge les champs suivants pour la recherche partielle :
       >* jcr:content/metadata/dc:title
-      >* jcr:content/jcr:title
+      >* jcr:contenu/jcr:titre
       >* jcr:content/metadata/dam:search_promote
       >* jcr:content/metadata/dc:format
 
 
       Vous pouvez :
       * Spécifier un mot apparaissant dans l’expression recherchée dans la facette du panneau Filtres. Par exemple, si vous recherchez le terme **climb** (et que le prédicat de propriété est mappé sur la propriété [!UICONTROL `dc:title`]), toutes les ressources ayant le mot **climb** dans l’expression de leur titre sont renvoyées.
-      * Indiquez une partie du mot apparaissant dans l’expression recherchée, ainsi qu’un caractère générique (&#42;) pour remplir les trous.
+      * Spécifier une partie du mot apparaissant dans l’expression recherchée, ainsi qu’un caractère générique (&#42;) pour remplir les trous.
 Par exemple, la recherche de :
-         * **climb&#42;** renvoie toutes les ressources ayant des mots commençant par les caractères &quot;climb&quot; dans l’expression de leur titre.
-         * **&#42;climb** renvoie toutes les ressources ayant des mots se terminant par « climb » dans l’expression de leur titre.
-         * **&#42;climb&#42;** renvoie toutes les ressources ayant des mots comprenant les caractères &quot;climb&quot; dans l’expression de leur titre.
+         * **climb&#42;** renvoie toutes les ressources ayant des mots commençant par les caractères « climb » dans leur titre.
+         * **&#42;climb** renvoie toutes les ressources ayant des mots se terminant par « climb » dans leur titre.
+         * **&#42;climb&#42;** renvoie toutes les ressources ayant des mots comprenant les caractères « climb » dans leur titre.
 
 Pour permettre la recherche non sensible à la casse dans les prédicats de propriété, cochez la case       **Texte insensible à la casse** 
 Pour autoriser une recherche insensible à la casse dans le prédicat de propriété, cochez la case **[!UICONTROL Ignorer la casse]** dans le formulaire de recherche. Par défaut, la recherche de texte sur le prédicat de propriété est sensible à la casse.
