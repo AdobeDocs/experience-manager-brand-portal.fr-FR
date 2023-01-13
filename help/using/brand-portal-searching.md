@@ -11,9 +11,9 @@ topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
 source-git-commit: ca43599fb0b35d1cdf3e368509288c11d9f4282c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1254'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -95,7 +95,7 @@ Pour permettre la recherche de ressources à l’aide d’expressions partielles
 
       >[!NOTE]
       >
-      > Brand Portal prend en charge les champs suivants pour la recherche partielle :
+      > Brand Portal prend en charge les champs suivants concernant la recherche partielle :
       >* jcr:content/metadata/dc:title
       >* jcr:contenu/jcr:titre
       >* jcr:content/metadata/dam:search_promote
