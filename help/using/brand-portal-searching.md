@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: 85e6495ab9f585ad19d92fe34794a995a7b637e8
+source-git-commit: cbdd943b904882cc9a455bab24c3cf732d5966ca
 workflow-type: tm+mt
-source-wordcount: '1297'
-ht-degree: 96%
+source-wordcount: '1358'
+ht-degree: 92%
 
 ---
 
@@ -42,7 +42,7 @@ Pour rechercher des ressources sur Brand Portal :
    >[!NOTE]
    >
    >* Pour que des suggestions de recherche s’affichent, au moins 3 caractères sont nécessaires dans l’omni-recherche.
-   >* Lorsque vous recherchez des termes `mountain` ou `biking` puis omnisearch fournit les résultats de recherche avec le texte `mountain` ET `biking` dans leurs champs de métadonnées. Dans le cas contraire, le comportement est OU en cas de balises intelligentes, ce qui signifie que les résultats avec `mountain` OU `biking` dans leurs balises intelligentes respectives sont récupérées.
+   >* Lorsque vous recherchez `mountain biking`, omnisearch renvoie toutes les ressources des résultats de recherche qui contiennent les deux `mountain` et `biking` disponibles dans les champs de métadonnées. Par exemple : `mountain` dans le `Title` champ et `biking` dans le `Description` champ . Les deux termes doivent être disponibles dans les champs de métadonnées pour s’afficher dans les résultats de recherche. Cependant, l’omni-recherche renvoie la ressource dans les résultats de recherche même si un seul des deux termes est disponible dans le champ de métadonnées Balises intelligentes . Par exemple, si une ressource contient `mountain` comme l’une des balises intelligentes et ne contient pas `biking` dans tout autre champ de métadonnées et que vous recherchez `mountain biking`, omnisearch renvoie toujours la ressource dans les résultats de recherche.
 
 
 1. Pour accéder rapidement aux ressources qui vous intéressent, choisissez l’une des suggestions associées qui apparaissent dans la liste déroulante.
