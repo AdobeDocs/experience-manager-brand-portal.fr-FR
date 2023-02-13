@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 666db34a01bd9bb0d6d4967524121cdeb776394d
+source-git-commit: b4efe1d2d5a2e6cf6163f6af9e6d862afbfbb129
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 65%
+source-wordcount: '432'
+ht-degree: 66%
 
 ---
 
@@ -39,7 +39,6 @@ Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de con
 #### Correctifs {#bug-fixes}
 
 Cette version comprend des correctifs pour les problèmes critiques suivants :
-* La photo de profil ne peut pas être mise à jour dans Brand Portal.
 * Le volet de l’arborescence de contenu n’est pas redimensionnable. Si le nom de fichier dépasse la largeur par défaut de l’arborescence de contenu, vous ne pouvez pas faire glisser l’arborescence de contenu horizontalement et verticalement. Par conséquent, les noms de fichiers plus longs ne sont pas lisibles.
 * Les résultats de la recherche sont incohérents pour le même prédicat de propriété utilisé deux fois dans les formulaires de recherche.
 * Le texte des pages de connexion intermédiaires n’est pas localisé pour toutes les langues.
