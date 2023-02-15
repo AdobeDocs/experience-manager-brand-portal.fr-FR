@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: db887c687ae1a5ab68d9dbaf50dab9da82905261
+source-git-commit: 045f82169583cac5d7e85216d82a6afd44d5b5af
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 63%
@@ -43,7 +43,6 @@ Cette version comprend des correctifs pour les problèmes critiques suivants :
 * Le volet de l’arborescence de contenu n’est pas redimensionnable. Si le nom de fichier dépasse la largeur par défaut de l’arborescence de contenu, vous ne pouvez pas faire glisser l’arborescence de contenu horizontalement et verticalement. Par conséquent, les noms de fichiers plus longs ne sont pas lisibles.
 * Les résultats de la recherche sont incohérents pour le même prédicat de propriété utilisé deux fois dans les formulaires de recherche.
 * Le texte des pages de connexion intermédiaires n’est pas localisé pour toutes les langues.
-* Peu de champs du profil utilisateur ne sont pas modifiables sur `Edit` Page Profil .
 
 ### Améliorations {#enhancements}
 
@@ -60,7 +59,8 @@ Les améliorations suivantes ont été apportées à cette version :
 
 Cette version présente les problèmes connus suivants :
 
-* Localisation partielle du contenu du rapport d’approvisionnement des ressources
+* Localisation partielle du contenu du rapport d’approvisionnement des ressources.
+* Peu de champs du profil utilisateur ne sont pas modifiables sur le profil utilisateur.
 
 <!--
 This release include fixes to the following critical issues:
