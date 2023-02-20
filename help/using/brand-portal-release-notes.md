@@ -12,8 +12,8 @@ discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 source-git-commit: 045f82169583cac5d7e85216d82a6afd44d5b5af
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 63%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ Découvrez les nouvelles fonctionnalités, les améliorations, les problèmes cr
 | Produit | Adobe Experience Manager Assets Brand Portal |
 |---|---|
 | Version | 2023.02.0 |
-| Plage | Février 2023 |
+| Date | Février 2023 |
 
 ## Présentation {#overview}
 
@@ -40,19 +40,19 @@ Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de con
 
 Cette version comprend des correctifs pour les problèmes critiques suivants :
 * La photo de profil ne peut pas être mise à jour dans Brand Portal.
-* Le volet de l’arborescence de contenu n’est pas redimensionnable. Si le nom de fichier dépasse la largeur par défaut de l’arborescence de contenu, vous ne pouvez pas faire glisser l’arborescence de contenu horizontalement et verticalement. Par conséquent, les noms de fichiers plus longs ne sont pas lisibles.
+* Le volet de l’arborescence de contenu n’est pas redimensionnable. Si le nom de fichier dépasse la largeur par défaut de l’arborescence de contenu, vous ne pouvez pas faire glisser cette dernière horizontalement et verticalement. Par conséquent, les noms de fichiers plus longs ne sont pas lisibles.
 * Les résultats de la recherche sont incohérents pour le même prédicat de propriété utilisé deux fois dans les formulaires de recherche.
 * Le texte des pages de connexion intermédiaires n’est pas localisé pour toutes les langues.
 
 ### Améliorations {#enhancements}
 
 Les améliorations suivantes ont été apportées à cette version :
-* Une nouvelle visionneuse de PDF moderne est désormais disponible pour un aperçu amélioré des ressources du PDF.
-* Vous pouvez maintenant choisir d’activer ou de désactiver les notifications d’approvisionnement des ressources pour les administrateurs. Accédez à [!UICONTROL Paramètres généraux] puis activez ou désactivez [!UICONTROL `Notify Administrator of asset contribution`].
+* Une nouvelle visionneuse PDF moderne est désormais disponible pour un aperçu amélioré des ressources PDF.
+* Vous pouvez maintenant choisir d’activer ou de désactiver les notifications d’approvisionnement des ressources pour les administrateurs et les administratrices. Accédez à [!UICONTROL Paramètres généraux], puis activez ou désactivez [!UICONTROL `Notify Administrator of asset contribution`].
 
-   ![Avertir l’administrateur de la contribution des ressources](assets/notify-admin.png)
+   ![Informer l’administrateur ou l’administratrice de la contribution de ressources](assets/notify-admin.png)
 
-* Un utilisateur non autorisé ne peut pas demander l’accès à Brand Portal si l’accès à la demande est désactivé.
+* Une utilisatrice ou un utilisateur sans autorisation ne peut pas demander l’accès à Brand Portal si le demande d’accès est désactivée.
 * Seules les organisations configurées pour Brand Portal sont visibles dans la liste du sélecteur de profil.
 
 ### Problèmes connus {#known-issues}

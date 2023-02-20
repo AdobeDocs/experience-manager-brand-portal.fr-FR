@@ -13,7 +13,7 @@ exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
 source-git-commit: cbdd943b904882cc9a455bab24c3cf732d5966ca
 workflow-type: tm+mt
 source-wordcount: '1358'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Pour rechercher des ressources sur Brand Portal :
    >[!NOTE]
    >
    >* Pour que des suggestions de recherche s’affichent, au moins 3 caractères sont nécessaires dans l’omni-recherche.
-   >* Lorsque vous recherchez `mountain biking`, omnisearch renvoie toutes les ressources des résultats de recherche qui contiennent les deux `mountain` et `biking` disponibles dans les champs de métadonnées. Par exemple : `mountain` dans le `Title` champ et `biking` dans le `Description` champ . Les deux termes doivent être disponibles dans les champs de métadonnées pour s’afficher dans les résultats de recherche. Cependant, l’omni-recherche renvoie la ressource dans les résultats de recherche même si un seul des deux termes est disponible dans le champ de métadonnées Balises intelligentes . Par exemple, si une ressource contient `mountain` comme l’une des balises intelligentes et ne contient pas `biking` dans tout autre champ de métadonnées et que vous recherchez `mountain biking`, omnisearch renvoie toujours la ressource dans les résultats de recherche.
+   >* Lorsque vous recherchez `mountain biking`, Omnisearch renvoie toutes les ressources des résultats de la recherche qui contiennent `mountain` et `biking` dans les champs de métadonnées (par exemple, `mountain` dans le champ `Title` et `biking` dans le champ `Description`). Les deux termes doivent être disponibles dans les champs de métadonnées pour s’afficher dans les résultats de la recherche. Cependant, Omnnisearch renvoie la ressource dans les résultats de la recherche même si un seul des deux termes est disponible dans le champ de métadonnées Balises intelligentes. Par exemple, si une ressource contient `mountain` comme l’une des balises intelligentes et ne contient pas `biking` dans tout autre champ de métadonnées et que vous recherchez `mountain biking`, Omnisearch renvoie toujours la ressource dans les résultats de la recherche.
 
 
 1. Pour accéder rapidement aux ressources qui vous intéressent, choisissez l’une des suggestions associées qui apparaissent dans la liste déroulante.
