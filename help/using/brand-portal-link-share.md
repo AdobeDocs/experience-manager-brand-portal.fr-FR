@@ -10,10 +10,10 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
-workflow-type: ht
-source-wordcount: '967'
-ht-degree: 100%
+source-git-commit: e3e35ad4be5c082ad7bac7bed8ea20a186d245ad
+workflow-type: tm+mt
+source-wordcount: '969'
+ht-degree: 98%
 
 ---
 
@@ -103,7 +103,7 @@ Pour télécharger les ressources partagées :
 
 >[!NOTE]
 >
->Brand Portal limite le téléchargement des ressources dont la taille est supérieure à **1** Go par taille de fichier à l’aide du partage de lien.
+>Brand Portal limite le téléchargement des dossiers ou ressources d’une taille supérieure à 5 Go à l’aide du partage de lien.
 
 <!--
 1. The **[!UICONTROL Download]** dialog box appears.
@@ -196,7 +196,7 @@ La légende suivante explique les symboles utilisés dans le tableau :
 | ✓ | Ce format de fichier prend en charge cette fonctionnalité. |
 | ✕ | Ce format de fichier ne prend pas en charge cette fonctionnalité. |
 | N/A | Cette fonctionnalité ne s’applique pas à ce format de fichier. |
-| * | Cette fonctionnalité requiert la prise en charge d’un module complémentaire pour ce format de fichier sur une instance de création AEM, mais pas sur Brand Portal une fois que les ressources ont été publiées sur Brand Portal. |
+| &#42; | Cette fonctionnalité requiert la prise en charge d’un module complémentaire pour ce format de fichier sur une instance de création AEM, mais pas sur Brand Portal une fois que les ressources ont été publiées sur Brand Portal. |
 
 ## Annulation du partage des ressources partagées en tant que lien {#unshare-assets-shared-as-a-link}
 
