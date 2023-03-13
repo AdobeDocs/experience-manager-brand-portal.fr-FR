@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
 source-git-commit: e3e35ad4be5c082ad7bac7bed8ea20a186d245ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '969'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -103,7 +103,7 @@ Pour télécharger les ressources partagées :
 
 >[!NOTE]
 >
->Brand Portal limite le téléchargement des dossiers ou ressources d’une taille supérieure à 5 Go à l’aide du partage de lien.
+>Brand Portal limite le téléchargement des dossiers ou des ressources d’une taille supérieure à 5 Go à l’aide du partage de lien.
 
 <!--
 1. The **[!UICONTROL Download]** dialog box appears.
