@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 045f82169583cac5d7e85216d82a6afd44d5b5af
-workflow-type: ht
-source-wordcount: '453'
-ht-degree: 100%
+source-git-commit: d5284a2ad62be2a72d168358d86b473257856592
+workflow-type: tm+mt
+source-wordcount: '1047'
+ht-degree: 93%
 
 ---
 
@@ -62,14 +62,72 @@ Cette version présente les problèmes connus suivants :
 * Localisation partielle du contenu du rapport d’approvisionnement des ressources.
 * Peu de champs du profil utilisateur ne sont pas modifiables sur le profil utilisateur.
 
-<!--
-This release include fixes to the following critical issues:
-* When NUI fails to process an asset in Experience Manager, Brand Portal displays an inaccurate asset import status.
-* When the preview action fails, there is no notification to communicate the failure.
-* Inaccurate value for the totalUploadedSize property for each asset is fixed.
-* When you click **Download all items** and there are large number of renditions available for an asset, Brand Portal downloads an invalid .ZIP file.
-* The translation of some strings gets truncated on the Brand Portal user interface.
--->
+## Versions précédentes
+
+### Version d’octobre 2022 {#oct-2022}
+
+**Problèmes critiques résolus**
+
+Cette version comprend des correctifs pour les problèmes critiques suivants :
+* Temps de réponse lent lors de la copie de fichiers volumineux de Brand Portal vers un outil tiers.
+* Lorsque vous cochez la case Nombre de rendus, les cases permettant de sélectionner des rendus individuels sont désactivées.
+* Temps de réponse lent pour la recherche.
+
+>[!IMPORTANT]
+>
+>Les notifications Pulse dans AEM Assets Brand Portal vont cesser à partir du 1er décembre 2022. Au lieu des notifications Pulse, vous continuerez à recevoir des notifications par e-mail pour les événements suivants :
+>* Partage de ressources via un lien
+>* Processus de demande d’accès
+>* Partage du dossier de contribution
+>* Lancement de l’export vers AEM
+>* Exportation vers AEM terminée
+>
+
+
+### Version d’août 2022 {#aug-2022}
+
+**Problèmes critiques résolus**
+
+Cette version comprend des correctifs pour les problèmes critiques suivants :
+* Lorsque NUI ne traite pas une ressource dans Experience Manager, Brand Portal affiche un statut d’importation de ressource inexact.
+* Lorsque l’action de prévisualisation échoue, aucune notification n’est envoyée pour signaler l’échec.
+* La valeur incorrecte de la propriété totalUploadedSize pour chaque ressource est corrigée.
+* Lorsque vous cliquez sur **Télécharger tous les éléments** et qu’il existe un grand nombre de rendus disponibles pour une ressource, Brand Portal télécharge un fichier .ZIP non valide.
+* La traduction de certaines chaînes est tronquée dans l’interface utilisateur de Brand Portal.
+
+### Version de mai 2022 {#may-2022}
+
+**Nouvelles fonctionnalités**
+
+Brand Portal exécute désormais des tâches automatiques toutes les douze heures afin de supprimer toutes les ressources Brand Portal publiées sur AEM. Par conséquent, vous n’avez pas besoin de supprimer manuellement les ressources du dossier Contribution pour que la taille du dossier reste inférieure à la limite de seuil.
+
+**Problèmes critiques résolus**
+
+Cette version comprend des correctifs pour les problèmes critiques suivants :
+
+* Lorsque vous téléchargez un dossier ou une collection contenant des ressources avec des balises de couleur, un fichier XML est également téléchargé.
+* Lorsque vous téléchargez une vidéo qui comprend des rendus, Brand Portal crée un fichier .ZIP non valide.
+* Lorsque vous créez des paramètres prédéfinis et des ressources sur AEM et que vous les publiez dans Brand Portal, puis sélectionnez des rendus dynamiques lors du téléchargement des ressources, vous ne pouvez pas extraire le fichier .ZIP téléchargé.
+* Problèmes lors du téléchargement de ressources vidéo à partir de certains dossiers disponibles dans Brand Portal.
+* Lorsque vous partagez l’URL du dossier Contribution à l’aide d’un e-mail, les rôles Observateur et Éditeur rencontrent des problèmes lors de l’accès à leur dossier parent à l’aide du chemin de navigation.
+* L’approvisionnement du rapport publié affiche une heure de début de tâche incorrecte.
+
+### Version de février 2022 {#feb-2022}
+
+**Nouvelles fonctionnalités**
+
+* Le délai d’expiration de la session pour les utilisateurs invités est passé de 2 heures à 15 minutes.
+* L’option supplémentaire **[!UICONTROL Afficher les pages]** a été supprimée pour les fichiers PDF de plusieurs pages, car l’utilisateur peut désormais afficher les pages PDF à partir du lecteur Adobe Document Cloud.
+* Les utilisateurs ne peuvent pas rechercher, parcourir ou ouvrir des dossiers. L’interface utilisateur renvoie le message dʼerreur suivant : `Failed to load data`.
+* Le panneau **[!UICONTROL Rendus]** ne répertorie pas tous les rendus statiques des ressources publiées sur Brand Portal.
+* Le panneau **[!UICONTROL Rendus]** répertorie les rendus de recadrage intelligent de la ressource. Cependant, l’utilisateur ne peut ni prévisualiser ni télécharger les rendus de recadrage intelligent.
+* La boîte de dialogue de téléchargement répertorie les rendus de recadrage intelligent de la ressource sélectionnée. Cependant, l’utilisateur ne peut pas télécharger les rendus de recadrage intelligent.
+* Lors du téléchargement d’une ressource, un utilisateur non administrateur obtient uniquement le rendu dʼorigine de la ressource. Les rendus système et personnalisés ne sont pas téléchargés.
+* Lors de l’application du filtre de recherche pour télécharger une ressource, le bouton `Download` est désactivé dans la boîte de dialogue de téléchargement et ne permet pas à l’utilisateur de télécharger la ressource.
+* Si les balises `Smart Tags` et/ou `Color Tags` sont activées, la boîte de dialogue de téléchargement répertorie les fichiers `json` comme des rendus et télécharge ces fichiers `json` dans le dossier zip archivé.
+* Les utilisateurs anonymes ne peuvent pas télécharger de ressources à l’aide d’un lien partagé, car le lien redirige vers la page de connexion de Brand Portal.
+* Le système ne reflète pas la valeur correcte pour le nombre d’utilisateurs simultanés actifs.
+
 <!--
 ### New Features {#new-features}
 
@@ -235,7 +293,7 @@ This release includes the following known issues:
 
 ## Langues {#languages}
 
-L’interface utilisateur de Brand Portal est disponible dans les langues suivantes :
+L’interface utilisateur de Brand Portal est disponible dans les langues suivantes :
 
 * Anglais
 * Allemand
@@ -258,7 +316,7 @@ Pour vérifier quelles sont les plates-formes certifiées pour exécuter cette v
 
 ## Assistance technique et accès au produit (sites à accès limité) {#product-access-and-support-restricted-sites}
 
-Ces sites sont réservés aux clients. Si vous êtes client et avez besoin d’un accès, contactez votre responsable de compte Adobe.
+Ces sites sont réservés aux clients. Si vous êtes client et avez besoin d’un accès, contactez votre gestionnaire de compte d’Adobe.
 
 <!--
 * [https://daycare.day.com](https://daycare.day.com) 
