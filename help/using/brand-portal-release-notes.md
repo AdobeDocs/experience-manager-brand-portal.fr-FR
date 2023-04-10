@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 source-git-commit: d5284a2ad62be2a72d168358d86b473257856592
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1047'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -91,11 +91,11 @@ Cette version comprend des correctifs pour les problèmes critiques suivants :
 Cette version comprend des correctifs pour les problèmes critiques suivants :
 * Lorsque NUI ne traite pas une ressource dans Experience Manager, Brand Portal affiche un statut d’importation de ressource inexact.
 * Lorsque l’action de prévisualisation échoue, aucune notification n’est envoyée pour signaler l’échec.
-* La valeur incorrecte de la propriété totalUploadedSize pour chaque ressource est corrigée.
+* Correction d’une valeur incorrecte de la propriété totalUploadedSize pour les ressources.
 * Lorsque vous cliquez sur **Télécharger tous les éléments** et qu’il existe un grand nombre de rendus disponibles pour une ressource, Brand Portal télécharge un fichier .ZIP non valide.
 * La traduction de certaines chaînes est tronquée dans l’interface utilisateur de Brand Portal.
 
-### Version de mai 2022 {#may-2022}
+### Version de mai 2022 {#may-2022}
 
 **Nouvelles fonctionnalités**
 
@@ -107,12 +107,12 @@ Cette version comprend des correctifs pour les problèmes critiques suivants :
 
 * Lorsque vous téléchargez un dossier ou une collection contenant des ressources avec des balises de couleur, un fichier XML est également téléchargé.
 * Lorsque vous téléchargez une vidéo qui comprend des rendus, Brand Portal crée un fichier .ZIP non valide.
-* Lorsque vous créez des paramètres prédéfinis et des ressources sur AEM et que vous les publiez dans Brand Portal, puis sélectionnez des rendus dynamiques lors du téléchargement des ressources, vous ne pouvez pas extraire le fichier .ZIP téléchargé.
+* Lorsque vous créez des paramètres prédéfinis et des ressources sur l’instance de création AEM et que vous les publiez dans Brand Portal, puis que vous sélectionnez des rendus dynamiques lors du téléchargement des ressources, vous ne pouvez pas extraire l’archive .ZIP téléchargée.
 * Problèmes lors du téléchargement de ressources vidéo à partir de certains dossiers disponibles dans Brand Portal.
 * Lorsque vous partagez l’URL du dossier Contribution à l’aide d’un e-mail, les rôles Observateur et Éditeur rencontrent des problèmes lors de l’accès à leur dossier parent à l’aide du chemin de navigation.
 * L’approvisionnement du rapport publié affiche une heure de début de tâche incorrecte.
 
-### Version de février 2022 {#feb-2022}
+### Version de février 2022 {#feb-2022}
 
 **Nouvelles fonctionnalités**
 
@@ -293,7 +293,7 @@ This release includes the following known issues:
 
 ## Langues {#languages}
 
-L’interface utilisateur de Brand Portal est disponible dans les langues suivantes :
+L’interface utilisateur de Brand Portal est disponible dans les langues suivantes :
 
 * Anglais
 * Allemand
@@ -316,7 +316,7 @@ Pour vérifier quelles sont les plates-formes certifiées pour exécuter cette v
 
 ## Assistance technique et accès au produit (sites à accès limité) {#product-access-and-support-restricted-sites}
 
-Ces sites sont réservés aux clients. Si vous êtes client et avez besoin d’un accès, contactez votre gestionnaire de compte d’Adobe.
+Ces sites sont réservés aux clients. Si vous êtes client ou cliente et avez besoin d’un accès, contactez votre gestionnaire de compte Adobe.
 
 <!--
 * [https://daycare.day.com](https://daycare.day.com) 
