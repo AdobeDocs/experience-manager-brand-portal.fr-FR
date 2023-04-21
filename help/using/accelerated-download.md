@@ -119,7 +119,8 @@ Pour télécharger des ressources plus rapidement à partir de Brand Portal :
    Si vous ne souhaitez pas utiliser IBM® Aspera Connect, cliquez sur **[!UICONTROL Refuser]**. Si le **[!UICONTROL Téléchargement rapide]** est refusé ou échoue, le système renvoie un message d’erreur. Cliquez sur le bouton **[!UICONTROL Téléchargement normal]** pour continuer à télécharger les ressources.
 
 >[!NOTE]
-Si le paramètre **[!UICONTROL Téléchargement rapide]** est désactivé par l’administration, les rendus sélectionnés sont directement téléchargés dans un dossier ZIP sans utiliser IBM® Aspera Connect.
+>
+>Si le paramètre **[!UICONTROL Téléchargement rapide]** est désactivé par l’administration, les rendus sélectionnés sont directement téléchargés dans un dossier ZIP sans utiliser IBM® Aspera Connect.
 
 <!-- 
 On successful completion of the download, a dialog box shows the location where assets are downloaded onto the user's system. If there is a failure, it shows error.
