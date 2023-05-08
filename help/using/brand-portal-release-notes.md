@@ -1,8 +1,8 @@
 ---
 title: Notes de mise à jour
 seo-title: Release Notes
-description: Découvrez les fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 2023.02.0.
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.02.0 release.
+description: Découvrez les fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 2023.05.0.
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.05.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Kirandeep Kour
@@ -10,33 +10,50 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: d5284a2ad62be2a72d168358d86b473257856592
-workflow-type: ht
-source-wordcount: '1047'
-ht-degree: 100%
+source-git-commit: 78168800e22dc1bd18d77b958d1dec4892dc4d2d
+workflow-type: tm+mt
+source-wordcount: '1125'
+ht-degree: 96%
 
 ---
 
 # Notes de mise à jour {#release-notes}
 
-Découvrez les nouvelles fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 2023.02.0.
+Découvrez les nouvelles fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 2023.05.0.
 
 ## Informations sur la version {#release-information}
 
 | Produit | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 2023.02.0 |
-| Date | Février 2023 |
+| Version | 2023.05.0 |
+| Date | Mai 2023 |
 
 ## Présentation {#overview}
 
 Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de contrôler et de distribuer facilement et en toute sécurité des ressources de création approuvées destinées à des tiers externes et aux collaborateurs de l’entreprise sur différents appareils. Brand Portal améliore l’efficacité du partage des ressources, accélère la mise sur le marché des ressources et réduit les risques de non-conformité et d’accès non autorisé. Brand Portal permet aux utilisateurs de parcourir, rechercher, prévisualiser, télécharger et exporter des ressources dans des formats approuvés, à tout moment et n’importe où.
 
-## Nouveautés de la version 2023.02.0 {#whats-new-in-2023.02.0}
+## Nouveautés de la version 2023.05.0 {#whats-new-in-2023.05.0}
 
 ### Problèmes critiques résolus {#critical-issues-fixed}
 
 #### Correctifs {#bug-fixes}
+
+Cette version comprend des correctifs pour les problèmes critiques suivants :
+* Si une erreur se produit lors du téléchargement d’une ressource à partir d’un lien partagé, la variable `Notice` et `Close` les libellés de l’invite d’erreur ne sont pas localisés.
+* Affichages Brand Portal **Champs d’en-tête de requête trop volumineux** lors de l’accès aux filtres de recherche en utilisant `Filter` volet.
+
+### Problèmes connus {#known-issues}
+
+Cette version présente les problèmes connus suivants :
+
+* Localisation partielle du contenu du rapport d’approvisionnement des ressources.
+* Peu de champs du profil utilisateur ne sont pas modifiables sur le profil utilisateur.
+
+## Versions précédentes
+
+### Version de février 2023 {#feb-2023}
+
+**Correctifs**
 
 Cette version comprend des correctifs pour les problèmes critiques suivants :
 * La photo de profil ne peut pas être mise à jour dans Brand Portal.
@@ -44,7 +61,7 @@ Cette version comprend des correctifs pour les problèmes critiques suivants :
 * Les résultats de la recherche sont incohérents pour le même prédicat de propriété utilisé deux fois dans les formulaires de recherche.
 * Le texte des pages de connexion intermédiaires n’est pas localisé pour toutes les langues.
 
-### Améliorations {#enhancements}
+**Améliorations**
 
 Les améliorations suivantes ont été apportées à cette version :
 * Une nouvelle visionneuse PDF moderne est désormais disponible pour un aperçu amélioré des ressources PDF.
@@ -55,14 +72,12 @@ Les améliorations suivantes ont été apportées à cette version :
 * Une utilisatrice ou un utilisateur sans autorisation ne peut pas demander l’accès à Brand Portal si le demande d’accès est désactivée.
 * Seules les organisations configurées pour Brand Portal sont visibles dans la liste du sélecteur de profil.
 
-### Problèmes connus {#known-issues}
+**Problèmes connus**
 
 Cette version présente les problèmes connus suivants :
 
 * Localisation partielle du contenu du rapport d’approvisionnement des ressources.
 * Peu de champs du profil utilisateur ne sont pas modifiables sur le profil utilisateur.
-
-## Versions précédentes
 
 ### Version d’octobre 2022 {#oct-2022}
 
