@@ -25,7 +25,7 @@ La configuration d’Adobe Experience Manager Assets avec Brand Portal permet
 La configuration d’Experience Manager Assets avec Brand Portal est prise en charge sur :
 
 * Experience Manager Assets as a Cloud Service
-* Experience Manager Assets (On-Premise et Managed Service) version 6.5 et ultérieures
+* Experience Manager Assets (On-Premise et Managed Service) version 6.5 et ultérieures
 
 Experience Manager Assets as a Cloud Service est automatiquement configuré avec Brand Portal en activant celui-ci à partir de Cloud Manager. Le workflow d’activation crée les configurations requises en arrière-plan et active Brand Portal sur la même organisation IMS qu’Experience Manager Assets as a Cloud Service.
 
@@ -33,7 +33,7 @@ En revanche, Experience Manager Assets (On-Premise et Managed Service) est conf
 
 >[!NOTE]
 >
->***Pour Experience Manager Assets 6.5 et les versions ultérieures***
+>***Pour Experience Manager Assets 6.5 et les versions ultérieures***
 >
 >Auparavant, Brand Portal était configuré dans l’interface classique via la passerelle OAuth héritée, qui fait appel à l’échange de jetons web JSON (JWT) pour obtenir un jeton IMS en vue de l’autorisation.
 >
