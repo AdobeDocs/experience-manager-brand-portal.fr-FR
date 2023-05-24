@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
-source-git-commit: 8924ff9c78c065895dd0f8d1099a5488b34a34e2
-workflow-type: ht
+source-git-commit: f56918ea8eb14ba04b7e141f4f1cae318e532512
+workflow-type: tm+mt
 source-wordcount: '1250'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -22,10 +22,10 @@ ht-degree: 100%
 Prévisualisez et lisez des vidéos de manière adaptative sur Brand Portal grâce à la prise en charge de Dynamic Media. Téléchargez également les rendus dynamiques à partir du portail et des liens partagés.
 Les utilisateurs de Brand Portal peuvent effectuer les opérations suivantes :
 
-* prévisualiser des vidéos sur la page des détails de la ressource, en mode Carte et sur la page d’aperçu du partage de liens ;
-* lire des codes vidéo sur la page des détails de la ressource ;
-* afficher des rendus dynamiques dans l’onglet Rendus de la page des détails de la ressource ;
-* télécharger des codes vidéo et des dossiers contenant des vidéos.
+* Prévisualisez des vidéos dans la page Détails de la ressource, le mode Carte et la page d’aperçu du partage de lien.
+* Lire les codes vidéo sur la page Détails de la ressource.
+* Affichez les rendus dynamiques dans l’onglet Rendus de la page Détails de la ressource.
+* Téléchargez des codes vidéo et des dossiers contenant des vidéos.
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Comme les codes vidéo ne sont pas stockés dans le référentiel Brand Portal 
 
 >[!NOTE]
 >
->Les visionneuses vidéo et les paramètres prédéfinis de visionneuses ne sont pas pris en charge dans Brand Portal. Les vidéos sont prévisualisées et lues sur les visionneuses par défaut dans Brand Portal.
+>Les visionneuses vidéo et les paramètres prédéfinis de visionneuse ne sont pas pris en charge dans Brand Portal. Les vidéos sont prévisualisées et lues sur les visionneuses par défaut dans Brand Portal.
 
 ## Prérequis {#prerequisites}
 
@@ -72,7 +72,7 @@ Appliquez des [codages vidéo](https://experienceleague.adobe.com/docs/experie
 En cas d’utilisation de Dynamic Media **[!DNL Scene7]** (avec l’[aperçu sécurisé activé](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html?lang=fr) pour une entreprise), il est conseillé à l’**[!DNL Scene7]** administrateur de l’entreprise[ de mettre les adresses IP sortantes publiques sur liste blanche](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html?lang=fr#testing-the-secure-testing-service) pour les zones géographiques respectives utilisant l’interface utilisateur Flash de SPS (**[!UICONTROL Scene7]** Publishing System).
 Les adresses IP sortantes sont les suivantes :
 
-| **Zone géographique** | **Adresse IP sortante** |
+| **Zone géographique** | **IP sortante** |
 |--- |--- |
 | N/A | 130.248.160.68,  20.94.203.130 |
 | EMEA | 185.34.189.3,  51.132.146.75 |
@@ -82,7 +82,7 @@ Pour mettre l’une de ces adresses IP sortantes sur liste blanche, voir [Prép
 
 ## Meilleures pratiques
 
-Pour vérifier que vos ressources vidéo dynamiques sont prévisualisées, lues et téléchargées depuis Brand Portal (et les liens partagés), suivez ces pratiques :
+Pour vérifier que vos ressources vidéo dynamiques sont prévisualisées, lues et téléchargées correctement à partir de Brand Portal (et des liens partagés), procédez comme suit :
 
 ### Séparez les clients pour les modes Dynamic Media - Scene7 et Dynamic Media - Hybride {#separate-tenants}
 
@@ -110,10 +110,10 @@ L’administrateur d’entreprise **[!UICONTROL Scene7]** configure par conséqu
 Pour mettre l’une de ces adresses IP sortantes sur liste blanche, voir [Préparation de votre compte pour un test sécurisé](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html?lang=fr#testing-the-secure-testing-service).
 Les adresses IP sortantes sont les suivantes :
 
-| **Zone géographique** | **Adresse IP sortante** |
+| **Zone géographique** | **IP sortante** |
 |--- |--- |
-| N/A | 130.248.160.66,  52.151.32.108 |
-| EMEA | 185.34.189.1 |
+| N/A | 130.248.160.66, 20.94.203.130 |
+| EMEA | 51.132.146.75, 130.248.244.202, 130.248.244.203, 130.248.244.204, 130.248.244.210, 130.248.244.211, 130.248.244.212 |
 | APAC | 63.140.44.54 |
 
 ## Configuration des paramètres Dynamic Media (hybride) {#configure-dm-hybrid-settings}
