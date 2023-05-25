@@ -422,7 +422,7 @@ En outre, toutes les fonctionnalités existantes restent inchangées. Les utilis
 
 ### Chargement de ressources dans le dossier de contribution {#upload-assets-in-bp}
 
-Les utilisateurs de Brand Portal qui disposent des autorisations appropriées peuvent transférer individuellement des ressources ou des dossiers (fichier .zip) contenant plusieurs ressources vers le dossier de contribution. Un utilisateur peut charger plusieurs ressources dans un dossier de contribution. Cependant, un seul dossier peut être créé à la fois.
+Les utilisateurs de Brand Portal qui disposent des autorisations appropriées peuvent charger individuellement des ressources ou des dossiers (fichier .zip) contenant plusieurs ressources vers le dossier de contribution. Un utilisateur peut charger plusieurs ressources dans un dossier de contribution. Cependant, un seul dossier peut être créé à la fois.
 
 Notez que les utilisateurs de Brand Portal peuvent uniquement charger des ressources vers le dossier **NEW**. Le dossier **SHARED** est destiné à la distribution des exigences et des ressources de base.
 
