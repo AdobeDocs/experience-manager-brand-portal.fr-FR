@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 source-git-commit: 78168800e22dc1bd18d77b958d1dec4892dc4d2d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1125'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -39,8 +39,8 @@ Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de con
 #### Correctifs {#bug-fixes}
 
 Cette version comprend des correctifs pour les problèmes critiques suivants :
-* Si une erreur se produit lors du téléchargement d’une ressource à partir d’un lien partagé, la variable `Notice` et `Close` les libellés de l’invite d’erreur ne sont pas localisés.
-* Affichages Brand Portal **Champs d’en-tête de requête trop volumineux** lors de l’accès aux filtres de recherche en utilisant `Filter` volet.
+* Si une erreur se produit lors du téléchargement d’une ressource à partir d’un lien partagé, les libellés `Notice` et `Close` de l’invite d’erreur ne sont pas localisés.
+* Brand Portal affiche le message d’erreur **Champs d’en-tête trop grands dans la demande** lors de l’accès aux filtres de recherche à l’aide du volet `Filter`.
 
 ### Problèmes connus {#known-issues}
 
