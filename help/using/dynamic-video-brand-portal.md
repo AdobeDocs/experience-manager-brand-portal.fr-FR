@@ -11,9 +11,9 @@ topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
 source-git-commit: f56918ea8eb14ba04b7e141f4f1cae318e532512
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1250'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -22,10 +22,10 @@ ht-degree: 93%
 Prévisualisez et lisez des vidéos de manière adaptative sur Brand Portal grâce à la prise en charge de Dynamic Media. Téléchargez également les rendus dynamiques à partir du portail et des liens partagés.
 Les utilisateurs de Brand Portal peuvent effectuer les opérations suivantes :
 
-* Prévisualisez des vidéos dans la page Détails de la ressource, le mode Carte et la page d’aperçu du partage de lien.
+* Prévisualiser des vidéos sur la page Détails de la ressource, la vue Carte et la page d’aperçu du partage de lien.
 * Lire les codes vidéo sur la page Détails de la ressource.
-* Affichez les rendus dynamiques dans l’onglet Rendus de la page Détails de la ressource.
-* Téléchargez des codes vidéo et des dossiers contenant des vidéos.
+* Afficher les rendus dynamiques dans l’onglet Rendus de la page Détails de la ressource.
+* Télécharger des codes vidéo et des dossiers contenant des vidéos.
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Comme les codes vidéo ne sont pas stockés dans le référentiel Brand Portal 
 
 >[!NOTE]
 >
->Les visionneuses vidéo et les paramètres prédéfinis de visionneuse ne sont pas pris en charge dans Brand Portal. Les vidéos sont prévisualisées et lues sur les visionneuses par défaut dans Brand Portal.
+>Les visionneuses vidéo et leurs paramètres prédéfinis ne sont pas pris en charge dans Brand Portal. Les vidéos sont prévisualisées et lues sur les visionneuses par défaut dans Brand Portal.
 
 ## Prérequis {#prerequisites}
 
@@ -82,7 +82,7 @@ Pour mettre l’une de ces adresses IP sortantes sur liste blanche, voir [Prép
 
 ## Meilleures pratiques
 
-Pour vérifier que vos ressources vidéo dynamiques sont prévisualisées, lues et téléchargées correctement à partir de Brand Portal (et des liens partagés), procédez comme suit :
+Pour vérifier que vos ressources Dynamic Video sont prévisualisées, lues et téléchargées correctement depuis Brand Portal (et les liens partagés), suivez ces pratiques :
 
 ### Séparez les clients pour les modes Dynamic Media - Scene7 et Dynamic Media - Hybride {#separate-tenants}
 
