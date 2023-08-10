@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
-workflow-type: ht
-source-wordcount: '1279'
-ht-degree: 100%
+source-git-commit: 85271973e36cb53bd2feac731690b86c43a397a9
+workflow-type: tm+mt
+source-wordcount: '1280'
+ht-degree: 95%
 
 ---
 
@@ -72,7 +72,7 @@ Pour ajouter un prédicat de recherche au panneau **[!UICONTROL Filtres]** :
 
    >[!NOTE]
    >
-   >Dans le Brand Portal, toutes les propriétés (à l’exception de celles commençant par `xmp`) dans `jcrcontent/metadata` de `dam:asset` sont indexées par défaut.
+   >Dans Brand Portal, toutes les propriétés String (à l’exception de celles qui commencent par `xmp`) dans `jcrcontent/metadata` de `dam:asset` sont indexés par défaut.
    >
    >Toute propriété indexée peut être utilisée lors de la création d’un prédicat de propriété. Si une propriété non indexée est configurée, la requête de recherche sur une telle propriété peut ne pas donner de résultat de recherche.
 
@@ -95,7 +95,7 @@ Tout comme vous ajoutez un prédicat **[!UICONTROL Propriété]**, vous pouvez a
 | **[!UICONTROL Propriété]** | Recherche des ressources en fonction d’une propriété de métadonnées spécifique. **Remarque :** *Lorsque vous cochez la case Recherche partielle, l’option Ignorer la casse est sélectionnée par défaut*. | <ul><li>Libellé du champ</li><li>Espace réservé</li><li>Nom de la propriété</li><li>Recherche partielle</li><li>Ignorer la casse</li><li> Description</li></ul> |
 | **[!UICONTROL Propriété Plusieurs valeurs]** | Similaire au prédicat de propriété, mais autorise des valeurs d’entrée multiples, séparées par un délimiteur (VIRGULE[,], par défaut). Les ressources qui correspondent aux valeurs d’entrée sont renvoyées dans les résultats. | <ul><li>Libellé du champ</li><li>Espace réservé</li><li>Nom de la propriété</li><li>Prise en charge des délimiteurs</li><li>Ignorer la casse</li><li>Description</li></ul> |
 | **[!UICONTROL Balises]** | Prédicat de recherche permettant de rechercher des ressources en fonction des balises. Vous pouvez configurer la propriété Chemin d’accès pour renseigner diverses balises de la liste Balises. *Remarque : Il se peut que les administrateurs doivent modifier la valeur de chemin, par exemple [!UICONTROL `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`], s’ils publient le formulaire de recherche à partir d’AEM, où le chemin d’accès n’inclut pas les informations du client comme [!UICONTROL `/etc/tags/<custom_tag_namespace>`]. | <ul><li>Libellé du champ</li><li>Nom de la propriété</li><li>Chemin</li><li>Description</li></ul> |
-| **[!UICONTROL Chemin]** | Prédicat de recherche permettant de rechercher des ressources à un emplacement spécifique. | <ul><li>Libellé du champ</li><li>Chemin</li><li>Description</li></ul> |  |
+| **[!UICONTROL Chemin]** | Prédicat de recherche permettant de rechercher des ressources à un emplacement spécifique. | <ul><li>Libellé du champ</li><li>Chemin</li><li>Description</li></ul> |                                                     |
 | **[!UICONTROL Date relative]** | Prédicat de recherche permettant de rechercher des ressources en fonction de leur date de création. | <ul><li>Libellé du champ</li><li>Nom de la propriété</li><li>Date relative</li></ul> |
 | **[!UICONTROL Étendue]** | Prédicat de recherche permettant de rechercher des ressources qui se trouvent dans une plage spécifiée de valeurs de propriété. Dans le panneau Filtres, vous pouvez spécifier les valeurs de propriété minimale et maximale de la période concernée. | <ul><li>Libellé du champ</li><li>Nom de la propriété</li><li>Description</li></ul> |
 | **[!UICONTROL Période]** | Prédicat de recherche permettant de rechercher des ressources créées pendant une période spécifiée pour une propriété de date. Dans le panneau Filtres, vous pouvez spécifier les dates de début et de fin. | <ul><li>Libellé du champ</li><li>Espace réservé</li><li>Nom de la propriété</li><li>Texte de la plage (De)</li><li>Texte de la plage (À)</li><li>Description</li></ul> |
@@ -111,11 +111,11 @@ Tout comme vous ajoutez un prédicat **[!UICONTROL Propriété]**, vous pouvez a
 
 >[!NOTE]
 >
->N’utilisez pas les prédicats **[!UICONTROL Options]**, **[!UICONTROL État de publication]** et **[!UICONTROL Évaluation]**, car ils ne sont pas fonctionnels dans Brand Portal.
+>Ne pas utiliser **[!UICONTROL Options Predicate]**, **[!UICONTROL Prédicat d’état de publication]**, et **[!UICONTROL Prédicat de notation]** car ces prédicats ne sont pas fonctionnels dans Brand Portal.
 
 ## Suppression d’un prédicat de recherche {#delete-a-search-predicate}
 
-Pour supprimer un prédicat, procédez de la manière suivante :
+Pour supprimer un prédicat de recherche, procédez comme suit :
 
 1. Cliquez sur le logo Adobe pour accéder aux outils d’administration.
 
