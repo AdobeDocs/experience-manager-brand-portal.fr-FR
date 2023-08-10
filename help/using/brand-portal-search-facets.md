@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
-source-git-commit: 85271973e36cb53bd2feac731690b86c43a397a9
+source-git-commit: 24e15fd8f609505a197d3615b113bef6318ee850
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 95%
+source-wordcount: '1312'
+ht-degree: 92%
 
 ---
 
@@ -68,7 +68,7 @@ Pour ajouter un prédicat de recherche au panneau **[!UICONTROL Filtres]** :
    >
    >Lorsque vous cochez la case **[!UICONTROL Recherche partielle]**, l’option **[!UICONTROL Ignorer la casse]** est sélectionnée par défaut.
 
-1. Dans le champ **[!UICONTROL Nom de la propriété]**, ouvrez le sélecteur de propriétés, puis choisissez la propriété sur laquelle se base la recherche. Sinon, saisissez un nom de propriété. Par exemple, saisissez `  jcr :content/metadata/dc:title` ou `./jcr:content/metadata/dc:title`.
+1. Dans le champ **[!UICONTROL Nom de la propriété]**, ouvrez le sélecteur de propriétés, puis choisissez la propriété sur laquelle se base la recherche. Sinon, saisissez un nom de propriété. Par exemple, saisissez `jcr :content/metadata/dc:title` ou `./jcr:content/metadata/dc:title`.
 
    >[!NOTE]
    >
@@ -111,7 +111,8 @@ Tout comme vous ajoutez un prédicat **[!UICONTROL Propriété]**, vous pouvez a
 
 >[!NOTE]
 >
->Ne pas utiliser **[!UICONTROL Options Predicate]**, **[!UICONTROL Prédicat d’état de publication]**, et **[!UICONTROL Prédicat de notation]** car ces prédicats ne sont pas fonctionnels dans Brand Portal.
+>* Ne pas utiliser **[!UICONTROL Options Predicate]**, **[!UICONTROL Prédicat d’état de publication]**, et **[!UICONTROL Prédicat de notation]** car ces prédicats ne sont pas fonctionnels dans Brand Portal.
+>* Prédicat de type de dossier `(nt:folder type)` n’est pas pris en charge sur Brand Portal et peut entraîner des problèmes de performances. S’il est présent dans le formulaire de recherche personnalisé publié, il peut être supprimé en modifiant le formulaire de recherche.
 
 ## Suppression d’un prédicat de recherche {#delete-a-search-predicate}
 
