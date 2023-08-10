@@ -1,8 +1,8 @@
 ---
 title: Notes de mise à jour
 seo-title: Release Notes
-description: Découvrez les fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 2023.05.0.
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.05.0 release.
+description: Découvrez les fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 2023.08.0.
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.08.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Kirandeep Kour
@@ -10,52 +10,68 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 78168800e22dc1bd18d77b958d1dec4892dc4d2d
-workflow-type: ht
-source-wordcount: '1125'
-ht-degree: 100%
+source-git-commit: 3b46e53ea29c498d3884a88b7532bb64d854f2a4
+workflow-type: tm+mt
+source-wordcount: '1214'
+ht-degree: 88%
 
 ---
 
 # Notes de mise à jour {#release-notes}
 
-Découvrez les nouvelles fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 2023.05.0.
+Découvrez les nouvelles fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 2023.08.0.
 
 ## Informations sur la version {#release-information}
 
 | Produit | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 2023.05.0 |
-| Date | Mai 2023 |
+| Version | 2023.08.0 |
+| Date | Août 2023 |
 
 ## Présentation {#overview}
 
 Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de contrôler et de distribuer facilement et en toute sécurité des ressources de création approuvées destinées à des tiers externes et aux collaborateurs de l’entreprise sur différents appareils. Brand Portal améliore l’efficacité du partage des ressources, accélère la mise sur le marché des ressources et réduit les risques de non-conformité et d’accès non autorisé. Brand Portal permet aux utilisateurs de parcourir, rechercher, prévisualiser, télécharger et exporter des ressources dans des formats approuvés, à tout moment et n’importe où.
 
-## Nouveautés de la version 2023.05.0 {#whats-new-in-2023.05.0}
+## Nouveautés de la version 2023.08.0 {#whats-new-in-2023.08.0}
 
 ### Problèmes critiques résolus {#critical-issues-fixed}
 
-#### Correctifs {#bug-fixes}
+#### Correctifs et améliorations {#bug-fixes-enhancements}
 
-Cette version comprend des correctifs pour les problèmes critiques suivants :
+Cette version comprend des correctifs pour les améliorations suivantes :
+
+* Améliorations des performances lors du chargement des ressources sur [!UICONTROL Télécharger] s’affiche.
+* Lorsque vous téléchargez une ressource ou un rendu d’une ressource, elle est désormais téléchargée dans son format de type de fichier d’origine au lieu d’un fichier zip.
+
+Cette version comprend des correctifs pour les bogues suivants :
+
+* Les libellés ou balises longs ne s’affichent pas correctement pour les filtres de recherche.
+* Impossible d’afficher les noms des rendus longs dans la boîte de dialogue Télécharger .
+* Impossible de prévisualiser les ressources vidéo en mode Carte.
+
+
+## Versions précédentes
+
+### Version de mai 2023 {#may-2023}
+
+**Correctifs**
+Cette version comprend des correctifs pour les problèmes critiques suivants :
+
 * Si une erreur se produit lors du téléchargement d’une ressource à partir d’un lien partagé, les libellés `Notice` et `Close` de l’invite d’erreur ne sont pas localisés.
 * Brand Portal affiche le message d’erreur **Champs d’en-tête trop grands dans la demande** lors de l’accès aux filtres de recherche à l’aide du volet `Filter`.
 
-### Problèmes connus {#known-issues}
-
-Cette version présente les problèmes connus suivants :
+**Problèmes connus**
+Cette version comprend les problèmes connus suivants :
 
 * Localisation partielle du contenu du rapport d’approvisionnement des ressources.
 * Peu de champs du profil utilisateur ne sont pas modifiables sur le profil utilisateur.
-
-## Versions précédentes
 
 ### Version de février 2023 {#feb-2023}
 
 **Correctifs**
 
 Cette version comprend des correctifs pour les problèmes critiques suivants :
+
 * La photo de profil ne peut pas être mise à jour dans Brand Portal.
 * Le volet de l’arborescence de contenu n’est pas redimensionnable. Si le nom de fichier dépasse la largeur par défaut de l’arborescence de contenu, vous ne pouvez pas faire glisser cette dernière horizontalement et verticalement. Par conséquent, les noms de fichiers plus longs ne sont pas lisibles.
 * Les résultats de la recherche sont incohérents pour le même prédicat de propriété utilisé deux fois dans les formulaires de recherche.
@@ -64,10 +80,11 @@ Cette version comprend des correctifs pour les problèmes critiques suivants :
 **Améliorations**
 
 Les améliorations suivantes ont été apportées à cette version :
+
 * Une nouvelle visionneuse PDF moderne est désormais disponible pour un aperçu amélioré des ressources PDF.
 * Vous pouvez maintenant choisir d’activer ou de désactiver les notifications d’approvisionnement des ressources pour les administrateurs et les administratrices. Accédez à [!UICONTROL Paramètres généraux], puis activez ou désactivez [!UICONTROL `Notify Administrator of asset contribution`].
 
-   ![Informer l’administrateur ou l’administratrice de la contribution de ressources](assets/notify-admin.png)
+  ![Informer l’administrateur ou l’administratrice de la contribution de ressources](assets/notify-admin.png)
 
 * Une utilisatrice ou un utilisateur sans autorisation ne peut pas demander l’accès à Brand Portal si le demande d’accès est désactivée.
 * Seules les organisations configurées pour Brand Portal sont visibles dans la liste du sélecteur de profil.
@@ -84,6 +101,7 @@ Cette version présente les problèmes connus suivants :
 **Problèmes critiques résolus**
 
 Cette version comprend des correctifs pour les problèmes critiques suivants :
+
 * Temps de réponse lent lors de la copie de fichiers volumineux de Brand Portal vers un outil tiers.
 * Lorsque vous cochez la case Nombre de rendus, les cases permettant de sélectionner des rendus individuels sont désactivées.
 * Temps de réponse lent pour la recherche.
@@ -98,12 +116,12 @@ Cette version comprend des correctifs pour les problèmes critiques suivants :
 >* Exportation vers AEM terminée
 >
 
-
 ### Version d’août 2022 {#aug-2022}
 
 **Problèmes critiques résolus**
 
 Cette version comprend des correctifs pour les problèmes critiques suivants :
+
 * Lorsque NUI ne traite pas une ressource dans Experience Manager, Brand Portal affiche un statut d’importation de ressource inexact.
 * Lorsque l’action de prévisualisation échoue, aucune notification n’est envoyée pour signaler l’échec.
 * Correction d’une valeur incorrecte de la propriété totalUploadedSize pour les ressources.
@@ -124,7 +142,7 @@ Cette version comprend des correctifs pour les problèmes critiques suivants :
 * Lorsque vous téléchargez une vidéo qui comprend des rendus, Brand Portal crée un fichier .ZIP non valide.
 * Lorsque vous créez des paramètres prédéfinis et des ressources sur l’instance de création AEM et que vous les publiez dans Brand Portal, puis que vous sélectionnez des rendus dynamiques lors du téléchargement des ressources, vous ne pouvez pas extraire l’archive .ZIP téléchargée.
 * Problèmes lors du téléchargement de ressources vidéo à partir de certains dossiers disponibles dans Brand Portal.
-* Lorsque vous partagez l’URL du dossier Contribution à l’aide d’un e-mail, les rôles Observateur et Éditeur rencontrent des problèmes lors de l’accès à leur dossier parent à l’aide du chemin de navigation.
+* Lorsque vous partagez l’URL du dossier Contribution à l’aide d’un courrier électronique, les rôles Visionneuse et Éditeur rencontrent des problèmes lors de l’accès à leur dossier parent à l’aide du chemin de navigation.
 * L’approvisionnement du rapport publié affiche une heure de début de tâche incorrecte.
 
 ### Version de février 2022 {#feb-2022}
@@ -231,7 +249,7 @@ This release includes fixes to the following critical issues:
 
 * Issues while downloading video assets from certain folders available on Brand Portal.
 
-* When you share the Contribution folder’s URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
+* When you share the Contribution folder's URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
 
 * Sourcing published report displays an incorrect job start time.
 >
