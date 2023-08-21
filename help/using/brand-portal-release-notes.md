@@ -13,7 +13,7 @@ exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 source-git-commit: ddca484ae2af6e24f89072270f876104a81a9025
 workflow-type: tm+mt
 source-wordcount: '1210'
-ht-degree: 88%
+ht-degree: 99%
 
 ---
 
@@ -40,13 +40,13 @@ Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de con
 
 Les améliorations suivantes ont été apportées à cette version :
 
-* Améliorations des performances lors du chargement des ressources sur [!UICONTROL Télécharger] s’affiche.
-* Lorsque vous téléchargez une ressource ou un rendu d’une ressource, elle est désormais téléchargée dans son format de type de fichier d’origine au lieu d’un fichier zip.
+* Améliorations des performances lors du chargement des ressources sur la fenêtre contextuelle [!UICONTROL Télécharger].
+* Lorsque vous téléchargez une ressource ou son rendu, le téléchargement s’effectue dans le format du type de fichier d’origine et non sous forme de fichier zip.
 
 Cette version comprend les correctifs suivants :
 
-* Les libellés ou balises longs ne s’affichent pas correctement pour les filtres de recherche.
-* Impossible d’afficher les noms des rendus longs dans la boîte de dialogue Télécharger .
+* Les balises et libellés longs ne s’affichent pas correctement pour les filtres de recherche.
+* Impossible d’afficher les noms des rendus longs dans la boîte de dialogue Télécharger.
 * Impossible de prévisualiser les ressources vidéo en mode Carte.
 
 
@@ -55,13 +55,13 @@ Cette version comprend les correctifs suivants :
 ### Version de mai 2023 {#may-2023}
 
 **Correctifs**
-Cette version comprend des correctifs pour les problèmes critiques suivants :
+Cette version comprend les correctifs des problèmes critiques suivants :
 
 * Si une erreur se produit lors du téléchargement d’une ressource à partir d’un lien partagé, les libellés `Notice` et `Close` de l’invite d’erreur ne sont pas localisés.
 * Brand Portal affiche le message d’erreur **Champs d’en-tête trop grands dans la demande** lors de l’accès aux filtres de recherche à l’aide du volet `Filter`.
 
 **Problèmes connus**
-Cette version comprend les problèmes connus suivants :
+Cette version présente les problèmes connus suivants :
 
 * Localisation partielle du contenu du rapport d’approvisionnement des ressources.
 * Peu de champs du profil utilisateur ne sont pas modifiables sur le profil utilisateur.
@@ -142,7 +142,7 @@ Cette version comprend des correctifs pour les problèmes critiques suivants :
 * Lorsque vous téléchargez une vidéo qui comprend des rendus, Brand Portal crée un fichier .ZIP non valide.
 * Lorsque vous créez des paramètres prédéfinis et des ressources sur l’instance de création AEM et que vous les publiez dans Brand Portal, puis que vous sélectionnez des rendus dynamiques lors du téléchargement des ressources, vous ne pouvez pas extraire l’archive .ZIP téléchargée.
 * Problèmes lors du téléchargement de ressources vidéo à partir de certains dossiers disponibles dans Brand Portal.
-* Lorsque vous partagez l’URL du dossier Contribution à l’aide d’un courrier électronique, les rôles Visionneuse et Éditeur rencontrent des problèmes lors de l’accès à leur dossier parent à l’aide du chemin de navigation.
+* Lorsque vous partagez l’URL du dossier Contribution à l’aide d’un e-mail, les rôles Observateur et Éditeur rencontrent des problèmes lors de l’accès à leur dossier parent à l’aide du chemin de navigation.
 * L’approvisionnement du rapport publié affiche une heure de début de tâche incorrecte.
 
 ### Version de février 2022 {#feb-2022}
