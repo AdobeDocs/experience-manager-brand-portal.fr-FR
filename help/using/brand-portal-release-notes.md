@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 source-git-commit: ddca484ae2af6e24f89072270f876104a81a9025
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1210'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Les améliorations suivantes ont été apportées à cette version :
 * Améliorations des performances lors du chargement des ressources sur la fenêtre contextuelle [!UICONTROL Télécharger].
 * Lorsque vous téléchargez une ressource ou son rendu, le téléchargement s’effectue dans le format du type de fichier d’origine et non sous forme de fichier zip.
 
-Cette version comprend les correctifs suivants :
+Cette version comprend les correctifs suivants :
 
 * Les balises et libellés longs ne s’affichent pas correctement pour les filtres de recherche.
 * Impossible d’afficher les noms des rendus longs dans la boîte de dialogue Télécharger.
