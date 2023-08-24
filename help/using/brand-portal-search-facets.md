@@ -11,9 +11,9 @@ discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
 source-git-commit: 24e15fd8f609505a197d3615b113bef6318ee850
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1312'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ Pour ajouter un prédicat de recherche au panneau **[!UICONTROL Filtres]** :
 
    >[!NOTE]
    >
-   >Dans Brand Portal, toutes les propriétés String (à l’exception de celles qui commencent par `xmp`) dans `jcrcontent/metadata` de `dam:asset` sont indexés par défaut.
+   >Dans Brand Portal, toutes les propriétés de chaînes (à l’exception de celles commençant par `xmp`) dans `jcrcontent/metadata` de `dam:asset` sont indexées par défaut.
    >
    >Toute propriété indexée peut être utilisée lors de la création d’un prédicat de propriété. Si une propriété non indexée est configurée, la requête de recherche sur une telle propriété peut ne pas donner de résultat de recherche.
 
@@ -111,12 +111,12 @@ Tout comme vous ajoutez un prédicat **[!UICONTROL Propriété]**, vous pouvez a
 
 >[!NOTE]
 >
->* Ne pas utiliser **[!UICONTROL Options Predicate]**, **[!UICONTROL Prédicat d’état de publication]**, et **[!UICONTROL Prédicat de notation]** car ces prédicats ne sont pas fonctionnels dans Brand Portal.
->* Prédicat de type de dossier `(nt:folder type)` n’est pas pris en charge sur Brand Portal et peut entraîner des problèmes de performances. S’il est présent dans le formulaire de recherche personnalisé publié, il peut être supprimé en modifiant le formulaire de recherche.
+>* N’utilisez pas le **[!UICONTROL prédicat d’options]**, le **[!UICONTROL prédicat de statut de publication]** ni le **[!UICONTROL prédicat d’évaluation]**, car ils ne sont pas fonctionnels dans Brand Portal.
+>* Le prédicat de type de dossier `(nt:folder type)` n’est pas pris en charge sur Brand Portal et peut entraîner des problèmes de performance. S’il est présent dans le formulaire de recherche personnalisé publié, il peut être supprimé en modifiant le formulaire de recherche.
 
 ## Suppression d’un prédicat de recherche {#delete-a-search-predicate}
 
-Pour supprimer un prédicat de recherche, procédez comme suit :
+Pour supprimer un prédicat de recherche, procédez de la manière suivante :
 
 1. Cliquez sur le logo Adobe pour accéder aux outils d’administration.
 
