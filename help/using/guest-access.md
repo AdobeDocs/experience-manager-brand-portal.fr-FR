@@ -10,16 +10,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
-source-git-commit: 097776f2c5d4c2f227935199f0b4811c0b2dfea8
+source-git-commit: 10c310a0bc77abf73f058dc4da5cb09bce7c31d5
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 92%
+source-wordcount: '1026'
+ht-degree: 97%
 
 ---
 
 # Accès des invités à Brand Portal {#guest-access-to-brand-portal}
 
-Experience Manager Assets Brand Portal permet aux invités d’accéder au portail. Un utilisateur invité n’a pas besoin d’identifiants pour accéder au portail et a accès aux ressources (et aux collections) publiques du portail. Les utilisateurs de la session d’invité peuvent ajouter des ressources à Lightbox (collection privée) et les télécharger jusqu’au terme de leur session ou à moins que l’utilisateur invité ne choisisse de [[!UICONTROL Fin de session]](#exit-guest-session). Une session d’utilisateur invité reste active pendant 15 minutes, tandis que le délai d’expiration de l’utilisateur invité est de 2 heures.
+Experience Manager Assets Brand Portal permet aux invités d’accéder au portail. Un utilisateur invité n’a pas besoin d’identifiants pour accéder au portail et a accès aux ressources (et aux collections) publiques du portail. Les utilisateurs se trouvant dans une session d’invité peuvent ajouter des ressources à leur Lightbox (collection privée) et les télécharger jusqu’au terme de leur session qui dure deux heures, à moins que l’utilisateur invité choisisse de [[!UICONTROL Terminer la session]](#exit-guest-session).
 
 La fonctionnalité d’accès des invités permet aux entreprises de [partager rapidement les ressources approuvées](../using/brand-portal-sharing-folders.md#how-to-share-folders) avec l’audience prévue à grande échelle sans avoir besoin d’une intégration. À compter de la version 6.4.2, Brand Portal est capable de servir plusieurs utilisateurs invités simultanés sans dépasser 10 % du nombre total d’utilisateurs par entreprise. Autoriser l’accès des invités permet de gagner du temps dans le cadre de la gestion et de l’intégration de nombreux utilisateurs avec des fonctionnalités limitées sur Brand Portal.\
 Les entreprises peuvent activer (ou désactiver) l’accès des invités à leur compte à l’aide de l’option **[!UICONTROL Autoriser l’accès des invités]** dans les paramètres **[!UICONTROL Accès]** du panneau des outils d’administration.
