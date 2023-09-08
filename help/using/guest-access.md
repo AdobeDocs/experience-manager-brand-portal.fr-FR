@@ -13,13 +13,13 @@ exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
 source-git-commit: 0670b8d372fd2dc5bdb1d0a928601e3e09a6dcf9
 workflow-type: tm+mt
 source-wordcount: '1026'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
 # Accès des invités à Brand Portal {#guest-access-to-brand-portal}
 
-Experience Manager Assets Brand Portal permet aux invités d’accéder au portail. Un utilisateur invité n’a pas besoin d’identifiants pour accéder au portail et a accès aux ressources (et aux collections) publiques du portail. Les utilisateurs de la session d’invité peuvent ajouter des ressources à Lightbox (collection privée) et les télécharger jusqu’au terme de leur session ou à moins que l’utilisateur invité ne choisisse de [[!UICONTROL Fin de session]](#exit-guest-session). Une session utilisateur invité reste active pendant 15 minutes.
+Experience Manager Assets Brand Portal permet aux invités d’accéder au portail. Un utilisateur invité n’a pas besoin d’identifiants pour accéder au portail et a accès aux ressources (et aux collections) publiques du portail. Les utilisateurs ou les utilisatrices se trouvant dans une session d’invité peuvent ajouter des ressources à leur Lightbox (collection privée) et les télécharger jusqu’au terme de leur session, à moins que la personne invitée ne choisisse de [[!UICONTROL Terminer la session]](#exit-guest-session). Une session utilisateur invité reste active pendant 15 minutes.
 
 La fonctionnalité d’accès des invités permet aux entreprises de [partager rapidement les ressources approuvées](../using/brand-portal-sharing-folders.md#how-to-share-folders) avec l’audience prévue à grande échelle sans avoir besoin d’une intégration. À compter de la version 6.4.2, Brand Portal est capable de servir plusieurs utilisateurs invités simultanés sans dépasser 10 % du nombre total d’utilisateurs par entreprise. Autoriser l’accès des invités permet de gagner du temps dans le cadre de la gestion et de l’intégration de nombreux utilisateurs avec des fonctionnalités limitées sur Brand Portal.\
 Les entreprises peuvent activer (ou désactiver) l’accès des invités à leur compte à l’aide de l’option **[!UICONTROL Autoriser l’accès des invités]** dans les paramètres **[!UICONTROL Accès]** du panneau des outils d’administration.
@@ -136,4 +136,4 @@ Pour quitter une session d’invité, utilisez **[!UICONTROL Terminer la session
 
 ## Surveillance des activités des utilisateurs invités {#monitoring-guest-user-activities}
 
-Les administrateurs peuvent suivre l’interaction des utilisateurs invités avec Brand Portal. Les rapports générés dans Brand Portal peuvent fournir des informations clés sur les activités des utilisateurs invités. Par exemple, le rapport **[!UICONTROL Télécharger]** peut être utilisé pour le suivi du nombre de ressources téléchargées par un utilisateur invité. Le rapport **[!UICONTROL Connexions des utilisateurs]** peut indiquer lorsqu’un utilisateur invité s’est connecté pour la dernière fois au portail et la fréquence de ses connexions au cours d’une période donnée.
+Les administrateurs peuvent suivre l’interaction des utilisateurs invités avec Brand Portal. Les rapports générés dans Brand Portal peuvent fournir des informations clés sur les activités des personnes invitées. Par exemple, le rapport **[!UICONTROL Télécharger]** peut être utilisé pour le suivi du nombre de ressources téléchargées par un utilisateur invité. Le rapport **[!UICONTROL Connexions des utilisateurs]** peut indiquer lorsqu’un utilisateur invité s’est connecté pour la dernière fois au portail et la fréquence de ses connexions au cours d’une période donnée.
