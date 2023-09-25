@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
-source-git-commit: 24e15fd8f609505a197d3615b113bef6318ee850
-workflow-type: ht
-source-wordcount: '1312'
-ht-degree: 100%
+source-git-commit: c5c16d2aa1b488efac90dbc77023bba9897ae929
+workflow-type: tm+mt
+source-wordcount: '1325'
+ht-degree: 99%
 
 ---
 
@@ -72,7 +72,7 @@ Pour ajouter un prédicat de recherche au panneau **[!UICONTROL Filtres]** :
 
    >[!NOTE]
    >
-   >Dans Brand Portal, toutes les propriétés de chaînes (à l’exception de celles commençant par `xmp`) dans `jcrcontent/metadata` de `dam:asset` sont indexées par défaut.
+   >Dans Brand Portal, toutes les propriétés de chaînes (à l’exception de celles commençant par `xmp`) dans `jcrcontent/metadata` de `dam:asset` sont indexées par défaut. Par défaut, toutes les autres propriétés personnalisées de n’importe quel type ne sont pas indexées.
    >
    >Toute propriété indexée peut être utilisée lors de la création d’un prédicat de propriété. Si une propriété non indexée est configurée, la requête de recherche sur une telle propriété peut ne pas donner de résultat de recherche.
 
