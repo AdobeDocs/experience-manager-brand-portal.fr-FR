@@ -1,7 +1,7 @@
 ---
 title: Notes de mise à jour
 seo-title: Release Notes
-description: Découvrez les fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 2023.08.0.
+description: Découvrez les fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 2023.10.0.
 seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.08.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
@@ -10,35 +10,60 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: ddca484ae2af6e24f89072270f876104a81a9025
-workflow-type: ht
-source-wordcount: '1210'
-ht-degree: 100%
+source-git-commit: 21fc4446c2ec56a58a3dcbf8362d661c6e8d3712
+workflow-type: tm+mt
+source-wordcount: '1312'
+ht-degree: 92%
 
 ---
 
 # Notes de mise à jour {#release-notes}
 
-Découvrez les nouvelles fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 2023.08.0.
+Découvrez les nouvelles fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 2023.10.0.
 
 ## Informations sur la version {#release-information}
 
 | Produit | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 2023.08.0 |
-| Date | Août 2023 |
+| Version | 2023.10.0 |
+| Date | Octobre 2023 |
 
 ## Présentation {#overview}
 
 Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de contrôler et de distribuer facilement et en toute sécurité des ressources de création approuvées destinées à des tiers externes et aux collaborateurs de l’entreprise sur différents appareils. Brand Portal améliore l’efficacité du partage des ressources, accélère la mise sur le marché des ressources et réduit les risques de non-conformité et d’accès non autorisé. Brand Portal permet aux utilisateurs de parcourir, rechercher, prévisualiser, télécharger et exporter des ressources dans des formats approuvés, à tout moment et n’importe où.
 
-## Nouveautés de la version 2023.08.0 {#whats-new-in-2023.08.0}
+## Nouveautés de la version 2023.10.0 {#whats-new-in-2023.10.0}
 
 ### Problèmes critiques résolus {#critical-issues-fixed}
 
-#### Correctifs et améliorations {#bug-fixes-enhancements}
+#### Correctifs {#bug-fixes}
+
+Cette version comprend les correctifs suivants :
+
+* Impossible d’enregistrer [!UICONTROL Date] et [!UICONTROL Options] prédicat à la variable [!UICONTROL Collecte dynamique].
+
+* La variable [!UICONTROL Date et heure] Le format est incohérent lorsque vous utilisez des paramètres régionaux autres que l’anglais.
+
+* Lors de la recherche de ressources, la variable [!UICONTROL Supprimer] est manquant.
+
+* Si la variable [!UICONTROL Titre] contient des symboles multioctets dans le champ [!UICONTROL Partage de liens], le rapport ne peut pas être téléchargé.
+
+* Lors de l’affichage d’un document de type PDF, les libellés et les info-bulles ne sont pas localisés.
+
+#### Améliorations {#enhancements}
 
 Les améliorations suivantes ont été apportées à cette version :
+
+* Améliorations des performances lors de la navigation [!UICONTROL Collections].
+
+* Lorsque vous effectuez une recherche partielle à l’aide du champ Omni-recherche, les résultats ne sont pas précis.
+
+## Versions précédentes
+
+### Version d’août 2023 {#aug-2023}
+
+**Correctifs et améliorations**
+Les améliorations suivantes ont été apportées à cette version :
 
 * Améliorations des performances lors du chargement des ressources sur la fenêtre contextuelle [!UICONTROL Télécharger].
 * Lorsque vous téléchargez une ressource ou son rendu, le téléchargement s’effectue dans le format du type de fichier d’origine et non sous forme de fichier zip.
@@ -48,9 +73,6 @@ Cette version comprend les correctifs suivants :
 * Les balises et libellés longs ne s’affichent pas correctement pour les filtres de recherche.
 * Impossible d’afficher les noms des rendus longs dans la boîte de dialogue Télécharger.
 * Impossible de prévisualiser les ressources vidéo en mode Carte.
-
-
-## Versions précédentes
 
 ### Version de mai 2023 {#may-2023}
 
