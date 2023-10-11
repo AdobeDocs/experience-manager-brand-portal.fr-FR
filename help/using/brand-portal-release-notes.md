@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 21fc4446c2ec56a58a3dcbf8362d661c6e8d3712
+source-git-commit: 16400476286ba9656f49981412494d07e4e0edc1
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1310'
 ht-degree: 92%
 
 ---
@@ -56,7 +56,7 @@ Les améliorations suivantes ont été apportées à cette version :
 
 * Améliorations des performances lors de la navigation [!UICONTROL Collections].
 
-* Lorsque vous effectuez une recherche partielle à l’aide du champ Omni-recherche, les résultats ne sont pas précis.
+* Améliorations des résultats de recherche lors d’une recherche partielle à l’aide du champ Omni-recherche .
 
 ## Versions précédentes
 
