@@ -1,7 +1,7 @@
 ---
 title: Notes de mise à jour
 seo-title: Release Notes
-description: Découvrez les fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 2023.10.0.
+description: Découvrez les fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version d’Adobe Experience Manager Assets Brand Portal 2023.10.0.
 seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.08.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
@@ -13,13 +13,13 @@ exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 source-git-commit: 16400476286ba9656f49981412494d07e4e0edc1
 workflow-type: tm+mt
 source-wordcount: '1310'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
 # Notes de mise à jour {#release-notes}
 
-Découvrez les nouvelles fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version Adobe Experience Manager Assets Brand Portal 2023.10.0.
+Découvrez les nouvelles fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version d’Adobe Experience Manager Assets Brand Portal 2023.10.0.
 
 ## Informations sur la version {#release-information}
 
@@ -40,21 +40,21 @@ Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de con
 
 Cette version comprend les correctifs suivants :
 
-* Impossible d’enregistrer [!UICONTROL Date] et [!UICONTROL Options] prédicat à la variable [!UICONTROL Collecte dynamique].
+* Impossible d’enregistrer les prédicats [!UICONTROL Date] et [!UICONTROL Options] dans la [!UICONTROL Collecte dynamique].
 
-* La variable [!UICONTROL Date et heure] Le format est incohérent lorsque vous utilisez des paramètres régionaux autres que l’anglais.
+* Le format [!UICONTROL Date et heure] est incohérent lorsque vous utilisez des paramètres régionaux autres que l’anglais.
 
-* Lors de la recherche de ressources, la variable [!UICONTROL Supprimer] est manquant.
+* Lors de la recherche de ressources, le bouton [!UICONTROL Supprimer] est manquant.
 
-* Si la variable [!UICONTROL Titre] contient des symboles multioctets dans le champ [!UICONTROL Partage de liens], le rapport ne peut pas être téléchargé.
+* Si le champ [!UICONTROL Titre] contient des symboles multioctets dans [!UICONTROL Partage de liens], le rapport ne peut pas être téléchargé.
 
-* Lors de l’affichage d’un document de type PDF, les libellés et les info-bulles ne sont pas localisés.
+* Lors de l’affichage d’un document de type PDF, les info-bulles et les libellés ne sont pas localisés.
 
 #### Améliorations {#enhancements}
 
 Les améliorations suivantes ont été apportées à cette version :
 
-* Améliorations des performances lors de la navigation [!UICONTROL Collections].
+* Amélioration des performances lors de la navigation dans les [!UICONTROL Collections].
 
 * Améliorations des résultats de recherche lors d’une recherche partielle à l’aide du champ Omni-recherche .
 
@@ -63,7 +63,7 @@ Les améliorations suivantes ont été apportées à cette version :
 ### Version d’août 2023 {#aug-2023}
 
 **Correctifs et améliorations**
-Les améliorations suivantes ont été apportées à cette version :
+Les améliorations suivantes ont été apportées à cette version :
 
 * Améliorations des performances lors du chargement des ressources sur la fenêtre contextuelle [!UICONTROL Télécharger].
 * Lorsque vous téléchargez une ressource ou son rendu, le téléchargement s’effectue dans le format du type de fichier d’origine et non sous forme de fichier zip.
