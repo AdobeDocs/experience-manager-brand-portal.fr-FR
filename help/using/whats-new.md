@@ -11,7 +11,7 @@ topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
 source-git-commit: 108746cb1647312aa886d00b6c8ef041eab8b91d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6558'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ Adobe Experience Manager Assets Brand Portal permet d’acquérir, de contrôle
 
 ## Changements de la version 2023.10.0 {#what-changed-in-October-2023}
 
-Brand Portal 2023.10.0 est une version interne qui comprend des correctifs pour les problèmes critiques. Consultez les dernières [Notes de mise à jour de Brand Portal](brand-portal-release-notes.md).
+Brand Portal 2023.10.0 est une version interne qui comprend des correctifs pour les problèmes critiques. Consultez les dernières [Notes de mise à jour de Brand Portal](brand-portal-release-notes.md).
 
 ## Changements de la version 2023.08.0 {#what-changed-in-August-2023}
 
