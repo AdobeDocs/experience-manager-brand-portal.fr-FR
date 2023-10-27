@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 source-git-commit: 16400476286ba9656f49981412494d07e4e0edc1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1310'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Les améliorations suivantes ont été apportées à cette version :
 
 * Amélioration des performances lors de la navigation dans les [!UICONTROL Collections].
 
-* Améliorations des résultats de recherche lors d’une recherche partielle à l’aide du champ Omni-recherche .
+* Améliorations des résultats de recherche lors d’une recherche partielle à l’aide du champ OmniSearch.
 
 ## Versions précédentes
 
