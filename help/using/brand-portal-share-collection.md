@@ -10,10 +10,10 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
 exl-id: 29b877f6-4200-4299-9b8d-81d88f4e8221
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
-workflow-type: ht
-source-wordcount: '534'
-ht-degree: 100%
+source-git-commit: 26c16668224d22f133419c13ea5fe4e24335a22f
+workflow-type: tm+mt
+source-wordcount: '672'
+ht-degree: 67%
 
 ---
 
@@ -21,7 +21,15 @@ ht-degree: 100%
 
 Une collection représente un groupe de ressources connexes stockées ensemble dans Adobe Experience Manager Assets Brand Portal. Les utilisateurs peuvent créer des collections dynamiques en [appliquant l’omni-recherche ou la recherche de facettes pour filtrer les ressources](brand-portal-searching.md) associées, les stocker ensemble pour y accéder facilement et les partager ensuite avec d’autres utilisateurs de Brand Portal.
 
-Les administrateurs peuvent partager et annuler le partage d’une collection avec les utilisateurs autorisés de Brand Portal. Les éditeurs et les observateurs peuvent uniquement visualiser et partager les collections créées par eux et partagées avec eux, ainsi que les collections publiques.
+<!--The administrators can share and unshare a collection with the authorized Brand Portal users. Editors and viewers can view and share the collections created by them, shared with them, and public collections.-->
+
+Les collections sont partagées en tant que lien via un email. Toute personne ayant accès au lien de partage peut ouvrir la collection, alors que les emails partagés peuvent être transférés à n’importe qui. En outre, [liens partagés](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/share/brand-portal-link-share.html?lang=en) sont temporaires et accessibles pendant une durée limitée uniquement. Les utilisateurs peuvent également être invités en tant que membres permanents à des collections. Il existe les types d’utilisateurs suivants pour les collections :
+
+* **Administrateurs** peut partager ou annuler le partage d’une collection avec des utilisateurs Brand Portal autorisés. Ils peuvent inviter d’autres utilisateurs à rejoindre une collection spécifique et définir leur rôle sur cette collection. En outre, les administrateurs peuvent créer des collections publiques.
+
+* **Éditeurs** sont autorisés à créer et partager des collections. Ils peuvent inviter d’autres utilisateurs à rejoindre une collection spécifique et définir leur rôle sur cette collection. En outre, ils peuvent également partager des collections s’ils ont été invités à la collection en tant qu’éditeur ou propriétaire.
+
+* **Visionneuses** peuvent créer des collections privées uniquement. Ils ne sont pas autorisés à partager une collection, même lorsqu’ils ont été invités en tant que propriétaires.
 
 >[!NOTE]
 >
@@ -33,17 +41,17 @@ Vous trouverez ci-dessous la procédure à suivre pour partager une collection a
 
 1. Connectez-vous à votre client Brand Portal. Par défaut, la vue **[!UICONTROL Fichiers]** s’ouvre et contient toutes les ressources et dossiers publiés.
 
-1. Dans les icônes de navigation rapide en haut, cliquez sur **[!UICONTROL Collections]**.
+1. Dans la navigation rapide en haut, cliquez sur **[!UICONTROL Collections]**.
 
 1. Dans la console **[!UICONTROL Collections]**, effectuez l’une des opérations suivantes :
 
    * Placez le pointeur sur la collection que vous souhaitez partager. Dans les miniatures d’action rapide disponibles pour la collection, cliquez sur l’icône **[!UICONTROL Paramètres]**.
 
-      ![](assets/settings-icon.png)
+     ![](assets/settings-icon.png)
 
    * Sélectionnez la collection que vous souhaitez partager. Dans la barre d’outils supérieure, cliquez sur **[!UICONTROL Paramètres]**.
 
-      ![](assets/collection-console.png)
+     ![](assets/collection-console.png)
 
 1. Dans la boîte de dialogue **[!UICONTROL Paramètres de la collection]**, sélectionnez les utilisateurs avec qui vous voulez partager la collection et choisissez le rôle d’utilisateur pour qu’il corresponde à leur rôle global. Par exemple, affectez le rôle Éditeur à un éditeur global ou le rôle Observateur à un observateur global.
 
@@ -67,9 +75,9 @@ Vous trouverez ci-dessous la procédure à suivre pour partager une collection a
 
 ## Annulation du partage d’une collection {#unshare-a-collection}
 
-Pour annuler le partage d’une collection précédemment partagée, procédez comme suit :
+Pour annuler le partage d’une collection précédemment partagée, procédez comme suit :
 
-1. Dans la console **[!UICONTROL Collections]**, sélectionnez la collection pour laquelle vous souhaitez annuler le partage.
+1. Dans la **[!UICONTROL Collections]** console, sélectionnez la collection dont vous souhaitez annuler le partage.
 
    Dans la barre d’outils supérieure, cliquez sur **[!UICONTROL Paramètres]**.
 
