@@ -10,10 +10,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: b91e0b4f03beb37d826ce75ac49498b7b79e4a39
-workflow-type: ht
-source-wordcount: '1028'
-ht-degree: 100%
+source-git-commit: 76d7c808d99c9c2ec86e0e9100b9c2954c695854
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -36,9 +36,8 @@ La configuration **[!UICONTROL Téléchargement rapide]** est activée par défa
 Pour télécharger les fichiers plus rapidement, vérifiez les points suivants :
 
 * Accédez à **[!UICONTROL Outils]** > **[!UICONTROL Télécharger]** et vérifiez que la configuration **[!UICONTROL Téléchargement rapide]** est activée dans les **[!UICONTROL Paramètres de téléchargement]**.
-* Veillez à ce que le port 33001 (TCP et UDP) soit ouvert sur le pare-feu. Pour plus d’informations sur les conditions préalables requises, consultez la [documentation cliente IBM® Aspera Connect](https://downloads.asperasoft.com/en/documentation/8).
-* **Installez IBM® Aspera Connect 3.9.9** dans l’extension de votre navigateur à l’aide des droits d’administration (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
-* Pour une prise en charge de la plateforme du client de transfert Aspera, consultez le [Tableau de prise en charge de la plateforme IBM® Aspera Connect](https://www.asperasoft.com/company/support/transfer-clients/).
+* Veillez à ce que le port 33001 (TCP et UDP) soit ouvert sur le pare-feu.
+* **Installation d’IBM® Aspera Connect 3.9.9** dans l’extension de votre navigateur à l’aide de droits d’administrateur ([Téléchargements IBM® Asperra Connect](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all)).
 
 >[!NOTE]
 >
@@ -82,11 +81,11 @@ Pour télécharger des ressources plus rapidement à partir de Brand Portal :
 
    * Sélectionnez les ressources ou les dossiers que vous souhaitez télécharger. Dans la barre d’outils supérieure, cliquez sur l’icône **[!UICONTROL Télécharger]**.
 
-      ![sélectionner-plusieurs-ressources](assets/select-assets-new.png)
+     ![sélectionner-plusieurs-ressources](assets/select-assets-new.png)
 
    * Pour télécharger des rendus de ressource spécifiques pour une ressource, survolez celle-ci avec le pointeur et cliquez sur l’icône **[!UICONTROL Télécharger]** disponible dans les miniatures d’action rapide.
 
-      ![sélectionner-une-ressource](assets/select-asset.png)
+     ![sélectionner-une-ressource](assets/select-asset.png)
 
 1. La boîte de dialogue **[!UICONTROL Télécharger]** qui répertorie toutes les ressources sélectionnées s’ouvre.
 
@@ -120,7 +119,7 @@ Pour télécharger des ressources plus rapidement à partir de Brand Portal :
 
 >[!NOTE]
 >
->Si le paramètre **[!UICONTROL Téléchargement rapide]** est désactivé par l’administration, les rendus sélectionnés sont directement téléchargés dans un dossier ZIP sans utiliser IBM® Aspera Connect.
+Si le paramètre **[!UICONTROL Téléchargement rapide]** est désactivé par l’administration, les rendus sélectionnés sont directement téléchargés dans un dossier ZIP sans utiliser IBM® Aspera Connect.
 
 <!-- 
 On successful completion of the download, a dialog box shows the location where assets are downloaded onto the user's system. If there is a failure, it shows error.
