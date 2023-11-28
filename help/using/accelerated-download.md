@@ -10,10 +10,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: 76d7c808d99c9c2ec86e0e9100b9c2954c695854
+source-git-commit: ce765700aaecba4bfff7b55effb05f981b94bdec
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1019'
+ht-degree: 96%
 
 ---
 
@@ -37,7 +37,7 @@ Pour télécharger les fichiers plus rapidement, vérifiez les points suivants 
 
 * Accédez à **[!UICONTROL Outils]** > **[!UICONTROL Télécharger]** et vérifiez que la configuration **[!UICONTROL Téléchargement rapide]** est activée dans les **[!UICONTROL Paramètres de téléchargement]**.
 * Veillez à ce que le port 33001 (TCP et UDP) soit ouvert sur le pare-feu.
-* **Installation d’IBM® Aspera Connect 3.9.9** dans l’extension de votre navigateur à l’aide de droits d’administrateur ([Téléchargements IBM® Asperra Connect](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all)).
+* **Installation d’IBM® Aspera Connect 3.9.9** dans l’extension de votre navigateur à l’aide de droits d’administrateur ([Téléchargements d’IBM® Aspera Connect](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all)).
 
 >[!NOTE]
 >
