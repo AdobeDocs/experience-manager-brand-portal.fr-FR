@@ -10,9 +10,9 @@ topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
 source-git-commit: d84d138a2819ff293d0c808b0dcebe02e03da121
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1590'
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ En tant que spécialiste marketing, vous devez parfois collaborer avec des parte
 
 Il est toutefois difficile de développer des solutions qui permettent le partage efficace et sécurisé de logos de la marque, d’instructions, de ressources de campagne ou de clichés de produit avec des équipes internes, des partenaires et des revendeurs.
 
-**Adobe Experience Manager (AEM) Assets Brand Portal** se concentre sur la nécessité pour le marketeur de collaborer efficacement avec les utilisateurs de Brand Portal répartis dans le monde en offrant des fonctionnalités de distribution et de contribution des ressources.
+**Adobe Experience Manager (AEM) Assets Brand Portal** est axé sur la nécessité pour le ou la spécialiste marketing de collaborer efficacement avec les personnes utilisant Brand Portal dans le monde entier, en offrant des fonctionnalités de distribution des ressources et de contribution.
 
-La distribution des ressources permet d’acquérir, de contrôler et de distribuer facilement et en toute sécurité des ressources créatives destinées à des tiers externes et aux collaborateurs de l’entreprise sur différents appareils. La contribution aux ressources permet aux utilisateurs de Brand Portal de charger des ressources sur Brand Portal et de les publier sur Experience Manager Assets, sans avoir à accéder à l’environnement de création. La fonction de contribution est appelée **Approvisionnement des ressources dans Brand Portal**. Ces deux fonctionnalités améliorent l’expérience globale en matière de distribution et de contribution aux ressources des utilisateurs de Brand Portal (agences/équipes externes), accélèrent le délai de mise sur le marché des ressources et réduisent le risque de non-conformité et d’accès non autorisé.
+La distribution des ressources permet d’acquérir, de contrôler et de distribuer facilement et en toute sécurité des ressources créatives destinées à des tiers externes et aux collaborateurs et collaboratrices de l’entreprise sur différents appareils. La contribution aux ressources permet aux utilisateurs de Brand Portal de charger des ressources sur Brand Portal et de les publier sur Experience Manager Assets, sans avoir à accéder à l’environnement de création. La fonction de contribution est appelée **Approvisionnement des ressources dans Brand Portal**. Ces deux fonctionnalités améliorent l’expérience globale en matière de distribution et de contribution aux ressources des utilisateurs de Brand Portal (agences/équipes externes), accélèrent le délai de mise sur le marché des ressources et réduisent le risque de non-conformité et d’accès non autorisé.
 Voir [Approvisionnement des ressources dans Brand Portal](brand-portal-asset-sourcing.md).
 
 L’environnement de portail de type navigateur permet de télécharger, parcourir, rechercher, prévisualiser et exporter facilement des ressources dans des formats approuvés.
@@ -52,7 +52,7 @@ Brand Portal prend en charge les rôles utilisateur suivants :
 * Éditeur
 * Administrateur
 
-Le tableau suivant répertorie les tâches que les utilisateurs disposant de ces rôles peuvent effectuer :
+Le tableau suivant répertorie les tâches que peuvent réaliser les personnes qui disposent de ces rôles :
 
 |  | **Parcourir** | **Rechercher** | **Télécharger** | **Partage de dossiers** | **Partage d’une collection** | **Partager des ressources en tant que lien** | **Accès aux outils d’administration** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
@@ -91,7 +91,7 @@ Pour plus d’informations, consultez [accès des utilisateurs invités à Brand
 
 ### Observateur {#viewer}
 
-Un utilisateur de Brand Portal défini dans [!DNL Admin Console] qui a accès à Brand Portal avec le rôle d’observateur. Un utilisateur disposant de ce rôle peut se connecter à Brand Portal et accéder aux dossiers, collections et ressources autorisés. L’utilisateur peut également parcourir, prévisualiser, télécharger et exporter des ressources (rendus originaux ou spécifiques), configurer les paramètres du compte et rechercher des ressources. Voici la liste des tâches que peut réaliser un observateur :
+Un utilisateur de Brand Portal défini dans [!DNL Admin Console] qui a accès à Brand Portal avec le rôle d’observateur. Un utilisateur disposant de ce rôle peut se connecter à Brand Portal et accéder aux dossiers, collections et ressources autorisés. L’utilisateur ou l’utilisatrice peut également parcourir, prévisualiser, télécharger et exporter des ressources (rendus originaux ou spécifiques), configurer les paramètres du compte et rechercher des ressources. Voici la liste des tâches que peut réaliser un observateur :
 
 * [Exploration des ressources](browse-assets-brand-portal.md)
 
@@ -144,22 +144,22 @@ En plus des tâches mentionnées ci-dessus, un auteur dans AEM Assets peut effe
 ## Autre alias pour l’URL de Brand Portal {#tenant-alias-for-portal-url}
 
 À partir de Brand Portal 6.4.3, les entreprises peuvent avoir une autre URL (alias) pour l’URL existante de leur client Brand Portal. L’URL d’alias peut être créée avec un autre préfixe dans l’URL.\
-Si le nom du client contient plus de 32 caractères, l’alias du client doit être créé.
+Si le nom du client ou de la cliente contient plus de 32 caractères, un alias doit être créé.
 Notez que seul le préfixe de l’URL Brand Portal peut être personnalisé et non l’URL entière. Par exemple, une entreprise avec le domaine existant `geomettrix.brand-portal.adobe.com` peut demander et obtenir la création de `geomettrixinc.brand-portal.adobe.com`.
 
 Cependant, l’instance d’auteur AEM peut uniquement être [configurée](../using/configure-aem-assets-with-brand-portal.md) avec l’URL d’ID du client et non avec l’URL (alternative) d’alias de client.
 
 >[!NOTE]
 >
->Pour obtenir un alias pour le nom du client dans l’URL de portail existante, les organisations doivent solliciter la création d’un alias de client auprès de le service clientèle. Cette demande est traitée d&#39;abord en vérifiant si l&#39;alias est disponible, puis en créant l&#39;alias.
+>Pour obtenir un alias pour le nom du client dans l’URL de portail existante, les organisations doivent solliciter la création d’un alias de client auprès de le service clientèle. Cette demande est traitée d’abord en vérifiant si l’alias est disponible, puis en créant l’alias.
 >
->Pour remplacer l&#39;ancien alias ou supprimer l&#39;ancien alias, le même processus doit être suivi.
+>Pour remplacer ou supprimer l’ancien alias, le même processus doit être suivi.
 
 ## Demande d’accès à Brand Portal {#request-access-to-brand-portal}
 
-Les utilisateurs peuvent demander l’accès à Brand Portal depuis l’écran de connexion. Ces demandes sont envoyées aux administrateurs de Brand Portal qui accordent l’accès aux utilisateurs via Adobe [!UICONTROL Admin Console]. Une fois l’accès accordé, les utilisateurs reçoivent un email de notification.
+Les utilisateurs peuvent demander l’accès à Brand Portal depuis l’écran de connexion. Ces demandes sont envoyées aux administrateurs de Brand Portal qui accordent l’accès aux utilisateurs via Adobe [!UICONTROL Admin Console]. Une fois l’accès accordé, les personnes reçoivent un e-mail de notification.
 
-Pour demander l’accès, procédez comme suit :
+Pour demander l’accès, procédez comme suit :
 
 1. Sur la page de connexion de Brand Portal, sélectionnez **[!UICONTROL Cliquez ici]** en regard de **[!UICONTROL Besoin d’un accès ?]**. En revanche, pour créer une session d’invité, sélectionnez **[!UICONTROL Cliquez ici]** en regard de **[!UICONTROL Accès d’invité ?]**.
 
@@ -167,7 +167,7 @@ Pour demander l’accès, procédez comme suit :
 
    La page [!UICONTROL Demander l’accès] s’affiche.
 
-1. Pour demander l’accès au Brand Portal d’une entreprise, vous devez disposer d’un [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID], ou [!UICONTROL Federated ID].
+1. Pour pouvoir demander l’accès au portail Brand Portal d’une organisation, vous devez disposer d’un [!UICONTROL Adobe ID], d’un [!UICONTROL Enterprise ID] ou d’un [!UICONTROL Federated ID] valide.
 
    Dans la page [!UICONTROL Demander l’accès], connectez-vous à l’aide de votre ID (scénario 1) ou créez un [!UICONTROL Adobe ID] (scénario 2) :
 
@@ -228,11 +228,11 @@ Pour modifier la langue :
 
 ## Notification de maintenance de Brand Portal {#brand-portal-maintenance-notification}
 
-Avant que Brand Portal ne soit programmé pour la maintenance, une notification s’affiche sous la forme d’une bannière une fois que vous êtes connecté à Brand Portal. Exemple de notification :
+Avant la planification de l’arrêt de Brand Portal pour maintenance, une notification s’affiche sous la forme d’une bannière en cas de connexion au Brand Portal. Exemple de notification :
 
 ![](assets/bp_maintenance_notification.png)
 
-Vous pouvez ignorer cette notification et continuer à utiliser Brand Portal. Cette notification apparaît dans chaque nouvelle session.
+Vous pouvez ignorer cette notification et continuer à utiliser Brand Portal. Cette notification apparaît dans chaque nouvelle session.
 
 ## Version et informations système {#release-and-system-information}
 
