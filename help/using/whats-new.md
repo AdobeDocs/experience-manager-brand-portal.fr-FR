@@ -1,8 +1,8 @@
 ---
 title: Nouveautés d’Experience Manager Assets Brand Portal
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: Nouveautés et améliorations de la version 2023.10.0
-seo-description: What are the new features and enhancements for 2023.10.0
+description: Nouveautés et améliorations de la version 2024.02.0
+seo-description: What are the new features and enhancements for 2024.02.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,16 +10,20 @@ contentOwner: Kirandeep Kour
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 108746cb1647312aa886d00b6c8ef041eab8b91d
-workflow-type: ht
-source-wordcount: '6558'
-ht-degree: 100%
+source-git-commit: b24c96ee40cf481215ab45d0a691b8fa1f24fac0
+workflow-type: tm+mt
+source-wordcount: '6616'
+ht-degree: 99%
 
 ---
 
 # Nouveautés d’Experience Manager Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager Assets Brand Portal permet d’acquérir, de contrôler et de distribuer facilement et en toute sécurité des ressources créatives approuvées destinées à des tiers externes et aux collaborateurs de l’entreprise sur différents appareils. Brand Portal améliore l’efficacité du partage des ressources, accélère la mise sur le marché des ressources et réduit les risques de non-conformité et d’accès non autorisé. Adobe s’efforce d’améliorer l’expérience globale de Brand Portal. Vous trouverez ci-dessous un aperçu des nouvelles fonctionnalités et améliorations.
+
+## Changements de la version 2024.02.0 {#what-changed-in-February-2024}
+
+Brand Portal 2024.02.0 est une version interne qui comprend des correctifs pour les problèmes critiques. Consultez les dernières [Notes de mise à jour de Brand Portal](brand-portal-release-notes.md).
 
 ## Changements de la version 2023.10.0 {#what-changed-in-October-2023}
 
@@ -297,7 +301,7 @@ L’onglet **[!UICONTROL Groupes]** de la page **[!UICONTROL Rôles utilisateur]
 * Si seul le paramètre **[!UICONTROL Télécharger l’original]** est activé, les utilisateurs peuvent afficher et télécharger uniquement les ressources d’origine à partir de la page des détails de la ressource.
 * Si seul le paramètre **[!UICONTROL Télécharger les rendus]** est activé, les utilisateurs peuvent afficher la ressource d’origine, mais ne peuvent pas la télécharger. Cependant, l’utilisateur peut afficher et télécharger les rendus de ressources.
 
-Consultez [Configuration du téléchargement de ressource](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html?lang=fr#configure-download-permissions).
+Consultez [Configuration du téléchargement de ressource](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions).
 
 ![autorisation-téléchargement-affichage](assets/download-permissions.png)
 
@@ -733,7 +737,7 @@ Brand Portal 6.4.1 est une version de mise à niveau de la plateforme qui cont
 * Un seul fichier volumineux est directement téléchargé, sans créer de fichier compressé, afin d’améliorer la vitesse et le débit.
 * La limite de téléchargement par taille de fichier pour la fonction de partage de lien est de **1** Go.
 
-* Les utilisateurs peuvent maintenant choisir de télécharger uniquement les fichiers personnalisés et originaux et de bloquer les rendus prêts à l’emploi, lors du téléchargement de ressources à partir de Brand Portal ou via la fonctionnalité de liens partagés.
+* Les utilisateurs peuvent désormais choisir de télécharger uniquement les fichiers personnalisés et originaux et d’empêcher les rendus prêts à l’emploi, lors du téléchargement de ressources à partir de Brand Portal ou via la fonction de liens partagés.
 
 ![](assets/excludeautorendition.png)
 

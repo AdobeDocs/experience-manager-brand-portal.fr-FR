@@ -1,8 +1,8 @@
 ---
 title: Notes de mise à jour
 seo-title: Release Notes
-description: Découvrez les fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version d’Adobe Experience Manager Assets Brand Portal 2023.10.0.
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.08.0 release.
+description: Découvrez les fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version d’Adobe Experience Manager Assets Brand Portal 2024.02.0.
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2024.02.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Kirandeep Kour
@@ -10,33 +10,68 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 16400476286ba9656f49981412494d07e4e0edc1
-workflow-type: ht
-source-wordcount: '1310'
-ht-degree: 100%
+source-git-commit: 506d8f9cd6aab14368aa0a644a81f25a11260a61
+workflow-type: tm+mt
+source-wordcount: '1475'
+ht-degree: 89%
 
 ---
 
 # Notes de mise à jour {#release-notes}
 
-Découvrez les nouvelles fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version d’Adobe Experience Manager Assets Brand Portal 2023.10.0.
+Découvrez les nouvelles fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version d’Adobe Experience Manager Assets Brand Portal 2024.02.0.
 
 ## Informations sur la version {#release-information}
 
 | Produit | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 2023.10.0 |
-| Date | Octobre 2023 |
+| Version | 2024.02.0 |
+| Date | Février 2024 |
 
 ## Présentation {#overview}
 
 Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de contrôler et de distribuer facilement et en toute sécurité des ressources de création approuvées destinées à des tiers externes et aux collaborateurs de l’entreprise sur différents appareils. Brand Portal améliore l’efficacité du partage des ressources, accélère la mise sur le marché des ressources et réduit les risques de non-conformité et d’accès non autorisé. Brand Portal permet aux utilisateurs de parcourir, rechercher, prévisualiser, télécharger et exporter des ressources dans des formats approuvés, à tout moment et n’importe où.
 
-## Nouveautés de la version 2023.10.0 {#whats-new-in-2023.10.0}
+## Nouveautés de la version 2024.02.0 {#whats-new-in-2024.02.0}
 
 ### Problèmes critiques résolus {#critical-issues-fixed}
 
 #### Correctifs {#bug-fixes}
+
+Cette version comprend les correctifs suivants :
+
+* Impossible de télécharger des ressources numériques protégées par DRM dans les paramètres régionaux turcs.
+
+* Impossible d’ouvrir et de télécharger les rapports existants contenant des ressources avec un titre multiligne.
+
+* Lorsque vous téléchargez des ressources à l’aide de [!UICONTROL Télécharger] à partir de la barre d’actions, 1 000 ressources au maximum sont téléchargées.
+
+* Nom incorrect des ressources de type PSD lors de l’affichage dans l’arborescence de contenu.
+
+* [!UICONTROL Supprimer le rendu] ne fonctionne pas sur la page des détails de la ressource.
+
+* Alignement incorrect du titre et de la taille des ressources dans la fenêtre contextuelle de téléchargement.
+
+* Impossible de charger les dossiers en mode Carte si vous basculez depuis l’arborescence.
+
+* Même si la variable [!UICONTROL Téléchargement rapide] est activé dans la variable [!UICONTROL Paramètres de téléchargement] pour les éditeurs et les administrateurs, les clients spécifiques ne peuvent pas télécharger les ressources expirées.
+
+* L’erreur de l’interface utilisateur n’est pas localisée lors de la création d’un rapport lorsque toutes les cases à cocher ne sont pas sélectionnées.
+
+* Lors de la création d’un rapport, les libellés ne sont pas localisés.
+
+* Les administrateurs de l’assistance étaient appelés administrateurs dans Brand Portal.
+
+## Versions précédentes
+
+### Version d’octobre 2023 {#oct-2023}
+
+**Correctifs et améliorations**
+Les améliorations suivantes ont été apportées à cette version :
+
+* Amélioration des performances lors de la navigation dans les [!UICONTROL Collections].
+
+* Améliorations des résultats de recherche lors d’une recherche partielle à l’aide du champ OmniSearch.
 
 Cette version comprend les correctifs suivants :
 
@@ -49,16 +84,6 @@ Cette version comprend les correctifs suivants :
 * Si le champ [!UICONTROL Titre] contient des symboles multioctets dans [!UICONTROL Partage de liens], le rapport ne peut pas être téléchargé.
 
 * Lors de l’affichage d’un document de type PDF, les info-bulles et les libellés ne sont pas localisés.
-
-#### Améliorations {#enhancements}
-
-Les améliorations suivantes ont été apportées à cette version :
-
-* Amélioration des performances lors de la navigation dans les [!UICONTROL Collections].
-
-* Améliorations des résultats de recherche lors d’une recherche partielle à l’aide du champ OmniSearch.
-
-## Versions précédentes
 
 ### Version d’août 2023 {#aug-2023}
 
@@ -355,7 +380,7 @@ L’interface utilisateur de Brand Portal est disponible dans les langues suiva
 * Français
 * Espagnol
 * Italien
-* Portugais brésilien
+* Portugais du Brésil
 * Japonais
 * Chinois simplifié
 * Coréen
