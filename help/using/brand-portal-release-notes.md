@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 506d8f9cd6aab14368aa0a644a81f25a11260a61
+source-git-commit: 3a5be1897b90b1d913a5eb86fb1442e702a1c89d
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 89%
+source-wordcount: '1416'
+ht-degree: 93%
 
 ---
 
@@ -41,25 +41,12 @@ Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de con
 Cette version comprend les correctifs suivants :
 
 * Impossible de télécharger des ressources numériques protégées par DRM dans les paramètres régionaux turcs.
-
 * Impossible d’ouvrir et de télécharger les rapports existants contenant des ressources avec un titre multiligne.
-
 * Lorsque vous téléchargez des ressources à l’aide de [!UICONTROL Télécharger] à partir de la barre d’actions, 1 000 ressources au maximum sont téléchargées.
-
 * Nom incorrect des ressources de type PSD lors de l’affichage dans l’arborescence de contenu.
-
 * [!UICONTROL Supprimer le rendu] ne fonctionne pas sur la page des détails de la ressource.
-
 * Alignement incorrect du titre et de la taille des ressources dans la fenêtre contextuelle de téléchargement.
-
-* Impossible de charger les dossiers en mode Carte si vous basculez depuis l’arborescence.
-
-* Même si la variable [!UICONTROL Téléchargement rapide] est activé dans la variable [!UICONTROL Paramètres de téléchargement] pour les éditeurs et les administrateurs, les clients spécifiques ne peuvent pas télécharger les ressources expirées.
-
-* L’erreur de l’interface utilisateur n’est pas localisée lors de la création d’un rapport lorsque toutes les cases à cocher ne sont pas sélectionnées.
-
 * Lors de la création d’un rapport, les libellés ne sont pas localisés.
-
 * Les administrateurs de l’assistance étaient appelés administrateurs dans Brand Portal.
 
 ## Versions précédentes
