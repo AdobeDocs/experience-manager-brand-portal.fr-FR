@@ -11,9 +11,9 @@ topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
 source-git-commit: b24c96ee40cf481215ab45d0a691b8fa1f24fac0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6616'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -301,7 +301,7 @@ L’onglet **[!UICONTROL Groupes]** de la page **[!UICONTROL Rôles utilisateur]
 * Si seul le paramètre **[!UICONTROL Télécharger l’original]** est activé, les utilisateurs peuvent afficher et télécharger uniquement les ressources d’origine à partir de la page des détails de la ressource.
 * Si seul le paramètre **[!UICONTROL Télécharger les rendus]** est activé, les utilisateurs peuvent afficher la ressource d’origine, mais ne peuvent pas la télécharger. Cependant, l’utilisateur peut afficher et télécharger les rendus de ressources.
 
-Consultez [Configuration du téléchargement de ressource](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions).
+Consultez [Configuration du téléchargement de ressource](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html?lang=fr#configure-download-permissions).
 
 ![autorisation-téléchargement-affichage](assets/download-permissions.png)
 
@@ -737,7 +737,7 @@ Brand Portal 6.4.1 est une version de mise à niveau de la plateforme qui cont
 * Un seul fichier volumineux est directement téléchargé, sans créer de fichier compressé, afin d’améliorer la vitesse et le débit.
 * La limite de téléchargement par taille de fichier pour la fonction de partage de lien est de **1** Go.
 
-* Les utilisateurs peuvent désormais choisir de télécharger uniquement les fichiers personnalisés et originaux et d’empêcher les rendus prêts à l’emploi, lors du téléchargement de ressources à partir de Brand Portal ou via la fonction de liens partagés.
+* Les utilisateurs et les utilisatrices peuvent désormais choisir de télécharger uniquement les fichiers personnalisés et originaux et d’empêcher les rendus prêts à l’emploi lors du téléchargement de ressources à partir de Brand Portal ou via la fonctionnalité de liens partagés.
 
 ![](assets/excludeautorendition.png)
 
