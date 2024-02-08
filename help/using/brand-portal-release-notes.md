@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 source-git-commit: 3a5be1897b90b1d913a5eb86fb1442e702a1c89d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1416'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -42,12 +42,12 @@ Cette version comprend les correctifs suivants :
 
 * Impossible de télécharger des ressources numériques protégées par DRM dans les paramètres régionaux turcs.
 * Impossible d’ouvrir et de télécharger les rapports existants contenant des ressources avec un titre multiligne.
-* Lorsque vous téléchargez des ressources à l’aide de [!UICONTROL Télécharger] à partir de la barre d’actions, 1 000 ressources au maximum sont téléchargées.
+* Lorsque vous téléchargez des ressources à l’aide du bouton [!UICONTROL Télécharger] dans la barre d’actions, le seuil maximal est de 1 000 ressources téléchargées.
 * Nom incorrect des ressources de type PSD lors de l’affichage dans l’arborescence de contenu.
-* [!UICONTROL Supprimer le rendu] ne fonctionne pas sur la page des détails de la ressource.
+* L’option [!UICONTROL Supprimer le rendu] ne fonctionne pas sur la page des détails de la ressource.
 * Alignement incorrect du titre et de la taille des ressources dans la fenêtre contextuelle de téléchargement.
 * Lors de la création d’un rapport, les libellés ne sont pas localisés.
-* Les administrateurs de l’assistance étaient appelés administrateurs dans Brand Portal.
+* Les administrateurs et les administratrices de l’assistance étaient appelés administrateurs et administratrices dans Brand Portal.
 
 ## Versions précédentes
 
@@ -367,7 +367,7 @@ L’interface utilisateur de Brand Portal est disponible dans les langues suiva
 * Français
 * Espagnol
 * Italien
-* Portugais du Brésil
+* Portugais (Brésil)
 * Japonais
 * Chinois simplifié
 * Coréen
