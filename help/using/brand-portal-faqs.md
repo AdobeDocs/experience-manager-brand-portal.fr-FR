@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
 source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
-workflow-type: ht
-source-wordcount: '1509'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1529'
+ht-degree: 97%
 
 ---
 
@@ -85,14 +85,14 @@ Pour plus d’informations, voir [Approvisionnement des ressources dans Brand P
 
 
 
-**Question : Quand vais-je passer à la nouvelle version de Brand Portal ?**
+**Question : Quand vais-je passer à la nouvelle version de Brand Portal ?**
 
 **Réponse :** Brand Portal 6.4.5 est sorti en production en octobre 2019. La nouvelle version de Brand Portal devrait être commercialisée au troisième trimestre 2020.
 Pour les mises à jour et les changements de versions, il est recommandé de suivre les [Notes de mise à jour](brand-portal-release-notes.md) et les [Nouveautés Brand Portal](whats-new.md).
 
 
 
-**Question : Cela aura-t-il une incidence pour mes utilisateurs ?**
+**Question : Mes utilisateurs seront-ils affectés ?**
 
 **Réponse :** La version 6.4.5 de Brand Portal est uniquement disponible dans cette application. Les utilisateurs finaux ne sont donc pas affectés.
 
@@ -191,18 +191,18 @@ Ces utilisateurs accèdent au dossier **Contribution** et téléchargent le cont
 **Réponse :** Dans Experience Manager Assets, les journaux sont mis à jour pour chaque publication d’un dossier dans Brand Portal. Lors de la publication, toutes les ressources non publiées dans Brand Portal sont mises en file d’attente de copie. Les fichiers ajoutés au dossier une fois la tâche de publication déclenchée ne sont pas publiés dans Brand Portal. Lorsque l’utilisateur Experience Manager Assets republie le dossier, seules les ressources non publiées au préalable (et présentes dans la file d’attente de copie) le sont dans Brand Portal.
 C’est le cas pour les dossiers publiés d’Experience Manager Assets vers Brand Portal et pour le dossier SHARED d’un dossier Contribution.
 
-**Question : Qui dois-je contacter en cas de questions ?**
+**Question : Qui dois-je contacter pour les questions ?**
 
 **Réponse :** Contactez votre gestionnaire de compte ou le service à la clientèle Adobe.
 
 >[!NOTE]
 >
->Le calendrier des nouvelles versions est provisoire et susceptible d’être modifié. Contactez votre gestionnaire de compte ou le service clientèle Adobe pour obtenir le calendrier de version mis à jour.
+>Le calendrier des nouvelles versions est provisoire et susceptible d’être modifié. Contactez votre gestionnaire de compte d’Adobe ou le service clientèle pour obtenir le calendrier de mise à jour.
 
 
 ## Assistance technique et accès au produit (sites à accès limité) {#product-access-and-support-restricted-sites}
 
-Ces sites sont réservés aux clients. Si vous êtes client et avez besoin d’un accès, contactez votre responsable de compte Adobe.
+Ces sites sont réservés aux clients. Si vous êtes client ou cliente et avez besoin d’un accès, contactez votre gestionnaire de compte Adobe.
 
 <!--
 * [](https://daycare.day.com) [Product Access](https://login.marketing.adobe.com)

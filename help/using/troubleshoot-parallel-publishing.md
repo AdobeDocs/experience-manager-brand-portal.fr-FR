@@ -11,9 +11,9 @@ discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
 source-git-commit: 72cd0ebbf05067287d94e1dc4e1b68f5fb6c2888
-workflow-type: ht
-source-wordcount: '953'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '960'
+ht-degree: 95%
 
 ---
 
@@ -33,21 +33,21 @@ Cependant, la publication peut échouer par intermittence en raison de tâches S
 
 ## Résolution des problèmes lors de la première publication : validation de la configuration de publication {#troubleshoot-failures-in-first-time-publishing-validating-your-publish-configuration}
 
-Pour valider vos configurations de publication :
+Pour valider vos configurations de publication :
 
-1. Vérifiez les journaux des erreurs.
+1. Vérifier les logs d&#39;erreur
 1. Vérifiez si l’agent de réplication est créé.
 1. Test de la connexion
 
 **Fin des journaux lors de la création du Cloud Service**
 
-Vérifiez la fin des journaux. Vérifiez si l’agent de réplication est créé. Si la création de l’agent de réplication échoue, modifiez le Cloud Service en y apportant des modifications mineures. Validez et vérifiez une nouvelle fois si l’agent de réplication est créé. Si tel n’est pas le cas, modifiez à nouveau le service.
+Consultez les journaux de fin. Vérifiez si l’agent de réplication est créé ou non. Si la création de l’agent de réplication échoue, modifiez le Cloud Service en y apportant des modifications mineures. Validez et vérifiez une nouvelle fois si l’agent de réplication est créé. Si tel n’est pas le cas, modifiez à nouveau le service.
 
 Si le Cloud Service n’est pas correctement configuré après des modifications répétées, soumettez un ticket de support.
 
 **Test de la connexion aux agents de réplication**
 
-Consultez le journal et si vous trouvez des erreurs dans le journal de réplication :
+Afficher le journal, si des erreurs se trouvent dans le journal de réplication :
 
 1. Contactez le service clientèle.
 
@@ -67,8 +67,7 @@ Si la publication échoue, cela est généralement dû au fait que l’utilisate
 
 1. Accédez à `localhost:4502/crx/de/` (à condition que vous exécutiez l’instance d’auteur sur localhost:4502:\
    i. Supprimez `/etc/replication/agents.author/mp_replication`
-ii. Supprimez 
-`/etc/cloudservices/mediaportal/<config_name>`
+ii. Supprimez `/etc/cloudservices/mediaportal/<config_name>`
 
 1. Accédez à localhost:4502/useradmin :\
    i. Recherchez l’utilisateur `mac-<tenantid>replication`

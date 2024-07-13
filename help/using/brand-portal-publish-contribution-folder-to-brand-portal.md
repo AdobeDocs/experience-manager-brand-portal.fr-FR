@@ -1,5 +1,5 @@
 ---
-title: 'Configuration et publication d’un dossier de contribution d’AEM Assets vers Brand Portal '
+title: Configuration et publication d’un dossier de contribution d’AEM Assets vers Brand Portal
 seo-title: Configure and publish contribution folder from Experience Manager Assets to Brand Portal
 description: Découvrez comment configurer et publier un dossier de contribution d’Experience Manager Assets vers Brand Portal.
 seo-description: Get an insight into configuring and publishing a contribution folder from Experience Manager Assets to Brand Portal.
@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
 source-git-commit: 3845d9fa17e75d59493383303ca0978349ca0401
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 100%
 
@@ -89,7 +89,7 @@ Les exigences en matière de ressources font référence aux détails fournis pa
 
 1. Connectez-vous à votre instance Experience Manager Assets.
 
-1. Accédez à **[!UICONTROL Ressources > Fichiers]** et localisez le dossier de contribution.
+1. Accédez à **[!UICONTROL Ressources > Fichiers]** et localisez le dossier de contribution.
 1. Sélectionnez le dossier de contribution et cliquez sur **[!UICONTROL Propriétés]** pour ouvrir la fenêtre Propriétés du dossier.
 
    ![](assets/properties.png)

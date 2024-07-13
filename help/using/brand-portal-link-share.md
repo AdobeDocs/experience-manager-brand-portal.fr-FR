@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
 source-git-commit: e3e35ad4be5c082ad7bac7bed8ea20a186d245ad
-workflow-type: ht
-source-wordcount: '969'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1073'
+ht-degree: 90%
 
 ---
 
@@ -43,9 +43,9 @@ Vous trouverez ci-dessous la procédure à suivre pour partager des ressources s
 
    ![](assets/link-sharing.png)
 
-   * Dans la zone d’e-mail, saisissez l’adresse e-mail de l’utilisateur avec lequel vous souhaitez partager le lien. Vous pouvez partager le lien avec plusieurs utilisateurs. Si l’utilisateur appartient à votre organisation, sélectionnez son e-mail dans la liste déroulante de suggestions qui s’affiche. Si l’utilisateur est externe à votre organisation, saisissez l’e-mail complet et appuyez sur **[!UICONTROL Entrée]** pour l’ajouter à la liste des utilisateurs.
+   * Dans la zone d’e-mail, saisissez l’adresse e-mail de l’utilisateur avec lequel vous souhaitez partager le lien. Vous pouvez partager le lien avec plusieurs utilisateurs. Si l’utilisateur ou l’utilisatrice fait partie de votre entreprise, sélectionnez son ID d’e-mail parmi les suggestions qui s’affichent dans la liste déroulante. Si l’utilisateur est externe à votre organisation, saisissez l’e-mail complet et appuyez sur **[!UICONTROL Entrée]** pour l’ajouter à la liste des utilisateurs.
 
-      ![](assets/link-sharing-text.png)
+     ![](assets/link-sharing-text.png)
 
    * Dans la zone **[!UICONTROL Objet]**, indiquez l’objet de la ressource que vous souhaitez partager.
    * Dans la zone **[!UICONTROL Message]**, vous pouvez, au besoin, saisir un message.
@@ -68,7 +68,7 @@ Vous trouverez ci-dessous la procédure à suivre pour partager des ressources s
 
 ## Téléchargement de ressources à partir de liens partagés {#download-assets-from-shared-links}
 
-Cliquez sur le lien de l’e-mail pour accéder à la ressource partagée. La page Partage de lien AEM s’ouvre.
+Cliquez sur le lien de l’e-mail pour accéder à la ressource partagée. La page Partage de liens d’AEM s’affiche.
 
 Pour télécharger les ressources partagées :
 
@@ -128,7 +128,7 @@ Pour télécharger les ressources partagées :
 
 ## Prise en charge des aperçus et des miniatures pour les formats de ressource {#preview-thumbnail-support}
 
-Le tableau suivant répertorie les formats de ressource pour lesquels Brand Portal prend en charge les miniatures et les aperçus :
+Le tableau suivant répertorie les formats de ressources pour lesquels Brand Portal prend en charge les miniatures et les aperçus :
 
 | Format de ressource | Prise en charge des miniatures | Prise en charge des aperçus |
 |--------------|-------------------|-----------------|
@@ -189,14 +189,14 @@ Le tableau suivant répertorie les formats de ressource pour lesquels Brand Por
 | TAR | N/A | ✕ |
 | ZIP | ✓ | ✕ |
 
-La légende suivante explique les symboles utilisés dans le tableau :
+La légende suivante explique les symboles utilisés dans la matrice :
 
 | Symbole | Signification |
 |---|---|
 | ✓ | Ce format de fichier prend en charge cette fonctionnalité. |
 | ✕ | Ce format de fichier ne prend pas en charge cette fonctionnalité. |
 | N/A | Cette fonctionnalité ne s’applique pas à ce format de fichier. |
-| &#42; | Cette fonctionnalité requiert la prise en charge d’un module complémentaire pour ce format de fichier sur une instance de création AEM, mais pas sur Brand Portal une fois que les ressources ont été publiées sur Brand Portal. |
+| &#42; | Cette fonctionnalité nécessite la prise en charge d’un module complémentaire pour ce format de fichier sur AEM instance d’auteur, mais pas sur Brand Portal une fois les ressources publiées sur Brand Portal. |
 
 ## Annulation du partage des ressources partagées en tant que lien {#unshare-assets-shared-as-a-link}
 

@@ -11,9 +11,9 @@ discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
 role: Admin
 exl-id: 9f5c2a6a-8844-4ca4-b0d9-8f50b6164219
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '762'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -69,8 +69,6 @@ En l’absence d’image de papier peint de marque personnalisée, un papier pei
 
    * Cliquez sur **[!UICONTROL Enregistrer]** pour enregistrer les modifications.
 
-
-
 ## Personnalisation de l’en-tête {#customize-the-header}
 
 L’en-tête apparaît sur différentes pages de Brand Portal une fois que vous êtes connecté à Brand Portal.
@@ -121,11 +119,9 @@ Pour enregistrer les modifications, cliquez sur **[!UICONTROL Enregistrer]** dan
 
    * Cliquez sur **[!UICONTROL Enregistrer]** pour enregistrer les modifications.
 
-
-
 ## Personnalisation des e-mails {#customize-the-email-messaging}
 
-Lorsque des ressources sont partagées en tant que lien, l’utilisateur reçoit un e-mail contenant le lien. Les administrateurs peuvent personnaliser les messages, c’est-à-dire le logo, la description et le pied de page de ces e-mails.
+Lorsque des ressources sont partagées en tant que lien, les utilisateurs reçoivent un courrier électronique contenant le lien. Les administrateurs peuvent personnaliser les messages, c’est-à-dire le logo, la description et le pied de page de ces e-mails.
 
 1. Dans la barre d’outils supérieure, cliquez sur le logo Experience Manager pour accéder aux outils d’administration.
 

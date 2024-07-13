@@ -11,9 +11,9 @@ discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 role: Admin
 exl-id: 35b1fd75-f9e4-4145-80bd-84de091f8b2b
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
-workflow-type: ht
-source-wordcount: '2185'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '2167'
+ht-degree: 93%
 
 ---
 
@@ -45,7 +45,7 @@ Si vous êtes administrateur de produit, utilisez Adobe [[!UICONTROL Admin Cons
 
 >[!NOTE]
 >
->Les nouveaux utilisateurs n’ayant pas accès à Brand Portal peuvent en demander l’accès dans l’écran de connexion de Brand Portal. Pour plus d’informations, voir [Demande d’accès à Brand Portal](../using/brand-portal.md#request-access-to-brand-portal). Une fois que vous avez reçu les notifications de demande d’accès dans votre zone de notification, cliquez sur la notification adéquate, puis sur **[!UICONTROL Autoriser l’accès]**. Vous pouvez également cliquer sur le lien figurant dans l’e-mail de demande d’accès reçu. Ensuite, pour ajouter un utilisateur par le biais d’[Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview), suivez les étapes 4 à 7 de la procédure ci-dessous.
+>Les nouveaux utilisateurs qui n’ont pas accès à Brand Portal peuvent en demander l’accès depuis l’écran de connexion de Brand Portal. Pour plus d&#39;informations, voir [Demande d&#39;accès à Brand Portal](../using/brand-portal.md#request-access-to-brand-portal). Une fois que vous avez reçu les notifications de demande d’accès dans votre zone de notification, cliquez sur la notification adéquate, puis sur **[!UICONTROL Autoriser l’accès]**. Vous pouvez également cliquer sur le lien figurant dans l’e-mail de demande d’accès reçu. Ensuite, pour ajouter un utilisateur par le biais d’[Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview), suivez les étapes 4 à 7 de la procédure ci-dessous.
 
 >[!NOTE]
 >
@@ -156,8 +156,6 @@ Pour ajouter des utilisateurs à un groupe Brand Portal, ajoutez-les au profil 
 
    * Cliquez sur **[!UICONTROL Enregistrer]**.
 
-
-
 1. Pour ajouter des utilisateurs en bloc au profil de produit, procédez comme suit :
 
    * Sélectionnez les points de suspension **[!UICONTROL (…) > Ajouter utilisateurs par CSV]**.
@@ -169,9 +167,10 @@ Pour ajouter des utilisateurs à un groupe Brand Portal, ajoutez-les au profil 
    ![Ajout d’utilisateurs par csv](assets/admin_console_addbulkuserscsv.png)
 
    * Cliquez sur **[!UICONTROL Charger]**.
+
    Si vous avez ajouté des utilisateurs au profil de produit par défaut, c’est-à-dire Brand Portal, un e-mail de bienvenue est envoyé à l’adresse e-mail des utilisateurs ajoutés. Les utilisateurs invités peuvent accéder à Brand Portal en cliquant sur le lien contenu dans l’e-mail de bienvenue et en se connectant à l’aide d’un [!UICONTROL Adobe ID]. Pour plus d’informations, voir [Première connexion](../using/brand-portal-onboarding.md).
 
-   Les utilisateurs ajoutés à un nouveau profil de produit ou à un profil de produit personnalisé ne reçoivent pas de notifications par e-mail.
+   Les utilisateurs ajoutés à un profil de produit personnalisé ou à un nouveau profil de produit ne reçoivent pas de notifications par courrier électronique.
 
 ## Octroi de privilèges d’administrateur aux utilisateurs {#provide-administrator-privileges-to-users}
 
@@ -215,7 +214,7 @@ Vous pouvez accorder à un utilisateur de Brand Portal le privilège d’admini
 
    >[!NOTE]
    >
-   >Brand Portal ne prend pas en charge les privilèges d’administrateur de profil de produit (auparavant appelé administrateur de configuration). Évitez d’attribuer des droits d’administrateur de profil de produit à un utilisateur.
+   >Brand Portal ne prend pas en charge les privilèges d’administrateur de profil de produit (auparavant appelé administrateur de configuration). Évitez d’attribuer des droits d’administrateur de profil de produit à un utilisateur.
 
 1. Vérifiez la sélection du type d’administrateur, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
@@ -226,9 +225,9 @@ Vous pouvez accorder à un utilisateur de Brand Portal le privilège d’admini
 
 ## Gestion des rôles utilisateur {#manage-user-roles}
 
-Un administrateur peut modifier les rôles des utilisateurs dans Brand Portal.
+Un administrateur peut modifier les rôles des utilisateurs dans Brand Portal.
 
-En plus du rôle Administrateur, Brand Portal prend en charge les rôles suivants :
+Outre le rôle Administrateur, Brand Portal prend en charge les rôles suivants :
 
 * [!UICONTROL Observateur] : les utilisateurs disposant de ce rôle peuvent afficher les fichiers et dossiers qu’un administrateur partage avec eux. Les observateurs peuvent également rechercher et télécharger des ressources. Toutefois, ils ne peuvent pas partager de contenu (fichiers, dossiers et [!UICONTROL collections]) avec d’autres utilisateurs.
 * [!UICONTROL Éditeur] : les utilisateurs disposant de ce rôle possèdent tous les privilèges d’un observateur. En complément, les éditeurs peuvent partager du contenu (dossiers, [!UICONTROL collections] et liens) avec d’autres utilisateurs.
@@ -249,12 +248,12 @@ En plus du rôle Administrateur, Brand Portal prend en charge les rôles suivan
 
    >[!NOTE]
    >
-   >La liste [!UICONTROL Rôle] des utilisateurs Administrateur est désactivée. Vous ne pouvez pas sélectionner ces utilisateurs pour modifier leur rôle.
+   >La liste [!UICONTROL Rôle] pour les utilisateurs administrateurs est désactivée. Vous ne pouvez pas sélectionner ces utilisateurs pour modifier leurs rôles.
 
 
    >[!NOTE]
    >
-   >Le rôle utilisateur est également désactivé si l’utilisateur est membre du groupe Éditeur. Pour retirer les privilèges d’édition d’un utilisateur, supprimez l’utilisateur du groupe Éditeur ou modifiez le rôle du groupe entier en Observateur.
+   >Le rôle d’utilisateur est également désactivé si l’utilisateur est membre du groupe Éditeur . Pour retirer les privilèges d’édition d’un utilisateur, supprimez l’utilisateur du groupe Éditeur ou modifiez le rôle du groupe entier en Observateur.
 
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**. Le rôle est modifié pour l’utilisateur en question. Si vous avez sélectionné plusieurs utilisateurs, les rôles de tous les utilisateurs sont modifiés simultanément.
@@ -272,7 +271,7 @@ Un administrateur peut associer des privilèges spécifiques à un [groupe](../u
 
 >[!NOTE]
 >
->Pour les ressources partagées sous forme de liens, l’autorisation d’accès aux rendus originaux des fichiers images s’applique selon les autorisations de l’utilisateur qui partage les ressources.
+>Pour les ressources partagées en tant que lien, l’autorisation d’accès aux rendus originaux des fichiers image s’applique en fonction des autorisations de l’utilisateur qui partage les ressources.
 
 Pour modifier le rôle et le droit d’accès aux rendus originaux pour des membres de groupes spécifiques, procédez comme suit :
 

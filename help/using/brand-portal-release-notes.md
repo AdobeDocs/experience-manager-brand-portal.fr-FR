@@ -367,7 +367,7 @@ L’interface utilisateur de Brand Portal est disponible dans les langues suiva
 * Français
 * Espagnol
 * Italien
-* Portugais (Brésil)
+* Portugais brésilien
 * Japonais
 * Chinois simplifié
 * Coréen

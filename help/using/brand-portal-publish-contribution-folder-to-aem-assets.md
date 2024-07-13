@@ -11,8 +11,8 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
 source-git-commit: 606f4389780025f5cf92b11bf8cac464e36be44a
-workflow-type: ht
-source-wordcount: '1471'
+workflow-type: tm+mt
+source-wordcount: '1475'
 ht-degree: 100%
 
 ---
@@ -138,19 +138,19 @@ Les administrateurs peuvent utiliser deux rapports pour afficher l’état des d
 
 * Dans le Brand Portal, accédez à **[!UICONTROL Outils]** > **[!UICONTROL État de contribution des ressources]**. Ce rapport reflète l’état de toutes les tâches de publication à différentes étapes du processus de publication.
 
-   ![](assets/contribution-folder-status-v2.png)
+  ![](assets/contribution-folder-status-v2.png)
 
 * Dans Experience Manager Assets (On-Premise ou Managed Service), accédez à **[!UICONTROL Ressources]** > **[!UICONTROL Tâches]**. Ce rapport reflète l’état final (Réussite ou Erreur) de toutes les tâches de publication.
 
-   ![](assets/publishing-status.png)
+  ![](assets/publishing-status.png)
 
 * Dans Experience Manager Assets as a Cloud Service, accédez à **[!UICONTROL Ressources]** > **[!UICONTROL Tâches]**.
 
-   Vous pouvez également accéder directement à **[!UICONTROL Tâches]** à partir de la navigation globale.
+  Vous pouvez également accéder directement à **[!UICONTROL Tâches]** à partir de la navigation globale.
 
-   Ce rapport reflète l’état final (Succès ou Erreur) de toutes les tâches de publication, y compris de l’importation de ressources de Brand Portal vers Experience Manager Assets as a Cloud Service.
+  Ce rapport reflète l’état final (Succès ou Erreur) de toutes les tâches de publication, y compris de l’importation de ressources de Brand Portal vers Experience Manager Assets as a Cloud Service.
 
-   ![](assets/cloud-service-job-status.png)
+  ![](assets/cloud-service-job-status.png)
 
 <!--
 >[!NOTE]
@@ -169,7 +169,7 @@ Brand Portal exécute désormais des tâches automatiques toutes les douze heure
 * Nombre total de ressources supprimées dans une tâche.
 * Stockage total mis à disposition suite à l’exécution de la tâche.
 
-   ![Rapport de suppression](assets/deletion-reports.png)
+  ![Rapport de suppression](assets/deletion-reports.png)
 
 Vous pouvez également afficher plus de détails sur chaque ressource incluse dans une tâche de suppression. Des détails tels que le titre, la taille, l’auteur, le statut de suppression et la durée de suppression de la ressource sont inclus dans le rapport.
 
@@ -179,7 +179,6 @@ Vous pouvez également afficher plus de détails sur chaque ressource incluse da
 >
 > * Les clients peuvent demander au service clientèle d’Adobe de désactiver et de réactiver la fonctionnalité de suppression automatique ou de modifier la fréquence d’exécution de celle-ci.
 > * Cette fonctionnalité est disponible avec Experience Manager 6.5.13.0 et versions ultérieures.
-
 
 ### Afficher et télécharger des rapports de suppression {#view-delete-jobs}
 

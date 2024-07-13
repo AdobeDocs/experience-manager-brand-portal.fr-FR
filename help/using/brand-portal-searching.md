@@ -1,7 +1,7 @@
 ---
 title: Recherche de ressources sur Brand Portal
 seo-title: Asset searching and saved search on Experience Manager Assets Brand Portal
-description: La fonctionnalité de recherche de Brand Portal vous permet de rechercher rapidement des ressources appropriées au moyen de l’omni-recherche. Les filtres de recherche vous permettent d’affiner encore davantage votre recherche. Enregistrez vos recherches sous la forme de collections dynamiques pour une utilisation ultérieure.
+description: La fonctionnalité de recherche de Brand Portal vous permet de rechercher rapidement des ressources appropriées au moyen de l’omni-recherche. Les filtres de recherche vous permettent d’affiner encore davantage votre recherche. Enregistrez vos recherches en tant que collections dynamiques pour une utilisation ultérieure.
 seo-description: Brand Portal search capability lets you quickly search for relevant assets using omnisearch, and search filters help you further narrow down your search. Save your searches as smart collections for future.
 uuid: c2955198-bdc0-4853-a13a-661e6a9ec61f
 contentOwner: bdhar
@@ -12,8 +12,8 @@ discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
 source-git-commit: cbdd943b904882cc9a455bab24c3cf732d5966ca
 workflow-type: tm+mt
-source-wordcount: '1358'
-ht-degree: 100%
+source-wordcount: '1341'
+ht-degree: 97%
 
 ---
 
@@ -44,7 +44,6 @@ Pour rechercher des ressources sur Brand Portal :
    >* Pour que des suggestions de recherche s’affichent, au moins 3 caractères sont nécessaires dans l’omni-recherche.
    >* Lorsque vous recherchez `mountain biking`, Omnisearch renvoie toutes les ressources des résultats de la recherche qui contiennent `mountain` et `biking` dans les champs de métadonnées (par exemple, `mountain` dans le champ `Title` et `biking` dans le champ `Description`). Les deux termes doivent être disponibles dans les champs de métadonnées pour s’afficher dans les résultats de la recherche. Cependant, Omnnisearch renvoie la ressource dans les résultats de la recherche même si un seul des deux termes est disponible dans le champ de métadonnées Balises intelligentes. Par exemple, si une ressource contient `mountain` comme l’une des balises intelligentes et ne contient pas `biking` dans tout autre champ de métadonnées et que vous recherchez `mountain biking`, Omnisearch renvoie toujours la ressource dans les résultats de la recherche.
 
-
 1. Pour accéder rapidement aux ressources qui vous intéressent, choisissez l’une des suggestions associées qui apparaissent dans la liste déroulante.
 
    ![](assets/assets-search-result.png)
@@ -57,7 +56,7 @@ Pour en savoir plus sur le comportement de la recherche avec des ressources avec
 
 Les facettes de recherche du panneau Filtres ajoutent de la granularité à votre expérience de recherche et optimisent la fonctionnalité de recherche. Elles utilisent plusieurs dimensions (prédicats) qui vous permettent d’effectuer des recherches complexes. Vous pouvez facilement descendre dans la hiérarchie jusqu’au niveau de détail souhaité pour effectuer une recherche plus précise.
 
-Par exemple, si vous recherchez une image, vous pouvez indiquer si vous souhaitez une image bitmap ou vectorielle. Vous pouvez réduire davantage la portée de la recherche en spécifiant le type MIME de l’image dans la facette de recherche Type de fichier. De même, lors de la recherche de documents, vous pouvez spécifier le format, par exemple PDF ou MS® Word.
+Par exemple, si vous recherchez une image, vous pouvez choisir si vous souhaitez une bitmap ou une image vectorielle. Vous pouvez réduire davantage la portée de la recherche en spécifiant le type MIME de l’image dans la facette de recherche Type de fichier. De même, lors de la recherche de documents, vous pouvez spécifier le format, par exemple PDF ou MS® Word.
 
 ![Panneau Filtres dans Brand Portal](assets/file-type-search.png "Panneau Filtres dans Brand Portal")
 
@@ -73,6 +72,7 @@ Pour appliquer des filtres à votre recherche avec les [facettes de recherche](.
 Par exemple, utilisez les filtres standard suivants :
 
    * **[!UICONTROL Explorateur de chemins d’accès]** pour rechercher des ressources dans un répertoire donné. Le chemin de recherche par défaut du prédicat pour l’Explorateur de chemins d’accès est `/content/dam/mac/<tenant-id>/`, mais il peut être configuré en modifiant le formulaire de recherche par défaut.
+
    >[!NOTE]
    >
    >Pour les utilisateurs non administrateurs, l’[!UICONTROL Explorateur de chemins d’accès] du panneau [!UICONTROL Filtres] affiche seulement la structure de contenu des dossiers (et de leurs ancêtres) partagés avec l’utilisateur.\
@@ -89,22 +89,21 @@ Par exemple, utilisez les filtres standard suivants :
    Vous pouvez utiliser des [facettes de recherche personnalisées](../using/brand-portal-search-facets.md) dans le panneau Filtres en modifiant le formulaire de recherche sous-jacent.
 
    * S’il est utilisé dans le formulaire de recherche, le **[!UICONTROL prédicat de propriété]** permet de rechercher des ressources qui correspondent à une propriété de métadonnées sur laquelle est mappée le prédicat.\
-      Par exemple, si l’attribut Propriété est mappé sur [!UICONTROL `jcr:content /metadata/dc:title`], vous pouvez rechercher des fichiers en fonction de leur titre.\
-      [!UICONTROL Prédicat de propriété] prend en charge les recherches de texte pour les éléments suivants :
+     Par exemple, si l’attribut Propriété est mappé sur [!UICONTROL `jcr:content /metadata/dc:title`], vous pouvez rechercher des fichiers en fonction de leur titre.\
+     [!UICONTROL Prédicat de propriété] prend en charge les recherches de texte pour les éléments suivants :
 
-      **Expressions partielles**
+     **Expressions partielles**
 Pour permettre la recherche de ressources à l’aide d’expressions partielles dans le prédicat de propriété, cochez la case **[!UICONTROL Recherche partielle]** dans le formulaire de recherche. Vous pouvez ainsi rechercher les ressources souhaitées même si vous ne spécifiez pas les mots/expressions exacts utilisés dans les métadonnées de la ressource.
 
-      >[!NOTE]
-      >
-      > Brand Portal prend en charge les champs suivants concernant la recherche partielle :
-      >* jcr:content/metadata/dc:title
-      >* jcr:contenu/jcr:titre
-      >* jcr:content/metadata/dam:search_promote
-      >* jcr:content/metadata/dc:format
+     >[!NOTE]
+     >
+     > Brand Portal prend en charge les champs suivants concernant la recherche partielle :
+     >* jcr:content/metadata/dc:title
+     >* jcr:contenu/jcr:titre
+     >* jcr:content/metadata/dam:search_promote
+     >* jcr:content/metadata/dc:format
 
-
-      Vous pouvez :
+     Vous pouvez :
       * Spécifier un mot apparaissant dans l’expression recherchée dans la facette du panneau Filtres. Par exemple, si vous recherchez le terme **climb** (et que le prédicat de propriété est mappé sur la propriété [!UICONTROL `dc:title`]), toutes les ressources ayant le mot **climb** dans l’expression de leur titre sont renvoyées.
       * Spécifier une partie du mot apparaissant dans l’expression recherchée, ainsi qu’un caractère générique (&#42;) pour remplir les trous.
 Par exemple, la recherche de :
@@ -112,19 +111,20 @@ Par exemple, la recherche de :
          * **&#42;climb** renvoie toutes les ressources ayant des mots se terminant par « climb » dans leur titre.
          * **&#42;climb&#42;** renvoie toutes les ressources ayant des mots comprenant les caractères « climb » dans leur titre.
 
-Pour permettre la recherche non sensible à la casse dans les prédicats de propriété, cochez la case       **Texte insensible à la casse** 
+     **Texte insensible à la casse** 
 Pour autoriser une recherche insensible à la casse dans le prédicat de propriété, cochez la case **[!UICONTROL Ignorer la casse]** dans le formulaire de recherche. Par défaut, la recherche de texte sur le prédicat de propriété est sensible à la casse.
+
    >[!NOTE]
    >
    >Lorsque vous cochez la case **[!UICONTROL Recherche partielle]**, l’option **[!UICONTROL Ignorer la casse]** est sélectionnée par défaut.
 
    ![](assets/wildcard-prop-1.png)
 
-   Les résultats de la recherche sont affichés en fonction des filtres appliqués, avec le nombre de résultats.
+   Les résultats de la recherche sont affichés en fonction des filtres appliqués, ainsi que du nombre de résultats de la recherche.
 
    ![](assets/omnisearch-with-filters.png)
 
-   Résultat de la recherche de ressources avec le nombre de résultats.
+   Résultat de la recherche de ressources avec le nombre de résultats de la recherche.
 
 1. Vous pouvez facilement accéder à un élément du résultat de recherche et revenir à ce même résultat à l’aide du bouton Précédent de votre navigateur sans avoir à relancer la requête de recherche.
 

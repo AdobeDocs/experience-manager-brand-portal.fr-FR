@@ -1,8 +1,8 @@
 ---
 title: Gestion de la collection Lightbox
-seo-title: Gestion de la collection Lightbox
+seo-title: Manage the lightbox collection
 description: Lightbox est un type spécial de collection fournissant un accès aisé aux ressources. Chaque utilisateur dispose d’une Lightbox exclusive qui est automatiquement créée lorsqu’il se connecte pour la première fois à Brand Portal. La collection Lightbox ne peut pas être supprimée.
-seo-description: Lightbox est un type spécial de collection fournissant un accès aisé aux ressources. Chaque utilisateur dispose d’une Lightbox exclusive qui est automatiquement créée lorsqu’il se connecte pour la première fois à Brand Portal. La collection Lightbox ne peut pas être supprimée.
+seo-description: Lightbox is a special type of collection that provides easy access to assets. Each user has an exclusive lightbox that is automatically created when they log in to Brand Portal for the first time. The Lightbox collection cannot be deleted.
 uuid: c074e45e-e63c-4856-947f-5e9e27bc46fb
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -11,8 +11,8 @@ discoiquuid: ed79b120-a1c1-479c-a843-6546dcc660d7
 role: Admin
 exl-id: 84160b81-e321-4920-9a86-e4cce3fa874c
 source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
-workflow-type: ht
-source-wordcount: '284'
+workflow-type: tm+mt
+source-wordcount: '240'
 ht-degree: 100%
 
 ---

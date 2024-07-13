@@ -1,7 +1,7 @@
 ---
 title: Application de paramètres d’image prédéfinis ou de rendus dynamiques
 seo-title: Apply image presets or dynamic renditions
-description: 'Tout comme une macro, un paramètre d’image prédéfini est un ensemble prédéfini de commandes de dimensionnement et de formatage enregistrées sous un nom. Les paramètres d’image prédéfinis permettent à Experience Manager Assets Brand Portal de fournir dynamiquement des images ayant des tailles, des propriétés et des formats différents. '
+description: Tout comme une macro, un paramètre d’image prédéfini est un ensemble prédéfini de commandes de dimensionnement et de formatage enregistrées sous un nom. Les paramètres d’image prédéfinis permettent à Experience Manager Assets Brand Portal de fournir dynamiquement des images ayant des tailles, des propriétés et des formats différents.
 seo-description: Like a macro, an image preset is a predefined collection of sizing and formatting commands saved under a name. Image presets enable Experience Manager Assets Brand Portal to dynamically deliver images of different sizes, formats, and properties.
 uuid: a3c8705c-5fbd-472c-8b61-f65b3e552c1b
 content-type: reference
@@ -11,9 +11,9 @@ discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 role: Admin
 exl-id: 212a1b3a-686f-4250-be06-b679b6039887
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
-workflow-type: ht
-source-wordcount: '814'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '816'
+ht-degree: 83%
 
 ---
 
@@ -21,20 +21,20 @@ ht-degree: 100%
 
 Tout comme une macro, un paramètre d’image prédéfini est un ensemble prédéfini de commandes de dimensionnement et de formatage enregistrées sous un nom. Les paramètres d’image prédéfinis permettent à Experience Manager Assets Brand Portal de fournir dynamiquement des images ayant des tailles, des propriétés et des formats différents.
 
-Un paramètre d’image prédéfini est utilisé pour générer des rendus dynamiques d’images qui peuvent être prévisualisées et téléchargées. Lorsque vous prévisualisez des images et leurs rendus, vous pouvez choisir un paramètre prédéfini en vue de reformater les images selon les spécifications définies par l’administrateur.
+Un paramètre d’image prédéfini est utilisé pour générer des rendus dynamiques d’images qui peuvent être prévisualisées et téléchargées. Lors de la prévisualisation d’images et de leurs rendus, vous pouvez choisir un paramètre prédéfini pour reformater les images selon les spécifications définies par votre administrateur.
 
 (*Si l’instance d’auteur Experience Manager Assets est en cours d’exécution en **mode hybride Dynamic Media***) Pour afficher les rendus dynamiques d’une ressource dans Brand Portal, vérifiez que son rendu PTIFF (Pyramid TIFF) existe dans l’instance d’auteur Experience Manager Assets à partir de laquelle vous procédez à la publication sur Brand Portal. Lorsque vous publiez une ressource, son rendu PTIFF est également publié sur Brand Portal.
 
 >[!NOTE]
 >
->Lorsque vous téléchargez des images et leurs rendus, il n’existe aucune option pour les paramètres prédéfinis existants. Vous pouvez en revanche spécifier les propriétés d’un paramètre prédéfini d’image personnalisé. Pour plus d’informations, voir [Application de paramètres d’image prédéfinis lors du téléchargement d’images](../using/brand-portal-image-presets.md#main-pars-text-1403412644).
+>Lorsque vous téléchargez des images et leurs rendus, il n’existe aucune option pour choisir parmi les paramètres prédéfinis existants. Vous pouvez plutôt spécifier les propriétés d’un paramètre d’image prédéfini personnalisé. Pour plus d’informations, voir [Application de paramètres d’image prédéfinis lors du téléchargement d’images](../using/brand-portal-image-presets.md#main-pars-text-1403412644).
 
 
 Pour plus d’informations sur les paramètres requis lors de la création de paramètres d’image prédéfinis, voir [Gestion des paramètres d’image prédéfinis](../using/brand-portal-image-presets.md).
 
 ## Création d’un paramètre d’image prédéfini {#create-an-image-preset}
 
-Les administrateurs Experience Manager Assets peuvent créer des paramètres d’image prédéfinis qui apparaissent comme des rendus dynamiques sur la page des détails des ressources. Vous pouvez créer entièrement un paramètre d’image prédéfini ou en enregistrer un existant sous un nouveau nom. Lors de la création d’un paramètre d’image prédéfini, choisissez une taille pour la diffusion des images et les commandes de formatage. Lorsqu’une image est diffusée en vue d’être affichée, son aspect est optimisé selon les commandes sélectionnées.
+Les administrateurs Experience Manager Assets peuvent créer des paramètres d’image prédéfinis qui apparaissent comme des rendus dynamiques sur la page des détails des ressources. Vous pouvez créer entièrement un paramètre d’image prédéfini ou en enregistrer un existant avec un nouveau nom. Lors de la création d’un paramètre d’image prédéfini, choisissez la taille de la diffusion de l’image et les commandes de formatage. Lorsqu’une image est diffusée en vue d’être affichée, son aspect est optimisé selon les commandes sélectionnées.
 
 >[!NOTE]
 >
@@ -100,7 +100,7 @@ Lorsque vous téléchargez des images et leurs rendus à partir de Brand Portal
    ![](assets/donload-assets-dialog.png)
 
 1. Pour télécharger des rendus dynamiques de la ressource, sélectionnez l’option **[!UICONTROL Rendu(s) dynamique(s)]**.
-1. Personnalisez les propriétés du paramètre d’image prédéfini sur lesquelles vous souhaitez reformater dynamiquement l’image et ses rendus lors du téléchargement. Indiquez la taille, le format, l’espace colorimétrique, la résolution et le modificateur d’image.
+1. Personnalisez les propriétés des paramètres d’image prédéfinis en fonction desquels vous souhaitez reformater dynamiquement l’image et ses rendus lors du téléchargement. Spécifiez la taille, le format, l’espace colorimétrique, la résolution et le modificateur d’image.
 
    ![](assets/dynamicrenditions.png)
 

@@ -12,9 +12,9 @@ discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
 role: Admin
 exl-id: 5607be8e-0a7f-4692-b71b-5f66eb9ac5ee
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 100%
+ht-degree: 85%
 
 ---
 
@@ -41,7 +41,7 @@ Ces fonctionnalités sont proposées sous la forme de configurations de **[!UICO
 
 ## Activation/désactivation des configurations générales {#enable-disable-general-configurations}
 
-Pour activer/désactiver chacune de ces configurations :
+Pour activer/désactiver chacune de ces configurations :
 
 1. Connectez-vous avec les privilèges d’administrateur.
 1. Sélectionnez le logo Experience Manager pour accéder aux outils d’administration dans la barre d’outils supérieure.
@@ -56,11 +56,11 @@ La configuration **[!UICONTROL Autoriser les utilisateurs à supprimer]** permet
 
 ## Autorisation de la création de collections publiques par les utilisateurs non-administrateurs {#allow-public-collections-creation-by-non-admins}
 
-La configuration [[!UICONTROL Autoriser la création de collections publiques]](../using/brand-portal-share-collection.md#main-pars-text-1915052376) contrôle si les utilisateurs non-administrateurs peuvent créer des collections publiques sur Brand Portal. La configuration est activée par défaut. En la désactivant, les organisations peuvent éviter d’avoir de nombreuses collections publiques sur leur portail afin d’économiser l’espace du système.
+La configuration [[!UICONTROL Autoriser la création de collections publiques]](../using/brand-portal-share-collection.md#main-pars-text-1915052376) contrôle si les utilisateurs non-administrateurs peuvent créer des collections publiques sur Brand Portal. La configuration est activée par défaut. En désactivant la configuration, les organisations peuvent éviter d’avoir de nombreuses collections publiques sur leur portail afin d’économiser de l’espace système.
 
 ## Autorisation de la création de collections dynamiques publiques par les utilisateurs non administrateurs {#allow-public-smart-collections-creation-by-non-admins}
 
-La configuration [[!UICONTROL Autoriser la création de collections dynamiques publiques]](../using/brand-portal-searching.md#main-pars-header-500620467) contrôle si les non-administrateurs peuvent enregistrer leurs recherches sous la forme de collections dynamiques et les rendre publiques pour ce client. La configuration est activée par défaut. En la désactivant, les organisations peuvent éviter la création d’un nombre très important de collections dynamiques publiques par les utilisateurs non-administrateurs sur le Brand Portal de l’organisation.
+La configuration [[!UICONTROL Autoriser la création de collections dynamiques publiques]](../using/brand-portal-searching.md#main-pars-header-500620467) contrôle si les non-administrateurs peuvent enregistrer leurs recherches sous la forme de collections dynamiques et les rendre publiques pour ce client. La configuration est activée par défaut. En la désactivant, les organisations peuvent éviter la création d’un grand nombre de collections dynamiques publiques par les utilisateurs non-administrateurs sur le Brand Portal de l’organisation.
 
 <!-- 
 ## Allow download acceleration {#allow-download-acceleration}

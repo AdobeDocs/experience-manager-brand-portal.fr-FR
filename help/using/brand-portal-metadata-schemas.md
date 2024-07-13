@@ -1,7 +1,7 @@
 ---
 title: Utilisation du formulaire de schéma de métadonnées
 seo-title: Use the metadata schema form
-description: Un schéma de métadonnées décrit la disposition de la page Propriétés et des propriétés de métadonnées affichées pour les ressources qui utilisent ce schéma en particulier. Le schéma que vous appliquez à une ressource détermine les champs de métadonnées qui s’affichent sur sa page Propriétés.
+description: Un schéma de métadonnées décrit la disposition de la page Propriétés et des propriétés de métadonnées affichées pour les ressources qui utilisent ce schéma en particulier. Le schéma que vous appliquez à une ressource détermine les champs de métadonnées qui apparaissent sur sa page Propriétés.
 seo-description: A metadata schema describes the layout of the Properties page and the metadata properties displayed for assets that use the particular schema. The schema that you apply to an asset determines the metadata fields that appear on its Properties page.
 uuid: 1a944a3b-5152-425f-b1ea-bfe3331de928
 content-type: reference
@@ -11,15 +11,15 @@ discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
 role: Admin
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
-workflow-type: ht
-source-wordcount: '1718'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1719'
+ht-degree: 80%
 
 ---
 
 # Utilisation du formulaire de schéma de métadonnées {#use-the-metadata-schema-form}
 
-Un schéma de métadonnées décrit la disposition de la page Propriétés et des propriétés de métadonnées affichées pour les ressources qui utilisent ce schéma en particulier. Le schéma que vous appliquez à une ressource détermine les champs de métadonnées qui s’affichent sur sa page Propriétés.
+Un schéma de métadonnées décrit la disposition de la page Propriétés et des propriétés de métadonnées affichées pour les ressources qui utilisent ce schéma en particulier. Le schéma que vous appliquez à une ressource détermine les champs de métadonnées qui apparaissent sur sa page Propriétés.
 
 La page **[!UICONTROL Propriétés]** de chaque ressource comprend des propriétés de métadonnées par défaut selon le type MIME de la ressource. Les administrateurs peuvent utiliser l’éditeur de schéma de métadonnées pour modifier des schémas existants ou ajouter des schémas de métadonnées personnalisés. Experience Manager Assets Brand Portal fournit des formulaires par défaut pour les ressources de différents types MIME. Vous pouvez toutefois ajouter des formulaires personnalisés pour ces ressources.
 
@@ -45,11 +45,11 @@ Pour créer un formulaire de schéma de métadonnées, procédez comme suit :
 
 ## Modification d’un formulaire de schéma de métadonnées {#edit-a-metadata-schema-form}
 
-Vous pouvez modifier un formulaire de schéma de métadonnées existant ou nouvellement ajouté. Le formulaire de schéma de métadonnées comporte le contenu dérivé de son parent, notamment les éléments d’onglet et de formulaire dans les onglets. Vous pouvez mapper ou configurer ces éléments de formulaire dans un champ au sein d’un nœud de métadonnées.
+Vous pouvez modifier un formulaire de schéma de métadonnées existant ou nouvellement ajouté. Le formulaire de schéma de métadonnées comporte le contenu dérivé de son parent, notamment les éléments d’onglet et de formulaire dans les onglets. Vous pouvez mapper ou configurer ces éléments de formulaire à un champ dans un noeud de métadonnées.
 
-Vous pouvez ajouter des onglets ou des éléments de formulaire au formulaire de schéma de métadonnées. Les onglets et les éléments de formulaire dérivés (du parent) sont verrouillés. Vous ne pouvez pas les modifier au niveau enfant.
+Vous pouvez ajouter de nouveaux onglets ou éléments de formulaire au formulaire de schéma de métadonnées. Les onglets et éléments de formulaire dérivés (du parent) sont à l’état verrouillé. Vous ne pouvez pas les modifier au niveau des enfants.
 
-Pour modifier un formulaire de schéma de métadonnées, procédez comme suit :
+Pour modifier un formulaire de schéma de métadonnées, procédez comme suit :
 
 1. Dans la barre d’outils supérieure, cliquez sur le logo Experience Manager pour accéder aux outils d’administration.
 
@@ -104,7 +104,7 @@ Pour modifier les propriétés d’un composant de métadonnées dans le formula
 
 * **[!UICONTROL Libellé du champ]** : nom de la propriété de métadonnées affiché dans la page Propriétés de la ressource.
 
-* **[!UICONTROL Associer à la propriété]** : la valeur de cette propriété fournit le chemin ou nom relatif du nœud de ressource où elle est enregistrée dans le référentiel CRX. Elle commence par « **./** », car elle indique que le chemin se trouve sous le nœud de la ressource.
+* **[!UICONTROL Associer à la propriété]** : la valeur de cette propriété fournit le chemin/nom relatif au noeud de ressource où elle est enregistrée dans le référentiel CRX. Elle commence par « **./**&quot; car indique que le chemin d’accès se trouve sous le noeud de la ressource.
 
 Les valeurs admises pour cette propriété sont les suivantes :
 
@@ -139,9 +139,9 @@ Le formulaire de schéma par défaut contient les onglets **[!UICONTROL De base]
 
 ## Application d’un schéma de métadonnées à un dossier {#apply-a-metadata-schema-to-a-folder}
 
-Brand Portal permet de personnaliser et de contrôler le schéma de métadonnées afin que la page **[!UICONTROL Propriétés]** d’une ressource n’affiche que les informations spécifiques que vous souhaitez montrer. Pour contrôler les métadonnées affichées dans la page **[!UICONTROL Propriétés]**, supprimez les métadonnées requises du formulaire de schéma de métadonnées et appliquez-les au dossier spécifique.
+Brand Portal vous permet de personnaliser et de contrôler le schéma de métadonnées afin que la page **[!UICONTROL Propriétés]** d’une ressource affiche uniquement les informations spécifiques que vous choisissez de révéler. Pour contrôler les métadonnées affichées dans la page **[!UICONTROL Propriétés]**, supprimez les métadonnées requises du formulaire de schéma de métadonnées et appliquez-les au dossier spécifique.
 
-Pour appliquer un formulaire de schéma de métadonnées à un dossier, procédez comme suit :
+Pour appliquer un formulaire de schéma de métadonnées à un dossier, procédez comme suit :
 
 1. Dans la barre d’outils supérieure, cliquez sur le logo Experience Manager pour accéder aux outils d’administration.
 
@@ -167,11 +167,11 @@ Pour appliquer un formulaire de schéma de métadonnées à un dossier, procéde
 
 >[!NOTE]
 >
->Si vous appliquez un schéma qui comporte des schémas imbriqués à un dossier contenant des fichiers vidéo, les propriétés de métadonnées des fichiers vidéo peuvent ne pas s’afficher correctement. Pour veiller à ce que les propriétés de métadonnées s’affichent correctement, supprimez les schémas imbriqués et appliquez uniquement le schéma parent au dossier.
+>Si vous appliquez un schéma qui inclut des schémas imbriqués à un dossier contenant des fichiers vidéo, les propriétés de métadonnées des fichiers vidéo peuvent ne pas s’afficher correctement. Pour garantir le rendu correct des propriétés de métadonnées, supprimez les schémas imbriqués et appliquez uniquement le schéma parent au dossier.
 
 ## Suppression d’un formulaire de schéma de métadonnées {#delete-a-metadata-schema-form}
 
-Brand Portal vous permet uniquement de supprimer des formulaires de schéma personnalisés. Il ne vous permet pas de supprimer les formulaires/modèles de schéma par défaut. Cependant, vous pouvez supprimer toutes les modifications personnalisées dans ces formulaires.
+Brand Portal vous permet uniquement de supprimer des formulaires de schéma personnalisés. Elle ne permet pas de supprimer les modèles/formulaires de schéma par défaut. Cependant, vous pouvez supprimer toutes les modifications personnalisées dans ces formulaires.
 
 Pour supprimer un formulaire, sélectionnez-le puis cliquez sur l’icône **[!UICONTROL Supprimer]**.
 
@@ -189,7 +189,7 @@ En plus des formulaires par défaut, vous pouvez ajouter des formulaires personn
 
 #### Utilisation d’un modèle de schéma existant pour divers types MIME {#using-an-existing-schema-template-for-various-mime-types}
 
-Vous pouvez utiliser un modèle existant pour un autre type MIME. Utilisez par exemple le formulaire **image/jpeg** pour les ressources du type MIME **image/png**.
+Vous pouvez utiliser un modèle existant pour un autre type MIME. Par exemple, utilisez le formulaire **image/jpeg** pour les ressources de type MIME **image/png**.
 
 Dans ce cas, créez un nœud sous [!UICONTROL `/etc/dam/metadataeditor/mimetypemappings`] dans le référentiel CRX. Indiquez un nom pour le nœud et définissez les propriétés suivantes :
 
@@ -201,7 +201,7 @@ Dans ce cas, créez un nœud sous [!UICONTROL `/etc/dam/metadataeditor/mimetypem
 * **exposedmimetype** : nom du formulaire existant à mapper.
 * **mimetypes** : liste des types MIME qui utilisent le formulaire défini dans l’attribut **exposedmimetype**.
 
-Brand Portal mappe les types MIME et les formulaires de schéma suivants :
+Brand Portal mappe les types MIME et les formulaires de schéma suivants :
 
 | **Formulaire de schéma** | **Types MIME** |
 |---|---|
@@ -212,12 +212,12 @@ Brand Portal mappe les types MIME et les formulaires de schéma suivants :
 | application/x-SpinSet | Multipart/Related; type=application/x-SpinSet |
 | application/x-MixedMediaSet | Multipart/Related; type=application/x-MixedMediaSet |
 | video/quicktime | video/x-quicktime |
-| video/mpeg4 | video/mp4 |
+| video/mpeg | video/mp4 |
 | video/avi | video/avi, video/msvideo, video/x-msvideo |
 | video/wmv | video/x-ms-wmv |
 | video/flv | video/x-flv |
 
-Voici la liste des propriétés de métadonnées par défaut :
+Voici une liste des propriétés de métadonnées par défaut :
 
 * jcr:content/metadata/cq:tags
 * jcr:content/metadata/dc:format

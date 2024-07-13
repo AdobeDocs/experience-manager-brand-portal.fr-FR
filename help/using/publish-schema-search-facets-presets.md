@@ -10,9 +10,9 @@ content-type: reference
 discoiquuid: bc305abc-9373-4d33-9179-0a5f3904b352
 exl-id: 9b585606-6538-459b-87a9-2e68df0087b3
 source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
-workflow-type: ht
-source-wordcount: '1141'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1138'
+ht-degree: 97%
 
 ---
 
@@ -26,7 +26,7 @@ L’article est consacré à la publication des paramètres d’image prédéfin
 
 ## Publication des paramètres d’image prédéfinis sur Brand Portal {#publish-image-presets-to-brand-portal}
 
-Les paramètres d’image prédéfinis sont un ensemble de commandes de redimensionnement et de formatage qui sont appliqués à l’image au moment de sa livraison. Les paramètres d’image prédéfinis peuvent être créés et modifiés sur Brand Portal. Autrement, si l’instance AEM Author s’exécute en mode Dynamic Media, les utilisateurs peuvent aussi créer des paramètres prédéfinis sur cette instance et les publier sur AEM Assets Brand Portal afin d’éviter de recréer les mêmes paramètres prédéfinis sur Brand Portal.\
+Les paramètres d’image prédéfinis sont un ensemble de commandes de redimensionnement et de formatage qui sont appliqués à l’image au moment de sa livraison. Les paramètres d’image prédéfinis peuvent être créés et modifiés dans Brand Portal. Autrement, si l’instance AEM Author s’exécute en mode Dynamic Media, les utilisateurs peuvent aussi créer des paramètres prédéfinis sur cette instance et les publier sur AEM Assets Brand Portal afin d’éviter de recréer les mêmes paramètres prédéfinis sur Brand Portal.\
 Une fois que le paramètre prédéfini est créé, il est répertorié en tant que rendu dynamique sur le rail de rendus des détails de ressources et la boîte de dialogue de téléchargement.
 
 >[!NOTE]
@@ -44,7 +44,7 @@ Pour publier des paramètres d’image prédéfinis sur Brand Portal :
 >
 >Quand les utilisateurs cliquent sur **[!UICONTROL Publier sur Brand Portal]**, les paramètres d’image prédéfinis sont placés en file d’attente pour publication. Nous conseillons aux utilisateurs de surveiller le journal des agents de réplication pour contrôler la réussite de la publication.
 
-Pour annuler la publication d’un paramètre d’image prédéfini sur Brand Portal :
+Pour dépublier un paramètre d’image prédéfini sur Brand Portal :
 
 1. Dans l’instance d’auteur AEM, appuyez/cliquez sur le logo pour accéder à la console de navigation globale, puis appuyez/cliquez sur l’icône **[!UICONTROL Outils]** et accédez à **[!UICONTROL Ressources > Paramètres d’image prédéfinis]**.
 1. Sélectionnez un paramètre d’image prédéfini puis **[!UICONTROL Supprimer de Brand Portal]** parmi les options disponibles dans la partie supérieure.
@@ -78,7 +78,7 @@ Pour publier un schéma de métadonnées sur Brand Portal à partir d’une ins
 >
 >Quand les utilisateurs cliquent sur **[!UICONTROL Publier sur Brand Portal]**, les schémas de métadonnées sont placés en file d’attente pour publication. Nous conseillons aux utilisateurs de surveiller le journal des agents de réplication pour contrôler la réussite de la publication.
 
-Pour annuler la publication d’un schéma de métadonnées sur Brand Portal :
+Pour annuler la publication d’un schéma de métadonnées sur Brand Portal :
 
 1. Dans l’instance d’auteur AEM, appuyez/cliquez sur le logo AEM pour accéder à la console de navigation globale, puis appuyez/cliquez sur l’icône Outils et accédez à **[!UICONTROL Ressources > Schémas de métadonnées]**.
 1. Sélectionnez un schéma de métadonnées puis **[!UICONTROL Supprimer de Brand Portal]** parmi les options disponibles dans la partie supérieure.
@@ -105,14 +105,14 @@ Pour publier la facette de recherche modifiée sur Brand Portal à partir de l�
    >
    >Quand les utilisateurs cliquent sur **[!UICONTROL Publier sur Brand Portal]**, les facettes de recherche sont placées en file d’attente pour publication. Nous conseillons aux utilisateurs de surveiller le journal des agents de réplication pour contrôler la réussite de la publication.
 
-Pour annuler la publication de formulaires de recherche sur Brand Portal :
+Pour annuler la publication de formulaires de recherche sur Brand Portal :
 
 1. Dans l’instance d’auteur AEM, appuyez/cliquez sur le logo AEM pour accéder à la console de navigation globale, puis appuyez/cliquez sur l’icône Outils et accédez à **[!UICONTROL Général > Formulaires de recherche]**.
 1. Sélectionnez le formulaire de recherche et ensuite **[!UICONTROL Supprimer de Brand Portal]** parmi les options disponibles dans la partie supérieure.
 
 >[!NOTE]
 >
->L’action **[!UICONTROL Annuler la publication sur Brand Portal]** laisse le formulaire de recherche par défaut sur Brand Portal et ne rétablit pas le dernier formulaire de recherche utilisé avant la publication.
+>L’action **[!UICONTROL Dépublier sur Brand Portal]** laisse le formulaire de recherche par défaut sur Brand Portal et ne rétablit pas le dernier formulaire de recherche utilisé avant la publication.
 
 ### Restrictions {#limitations}
 

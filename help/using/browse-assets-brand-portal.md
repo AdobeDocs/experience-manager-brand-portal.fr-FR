@@ -10,9 +10,9 @@ topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
 source-git-commit: a219adc020d63897b10dca83d9ce31fd3ebf847c
-workflow-type: ht
-source-wordcount: '1018'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1006'
+ht-degree: 78%
 
 ---
 
@@ -28,11 +28,11 @@ Le logo Experience Manager dans la barre d’outils supérieure permet aux utili
 
 ![](assets/bp_subheader.png)
 
-Le sélecteur de rail dans la partie supérieure gauche de Brand Portal se déroule pour afficher les options permettant de naviguer au sein des hiérarchies de ressources, de simplifier la recherche et d’afficher les ressources.
+Le sélecteur de rail en haut à gauche de Brand Portal se déroule pour afficher les options permettant de naviguer dans les hiérarchies de ressources, de simplifier votre recherche et d’afficher les ressources.
 
 ![](assets/siderail-1.png)
 
-Vous pouvez afficher, parcourir et sélectionner les ressources à l’aide de l’un des modes disponibles (Carte, Colonnes et Liste) dans le sélecteur de mode dans la partie supérieure droite de Brand Portal.
+Vous pouvez afficher, parcourir et sélectionner des ressources à l’aide de l’un des modes disponibles (Carte, Colonnes et Liste) dans le sélecteur de mode dans le coin supérieur droit de Brand Portal.
 
 ![](assets/viewselector.png)
 
@@ -44,19 +44,19 @@ Vous pouvez afficher, parcourir et sélectionner (pour une action ultérieure) v
 
 * Mode Colonnes
 * Mode Carte
-* Mode Liste
+* Vue Liste
 
 ### Mode Carte
 
 ![](assets/card-view.png)
 
-Le mode Carte affiche les cartes d’informations de chaque élément au niveau actuel. Ces cartes présentent  les informations suivantes :
+Le mode Carte affiche des cartes d’informations pour chaque élément au niveau actuel. Ces cartes fournissent les détails suivants :
 
 * Représentation visuelle de la ressource/du dossier.
 * Type
 * Titre
 * Nom
-* Date et heure de publication de la ressource sur Brand Portal à partir d’AEM
+* Date et heure auxquelles la ressource a été publiée dans Brand Portal à partir d’AEM
 * Taille
 * Dimensions
 
@@ -92,11 +92,11 @@ La boîte de dialogue **[!UICONTROL Paramètres d’affichage]** s’ouvre lors 
 
 ![](assets/cardviewsettings.png)
 
-### Mode Liste
+### Vue Liste
 
 ![](assets/list-view.png)
 
-Le mode Liste répertorie les informations pour chaque ressource au niveau actuel. Le mode Liste fournit les informations suivantes :
+Le mode Liste affiche des informations pour chaque ressource au niveau actuel. Le mode Liste fournit les détails suivants :
 
 * Image miniature des ressources
 * Nom
@@ -115,9 +115,9 @@ La colonne Chemin vous permet d’identifier facilement l’emplacement des ress
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Tap/click the vertical selection bar and drag the item to a new position in the list."
  -->
 
-### Paramètres d’affichage en mode Liste
+### Paramètres d’affichage dans la vue Liste
 
-Le mode Liste affiche le **[!UICONTROL Nom]** des ressources comme première colonne par défaut. Des informations complémentaires, telles que le **[!UICONTROL Titre]**, les **[!UICONTROL Paramètres régionaux]**, le **[!UICONTROL Type]**, les **[!UICONTROL Dimensions]**, la **[!UICONTROL Taille]**, l’**[!UICONTROL Évaluation]** et l’état de publication de la ressource, sont également affichées. Vous pouvez toutefois choisir les colonnes à afficher à l’aide de **[!UICONTROL Paramètres d’affichage]**.
+La vue Liste affiche le **[!UICONTROL Nom]** des ressources comme première colonne par défaut. Des informations complémentaires, telles que le **[!UICONTROL Titre]**, les **[!UICONTROL Paramètres régionaux]**, le **[!UICONTROL Type]**, les **[!UICONTROL Dimensions]**, la **[!UICONTROL Taille]**, l’**[!UICONTROL Évaluation]** et l’état de publication de la ressource, sont également affichées. Vous pouvez toutefois choisir les colonnes à afficher à l’aide de **[!UICONTROL Paramètres d’affichage]**.
 
 ![](assets/list-view-setting.png)
 
@@ -127,21 +127,21 @@ Le mode Liste affiche le **[!UICONTROL Nom]** des ressources comme première col
 
 Utilisez le mode Colonnes pour parcourir une arborescence de contenu à travers une série de colonnes en cascade. Ce mode vous aide à visualiser et à parcourir la hiérarchie de ressources.
 
-La sélection d’une ressource dans la première colonne (à l’extrémité gauche) présente les ressources enfants dans la deuxième colonne à droite. La sélection d’une ressource dans la deuxième colonne présente les ressources enfants dans la troisième colonne à droite, et ainsi de suite.
+La sélection d’une ressource dans la première colonne (la plus à gauche) affiche les ressources enfants dans la deuxième colonne à droite. La sélection d’une ressource dans la deuxième colonne affiche les ressources enfants dans la troisième colonne à droite, etc.
 
-Vous pouvez parcourir l’arborescence vers le haut et vers le bas en appuyant ou en cliquant sur le nom de la ressource ou sur le chevron à droite du nom.
+Vous pouvez naviguer de haut en bas dans l’arborescence en appuyant ou en cliquant sur le nom de la ressource ou sur le chevron situé à droite du nom de la ressource.
 
-* Le nom de la ressource et le chevron sont mis en surbrillance lorsque vous cliquez ou appuyez dessus.
-* Le fait d’appuyer ou de cliquer sur la miniature sélectionne la ressource.
+* Le nom de la ressource et le chevron sont mis en surbrillance lorsque vous appuyez ou cliquez dessus.
+* Appuyez ou cliquez sur la miniature pour sélectionner la ressource.
 * Lorsqu’elle est sélectionnée, une coche est apposée sur la miniature et le nom de la ressource est mis en surbrillance.
 * Les détails de la ressource sélectionnée sont affichés dans la dernière colonne.
 
-Lorsqu’une ressource est sélectionnée en mode Colonne, sa représentation visuelle est affichée dans la colonne finale avec les informations suivantes :
+Lorsqu’une ressource est sélectionnée en mode Colonnes, la représentation visuelle de la ressource s’affiche dans la dernière colonne avec les détails suivants :
 
 * Titre
 * Nom
 * Dimensions
-* Date et heure de publication de la ressource sur Brand Portal à partir d’AEM
+* Date et heure auxquelles la ressource a été publiée dans Brand Portal à partir d’AEM
 * Taille
 * Type
 * Option Plus de détails pour accéder à la page de détails de la ressource
@@ -244,7 +244,7 @@ Dans la hiérarchie de contenu, accédez à la ressource de votre choix.
 
 ## Détails de la ressource {#asset-details}
 
-La page Détails de la ressource permet d’afficher une ressource, de la télécharger, de partager son lien, de la déplacer vers une collection ou d’afficher sa page de propriétés. Elle vous permet également de parcourir la page de détails d’autres ressources au sein du même dossier, l’une après l’autre.
+La page Détails de la ressource permet d’afficher une ressource, de la télécharger, de partager son lien, de la déplacer vers une collection ou d’afficher sa page de propriétés. Il vous permet également de parcourir la page de détails d’autres ressources du même dossier l’une après l’autre.
 
 ![](assets/asset-detail.png)
 

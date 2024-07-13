@@ -11,15 +11,15 @@ discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 role: Admin
 exl-id: 03d0292c-23c2-4ea0-9781-eb27768e6c33
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
-workflow-type: ht
-source-wordcount: '996'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1000'
+ht-degree: 93%
 
 ---
 
 # Utilisation des rapports {#work-with-reports}
 
-La fonctionnalité de création de rapports de Brand Portal permet d’évaluer l’utilisation de Brand Portal et la façon dont les utilisateurs internes et externes interagissent avec les ressources approuvées. Les administrateurs peuvent afficher le rapport Utilisation de Brand Portal, qui est toujours disponible sur la page Rapports de ressources. Toutefois, les rapports concernant les connexions d’utilisateurs et les ressources téléchargées, expirées, publiées et partagées par des liens peuvent être générés et affichés à partir de la page Rapports de ressources. Ces rapports s’avèrent utiles pour analyser le déploiement des ressources et permettent d’obtenir des indicateurs clés de réussite pour mesurer l’adoption des ressources approuvées au sein et en dehors de l’organisation.
+La fonctionnalité de création de rapports de Brand Portal permet d’évaluer l’utilisation de Brand Portal et la façon dont les utilisateurs internes et externes interagissent avec les ressources approuvées. Les administrateurs peuvent afficher le rapport Utilisation de Brand Portal, qui est toujours disponible sur la page Rapports de ressources . Toutefois, les rapports concernant les connexions d’utilisateurs et les ressources téléchargées, expirées, publiées et partagées par des liens peuvent être générés et affichés à partir de la page Rapports de ressources. Ces rapports s’avèrent utiles pour analyser le déploiement des ressources et permettent d’obtenir des indicateurs clés de réussite pour mesurer l’adoption des ressources approuvées au sein et en dehors de l’organisation.
 
 L’interface de gestion des rapports est intuitive et contient des options et commandes précises pour accéder aux rapports enregistrés. Vous pouvez consulter, télécharger ou supprimer des rapports à partir de la page Rapports de ressources, dans laquelle tous les rapports générés auparavant sont répertoriés.
 
@@ -78,7 +78,7 @@ Il affiche également la capacité autorisée pour chacune de ces mesures.
 
    >[!NOTE]
    >
-   >Le rapport Partage de liens n’affiche pas les utilisateurs qui ont accès à une ressource partagée par le biais du lien ou qui ont téléchargé la ressource via le lien.
+   >Le rapport Partage de liens n’affiche pas les utilisateurs qui ont accès à la ressource partagée via le lien ni qui ont téléchargé la ressource via le lien.
    >
    >Pour effectuer le suivi des téléchargements réalisés par l’intermédiaire du lien partagé, vous devez générer le rapport de téléchargement après avoir sélectionné l’option **[!UICONTROL Uniquement les téléchargements via partage de lien]** sur la page **[!UICONTROL Créer un rapport]**. L’utilisateur (Téléchargé par) devient anonyme dans ce cas.
 
@@ -92,7 +92,7 @@ Les administrateurs peuvent générer et gérer les rapports standard ci-après.
 * Publication
 * Partage de liens
 
-L’affichage des colonnes des rapports Téléchargement, Expiration et Publication peut être personnalisé. Pour générer un rapport, procédez comme suit :
+L’affichage des colonnes des rapports Téléchargement, Expiration et Publication peut être personnalisé. Pour générer un rapport, procédez comme suit :
 
 1. Dans la barre d’outils supérieure, appuyez/cliquez sur le logo Experience Manager pour accéder aux outils d’administration.
 
@@ -118,7 +118,7 @@ L’affichage des colonnes des rapports Téléchargement, Expiration et Publicat
    >Dans le titre du rapport, les caractères spéciaux # et % sont remplacés par un trait d’union (-) lors de la génération du rapport.
 
 1. Appuyez/cliquez sur **[!UICONTROL Suivant]** pour configurer les colonnes des rapports Télécharger, Expiration et Publier.
-1. Cochez ou décochez les cases pertinentes selon vos besoins. Par exemple, pour afficher le nom des utilisateurs (qui ont téléchargé des ressources) dans le rapport **[!UICONTROL Télécharger]**, sélectionnez **[!UICONTROL Téléchargé par]**. L’image suivante montre comment sélectionner les colonnes par défaut dans le rapport Téléchargement.
+1. Cochez ou décochez les cases pertinentes selon vos besoins. Par exemple, pour afficher le nom des utilisateurs (qui ont téléchargé des ressources) dans le rapport **[!UICONTROL Télécharger]**, sélectionnez **[!UICONTROL Téléchargé par]**. L’image suivante illustre la sélection des colonnes par défaut dans le rapport Téléchargement .
 
    ![](assets/createdownloadreport.png)
 

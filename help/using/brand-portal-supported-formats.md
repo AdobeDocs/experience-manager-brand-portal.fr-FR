@@ -1,7 +1,7 @@
 ---
 title: Formats de fichiers pris en charge
 seo-title: Supported file formats
-description: 'Chaque portail Experience Manager Assets Brand Portal prend en charge des formats de fichiers spécifiques, comme indiqué dans le tableau. '
+description: Chaque portail Experience Manager Assets Brand Portal prend en charge des formats de fichiers spécifiques, comme indiqué dans le tableau.
 seo-description: Each Experience Manager Assets Brand Portal supports specific file formats, as indicated in the matrix.
 uuid: c92ada3a-6fc3-4ef2-88ff-8e67a50c8c95
 content-type: reference
@@ -10,9 +10,9 @@ topic-tags: introduction
 discoiquuid: fe1c2df8-39f4-4d5c-91d1-7b6cd4f1f589
 exl-id: fa5d87a8-dc45-4c8a-8a96-ac7ec793952b
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
-workflow-type: ht
-source-wordcount: '315'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '649'
+ht-degree: 90%
 
 ---
 
@@ -80,11 +80,11 @@ Chaque portail Experience Manager Assets Brand Portal prend en charge des forma
 | TAR | ✓ | N/A | ✓ | N/A | N/A | ✓ | N/A | ✕ |
 | Zip | ✓ | ✓ | ✓ | ✓ | N/A | ✓ | ✓ | ✕ |
 
-La légende suivante explique les symboles utilisés dans le tableau :
+La légende suivante explique les symboles utilisés dans la matrice :
 
 | Symbole | Signification |
 |--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| ✓ | Ce format de fichier prend en charge cette fonctionnalité.. |
-| ✕ | Ce format de fichier ne prend pas en charge cette fonctionnalité.. |
-| s.o. | Cette fonctionnalité ne s’applique pas à ce format de fichier.. |
-| * | Cette fonctionnalité requiert la prise en charge d’un module complémentaire pour ce format de fichier sur une instance de création AEM, mais pas sur Brand Portal une fois que les ressources ont été publiées sur Brand Portal.. |
+| ✓ | Ce format de fichier prend en charge cette fonctionnalité. |
+| ✕ | Ce format de fichier ne prend pas en charge cette fonctionnalité. |
+| S/O | Cette fonctionnalité ne s’applique pas à ce format de fichier. |
+| * | Cette fonctionnalité nécessite la prise en charge d’un module complémentaire pour ce format de fichier sur l’instance d’auteur AEM, mais pas sur Brand Portal une fois les ressources publiées dans Brand Portal. |

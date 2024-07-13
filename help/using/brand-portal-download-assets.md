@@ -11,9 +11,9 @@ topic-tags: download, download-install, download assets
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
 source-git-commit: fe6677df928a4125185051d80ae3055afb479369
-workflow-type: ht
-source-wordcount: '1921'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1932'
+ht-degree: 99%
 
 ---
 
@@ -49,23 +49,23 @@ Les paramètres disponibles sont les suivants :
 
 * **[!UICONTROL Téléchargement rapide]**
 
-   Il permet d’accélérer le téléchargement des ressources à l’aide d’IBM Aspera Connect. Par défaut, le paramètre **[!UICONTROL Téléchargement rapide]** est activé dans les **[!UICONTROL Paramètres de téléchargement]**.
+  Il permet d’accélérer le téléchargement des ressources à l’aide d’IBM Aspera Connect. Par défaut, le paramètre **[!UICONTROL Téléchargement rapide]** est activé dans les **[!UICONTROL Paramètres de téléchargement]**.
 
 * **[!UICONTROL Rendus personnalisés]**
 
-   Permet de télécharger des rendus personnalisés ou dynamiques des ressources.
+  Permet de télécharger des rendus personnalisés ou dynamiques des ressources.
 
-   Tous les rendus de ressources autres que les rendus de ressources d’origine et générés par le système sont appelés rendus personnalisés. Ils comprennent des rendus statiques et dynamiques disponibles pour les ressources. Un utilisateur peut créer un rendu statique personnalisé dans Experience Manager Assets, alors que seul l’administrateur AEM peut créer des rendus dynamiques personnalisés. Pour plus d’informations, consultez [comment appliquer des paramètres d’image prédéfinis ou des rendus dynamiques](../using/brand-portal-image-presets.md).
+  Tous les rendus de ressources autres que les rendus de ressources d’origine et générés par le système sont appelés rendus personnalisés. Ils comprennent des rendus statiques et dynamiques disponibles pour les ressources. Un utilisateur peut créer un rendu statique personnalisé dans Experience Manager Assets, alors que seul l’administrateur AEM peut créer des rendus dynamiques personnalisés. Pour plus d’informations, consultez [comment appliquer des paramètres d’image prédéfinis ou des rendus dynamiques](../using/brand-portal-image-presets.md).
 
 * **[!UICONTROL Rendus du système]**
 
-   Permet de télécharger les rendus des ressources générés par le système.
+  Permet de télécharger les rendus des ressources générés par le système.
 
-   Il s’agit des miniatures qui sont automatiquement générées dans Experience Manager Assets en fonction du workflow de mise à jour de ressource DAM.
+  Il s’agit des miniatures qui sont automatiquement générées dans Experience Manager Assets en fonction du workflow de mise à jour de ressource DAM.
 
 * **[!UICONTROL Téléchargement de ressources]**
 
-   Permet de télécharger les rendus dans un dossier distinct pour chaque ressource. Ce paramètre s’applique aux dossiers, aux collections et aux téléchargements en masse de ressources (plus de 20 ressources).
+  Permet de télécharger les rendus dans un dossier distinct pour chaque ressource. Ce paramètre s’applique aux dossiers, aux collections et aux téléchargements en masse de ressources (plus de 20 ressources).
 
 
 Connectez-vous à votre client Brand Portal en tant qu’administrateur et accédez à **[!UICONTROL Outils]** > **[!UICONTROL Télécharger]**.
@@ -144,26 +144,26 @@ Vous trouverez ci-dessous la procédure à suivre pour télécharger des ressour
 
    * Sélectionnez les ressources ou les dossiers que vous souhaitez télécharger. Dans la barre d’outils supérieure, cliquez sur l’icône **[!UICONTROL Télécharger]**.
 
-      ![sélectionner-plusieurs-ressources](assets/select-assets-new.png)
+     ![sélectionner-plusieurs-ressources](assets/select-assets-new.png)
 
    * Pour télécharger des rendus de ressource spécifiques pour une ressource, survolez celle-ci avec le pointeur et cliquez sur l’icône **[!UICONTROL Télécharger]** disponible dans les miniatures d’action rapide.
 
-      ![sélectionner-une-ressource](assets/select-asset.png)
+     ![sélectionner-une-ressource](assets/select-asset.png)
 
 
-      >[!NOTE]
-      >
-      >Si vous téléchargez les ressources pour la première fois et qu’IBM Aspera Connect n’est pas installé dans votre navigateur, vous êtes invité à installer l’accélérateur de téléchargement Aspera (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
+     >[!NOTE]
+     >
+     >Si vous téléchargez les ressources pour la première fois et qu’IBM Aspera Connect n’est pas installé dans votre navigateur, vous êtes invité à installer l’accélérateur de téléchargement Aspera (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
 
 
-      >[!NOTE]
-      >
-      >Si les ressources que vous téléchargez comprennent également des ressources sous licence, vous êtes redirigé vers la page **[!UICONTROL Gestion des droits d’auteur]**. Dans cette page, sélectionnez les ressources, cliquez d’abord sur **[!UICONTROL Accepter]**, puis sur **[!UICONTROL Télécharger]**. Si vous choisissez de ne pas accepter, les ressources sous licence ne sont pas téléchargées.
-      > 
-      >Dans le cas des ressources protégées par une licence, un [contrat de licence leur est associé](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html?lang=fr) en définissant la [propriété de métadonnées](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html?lang=fr) appropriée dans Experience Manager Assets.
+     >[!NOTE]
+     >
+     >Si les ressources que vous téléchargez comprennent également des ressources sous licence, vous êtes redirigé vers la page **[!UICONTROL Gestion des droits d’auteur]**. Dans cette page, sélectionnez les ressources, cliquez d’abord sur **[!UICONTROL Accepter]**, puis sur **[!UICONTROL Télécharger]**. Si vous choisissez de ne pas accepter, les ressources sous licence ne sont pas téléchargées.
+     > 
+     >Dans le cas des ressources protégées par une licence, un [contrat de licence leur est associé](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html?lang=fr) en définissant la [propriété de métadonnées](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html?lang=fr) appropriée dans Experience Manager Assets.
 
 
-      ![ressource-sous-licence](assets/licensed-asset-new.png)
+     ![ressource-sous-licence](assets/licensed-asset-new.png)
 
 1. La boîte de dialogue **[!UICONTROL Télécharger]** qui répertorie toutes les ressources sélectionnées s’ouvre.
 
@@ -187,7 +187,7 @@ Vous trouverez ci-dessous la procédure à suivre pour télécharger des ressour
 
    Pour continuer à utiliser le **[!UICONTROL Téléchargement rapide]**, cliquez sur **[!UICONTROL Autoriser]**. Tous les rendus sélectionnés sont téléchargés dans un dossier zip à l’aide d’IBM Aspera Connect.
 
-   Si vous ne souhaitez pas utiliser IBM Aspera Connect, cliquez sur **[!UICONTROL Refuser]**. Si le **[!UICONTROL téléchargement rapide]** est refusé ou échoue, le système renvoie un message d’erreur. Cliquez sur le bouton **[!UICONTROL Téléchargement normal]** pour continuer à télécharger les ressources.
+   Si vous ne souhaitez pas utiliser IBM Aspera Connect, cliquez sur **[!UICONTROL Refuser]**. Si le **[!UICONTROL Téléchargement rapide]** est refusé ou échoue, le système renvoie un message d’erreur. Cliquez sur le bouton **[!UICONTROL Téléchargement normal]** pour continuer à télécharger les ressources.
 
 <!-- removed the known issue from step 2 as it is fixed in 2022.02.0 release.
    >[!CAUTION]
@@ -421,9 +421,9 @@ L’expérience de téléchargement de fichier peut varier pour les utilisateurs
 
 | Emplacement du client | Latence entre le client et le serveur | Vitesse de téléchargement prévue | Durée de téléchargement d’un fichier de 2 Go |
 |-------------------------|-----------------------------------|-------------------------|------------------------------------|
-| Ouest des États-Unis (Californie du Nord) | 18 millisecondes | 7,68 Mo/s. | 4 minutes |
-| Ouest des États-Unis (Oregon) | 42 millisecondes | 3,84 Mo/s. | 9 minutes |
-| Est des États-Unis (Virginie du Nord) | 85 millisecondes | 1,61 Mo/s. | 21 minutes |
+| Ouest des Etats-Unis (Californie N.) | 18 millisecondes | 7,68 Mo/s. | 4 minutes |
+| Ouest des Etats-Unis (Oregon) | 42 millisecondes | 3,84 Mo/s. | 9 minutes |
+| Est des Etats-Unis (Virginie N.) | 85 millisecondes | 1,61 Mo/s. | 21 minutes |
 | Asie-Pacifique (Tokyo) | 124 millisecondes | 1,13 Mo/s. | 30 minutes |
 | Noida | 275 millisecondes | 0,5 Mo/s. | 68 minutes |
 | Sydney | 175 millisecondes | 0,49 Mo/s. | 69 minutes |

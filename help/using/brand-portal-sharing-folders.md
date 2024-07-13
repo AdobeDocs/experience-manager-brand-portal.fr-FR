@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 exl-id: d28cf927-60e8-437e-9cba-92f7e19020e7
 source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
-workflow-type: ht
-source-wordcount: '1109'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1104'
+ht-degree: 84%
 
 ---
 
@@ -25,14 +25,14 @@ Les ressources doivent être publiées sur Brand Portal à partir d’une insta
 La section suivante décrit le workflow de partage de dossiers et l’accès utilisateur :
 
 * Par défaut, tous les dossiers publiés depuis Experience Manager Assets sur Brand Portal ne sont visibles que par l’administrateur de Brand Portal, sauf s’ils ont été désignés comme publics lors de la configuration de la réplication.
-* L’administrateur utilise la console **[!UICONTROL Propriétés du dossier]** pour partager un dossier avec des utilisateurs ou des groupes sélectionnés. Seuls les utilisateurs ou les groupes avec lesquels le dossier est partagé peuvent le visualiser une fois connectés à Brand Portal. Le dossier n’est pas visible par les autres utilisateurs.
+* L’administrateur utilise la console **[!UICONTROL Propriétés du dossier]** pour partager un dossier avec des utilisateurs ou des groupes sélectionnés. Seuls les utilisateurs ou les groupes avec lesquels le dossier est partagé peuvent voir le dossier une fois qu’ils se sont connectés à Brand Portal. Le dossier n’est pas visible par les autres utilisateurs.
 * L’administrateur peut également choisir de rendre un dossier public en cochant la case **[!UICONTROL Dossier public]** dans la console **[!UICONTROL Propriétés du dossier]**. Un dossier public est visible par tous les utilisateurs.
 
 * Indépendamment des rôles et des privilèges utilisateur, lorsque des utilisateurs se connectent à Brand Portal, ils voient tous les dossiers publics et les dossiers partagés directement avec eux ou avec un groupe auquel ils appartiennent. Les dossiers privés ou les dossiers partagés avec d’autres utilisateurs ne sont pas visibles par tous les utilisateurs.
 
 ### Partage de dossiers avec des groupes d’utilisateurs sur Brand Portal {#sharing-folders-with-user-groups-on-brand-portal}
 
-Les droits d’accès aux ressources d’un dossier dépendent des droits d’accès à son dossier parent, indépendamment des paramètres des dossiers enfants. Ce comportement est régi par les listes [ACL](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=fr) dans AEM, car les dossiers enfants héritent des listes ACL de leurs dossiers parents. Par exemple, si un dossier A contient un dossier B qui contient un dossier C, alors un groupe d’utilisateurs (ou des utilisateurs) possédant les droits d’accès au dossier A bénéficient des mêmes droits d’accès aux dossiers B et C. En tant que dossier enfant de A, le dossier B hérite de ses listes ACL. Tandis que le dossier C hérite de ses listes ACL en tant que dossier enfant de B.
+Les droits d’accès aux ressources d’un dossier dépendent des droits d’accès à son dossier parent, indépendamment des paramètres des dossiers enfants. Ce comportement est régi par les [ACL](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=fr) dans AEM, car les dossiers enfants héritent des ACL de leurs dossiers parents. Par exemple, si un dossier A contient un dossier B qui contient un dossier C, alors un groupe d’utilisateurs (ou des utilisateurs) possédant les droits d’accès au dossier A bénéficient des mêmes droits d’accès aux dossiers B et C. En tant que dossier enfant de A, le dossier B hérite de ses listes ACL. Tandis que le dossier C hérite de ses listes ACL en tant que dossier enfant de B.
 
 De même, les groupes d’utilisateurs (ou les utilisateurs) possédant les autorisations pour accéder seulement au dossier B disposent des mêmes autorisations d’accès au dossier C, mais pas au dossier A. Par conséquent, il est conseillé aux organisations de hiérarchiser leur contenu de façon à ce que les ressources les plus exposées soient placées dans les dossiers enfants, et l’accès des enfants au dossier racine peut être restreint.
 
@@ -52,12 +52,12 @@ Si l’option **[!UICONTROL Publication de dossier public]** est désactivée, l
 
 Le tableau suivant indique les droits d’accès et les droits de partage/d’annulation du partage des ressources pour différents rôles utilisateur :
 
-|  | Accès à tous les dossiers publiés depuis AEM Assets sur Brand Portal | Accès aux dossiers partagés | Droits de partager/annuler le partage de dossiers |
+|               | Accès à tous les dossiers publiés à partir d’AEM Assets vers Brand Portal | Accès aux dossiers partagés | Partage/annulation du partage des droits de dossier |
 |---------------|-----------|-----------|------------|
 | Administrateur | Oui | Oui | Oui |
-| Éditeur | Non* | Oui, uniquement si les dossiers sont partagés avec eux ou avec le groupe auquel ils appartiennent. | Oui, uniquement pour les dossiers partagés avec eux ou avec le groupe auquel ils appartiennent. |
-| Observateur | Non* | Oui, uniquement si les dossiers sont partagés avec eux ou avec le groupe auquel ils appartiennent. | Non |
-| Utilisateur invité | Non* | Oui, uniquement si les dossiers sont partagés avec eux ou avec le groupe auquel ils appartiennent. | Non |
+| Éditeur | Non* | Oui, uniquement s’il est partagé avec eux ou avec le groupe auquel ils appartiennent. | Oui, uniquement pour les dossiers partagés avec eux ou avec le groupe auquel ils appartiennent. |
+| Observateur | Non* | Oui, uniquement s’il est partagé avec eux ou avec le groupe auquel ils appartiennent. | Non |
+| Utilisateur client/cliente | Non* | Oui, uniquement s’il est partagé avec eux ou avec le groupe auquel ils appartiennent. | Non |
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ Les utilisateurs non-administrateurs ne peuvent accéder qu’aux dossiers parta
 
 **Si la configuration est désactivée**
 
-Les utilisateurs non-administrateurs voient tous les dossiers partagés avec eux sur la  page d’entrée, lors de leur connexion à Brand Portal.
+Les utilisateurs non-administrateurs voient tous les dossiers partagés avec eux sur la page d’entrée, lorsqu’ils se connectent à Brand Portal.
 
 ![](assets/disabled-folder-hierarchy1-1.png)
 
@@ -77,9 +77,9 @@ Les utilisateurs non-administrateurs voient tous les dossiers partagés avec eux
 
 Les utilisateurs non-administrateurs voient l’arborescence de dossiers (à partir du dossier racine) et les dossiers partagés organisés dans leurs dossiers parents respectifs, lors de leur connexion à Brand Portal.
 
-Ces dossiers parents sont des dossiers virtuels et ne peuvent faire l’objet d’aucune action. Vous pouvez identifier ces dossiers virtuels grâce à leur icône de cadenas.
+Ces dossiers parents sont les dossiers virtuels et aucune action ne peut être effectuée sur ces derniers. Vous pouvez identifier ces dossiers virtuels grâce à leur icône de cadenas.
 
-Aucune tâche d’action n’est visible lorsque vous les survolez ou les sélectionnez en **[!UICONTROL mode Carte]**, à la différence des dossiers partagés. Le bouton **[!UICONTROL Aperçu]** apparaît lorsque vous sélectionnez un dossier virtuel dans les modes **[!UICONTROL Colonnes]** et **[!UICONTROL Liste]**.
+Aucune tâche d’action n’est visible lorsque vous les survolez ou les sélectionnez en **[!UICONTROL mode Carte]**, à la différence des dossiers partagés. Le bouton **[!UICONTROL Aperçu]** apparaît lorsque vous sélectionnez un dossier virtuel dans les vues **[!UICONTROL Colonnes]** et **[!UICONTROL Liste]**.
 
 >[!NOTE]
 >
@@ -111,7 +111,7 @@ Pour partager un dossier avec des utilisateurs sur Brand Portal, suivez ces ét
 
    ![](assets/folder_properties.png)
 
-1. Dans la console **[!UICONTROL Propriétés du dossier]**, indiquez le titre du dossier dans le champ **[!UICONTROL Titre du dossier]** si vous ne souhaitez pas que le nom par défaut soit visible par les utilisateurs.
+1. Dans la console **[!UICONTROL Propriétés du dossier]**, indiquez le titre du dossier dans le champ **[!UICONTROL Titre du dossier]** si vous ne souhaitez pas que le nom par défaut s’affiche pour les utilisateurs.
 1. Dans la liste **[!UICONTROL Ajouter un utilisateur]**, sélectionnez les utilisateurs ou les groupes avec lesquels vous souhaitez partager le dossier et cliquez sur **[!UICONTROL Ajouter]**.
 Pour partager le dossier uniquement avec les utilisateurs invités, et aucun autre utilisateur, sélectionnez **[!UICONTROL Utilisateurs anonymes]** dans le menu déroulant **[!UICONTROL Membres]**.
 

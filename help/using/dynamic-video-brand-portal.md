@@ -12,7 +12,7 @@ discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
 source-git-commit: beabaa4e5cca4c2554111861b15902cac54ccd4c
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: '1170'
 ht-degree: 100%
 
 ---
@@ -62,7 +62,7 @@ Pour utiliser des vidéos dynamiques sur Brand Portal, veillez à :
 * **Démarrage d’Experience Manager Author en mode Dynamic Media**
 Démarrez l’instance de création Experience Manager Author (avec laquelle Brand Portal est configuré) en [mode Dynamic Media - [!DNL Scene7] ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html?lang=fr#enabling-dynamic-media-in-scene-mode) ou en [mode Dynamic Media - Hybrid](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html?lang=fr) ou
 * **Configuration des Dynamic Media Cloud Services sur Experience Manager Author**
-En fonction du mode Dynamic Media (mode Scene7 ou mode hybride) sur lequel Experience Manager Author s’exécute, définissez [Dynamic Media Cloud Services (mode [!DNL Scene7])](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html?lang=fr?lang=fr#configuring-dynamic-media-cloud-services) ou [Dynamic Media Cloud Services (mode hybride)](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html?lang=fr#configuring-dynamic-media-cloud-services) sur Experience Manager Author depuis **Outils** | **Cloud Services** | **Dynamic Media**.
+En fonction du mode Dynamic Media (mode Scene7 ou mode hybride) sur lequel Experience Manager Author s’exécute, définissez [Dynamic Media Cloud Services (mode [!DNL Scene7])](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html?lang=fr#configuring-dynamic-media-cloud-services) ou [Dynamic Media Cloud Services (mode hybride)](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html?lang=fr#configuring-dynamic-media-cloud-services) sur Experience Manager Author depuis **Outils** | **Cloud Services** | **Dynamic Media**.
 * **Configuration de Dynamic Media sur Brand Portal**
 Selon les configurations cloud de Dynamic Media sur Experience Manager Author, configurez les [paramètres Dynamic Media](#configure-dm-hybrid-settings) ou les paramètres [[!DNL Scene7] ](#configure-dm-scene7-settings) à partir des outils d’administration de Brand Portal.
 Assurez-vous que des [clients Brand Portal distincts](#separate-tenants) soient utilisées pour les instances de création Experience Manager Author configurées dans le mode Dynamic Media - **[!UICONTROL Scene7]** et Dynamic Media - mode hybride. Surtout si vous utilisez les fonctionnalités de Dynamic Media **[!UICONTROL S7]** et Dynamic Media hybride.
@@ -72,7 +72,7 @@ Appliquez des [codages vidéo](https://experienceleague.adobe.com/docs/experie
 En cas d’utilisation de Dynamic Media **[!DNL Scene7]** (avec l’[aperçu sécurisé activé](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html?lang=fr) pour une entreprise), il est conseillé à l’**[!DNL Scene7]** administrateur de l’entreprise[ de mettre les adresses IP sortantes publiques sur liste blanche](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html?lang=fr#testing-the-secure-testing-service) pour les zones géographiques respectives utilisant l’interface utilisateur Flash de SPS (**[!UICONTROL Scene7]** Publishing System).
 Les adresses IP sortantes sont les suivantes :
 
-| **Zone géographique** | **IP sortante** |
+| **Zone géographique** | **Adresse IP de sortie** |
 |--- |--- |
 | N/A | 130.248.160.68,  20.94.203.130 |
 | EMEA | 185.34.189.3,  51.132.146.75 |
@@ -110,7 +110,7 @@ L’administrateur d’entreprise **[!UICONTROL Scene7]** configure par conséqu
 Pour mettre l’une de ces adresses IP sortantes sur liste blanche, voir [Préparation de votre compte pour un test sécurisé](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html?lang=fr#testing-the-secure-testing-service).
 Les adresses IP sortantes sont les suivantes :
 
-| **Zone géographique** | **IP sortante** |
+| **Zone géographique** | **Adresse IP de sortie** |
 |--- |--- |
 | N/A | 130.248.160.68, 20.94.203.130 |
 | EMEA | 51.132.146.75, 130.248.244.202, 130.248.244.203, 130.248.244.204, 130.248.244.210, 130.248.244.211, 130.248.244.212 |
@@ -122,7 +122,7 @@ Si l’instance de création Experience Manager Author s’exécute en mode hy
 
 >[!NOTE]
 >
->Les [profils de codage vidéo](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/video-profiles.html?lang=fr) ne sont pas publiés sur Brand Portal, mais sont récupérés du serveur **[!UICONTROL Scene7]**. Par conséquent, pour que les codes vidéo soient lus correctement dans Brand Portal, assurez-vous que les détails de configuration soient identiques à ceux de [Dynamic Media Cloud Services (mode [!DNL Scene7])](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html?lang=fr?lang=fr#configuring-dynamic-media-cloud-services) dans votre instance Experience Manager Author.
+>Les [profils de codage vidéo](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/video-profiles.html?lang=fr) ne sont pas publiés sur Brand Portal, mais sont récupérés du serveur **[!UICONTROL Scene7]**. Par conséquent, pour que les codes vidéo soient lus correctement dans Brand Portal, assurez-vous que les détails de configuration soient identiques à ceux de [Dynamic Media Cloud Services (mode [!DNL Scene7])](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html?lang=fr#configuring-dynamic-media-cloud-services) dans votre instance Experience Manager Author.
 
 Pour définir les configurations Dynamic Media sur des clients Brand Portal :
 
