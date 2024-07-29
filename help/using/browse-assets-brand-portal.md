@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: a219adc020d63897b10dca83d9ce31fd3ebf847c
+source-git-commit: 133ea1fc342e4460e7d0661205c7411a509143eb
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 78%
+source-wordcount: '1005'
+ht-degree: 76%
 
 ---
 
@@ -112,7 +112,7 @@ Le mode Liste affiche des informations pour chaque ressource au niveau actuel. L
 La colonne Chemin vous permet d’identifier facilement l’emplacement des ressources dans la hiérarchie de dossiers. Vous pouvez naviguer vers le bas de la hiérarchie en appuyant/cliquant sur le nom de la ressource, puis revenir vers le haut à l’aide des [chemins de navigation de l’en-tête](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html?lang=fr).
 
 <!--
-Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Tap/click the vertical selection bar and drag the item to a new position in the list."
+Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Click the vertical selection bar and drag the item to a new position in the list."
  -->
 
 ### Paramètres d’affichage dans la vue Liste
@@ -234,7 +234,7 @@ Comment Type: draft
 
 En plus de ces vues, utilisez l’arborescence pour descendre dans la hiérarchie de ressources lorsque vous affichez et sélectionnez les ressources ou dossiers de votre choix.
 
-Pour ouvrir l’arborescence, appuyez/cliquez sur le sélecteur de rail en haut à gauche et sélectionnez **[!UICONTROL Arborescence de contenu]** dans le menu.
+Pour ouvrir l’arborescence, cliquez sur le sélecteur de rail en haut à gauche et sélectionnez l’**[!UICONTROL arborescence de contenu]** dans le menu.
 
 ![](assets/contenttree.png)
 

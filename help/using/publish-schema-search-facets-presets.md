@@ -9,10 +9,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: bc305abc-9373-4d33-9179-0a5f3904b352
 exl-id: 9b585606-6538-459b-87a9-2e68df0087b3
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
+source-git-commit: 133ea1fc342e4460e7d0661205c7411a509143eb
 workflow-type: tm+mt
-source-wordcount: '1138'
-ht-degree: 97%
+source-wordcount: '1133'
+ht-degree: 87%
 
 ---
 
@@ -46,7 +46,7 @@ Pour publier des paramètres d’image prédéfinis sur Brand Portal :
 
 Pour dépublier un paramètre d’image prédéfini sur Brand Portal :
 
-1. Dans l’instance d’auteur AEM, appuyez/cliquez sur le logo pour accéder à la console de navigation globale, puis appuyez/cliquez sur l’icône **[!UICONTROL Outils]** et accédez à **[!UICONTROL Ressources > Paramètres d’image prédéfinis]**.
+1. Dans l’instance d’auteur AEM, appuyez/cliquez sur le logo AEM pour accéder à la console de navigation globale, cliquez sur l’icône **[!UICONTROL Outils]** et accédez à **[!UICONTROL Assets > Paramètres d’image prédéfinis]**.
 1. Sélectionnez un paramètre d’image prédéfini puis **[!UICONTROL Supprimer de Brand Portal]** parmi les options disponibles dans la partie supérieure.
 
 ## Publication d’un schéma de métadonnées sur Brand Portal   {#publish-metadata-schema-to-brand-portal}
@@ -71,7 +71,7 @@ Si les utilisateurs ont créé un schéma personnalisé sur l’instance AEM Au
 
 Pour publier un schéma de métadonnées sur Brand Portal à partir d’une instance d’auteur AEM :
 
-1. Dans l’instance d’auteur AEM, appuyez/cliquez sur le logo AEM pour accéder à la console de navigation globale, puis appuyez/cliquez sur l’icône Outils et accédez à **[!UICONTROL Ressources > Schémas de métadonnées]**.
+1. Dans l’instance d’auteur AEM, appuyez/cliquez sur le logo AEM pour accéder à la console de navigation globale, cliquez sur l’icône Outils et accédez à **[!UICONTROL Assets > Schémas de métadonnées]**.
 1. Sélectionnez un schéma de métadonnées puis **[!UICONTROL Publier sur Brand Portal]** parmi les options disponibles dans la partie supérieure.
 
 >[!NOTE]
@@ -80,7 +80,7 @@ Pour publier un schéma de métadonnées sur Brand Portal à partir d’une ins
 
 Pour annuler la publication d’un schéma de métadonnées sur Brand Portal :
 
-1. Dans l’instance d’auteur AEM, appuyez/cliquez sur le logo AEM pour accéder à la console de navigation globale, puis appuyez/cliquez sur l’icône Outils et accédez à **[!UICONTROL Ressources > Schémas de métadonnées]**.
+1. Dans l’instance d’auteur AEM, appuyez/cliquez sur le logo AEM pour accéder à la console de navigation globale, cliquez sur l’icône Outils et accédez à **[!UICONTROL Assets > Schémas de métadonnées]**.
 1. Sélectionnez un schéma de métadonnées puis **[!UICONTROL Supprimer de Brand Portal]** parmi les options disponibles dans la partie supérieure.
 
 ## Publication de facettes de recherche sur Brand Portal {#publish-search-facets-to-brand-portal}
@@ -98,7 +98,7 @@ Si vous souhaitez utiliser le formulaire de recherche personnalisé **[!UICONTRO
 
 Pour publier la facette de recherche modifiée sur Brand Portal à partir de l’interface AEM Author :
 
-1. Appuyez/cliquez sur le logo AEM, puis sélectionnez **[!UICONTROL Outils > Général > Formulaires de recherche]**.
+1. Cliquez sur le logo AEM, puis accédez à **[!UICONTROL Outils > Général > Search Forms]**.
 1. Sélectionnez le formulaire de recherche modifié et ensuite **[!UICONTROL Publier sur Brand Portal]**.
 
    >[!NOTE]
@@ -107,7 +107,7 @@ Pour publier la facette de recherche modifiée sur Brand Portal à partir de l�
 
 Pour annuler la publication de formulaires de recherche sur Brand Portal :
 
-1. Dans l’instance d’auteur AEM, appuyez/cliquez sur le logo AEM pour accéder à la console de navigation globale, puis appuyez/cliquez sur l’icône Outils et accédez à **[!UICONTROL Général > Formulaires de recherche]**.
+1. Dans l’instance d’auteur AEM, appuyez/cliquez sur le logo AEM pour accéder à la console de navigation globale, cliquez sur l’icône Outils et accédez à **[!UICONTROL Général > Rechercher dans Forms]**.
 1. Sélectionnez le formulaire de recherche et ensuite **[!UICONTROL Supprimer de Brand Portal]** parmi les options disponibles dans la partie supérieure.
 
 >[!NOTE]
