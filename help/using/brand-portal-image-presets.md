@@ -1,29 +1,25 @@
 ---
 title: Application de paramètres d’image prédéfinis ou de rendus dynamiques
-seo-title: Apply image presets or dynamic renditions
-description: Tout comme une macro, un paramètre d’image prédéfini est un ensemble prédéfini de commandes de dimensionnement et de formatage enregistrées sous un nom. Les paramètres d’image prédéfinis permettent à Experience Manager Assets Brand Portal de fournir dynamiquement des images ayant des tailles, des propriétés et des formats différents.
-seo-description: Like a macro, an image preset is a predefined collection of sizing and formatting commands saved under a name. Image presets enable Experience Manager Assets Brand Portal to dynamically deliver images of different sizes, formats, and properties.
-uuid: a3c8705c-5fbd-472c-8b61-f65b3e552c1b
+description: Tout comme une macro, un paramètre d’image prédéfini est un ensemble prédéfini de commandes de dimensionnement et de formatage enregistrées sous un nom. Les paramètres d’image prédéfinis permettent à Experience Manager Assets Brand Portal de diffuser dynamiquement des images de tailles, de formats et de propriétés différents.
 content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 role: Admin
 exl-id: 212a1b3a-686f-4250-be06-b679b6039887
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 1a3e51922fb658d9d05113b4b1f4d05a0b6555c0
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 83%
+source-wordcount: '814'
+ht-degree: 56%
 
 ---
 
 # Application de paramètres d’image prédéfinis ou de rendus dynamiques {#apply-image-presets-or-dynamic-renditions}
 
-Tout comme une macro, un paramètre d’image prédéfini est un ensemble prédéfini de commandes de dimensionnement et de formatage enregistrées sous un nom. Les paramètres d’image prédéfinis permettent à Experience Manager Assets Brand Portal de fournir dynamiquement des images ayant des tailles, des propriétés et des formats différents.
+Tout comme une macro, un paramètre d’image prédéfini est un ensemble prédéfini de commandes de dimensionnement et de formatage enregistrées sous un nom. Les paramètres d’image prédéfinis permettent à Experience Manager Assets Brand Portal de diffuser dynamiquement des images de tailles, de formats et de propriétés différents.
 
 Un paramètre d’image prédéfini est utilisé pour générer des rendus dynamiques d’images qui peuvent être prévisualisées et téléchargées. Lors de la prévisualisation d’images et de leurs rendus, vous pouvez choisir un paramètre prédéfini pour reformater les images selon les spécifications définies par votre administrateur.
 
-(*Si l’instance d’auteur Experience Manager Assets est en cours d’exécution en **mode hybride Dynamic Media***) Pour afficher les rendus dynamiques d’une ressource dans Brand Portal, vérifiez que son rendu PTIFF (Pyramid TIFF) existe dans l’instance d’auteur Experience Manager Assets à partir de laquelle vous procédez à la publication sur Brand Portal. Lorsque vous publiez une ressource, son rendu PTIFF est également publié sur Brand Portal.
+(*Si l’instance d’auteur Experience Manager Assets est en cours d’exécution en **mode hybride Dynamic Media***). Pour afficher les rendus dynamiques d’une ressource dans Brand Portal, vérifiez que son rendu de TIFF Pyramid existe au niveau de l’instance d’auteur Experience Manager Assets à partir de laquelle vous effectuez la publication vers Brand Portal. Lorsque vous publiez une ressource, son rendu PTIFF est également publié sur Brand Portal.
 
 >[!NOTE]
 >
@@ -38,13 +34,13 @@ Les administrateurs Experience Manager Assets peuvent créer des paramètres d�
 
 >[!NOTE]
 >
->Les rendus dynamiques d’une image sont créés à l’aide de son fichier Pyramid TIFF. Si le fichier Pyramid TIFF n’est disponible pour aucune ressource, les rendus dynamiques de cette ressource ne peuvent pas être récupérés dans Brand Portal.
+>Les rendus dynamiques d’une image sont créés à l’aide de son fichier Pyramid TIFF. Si le TIFF Pyramid n’est disponible pour aucune ressource, les rendus dynamiques de cette ressource ne peuvent pas être récupérés dans Brand Portal.
 >
->Si l’instance d’auteur Experience Manager Assets est en cours d’exécution en mode **hybride Dynamic Media**, les rendus Pyramid TIFF des ressources d’image sont créés et enregistrés dans le référentiel Experience Manager Assets.
+>Si l’instance d’auteur Experience Manager Assets s’exécute en **mode hybride Dynamic Media**, les rendus de TIFF Pyramid des ressources d’image sont créés et enregistrés dans le référentiel Experience Manager Assets.
 >
->En revanche, si l’instance d’auteur Experience Manager Assets est en cours d’exécution en **mode Dynamic Media Scene7**, les rendus Pyramid TIFF des ressources d’image existent sur le serveur Scene7.
+>En revanche, si l’instance d’auteur Experience Manager Assets s’exécute en **mode Scene7 Dynamic Media**, les rendus de TIFF Pyramid des ressources d’image existent sur le serveur Scene7.
 >
->Lorsque des ressources de ce type sont publiées sur Brand Portal, les paramètres d’image prédéfinis sont appliqués et les rendus dynamiques sont affichés.
+>Lorsque ces ressources sont publiées sur Brand Portal, les paramètres d’image prédéfinis sont appliqués et les rendus dynamiques sont affichés.
 
 
 1. Dans la barre d’outils supérieure, cliquez sur le logo Experience Manager pour accéder aux outils d’administration.
@@ -68,7 +64,7 @@ Les administrateurs Experience Manager Assets peuvent créer des paramètres d�
 1. Cliquez sur **[!UICONTROL Enregistrer]**. Le paramètre d’image prédéfini est créé et affiché dans la page des paramètres d’image prédéfinis.
 1. Pour supprimer un paramètre d’image prédéfini, sélectionnez-le dans la page des paramètres d’image prédéfinis et cliquez sur **[!UICONTROL Supprimer]**. Dans la page de confirmation, cliquez sur **[!UICONTROL Supprimer]** pour confirmer la suppression. Le paramètre d’image prédéfini est supprimé de la page des paramètres d’image prédéfinis.
 
-## Application de paramètres d’image prédéfinis lors de la prévisualisation d’images  {#apply-image-presets-when-previewing-images}
+## Application de paramètres d’image prédéfinis lors de la prévisualisation d’images {#apply-image-presets-when-previewing-images}
 
 Lorsque vous prévisualisez des images et leurs rendus, choisissez parmi les paramètres prédéfinis existants pour reformater les images selon les spécifications définies par l’administrateur.
 
@@ -91,7 +87,7 @@ Lorsque vous téléchargez des images et leurs rendus à partir de Brand Portal
 
    ![](assets/downloadsingleasset.png)
 
-   * Sélectionnez l’image que vous souhaitez télécharger. Dans la barre d’outils supérieure, cliquez sur l’icône **[!UICONTROL Télécharger]**.
+   * Sélectionnez l’image à télécharger. Dans la barre d’outils supérieure, cliquez sur l’icône **[!UICONTROL Télécharger]**.
 
    ![](assets/downloadassets.png)
 
@@ -99,9 +95,9 @@ Lorsque vous téléchargez des images et leurs rendus à partir de Brand Portal
 
    ![](assets/donload-assets-dialog.png)
 
-1. Pour télécharger des rendus dynamiques de la ressource, sélectionnez l’option **[!UICONTROL Rendu(s) dynamique(s)]**.
-1. Personnalisez les propriétés des paramètres d’image prédéfinis en fonction desquels vous souhaitez reformater dynamiquement l’image et ses rendus lors du téléchargement. Spécifiez la taille, le format, l’espace colorimétrique, la résolution et le modificateur d’image.
+1. Pour télécharger des rendus dynamiques de la ressource, sélectionnez l’option **[!UICONTROL Rendus dynamiques]** .
+1. Personnalisez les propriétés des paramètres d’image prédéfinis pour reformater dynamiquement l’image et ses rendus lors du téléchargement. Spécifiez la taille, le format, l’espace colorimétrique, la résolution et le modificateur d’image.
 
    ![](assets/dynamicrenditions.png)
 
-1. Cliquez sur **[!UICONTROL Télécharger]**. Les rendus dynamiques personnalisés sont téléchargés dans un fichier ZIP avec l’image et les rendus que vous avez choisis de télécharger. Cependant, aucun fichier ZIP n’est créé si une seule ressource est téléchargée, ce qui garantit un téléchargement rapide.
+1. Cliquez sur **[!UICONTROL Télécharger]**. Les rendus dynamiques personnalisés sont téléchargés dans un fichier ZIP avec l’image et les rendus que vous avez choisis de télécharger. Cependant, aucun fichier zip n’est créé si une seule ressource est téléchargée, ce qui garantit un téléchargement rapide.
