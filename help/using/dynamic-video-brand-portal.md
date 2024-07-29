@@ -1,19 +1,15 @@
 ---
 title: Prise en charge de la vidéo dynamique sur Brand Portal
-seo-title: Dynamic video support on Brand Portal
 description: Prise en charge de la vidéo dynamique sur Brand Portal
-seo-description: Dynamic video support on Brand Portal
-uuid: a3502a4d-3971-4ea4-953c-44ba04446269
 contentOwner: mgulati
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: download-install
-discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
-source-git-commit: beabaa4e5cca4c2554111861b15902cac54ccd4c
+source-git-commit: ff51a49a958d43c98443d816a92276faae5e9569
 workflow-type: tm+mt
 source-wordcount: '1170'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -106,7 +102,7 @@ Assurez-vous que les détails de la configuration soient identiques dans Brand 
 ### Mise sur liste blanche des adresses IP sortantes publiques pour le mode Scene7 Dynamic Media
 
 Si le mode **[!UICONTROL Scene7]** de Dynamic Media avec l’[aperçu sécurisé activé](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html?lang=fr) est utilisé pour diffuser des ressources vidéo sur Brand Portal, **[!UICONTROL Scene7]** crée un serveur d’images dédié pour les environnements d’évaluation ou les applications internes. Toute requête à ce serveur vérifie l’adresse IP d’origine. Si la requête entrante ne figure pas dans la liste approuvée des adresses IP, une réponse d’échec est renvoyée.
-L’administrateur d’entreprise **[!UICONTROL Scene7]** configure par conséquent une liste approuvée d’adresses IP pour l’environnement de **[!UICONTROL test sécurisé]** de la société via l’IU Flash **[!UICONTROL SPS]** (Scene7 Publishing System). Vérifiez que l’adresse IP sortante pour votre zone géographique respective (parmi les suivantes) est ajoutée à cette liste approuvée.
+L’administrateur d’entreprise **[!UICONTROL Scene7]** configure par conséquent une liste approuvée d’adresses IP pour l’environnement de **[!UICONTROL test sécurisé]** de leur entreprise, via l’interface utilisateur Flash de **[!UICONTROL SPS]** (Scene7 Publishing System). Vérifiez que l’adresse IP sortante pour votre zone géographique respective (parmi les suivantes) est ajoutée à cette liste approuvée.
 Pour mettre l’une de ces adresses IP sortantes sur liste blanche, voir [Préparation de votre compte pour un test sécurisé](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html?lang=fr#testing-the-secure-testing-service).
 Les adresses IP sortantes sont les suivantes :
 
