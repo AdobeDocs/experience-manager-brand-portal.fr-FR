@@ -1,14 +1,10 @@
 ---
 title: Approvisionnement des ressources dans Brand Portal
-seo-title: Asset Sourcing in Brand Portal
 description: Découvrez la fonctionnalité d’approvisionnement des ressources disponible dans Adobe Experience Manager Assets Brand Portal.
-seo-description: Get an insight into the asset sourcing feature released in the Adobe Experience Manager Assets Brand Portal.
-uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: null
 sub-product: assets
 topics: collaboration, content-velocity, sharing
 doc-type: feature-video
@@ -17,16 +13,16 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 4c701781e7dc62b9d2b018fd13b1ae9616bbb840
 workflow-type: tm+mt
 source-wordcount: '647'
-ht-degree: 100%
+ht-degree: 58%
 
 ---
 
 # Présentation de l’approvisionnement des ressources {#overview-asset-sourcing-in-bp}
 
-L’**approvisionnement des ressources** permet aux utilisateurs d’Experience Manager Assets (administrateurs/non-administrateurs) de créer des dossiers avec une propriété **Contribution des ressources** supplémentaire, en s’assurant que les nouveaux dossiers s’ouvrent lorsque des utilisateurs de Brand Portal envoient des ressources. Cela déclenche automatiquement un workflow qui crée deux sous-dossiers supplémentaires, appelés **SHARED** et **NEW**, dans le dossier **Contribution** nouvellement créé. L’administrateur définit ensuite les exigences en chargeant un résumé relatif aux types de ressources à ajouter au dossier de contribution, ainsi qu’un ensemble de ressources de base, dans le dossier **SHARED**, afin de s’assurer que les utilisateurs de Brand Portal disposent des informations de référence dont ils ont besoin. L’administrateur peut alors octroyer aux utilisateurs actifs de Brand Portal l’accès au dossier de contribution avant de publier le nouveau dossier **Contribution** sur Brand Portal. Dès que l’utilisateur a fini d’ajouter du contenu dans le dossier **NEW**, il peut republier le dossier de contribution dans l’environnement d’auteur Experience Manager. Notez que l’importation du nouveau contenu publié dans Experience Manager Assets et la prise en compte de cette opération peuvent prendre quelques minutes.
+L’**approvisionnement des ressources** permet aux utilisateurs d’Experience Manager Assets (administrateurs/non-administrateurs) de créer des dossiers avec une propriété **Contribution des ressources** supplémentaire, en s’assurant que les nouveaux dossiers s’ouvrent lorsque des utilisateurs de Brand Portal envoient des ressources. Cela déclenche automatiquement un workflow qui crée deux sous-dossiers supplémentaires, appelés **SHARED** et **NEW**, dans le dossier **Contribution** nouvellement créé. L’administrateur définit les exigences en chargeant un résumé relatif aux types de ressources à ajouter au dossier de contribution. Ils chargent un ensemble de ressources de base dans le dossier **SHARED**, fournissant aux utilisateurs de Brand Portal les informations de référence nécessaires. L’administrateur peut alors octroyer aux utilisateurs actifs de Brand Portal l’accès au dossier de contribution avant de publier le nouveau dossier **Contribution** sur Brand Portal. Lorsque l’utilisateur a fini d’ajouter du contenu dans le dossier **NEW** , il peut republier le dossier de contribution dans l’environnement de création Experience Manager. Notez que l’importation du nouveau contenu publié dans Experience Manager Assets et la prise en compte de cette opération peuvent prendre quelques minutes.
 
 En outre, toutes les fonctionnalités existantes restent inchangées. Les utilisateurs de Brand Portal peuvent afficher, rechercher et télécharger des ressources à partir du dossier de contribution, ainsi que des autres dossiers autorisés. Quant aux administrateurs, ils peuvent partager le dossier de contribution de manière plus avancée, modifier les propriétés et ajouter des ressources aux collections.
 
@@ -47,13 +43,13 @@ En outre, toutes les fonctionnalités existantes restent inchangées. Les utilis
 >
 >La fonctionnalité d’approvisionnement des ressources est activée par défaut dans Experience Manager Assets as a Cloud Service, Experience Manager Assets 6.5.9 et versions ultérieures.
 >
->Les configurations existantes continueront à fonctionner sur les versions antérieures.
+>Les configurations existantes continuent de fonctionner sur les versions antérieures.
 
 >[!NOTE]
 >
->Il existe un problème connu dans Experience Manager Assets 6.5.4. Les utilisateurs de Brand Portal ne peuvent pas publier les ressources du dossier de contribution dans Experience Manager Assets lors de la mise à niveau vers Adobe Developer Console.
+>Il existe un problème connu dans Experience Manager Assets 6.5.4. Les utilisateurs de Brand Portal ne peuvent pas publier les ressources du dossier de contribution dans Experience Manager Assets lors de la mise à niveau vers Adobe Developer Console.
 >
->Le problème a été corrigé dans la version 6.5.5 d’Experience Manager Assets. Vous pouvez mettre à niveau votre instance Experience Manager Assets vers le Service Pack le plus récent et [mettre à niveau vos configurations](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html?lang=fr#upgrade-integration-65) sur Adobe Developer Console.
+>Le problème a été corrigé dans la version 6.5.5 d’Experience Manager Assets. Vous pouvez mettre à niveau votre instance Experience Manager Assets vers le Service Pack le plus récent et [mettre à niveau vos configurations](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) sur Adobe Developer Console.
 
 <!--
 
@@ -100,7 +96,7 @@ Default URL: http:// localhost:4502/system/console/configMgr.
 -->
 
 
-### Chargement de la liste des utilisateurs de Brand Portal {#upload-bp-user-list}
+### Chargement de la liste des utilisateurs de Brand Portal {#upload-bp-user-list}
 
 Les administrateurs Experience Manager Assets peuvent charger le fichier de configuration des utilisateurs Brand Portal (au format .csv) contenant la liste des utilisateurs actifs de Brand Portal dans Experience Manager Assets pour leur permettre d’accéder à la fonctionnalité d’approvisionnement des ressources.
 
@@ -112,26 +108,26 @@ Un dossier de contribution peut uniquement être partagé avec les utilisateurs 
 
 >[!NOTE]
 >
->Ce format de fichier CSV est identique à celui pris en charge dans Admin Console pour importer des utilisateurs en bloc. Vous devez indiquer vos nom, prénom et adresse e-mail.
+>Le format du fichier CSV est le même que celui pris en charge dans l’Admin Console pour l’importation en bloc d’utilisateurs. Vous devez indiquer vos nom, prénom et adresse e-mail.
 
-Les administrateurs peuvent ajouter de nouveaux utilisateurs dans Admin Console. Pour plus d’informations, voir [Gestion des utilisateurs](brand-portal-adding-users.md). Une fois des utilisateurs ajoutés dans Admin Console, ceux-ci peuvent être ajoutés au fichier de configuration des utilisateurs de Brand Portal, puis se voir attribuer l’autorisation d’accéder au dossier de contribution.
+Les administrateurs peuvent ajouter de nouveaux utilisateurs dans l’Admin Console. Accédez à [Gérer les utilisateurs](brand-portal-adding-users.md) pour plus d’informations. Après avoir ajouté des utilisateurs dans l’Admin Console, ils peuvent être ajoutés au fichier de configuration utilisateur de Brand Portal, puis se voir attribuer l’autorisation d’accéder au dossier de contribution.
 
-**Pour charger la liste des utilisateurs de Brand Portal, procédez comme suit :**
+**Pour charger la liste des utilisateurs de Brand Portal :**
 
 1. Connectez-vous à votre instance Experience Manager Assets.
-1. Dans le panneau **Outils**, accédez à **[!UICONTROL Ressources]** > **[!UICONTROL Utilisateurs Brand Portal]**.
+1. Dans le panneau [!UICONTROL Outils], accédez à **[!UICONTROL Assets]** > **[!UICONTROL Utilisateurs Brand Portal]**.
 
 1. La fenêtre de chargement des contributeurs de Brand Portal s’affiche.
-Recherchez sur votre ordinateur local le **fichier de configuration (.csv)** contenant la liste des utilisateurs actifs de Brand Portal, puis chargez-le.
+Parcourez votre ordinateur local et téléchargez un fichier **de configuration (.csv)** contenant la liste des utilisateurs Brand Portal actifs.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
    ![](assets/upload-user-list2.png)
 
 
-Les administrateurs peuvent donner un accès à des utilisateurs spécifiques à partir de cette liste d’utilisateurs lors de la configuration d’un dossier de contribution. Seuls les utilisateurs affectés à un dossier de contribution auront accès au dossier de contribution et publieront des fichiers de Brand Portal vers Experience Manager Assets.
+Les administrateurs peuvent donner un accès à des utilisateurs spécifiques à partir de cette liste d’utilisateurs lors de la configuration d’un dossier de contribution. Seuls les utilisateurs affectés à un dossier de contribution ont accès au dossier de contribution et publient des ressources de Brand Portal vers Experience Manager Assets.
 
 ## Voir également {#reference-articles}
 
-* [Configuration et publication du dossier de contribution sur Brand Portal](brand-portal-publish-contribution-folder-to-brand-portal.md)
+* [Configuration et publication d’un dossier de contribution sur Brand Portal](brand-portal-publish-contribution-folder-to-brand-portal.md)
 
 * [Publication du dossier de contribution sur Experience Manager Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)
