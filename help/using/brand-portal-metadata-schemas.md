@@ -1,19 +1,15 @@
 ---
 title: Utilisation du formulaire de schéma de métadonnées
-seo-title: Use the metadata schema form
 description: Un schéma de métadonnées décrit la disposition de la page Propriétés et des propriétés de métadonnées affichées pour les ressources qui utilisent ce schéma en particulier. Le schéma que vous appliquez à une ressource détermine les champs de métadonnées qui apparaissent sur sa page Propriétés.
-seo-description: A metadata schema describes the layout of the Properties page and the metadata properties displayed for assets that use the particular schema. The schema that you apply to an asset determines the metadata fields that appear on its Properties page.
-uuid: 1a944a3b-5152-425f-b1ea-bfe3331de928
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
-discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
 role: Admin
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '1719'
-ht-degree: 80%
+source-wordcount: '1622'
+ht-degree: 68%
 
 ---
 
@@ -45,7 +41,7 @@ Pour créer un formulaire de schéma de métadonnées, procédez comme suit :
 
 ## Modification d’un formulaire de schéma de métadonnées {#edit-a-metadata-schema-form}
 
-Vous pouvez modifier un formulaire de schéma de métadonnées existant ou nouvellement ajouté. Le formulaire de schéma de métadonnées comporte le contenu dérivé de son parent, notamment les éléments d’onglet et de formulaire dans les onglets. Vous pouvez mapper ou configurer ces éléments de formulaire à un champ dans un noeud de métadonnées.
+Tout formulaire de schéma de métadonnées ajouté ou existant peut être modifié. Le formulaire de schéma de métadonnées comporte le contenu dérivé de son parent, notamment les éléments d’onglet et de formulaire dans les onglets. Vous pouvez mapper ou configurer ces éléments de formulaire à un champ dans un noeud de métadonnées.
 
 Vous pouvez ajouter de nouveaux onglets ou éléments de formulaire au formulaire de schéma de métadonnées. Les onglets et éléments de formulaire dérivés (du parent) sont à l’état verrouillé. Vous ne pouvez pas les modifier au niveau des enfants.
 
@@ -66,9 +62,9 @@ Pour modifier un formulaire de schéma de métadonnées, procédez comme suit :
 
 1. Dans la barre d’outils supérieure, cliquez sur **[!UICONTROL Modifier]**.
 
-   La page **[!UICONTROL Éditeur de schéma de métadonnées]** s’ouvre avec l’onglet **[!UICONTROL De base]** affiché à gauche et l’onglet **[!UICONTROL Créer le formulaire]** affiché à droite.
+   La page **[!UICONTROL Éditeur de schéma de métadonnées]** s’ouvre avec l’onglet **[!UICONTROL De base]** ouvert à gauche. À droite, l’onglet **[!UICONTROL Créer le formulaire]** s’ouvre.
 
-1. Sur la page **[!UICONTROL Éditeur de schéma de métadonnées]**, personnalisez la page **[!UICONTROL Propriétés]** de la ressource en faisant glisser un ou plusieurs composants de la liste des types de composants dans le sous-onglet **[!UICONTROL Créer le formulaire]** vers l’onglet **[!UICONTROL De base]**.
+1. Sur la page **[!UICONTROL Éditeur de schéma de métadonnées]**, personnalisez la page **[!UICONTROL Propriétés]** de la ressource. Faites simplement glisser un ou plusieurs composants à partir d’une liste de types de composants dans l’onglet **[!UICONTROL Créer le formulaire]**. Faites-les glisser vers l’onglet **[!UICONTROL De base]**.
 
    ![](assets/metadata-schemaeditor-page.png)
 
@@ -86,7 +82,7 @@ L’onglet **[!UICONTROL Créer le formulaire]** répertorie les éléments que 
 | **[!UICONTROL Nombre]** | Permet d’ajouter un composant de nombre. |
 | **[!UICONTROL Date]** | Permet d’ajouter un composant de date. |
 | **[!UICONTROL Liste déroulante]** | Permet d’ajouter une liste déroulante. |
-| **[!UICONTROL Balises standard]** | Permet d’ajouter une balise. **Remarque** : Il se peut que les administrateurs doivent modifier la valeur de chemin, par exemple `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`, s’ils publient le formulaire de schéma de métadonnées à partir d’Experience Manager Assets, où le chemin d’accès n’inclut pas les informations du client comme `/etc/tags/<custom_tag_namespace>`. |
+| **[!UICONTROL Balises standard]** | Permet d’ajouter une balise. Les administrateurs peuvent avoir besoin de modifier la valeur de chemin. Par exemple, `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`, s’il publie le formulaire de schéma de métadonnées à partir de Experience Manager Assets, où le chemin d’accès n’inclut pas les informations du client, par exemple `/etc/tags/<custom_tag_namespace>`. |
 | **[!UICONTROL Balises intelligentes]** | Balises détectées automatiquement si vous avez acheté et configuré le module complémentaire des balises intelligentes Experience Manager Assets. |
 | **[!UICONTROL Champ masqué]** | Permet d’ajouter un champ masqué. Il est envoyé en tant que paramètre POST lorsque la ressource est enregistrée. |
 | **[!UICONTROL Ressource référencée par]** | Ajoutez ce composant pour afficher la liste des ressources référencées par la ressource. |
@@ -108,9 +104,9 @@ Pour modifier les propriétés d’un composant de métadonnées dans le formula
 
 Les valeurs admises pour cette propriété sont les suivantes :
 
--- `./jcr:content/metadata/dc:title` : stocke la valeur dans le nœud de métadonnées de la ressource en tant que propriété [!UICONTROL `dc:title`].
+-- `./jcr:content/metadata/dc:title` : stocke la valeur dans le nœud de métadonnées de la ressource en tant que propriété `dc:title`.
 
--- `./jcr:created` : affiche la propriété JCR au niveau du nœud de la ressource. Si vous configurez ces propriétés dans Afficher les propriétés, nous vous recommandons de les marquer avec l’état Désactiver la modification, car elles sont protégées. Dans le cas contraire, l’erreur « Échec de modification des ressources » est générée lorsque vous enregistrez les propriétés de la ressource.
+-- `./jcr:created` : affiche la propriété JCR au niveau du nœud de la ressource. Si vous avez configuré ces propriétés sur les propriétés d’affichage, Adobe vous recommande de les marquer comme Désactiver la modification, car elles sont protégées. Dans le cas contraire, l’erreur &quot;Assets failed to modify&quot; se produit lorsque vous enregistrez les propriétés de la ressource.
 
 * **[!UICONTROL Espace réservé]** : utilisez cette propriété pour fournir à l’utilisateur des informations utiles concernant la propriété des métadonnées.
 * **[!UICONTROL Obligatoire]** : utilisez cette propriété pour marquer une propriété de métadonnées comme étant obligatoire sur la page Propriétés.
@@ -131,7 +127,7 @@ Le formulaire de schéma par défaut contient les onglets **[!UICONTROL De base]
 
 ![](assets/add_delete_tabs_metadataschemaform.png)
 
-* Pour ajouter un nouvel onglet dans un formulaire de schéma, cliquez sur **[!UICONTROL +]**. Par défaut, le nouvel onglet porte le nom « Sans nom -1 ». Vous pouvez modifier le nom à partir de l’onglet **[!UICONTROL Paramètres]**.
+* Pour ajouter un nouvel onglet dans un formulaire de schéma, cliquez sur **[!UICONTROL +]**. Par défaut, le nouvel onglet porte le nom &quot;Sans nom-1&quot;. Vous pouvez modifier le nom à partir de l’onglet **[!UICONTROL Paramètres]**.
 
 ![](assets/add-tab-metadata-form.png)
 
@@ -139,7 +135,7 @@ Le formulaire de schéma par défaut contient les onglets **[!UICONTROL De base]
 
 ## Application d’un schéma de métadonnées à un dossier {#apply-a-metadata-schema-to-a-folder}
 
-Brand Portal vous permet de personnaliser et de contrôler le schéma de métadonnées afin que la page **[!UICONTROL Propriétés]** d’une ressource affiche uniquement les informations spécifiques que vous choisissez de révéler. Pour contrôler les métadonnées affichées dans la page **[!UICONTROL Propriétés]**, supprimez les métadonnées requises du formulaire de schéma de métadonnées et appliquez-les au dossier spécifique.
+Brand Portal vous permet de personnaliser et de contrôler le schéma de métadonnées de sorte que la page **[!UICONTROL Propriétés]** d’une ressource affiche uniquement les informations spécifiques que vous choisissez de révéler. Pour contrôler les métadonnées affichées dans la page **[!UICONTROL Propriétés]**, supprimez les métadonnées requises du formulaire de schéma de métadonnées et appliquez-les au dossier spécifique.
 
 Pour appliquer un formulaire de schéma de métadonnées à un dossier, procédez comme suit :
 
@@ -153,15 +149,15 @@ Pour appliquer un formulaire de schéma de métadonnées à un dossier, procéde
 
    ![](assets/apply-metadata-schema-form-to-folder.png)
 
-1. Dans la barre d’outils supérieure, cliquez sur **[!UICONTROL Appliquer au(x) dossier(s)]**.
+1. Dans la barre d’outils supérieure, cliquez sur **[!UICONTROL Appliquer aux dossiers]**.
 
-1. Dans la page **[!UICONTROL Sélectionner le(s) dossier(s)]**, accédez au dossier auquel vous souhaitez appliquer le schéma de métadonnées **[!UICONTROL vêtements]**, par exemple **[!UICONTROL gants]**.
+1. Sur la page **[!UICONTROL Sélectionner des dossiers]**, accédez au dossier auquel vous souhaitez appliquer le schéma de métadonnées **[!UICONTROL vêtements]**, par exemple **[!UICONTROL Gants]**.
 
    ![](assets/apply_metadata_schemaformtofoldergloves.png)
 
 1. Cliquez sur **[!UICONTROL Appliquer]** pour appliquer le formulaire de schéma de métadonnées au dossier.
 
-   Les métadonnées disponibles dans le formulaire de schéma de métadonnées **[!UICONTROL vêtements]** sont appliquées au dossier **[!UICONTROL Gants]** et visibles dans la page **[!UICONTROL Propriétés]** du dossier.
+   Les métadonnées disponibles dans le formulaire de schéma de métadonnées **[!UICONTROL clothing]** sont appliquées au dossier **[!UICONTROL Gloves]** et sont visibles dans la page **[!UICONTROL Properties]** du dossier.
 
    ![](assets/folder_metadata_properties.png)
 
@@ -185,7 +181,7 @@ Pour supprimer un formulaire, sélectionnez-le puis cliquez sur l’icône **[!U
 
 ### Ajout de formulaires pour les types MIME {#adding-new-forms-for-mime-types}
 
-En plus des formulaires par défaut, vous pouvez ajouter des formulaires personnalisés pour des ressources avec des types MIME différents ou créer un formulaire sous le type de formulaire adéquat. Par exemple, pour ajouter un modèle pour le sous-type **[!UICONTROL image/png]**, créez le formulaire sous les formulaires « image ». Le titre du formulaire de schéma est le nom du sous-type. Dans ce cas, le titre est « png ».
+En plus des formulaires par défaut, vous pouvez ajouter des formulaires personnalisés pour des ressources avec des types MIME différents ou créer un formulaire sous le type de formulaire adéquat. Par exemple, pour ajouter un modèle pour le sous-type **[!UICONTROL image/png]**, créez le formulaire sous les formulaires « image ». Le titre du formulaire de schéma est le nom du sous-type. Dans ce cas, le titre est &quot;png&quot;.
 
 #### Utilisation d’un modèle de schéma existant pour divers types MIME {#using-an-existing-schema-template-for-various-mime-types}
 
@@ -196,10 +192,10 @@ Dans ce cas, créez un nœud sous [!UICONTROL `/etc/dam/metadataeditor/mimetypem
 | **Nom** | **Type** | **Valeur** |
 |---|---|---|
 | exposedmimetype | Chaîne | image/jpeg |
-| mimetypes | Chaîne[] | image/png |
+| types MIME | Chaîne[] | image/png |
 
 * **exposedmimetype** : nom du formulaire existant à mapper.
-* **mimetypes** : liste des types MIME qui utilisent le formulaire défini dans l’attribut **exposedmimetype**.
+* **MIME types** : liste des types MIME qui utilisent le formulaire défini dans l’attribut **exposedmimetype**
 
 Brand Portal mappe les types MIME et les formulaires de schéma suivants :
 
@@ -214,29 +210,29 @@ Brand Portal mappe les types MIME et les formulaires de schéma suivants :
 | video/quicktime | video/x-quicktime |
 | video/mpeg | video/mp4 |
 | video/avi | video/avi, video/msvideo, video/x-msvideo |
-| video/wmv | video/x-ms-wmv |
+| video/wmv | `video/x-ms-wmv` |
 | video/flv | video/x-flv |
 
 Voici une liste des propriétés de métadonnées par défaut :
 
-* jcr:content/metadata/cq:tags
-* jcr:content/metadata/dc:format
-* jcr:content/metadata/dam:status
-* jcr:content/metadata/videoCodec
-* jcr:content/metadata/audioCodec
-* jcr:content/metadata/dc:title
-* jcr:content/metadata/dc:description
-* jcr:content/metadata/xmpMM:InstanceID
-* jcr:content/metadata/xmpMM:DocumentID
-* jcr:content/metadata/dam:sha1
-* jcr:content/metadata/dam:solutionContext
-* jcr:content/metadata/videoBitrate
-* jcr:content/metadata/audioBitrate
-* jcr:content/usages/usedBy
-* jcr:content/jcr:lastModified
-* jcr:content/metadata/prism:expirationDate
-* jcr:content/onTime
-* jcr:content/offTime
-* jcr:content/metadata/dam:size
-* jcr:content/metadata/tiff:ImageWidth
-* jcr:content/metadata/tiff:ImageLength
+* `jcr:content/metadata/cq:tags`
+* `jcr:content/metadata/dc:format`
+* `jcr:content/metadata/dam:status`
+* `jcr:content/metadata/videoCodec`
+* `jcr:content/metadata/audioCodec`
+* `jcr:content/metadata/dc:title`
+* `jcr:content/metadata/dc:description`
+* `jcr:content/metadata/xmpMM:InstanceID`
+* `jcr:content/metadata/xmpMM:DocumentID`
+* `jcr:content/metadata/dam:sha1`
+* `jcr:content/metadata/dam:solutionContext`
+* `jcr:content/metadata/videoBitrate`
+* `jcr:content/metadata/audioBitrate`
+* `jcr:content/usages/usedBy`
+* `jcr:content/jcr:lastModified`
+* `jcr:content/metadata/prism:expirationDate`
+* `jcr:content/onTime`
+* `jcr:content/offTime`
+* `jcr:content/metadata/dam:size`
+* `jcr:content/metadata/tiff:ImageWidth`
+* `jcr:content/metadata/tiff:ImageLength`

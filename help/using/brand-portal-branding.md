@@ -1,25 +1,21 @@
 ---
 title: Personnalisation du papier peint, de l’en-tête et des e-mails
-seo-title: Customize wallpaper, header, and email message
-description: Les administrateurs de Brand Portal peuvent personnaliser de façon limitée l’interface s’affichant sur l’écran des utilisateurs. Vous pouvez choisir une image d’arrière-plan spécifique (papier peint) pour la page de connexion de Brand Portal. Vous pouvez également ajouter une image d’en-tête et personnaliser les e-mails de partage des ressources pour correspondre à la marque du client.
-seo-description: Brand Portal administrators can make limited customizations to the interface displayed to users. You can choose a specific background image (wallpaper) for the Brand Portal login page. You can also add a header image and customize asset sharing emails to match the customer’s brand.
-uuid: e078d0b9-18b5-467a-ae90-7f0b9fd0d414
+description: Les administrateurs de Brand Portal peuvent personnaliser de façon limitée l’interface s’affichant sur l’écran des utilisateurs. Vous pouvez choisir une image d’arrière-plan spécifique (papier peint) pour la page de connexion de Brand Portal. Vous pouvez également ajouter une image d’en-tête et personnaliser les e-mails de partage de ressources pour qu’ils correspondent à la marque du client.
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
-discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
 role: Admin
 exl-id: 9f5c2a6a-8844-4ca4-b0d9-8f50b6164219
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 94%
+source-wordcount: '761'
+ht-degree: 77%
 
 ---
 
 # Personnalisation du papier peint, de l’en-tête et des e-mails {#customize-wallpaper-header-and-email-message}
 
-Les administrateurs de Brand Portal peuvent personnaliser de façon limitée l’interface s’affichant sur l’écran des utilisateurs. Vous pouvez choisir une image d’arrière-plan spécifique (papier peint) pour la page de connexion de Brand Portal. Vous pouvez également ajouter une image d’en-tête et personnaliser les e-mails de partage des ressources pour correspondre à la marque du client.
+Les administrateurs de Brand Portal peuvent personnaliser de façon limitée l’interface s’affichant sur l’écran des utilisateurs. Vous pouvez choisir une image d’arrière-plan spécifique (papier peint) pour la page de connexion de Brand Portal. Vous pouvez également ajouter une image d’en-tête et personnaliser les e-mails de partage de ressources pour qu’ils correspondent à la marque du client.
 
 ## Personnalisation du papier peint de l’écran de connexion {#customize-the-login-screen-wallpaper}
 
@@ -30,7 +26,6 @@ En l’absence d’image de papier peint de marque personnalisée, un papier pei
    ![](assets/aemlogo.png)
 
 1. Dans le panneau des outils d’administration, cliquez sur **[!UICONTROL Valorisation de marque]**.
-
 
    ![](assets/admin-tools-panel-10.png)
 
@@ -87,7 +82,7 @@ L’en-tête apparaît sur différentes pages de Brand Portal une fois que vous
 
 1. Pour charger une image d’en-tête, cliquez sur l’icône **[!UICONTROL Choisir l’image]** et sélectionnez **[!UICONTROL Télécharger]**.
 
-   Pour utiliser une image Brand Portal existante, choisissez **[!UICONTROL Sélectionner parmi existants]**.
+   Pour utiliser une image Brand Portal existante, choisissez **[!UICONTROL Sélectionner une image existante]**.
 
    ![](assets/choose_wallpaperimage-1.png)
 
@@ -102,18 +97,18 @@ Pour enregistrer les modifications, cliquez sur **[!UICONTROL Enregistrer]** dan
 
    ![](assets/configure_brandingheaderimageurl.png)
 
-1. Dans la barre d’outils supérieure, cliquez sur l’icône **[!UICONTROL Aperçu]** pour générer un aperçu de l’interface de Brand Portal avec l’image d’en-tête.
+1. Dans la barre d’outils supérieure, cliquez sur l’icône **[!UICONTROL Aperçu]** pour générer un aperçu de l’interface Brand Portal avec l’image d’en-tête.
 
    ![](assets/chlimage_1-3.png)
    ![](assets/custom_header_preview.png)
 
 1. Pour activer ou désactiver l’image d’en-tête, effectuez les opérations suivantes sur la page **[!UICONTROL Configurer la valorisation de la marque > Image d’en-tête]** :
 
-   * Pour empêcher une image d’en-tête d’apparaître sur les pages de Brand Portal, cliquez sur **[!UICONTROL Désactiver l’en-tête]** dans la barre d’outils supérieure. Un message confirme la désactivation de l’image.
+   * Pour empêcher une image d’en-tête d’apparaître sur les pages Brand Portal, cliquez sur **[!UICONTROL Désactiver l’en-tête]** dans la barre d’outils supérieure. Un message confirme la désactivation de l’image.
 
    ![](assets/chlimage_1-4.png)
 
-   * Pour que l’image d’en-tête réapparaisse sur les pages de Brand Portal, cliquez sur **[!UICONTROL Activer l’en-tête]** dans la barre d’outils supérieure. Un message confirme l’activation de l’image.
+   * Pour que l’image d’en-tête réapparaisse sur les pages Brand Portal, cliquez sur **[!UICONTROL Activer l’en-tête]** dans la barre d’outils supérieure. Un message confirme l’activation de l’image.
 
    ![](assets/chlimage_1-5.png)
 
@@ -131,7 +126,7 @@ Lorsque des ressources sont partagées en tant que lien, les utilisateurs reçoi
 
    ![](assets/admin-tools-panel-12.png)
 
-1. Lorsque des ressources sont partagées en tant que lien ou téléchargées via des e-mails et que des **[!UICONTROL collections]** sont partagées, des e-mails de notification sont envoyés aux utilisateurs. Pour personnaliser l’e-mail, dans la page **[!UICONTROL Configurer la valorisation de la marque]**, sélectionnez **[!UICONTROL Message électronique]** dans le rail gauche.
+1. Lorsque des ressources sont partagées en tant que liens ou téléchargées par courrier électronique, et que des **[!UICONTROL collections]** sont partagées, des notifications par courrier électronique sont envoyées aux utilisateurs. Pour personnaliser l’e-mail, dans la page **[!UICONTROL Configurer la valorisation de la marque]**, sélectionnez **[!UICONTROL Message électronique]** dans le rail gauche.
 
    ![](assets/configure-branding-page-email.png)
 

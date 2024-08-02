@@ -7,9 +7,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
-source-git-commit: 4c701781e7dc62b9d2b018fd13b1ae9616bbb840
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1500'
 ht-degree: 24%
 
 ---
@@ -23,11 +23,11 @@ Les questions fréquentes de Brand Portal se concentrent sur les questions et pr
 
 **Question : le point d’entrée OAuth hérité existant (`https://legacy-oauth.cloud.adobe.io/login`) ne fonctionne pas. Quelle pourrait en être la raison ?**
 
-**Réponse :** La configuration OAuth héritée est obsolète. Mettez à niveau les instances d’auteur Experience Manager Assets vers le dernier Service Pack et configurez-les via Adobe Developer Console. Voir [Configuration d’Experience Manager Assets avec Brand Portal](configure-aem-assets-with-brand-portal.md) pour plus de détails. Toutefois, pour que la configuration OAuth héritée fonctionne jusqu’à la mise à niveau, mettez à jour le point d’entrée OAuth hérité vers `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
+**Réponse :** La configuration OAuth héritée est obsolète. Mettez à niveau les instances d’auteur Experience Manager Assets vers le dernier Service Pack et configurez-les au moyen de Adobe Developer Console. Voir [Configuration d’Experience Manager Assets avec Brand Portal](configure-aem-assets-with-brand-portal.md) pour plus de détails. Toutefois, pour que la configuration OAuth héritée fonctionne jusqu’à la mise à niveau, mettez à jour le point d’entrée OAuth hérité vers `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
 
 **Question : Je ne suis pas en mesure de publier les ressources du dossier de contribution de Brand Portal vers Experience Manager Assets après la mise à niveau vers Adobe Developer Console. Mon instance d’auteur se trouve sur Experience Manager Assets 6.5.4. Quelle peut en être la raison ?**
 
-**Réponse :** Oui, il existe un problème connu lors de la publication des ressources du dossier de contribution vers Experience Manager Assets 6.5.4 via Adobe Developer Console.
+**Réponse :** Oui, il existe un problème connu lors de la publication des ressources du dossier de contribution vers Experience Manager Assets 6.5.4 par le biais de Adobe Developer Console.
 
 Le problème a été corrigé dans la version 6.5.5 d’Experience Manager Assets. Vous pouvez mettre à niveau votre instance Experience Manager Assets vers le Service Pack le plus récent et [mettre à niveau vos configurations](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) sur Adobe Developer Console.
 

@@ -1,18 +1,14 @@
 ---
 title: Partage de dossiers
-seo-title: Share folders
-description: Brand Portal ne prend pas en charge l’ingestion des ressources. Celles-ci doivent donc être publiées sur Brand Portal à partir d’une instance d’auteur Experience Manager Assets préconfigurée. Les ressources publiées ne sont pas accessibles aux utilisateurs qui ne sont pas administrateurs de Brand Portal, à moins qu’elles n’aient été configurées lors de la configuration de la réplication avec une instance Experience Manager et qu’elles doivent être partagées avec eux.
-seo-description: Brand Portal does not support asset ingestion so assets must be published to Brand Portal from a pre-configured Experience Manager Assets Author instance. Published assets are not accessible to non-admin users of Brand Portal, unless configured while configuring replication with Experience Manager instance, and need to be shared with them.
-uuid: 340d0a49-b708-4f0e-9fb8-99c824942f34
+description: Brand Portal exige que les ressources soient publiées à partir d’une instance d’auteur Experience Manager Assets préconfigurée. Les utilisateurs non-administrateurs ne peuvent accéder aux ressources publiées que s’ils sont configurés lors de la configuration de la réplication avec un Experience Manager, et les ressources doivent être partagées avec eux.
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 exl-id: d28cf927-60e8-437e-9cba-92f7e19020e7
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '1104'
-ht-degree: 84%
+source-wordcount: '1090'
+ht-degree: 56%
 
 ---
 
@@ -32,17 +28,17 @@ La section suivante décrit le workflow de partage de dossiers et l’accès uti
 
 ### Partage de dossiers avec des groupes d’utilisateurs sur Brand Portal {#sharing-folders-with-user-groups-on-brand-portal}
 
-Les droits d’accès aux ressources d’un dossier dépendent des droits d’accès à son dossier parent, indépendamment des paramètres des dossiers enfants. Ce comportement est régi par les [ACL](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=fr) dans AEM, car les dossiers enfants héritent des ACL de leurs dossiers parents. Par exemple, si un dossier A contient un dossier B qui contient un dossier C, alors un groupe d’utilisateurs (ou des utilisateurs) possédant les droits d’accès au dossier A bénéficient des mêmes droits d’accès aux dossiers B et C. En tant que dossier enfant de A, le dossier B hérite de ses listes ACL. Tandis que le dossier C hérite de ses listes ACL en tant que dossier enfant de B.
+Les droits d’accès aux ressources d’un dossier dépendent des droits d’accès à son dossier parent, indépendamment des paramètres des dossiers enfants. [ACLs](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/security) dans AEM gouvernent ce comportement, les dossiers enfants héritant des ACL de leurs dossiers parents. Supposons, par exemple, que le dossier A contienne le dossier B, qui contient le dossier C. Ensuite, un groupe d’utilisateurs (ou des utilisateurs) disposant de droits d’accès sur le dossier A ont également les mêmes droits d’accès sur le dossier B et le dossier C. Le dossier B étant le dossier enfant de A hérite de ses listes de contrôle d’accès et le dossier C étant le dossier enfant de B hérite de ses listes de contrôle d’accès.
 
-De même, les groupes d’utilisateurs (ou les utilisateurs) possédant les autorisations pour accéder seulement au dossier B disposent des mêmes autorisations d’accès au dossier C, mais pas au dossier A. Par conséquent, il est conseillé aux organisations de hiérarchiser leur contenu de façon à ce que les ressources les plus exposées soient placées dans les dossiers enfants, et l’accès des enfants au dossier racine peut être restreint.
+De même, les groupes d’utilisateurs (ou les utilisateurs) autorisés à accéder uniquement au dossier B disposent des mêmes autorisations d’accès au dossier C, mais pas au dossier A. Adobe recommande d’organiser le contenu afin que les ressources les plus exposées soient placées dans des dossiers enfants, ce qui permet de restreindre l’accès des dossiers enfants jusqu’au dossier racine.
 
 ### Publication de dossier public {#public-folder-publish}
 
-À moins que l’option **[!UICONTROL Publication de dossier public]** n’ait été sélectionnée lors de la configuration de la réplication de Brand Portal, les utilisateurs non-administrateurs (tels que les éditeurs et les observateurs) n’ont pas accès aux ressources publiées depuis AEM Assets sur Brand Portal.
+Les utilisateurs non-administrateurs (tels que les éditeurs et les observateurs) ne peuvent accéder aux ressources publiées d’AEM Assets vers Brand Portal que si l’option **[!UICONTROL Public Folder Publish]** est sélectionnée pendant la configuration de la réplication Brand Portal.
 
 ![](assets/assetbpreplication.png)
 
-Si l’option **[!UICONTROL Publication de dossier public]** est désactivée, les administrateurs doivent partager spécifiquement ces ressources avec les utilisateurs non-administrateurs grâce à la fonctionnalité de partage.
+Si l’option **[!UICONTROL Public Folder Publish]** est désactivée, les administrateurs doivent partager ces ressources spécifiquement avec les utilisateurs non-administrateurs à l’aide de la fonctionnalité de partage.
 
 >[!NOTE]
 >
@@ -50,9 +46,9 @@ Si l’option **[!UICONTROL Publication de dossier public]** est désactivée, l
 
 ## Accès aux dossiers partagés {#access-to-shared-folders}
 
-Le tableau suivant indique les droits d’accès et les droits de partage/d’annulation du partage des ressources pour différents rôles utilisateur :
+Le tableau suivant indique les droits d’accès et les droits de partage ou d’annulation du partage des ressources pour divers rôles d’utilisateur :
 
-|               | Accès à tous les dossiers publiés à partir d’AEM Assets vers Brand Portal | Accès aux dossiers partagés | Partage/annulation du partage des droits de dossier |
+|               | Accès à tous les dossiers publiés à partir d’AEM Assets vers Brand Portal | Accès aux dossiers partagés | Partage ou annulation du partage des droits de dossier |
 |---------------|-----------|-----------|------------|
 | Administrateur | Oui | Oui | Oui |
 | Éditeur | Non* | Oui, uniquement s’il est partagé avec eux ou avec le groupe auquel ils appartiennent. | Oui, uniquement pour les dossiers partagés avec eux ou avec le groupe auquel ils appartiennent. |
@@ -61,15 +57,15 @@ Le tableau suivant indique les droits d’accès et les droits de partage/d’an
 
 >[!NOTE]
 >
->Par défaut, l’option **[!UICONTROL Publication de dossier public]** est désactivée lors de la configuration de la réplication de Brand Portal avec un auteur AEM. Si l’option est activée, les dossiers publiés sur Brand Portal sont accessibles à tous les utilisateurs (également aux utilisateurs non administrateurs) par défaut.
+>Par défaut, l’option **[!UICONTROL Publication de dossier public]** est désactivée lors de la configuration de la réplication de Brand Portal avec un auteur AEM. Si l’option est activée, les dossiers publiés sur Brand Portal sont accessibles à tous les utilisateurs (également aux utilisateurs non-administrateurs) par défaut.
 
 ### Accès des utilisateurs non-administrateurs aux dossiers partagés {#non-admin-user-access-to-shared-folders}
 
-Les utilisateurs non-administrateurs ne peuvent accéder qu’aux dossiers partagés avec eux sur Brand Portal. Cependant, le mode d’affichage de ces dossiers sur le portail lorsqu’ils se connectent dépend des paramètres de la configuration **[!UICONTROL Activer la hiérarchie de dossiers]**.
+Les utilisateurs non-administrateurs ne peuvent accéder qu’aux dossiers partagés avec eux sur Brand Portal. Cependant, le mode d’affichage de ces dossiers sur le portail lorsqu’ils se connectent dépend des paramètres de la configuration **[!UICONTROL Activer la hiérarchie de dossiers]** .
 
 **Si la configuration est désactivée**
 
-Les utilisateurs non-administrateurs voient tous les dossiers partagés avec eux sur la page d’entrée, lorsqu’ils se connectent à Brand Portal.
+Les utilisateurs non-administrateurs peuvent voir tous les dossiers partagés avec eux sur la page d’entrée, lorsqu’ils se connectent à Brand Portal.
 
 ![](assets/disabled-folder-hierarchy1-1.png)
 
@@ -77,9 +73,9 @@ Les utilisateurs non-administrateurs voient tous les dossiers partagés avec eux
 
 Les utilisateurs non-administrateurs voient l’arborescence de dossiers (à partir du dossier racine) et les dossiers partagés organisés dans leurs dossiers parents respectifs, lors de leur connexion à Brand Portal.
 
-Ces dossiers parents sont les dossiers virtuels et aucune action ne peut être effectuée sur ces derniers. Vous pouvez identifier ces dossiers virtuels grâce à leur icône de cadenas.
+Ces dossiers parents sont des dossiers virtuels et aucune action ne peut être effectuée sur ces derniers. Vous pouvez identifier ces dossiers virtuels grâce à leur icône de cadenas.
 
-Aucune tâche d’action n’est visible lorsque vous les survolez ou les sélectionnez en **[!UICONTROL mode Carte]**, à la différence des dossiers partagés. Le bouton **[!UICONTROL Aperçu]** apparaît lorsque vous sélectionnez un dossier virtuel dans les vues **[!UICONTROL Colonnes]** et **[!UICONTROL Liste]**.
+Aucune tâche d’action n’est visible lorsque vous les survolez ou les sélectionnez en **[!UICONTROL mode Carte]**, à la différence des dossiers partagés. Le bouton **[!UICONTROL Overview]** s’affiche lors de la sélection d’un dossier virtuel dans le **[!UICONTROL mode Colonnes]** et le **[!UICONTROL mode Liste]**.
 
 >[!NOTE]
 >

@@ -6,9 +6,9 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 role: Admin
 exl-id: 212a1b3a-686f-4250-be06-b679b6039887
-source-git-commit: 1a3e51922fb658d9d05113b4b1f4d05a0b6555c0
+source-git-commit: 10f89ded6febb1a024cbe181fa48a290d90223f0
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '815'
 ht-degree: 56%
 
 ---
@@ -38,7 +38,7 @@ Les administrateurs Experience Manager Assets peuvent créer des paramètres d�
 >
 >Si l’instance d’auteur Experience Manager Assets s’exécute en **mode hybride Dynamic Media**, les rendus de TIFF Pyramid des ressources d’image sont créés et enregistrés dans le référentiel Experience Manager Assets.
 >
->En revanche, si l’instance d’auteur Experience Manager Assets s’exécute en **mode Scene7 Dynamic Media**, les rendus de TIFF Pyramid des ressources d’image existent sur le serveur Scene7.
+>Cependant, si une instance d’auteur Experience Manager Assets est en cours d’exécution en **mode Scene7 Dynamic Media**, les rendus de TIFF Pyramid des ressources d’image existent sur le serveur Scene7.
 >
 >Lorsque ces ressources sont publiées sur Brand Portal, les paramètres d’image prédéfinis sont appliqués et les rendus dynamiques sont affichés.
 

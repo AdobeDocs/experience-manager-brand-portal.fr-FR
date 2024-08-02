@@ -1,19 +1,15 @@
 ---
 title: Notes de mise à jour
-seo-title: Release Notes
 description: Découvrez les fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version d’Adobe Experience Manager Assets Brand Portal 2024.02.0.
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2024.02.0 release.
-uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Kirandeep Kour
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 3a5be1897b90b1d913a5eb86fb1442e702a1c89d
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '1416'
-ht-degree: 100%
+source-wordcount: '1429'
+ht-degree: 81%
 
 ---
 
@@ -30,7 +26,7 @@ Découvrez les nouvelles fonctionnalités, les améliorations, les problèmes cr
 
 ## Présentation {#overview}
 
-Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de contrôler et de distribuer facilement et en toute sécurité des ressources de création approuvées destinées à des tiers externes et aux collaborateurs de l’entreprise sur différents appareils. Brand Portal améliore l’efficacité du partage des ressources, accélère la mise sur le marché des ressources et réduit les risques de non-conformité et d’accès non autorisé. Brand Portal permet aux utilisateurs de parcourir, rechercher, prévisualiser, télécharger et exporter des ressources dans des formats approuvés, à tout moment et n’importe où.
+Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de contrôler et de distribuer facilement et en toute sécurité des ressources de création approuvées destinées à des tiers externes et aux collaborateurs de l’entreprise sur différents appareils. Brand Portal améliore l’efficacité du partage des ressources, accélère la mise sur le marché des ressources et réduit les risques de non-conformité et d’accès non autorisé. Brand Portal permet aux utilisateurs de parcourir, rechercher, prévisualiser, télécharger et exporter des ressources dans des formats approuvés par l’entreprise, à tout moment et en tout lieu.
 
 ## Nouveautés de la version 2024.02.0 {#whats-new-in-2024.02.0}
 
@@ -40,9 +36,9 @@ Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de con
 
 Cette version comprend les correctifs suivants :
 
-* Impossible de télécharger des ressources numériques protégées par DRM dans les paramètres régionaux turcs.
+* Impossible de télécharger les ressources numériques protégées par DRM dans la langue turque.
 * Impossible d’ouvrir et de télécharger les rapports existants contenant des ressources avec un titre multiligne.
-* Lorsque vous téléchargez des ressources à l’aide du bouton [!UICONTROL Télécharger] dans la barre d’actions, le seuil maximal est de 1 000 ressources téléchargées.
+* Lorsque vous téléchargez des ressources à l’aide du bouton [!UICONTROL Télécharger] de la barre d’actions, un maximum de 1 000 ressources sont téléchargées.
 * Nom incorrect des ressources de type PSD lors de l’affichage dans l’arborescence de contenu.
 * L’option [!UICONTROL Supprimer le rendu] ne fonctionne pas sur la page des détails de la ressource.
 * Alignement incorrect du titre et de la taille des ressources dans la fenêtre contextuelle de téléchargement.
@@ -83,7 +79,7 @@ Les améliorations suivantes ont été apportées à cette version :
 Cette version comprend les correctifs suivants :
 
 * Les balises et libellés longs ne s’affichent pas correctement pour les filtres de recherche.
-* Impossible d’afficher les noms des rendus longs dans la boîte de dialogue Télécharger.
+* Impossible d’afficher les noms des rendus longs dans la boîte de dialogue Télécharger .
 * Impossible de prévisualiser les ressources vidéo en mode Carte.
 
 ### Version de mai 2023 {#may-2023}
@@ -98,7 +94,7 @@ Cette version comprend les correctifs des problèmes critiques suivants :
 Cette version présente les problèmes connus suivants :
 
 * Localisation partielle du contenu du rapport d’approvisionnement des ressources.
-* Peu de champs du profil utilisateur ne sont pas modifiables sur le profil utilisateur.
+* Peu de champs du profil utilisateur ne sont pas modifiables dans le profil utilisateur.
 
 ### Version de février 2023 {#feb-2023}
 
@@ -128,7 +124,7 @@ Les améliorations suivantes ont été apportées à cette version :
 Cette version présente les problèmes connus suivants :
 
 * Localisation partielle du contenu du rapport d’approvisionnement des ressources.
-* Peu de champs du profil utilisateur ne sont pas modifiables sur le profil utilisateur.
+* Peu de champs du profil utilisateur ne sont pas modifiables dans le profil utilisateur.
 
 ### Version d’octobre 2022 {#oct-2022}
 
@@ -142,8 +138,9 @@ Cette version comprend des correctifs pour les problèmes critiques suivants :
 
 >[!IMPORTANT]
 >
->Les notifications Pulse dans AEM Assets Brand Portal vont cesser à partir du 1er décembre 2022. Au lieu des notifications Pulse, vous continuerez à recevoir des notifications par e-mail pour les événements suivants :
->* Partage de ressources via un lien
+>Les notifications push dans AEM Assets Brand Portal vont cesser à partir du 1er décembre 2022. Au lieu des notifications Pulse, vous continuez à recevoir des notifications par e-mail pour les événements suivants :
+>
+>* Partage de ressources par lien
 >* Processus de demande d’accès
 >* Partage du dossier de contribution
 >* Lancement de l’export vers AEM
@@ -158,8 +155,8 @@ Cette version comprend des correctifs pour les problèmes critiques suivants :
 
 * Lorsque NUI ne traite pas une ressource dans Experience Manager, Brand Portal affiche un statut d’importation de ressource inexact.
 * Lorsque l’action de prévisualisation échoue, aucune notification n’est envoyée pour signaler l’échec.
-* Correction d’une valeur incorrecte de la propriété totalUploadedSize pour les ressources.
-* Lorsque vous cliquez sur **Télécharger tous les éléments** et qu’il existe un grand nombre de rendus disponibles pour une ressource, Brand Portal télécharge un fichier .ZIP non valide.
+* La valeur inexacte de la propriété `totalUploadedSize` pour chaque ressource est corrigée.
+* Lorsque vous cliquez sur **Télécharger tous les éléments** et qu’un grand nombre de rendus sont disponibles pour une ressource, Brand Portal télécharge un fichier .ZIP non valide.
 * La traduction de certaines chaînes est tronquée dans l’interface utilisateur de Brand Portal.
 
 ### Version de mai 2022 {#may-2022}
@@ -174,7 +171,7 @@ Cette version comprend des correctifs pour les problèmes critiques suivants :
 
 * Lorsque vous téléchargez un dossier ou une collection contenant des ressources avec des balises de couleur, un fichier XML est également téléchargé.
 * Lorsque vous téléchargez une vidéo qui comprend des rendus, Brand Portal crée un fichier .ZIP non valide.
-* Lorsque vous créez des paramètres prédéfinis et des ressources sur l’instance de création AEM et que vous les publiez dans Brand Portal, puis que vous sélectionnez des rendus dynamiques lors du téléchargement des ressources, vous ne pouvez pas extraire l’archive .ZIP téléchargée.
+* Lorsque vous créez des paramètres prédéfinis et des ressources sur AEM auteur, puis que vous les publiez dans Brand Portal, vous pouvez sélectionner des rendus dynamiques lors du téléchargement des ressources. Cependant, vous ne pouvez pas extraire le fichier .ZIP téléchargé. Ce problème empêche l’accès au contenu téléchargé.
 * Problèmes lors du téléchargement de ressources vidéo à partir de certains dossiers disponibles dans Brand Portal.
 * Lorsque vous partagez l’URL du dossier Contribution à l’aide d’un e-mail, les rôles Observateur et Éditeur rencontrent des problèmes lors de l’accès à leur dossier parent à l’aide du chemin de navigation.
 * L’approvisionnement du rapport publié affiche une heure de début de tâche incorrecte.
@@ -360,7 +357,7 @@ This release includes the following known issues:
 
 ## Langues {#languages}
 
-L’interface utilisateur de Brand Portal est disponible dans les langues suivantes :
+L’interface utilisateur de Brand Portal est disponible dans les langues suivantes :
 
 * Anglais
 * Allemand
@@ -374,12 +371,12 @@ L’interface utilisateur de Brand Portal est disponible dans les langues suiva
 
 ## Plates-formes certifiées {#certified-platforms}
 
-Pour vérifier quelles sont les plates-formes certifiées pour exécuter cette version de Brand Portal, reportez-vous à la colonne **Prise en charge de l’interface utilisateur optimisée pour les écrans tactiles** du tableau **Navigateurs pris en charge pour l’interface utilisateur de création** dans la section [Exigences techniques](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html?lang=fr).
+Pour voir quelles plates-formes sont certifiées pour cette version de Brand Portal, vérifiez la colonne **Prise en charge de l’IU optimisée pour les écrans tactiles** dans la section **Navigateurs pris en charge pour l’interface utilisateur de création** de la section [Exigences techniques](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/deploying/introduction/technical-requirements).
 
 ## Liens {#links}
 
 * [Page du produit Adobe Experience Manager sur adobe.com](https://business.adobe.com/fr/products/experience-manager/adobe-experience-manager.html)
-* [Documentation Assets Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html?lang=fr)
+* [Documentation Assets Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/home)
 
 ## Assistance technique et accès au produit (sites à accès limité) {#product-access-and-support-restricted-sites}
 
