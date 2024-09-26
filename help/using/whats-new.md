@@ -6,9 +6,9 @@ content-type: reference
 contentOwner: Kirandeep Kour
 topic-tags: introduction
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 10f89ded6febb1a024cbe181fa48a290d90223f0
+source-git-commit: 436ade72b12e66f2b2015874c0115ee3cfd709e6
 workflow-type: tm+mt
-source-wordcount: '6554'
+source-wordcount: '6555'
 ht-degree: 57%
 
 ---
@@ -232,7 +232,7 @@ La nouvelle boîte de dialogue **[!UICONTROL Télécharger]** généralise le pr
 
 >[!NOTE]
 >
->Tous les utilisateurs ont désormais activé **[!UICONTROL Téléchargement rapide]** par défaut et nécessitent IBM® Aspera Connect 3.9.9 (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`) installés dans l’extension de leur navigateur avant de télécharger les ressources à partir de Brand Portal.
+>Tous les utilisateurs ont désormais activé **[!UICONTROL Téléchargement rapide]** par défaut et IBM® [Aspera Connect 3.9.9](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm~Other%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all) doit être installé dans l’extension de leur navigateur avant de télécharger les ressources à partir de Brand Portal.
 
 <!--
 If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog box appears with all the renditions of the selected assets or folders containing assets in a List View. 
