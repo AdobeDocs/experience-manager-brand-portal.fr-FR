@@ -10,10 +10,10 @@ topics: collaboration, content-velocity, sharing
 doc-type: feature-video
 activity: use
 audience: author, marketer
-version: 6.5
+version: Experience Manager 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: 4c701781e7dc62b9d2b018fd13b1ae9616bbb840
+source-git-commit: aea49037eddb1558f85e567cd35eb434eee617ba
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 58%
@@ -22,7 +22,7 @@ ht-degree: 58%
 
 # Présentation de l’approvisionnement des ressources {#overview-asset-sourcing-in-bp}
 
-L’**approvisionnement des ressources** permet aux utilisateurs d’Experience Manager Assets (administrateurs/non-administrateurs) de créer des dossiers avec une propriété **Contribution des ressources** supplémentaire, en s’assurant que les nouveaux dossiers s’ouvrent lorsque des utilisateurs de Brand Portal envoient des ressources. Cela déclenche automatiquement un workflow qui crée deux sous-dossiers supplémentaires, appelés **SHARED** et **NEW**, dans le dossier **Contribution** nouvellement créé. L’administrateur définit les exigences en chargeant un résumé relatif aux types de ressources à ajouter au dossier de contribution. Ils chargent un ensemble de ressources de base dans le dossier **SHARED**, fournissant aux utilisateurs de Brand Portal les informations de référence nécessaires. L’administrateur peut alors octroyer aux utilisateurs actifs de Brand Portal l’accès au dossier de contribution avant de publier le nouveau dossier **Contribution** sur Brand Portal. Lorsque l’utilisateur a fini d’ajouter du contenu dans le dossier **NEW** , il peut republier le dossier de contribution dans l’environnement de création Experience Manager. Notez que l’importation du nouveau contenu publié dans Experience Manager Assets et la prise en compte de cette opération peuvent prendre quelques minutes.
+L’**approvisionnement des ressources** permet aux utilisateurs d’Experience Manager Assets (administrateurs/non-administrateurs) de créer des dossiers avec une propriété **Contribution des ressources** supplémentaire, en s’assurant que les nouveaux dossiers s’ouvrent lorsque des utilisateurs de Brand Portal envoient des ressources. Cela déclenche automatiquement un workflow, ce qui crée deux sous-dossiers supplémentaires, appelés **SHARED** et **NEW**, dans le dossier **Contribution** nouvellement créé. L’administrateur définit les exigences en chargeant un résumé relatif aux types de ressources à ajouter au dossier de contribution. Ils chargent un ensemble de ressources de base dans le dossier **SHARED**, fournissant ainsi aux utilisateurs de Brand Portal les informations de référence nécessaires. L’administrateur peut alors octroyer aux utilisateurs actifs de Brand Portal l’accès au dossier de contribution avant de publier le nouveau dossier **Contribution** sur Brand Portal. Lorsque l’utilisateur a terminé d’ajouter du contenu dans le dossier **NEW**, il peut republier le dossier de contribution dans l’environnement de création Experience Manager. Notez que l’importation du nouveau contenu publié dans Experience Manager Assets et la prise en compte de cette opération peuvent prendre quelques minutes.
 
 En outre, toutes les fonctionnalités existantes restent inchangées. Les utilisateurs de Brand Portal peuvent afficher, rechercher et télécharger des ressources à partir du dossier de contribution, ainsi que des autres dossiers autorisés. Quant aux administrateurs, ils peuvent partager le dossier de contribution de manière plus avancée, modifier les propriétés et ajouter des ressources aux collections.
 
@@ -108,17 +108,17 @@ Un dossier de contribution peut uniquement être partagé avec les utilisateurs 
 
 >[!NOTE]
 >
->Le format du fichier CSV est le même que celui pris en charge dans l’Admin Console pour l’importation en bloc d’utilisateurs. Vous devez indiquer vos nom, prénom et adresse e-mail.
+>Le format du fichier CSV est le même que celui pris en charge dans Admin Console pour l’importation d’utilisateurs en bloc. Vous devez indiquer vos nom, prénom et adresse e-mail.
 
-Les administrateurs peuvent ajouter de nouveaux utilisateurs dans l’Admin Console. Accédez à [Gérer les utilisateurs](brand-portal-adding-users.md) pour plus d’informations. Après avoir ajouté des utilisateurs dans l’Admin Console, ils peuvent être ajoutés au fichier de configuration utilisateur de Brand Portal, puis se voir attribuer l’autorisation d’accéder au dossier de contribution.
+Les administrateurs peuvent ajouter de nouveaux utilisateurs dans Admin Console. Accédez à [Gérer les utilisateurs](brand-portal-adding-users.md) pour plus d’informations. Après avoir ajouté des utilisateurs dans l’Admin Console, ces utilisateurs peuvent être ajoutés au fichier de configuration des utilisateurs de Brand Portal, puis recevoir l’autorisation d’accéder au dossier de contribution.
 
-**Pour charger la liste des utilisateurs de Brand Portal :**
+**Pour charger la liste des utilisateurs de Brand Portal, procédez comme suit**
 
 1. Connectez-vous à votre instance Experience Manager Assets.
 1. Dans le panneau [!UICONTROL Outils], accédez à **[!UICONTROL Assets]** > **[!UICONTROL Utilisateurs Brand Portal]**.
 
 1. La fenêtre de chargement des contributeurs de Brand Portal s’affiche.
-Parcourez votre ordinateur local et téléchargez un fichier **de configuration (.csv)** contenant la liste des utilisateurs Brand Portal actifs.
+Naviguez depuis votre ordinateur local et téléchargez un fichier **de configuration (.csv)** contenant la liste des utilisateurs Brand Portal actifs.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
    ![](assets/upload-user-list2.png)
@@ -128,6 +128,6 @@ Les administrateurs peuvent donner un accès à des utilisateurs spécifiques à
 
 ## Voir également {#reference-articles}
 
-* [Configuration et publication d’un dossier de contribution sur Brand Portal](brand-portal-publish-contribution-folder-to-brand-portal.md)
+* [Configuration et publication d’un dossier de contribution dans Brand Portal](brand-portal-publish-contribution-folder-to-brand-portal.md)
 
 * [Publication du dossier de contribution sur Experience Manager Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)
