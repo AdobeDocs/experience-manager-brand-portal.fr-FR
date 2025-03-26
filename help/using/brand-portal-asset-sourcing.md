@@ -13,7 +13,7 @@ audience: author, marketer
 version: Experience Manager 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: aea49037eddb1558f85e567cd35eb434eee617ba
+source-git-commit: aea8becdf9493b1d465f1b1cb818c85f8943bedb
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 58%
@@ -122,7 +122,6 @@ Naviguez depuis votre ordinateur local et téléchargez un fichier **de configur
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
    ![](assets/upload-user-list2.png)
-
 
 Les administrateurs peuvent donner un accès à des utilisateurs spécifiques à partir de cette liste d’utilisateurs lors de la configuration d’un dossier de contribution. Seuls les utilisateurs affectés à un dossier de contribution ont accès au dossier de contribution et publient des ressources de Brand Portal vers Experience Manager Assets.
 
