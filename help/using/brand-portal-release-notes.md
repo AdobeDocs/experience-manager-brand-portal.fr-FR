@@ -7,7 +7,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 source-git-commit: 3f3065de994f5c38e604b52848b0a538c9efd7d1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1533'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ Découvrez les nouvelles fonctionnalités, les améliorations, les problèmes cr
 
 Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de contrôler et de distribuer facilement et en toute sécurité des ressources de création approuvées destinées à des tiers externes et aux collaborateurs de l’entreprise sur différents appareils. Brand Portal améliore l’efficacité du partage des ressources, accélère la mise sur le marché des ressources et réduit les risques de non-conformité et d’accès non autorisé. Brand Portal permet de parcourir, rechercher, prévisualiser, télécharger et exporter des ressources dans des formats approuvés, à tout moment et n’importe où.
 
-## Nouveautés de la version 2024.10.0 {#whats-new-in-2024.10.0} {#whats-new-in-2024.10.0}
+## Nouveautés de la version 2024.10.0 {#whats-new-in-2024.10.0}
 
 ### Problèmes critiques résolus {#critical-issues-fixed}
 
