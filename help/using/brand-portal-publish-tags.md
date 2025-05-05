@@ -43,10 +43,13 @@ Connectez-vous à une instance d’auteur AEM avec les droits d’administrateur
 1. Précisez les paramètres suivants :
 
    * **[!UICONTROL Titre]**
+
      *(obligatoire)* Titre affiché pour la balise.
    * **[!UICONTROL Nom]**
+
      *(obligatoire)* Nom de la balise. Si aucun nom n’est spécifié, un nom de nœud valide est créé à partir du titre. Voir [ID de balise](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/tagging/framework).
    * **Description**
+
      *(facultative)* Description de la balise.
    * **Chemin d’accès aux balises** 
 Chemin JCR de la balise.
