@@ -156,7 +156,7 @@ Vous trouverez ci-dessous la procédure à suivre pour télécharger des ressour
      >
      >Si les ressources que vous avez téléchargées contiennent également des ressources sous licence, vous êtes redirigé vers la page **[!UICONTROL Gestion des droits d’auteur]**. Dans cette page, sélectionnez les ressources, cliquez d’abord sur **[!UICONTROL Accepter]**, puis sur **[!UICONTROL Télécharger]**. Si vous choisissez de ne pas accepter, les ressources sous licence ne sont pas téléchargées.
      > 
-     >Les ressources protégées par une licence sont accompagnées d’un [contrat de licence](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm) en définissant la [propriété de métadonnées](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm) de la ressource dans Experience Manager Assets.
+     >Les ressources protégées par une licence sont accompagnées d’un [contrat de licence](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/administer/drm) en définissant la [propriété de métadonnées](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/administer/drm) de la ressource dans Experience Manager Assets.
 
 
      ![ressource-sous-licence](assets/licensed-asset-new.png)

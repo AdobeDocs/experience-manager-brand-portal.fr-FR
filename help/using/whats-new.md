@@ -109,7 +109,7 @@ La migration n’a aucune incidence sur votre jeu de données, vos ressources, v
 
 * [Gestion des profils de produit pour les utilisateurs Grands comptes](https://helpx.adobe.com/fr/enterprise/using/manage-product-profiles.html#assign-users)
 
-* [Propriété d’un domaine](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/set-up-identity.html#directory-trusting)
+* [Propriété d’un domaine](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/set-up-identity.html#directory-trusting)
 
 
 <!--   
@@ -400,7 +400,7 @@ Les étapes de configuration d’AEM Assets avec Brand Portal sont différentes 
 | **Version d’AEM** | **Nouvelle configuration** | **Mise à niveau de la configuration** |
 |---|---|---|
 | **AEM Assets as a Cloud Service** | [Création d’une configuration](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal) | - |
-| **AEM 6.5 (6.5.4.0 et versions ultérieures)** | [Création d’une configuration](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal) | [Mise à niveau de la configuration](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) |
+| **AEM 6.5 (6.5.4.0 et versions ultérieures)** | [Création d’une configuration](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal) | [Mise à niveau de la configuration](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) |
 
 >[!NOTE]
 >
@@ -582,7 +582,7 @@ Les organisations peuvent personnaliser l’URL de leur portail en y ajoutant un
 Seul le préfixe de l’URL Brand Portal peut être personnalisé et non l’URL entière.\
 Par exemple, une entreprise avec le domaine existant **geomettrix.brand-portal.adobe.com** peut demander et obtenir la création de **geomettrixinc.brand-portal.adobe.com**.
 
-Cependant, l’instance de création AEM peut uniquement être [configurée](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal) avec l’URL d’ID de client ou cliente et non avec l’URL d’alias de client ou cliente (alternative).
+Cependant, l’instance de création AEM peut uniquement être [configurée](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal) avec l’URL d’ID de client ou cliente et non avec l’URL d’alias de client ou cliente (alternative).
 
 Les organisations peuvent répondre à leurs besoins en matière de branding en personnalisant l’URL de leur portail, au lieu de se contenter de l’URL fournie par Adobe.
 
@@ -685,7 +685,7 @@ Les configurations ci-dessus sont disponibles dans les paramètres d’accès et
 
 ### Interface d’utilisation `Adobe I/O` pour configurer les intégrations OAuth
 
-À compter de la version 6.4.2, Brand Portal utilise l’interface OAuth héritée (`https://legacy-oauth.cloud.adobe.io/`) pour créer l’application JWT qui permet de configurer des intégrations OAuth pour intégrer AEM Assets à Brand Portal. Auparavant, l’IU de configuration des intégrations OAuth était hébergée à l’adresse `https://marketing.adobe.com/developer/`. Pour en savoir plus sur l’intégration d’AEM Assets à Brand Portal pour publier des ressources et des collections sur Brand Portal, consultez [Configuration de l’intégration d’AEM Assets à Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal).
+À compter de la version 6.4.2, Brand Portal utilise l’interface OAuth héritée (`https://legacy-oauth.cloud.adobe.io/`) pour créer l’application JWT qui permet de configurer des intégrations OAuth pour intégrer AEM Assets à Brand Portal. Auparavant, l’IU de configuration des intégrations OAuth était hébergée à l’adresse `https://marketing.adobe.com/developer/`. Pour en savoir plus sur l’intégration d’AEM Assets à Brand Portal pour publier des ressources et des collections sur Brand Portal, consultez [Configuration de l’intégration d’AEM Assets à Brand Portal](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal).
 
 ## Améliorations de la recherche
 

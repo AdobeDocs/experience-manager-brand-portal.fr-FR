@@ -71,7 +71,7 @@ Pour plus d’informations sur le partage de lien, voir [Partage de ressources e
 
 Les ressources sous licence sont sujettes à l’acceptation d’un accord de licence avant leur téléchargement à partir de Brand Portal. Cet accord pour les ressources sous licence s’affiche lorsque vous téléchargez directement la ressource à partir de Brand Portal ou au moyen d’un lien partagé. Qu’ils aient expiré ou non, tous les utilisateurs peuvent afficher les ressources protégées par une licence. Cependant, le téléchargement et l’utilisation des ressources sous licence expirées sont limités. Pour en savoir plus sur le comportement des ressources sous licence expirées et des activités autorisées en fonction des rôles utilisateur, reportez-vous à la section [autorisations d’utilisation des ressources expirées](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
 
-Les ressources protégées par une licence sont accompagnées d’un [contrat de licence](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm) en définissant la propriété de métadonnées de la ressource dans [!DNL Experience Manager Assets].
+Les ressources protégées par une licence sont accompagnées d’un [contrat de licence](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/administer/drm) en définissant la propriété de métadonnées de la ressource dans [!DNL Experience Manager Assets].
 
 Une ressource est considérée comme protégée si elle contient l’une des propriétés de métadonnées suivantes (ou les deux) :
 

@@ -127,8 +127,8 @@ Un administrateur peut effectuer toutes les tâches qu’un éditeur. Voici les 
 En plus des tâches mentionnées ci-dessus, un auteur dans AEM Assets peut effectuer les tâches suivantes :
 
 * [Configuration d’AEM Assets avec Brand Portal](../using/configure-aem-assets-with-brand-portal.md)
-* [Publication de dossiers sur Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-folder)
-* [Publication de collections sur Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-collection)
+* [Publication de dossiers sur Brand Portal](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-folder)
+* [Publication de collections sur Brand Portal](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-collection)
 
 ## Autre alias pour l’URL de Brand Portal {#tenant-alias-for-portal-url}
 
@@ -235,4 +235,4 @@ Vous pouvez ignorer cette notification et continuer à utiliser Brand Portal. C
 * [Adobe Customer Support]()
 -->
 
-* [Forums AEM](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
+* [Forums AEM](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=fr)

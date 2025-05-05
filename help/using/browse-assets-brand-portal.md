@@ -56,7 +56,7 @@ Le mode Carte affiche des cartes d’informations pour chaque élément au nivea
 * Taille
 * Dimensions
 
-Vous pouvez parcourir la hiérarchie vers le bas en cliquant sur des cartes (en veillant à éviter les actions rapides) ou vers le haut en utilisant le [chemin de navigation dans l’en-tête](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling).
+Vous pouvez parcourir la hiérarchie vers le bas en cliquant sur des cartes (en veillant à éviter les actions rapides) ou vers le haut en utilisant le [chemin de navigation dans l’en-tête](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling).
 
 ![](assets/cardquickactions.png)
 
@@ -106,7 +106,7 @@ Le mode Liste affiche des informations pour chaque ressource au niveau actuel. L
 * Chemin du dossier présentant la hiérarchie des ressources
 * Date de publication de cette ressource sur Brand Portal
 
-La colonne Chemin permet d’identifier facilement l’emplacement des ressources dans la hiérarchie de dossiers. Vous pouvez parcourir la hiérarchie vers le bas en cliquant sur le nom de la ressource, puis revenir vers le haut en utilisant le [chemin de navigation dans l’en-tête](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling).
+La colonne Chemin permet d’identifier facilement l’emplacement des ressources dans la hiérarchie de dossiers. Vous pouvez parcourir la hiérarchie vers le bas en cliquant sur le nom de la ressource, puis revenir vers le haut en utilisant le [chemin de navigation dans l’en-tête](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling).
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click the checkbox. When only some items are selected, it appears with a minus sign. To select all, click the checkbox. To deselect all, click the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Click the vertical selection bar and drag the item to a new position in the list."

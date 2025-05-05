@@ -49,7 +49,7 @@ En outre, toutes les fonctionnalités existantes restent inchangées. Les utilis
 >
 >Il existe un problème connu dans Experience Manager Assets 6.5.4. Les utilisateurs de Brand Portal ne peuvent pas publier les ressources du dossier de contribution dans Experience Manager Assets lors de la mise à niveau vers Adobe Developer Console.
 >
->Le problème a été corrigé dans la version 6.5.5 d’Experience Manager Assets. Vous pouvez mettre à niveau votre instance Experience Manager Assets vers le Service Pack le plus récent et [mettre à niveau vos configurations](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) sur Adobe Developer Console.
+>Le problème a été corrigé dans la version 6.5.5 d’Experience Manager Assets. Vous pouvez mettre à niveau votre instance Experience Manager Assets vers le Service Pack le plus récent et [mettre à niveau vos configurations](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) sur Adobe Developer Console.
 
 <!--
 

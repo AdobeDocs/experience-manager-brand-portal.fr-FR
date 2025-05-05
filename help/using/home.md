@@ -45,7 +45,7 @@ Ce guide de l’utilisateur présente des informations sur les offres Brand Por
 | [Formats de fichiers pris en charge](brand-portal-supported-formats.md) | Formats de fichier pris en charge dans Brand Portal pour l’aperçu et le téléchargement. |
 | [Publication de ressources sur Brand Portal](brand-portal-sharing-folders.md) | Procédure de publication des dossiers, collections, liens, paramètres prédéfinis, schémas, facettes et balises sur Brand Portal. |
 | [Approvisionnement des ressources dans Brand Portal](brand-portal-asset-sourcing.md) | Procédures de configuration de l’approvisionnement des ressources dans AEM Assets, de chargement des ressources sur Brand Portal et de publication du dossier de contribution sur AEM Assets. |
-| [Vidéos sur les fonctionnalités de Brand Portal](https://experienceleague.adobe.com/?lang=fr&amp;tag=Brand+Portal#recommended/solutions/experience-manager) | Découvrez comment utiliser Experience Manager Assets Brand Portal à l’aide de tutoriels vidéo. |
+| [Vidéos sur les fonctionnalités de Brand Portal](https://experienceleague.adobe.com/fr?lang=fr&amp;tag=Brand+Portal#recommended/solutions/experience-manager) | Découvrez comment utiliser Experience Manager Assets Brand Portal à l’aide de tutoriels vidéo. |
 
 ### Ressources utiles
 

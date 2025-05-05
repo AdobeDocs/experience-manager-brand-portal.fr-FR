@@ -81,7 +81,7 @@ Pour annuler la publication d’un schéma de métadonnées sur Brand Portal :
 
 ## Publication de facettes de recherche sur Brand Portal {#publish-search-facets-to-brand-portal}
 
-Les formulaires de recherche fournissent aux utilisateurs la fonctionnalité de [recherche facettée](../using/brand-portal-search-facets.md) sur Brand Portal. Les facettes de recherche permettent d’effectuer des recherches plus précises sur Brand Portal. Tous les [prédicats ajoutés](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/search-facets) dans le formulaire de recherche sont disponibles pour les utilisateurs en tant que facettes de recherche dans les filtres de recherche.
+Les formulaires de recherche fournissent aux utilisateurs la fonctionnalité de [recherche facettée](../using/brand-portal-search-facets.md) sur Brand Portal. Les facettes de recherche permettent d’effectuer des recherches plus précises sur Brand Portal. Tous les [prédicats ajoutés](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/administer/search-facets) dans le formulaire de recherche sont disponibles pour les utilisateurs en tant que facettes de recherche dans les filtres de recherche.
 
 ![](assets/property-predicate-removed.png)
 ![](assets/search-form.png)
