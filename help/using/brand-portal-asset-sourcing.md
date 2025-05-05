@@ -28,7 +28,7 @@ En outre, toutes les fonctionnalités existantes restent inchangées. Les utilis
 
 ![Approvisionnement des ressources dans Brand Portal](assets/asset-sourcing.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/33200/?quality=12&captions=fre_fr)
 
 ## Prérequis {#prerequisites}
 
