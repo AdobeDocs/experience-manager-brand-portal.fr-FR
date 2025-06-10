@@ -6,10 +6,10 @@ content-type: reference
 contentOwner: Kirandeep Kour
 topic-tags: introduction
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: d93a009d556a2330d000331a69ce7b6a2881f49d
-workflow-type: ht
-source-wordcount: '6576'
-ht-degree: 100%
+source-git-commit: f4add370fd3242f5506e5cc4d921362e2b14141a
+workflow-type: tm+mt
+source-wordcount: '6357'
+ht-degree: 99%
 
 ---
 
@@ -109,7 +109,7 @@ La migration n’a aucune incidence sur votre jeu de données, vos ressources, v
 
 * [Gestion des profils de produit pour les utilisateurs Grands comptes](https://helpx.adobe.com/fr/enterprise/using/manage-product-profiles.html#assign-users)
 
-* [Propriété d’un domaine](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/set-up-identity.html#directory-trusting)
+* [Propriété d’un domaine](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/set-up-identity.html#directory-trusting)
 
 
 <!--   
@@ -163,31 +163,40 @@ Brand Portal 2021.06.0 est une version interne qui comprend des correctifs pour
 
 Brand Portal 2021.02.0 améliore AEM Assets as a Cloud Service avec le workflow d’activation et la fonctionnalité d’approvisionnement des ressources. Elle améliore également l’expérience de téléchargement des ressources et inclut des correctifs critiques. Cette version permet également aux administrateurs et administratrices de configurer le comportement de téléchargement par défaut des dossiers, des collections et des ressources téléchargées en masse au niveau du client. Le **[!UICONTROL rapport d’utilisation]** de Brand Portal a également été modifié pour refléter les utilisateurs actifs de Brand Portal.
 
-### Activation de Brand Portal sur AEM Assets as a Cloud Service {#bp-automation-on-cloud-service}
+>[!IMPORTANT]
+>
+> * Brand Portal est actuellement en cours de maintenance.
+> * Vous pouvez contacter votre représentant Adobe pour obtenir des détails sur votre cas d’utilisation et les exigences spécifiques à respecter pour activer Brand Portal à l’aide de Cloud Manager.
+> * Brand Portal n’est pas disponible avec Assets Prime ou Assets Ultimate. Cependant, les clients Assets Cloud Services existants qui ont déjà accès à Brand Portal peuvent le conserver lorsqu’ils passent à Assets Ultimate.
 
-AEM Assets as a Cloud Service peut désormais disposer d’une instance préconfigurée de Brand Portal. L’utilisateur de Cloud Manager peut activer Brand Portal sur l’instance AEM Assets as a Cloud Service.
+<!--
 
-Auparavant, AEM Assets as a Cloud Service était configuré manuellement avec Brand Portal à l’aide d’Adobe Developer Console.
+### Activate Brand Portal on AEM Assets as a Cloud Service {#bp-automation-on-cloud-service}
 
-L’utilisateur ou l’utilisatrice de Cloud Manager déclenche le workflow d’activation qui crée les configurations requises en arrière-plan et active Brand Portal sur la même organisation IMS que dans l’instance AEM Assets as a Cloud Service.
+AEM Assets as a Cloud Service is now entitled to have a pre-configured Brand Portal instance. The Cloud Manager user can activate Brand Portal on the AEM Assets as a Cloud Service instance.
 
-Pour activer Brand Portal sur votre instance AEM Assets as a Cloud Service :
+Earlier, AEM Assets as a Cloud Service was manually configured with Brand Portal using Adobe Developer Console.
 
-1. Connectez-vous à Adobe Cloud Manager et accédez à **[!UICONTROL Environnements]**.
-1. Sélectionnez les environnements (un par un) dans la liste. Une fois que vous avez trouvé l’environnement associé à Brand Portal, cliquez sur le bouton **[!UICONTROL Activer Brand Portal]** pour lancer le workflow d’activation.
-1. Une fois que le client Brand Portal est activé, son statut passe à Activé.
+The Cloud Manager user triggers the activation workflow that creates the required configurations at the backend and activates Brand Portal on the same IMS org as of the AEM Assets as a Cloud Service instance. 
 
-![Afficher Statut](assets/create-environment5.png)
+To activate Brand Portal on your AEM Assets as a Cloud Service instance:
 
-Consultez [Activation de Brand Portal sur AEM Assets as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
+1. Log in to Adobe Cloud Manager and navigate to **[!UICONTROL Environments]**.
+1. Select the environments (one by one) from the list. Once you find the environment associated with Brand Portal, click on the **[!UICONTROL Activate Brand Portal]** button to begin the activation workflow. 
+1. Once the Brand Portal tenant is activated, the status changes to Activated.
 
-### Approvisionnement des ressources sur AEM Assets as a Cloud Service {#asset-sourcing-on-cloud-service}
+![View Status](assets/create-environment5.png)
 
-La fonction d’approvisionnement des ressources est désormais disponible sur AEM Assets as a Cloud Service. Les fonctionnalités sont activées par défaut pour tous les utilisateurs du service cloud. Les personnes autorisées de Brand Portal peuvent contribuer à l’approvisionnement des ressources en chargeant de nouvelles ressources dans les dossiers de contribution et en publiant le dossier de contribution de Brand Portal vers AEM Assets as a Cloud Service. Les administrateurs et administratrices peuvent examiner et approuver les contributions des utilisateurs et utilisatrices de Brand Portal avant de les distribuer à d’autres personnes.
+See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
 
-Auparavant, l’approvisionnement des ressources n’était disponible que sur AEM Assets (On-Premise et Managed Service).
+### Asset Sourcing on AEM Assets as a Cloud Service {#asset-sourcing-on-cloud-service}
 
-Voir [Approvisionnement des ressources dans Brand Portal](https://experienceleague.adobe.com/fr/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
+The Asset Sourcing feature is now available on AEM Assets as a Cloud Service. The feature is by default enabled for all the cloud service users. The permitted Brand Portal users can contribute to Asset Sourcing by uploading new assets to the contribution folders and publish the contribution folder from Brand Portal to AEM Assets as a Cloud Service instance. Administrators can review and approve contributions from Brand Portal users before distributing them to other users.     
+
+Earlier, Asset Sourcing was only available on AEM Assets (on premise and managed service). 
+
+See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
+-->
 
 ### Téléchargement de ressources {#asset-download-setting}
 
@@ -400,7 +409,7 @@ Les étapes de configuration d’AEM Assets avec Brand Portal sont différentes 
 | **Version d’AEM** | **Nouvelle configuration** | **Mise à niveau de la configuration** |
 |---|---|---|
 | **AEM Assets as a Cloud Service** | [Création d’une configuration](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal) | - |
-| **AEM 6.5 (6.5.4.0 et versions ultérieures)** | [Création d’une configuration](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal) | [Mise à niveau de la configuration](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) |
+| **AEM 6.5 (6.5.4.0 et versions ultérieures)** | [Création d’une configuration](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal) | [Mise à niveau de la configuration](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) |
 
 >[!NOTE]
 >
@@ -582,7 +591,7 @@ Les organisations peuvent personnaliser l’URL de leur portail en y ajoutant un
 Seul le préfixe de l’URL Brand Portal peut être personnalisé et non l’URL entière.\
 Par exemple, une entreprise avec le domaine existant **geomettrix.brand-portal.adobe.com** peut demander et obtenir la création de **geomettrixinc.brand-portal.adobe.com**.
 
-Cependant, l’instance de création AEM peut uniquement être [configurée](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal) avec l’URL d’ID de client ou cliente et non avec l’URL d’alias de client ou cliente (alternative).
+Cependant, l’instance de création AEM peut uniquement être [configurée](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal) avec l’URL d’ID de client ou cliente et non avec l’URL d’alias de client ou cliente (alternative).
 
 Les organisations peuvent répondre à leurs besoins en matière de branding en personnalisant l’URL de leur portail, au lieu de se contenter de l’URL fournie par Adobe.
 
@@ -685,7 +694,7 @@ Les configurations ci-dessus sont disponibles dans les paramètres d’accès et
 
 ### Interface d’utilisation `Adobe I/O` pour configurer les intégrations OAuth
 
-À compter de la version 6.4.2, Brand Portal utilise l’interface OAuth héritée (`https://legacy-oauth.cloud.adobe.io/`) pour créer l’application JWT qui permet de configurer des intégrations OAuth pour intégrer AEM Assets à Brand Portal. Auparavant, l’IU de configuration des intégrations OAuth était hébergée à l’adresse `https://marketing.adobe.com/developer/`. Pour en savoir plus sur l’intégration d’AEM Assets à Brand Portal pour publier des ressources et des collections sur Brand Portal, consultez [Configuration de l’intégration d’AEM Assets à Brand Portal](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal).
+À compter de la version 6.4.2, Brand Portal utilise l’interface OAuth héritée (`https://legacy-oauth.cloud.adobe.io/`) pour créer l’application JWT qui permet de configurer des intégrations OAuth pour intégrer AEM Assets à Brand Portal. Auparavant, l’IU de configuration des intégrations OAuth était hébergée à l’adresse `https://marketing.adobe.com/developer/`. Pour en savoir plus sur l’intégration d’AEM Assets à Brand Portal pour publier des ressources et des collections sur Brand Portal, consultez [Configuration de l’intégration d’AEM Assets à Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal).
 
 ## Améliorations de la recherche
 

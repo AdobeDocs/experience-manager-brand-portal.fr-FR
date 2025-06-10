@@ -5,10 +5,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: 86585e7e04a19f59f9594409e6d7704f457ab8e2
+source-git-commit: f4add370fd3242f5506e5cc4d921362e2b14141a
 workflow-type: tm+mt
-source-wordcount: '1622'
-ht-degree: 60%
+source-wordcount: '1613'
+ht-degree: 56%
 
 ---
 
@@ -33,7 +33,13 @@ La configuration d’Adobe Experience Manager Assets avec Brand Portal permet
 >
 >La configuration d’Experience Manager Assets avec Brand Portal est prise en charge dans Experience Manager Assets as a Cloud Service, Experience Manager Assets 6.3 et les versions ultérieures.
 
-Experience Manager Assets as a Cloud Service est automatiquement configuré avec Brand Portal en activant celui-ci à partir de Cloud Manager. Le workflow d’activation crée les configurations requises en arrière-plan et active Brand Portal sur la même organisation IMS qu’Experience Manager Assets as a Cloud Service.
+>[!IMPORTANT]
+>
+> * Brand Portal est actuellement en cours de maintenance.
+> * Vous pouvez contacter votre représentant Adobe pour obtenir des détails sur votre cas d’utilisation et les exigences spécifiques à respecter pour activer Brand Portal à l’aide de Cloud Manager.
+> * Brand Portal n’est pas disponible avec Assets Prime ou Assets Ultimate. Cependant, les clients Assets Cloud Services existants qui ont déjà accès à Brand Portal peuvent le conserver lorsqu’ils passent à Assets Ultimate.
+
+<!--Experience Manager Assets as a Cloud Service is automatically configured with Brand Portal by activating Brand Portal from the Cloud Manager. The activation workflow creates the required configurations at the backend and activates Brand Portal on the same IMS org as of the Experience Manager Assets as a Cloud Service instance.-->
 
 Cependant, Experience Manager Assets (On-Premise et Managed Service) est configuré avec Brand Portal à l’aide de Adobe Developer Console, qui fournit un jeton Adobe Identity Management Services (IMS) pour l’autorisation du client Brand Portal.
 
@@ -120,7 +126,7 @@ Un administrateur peut effectuer toutes les tâches qu’un éditeur. Voici les 
 * [Gestion des utilisateurs, des groupes et des rôles utilisateur](brand-portal-adding-users.md)
 * [Personnalisation du papier peint, des en-têtes de page et des e-mails](brand-portal-branding.md)
 * [Utilisation des facettes de recherche personnalisée](brand-portal-search-facets.md)
-* [Utilisation d’un schéma de métadonnées](brand-portal-metadata-schemas.md)
+* [Utiliser le schéma de métadonnées](brand-portal-metadata-schemas.md)
 * [Application de paramètres d’image prédéfinis ou de rendus dynamiques](brand-portal-image-presets.md)
 * [Utilisation des rapports](brand-portal-reports.md)
 
@@ -235,4 +241,4 @@ Vous pouvez ignorer cette notification et continuer à utiliser Brand Portal. C
 * [Adobe Customer Support]()
 -->
 
-* [Forums AEM](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=fr)
+* [Forums AEM](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
