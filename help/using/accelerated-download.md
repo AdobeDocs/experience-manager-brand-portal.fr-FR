@@ -33,7 +33,7 @@ Pour télécharger les fichiers plus rapidement, vérifiez les points suivants 
 
 * Accédez à **[!UICONTROL Outils]** > **[!UICONTROL Télécharger]** et vérifiez que la configuration **[!UICONTROL Téléchargement rapide]** est activée dans les **[!UICONTROL Paramètres de téléchargement]**.
 * Veillez à ce que le port 33001 (TCP et UDP) soit ouvert sur le pare-feu.
-* **Installez IBM® Aspera Connect 3.9.9** dans l’extension de votre navigateur à l’aide des droits d’administration ([Téléchargements IBM® Asperra Connect](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all)).
+* **Installez IBM® Aspera Connect 3.9.9** dans l’extension de votre navigateur à l’aide des droits d’administration ([Téléchargements IBM® Asperra Connect](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&product=ibm/Other+software/IBM+Aspera+Connect&release=3.9.9&platform=All&function=all)).
 
 >[!NOTE]
 >
@@ -93,7 +93,7 @@ Pour télécharger des ressources plus rapidement à partir de Brand Portal :
 
 1. Par défaut, le paramètre **[!UICONTROL Téléchargement rapide]** est activé dans les **[!UICONTROL Paramètres de téléchargement]**. Par conséquent, une zone de confirmation s’affiche pour télécharger des ressources à l’aide d’IBM® Aspera Connect.
 
-   Si vous avez téléchargé des ressources pour la première fois et qu’IBM® Aspera Connect n’est pas installé dans votre navigateur, vous êtes invité à les installer. Si la version existante est obsolète, vous êtes également invité à installer l’[accélérateur de téléchargement Aspera](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all).
+   Si vous avez téléchargé des ressources pour la première fois et qu’IBM® Aspera Connect n’est pas installé dans votre navigateur, vous êtes invité à les installer. Si la version existante est obsolète, vous êtes également invité à installer l’[accélérateur de téléchargement Aspera](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&product=ibm/Other+software/IBM+Aspera+Connect&release=3.9.9&platform=All&function=all).
 
    ![](assets/aspera-not-launched.png)
 

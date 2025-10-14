@@ -213,7 +213,7 @@ Vous trouverez ci-dessous la procédure à suivre pour télécharger des ressour
 >
 >Pour prévisualiser ou télécharger des rendus dynamiques, activez Dynamic Media. Assurez-vous que le rendu Pyramid tiff de la ressource existe sur l’instance d’auteur Experience Manager Assets où les ressources ont été publiées. Lorsqu’une ressource est publiée à partir d’Experience Manager Assets sur Brand Portal, son rendu Pyramid TIFF l’est également.
 
-Si l’administrateur [ ne vous a pas autorisé à accéder aux rendus originaux ](../using/brand-portal-adding-users.md#main-pars-procedure-202029708), vous ne pouvez pas télécharger les rendus originaux des ressources sélectionnées.
+Si l’administrateur [&#x200B; ne vous a pas autorisé à accéder aux rendus originaux &#x200B;](../using/brand-portal-adding-users.md#main-pars-procedure-202029708), vous ne pouvez pas télécharger les rendus originaux des ressources sélectionnées.
 
 ![no-access-message](assets/no-access-message.png)
 
