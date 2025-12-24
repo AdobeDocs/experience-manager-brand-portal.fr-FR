@@ -12,10 +12,10 @@ audience: author, marketer
 version: Experience Manager 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: c61dbef33b87d643e6b8942d56e2771716a2ae30
+source-git-commit: 9b8a415fa3a19e462ea797cfc9c3ea9b9323723e
 workflow-type: tm+mt
 source-wordcount: '647'
-ht-degree: 56%
+ht-degree: 53%
 
 ---
 
@@ -27,7 +27,7 @@ En outre, toutes les fonctionnalités existantes restent inchangées. Les utilis
 
 ![Approvisionnement des ressources dans Brand Portal](assets/asset-sourcing.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33200/?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
 ## Prérequis {#prerequisites}
 
@@ -40,7 +40,7 @@ En outre, toutes les fonctionnalités existantes restent inchangées. Les utilis
 
 >[!NOTE]
 >
->La fonctionnalité d’approvisionnement des ressources est activée par défaut dans Experience Manager Assets as a Cloud Service, Experience Manager Assets 6.5.9 et versions ultérieures.
+>La fonction d’approvisionnement des ressources est activée par défaut sur Experience Manager Assets as a Cloud Service, Experience Manager Assets 6.5.9 et les versions ultérieures.
 >
 >Les configurations existantes continuent de fonctionner sur les versions antérieures.
 
