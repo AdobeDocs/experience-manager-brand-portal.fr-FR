@@ -2,7 +2,6 @@
 title: Approvisionnement des ressources dans Brand Portal
 description: Découvrez la fonctionnalité d’approvisionnement des ressources disponible dans Adobe Experience Manager Assets Brand Portal.
 content-type: reference
-contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 sub-product: assets
@@ -13,10 +12,10 @@ audience: author, marketer
 version: Experience Manager 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: aea8becdf9493b1d465f1b1cb818c85f8943bedb
+source-git-commit: c61dbef33b87d643e6b8942d56e2771716a2ae30
 workflow-type: tm+mt
 source-wordcount: '647'
-ht-degree: 58%
+ht-degree: 56%
 
 ---
 
@@ -28,11 +27,11 @@ En outre, toutes les fonctionnalités existantes restent inchangées. Les utilis
 
 ![Approvisionnement des ressources dans Brand Portal](assets/asset-sourcing.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33200/?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
 ## Prérequis {#prerequisites}
 
-* Experience Manager Assets as a Cloud Service, Experience Manager Assets 6.5.2 ou version ultérieure.
+* Instance Experience Manager Assets as a Cloud Service, Experience Manager Assets 6.5.2 ou version ultérieure.
 * Vérifiez que votre instance d’Experience Manager Assets est configurée avec Brand Portal. Consultez [Configuration d’Experience Manager Assets avec Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 <!--
@@ -49,7 +48,7 @@ En outre, toutes les fonctionnalités existantes restent inchangées. Les utilis
 >
 >Il existe un problème connu dans Experience Manager Assets 6.5.4. Les utilisateurs de Brand Portal ne peuvent pas publier les ressources du dossier de contribution dans Experience Manager Assets lors de la mise à niveau vers Adobe Developer Console.
 >
->Le problème a été corrigé dans la version 6.5.5 d’Experience Manager Assets. Vous pouvez mettre à niveau votre instance Experience Manager Assets vers le Service Pack le plus récent et [mettre à niveau vos configurations](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) sur Adobe Developer Console.
+>Le problème a été corrigé dans la version 6.5.5 d’Experience Manager Assets. Vous pouvez mettre à niveau votre instance Experience Manager Assets vers le pack de services le plus récent et [mettre à niveau vos configurations](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) sur Adobe Developer Console.
 
 <!--
 
