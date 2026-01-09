@@ -6,20 +6,20 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
-source-git-commit: 9e51048d21c5b4a34696e668309657d2091a8b04
+source-git-commit: 8cde9e84262e25ff22d5b2d06e3c5df9cc2ae557
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 60%
+source-wordcount: '1057'
+ht-degree: 59%
 
 ---
 
 # Configuration du dossier de contribution dans Experience Manager Assets {#configure-contribution-folder}
 
-Pour l’approvisionnement collaboratif des ressources, les utilisateurs de Experience Manager Assets (administrateurs et non-administrateurs autorisés) peuvent créer des dossiers de type **Contribution des ressources**, en s’assurant que les dossiers s’ouvrent lorsque des utilisateurs de Brand Portal envoient des ressources.  Cette méthode déclenche automatiquement un workflow qui crée deux sous-dossiers supplémentaires, appelés **SHARED** et **NEW**, dans le dossier **Contribution** nouvellement créé.
+Dans le cas de l’approvisionnement collaboratif des ressources, les utilisateurs de Experience Manager Assets (administrateurs et non-administrateurs autorisés) peuvent créer des dossiers de type **Contribution des ressources**, en s’assurant que les utilisateurs de Brand Portal peuvent envoyer des ressources.  Cette méthode déclenche automatiquement un workflow qui crée deux sous-dossiers supplémentaires, appelés **SHARED** et **NEW**, dans le dossier **Contribution** nouvellement créé.
 
-L’utilisateur de Experience Manager Assets définit les exigences en chargeant un résumé relatif aux types de ressources à ajouter au dossier de contribution. Ils chargent également un ensemble de ressources de base dans le dossier SHARED afin de s’assurer que les utilisateurs de Brand Portal disposent des informations dont ils ont besoin. L’administrateur peut alors octroyer aux utilisateurs actifs de Brand Portal l’accès au dossier de contribution avant de publier le nouveau dossier Contribution sur Brand Portal.
+L’utilisateur de Experience Manager Assets définit les exigences en matière de ressources en chargeant un résumé relatif aux types de ressources à ajouter au dossier de contribution. Ils chargent également un ensemble de ressources de base dans le dossier SHARED afin de s’assurer que les utilisateurs de Brand Portal disposent des informations dont ils ont besoin. L’administrateur peut alors octroyer aux utilisateurs actifs de Brand Portal l’accès au dossier de contribution avant de publier le nouveau dossier Contribution sur Brand Portal.
 
-La vidéo suivante explique comment configurer un dossier Contribution dans Experience Manager Assets :
+La vidéo suivante montre comment configurer un dossier Contribution dans Experience Manager Assets :
 
 >[!VIDEO](https://video.tv.adobe.com/v/30547)
 
@@ -32,14 +32,14 @@ L’utilisateur d’Experience Manager Assets effectue les activités suivantes 
 
 ## Création d’un dossier de contribution {#create-contribution-folder}
 
-Les administrateurs de Experience Manager Assets et les utilisateurs non-administrateurs autorisés à créer un dossier peuvent créer un dossier de contribution dans Experience Manager Assets.
-Pour créer un dossier de contribution, créez un dossier de type contribution de ressource, en vous assurant qu’il accepte l’envoi de ressources de la part des utilisateurs de Brand Portal. Cette méthode déclenche automatiquement un workflow qui crée deux sous-dossiers supplémentaires, SHARED et NEW, dans le dossier de contribution.
+Les administrateurs Experience Manager Assets et les utilisateurs non-administrateurs autorisés à créer un dossier peuvent créer un dossier de contribution dans Experience Manager Assets.
+Pour créer un dossier de contribution, créez un dossier de type contribution de ressources, en vous assurant que le dossier créé est accessible pour l’envoi de ressources par les utilisateurs de Brand Portal. Cette méthode déclenche automatiquement un workflow qui crée deux sous-dossiers supplémentaires, appelés SHARED et NEW, dans le dossier de contribution.
 
 >[!NOTE]
 >
 >Les administrateurs peuvent créer plusieurs dossiers de contribution de ressources dans un dossier.
 >
->Un dossier de contribution de ressources contient les dossiers NEW et SHARED pour la distribution et la contribution des ressources. Ne créez pas de dossier de ressources ni de dossier de contribution dans un dossier de contribution.
+>Un dossier de contribution de ressources contient les dossiers NEW et SHARED pour la distribution et la contribution des ressources. Ne créez pas de dossier de ressources ou de contribution dans un dossier de contribution.
 
 
 Vous pouvez configurer les propriétés du dossier de contribution séparément ainsi que lors de sa création. Dans cet exemple, les propriétés sont configurées séparément.
@@ -52,19 +52,20 @@ Vous pouvez configurer les propriétés du dossier de contribution séparément 
 
 1. Cliquez sur **[!UICONTROL Créer]** pour créer un dossier. La boîte de dialogue **[!UICONTROL Créer un dossier]** apparaît.
 
-1. Saisissez le **[!UICONTROL Titre]** et le **[!UICONTROL Nom]** du dossier et cochez la case **[!UICONTROL Contribution des ressources]** .
-Adobe recommande d’utiliser des lettres minuscules sans espace pour nommer le dossier.
+1. Saisissez les **[!UICONTROL Titre]** et **[!UICONTROL Nom]** du dossier et cochez la case **[!UICONTROL Contribution des ressources]**.
+Adobe vous recommande d’utiliser des lettres minuscules sans espace pour nommer le dossier.
 
 1. Cliquez sur **[!UICONTROL Créer]**. Le dossier de contribution est répertorié dans le référentiel Experience Manager Assets.
 
    >[!NOTE]
    >
-   >Un utilisateur non-administrateur peut créer et partager un dossier de contribution de ressources, mais il ne peut ni le modifier ni le supprimer.
+   > * Un dossier de source ne peut pas être vide et doit contenir au moins une ressource, car les dossiers vides ne peuvent pas être publiés de Brand Portal vers AEM.
+   > * Un utilisateur non-administrateur peut créer et partager un dossier de contribution de ressources, mais il ne peut ni le modifier ni le supprimer.
 
 
    ![](assets/create-contribution-folder.png)
 
-1. Ouvrez le dossier de contribution. Vous pouvez voir deux sous-dossiers, **[!UICONTROL SHARED]** et **[!UICONTROL NEW]**, automatiquement créés dans le dossier de contribution.
+1. Ouvrez le dossier de contribution. Vous pouvez voir deux sous-dossiers **[!UICONTROL SHARED]** et **[!UICONTROL NEW]** créés automatiquement dans le dossier de contribution.
 
    ![](assets/contribution-folder.png)
 
@@ -74,10 +75,10 @@ Adobe recommande d’utiliser des lettres minuscules sans espace pour nommer le 
 L’administrateur d’Experience Manager Assets effectue les activités ci-après lors de la configuration des propriétés d’un dossier de contribution.
 
 * **Ajouter une description** : fournissez une description détaillée du dossier de contribution.
-* **Charger un résumé** : téléchargez un document sur les exigences en matière de ressources contenant des informations relatives aux ressources.
+* **Télécharger le résumé** : téléchargez un document des exigences en matière de ressources contenant des informations relatives aux ressources.
 * **Ajouter des contributeurs** : ajoutez des utilisateurs de Brand Portal pour leur accorder l’accès au dossier de contribution.
 
-Les exigences en matière de ressources font référence aux détails fournis par les administrateurs pour aider les contributeurs (utilisateurs de Brand Portal) à comprendre le besoin et les exigences du dossier de contribution. L’administrateur charge un document sur les exigences en matière de ressources détaillant les types de ressources pour le dossier de contribution, notamment l’objectif, les types d’images et la taille maximale.
+Les exigences en matière de ressources font référence aux détails fournis par les administrateurs pour aider les contributeurs (utilisateurs de Brand Portal) à comprendre le besoin et les exigences du dossier de contribution. L’administrateur charge un document des exigences en matière de ressources détaillant les types de ressources pour le dossier de contribution, y compris l’objectif, les types d’images et la taille maximale.
 
 **Pour configurer les propriétés du dossier de contribution, procédez comme suit :**
 
@@ -90,7 +91,7 @@ Les exigences en matière de ressources font référence aux détails fournis pa
 
    ![](assets/contribution-folder-property1.png)
 
-1. Accédez à l’onglet **[!UICONTROL Contribution des ressources]** .
+1. Accédez à l’onglet **[!UICONTROL Contribution des ressources]**.
 1. Saisissez une **[!UICONTROL Description]** de haut niveau du dossier de contribution.
 1. Cliquez sur **[!UICONTROL Charger les instructions]** pour parcourir votre ordinateur local et charger un **document relatif aux exigences en matière de ressources**.
 
@@ -111,7 +112,7 @@ Les administrateurs peuvent télécharger le fichier `user.csv` à partir d’[!
 
 ## Chargement de ressources dans le dossier de contribution {#uplad-new-assets-to-contribution-folder}
 
-L’utilisateur de Experience Manager Assets charge un ensemble de ressources de base dans le dossier **SHARED** pour s’assurer que les utilisateurs de Brand Portal disposent des informations dont ils ont besoin.
+L’utilisateur de Experience Manager Assets charge un ensemble de ressources de base dans le dossier **SHARED** afin de s’assurer que les utilisateurs de Brand Portal disposent des informations dont ils ont besoin.
 
 **Pour charger des ressources de base, procédez comme suit :**
 
@@ -138,15 +139,15 @@ Après avoir chargé tous les fichiers ou dossiers dans le dossier NEW, publiez 
 
 ## Publication du dossier de contribution sur Brand Portal {#publish-contribution-folder-to-brand-portal}
 
-Une fois le dossier de contribution configuré, l’utilisateur d’Experience Manager Assets (administrateur/non-administrateur) peut le publier d’Experience Manager Assets sur Brand Portal. Les utilisateurs de Brand Portal autorisés à accéder au dossier de contribution reçoivent une notification Push ou par courrier électronique à la fin de l’action de publication.
+Une fois le dossier de contribution configuré, l’utilisateur d’Experience Manager Assets (administrateur/non-administrateur) peut le publier d’Experience Manager Assets sur Brand Portal. Les utilisateurs de Brand Portal autorisés à accéder au dossier de contribution reçoivent une notification Push ou par e-mail à la fin de l’action de publication.
 
 
-**Pour publier un dossier de contribution :**
+**Pour publier un dossier de contribution, procédez comme suit**
 
 1. Connectez-vous à votre instance Experience Manager Assets.
 
 1. Accédez à **[!UICONTROL Ressources > Fichiers]** et localisez le dossier de contribution dans lequel vous souhaitez publier du contenu sur Brand Portal.
-1. Sélectionnez un dossier de contribution et cliquez sur **[!UICONTROL Quick Publish]** > **[!UICONTROL Publish vers Brand Portal]**.
+1. Sélectionnez un dossier de contribution et cliquez sur **[!UICONTROL Publication rapide]** > **[!UICONTROL Publier sur Brand Portal]**.
 
    ![](assets/publish-contribution-folder-to-bp.png)
 

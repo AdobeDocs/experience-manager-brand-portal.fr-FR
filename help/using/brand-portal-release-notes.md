@@ -1,38 +1,49 @@
 ---
 title: Notes de mise à jour
-description: Découvrez les fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version d’Adobe Experience Manager Assets Brand Portal 2024.10.0.
+description: Découvrez les fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version d’Adobe Experience Manager Assets Brand Portal 2026.01.01.
 content-type: reference
-contentOwner: Kirandeep Kour
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 3f3065de994f5c38e604b52848b0a538c9efd7d1
+source-git-commit: ff2dc92ea112a95c90724f06f141221ffdef33a1
 workflow-type: tm+mt
-source-wordcount: '1533'
-ht-degree: 100%
+source-wordcount: '1595'
+ht-degree: 96%
 
 ---
 
 # Notes de mise à jour {#release-notes}
 
-Découvrez les nouvelles fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version d’Adobe Experience Manager Assets Brand Portal 2024.10.0.
+Découvrez les nouvelles fonctionnalités, les améliorations, les problèmes critiques résolus et les problèmes connus de la version d’Adobe Experience Manager Assets Brand Portal 2026.01.01.
 
 ## Informations sur la version {#release-information}
 
 | Produit | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Version | 2024.10.0 |
-| Date | Octobre 2024 |
+| Version | 2026.01.01 |
+| Date | Janvier 2026 |
 
 ## Présentation {#overview}
 
 Adobe Experience Manager (AEM) Assets Brand Portal permet d’acquérir, de contrôler et de distribuer facilement et en toute sécurité des ressources de création approuvées destinées à des tiers externes et aux collaborateurs de l’entreprise sur différents appareils. Brand Portal améliore l’efficacité du partage des ressources, accélère la mise sur le marché des ressources et réduit les risques de non-conformité et d’accès non autorisé. Brand Portal permet de parcourir, rechercher, prévisualiser, télécharger et exporter des ressources dans des formats approuvés, à tout moment et n’importe où.
 
-## Nouveautés de la version 2024.10.0 {#whats-new-in-2024.10.0}
+## Nouveautés de la version 2026.01.01 {#whats-new-in-2026.01.01}
 
 ### Problèmes critiques résolus {#critical-issues-fixed}
 
-#### Correctifs {#bug-fixes}
+#### Améliorations {#enhancements}
+
+Les améliorations suivantes ont été apportées à cette version :
+
+* Dans le panneau Outils d’administration > Configuration Dynamic Media, vous pouvez désormais utiliser le bouton **[!UICONTROL Réinitialiser]** pour effacer toutes les modifications, réinitialiser le mot de passe et restaurer la configuration à son état par défaut.
+
+* Brand Portal valide le dossier de source pour s’assurer qu’il contient au moins une ressource avant la publication sur AEM, ce qui contribue à éviter les publications incomplètes.
+
+## Versions précédentes
+
+### Version d’octobre 2024 {#oct-2024}
+
+**Correctifs et améliorations**
 
 Cette version comprend les correctifs suivants :
 
@@ -44,8 +55,6 @@ Cette version comprend les correctifs suivants :
 * Impossible de télécharger la vidéo dont le nom contient des caractères spéciaux.
 * La publication et la dépublication des ressources d’[!DNL Adobe Experience Manager Assets] vers Brand Portal ne fonctionnent pas correctement.
 * Impossible de lire les vidéos téléchargées à partir du Brand Portal.
-
-## Versions précédentes
 
 ### Version de février 2024 {#feb-2024}
 
@@ -102,7 +111,7 @@ Cette version comprend les correctifs suivants :
 **Correctifs**
 Cette version comprend les correctifs des problèmes critiques suivants :
 
-* Si une erreur se produit lors du téléchargement d’une ressource à partir d’un lien partagé, les libellés `Notice` et `Close` de l’invite d’erreur ne sont pas localisés.
+* Si une erreur se produit lors du téléchargement d’une ressource à partir d’un lien partagé, les libellés `Notice` et `Close` du prompt d’erreur ne sont pas localisés.
 * Brand Portal affiche le message d’erreur **Champs d’en-tête trop grands dans la demande** lors de l’accès aux filtres de recherche à l’aide du volet `Filter`.
 
 **Problèmes connus**
@@ -390,7 +399,7 @@ Pour vérifier quelles sont les plates-formes certifiées pour exécuter cette v
 
 ## Liens {#links}
 
-* [Page du produit Adobe Experience Manager sur adobe.com](https://business.adobe.com/fr/products/experience-manager/adobe-experience-manager.html)
+* [Page produit Adobe Experience Manager sur adobe.com](https://business.adobe.com/fr/products/experience-manager/adobe-experience-manager.html)
 * [Documentation Assets Brand Portal](https://experienceleague.adobe.com/fr/docs/experience-manager-brand-portal/using/home)
 
 ## Assistance technique et accès au produit (sites à accès limité) {#product-access-and-support-restricted-sites}
