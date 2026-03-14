@@ -6,10 +6,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 role: Admin
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
-source-git-commit: e01be07e7e791c6d406744148a77fd44d2479734
+source-git-commit: 6194eb5697ef48c9693c00a7a51322ef4827cdc3
 workflow-type: tm+mt
-source-wordcount: '1603'
-ht-degree: 67%
+source-wordcount: '1617'
+ht-degree: 64%
 
 ---
 
@@ -43,7 +43,7 @@ Pour créer un formulaire de schéma de métadonnées, procédez comme suit :
 
 Tout formulaire de schéma de métadonnées ajouté ou existant peut être modifié. Le formulaire de schéma de métadonnées comporte le contenu dérivé de son parent, notamment les éléments d’onglet et de formulaire dans les onglets. Vous pouvez mapper ou configurer ces éléments de formulaire sur un champ dans un nœud de métadonnées.
 
-Vous pouvez ajouter de nouveaux onglets ou éléments de formulaire au formulaire de schéma de métadonnées. Les onglets dérivés et les éléments de formulaire (du parent) sont verrouillés. Vous ne pouvez pas les modifier au niveau des enfants.
+Vous pouvez ajouter des onglets ou des éléments de formulaire au formulaire de schéma de métadonnées. Les onglets dérivés et les éléments de formulaire (du parent) sont verrouillés. Vous ne pouvez pas les modifier au niveau des enfants.
 
 Pour modifier un formulaire de schéma de métadonnées, procédez comme suit :
 
@@ -70,21 +70,21 @@ Pour modifier un formulaire de schéma de métadonnées, procédez comme suit :
 
 1. Pour configurer un composant, sélectionnez-le et modifiez ses propriétés dans l’onglet **[!UICONTROL Paramètres]**.
 
-### Composants de l’onglet Créer le formulaire  {#components-in-the-build-form-tab}
+### Composants de l’onglet Créer le formulaire {#components-in-the-build-form-tab}
 
 L’onglet **[!UICONTROL Créer le formulaire]** répertorie les éléments que vous pouvez utiliser dans votre formulaire de schéma. L’onglet **[!UICONTROL Paramètres]** contient les attributs de chaque élément sélectionné dans l’onglet **[!UICONTROL Créer le formulaire]**. Le tableau suivant répertorie les éléments de formulaire disponibles dans l’onglet **[!UICONTROL Créer le formulaire]** :
 
 | Nom du composant | Description |
 |----|----|
 | **[!UICONTROL En-tête de section]** | Permet d’ajouter un en-tête de section pour une liste de composants communs. |
-| **[!UICONTROL Une seule ligne de texte]** | Permet d’ajouter une propriété d’une seule ligne de texte. Il est stocké sous la forme d’une chaîne. |
+| **[!UICONTROL Une seule ligne de texte]** | Ajoutez une propriété de texte monoligne. Elle est stockée sous la forme d’une chaîne. |
 | **[!UICONTROL Texte à plusieurs valeurs]** | Permet d’ajouter une propriété de texte à plusieurs valeurs. Il est stocké sous la forme d’une table de chaînes. |
 | **[!UICONTROL Nombre]** | Permet d’ajouter un composant de nombre. |
 | **[!UICONTROL Date]** | Permet d’ajouter un composant de date. |
 | **[!UICONTROL Liste déroulante]** | Permet d’ajouter une liste déroulante. |
 | **[!UICONTROL Balises standard]** | Permet d’ajouter une balise. Il se peut que les administrateurs doivent modifier la valeur du chemin d’accès. Par exemple, `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`, s’il publie le formulaire de schéma de métadonnées à partir de Experience Manager Assets, où le chemin d’accès n’inclut pas les informations du client, telles que `/etc/tags/<custom_tag_namespace>`. |
 | **[!UICONTROL Balises intelligentes]** | Balises détectées automatiquement si vous avez acheté et configuré le module complémentaire des balises intelligentes Experience Manager Assets. |
-| **[!UICONTROL Champ masqué]** | Permet d’ajouter un champ masqué. Il est envoyé en tant que paramètre POST lorsque la ressource est enregistrée. |
+| **[!UICONTROL Champ masqué]** | Ajoutez un champ masqué. Elle est envoyée en tant que paramètre POST lorsque la ressource est enregistrée. |
 | **[!UICONTROL Ressource référencée par]** | Ajoutez ce composant pour afficher la liste des ressources référencées par la ressource. |
 | **[!UICONTROL Référencement des ressources]** | Ajoutez ce composant pour afficher la liste des ressources qui référencent la ressource. |
 | **[!UICONTROL Métadonnées contextuelles]** | Ajoutez ce composant pour contrôler l’affichage des autres onglets de métadonnées dans la page Propriétés des ressources. |
@@ -101,7 +101,7 @@ Pour modifier les propriétés d’un composant de métadonnées dans le formula
 
 * **[!UICONTROL Libellé du champ]** : nom de la propriété de métadonnées affiché dans la page Propriétés de la ressource.
 
-* **[!UICONTROL Associer à la propriété]** : cette propriété spécifie le chemin/nom relatif du nœud de la ressource où elle est enregistrée dans le référentiel CRX. Elle commence par « **./** », car cela indique que le chemin d’accès se trouve sous le nœud de la ressource.
+* **[!UICONTROL Associer à la propriété]** : cette propriété spécifie le chemin/nom relatif du nœud de la ressource où elle est enregistrée dans le référentiel CRX. Elle commence par « **./** », car cela indique que le chemin d’accès se trouve sous le nœud de la ressource.
 
 Les valeurs admises pour cette propriété sont les suivantes :
 
@@ -112,7 +112,7 @@ Les valeurs admises pour cette propriété sont les suivantes :
 * **[!UICONTROL Espace réservé]** : utilisez cette propriété pour fournir à l’utilisateur des informations utiles concernant la propriété des métadonnées.
 * **[!UICONTROL Obligatoire]** : utilisez cette propriété pour marquer une propriété de métadonnées comme étant obligatoire sur la page Propriétés.
 * **[!UICONTROL Désactiver la modification]** : utilisez cette propriété pour rendre une propriété de métadonnées non modifiable sur la page Propriétés.
-* **[!UICONTROL Afficher le champ vide en lecture seule]** : utilisez cette propriété pour afficher une propriété de métadonnées sur la page Propriétés même si elle ne possède pas de valeur. Par défaut, lorsqu’une propriété de métadonnées ne possède pas de valeur, elle n’est pas répertoriée dans la page Propriétés.
+* **[!UICONTROL Afficher le champ vide en lecture seule]** : marquez cette propriété pour afficher une propriété de métadonnées sur la page Propriétés même si elle n’a aucune valeur. Par défaut, lorsqu’une propriété de métadonnées n’a pas de valeur, elle n’est pas répertoriée sur la page Propriétés .
 * **[!UICONTROL Description]** : utilisez cette propriété pour ajouter une brève description pour le composant de métadonnées.
 * **[!UICONTROL Icône Supprimer]** : cliquez sur cette icône pour supprimer un composant du formulaire de schéma.
 

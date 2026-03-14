@@ -5,18 +5,18 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: 4d9d7afa2cd45ea68c2e15338c92aa29ecf09f91
+source-git-commit: 6194eb5697ef48c9693c00a7a51322ef4827cdc3
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 32%
+source-wordcount: '1044'
+ht-degree: 37%
 
 ---
 
 # Exploration des ressources sur Brand Portal {#browsing-assets-on-brand-portal}
 
-Experience Manager Assets Brand Portal propose différentes fonctionnalités et éléments d’interface utilisateur qui facilitent la navigation dans les ressources, la navigation dans les hiérarchies de ressources et la recherche de ressources à l’aide de différentes options de mode.
+Experience Manager Assets Brand Portal offre plusieurs fonctionnalités et éléments d’interface utilisateur qui facilitent la navigation dans les ressources, la navigation dans les hiérarchies de ressources et la recherche de ressources à l’aide de différentes options d’affichage.
 
-Le logo de l’Experience Manager dans la barre d’outils supérieure permet aux utilisateurs administrateurs d’accéder facilement au panneau des outils d’administration.
+Le logo Experience Manager dans la barre d’outils supérieure permet aux utilisateurs administrateurs d’accéder au panneau des outils d’administration.
 
 ![](assets/aemlogo.png)
 
@@ -24,11 +24,11 @@ Le logo de l’Experience Manager dans la barre d’outils supérieure permet au
 
 ![](assets/bp_subheader.png)
 
-Le sélecteur de rail en haut à gauche de Brand Portal se déroule pour afficher les options permettant de naviguer dans les hiérarchies de ressources, de simplifier votre recherche et d’afficher les ressources.
+Le sélecteur de rail dans le coin supérieur gauche du menu déroulant Brand Portal permet d’afficher les options de navigation dans les hiérarchies de ressources, de rationaliser votre recherche et d’afficher les ressources.
 
 ![](assets/siderail-1.png)
 
-Vous pouvez afficher, parcourir et sélectionner des ressources à l’aide de l’un des modes disponibles (Carte, Colonnes et Liste) dans le sélecteur d’affichage de Brand Portal.
+Vous pouvez afficher, parcourir et sélectionner des ressources dans les modes disponibles (Carte, Colonnes et Liste) dans le sélecteur d’affichage de Brand Portal.
 
 ![](assets/viewselector.png)
 
@@ -52,11 +52,11 @@ Le mode Carte affiche des cartes d’informations pour chaque élément au nivea
 * Type
 * Titre
 * Nom
-* Date et heure auxquelles la ressource a été publiée dans Brand Portal à partir d’AEM
+* Date et heure de publication de la ressource dans Brand Portal à partir d’AEM
 * Taille
 * Dimensions
 
-Vous pouvez parcourir la hiérarchie vers le bas en cliquant sur des cartes (en veillant à éviter les actions rapides) ou vers le haut en utilisant le [chemin de navigation dans l’en-tête](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling).
+Vous pouvez parcourir la hiérarchie vers le bas en cliquant sur des cartes (en veillant à éviter les actions rapides), ou vers le haut en utilisant le [chemin de navigation dans l’en-tête](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling).
 
 ![](assets/cardquickactions.png)
 
@@ -64,28 +64,28 @@ Vous pouvez parcourir la hiérarchie vers le bas en cliquant sur des cartes (en 
 
 En mode Carte, les cartes de dossiers affichent les informations sur la hiérarchie des dossiers d’affichage aux utilisateurs non-administrateurs (éditeur, observateur et utilisateur invité). Cette fonctionnalité permet aux utilisateurs de connaître l’emplacement des dossiers auxquels ils accèdent, par rapport à la hiérarchie parente.
 
-Les informations de hiérarchie de dossiers sont particulièrement utiles pour différencier les dossiers dont les noms sont similaires à d’autres dossiers partagés à partir d’une hiérarchie de dossiers différente. Si les utilisateurs non-administrateurs ne connaissent pas la structure de dossiers des ressources partagées avec eux, les ressources/dossiers portant des noms similaires peuvent sembler déroutants.
+Les informations sur la hiérarchie des dossiers sont particulièrement utiles pour différencier les dossiers dont les noms sont similaires à d’autres dossiers partagés à partir d’une hiérarchie de dossiers différente. Si les personnes sans droits d’administration ne connaissent pas la structure de dossiers des ressources partagées avec elles, les ressources/dossiers aux noms similaires peuvent prêter à confusion.
 
-* Les chemins affichés sur les cartes respectives sont tronqués pour s’adapter à la taille de celles-ci. Cependant, les utilisateurs peuvent voir le chemin complet sous forme d’info-bulle en pointant la souris sur le chemin tronqué.
+* Les chemins affichés sur les cartes respectives sont tronqués pour s’adapter à la taille de celles-ci. Toutefois, les utilisateurs peuvent voir le chemin complet sous forme d’info-bulle en pointant la souris sur le chemin tronqué.
 
 ![](assets/folder-hierarchy1.png)
 
 **Option Aperçu pour afficher les propriétés des ressources**
 
-L’option Aperçu est disponible pour les utilisateurs non-administrateurs (éditeurs, observateurs et utilisateurs invités) afin d’afficher les propriétés des ressources/dossiers sélectionnés. L’option Aperçu est visible :
+L’option Aperçu est disponible pour les utilisateurs non-administrateurs (éditeurs, observateurs, utilisateurs invités) pour afficher les propriétés des ressources/dossiers sélectionnés. L’option Vue d’ensemble est visible :
 
-* Dans la barre d’outils, en haut, lors de la sélection d’une ressource/d’un dossier.
+* en haut de la barre d’outils lors de la sélection d’une ressource/d’un dossier ;
 * Dans la liste déroulante, lors de la sélection du sélecteur de rail.
 
-Lorsque vous sélectionnez l’option **[!UICONTROL Aperçu]** alors qu’une ressource/un dossier est sélectionné, les utilisateurs peuvent voir le titre, le chemin et l’heure de création de la ressource. En revanche, sur la page des détails de la ressource, la sélection de l’option Aperçu permet aux utilisateurs d’afficher les métadonnées de la ressource.
+Lors de la sélection de l’option **[!UICONTROL Aperçu]** lorsqu’une ressource/un dossier est sélectionné, les utilisateurs peuvent voir le titre, le chemin et l’heure de création de la ressource. En revanche, sur la page des détails de la ressource, l’option Vue d’ensemble permet aux personnes d’afficher les métadonnées de la ressource.
 
 ![](assets/overview-option.png)
 
 ![](assets/overview-rail-selector.png)
 
-#### Paramètres d’affichage en mode Carte
+#### Afficher les paramètres en mode Carte
 
-La boîte de dialogue **[!UICONTROL Paramètres d’affichage]** s’ouvre en sélectionnant **[!UICONTROL Paramètres d’affichage]** dans le sélecteur de mode. Il vous permet de redimensionner les miniatures des ressources en mode Carte. Ainsi, vous pouvez personnaliser votre vue et contrôler le nombre de miniatures affichées.
+La boîte de dialogue **[!UICONTROL Paramètres d’affichage]** s’ouvre en sélectionnant **[!UICONTROL Paramètres d’affichage]** dans le sélecteur d’affichage. Elle permet de redimensionner les miniatures de la ressource en mode Carte. Vous pouvez ainsi personnaliser votre affichage et contrôler le nombre de miniatures affichées.
 
 ![](assets/cardviewsettings.png)
 
@@ -93,9 +93,9 @@ La boîte de dialogue **[!UICONTROL Paramètres d’affichage]** s’ouvre en s�
 
 ![](assets/list-view.png)
 
-Le mode Liste affiche des informations pour chaque ressource au niveau actuel. Le mode Liste fournit les détails suivants :
+La vue Liste affiche des informations pour chaque ressource au niveau actuel. La vue Liste fournit les détails suivants :
 
-* Image miniature des ressources
+* Miniature des ressources
 * Nom
 * Titre
 * Paramètres régionaux
@@ -106,7 +106,7 @@ Le mode Liste affiche des informations pour chaque ressource au niveau actuel. L
 * Chemin du dossier présentant la hiérarchie des ressources
 * Date de publication de cette ressource sur Brand Portal
 
-La colonne Chemin permet d’identifier facilement l’emplacement des ressources dans la hiérarchie de dossiers. Vous pouvez parcourir la hiérarchie vers le bas en cliquant sur le nom de la ressource, puis revenir vers le haut en utilisant le [chemin de navigation dans l’en-tête](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling).
+La colonne de chemin d’accès vous permet d’identifier facilement l’emplacement des ressources dans la hiérarchie des dossiers. Vous pouvez parcourir la hiérarchie vers le bas en cliquant sur le nom de la ressource, puis revenir en arrière à l’aide du [chemin de navigation dans l’en-tête](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling).
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click the checkbox. When only some items are selected, it appears with a minus sign. To select all, click the checkbox. To deselect all, click the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Click the vertical selection bar and drag the item to a new position in the list."
@@ -114,7 +114,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### Paramètres d’affichage dans la vue Liste
 
-Le mode Liste affiche la ressource **[!UICONTROL Name]** comme première colonne par défaut. Des informations complémentaires, telles que le **[!UICONTROL Titre]**, les **[!UICONTROL Paramètres régionaux]**, le **[!UICONTROL Type]**, les **[!UICONTROL Dimensions]**, la **[!UICONTROL Taille]**, l’**[!UICONTROL Évaluation]** et l’état de publication de la ressource, sont également affichées. Vous pouvez toutefois choisir les colonnes à afficher à l’aide de **[!UICONTROL Paramètres d’affichage]**.
+La vue Liste affiche la ressource **[!UICONTROL Nom]** comme première colonne par défaut. Des informations complémentaires, telles que le **[!UICONTROL Titre]**, les **[!UICONTROL Paramètres régionaux]**, le **[!UICONTROL Type]**, les **[!UICONTROL Dimensions]**, la **[!UICONTROL Taille]**, l’**[!UICONTROL Évaluation]** et l’état de publication de la ressource, sont également affichées. Vous pouvez toutefois choisir les colonnes à afficher à l’aide de **[!UICONTROL Paramètres d’affichage]**.
 
 ![](assets/list-view-setting.png)
 
@@ -124,11 +124,11 @@ Le mode Liste affiche la ressource **[!UICONTROL Name]** comme première colonne
 
 Utilisez le mode Colonnes pour parcourir une arborescence de contenu à travers une série de colonnes en cascade. Ce mode vous aide à visualiser et à parcourir la hiérarchie de ressources.
 
-La sélection d’une ressource dans la première colonne (la plus à gauche) affiche les ressources enfants dans la deuxième colonne à droite. La sélection d’une ressource dans la deuxième colonne affiche les ressources enfants dans la troisième colonne à droite, etc.
+Si vous sélectionnez une ressource dans la première colonne (la plus à gauche), les ressources enfants s’affichent dans la seconde colonne à droite. Si vous sélectionnez une ressource dans la deuxième colonne, les ressources enfants s’affichent dans la troisième colonne à droite, etc.
 
 Vous pouvez naviguer de haut en bas dans l’arborescence. Cliquez sur le nom de la ressource ou sur le chevron situé à droite du nom de la ressource.
 
-* Le nom de la ressource et le chevron sont mis en surbrillance lorsque vous cliquez dessus.
+* Le nom de la ressource et le chevron sont mis en surbrillance lorsque l’utilisateur clique dessus.
 * Appuyez ou cliquez sur la miniature pour sélectionner la ressource.
 * Lorsqu’elle est sélectionnée, une coche est apposée sur la miniature et le nom de la ressource est mis en surbrillance.
 * Les détails de la ressource sélectionnée sont affichés dans la dernière colonne.
@@ -138,10 +138,10 @@ Lorsqu’une ressource est sélectionnée en mode Colonnes, une représentation 
 * Titre
 * Nom
 * Dimensions
-* Date et heure auxquelles la ressource a été publiée dans Brand Portal à partir d’AEM
+* Date et heure de publication de la ressource dans Brand Portal à partir d’AEM
 * Taille
 * Type
-* Option Plus de détails qui s’affiche avec la page de détails de la ressource
+* Option Plus de détails qui accompagne la page de détails de la ressource
 
 <!--
 Comment Type: draft
@@ -241,19 +241,20 @@ Dans la hiérarchie de contenu, accédez à la ressource de votre choix.
 
 ## Détails de la ressource {#asset-details}
 
-La page Détails de la ressource vous permet d’afficher une ressource, de la télécharger, de partager son lien, de la déplacer vers une collection ou d’afficher sa page de propriétés. Il vous permet également de parcourir la page de détails des autres ressources du même dossier l’une après l’autre.
+La page des détails de la ressource vous permet d’afficher une ressource, de la télécharger, de partager le lien de la ressource, de la déplacer vers une collection ou d’afficher sa page de propriétés. Il vous permet également de parcourir successivement la page de détails d’autres ressources du même dossier.
 
 ![](assets/asset-detail.png)
 
-Pour afficher les métadonnées de la ressource ou afficher ses différents rendus, utilisez le sélecteur de rail sur la page des détails de la ressource.
+Pour afficher les métadonnées de la ressource ou ses différents rendus, utilisez le sélecteur de rail dans la page des détails de la ressource.
 
 ![](assets/asset-overview.png)
 
-Vous pouvez afficher tous les rendus disponibles de la ressource sur la page des détails de la ressource, puis sélectionner un rendu dans le panneau **[!UICONTROL Rendus]** pour le prévisualiser.
+Vous pouvez afficher tous les rendus disponibles de la ressource sur la page des détails de la ressource, puis sélectionner un rendu à partir du panneau **[!UICONTROL Rendus]** pour le prévisualiser.
 
 ![](assets/renditions.png)
 
-<!-- removed as it is fixed in 2022.02.0 release
+<!-- 
+removed as it is fixed in 2022.02.0 release
 >[!CAUTION]
 >
 >(**Experience Manager Assets as a Cloud Service** only) The following known issues will be fixed in the upcoming release:
@@ -263,7 +264,7 @@ Vous pouvez afficher tous les rendus disponibles de la ressource sur la page des
 >The **[!UICONTROL Renditions]** panel lists the smart crop renditions of the asset, however, the user cannot preview or download the smart crop renditions.
 -->
 
-Pour ouvrir la page des propriétés de la ressource, utilisez l’option **[!UICONTROL Propriétés (p)]** de la barre supérieure.
+Pour ouvrir la page des propriétés de la ressource, utilisez l’option **[!UICONTROL Propriétés (p)]** dans la barre supérieure.
 
 ![](assets/asset-properties.png)
 
