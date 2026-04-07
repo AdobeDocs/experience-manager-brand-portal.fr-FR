@@ -57,7 +57,7 @@ Pour utiliser des vidéos dynamiques sur Brand Portal, veillez à :
 
 * **Démarrer l’auteur Experience Manager en mode Dynamic Media**
 
-  Démarrez l’instance de création Experience Manager (avec laquelle Brand Portal est configuré) en [mode Dynamic Media - [!DNL Scene7] ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7#enabling-dynamic-media-in-scene-mode) ou en [mode Dynamic Media - Hybride](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dynamic) ou
+  Démarrez l’instance de création Experience Manager (avec laquelle Brand Portal est configuré) en [mode Dynamic Media - [!DNL Scene7] &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7#enabling-dynamic-media-in-scene-mode) ou en [mode Dynamic Media - Hybride](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dynamic) ou
 
 * **Configuration des Cloud Services Dynamic Media sur l’instance d’auteur Experience Manager**
 
