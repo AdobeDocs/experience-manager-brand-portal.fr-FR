@@ -5,16 +5,29 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: 2810c95d24ab4259d2b61f78233d3a78c7da0dc1
+TQID: https://experienceleague.adobe.com/oBDmsUsNSLapEzQa9r4J-vZqTz2qe0cPW6hU1EYzrXU
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2:
+  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1629'
-ht-degree: 56%
+source-wordcount: 1714
+ht-degree: 61%
 
 ---
 
 # Aperçu d’Experience Manager Assets Brand Portal {#overview-of-aem-assets-brand-portal}
 
-En tant que spécialiste marketing, vous devez parfois collaborer avec des partenaires de canal et des utilisateurs professionnels internes pour créer, gérer et diffuser rapidement des contenus numériques pertinents aux clients. La diffusion au bon moment de contenu pertinent tout le long du parcours client est essentielle pour accroître la demande, la conversion, l’engagement et la fidélisation des clients.
+En tant que spécialiste marketing, vous devez parfois collaborer avec des partenaires de canal et des utilisateurs professionnels internes pour créer, gérer et diffuser rapidement des contenus numériques pertinents aux clients. La diffusion au bon moment de contenu pertinent tout le long du parcours client est essentielle pour accroître la demande, la conversion, l’engagement et la fidélisation de la clientèle.
 
 Cependant, le développement de solutions qui prennent en charge le partage efficace et sécurisé d’éléments tels que les logos de marque approuvés, les ressources de campagne ou les prises de vue de produits avec les équipes, les partenaires et les revendeurs représente un défi. Pour garantir à la fois l’efficacité et la sécurité de ce processus, une planification et une exécution minutieuses sont nécessaires.
 
@@ -35,9 +48,9 @@ La configuration d’Adobe Experience Manager Assets avec Brand Portal permet
 
 >[!IMPORTANT]
 >
-> * Brand Portal est en mode de maintenance. Toutes les nouvelles innovations sont disponibles sur [Content Hub](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview).
-> * Si vous devez encore activer Brand Portal, contactez votre représentant Adobe pour obtenir des détails sur votre cas d’utilisation et les autres exigences spécifiques.
-> * Brand Portal n’est pas disponible avec [Assets Prime](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/assets-prime) ou [Assets Ultimate](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview). Cependant, les clients Assets as a Cloud Service existants, qui ont déjà accès à Brand Portal, peuvent continuer à l’utiliser lorsqu’ils passent à Assets Ultimate.
+> * Brand Portal est en mode de maintenance. Toutes les innovations produits sont disponibles dans le [hub de contenus](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview).
+> * Si vous devez encore activer Brand Portal, contactez votre équipe représentante Adobe pour obtenir des détails sur votre cas d’utilisation et les autres exigences spécifiques.
+> * Brand Portal n’est pas disponible avec [Assets Prime](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/assets-prime) ou [Assets Ultimate](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview). Cependant, les clientes et clients Assets as a Cloud Service qui ont déjà accès à Brand Portal peuvent continuer à l’utiliser après leur transition vers Assets Ultimate.
 
 <!--Experience Manager Assets as a Cloud Service is automatically configured with Brand Portal by activating Brand Portal from the Cloud Manager. The activation workflow creates the required configurations at the backend and activates Brand Portal on the same IMS org as of the Experience Manager Assets as a Cloud Service instance.-->
 
@@ -156,7 +169,7 @@ Les utilisateurs peuvent demander l’accès à Brand Portal depuis l’écran 
 
 Pour demander l’accès, procédez comme suit :
 
-1. Sur la page de connexion de Brand Portal, sélectionnez **[!UICONTROL Cliquez ici]** en regard de **[!UICONTROL Besoin d’un accès ?]**. En revanche, pour créer une session d’invité, sélectionnez **[!UICONTROL Cliquez ici]** en regard de **[!UICONTROL Accès d’invité ?]**.
+1. Sur la page de connexion de Brand Portal, sélectionnez **[!UICONTROL Cliquez ici]** correspondant à **[!UICONTROL Accès nécessaire ?]**. En revanche, pour créer une session d’invité, sélectionnez **[!UICONTROL Cliquez ici]** en regard de **[!UICONTROL Accès d’invité ?]**.
 
    ![Écran de connexion de Brand Portal](assets/bp-login-requestaccess.png)
 
@@ -173,7 +186,7 @@ Pour demander l’accès, procédez comme suit :
    1. Si vous disposez d’un [!UICONTROL Adobe ID], d’un [!UICONTROL Enterprise ID] ou d’un [!UICONTROL Federated ID], cliquez sur **[!UICONTROL Se connecter]**.
 La page [!UICONTROL Connexion] s’ouvre.
 
-   1. Indiquez vos informations d’identification [!UICONTROL Adobe ID] et cliquez sur **[!UICONTROL Connexion]**.
+   1. Indiquez vos informations d’identification  et cliquez sur **[!UICONTROL Connexion]**.
 
       ![Connexion à Adobe](assets/bplogin_request_access_3.png)
 
@@ -205,7 +218,7 @@ Les administrateurs de produit Brand Portal reçoivent les demandes d’accès 
 Pour accorder l’accès, les administrateurs et administratrices de produit doivent cliquer sur la notification appropriée dans la zone de notification Brand Portal, puis cliquer sur **[!UICONTROL Accorder l’accès]**.
 Les administrateurs et administratrices de produit peuvent également suivre le lien fourni dans l’e-mail de demande d’accès pour accéder à l’Adobe [!UICONTROL Admin Console] et ajouter l’utilisateur ou l’utilisatrice à la configuration de produit appropriée.
 
-Vous êtes redirigé vers la page d’accueil d’[Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview). Utilisez l’Adobe [!UICONTROL Admin Console] pour créer des utilisateurs et les affecter à des profils de produit (anciennement appelés configurations de produit), qui s’affichent sous la forme de groupes dans Brand Portal. Pour plus d’informations sur l’ajout d’utilisateurs dans [!UICONTROL Admin Console], voir [Ajouter un utilisateur](brand-portal-adding-users.md#add-a-user) (suivez les étapes 4 à 7 de la procédure pour ajouter un utilisateur).
+Vous êtes redirigé vers la page d’accueil d’[Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview). Utilisez l’Adobe [!UICONTROL Admin Console] pour créer des utilisateurs et les affecter à des profils de produit (anciennement appelés configurations de produit), qui s’affichent sous la forme de groupes dans Brand Portal. Pour plus d’informations sur l’ajout d’utilisateurs dans , voir [Ajouter un utilisateur](brand-portal-adding-users.md#add-a-user) (suivez les étapes 4 à 7 de la procédure pour ajouter un utilisateur).
 
 ## Langues de Brand Portal {#brand-portal-language}
 
@@ -219,7 +232,7 @@ Pour modifier la langue :
 
    ![Modifier le profil](assets/EditBPProfile.png)
 
-1. Sur la page [!UICONTROL Paramètres Experience Cloud], sélectionnez une langue dans le menu déroulant [!UICONTROL Langue].
+1. Sur la page [!UICONTROL Paramètres &#x200B;], sélectionnez une langue dans le menu déroulant [!UICONTROL Langue].
 
 ## Notification de maintenance de Brand Portal {#brand-portal-maintenance-notification}
 

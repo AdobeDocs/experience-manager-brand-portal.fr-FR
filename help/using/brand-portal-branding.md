@@ -1,21 +1,31 @@
 ---
 title: Personnalisation du papier peint, de l’en-tête et des e-mails
-description: Les administrateurs de Brand Portal peuvent personnaliser de façon limitée l’interface s’affichant sur l’écran des utilisateurs. Vous pouvez choisir une image d’arrière-plan spécifique (papier peint) pour la page de connexion de Brand Portal. Vous pouvez également ajouter une image d’en-tête et personnaliser les e-mails de partage de ressources pour qu’ils correspondent à la marque du client.
+description: Les administrateurs de Brand Portal peuvent personnaliser de façon limitée l’interface s’affichant sur l’écran des utilisateurs. Vous pouvez choisir une image d’arrière-plan spécifique (papier peint) pour la page de connexion de Brand Portal. Vous pouvez également ajouter une image d’en-tête et personnaliser les e-mails de partage de ressources pour correspondre à la marque du client.
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 role: Admin
 exl-id: 9f5c2a6a-8844-4ca4-b0d9-8f50b6164219
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+TQID: https://experienceleague.adobe.com/hYCuP-z0l45Qc7ZXOjsgFptFF8QGhRp-62iDNFJ1x-o
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: cda65036-5305-4f01-89da-9b3506ae8c50
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: 761
 ht-degree: 77%
 
 ---
 
 # Personnalisation du papier peint, de l’en-tête et des e-mails {#customize-wallpaper-header-and-email-message}
 
-Les administrateurs de Brand Portal peuvent personnaliser de façon limitée l’interface s’affichant sur l’écran des utilisateurs. Vous pouvez choisir une image d’arrière-plan spécifique (papier peint) pour la page de connexion de Brand Portal. Vous pouvez également ajouter une image d’en-tête et personnaliser les e-mails de partage de ressources pour qu’ils correspondent à la marque du client.
+Les administrateurs de Brand Portal peuvent personnaliser de façon limitée l’interface s’affichant sur l’écran des utilisateurs. Vous pouvez choisir une image d’arrière-plan spécifique (papier peint) pour la page de connexion de Brand Portal. Vous pouvez également ajouter une image d’en-tête et personnaliser les e-mails de partage de ressources pour correspondre à la marque du client.
 
 ## Personnalisation du papier peint de l’écran de connexion {#customize-the-login-screen-wallpaper}
 
@@ -40,7 +50,7 @@ En l’absence d’image de papier peint de marque personnalisée, un papier pei
    Utilisez l’une des méthodes suivantes :
 
    * Pour télécharger une image de votre ordinateur, cliquez sur **[!UICONTROL Télécharger]**. Accédez à l’image requise et téléchargez-la.
-   * Pour utiliser une image Brand Portal existante, choisissez **[!UICONTROL Sélectionner une image existante]**. Sélectionnez une image à l’aide du sélecteur de ressource.
+   * Pour utiliser une image Brand Portal existante, cliquez sur **[!UICONTROL Sélectionner une image existante]**. Sélectionnez une image à l’aide du sélecteur de ressource.
 
    ![](assets/asset-picker.png)
 
@@ -82,7 +92,7 @@ L’en-tête apparaît sur différentes pages de Brand Portal une fois que vous
 
 1. Pour charger une image d’en-tête, cliquez sur l’icône **[!UICONTROL Choisir l’image]** et sélectionnez **[!UICONTROL Télécharger]**.
 
-   Pour utiliser une image Brand Portal existante, choisissez **[!UICONTROL Sélectionner une image existante]**.
+   Pour utiliser une image Brand Portal existante, choisissez **[!UICONTROL Sélectionner existante]**.
 
    ![](assets/choose_wallpaperimage-1.png)
 
@@ -97,14 +107,14 @@ Pour enregistrer les modifications, cliquez sur **[!UICONTROL Enregistrer]** dan
 
    ![](assets/configure_brandingheaderimageurl.png)
 
-1. Dans la barre d’outils supérieure, cliquez sur l’icône **[!UICONTROL Aperçu]** pour générer un aperçu de l’interface Brand Portal avec l’image d’en-tête.
+1. Dans la barre d’outils supérieure, cliquez sur l’icône **[!UICONTROL Aperçu]** pour générer un aperçu de l’interface de Brand Portal avec l’image d’en-tête.
 
    ![](assets/chlimage_1-3.png)
    ![](assets/custom_header_preview.png)
 
 1. Pour activer ou désactiver l’image d’en-tête, effectuez les opérations suivantes sur la page **[!UICONTROL Configurer la valorisation de la marque > Image d’en-tête]** :
 
-   * Pour empêcher une image d’en-tête d’apparaître sur les pages Brand Portal, cliquez sur **[!UICONTROL Désactiver l’en-tête]** dans la barre d’outils supérieure. Un message confirme la désactivation de l’image.
+   * Pour empêcher l’affichage d’une image d’en-tête sur les pages Brand Portal, cliquez sur **[!UICONTROL Désactiver l’en-tête]** dans la barre d’outils supérieure. Un message confirme la désactivation de l’image.
 
    ![](assets/chlimage_1-4.png)
 
@@ -116,7 +126,7 @@ Pour enregistrer les modifications, cliquez sur **[!UICONTROL Enregistrer]** dan
 
 ## Personnalisation des e-mails {#customize-the-email-messaging}
 
-Lorsque des ressources sont partagées en tant que lien, les utilisateurs reçoivent un courrier électronique contenant le lien. Les administrateurs peuvent personnaliser les messages, c’est-à-dire le logo, la description et le pied de page de ces e-mails.
+Lorsque des ressources sont partagées sous la forme d’un lien, les utilisateurs reçoivent un e-mail contenant le lien. Les administrateurs peuvent personnaliser les messages, c’est-à-dire le logo, la description et le pied de page de ces e-mails.
 
 1. Dans la barre d’outils supérieure, cliquez sur le logo Experience Manager pour accéder aux outils d’administration.
 
@@ -126,7 +136,7 @@ Lorsque des ressources sont partagées en tant que lien, les utilisateurs reçoi
 
    ![](assets/admin-tools-panel-12.png)
 
-1. Lorsque des ressources sont partagées en tant que liens ou téléchargées par courrier électronique, et que des **[!UICONTROL collections]** sont partagées, des notifications par courrier électronique sont envoyées aux utilisateurs. Pour personnaliser l’e-mail, dans la page **[!UICONTROL Configurer la valorisation de la marque]**, sélectionnez **[!UICONTROL Message électronique]** dans le rail gauche.
+1. Lorsque des ressources sont partagées sous forme de liens ou téléchargées par e-mail, et lorsque des **[!UICONTROL collections]** sont partagées, des notifications par e-mail sont envoyées aux utilisateurs. Pour personnaliser l’e-mail, dans la page **[!UICONTROL Configurer la valorisation de la marque]**, sélectionnez **[!UICONTROL Message électronique]** dans le rail gauche.
 
    ![](assets/configure-branding-page-email.png)
 
