@@ -8,9 +8,13 @@ content-type: reference
 role: Admin
 exl-id: 86c31891-0627-41ca-b571-8dac3a074d55
 TQID: https://experienceleague.adobe.com/3ZH-bkACyy-0XGHZu4uxJCXGgAKCoD4JmcCd1vBBxLA
-product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
 source-wordcount: 904
@@ -73,7 +77,7 @@ Pour plus d’informations sur le partage de lien, voir [Partage de ressources e
 
 ## Ressources sous licence {#licensed-assets}
 
-Les ressources sous licence sont sujettes à l’acceptation d’un accord de licence avant leur téléchargement à partir de Brand Portal. Ce contrat pour les ressources sous licence est conclu lorsque vous téléchargez directement la ressource à partir de Brand Portal ou au moyen d’un lien partagé. Qu’elles aient expiré ou non, tous les utilisateurs peuvent afficher les ressources protégées par une licence. Toutefois, le téléchargement et l’utilisation des ressources sous licence expirées sont limités. Pour en savoir plus sur le comportement des ressources sous licence expirées et sur les activités autorisées basées sur les rôles utilisateur, reportez-vous à la section [ Autorisations d’utilisation des ressources expirées ](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
+Les ressources sous licence sont sujettes à l’acceptation d’un accord de licence avant leur téléchargement à partir de Brand Portal. Ce contrat pour les ressources sous licence est conclu lorsque vous téléchargez directement la ressource à partir de Brand Portal ou au moyen d’un lien partagé. Qu’elles aient expiré ou non, tous les utilisateurs peuvent afficher les ressources protégées par une licence. Toutefois, le téléchargement et l’utilisation des ressources sous licence expirées sont limités. Pour en savoir plus sur le comportement des ressources sous licence expirées et sur les activités autorisées basées sur les rôles utilisateur, reportez-vous à la section [&#x200B; Autorisations d’utilisation des ressources expirées &#x200B;](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
 
 Les ressources protégées par une licence sont accompagnées d’un [contrat de licence](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm), ce qui est fait en définissant la propriété des métadonnées de la ressource dans [!DNL Experience Manager Assets].
 
@@ -106,4 +110,4 @@ Les administrateurs peuvent générer et télécharger un rapport répertoriant 
 
 ![](assets/assets-expired.png)
 
-Pour plus d’informations sur la fonctionnalité des rapports, voir [ Utilisation des rapports ](../using/brand-portal-reports.md#work-with-reports).
+Pour plus d’informations sur la fonctionnalité des rapports, voir [&#x200B; Utilisation des rapports &#x200B;](../using/brand-portal-reports.md#work-with-reports).
