@@ -24,7 +24,7 @@ ht-degree: 34%
 
 Découvrez comment publier des balises à partir d’Experience Manager Assets sur Brand Portal.
 
-Les balises sont utiles pour organiser les ressources et améliorer la capacité de recherche des ressources auxquelles elles sont associées. Les balises peuvent être considérées comme des mots-clés ou des libellés (métadonnées) associés à des ressources et permettant de trouver rapidement des ressources à l’issue d’une recherche. Pour savoir comment affecter des balises à des ressources dans Experience Manager Assets, reportez-vous à [Utilisation des balises pour organiser les ressources](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/organize-assets).
+Les balises sont utiles pour organiser les ressources et améliorer la capacité de recherche des ressources auxquelles elles sont associées. Les balises peuvent être considérées comme des mots-clés ou des libellés (métadonnées) associés à des ressources et permettant de trouver rapidement des ressources à l’issue d’une recherche. Pour savoir comment affecter des balises à des ressources dans Experience Manager Assets, reportez-vous à [Utilisation des balises pour organiser les ressources](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/managing/organize-assets).
 
 Les balises (liées aux ressources et aux collections dans AEM) sont automatiquement publiées sur Brand Portal quand les ressources (et les collections) associées à des balises sont publiées sur Brand Portal. Les balises publiées sont utiles pour retrouver les ressources associées.
 
@@ -53,7 +53,7 @@ Connectez-vous à une instance d’auteur AEM avec les droits d’administrateur
    * **[!UICONTROL Titre]**
      *(obligatoire)* Titre affiché pour la balise.
    * **[!UICONTROL Name]**
-     *(obligatoire)* Nom de la balise. Si aucun nom n’est spécifié, un nom de nœud valide est créé à partir du titre. Voir [ID de balise](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/tagging/framework).
+     *(obligatoire)* Nom de la balise. Si aucun nom n’est spécifié, un nom de nœud valide est créé à partir du titre. Voir [ID de balise](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/developing/platform/tagging/framework).
    * **Description**
      *(facultative)* Description de la balise.
    * **Chemin de la balise**
@@ -69,7 +69,7 @@ Chemin JCR de la balise.
 
 1. **Joignez la balise à une ressource (ou collection)**.
 
-   Sélectionnez une ressource (ou une collection) et joignez la balise de votre choix à l’aide de la section Propriétés ou Gérer les balises de cette ressource. Pour en savoir plus sur l’attribution de balises à des ressources dans AEM Assets, accédez à [Utilisation des balises pour organiser les ressources](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/organize-assets).
+   Sélectionnez une ressource (ou une collection) et joignez la balise de votre choix à l’aide de la section Propriétés ou Gérer les balises de cette ressource. Pour en savoir plus sur l’attribution de balises à des ressources dans AEM Assets, accédez à [Utilisation des balises pour organiser les ressources](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/managing/organize-assets).
 
 1. **Publiez les ressources (ou les collections) sur Brand Portal**.\
    Quand vous publiez une ressource (ou collection) sur Brand Portal, la balise jointe est également disponible sur Brand Portal.
