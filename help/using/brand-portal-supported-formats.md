@@ -5,10 +5,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 exl-id: fa5d87a8-dc45-4c8a-8a96-ac7ec793952b
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+TQID: https://experienceleague.adobe.com/WM9-KLF7eGOn0yWToGC6GWNIbZrrXJ1DrCs4BuheKCM
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 90%
+source-wordcount: 315
+ht-degree: 80%
 
 ---
 
@@ -23,58 +27,58 @@ Chaque portail Experience Manager Assets Brand Portal prend en charge des forma
 | Tiff | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
 | JPEG | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | BMP | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
-| PNM* | ✓ | N/A | ✓ | N/A | N/A | ✓ | N/A | N/A |
-| PGM* | ✓ | N/A | ✓ | N/A | N/A | ✓ | N/A | N/A |
-| PBM* | ✓ | N/A | ✓ | N/A | N/A | ✓ | N/A | N/A |
-| PPM* | ✓ | N/A | ✓ | N/A | N/A | ✓ | N/A | N/A |
+| PNM* | ✓ | S/O | ✓ | N/A | N/A | ✓ | N/A | N/A |
+| PGM* | ✓ | S/O | ✓ | N/A | N/A | ✓ | N/A | N/A |
+| PBM* | ✓ | S/O | ✓ | N/A | N/A | ✓ | N/A | N/A |
+| PPM* | ✓ | S/O | ✓ | N/A | N/A | ✓ | N/A | N/A |
 | PSD | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
-| EPS | ✓ | N/A | ✓ | N/A | N/A | ✓ | N/A | ✕ |
+| EPS | ✓ | S/O | ✓ | N/A | N/A | ✓ | S/O | ✕ |
 | DNG | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
 | PICT | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
 | PSB* | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
 | JPG | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | AI | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
-| DOC | ✓ | N/A | ✓ | N/A | N/A | ✓ | ✕ | ✕ |
-| DOCX | ✓ | N/A | ✓ | N/A | N/A | ✓ | ✕ | ✕ |
-| ODT* | ✓ | N/A | ✓ | N/A | N/A | ✓ | ✕ | ✕ |
+| DOC | ✓ | S/O | ✓ | N/A | N/A | ✓ | ✕ | ✕ |
+| DOCX | ✓ | S/O | ✓ | N/A | N/A | ✓ | ✕ | ✕ |
+| ODT* | ✓ | S/O | ✓ | N/A | N/A | ✓ | ✕ | ✕ |
 | PDF | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
-| HTML | ✓ | N/A | ✓ | N/A | N/A | ✓ | ✕ | ✕ |
-| RTF | ✓ | N/A | ✓ | N/A | N/A | ✓ | ✕ | ✕ |
+| HTML | ✓ | S/O | ✓ | N/A | N/A | ✓ | ✕ | ✕ |
+| RTF | ✓ | S/O | ✓ | N/A | N/A | ✓ | ✕ | ✕ |
 | TXT | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
-| XLS | ✓ | N/A | ✓ | N/A | N/A | ✓ | ✕ | ✕ |
-| XLSX | ✓ | N/A | ✓ | N/A | N/A | ✓ | ✕ | ✕ |
-| ODS | ✓ | N/A | ✓ | N/A | N/A | ✓ | ✕ | ✕ |
+| XLS | ✓ | S/O | ✓ | N/A | N/A | ✓ | ✕ | ✕ |
+| XLSX | ✓ | S/O | ✓ | N/A | N/A | ✓ | ✕ | ✕ |
+| ODS | ✓ | S/O | ✓ | N/A | N/A | ✓ | ✕ | ✕ |
 | PPT | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
-| PPTX | ✓ | N/A | ✓ | N/A | N/A | ✓ | ✕ | ✕ |
-| ODP | ✓ | N/A | ✓ | N/A | N/A | ✓ | ✕ | ✕ |
+| PPTX | ✓ | S/O | ✓ | N/A | N/A | ✓ | ✕ | ✕ |
+| ODP | ✓ | S/O | ✓ | N/A | N/A | ✓ | ✕ | ✕ |
 | INDD | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
-| PS | ✓ | N/A | ✓ | N/A | N/A | ✓ | ✕ | ✕ |
-| QXP | ✓ | N/A | ✓ | N/A | N/A | ✓ | ✕ | ✕ |
+| PS | ✓ | S/O | ✓ | N/A | N/A | ✓ | ✕ | ✕ |
+| QXP | ✓ | S/O | ✓ | N/A | N/A | ✓ | ✕ | ✕ |
 | EPUB | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
-| AAC | ✓ | N/A | ✓ | N/A | N/A | ✓ | ✕ | ✕ |
-| MIDI | ✓ | N/A | ✓ | N/A | N/A | ✓ | ✕ | ✕ |
-| 3GP | ✓ | N/A | ✓ | N/A | N/A | ✓ | ✕ | ✕ |
-| MP3 | ✓ | N/A | ✓ | N/A | ✕ | ✓ | ✕ | ✕ |
-| MP4 | ✓ | N/A | ✓ | N/A | ✓ | ✓ | ✕ | ✕ |
-| MPG | ✓ | N/A | ✓ | N/A | N/A | ✓ | ✕ | ✕ |
-| OGA | ✓ | N/A | ✓ | N/A | ✕ | ✓ | ✕ | ✕ |
-| OGG | ✓ | N/A | ✓ | N/A | ✓ | ✓ | ✕ | ✕ |
-| RA | ✓ | N/A | ✓ | N/A | N/A | ✓ | ✕ | ✕ |
-| WAV | ✓ | N/A | ✓ | N/A | N/A | ✓ | ✕ | ✕ |
-| WMA | ✓ | N/A | ✓ | N/A | N/A | ✓ | ✕ | ✕ |
-| DVI | ✓ | N/A | ✓ | N/A | N/A | ✓ | ✕ | ✕ |
-| FLV | ✓ | N/A | ✓ | N/A | N/A | ✓ | ✕ | ✕ |
-| M4V | ✓ | N/A | ✓ | N/A | ✕ | ✓ | ✕ | ✕ |
-| MPG | ✓ | N/A | ✓ | N/A | N/A | ✓ | ✕ | ✕ |
-| OGV | ✓ | N/A | ✓ | N/A | ✓ | ✓ | ✕ | ✕ |
-| MOV | ✓ | N/A | ✓ | N/A | N/A | ✓ | ✕ | ✕ |
-| WMV | ✓ | N/A | ✓ | N/A | ✕ | ✓ | ✕ | ✕ |
-| SWF | ✓ | N/A | ✓ | N/A | ✓ | ✓ | ✕ | ✕ |
-| TGZ | ✓ | N/A | ✓ | N/A | N/A | ✓ | N/A | ✕ |
-| JAR | ✓ | ✓ | ✓ | ✓ | N/A | ✓ | ✓ | ✕ |
-| RAR | ✓ | N/A | ✓ | N/A | N/A | ✓ | N/A | ✕ |
-| TAR | ✓ | N/A | ✓ | N/A | N/A | ✓ | N/A | ✕ |
-| Zip | ✓ | ✓ | ✓ | ✓ | N/A | ✓ | ✓ | ✕ |
+| AAC | ✓ | S/O | ✓ | N/A | N/A | ✓ | ✕ | ✕ |
+| MIDI | ✓ | S/O | ✓ | N/A | N/A | ✓ | ✕ | ✕ |
+| 3GP | ✓ | S/O | ✓ | N/A | N/A | ✓ | ✕ | ✕ |
+| MP3 | ✓ | S/O | ✓ | S/O | ✕ | ✓ | ✕ | ✕ |
+| MP4 | ✓ | S/O | ✓ | S/O | ✓ | ✓ | ✕ | ✕ |
+| MPG | ✓ | S/O | ✓ | N/A | N/A | ✓ | ✕ | ✕ |
+| OGA | ✓ | S/O | ✓ | S/O | ✕ | ✓ | ✕ | ✕ |
+| OGG | ✓ | S/O | ✓ | S/O | ✓ | ✓ | ✕ | ✕ |
+| RA | ✓ | S/O | ✓ | N/A | N/A | ✓ | ✕ | ✕ |
+| WAV | ✓ | S/O | ✓ | N/A | N/A | ✓ | ✕ | ✕ |
+| WMA | ✓ | S/O | ✓ | N/A | N/A | ✓ | ✕ | ✕ |
+| DVI | ✓ | S/O | ✓ | N/A | N/A | ✓ | ✕ | ✕ |
+| FLV | ✓ | S/O | ✓ | N/A | N/A | ✓ | ✕ | ✕ |
+| M4V | ✓ | S/O | ✓ | S/O | ✕ | ✓ | ✕ | ✕ |
+| MPG | ✓ | S/O | ✓ | N/A | N/A | ✓ | ✕ | ✕ |
+| OGV | ✓ | S/O | ✓ | S/O | ✓ | ✓ | ✕ | ✕ |
+| MOV | ✓ | S/O | ✓ | N/A | N/A | ✓ | ✕ | ✕ |
+| WMV | ✓ | S/O | ✓ | S/O | ✕ | ✓ | ✕ | ✕ |
+| SWF | ✓ | S/O | ✓ | S/O | ✓ | ✓ | ✕ | ✕ |
+| TGZ | ✓ | S/O | ✓ | N/A | N/A | ✓ | S/O | ✕ |
+| JAR | ✓ | ✓ | ✓ | ✓ | S/O | ✓ | ✓ | ✕ |
+| RAR | ✓ | S/O | ✓ | N/A | N/A | ✓ | S/O | ✕ |
+| TAR | ✓ | S/O | ✓ | N/A | N/A | ✓ | S/O | ✕ |
+| Zip | ✓ | ✓ | ✓ | ✓ | S/O | ✓ | ✓ | ✕ |
 
 La légende suivante explique les symboles utilisés dans la matrice :
 
@@ -83,4 +87,4 @@ La légende suivante explique les symboles utilisés dans la matrice :
 | ✓ | Ce format de fichier prend en charge cette fonctionnalité. |
 | ✕ | Ce format de fichier ne prend pas en charge cette fonctionnalité. |
 | S/O | Cette fonctionnalité ne s’applique pas à ce format de fichier. |
-| * | Cette fonctionnalité nécessite la prise en charge d’un module complémentaire pour ce format de fichier sur l’instance d’auteur AEM, mais pas sur Brand Portal une fois les ressources publiées dans Brand Portal. |
+| * | Cette fonctionnalité nécessite la prise en charge de modules complémentaires pour ce format de fichier sur l’instance d’auteur AEM, mais pas sur Brand Portal une fois les ressources publiées sur Brand Portal. |

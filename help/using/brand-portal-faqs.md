@@ -7,10 +7,15 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
-workflow-type: ht
-source-wordcount: '1500'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/7CFDihMZL-A0aWNO37Gf4C-3l4YwqHd39lnl-PSI6NA
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+workflow-type: tm+mt
+source-wordcount: 1513
+ht-degree: 97%
 
 ---
 
@@ -25,27 +30,27 @@ Les questions fréquentes relatives à Brand Portal sont axées sur les questi
 
 **Réponse :** la configuration OAuth héritée est obsolète. Mettez à niveau les instances de création Experience Manager Assets vers le dernier pack de services et configurez-les à l’aide d’Adobe Developer Console. Voir [Configuration d’Experience Manager Assets avec Brand Portal](configure-aem-assets-with-brand-portal.md) pour plus de détails. Toutefois, pour que la configuration OAuth héritée fonctionne jusqu’à la mise à niveau, mettez à jour le point d’entrée OAuth hérité vers `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
 
-**Question : je ne peux pas publier les ressources du dossier de contribution depuis Brand Portal vers Experience Manager Assets après la mise à niveau vers Adobe Developer Console. Mon instance de création se trouve sur Experience Manager Assets 6.5.4. Quelle peut en être la raison ?**
+**Question : je ne peux pas publier les ressources du dossier de contribution depuis Brand Portal vers Experience Manager Assets après la mise à niveau vers Adobe Developer Console. Mon instance d’auteur se trouve sur Experience Manager Assets 6.5.4. Quelle pourrait en être la raison ?**
 
 **Réponse :** oui, un problème connu se produit lors de la publication des ressources du dossier de contribution dans Experience Manager Assets 6.5.4 via Adobe Developer Console.
 
-Le problème a été corrigé dans la version 6.5.5 d’Experience Manager Assets. Vous pouvez mettre à niveau votre instance Experience Manager Assets vers le pack de services le plus récent et [mettre à niveau vos configurations](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) sur Adobe Developer Console.
+Le problème a été corrigé dans la version 6.5.5 de Experience Manager Assets. Vous pouvez mettre à niveau votre instance Experience Manager Assets vers le dernier Service Pack et [mettre à niveau vos configurations](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) sur Adobe Developer Console.
 
 
 **Question : je ne vois pas le contenu du dossier de contribution publié sur Experience Manager Assets à partir de Brand Portal. Quelle pourrait en être la raison ?**
 
 **Réponse :** contactez votre administrateur ou administratrice Experience Manager Assets pour vérifier les configurations et vous assurer que votre client ou cliente Brand Portal a une configuration avec une seule instance de création Experience Manager Assets.
 
-Ce problème peut se produire lorsque vous avez configuré un client ou une cliente Brand Portal sur plusieurs instances de création Experience Manager Assets. Par exemple, l’administrateur ou l’administratrice configure le même client ou la même cliente Brand Portal sur l’instance de création Experience Manager Assets dans une environnement d’évaluation et de production. Dans ce cas, la publication de ressource se déclenche dans Brand Portal, mais l’instance de création Experience Manager Assets n’a pas pu importer la ressource, car l’agent de réplication ne reçoit pas le jeton de demande.
+Ce problème peut se produire lorsque vous avez configuré un client Brand Portal sur plusieurs instances de création Experience Manager Assets. Par exemple, l’administrateur ou l’administratrice configure le même client ou la même cliente Brand Portal sur l’instance de création Experience Manager Assets dans un environnement d’évaluation et de production. Dans ce cas, la publication de ressource se déclenche dans Brand Portal, mais l’instance de création Experience Manager Assets n’a pas pu importer la ressource, car l’agent de réplication ne reçoit pas le jeton de demande.
 
 
 **Question : je ne parviens pas à publier des ressources sur Brand Portal à partir d’Experience Manager Assets. Le journal de réplication indique que la connexion a expiré. Y a-t-il une solution rapide ?**
 
-**Réponse :** en règle générale, la publication échoue avec une erreur de délai d’expiration si plusieurs requêtes en attente se trouvent dans la file d’attente de réplication. Pour résoudre ce problème, assurez-vous que les agents de réplication sont configurés pour éviter l’expiration.
+**Réponse :** en règle générale, la publication échoue avec une erreur de délai d’expiration si plusieurs requêtes en attente se trouvent dans la file d’attente de réplication. Pour résoudre ce problème, assurez-vous que les agents de réplication sont configurés pour éviter la temporisation
 
 Effectuez les étapes suivantes pour configurer l’agent de réplication :
 
-1. Connectez-vous à votre instance d’auteur Experience Manager Assets.
+1. Connectez-vous à votre instance de création Experience Manager Assets.
 1. Dans le panneau **Outils**, accédez à **[!UICONTROL Déploiement]** > **[!UICONTROL Réplication]**.
 1. Sur la page Réplication, cliquez sur **[!UICONTROL `Agents on author`]**. Vous voyez les quatre agents de réplication pour votre client Brand Portal.
 1. Cliquez sur l’URL de l’agent de réplication pour ouvrir les détails le concernant.
@@ -56,7 +61,7 @@ Effectuez les étapes suivantes pour configurer l’agent de réplication :
 1. Redémarrez le serveur et vérifiez la connexion.
 
 
-## FAQ de Brand Portal 6.4.5  {#faqs-bp645}
+## FAQ de Brand Portal 6.4.5 {#faqs-bp645}
 
 **Question : quel changement majeur intervient dans la version 6.4.5 de Brand Portal ?**
 

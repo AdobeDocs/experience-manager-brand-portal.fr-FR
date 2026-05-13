@@ -6,16 +6,19 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
-source-git-commit: 10f89ded6febb1a024cbe181fa48a290d90223f0
+TQID: https://experienceleague.adobe.com/u5hGJpkNkUSrnC50ydHo4iERbyBn9uu4FItvZa-N34M
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: 1469
 ht-degree: 73%
 
 ---
 
 # Publication du dossier de contribution sur Experience Manager Assets {#using-asset-souring-in-bp}
 
-Les utilisateurs de Brand Portal qui disposent des autorisations adéquates peuvent charger plusieurs ressources ou dossiers contenant plusieurs ressources vers le dossier de contribution. Notez toutefois que les utilisateurs de Brand Portal peuvent charger des ressources uniquement vers le dossier **NEW**. Le dossier **SHARED** est destiné à la distribution des ressources de base (contenu de référence) utilisées par les utilisateurs de Brand Portal lors de la création de ressources à des fins de contribution.
+Les utilisateurs de Brand Portal qui disposent des autorisations adéquates peuvent charger plusieurs ressources ou dossiers contenant plusieurs ressources vers le dossier de contribution. Notez toutefois que les utilisateurs de Brand Portal peuvent charger des ressources uniquement vers le dossier **NEW**. Le dossier **SHARED** est destiné à la distribution de ressources de base (contenu de référence) qui sont utilisées par les utilisateurs de Brand Portal lors de la création de ressources pour la contribution.
 
 L’utilisateur de Brand Portal autorisé à accéder au dossier de contribution peut effectuer les activités suivantes :
 
@@ -25,12 +28,12 @@ L’utilisateur de Brand Portal autorisé à accéder au dossier de contributio
 
 ## Téléchargement des exigences en matière de ressources {#download-asset-requirements}
 
-Les utilisateurs de Brand Portal reçoivent automatiquement des notifications Push et par courrier électronique lorsqu’un utilisateur de Experience Manager Assets partage un dossier de contribution. Ce workflow leur permet de télécharger le document de résumé (exigences en matière de ressources) et les ressources de base (contenu de référence) à partir du dossier **SHARED** pour comprendre les exigences en matière de ressources.
+Les utilisateurs de Brand Portal reçoivent automatiquement des notifications Push et par e-mail lorsqu’un utilisateur de Experience Manager Assets partage un dossier de contribution. Ce workflow leur permet de télécharger le document de résumé (exigences en matière de ressources) et les ressources de base (contenu de référence) à partir du dossier **SHARED** pour comprendre les exigences en matière de ressources.
 
 L’utilisateur de Brand Portal effectue les activités suivantes pour télécharger les exigences en matière de ressources :
 
-* **Télécharger le résumé** - Téléchargez le résumé (document sur les exigences en matière de ressources) joint au dossier de contribution. Il contient des informations relatives aux ressources, telles que le type de ressources, l’objectif, les formats pris en charge, la taille maximale des ressources, etc.
-* **Télécharger des ressources de base** - Téléchargez des ressources de base, qui peuvent être utilisées pour comprendre les types de ressources requis. Les utilisateurs de Brand Portal peuvent utiliser ces ressources comme référence afin de créer des ressources à des fins de contribution.
+* **Télécharger le résumé** - Téléchargez le résumé (document des exigences en matière de ressources) joint au dossier de contribution. Il contient des informations sur les ressources, telles que le type de ressources, l’objectif, les formats pris en charge, la taille maximale de la ressource, etc.
+* **Télécharger des ressources de base** - Téléchargez les ressources de base, qui peuvent être utilisées pour comprendre les types de ressources requis. Les utilisateurs de Brand Portal peuvent utiliser ces ressources comme référence afin de créer des ressources à des fins de contribution.
 
 Le tableau de bord de Brand Portal répertorie tous les dossiers existants auxquels l’utilisateur de Brand Portal est autorisé à accéder, ainsi que le dossier de contribution nouvellement partagé. Dans cet exemple, l’utilisateur de Brand Portal n’a accès qu’au dossier de contribution nouvellement créé. Aucun autre dossier existant n’est partagé avec l’utilisateur.
 
@@ -57,23 +60,23 @@ Vous pouvez également ouvrir le dossier **[!UICONTROL SHARED]** et cliquer sur 
 
    ![](assets/download-asset-requirement5.png)
 
-Passez en revue le résumé (document sur les exigences en matière de ressources) et reportez-vous aux ressources de base pour comprendre les exigences en matière de ressources. Vous pouvez désormais créer des ressources à des fins de contribution et les charger dans le dossier de contribution.
+Passez en revue le résumé (document sur les exigences en matière de ressources) et reportez-vous aux ressources de base pour comprendre les exigences en matière de ressources. Vous pouvez maintenant créer de nouvelles ressources pour la contribution et les charger dans le dossier de contribution.
 
-## Chargement de ressources dans le dossier de contribution {#upload-new-assets-to-contribution-folder}
+## Charger des ressources dans le dossier de contribution {#upload-new-assets-to-contribution-folder}
 
 Après avoir passé en revue les exigences relatives aux ressources, les utilisateurs de Brand Portal peuvent créer des ressources pour la contribution et les charger dans le dossier NEW du dossier de contribution. Un utilisateur peut charger plusieurs ressources dans un dossier de contribution. Cependant, un seul dossier peut être créé à la fois.
 
 >[!NOTE]
 >
->Les utilisateurs de Brand Portal peuvent charger des ressources (jusqu’à deux gigaoctets par taille de fichier) dans le dossier NEW .
+>Les utilisateurs de Brand Portal peuvent charger des ressources (un maximum de deux gigaoctets par taille de fichier) dans le dossier NEW.
 >
->La limite de chargement maximale pour tout client Brand Portal est de dix gigaoctets, qui est appliquée de manière cumulative à tous les dossiers de contribution.
+>La limite maximale de chargement pour tout client Brand Portal est de dix gigaoctets, ce qui est appliqué de manière cumulative à tous les dossiers de contribution.
 >
->Les ressources chargées dans Brand Portal ne sont pas traitées pour les rendus et ne contiennent pas d’aperçus.
+>Les ressources chargées vers Brand Portal ne sont pas traitées pour les rendus et ne contiennent pas d’aperçus.
 
 >[!NOTE]
 >
->Adobe vous recommande de libérer l’espace de chargement après avoir publié le dossier de contribution dans Experience Manager Assets afin qu’il soit disponible pour les autres utilisateurs Brand Portal à des fins de contribution.
+>Adobe recommande de libérer l’espace de chargement après la publication du dossier de contribution dans Experience Manager Assets afin qu’il soit disponible pour les autres utilisateurs de Brand Portal.
 >
 >S’il est nécessaire d’étendre la limite de chargement de votre client Brand Portal au-delà de **10** Go, contactez le service clientèle en spécifiant la limite requise.
 
@@ -102,11 +105,11 @@ Après avoir chargé tous les fichiers ou dossiers dans le dossier NEW, publiez 
 
 ## Publication du dossier de contribution sur Experience Manager Assets {#publish-contribution-folder-to-aem}
 
-Les utilisateurs de Brand Portal peuvent publier le dossier de contribution sur Experience Manager Assets sans avoir besoin d’accéder à l’instance d’auteur Experience Manager Assets.
+Les utilisateurs de Brand Portal peuvent publier le dossier de contribution sur Experience Manager Assets sans avoir besoin d’accéder à l’instance de création Experience Manager Assets.
 
-Vérifiez que vous avez respecté les exigences en matière de ressources et chargez les ressources nouvellement créées dans le dossier **NEW** du dossier de contribution.
+Assurez-vous d’avoir satisfait aux exigences en matière de ressources et chargez les ressources nouvellement créées dans le dossier **NEW** du dossier de contribution.
 
-**Pour publier un dossier de contribution :**
+**Pour publier un dossier de contribution, procédez comme suit**
 
 1. Connectez-vous à votre instance Brand Portal.
 
@@ -123,15 +126,15 @@ Une notification Pulse/par e-mail est envoyée à l’utilisateur et aux adminis
 
 1. **Terminé** : une notification est envoyée à l’utilisateur et aux administrateurs de Brand Portal lorsque le dossier de contribution est publié dans Experience Manager Assets.
 
-Après avoir publié les ressources nouvellement créées dans Experience Manager Assets, les utilisateurs de Brand Portal peuvent les supprimer du dossier NEW. Toutefois, l’administrateur Brand Portal peut supprimer les ressources des dossiers NEW et SHARED .
+Après avoir publié les ressources nouvellement créées dans Experience Manager Assets, les utilisateurs de Brand Portal peuvent les supprimer du dossier NEW. Cependant, l’administrateur Brand Portal peut supprimer les ressources des dossiers NEW et SHARED .
 
 Une fois l’objectif de création du dossier de contribution atteint, l’administrateur de Brand Portal peut le supprimer afin de libérer l’espace de chargement pour d’autres utilisateurs.
 
-## État de la tâche de publication {#publishing-job-status}
+## Statut de la tâche de publication {#publishing-job-status}
 
-Les administrateurs peuvent utiliser deux rapports pour afficher l’état des dossiers de contribution de ressources publiés de Brand Portal vers Experience Manager Assets.
+Les administrateurs peuvent utiliser deux rapports pour afficher l’état des dossiers de contribution des ressources publiés de Brand Portal vers Experience Manager Assets.
 
-* Dans le Brand Portal, accédez à **[!UICONTROL Outils]** > **[!UICONTROL État de contribution des ressources]**. Ce rapport reflète l’état de toutes les tâches de publication à différentes étapes du processus de publication.
+* Dans le Brand Portal, accédez à **[!UICONTROL Outils]** > **[!UICONTROL État de contribution des ressources]**. Ce rapport reflète le statut de toutes les tâches de publication à différentes étapes du processus de publication.
 
   ![](assets/contribution-folder-status-v2.png)
 
@@ -166,14 +169,14 @@ Brand Portal exécute désormais des tâches automatiques toutes les douze heure
 
   ![Rapport de suppression](assets/deletion-reports.png)
 
-Vous pouvez également approfondir l’analyse pour afficher les détails de chaque ressource incluse dans une tâche de suppression. Des détails tels que le titre, la taille, l’auteur, le statut de suppression et la durée de suppression de la ressource sont inclus dans le rapport.
+Vous pouvez également afficher plus de détails sur chaque ressource incluse dans un traitement de suppression. Des détails tels que le titre, la taille, l’auteur, le statut de suppression et la durée de suppression de la ressource sont inclus dans le rapport.
 
 ![Rapport de suppression détaillé](assets/deletion-reports-detailed.png)
 
 >[!NOTE]
 >
 > * Les clients peuvent demander au service clientèle d’Adobe de désactiver et de réactiver la fonctionnalité de suppression automatique ou de modifier la fréquence d’exécution de celle-ci.
-> * Cette fonctionnalité est disponible avec Experience Manager 6.5.13.0 et versions ultérieures.
+> * Cette fonctionnalité est disponible avec Experience Manager 6.5.13.0 et les versions ultérieures.
 
 ### Afficher et télécharger des rapports de suppression {#view-delete-jobs}
 
@@ -197,7 +200,7 @@ Pour afficher et télécharger des rapports pour une tâche de suppression :
 
 ### Supprimer un rapport
 
-Brand Portal vous permet également de sélectionner un ou plusieurs rapports et de les supprimer manuellement.
+Brand Portal permet également de sélectionner un ou plusieurs rapports et de les supprimer manuellement.
 
 Pour supprimer un rapport :
 

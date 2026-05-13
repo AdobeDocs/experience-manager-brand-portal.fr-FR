@@ -1,15 +1,20 @@
 ---
 title: Partage d’une collection
-description: Découvrez comment les administrateurs Brand Portal de Experience Manager Assets peuvent partager et annuler le partage d’une collection ou d’une collection dynamique avec des utilisateurs autorisés. Les éditeurs peuvent uniquement visualiser et partager les collections créées par eux et partagées avec eux, ainsi que les collections publiques.
+description: Découvrez comment les administrateurs et administratrices de Experience Manager Assets Brand Portal peuvent partager et annuler le partage d’une collection ou d’une collection dynamique avec des utilisateurs et utilisatrices autorisés. Les éditeurs peuvent uniquement visualiser et partager les collections créées par eux et partagées avec eux, ainsi que les collections publiques.
 contentOwner: Vishabh Gupta
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: 29b877f6-4200-4299-9b8d-81d88f4e8221
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+TQID: https://experienceleague.adobe.com/JDFqy51bnJFV-WNbr9gA61jykF-DJXl90SF1Xn-WGJI
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 77%
+source-wordcount: 689
+ht-degree: 75%
 
 ---
 
@@ -19,17 +24,17 @@ Une collection représente un groupe de ressources connexes stockées ensemble d
 
 <!--The administrators can share and unshare a collection with the authorized Brand Portal users. Editors and viewers can view and share the collections created by them, shared with them, and public collections.-->
 
-Les collections sont partagées en tant que lien par courrier électronique. Toute personne ayant accès au lien de partage peut ouvrir la collection. Cependant, les emails partagés peuvent être transférés à n&#39;importe qui. En outre, les [liens partagés](https://experienceleague.adobe.com/fr/docs/experience-manager-brand-portal/using/share/brand-portal-link-share) sont temporaires et accessibles pendant une durée limitée uniquement. Les utilisateurs et les utilisatrices peuvent également être invités en tant que membres permanents des collections. Il existe les types d’utilisateurs et d’utilisatrices suivants pour les collections :
+Les collections sont partagées sous forme de lien par le biais d’un e-mail. Toute personne ayant accès au lien de partage peut ouvrir la collection. Toutefois, les e-mails partagés peuvent être transférés à n’importe qui. En outre, les [liens partagés](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/share/brand-portal-link-share) sont temporaires et accessibles pendant une durée limitée uniquement. Les utilisateurs et les utilisatrices peuvent également être invités en tant que membres permanents des collections. Il existe les types d’utilisateurs et d’utilisatrices suivants pour les collections :
 
 * **Les administrateurs et les administratrices** peuvent partager et annuler le partage d’une collection avec les utilisateurs et les utilisatrices autorisés de Brand Portal. Ils peuvent inviter d’autres utilisateurs à rejoindre une collection spécifique et définir leur rôle dans cette collection. En outre, les administrateurs et administratrices peuvent créer des collections publiques.
 
 * Les **éditeurs et éditrices** sont autorisés à créer et partager des collections. Ils peuvent inviter d’autres utilisateurs à rejoindre une collection spécifique et définir leur rôle dans cette collection. En outre, les éditeurs et éditrices peuvent également partager des collections s’ils ont été invités à la collection en tant qu’éditeur, éditrice ou propriétaire.
 
-* Les **observateurs et observatrices** peuvent créer des collections privées uniquement. Ils ne peuvent pas partager une collection, même lorsqu’ils ont été invités en tant que propriétaires.
+* Les **observateurs et observatrices** peuvent créer des collections privées uniquement. Ils ne peuvent pas partager une collection même s’ils ont été invités en tant que propriétaires.
 
 >[!NOTE]
 >
->Les éditeurs ne peuvent pas modifier le statut d’une collection publique en non publique et, par conséquent, la case à cocher **[!UICONTROL Collection publique]** n’est pas disponible dans la boîte de dialogue **[!UICONTROL Paramètres de la collection]**.
+>Les éditeurs ne peuvent pas modifier une collection publique en collection non publique et ne disposent donc pas de la case à cocher **[!UICONTROL Collection publique]** disponible dans la boîte de dialogue **[!UICONTROL Paramètres de collection]**.
 
 ## Partage d’une collection {#share-collection}
 
@@ -51,7 +56,7 @@ Vous trouverez ci-dessous la procédure à suivre pour partager une collection a
 
 1. Dans la boîte de dialogue **[!UICONTROL Paramètres de la collection]**, sélectionnez les utilisateurs avec qui vous voulez partager la collection et choisissez le rôle d’utilisateur pour qu’il corresponde à leur rôle global. Par exemple, affectez le rôle Éditeur à un éditeur global ou le rôle Observateur à un observateur global.
 
-   Pour que la collection soit disponible pour tous les utilisateurs, quel que soit le groupe auquel ils appartiennent et leur rôle, vous pouvez également la rendre publique en activant la case à cocher **[!UICONTROL Collection publique]**.
+   Pour que la collection soit disponible pour l’ensemble des utilisateurs et utilisatrices, quel que soit le groupe auquel ils ou elles appartiennent et leur rôle, vous pouvez également la rendre publique en activant la case à cocher **[!UICONTROL Collection publique]**.
 
    >[!NOTE]
    >
@@ -59,7 +64,7 @@ Vous trouverez ci-dessous la procédure à suivre pour partager une collection a
 
    ![](assets/collection_sharingadduser.png)
 
-   Les éditeurs ne peuvent pas modifier une collection publique en collection non publique et, par conséquent, n’ont pas de case à cocher **[!UICONTROL Collection publique]** disponible dans la boîte de dialogue **[!UICONTROL Paramètres de la collection]**.
+   Les éditeurs ne peuvent pas modifier une collection publique en collection non publique et ne disposent donc pas d’une case à cocher **[!UICONTROL Collection publique]** disponible dans la boîte de dialogue **[!UICONTROL Paramètres de collection]**.
 
    ![](assets/collection-setting-editor.png)
 

@@ -6,10 +6,16 @@ topic-tags: download-install, download assets
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: 6194eb5697ef48c9693c00a7a51322ef4827cdc3
+TQID: https://experienceleague.adobe.com/4YwbUZ1PopjlrANgrvsKdf1EczcUTD2VR4PPyfRs1f4
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 69%
+source-wordcount: 1078
+ht-degree: 71%
 
 ---
 
@@ -93,13 +99,13 @@ Pour télécharger des ressources plus rapidement à partir de Brand Portal :
 
 1. Par défaut, le paramètre **[!UICONTROL Téléchargement rapide]** est activé dans les **[!UICONTROL Paramètres de téléchargement]**. Par conséquent, une zone de confirmation s’affiche pour télécharger des ressources à l’aide d’IBM® Aspera Connect.
 
-   Si vous avez téléchargé des ressources pour la première fois et qu’IBM® Aspera Connect n’est pas installé dans votre navigateur, vous êtes invité à l’installer. Si la version existante est obsolète, vous êtes également invité à installer l’accélérateur de téléchargement [Aspera](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&product=ibm/Other+software/IBM+Aspera+Connect&release=3.9.9&platform=All&function=all).
+   Si vous avez téléchargé des ressources pour la première fois et qu’® Aspera Connect n’est pas installé dans votre navigateur, vous êtes invité à l’installer. Si la version existante est obsolète, vous êtes également invité à installer l’accélérateur de téléchargement [Aspera](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&product=ibm/Other+software/IBM+Aspera+Connect&release=3.9.9&platform=All&function=all).
 
    ![](assets/aspera-not-launched.png)
 
 1. **Installer le client d’Aspera Connect**
 
-   Pour installer la configuration cliente d’IBM® Aspera Connect, exécutez le programme d’installation à partir du fichier .msi de l’application cliente IBM® Aspera Connect et suivez l’assistant d’installation.
+   Pour installer la configuration cliente d’® Aspera Connect, exécutez le programme d’installation à partir du fichier .msi de l’application cliente IBM® Aspera Connect et suivez l’assistant d’installation.
 
    ![](assets/aspera-download-1.png)
 
@@ -176,11 +182,11 @@ On successful completion of the download, a dialog box shows the location where 
 
 ## Utiliser l’accélérateur de fichiers sur le navigateur Microsoft® Edge {#using-file-accelerator-on-microsoft-edge-browser}
 
-Microsoft® Edge s’exécute en mode protégé amélioré (EPM), ce qui empêche toute communication avec le serveur d’Aspera Connect, sur le même réseau privé ou avec un site de confiance. Par conséquent, une fenêtre contextuelle s’affiche chaque fois qu’une connexion au serveur est établie.
+® Edge s’exécute en mode protégé amélioré (EPM), ce qui empêche toute communication avec le serveur d’Aspera Connect, sur le même réseau privé ou avec un site de confiance. Par conséquent, une fenêtre contextuelle s’affiche chaque fois qu’une connexion au serveur est établie.
 
 ![](assets/switchapps-msedge.png)
 
-Pour utiliser la fonctionnalité de téléchargement accéléré sur Microsoft® Edge, supprimez le site Brand Portal de la liste Sites de confiance.
+Pour utiliser la fonctionnalité de téléchargement accéléré sur ® Edge, supprimez le site Brand Portal de la liste Sites de confiance.
 
 1. Ouvrez le Panneau de configuration (**[!UICONTROL touche Windows + X]**, puis sélectionnez **[!UICONTROL Panneau de configuration]**).
 1. Accédez à **[!UICONTROL Réseau et Internet]** > **[!UICONTROL Options Internet]**. Cliquez sur l’onglet **[!UICONTROL Sécurité]**.
@@ -189,7 +195,7 @@ Pour utiliser la fonctionnalité de téléchargement accéléré sur Microsoft®
 
 ## Préférences du client Aspera Connect {#aspera-connect-client-preferences}
 
-Certaines préférences utiles peuvent être définies dans les préférences du client IBM® Aspera Connect en cliquant avec le bouton droit sur l’icône et en sélectionnant **[!UICONTROL Préférences]**.
+Certaines préférences utiles peuvent être définies dans les préférences du client ® Aspera Connect en cliquant avec le bouton droit sur l’icône et en sélectionnant **[!UICONTROL Préférences]**.
 
 ![](assets/download_assets_frombrandportalimg19.png)
 
@@ -205,11 +211,11 @@ En outre, le client Aspera Connect peut être marqué de sorte qu’il démarre 
 
 Si l’accélération de téléchargement ne fonctionne pas, essayez les suggestions suivantes :
 
-1. Vérifiez que les ports ne sont pas bloqués. Utilisez la recherche Google pour rechercher des options permettant de vérifier si les ports sont bloqués, en fonction du système d’exploitation utilisé.  <!-- THIS URL IS 404 AND DOES NOT REDIRECT [https://test-connect.asperasoft.com](https://test-connect.asperasoft.com/) from your computer. -->
+1. Vérifiez que les ports ne sont pas bloqués. Effectuez une recherche Google pour trouver les options permettant de vérifier si les ports sont bloqués, en fonction du système d’exploitation utilisé. <!-- THIS URL IS 404 AND DOES NOT REDIRECT [https://test-connect.asperasoft.com](https://test-connect.asperasoft.com/) from your computer. -->
 
    Si les ports ne sont pas ouverts, demandez à votre équipe réseau de veiller à ce que les ports 33001 (à la fois TCP et UDP) ne soient pas bloqués dans le pare-feu.
 
-1. Si les ports sont ouverts, vérifiez si votre réseau n&#39;est pas lent en mesurant la bande passante disponible à l&#39;aide de [https://www.speedtest.net/](https://www.speedtest.net/).
+1. Si les ports sont ouverts, vérifiez si votre réseau n&#39;est pas lent en mesurant la bande passante disponible à l&#39;aide de [](https://www.speedtest.net/).
 
    Si la bande passante est faible (1 à 10 Mbit/s) ou en Kbit/s, utilisez les Préférences Aspera et essayez de limiter la bande passante en fonction de celle disponible.
 

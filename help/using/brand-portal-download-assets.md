@@ -6,9 +6,15 @@ contentOwner: Vishabh Gupta
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download, download-install, download assets
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: 6194eb5697ef48c9693c00a7a51322ef4827cdc3
+TQID: https://experienceleague.adobe.com/RxwM021BfmZtMB1oi-EtwMuHinMTOKclwEUNjcQu6o4
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: bd0d2470-932c-4269-8eca-6d939b72d9efid: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: cf50b0d2-df62-495c-a741-4fa0284ca4fcid: e00c7c12-7035-41fe-ad76-1ec82c8c3f01id: ee69dd13-2aba-4eb0-912b-399e82368d73
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1957'
+source-wordcount: 1957
 ht-degree: 65%
 
 ---
@@ -20,9 +26,9 @@ Adobe Experience Manager Assets Brand Portal améliore l’expérience de télé
 
 >[!NOTE]
 >
->Dans Brand Portal 2020.10.0 (et versions ultérieures), le paramètre **[!UICONTROL Téléchargement rapide]** est activé par défaut, ce qui active l’utilisation d’IBM® Aspera Connect pour accélérer le téléchargement des ressources. Installez IBM® Aspera Connect 3.9.9 (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`) dans l’extension de votre navigateur avant de télécharger les ressources à partir de Brand Portal. Consultez le [guide d’accélération des téléchargements à partir de Brand Portal](../using/accelerated-download.md).
+>Dans Brand Portal 2020.10.0 (et versions ultérieures), le paramètre **[!UICONTROL Téléchargement rapide]** est activé par défaut, ce qui active l’utilisation d’IBM® Aspera Connect pour accélérer le téléchargement des ressources. Installez ® Aspera Connect 3.9.9 (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`) dans l’extension de votre navigateur avant de télécharger les ressources à partir de Brand Portal. Consultez le [guide d’accélération des téléchargements à partir de Brand Portal](../using/accelerated-download.md).
 >
->Si vous ne souhaitez pas utiliser IBM® Aspera Connect et poursuivre le processus de téléchargement normal, contactez l’administrateur Brand Portal pour désactiver le paramètre **[!UICONTROL Téléchargement rapide]**.
+>Si vous ne souhaitez pas utiliser ® Aspera Connect et poursuivre le processus de téléchargement normal, contactez l’administrateur Brand Portal pour désactiver le paramètre **[!UICONTROL Téléchargement rapide]**.
 
 ## Configuration du téléchargement des ressources {#configure-download}
 
@@ -45,7 +51,7 @@ Les paramètres disponibles sont les suivants :
 
 * **[!UICONTROL Téléchargement rapide]**
 
-  Il permet d’accélérer le téléchargement des ressources à l’aide d’IBM® Aspera Connect. Par défaut, le paramètre **[!UICONTROL Téléchargement rapide]** est activé dans les **[!UICONTROL Paramètres de téléchargement]**.
+  Il permet d’accélérer le téléchargement des ressources à l’aide d’® Aspera Connect. Par défaut, le paramètre **[!UICONTROL Téléchargement rapide]** est activé dans les **[!UICONTROL Paramètres de téléchargement]**.
 
 * **[!UICONTROL Rendus personnalisés]**
 
@@ -149,14 +155,14 @@ Vous trouverez ci-dessous la procédure à suivre pour télécharger des ressour
 
      >[!NOTE]
      >
-     >Si vous téléchargez les ressources pour la première fois et qu’IBM® Aspera Connect n’est pas installé dans votre navigateur, vous êtes invité à installer l’accélérateur de téléchargement Aspera (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
+     >Si vous téléchargez les ressources pour la première fois et qu’® Aspera Connect n’est pas installé dans votre navigateur, vous êtes invité à installer l’accélérateur de téléchargement Aspera (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
 
 
      >[!NOTE]
      >
      >Si les ressources que vous avez téléchargées incluent également des ressources sous licence, vous êtes redirigé vers la page **[!UICONTROL Gestion des droits d’auteur]**. Dans cette page, sélectionnez les ressources, cliquez d’abord sur **[!UICONTROL Accepter]**, puis sur **[!UICONTROL Télécharger]**. Si vous choisissez de ne pas accepter, les ressources sous licence ne sont pas téléchargées.
      > 
-     >Les ressources protégées par une licence sont accompagnées d’un [contrat de licence](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/administer/drm), ce qui est fait en définissant la [propriété de métadonnées](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/administer/drm) de la ressource dans Experience Manager Assets.
+     >Les ressources protégées par une licence sont accompagnées d’un [contrat de licence](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm), ce qui est fait en définissant la [propriété de métadonnées](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm) de la ressource dans Experience Manager Assets.
 
 
      ![ressource-sous-licence](assets/licensed-asset-new.png)
@@ -179,7 +185,7 @@ Vous trouverez ci-dessous la procédure à suivre pour télécharger des ressour
 
    ![boîte-de-dialogue-télécharger](assets/download-dialog-box-new.png)
 
-1. Par défaut, le paramètre **[!UICONTROL Téléchargement rapide]** est activé dans les **[!UICONTROL Paramètres de téléchargement]**. Par conséquent, une boîte de confirmation s’affiche pour permettre un téléchargement accéléré à l’aide d’IBM® Aspera Connect.
+1. Par défaut, le paramètre **[!UICONTROL Téléchargement rapide]** est activé dans les **[!UICONTROL Paramètres de téléchargement]**. Par conséquent, une boîte de confirmation s’affiche pour permettre un téléchargement accéléré à l’aide d’® Aspera Connect.
 
    Pour continuer à utiliser le **[!UICONTROL Téléchargement rapide]**, cliquez sur **[!UICONTROL Autoriser]**. Tous les rendus sélectionnés sont téléchargés dans un dossier ZIP à l’aide d’IBM® Aspera Connect.
 
@@ -214,7 +220,7 @@ Vous trouverez ci-dessous la procédure à suivre pour télécharger des ressour
 >
 >Pour prévisualiser ou télécharger des rendus dynamiques, activez Dynamic Media. Assurez-vous que le rendu Pyramid TIFF de la ressource existe dans l’instance d’auteur Experience Manager Assets où les ressources ont été publiées. Lorsqu’une ressource est publiée à partir d’Experience Manager Assets sur Brand Portal, son rendu Pyramid TIFF l’est également.
 
-Si l’[&#x200B; administrateur ne vous a pas autorisé à accéder aux rendus originaux](../using/brand-portal-adding-users.md#main-pars-procedure-202029708) vous ne pouvez pas télécharger les rendus originaux des ressources sélectionnées.
+Si l’[ administrateur ne vous a pas autorisé à accéder aux rendus originaux](../using/brand-portal-adding-users.md#main-pars-procedure-202029708) vous ne pouvez pas télécharger les rendus originaux des ressources sélectionnées.
 
 ![no-access-message](assets/no-access-message.png)
 
@@ -246,7 +252,7 @@ Vous trouverez ci-dessous la procédure à suivre pour télécharger des rendus 
    ![panneau-rendus](assets/renditions-panel.png)
 
 
-1. Par défaut, le paramètre **[!UICONTROL Téléchargement rapide]** est activé dans les **[!UICONTROL Paramètres de téléchargement]**. Par conséquent, une boîte de confirmation s’affiche pour permettre un téléchargement accéléré à l’aide d’IBM® Aspera Connect.
+1. Par défaut, le paramètre **[!UICONTROL Téléchargement rapide]** est activé dans les **[!UICONTROL Paramètres de téléchargement]**. Par conséquent, une boîte de confirmation s’affiche pour permettre un téléchargement accéléré à l’aide d’® Aspera Connect.
 
    Pour continuer à utiliser le **[!UICONTROL Téléchargement rapide]**, cliquez sur **[!UICONTROL Autoriser]**. Tous les rendus sélectionnés sont téléchargés dans un dossier ZIP à l’aide d’IBM® Aspera Connect.
 

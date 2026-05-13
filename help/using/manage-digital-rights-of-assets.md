@@ -7,16 +7,20 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 role: Admin
 exl-id: 86c31891-0627-41ca-b571-8dac3a074d55
-source-git-commit: 10f89ded6febb1a024cbe181fa48a290d90223f0
+TQID: https://experienceleague.adobe.com/3ZH-bkACyy-0XGHZu4uxJCXGgAKCoD4JmcCd1vBBxLA
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: 904
 ht-degree: 60%
 
 ---
 
 # Gestion des droits numériques des ressources {#manage-digital-rights-of-assets}
 
-La sécurisation de la distribution et de l’utilisation des ressources créatives et des documents de marque est essentielle pour protéger votre marque. Ce processus peut être appliqué en associant une date (et une heure) d’expiration aux ressources approuvées publiées d’AEM vers Brand Portal, ou en octroyant des licences pour ces ressources pour une utilisation conditionnelle. En outre, Brand Portal vous permet de spécifier une date d’expiration pour les liens vers les ressources partagées à partir de Brand Portal.
+La sécurisation de la distribution et de l’utilisation des ressources créatives et des documents de marque est essentielle pour protéger votre marque. Ce processus peut être appliqué en associant une date (et une heure) d’expiration aux ressources approuvées publiées d’AEM vers Brand Portal, ou en attribuant une licence pour l’utilisation conditionnelle de ces ressources. En outre, Brand Portal vous permet de spécifier une date d’expiration pour les liens vers les ressources partagées à partir de Brand Portal.
 
 Lisez la suite pour savoir comment les ressources sont sécurisées sur Brand Portal et comprendre les autorisations d’utilisation associées.
 
@@ -55,23 +59,23 @@ Vous pouvez voir l’état d’expiration des ressources dans leur **[!UICONTROL
 
 >[!NOTE]
 >
->Les vues Liste et Colonne n’affichent pas l’état d’expiration des ressources.
+>Les vues Liste et Colonnes n’affichent pas le statut d’expiration des ressources.
 
 ## Expiration des liens de ressources {#asset-link-expiration}
 
-Lors du partage de ressources par le biais de liens, les administrateurs et les éditeurs peuvent définir une date et une heure d’expiration en utilisant le champ **[!UICONTROL Expiration]** dans la boîte de dialogue **[!UICONTROL Partage de lien]**. L’expiration par défaut d’un lien est de sept jours à compter de la date à laquelle il est partagé.
+Lors du partage de ressources par le biais de liens, les administrateurs et les éditeurs peuvent définir une date et une heure d’expiration en utilisant le champ **[!UICONTROL Expiration]** dans la boîte de dialogue **[!UICONTROL Partage de lien]**. L’expiration par défaut d’un lien est de sept jours à compter de la date de partage du lien.
 
 ![](assets/asset-link-sharing.png)
 
-Cela garantit que les ressources partagées en tant que liens expirent aux date et heure définies par les administrateurs et les éditeurs Brand Portal. De plus, les ressources ne peuvent plus être affichées ni téléchargées au-delà de la date d’expiration. Pour protéger vos ressources approuvées contre les utilisateurs externes, définissez une date d’expiration sur les liens partagés afin de vous assurer qu’elles ne sont pas exposées à des entités inconnues au-delà d’une période spécifiée.
+Cela garantit que les ressources partagées en tant que liens expirent à la date et à l’heure définies par les administrateurs et les éditeurs de Brand Portal. De plus, les ressources ne peuvent plus être affichées et téléchargées au-delà de la date d’expiration. Pour protéger vos ressources approuvées contre les utilisateurs externes, définissez une date d’expiration sur les liens partagés afin de vous assurer qu’ils ne sont pas exposés à des entités inconnues au-delà d’une heure spécifiée.
 
 Pour plus d’informations sur le partage de lien, voir [Partage de ressources en tant que lien](../using/brand-portal-link-share.md).
 
 ## Ressources sous licence {#licensed-assets}
 
-Les ressources sous licence sont sujettes à l’acceptation d’un accord de licence avant leur téléchargement à partir de Brand Portal. Cet accord pour les ressources sous licence s’affiche lorsque vous téléchargez directement la ressource à partir de Brand Portal ou au moyen d’un lien partagé. Qu’ils aient expiré ou non, tous les utilisateurs peuvent afficher les ressources protégées par une licence. Cependant, le téléchargement et l’utilisation des ressources sous licence expirées sont limités. Pour en savoir plus sur le comportement des ressources sous licence expirées et des activités autorisées en fonction des rôles utilisateur, reportez-vous à la section [autorisations d’utilisation des ressources expirées](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
+Les ressources sous licence sont sujettes à l’acceptation d’un accord de licence avant leur téléchargement à partir de Brand Portal. Ce contrat pour les ressources sous licence est conclu lorsque vous téléchargez directement la ressource à partir de Brand Portal ou au moyen d’un lien partagé. Qu’elles aient expiré ou non, tous les utilisateurs peuvent afficher les ressources protégées par une licence. Toutefois, le téléchargement et l’utilisation des ressources sous licence expirées sont limités. Pour en savoir plus sur le comportement des ressources sous licence expirées et sur les activités autorisées basées sur les rôles utilisateur, reportez-vous à la section [ Autorisations d’utilisation des ressources expirées ](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
 
-Les ressources protégées par une licence sont accompagnées d’un [contrat de licence](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/administer/drm) en définissant la propriété de métadonnées de la ressource dans [!DNL Experience Manager Assets].
+Les ressources protégées par une licence sont accompagnées d’un [contrat de licence](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm), ce qui est fait en définissant la propriété des métadonnées de la ressource dans [!DNL Experience Manager Assets].
 
 Une ressource est considérée comme protégée si elle contient l’une des propriétés de métadonnées suivantes (ou les deux) :
 
@@ -79,14 +83,14 @@ Une ressource est considérée comme protégée si elle contient l’une des pro
 * `adobe_dam:restrictions` : la valeur de cette propriété est un contenu HTML brut qui spécifie le contrat de licence.
 
 
-Si vous choisissez de télécharger des ressources protégées par une licence, vous êtes redirigé vers la page **[!UICONTROL Gestion des droits d’auteur]** en fonction des propriétés de métadonnées.
+Si vous choisissez de télécharger des ressources protégées par une licence, vous êtes redirigé vers la page **[!UICONTROL Gestion des droits d’auteur]** en fonction des propriétés des métadonnées.
 
 | `adobe_dam:restrictions` | `xmpRights:WebStatement` | Gestion des droits d’auteur |
 | --- | --- | --- |
 | Oui | - | L’interface s’affiche à la fois dans Assets et dans Brand Portal. |
 | - | Oui (chemin non valide) | Pas d’interface |
 | Oui | Oui (chemin non valide) | Pas d’interface |
-| Oui | Oui (chemin valide) | L’interface s’affiche dans Assets ou Brand Portal</br>Selon que le chemin d’accès est valide pour Assets ou Brand Portal (ou les deux). |
+| Oui | Oui (chemin valide) | L’interface s’affiche dans Assets ou Brand Portal</br>selon que le chemin d’accès est valide pour Assets ou Brand Portal (ou les deux). |
 
 ![](assets/asset-copyright-mgmt.png)
 
@@ -102,4 +106,4 @@ Les administrateurs peuvent générer et télécharger un rapport répertoriant 
 
 ![](assets/assets-expired.png)
 
-Pour plus d’informations sur la fonctionnalité de rapports, voir [Utilisation des rapports](../using/brand-portal-reports.md#work-with-reports).
+Pour plus d’informations sur la fonctionnalité des rapports, voir [ Utilisation des rapports ](../using/brand-portal-reports.md#work-with-reports).

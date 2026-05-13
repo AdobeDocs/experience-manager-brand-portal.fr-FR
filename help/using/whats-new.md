@@ -5,10 +5,16 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 0ef13db15f5282364cf8f2ca86ebefdfe6caca37
+TQID: https://experienceleague.adobe.com/-mH8aSfC9V8seE8ynUPNeJeE2Jt79S6etcyDlK14jL0
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ae478996-b206-4712-9b0c-dc78a2644453id: bd0d2470-932c-4269-8eca-6d939b72d9efid: da0dfbce-df02-4f8b-b32d-a4e3b1d05085id: e17747bc-9b7b-44e6-a443-f54229a02620
+subfeature_v2: id: cf50b0d2-df62-495c-a741-4fa0284ca4fcid: d17d085a-e808-49dd-b9a6-85a996b999bdid: e00c7c12-7035-41fe-ad76-1ec82c8c3f01id: f0e3b2ca-813f-4b7a-81df-52339e17ddcf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '6645'
-ht-degree: 98%
+source-wordcount: 6645
+ht-degree: 97%
 
 ---
 
@@ -100,19 +106,19 @@ La migration n’a aucune incidence sur votre jeu de données, vos ressources, v
 
 ### Articles de référence {#reference-articles}
 
-* [Introducing Adobe Profiles](https://helpx.adobe.com/fr/enterprise/kb/introducing-adobe-profiles.html)
+* [Présentation des profils Adobe](https://helpx.adobe.com/fr/enterprise/kb/introducing-adobe-profiles.html)
 
-* [Manage Adobe Profiles](https://helpx.adobe.com/fr/enterprise/using/manage-adobe-profiles.html)
+* [Gestion des profils Adobe](https://helpx.adobe.com/fr/enterprise/using/manage-adobe-profiles.html)
 
-* [Update to Sign in experience for users and admins](https://helpx.adobe.com/fr/enterprise/using/storage-for-business.html#new-admin-sign-in-exp)
+* [Mettre à jour l’expérience de connexion pour les utilisateurs et les administrateurs](https://helpx.adobe.com/fr/enterprise/using/storage-for-business.html#new-admin-sign-in-exp)
 
-* [Log in restriction during migration](https://helpx.adobe.com/fr/enterprise/kb/account-temporarily-unavailable.html)
+* [Restriction de connexion pendant la migration](https://helpx.adobe.com/fr/enterprise/kb/account-temporarily-unavailable.html)
 
-* [Manage users in Admin Console](https://helpx.adobe.com/fr/enterprise/using/manage-users-individually.html)
+* [Gestion des utilisateurs dans Admin Console](https://helpx.adobe.com/fr/enterprise/using/manage-users-individually.html)
 
-* [Manage product profiles for enterprise users](https://helpx.adobe.com/fr/enterprise/using/manage-product-profiles.html#assign-users)
+* [Gestion des profils de produit pour les utilisateurs d’entreprise](https://helpx.adobe.com/fr/enterprise/using/manage-product-profiles.html#assign-users)
 
-* [Domain trust](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/set-up-identity.html#directory-trusting)
+* [Approbation de domaine](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/set-up-identity.html#directory-trusting)
 
 
 <!--   
@@ -190,7 +196,7 @@ To activate Brand Portal on your AEM Assets as a Cloud Service instance:
 
 ![View Status](assets/create-environment5.png)
 
-See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
+See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
 
 ### Asset Sourcing on AEM Assets as a Cloud Service {#asset-sourcing-on-cloud-service}
 
@@ -198,7 +204,7 @@ The Asset Sourcing feature is now available on AEM Assets as a Cloud Service. Th
 
 Earlier, Asset Sourcing was only available on AEM Assets (on premise and managed service). 
 
-See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/fr/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
+See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
 -->
 
 ### Téléchargement de ressources {#asset-download-setting}
@@ -415,7 +421,7 @@ AEM Assets configuration with Brand Portal on Adobe I/O is supported on:
 | **Version d’AEM** | **Nouvelle configuration** | **Mise à niveau de la configuration** |
 |---|---|---|
 | **AEM Assets as a Cloud Service** | [Création d’une configuration](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal) | - |
-| **AEM 6.5 (6.5.4.0 et versions ultérieures)** | [Création d’une configuration](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal) | [Mise à niveau de la configuration](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) |
+| **AEM 6.5 (6.5.4.0 et versions ultérieures)** | [Création d’une configuration](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal) | [Mise à niveau de la configuration](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) |
 
 >[!NOTE]
 >
@@ -481,7 +487,7 @@ Lisez les sections suivantes pour en savoir plus sur la recherche de texte parti
 Vous pouvez désormais rechercher des ressources en spécifiant uniquement une partie (un mot ou deux) de l’expression recherchée dans le volet de filtrage.
 
 **Cas d’utilisation**
-La recherche par expression partielle s’avère utile lorsque vous avez des doutes sur la combinaison exacte des mots apparaissant dans l’expression recherchée.
+La recherche par expression partielle est utile lorsque vous n’êtes pas sûr de la combinaison exacte des mots apparaissant dans l’expression recherchée.
 
 Par exemple, si votre formulaire de recherche dans Brand Portal utilise le prédicat de propriété pour une recherche partielle sur le titre des ressources, la spécification du terme **camp** renvoie toutes les ressources contenant le mot « camp » dans l’expression de leur titre.
 
@@ -515,7 +521,7 @@ Brand Portal 6.4.3 introduit un autre alias pour les URL d’accès, une nouve
 
 ### Navigation dans la hiérarchie de dossiers pour les non-administrateurs
 
-Administrators can now configure how the folders are shown to non-admin users (Editors, Viewers, and Guest Users) on login. [Enable Folder Hierarchy](../using/brand-portal-general-configuration.md) configuration is added in **General Settings**, in the admin tools panel. Si la configuration est :
+Les administrateurs peuvent maintenant configurer la façon dont les dossiers s’affichent pour les utilisateurs non-administrateurs (éditeurs, observateurs et utilisateurs invités) lors de leur connexion. La configuration [Activer la hiérarchie de dossiers](../using/brand-portal-general-configuration.md) a été ajoutée dans **Paramètres généraux** au sein du panneau des outils d’administration. Si la configuration est :
 
 * **activée**, l’arborescence de dossiers à partir du dossier racine est visible par les utilisateurs et les utilisatrices ne disposant pas de droits d’administration. Ces utilisateurs et utilisatrices bénéficient ainsi d’une expérience de navigation similaire à celle des administrateurs et administratrices.
 * **désactivée**, seuls les dossiers partagés sont affichés sur la page de destination.
@@ -597,7 +603,7 @@ Les organisations peuvent personnaliser l’URL de leur portail en y ajoutant un
 Seul le préfixe de l’URL Brand Portal peut être personnalisé et non l’URL entière.\
 Par exemple, une entreprise avec le domaine existant **geomettrix.brand-portal.adobe.com** peut demander et obtenir la création de **geomettrixinc.brand-portal.adobe.com**.
 
-Cependant, l’instance de création AEM peut uniquement être [configurée](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal) avec l’URL d’ID de client ou cliente et non avec l’URL d’alias de client ou cliente (alternative).
+Cependant, l’instance de création AEM peut uniquement être [configurée](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal) avec l’URL d’ID de client ou cliente et non avec l’URL d’alias de client ou cliente (alternative).
 
 Les organisations peuvent répondre à leurs besoins en matière de branding en personnalisant l’URL de leur portail, au lieu de se contenter de l’URL fournie par Adobe.
 
@@ -700,7 +706,7 @@ Les configurations ci-dessus sont disponibles dans les paramètres d’accès et
 
 ### Interface d’utilisation `Adobe I/O` pour configurer les intégrations OAuth
 
-À compter de la version 6.4.2, Brand Portal utilise l’interface OAuth héritée (`https://legacy-oauth.cloud.adobe.io/`) pour créer l’application JWT qui permet de configurer des intégrations OAuth pour intégrer AEM Assets à Brand Portal. Auparavant, l’IU de configuration des intégrations OAuth était hébergée à l’adresse `https://marketing.adobe.com/developer/`. Pour en savoir plus sur l’intégration d’AEM Assets à Brand Portal pour publier des ressources et des collections sur Brand Portal, consultez [Configuration de l’intégration d’AEM Assets à Brand Portal](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal).
+À compter de la version 6.4.2, Brand Portal utilise l’interface OAuth héritée (`https://legacy-oauth.cloud.adobe.io/`) pour créer l’application JWT qui permet de configurer des intégrations OAuth pour intégrer AEM Assets à Brand Portal. Auparavant, l’IU de configuration des intégrations OAuth était hébergée à l’adresse `https://marketing.adobe.com/developer/`. Pour en savoir plus sur l’intégration d’AEM Assets à Brand Portal pour publier des ressources et des collections sur Brand Portal, consultez [Configuration de l’intégration d’AEM Assets à Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal).
 
 ## Améliorations de la recherche
 
@@ -768,18 +774,18 @@ Brand Portal 6.4.1 est une version de mise à niveau de la plateforme. Elle in
 
 ### Amélioration des fonctionnalités de création de rapports
 
-**Ajout du rapport Partage de liens**
-Un nouveau rapport, destiné à fournir des informations sur les liens partagés, a été ajouté. Le rapport Partage de liens répertorie toutes les URL vers les ressources partagées avec des utilisateurs et utilisatrices internes et externes. Il rend compte aux utilisateurs et utilisatrices de l’ensemble de l’organisation dans la période spécifiée. Il indique également quand le lien a été partagé, par qui et quand il expire.
+**Introduction du rapport Partage de liens**
+Introduction d’un nouveau rapport afin de fournir des informations sur les liens partagés. Le rapport Partage de liens répertorie toutes les URL vers les ressources partagées avec des utilisateurs et utilisatrices internes et externes. Il rend compte aux utilisateurs et utilisatrices de l’ensemble de l’organisation dans la période spécifiée. Il indique également quand le lien a été partagé, par qui et quand il expire.
 
 ![](assets/navigatereport.png)
 
-**Modification du point d’entrée pour accéder au rapport Utilisation**
-Le rapport Utilisation est désormais consolidé avec d’autres rapports et peut désormais être affiché à partir de la console Rapports de ressources. Pour accéder à la console Rapports de ressources, naviguez jusqu’à **Créer/Gérer des rapports** dans le panneau des outils d’administration.
+**Modification du point d’entrée pour accéder au rapport d’utilisation**
+Le rapport d’utilisation est désormais consolidé avec d’autres rapports et peut désormais être affiché à partir de la console Rapports de ressources. Pour accéder à la console Rapports de ressources, naviguez jusqu’à **Créer/Gérer des rapports** dans le panneau des outils d’administration.
 
 ![](assets/accessassetreport.png)
 
-**Amélioration de l’expérience d’utilisation pour la création de rapports**
-L’interface de création de rapports sur Brand Portal est devenue plus intuitive et offre un bien meilleur contrôle aux entreprises. Hormis la création de divers rapports, les administrateurs peuvent désormais reconsulter les rapports générés et les télécharger ou les supprimer, car ils sont enregistrés dans Brand Portal.
+**Une expérience utilisateur améliorée pour la création de rapports**
+L’interface de création de rapports sur Brand Portal est devenue plus intuitive et offre un meilleur contrôle aux organisations. Hormis la création de divers rapports, les administrateurs peuvent désormais reconsulter les rapports générés et les télécharger ou les supprimer, car ils sont enregistrés dans Brand Portal.
 
 Chaque rapport créé peut être personnalisé en ajoutant ou en supprimant des colonnes par défaut. De plus, des colonnes personnalisées peuvent être ajoutées aux rapports Téléchargement, Expiration et Publication pour contrôler leur degré de granularité.
 
@@ -920,7 +926,7 @@ Les administrateurs et administratrices peuvent créer et gérer trois types de
 
 ### Métadonnées supplémentaires {#additional-metadata}
 
-Brand Portal 6.3.1 introduces additional metadata, which is at par with AEM Assets 6.3. You can use the Schema Editor form to control the metadata that should be visible on the Assets Properties page. Les métadonnées des ressources ne sont pas visibles par les utilisateurs de partage de lien externes. Ceux-ci ne peuvent que prévisualiser et télécharger des ressources à l’aide de l’URL du partage de lien.
+Brand Portal 6.3.1 introduit des métadonnées supplémentaires, qui sont comparables à AEM Assets 6.3. Vous pouvez utiliser le formulaire de l’éditeur de schémas pour contrôler les métadonnées qui doivent être visibles sur la page Propriétés d’Assets. Les métadonnées des ressources ne sont pas visibles par les utilisateurs de partage de lien externes. Ceux-ci ne peuvent que prévisualiser et télécharger des ressources à l’aide de l’URL du partage de lien.
 
 ![](assets/additionsinmetadata.png)
 
