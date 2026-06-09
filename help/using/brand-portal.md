@@ -6,22 +6,15 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
 TQID: https://experienceleague.adobe.com/oBDmsUsNSLapEzQa9r4J-vZqTz2qe0cPW6hU1EYzrXU
-product_v2:
-  - id: d09181b5-a36a-43de-ba01-36641440bc43
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
-subfeature_v2:
-  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 870850fd29819d96017608f1db48d46b38c62bff
 workflow-type: tm+mt
-source-wordcount: 1714
-ht-degree: 61%
+source-wordcount: 1549
+ht-degree: 55%
 
 ---
 
@@ -33,7 +26,7 @@ Cependant, le développement de solutions qui prennent en charge le partage effi
 
 **Adobe Experience Manager (AEM) Assets Brand Portal** se concentre sur le besoin du professionnel du marketing de collaborer efficacement avec les utilisateurs de Brand Portal distribués dans le monde entier en fournissant des fonctionnalités de distribution et de contribution des ressources.
 
-La distribution des ressources vous permet d’acquérir, de contrôler et de distribuer en toute sécurité des ressources créatives approuvées à des tiers externes et aux utilisateurs professionnels internes sur tous les appareils. Cependant, la contribution aux ressources permet aux utilisateurs de Brand Portal de charger des ressources vers Brand Portal et de les publier sur Experience Manager Assets, sans avoir à accéder à l’environnement de création. La fonction de contribution est appelée **Approvisionnement des ressources dans Brand Portal**. Ces deux fonctionnalités améliorent l’expérience globale en matière de distribution et de contribution aux ressources des utilisateurs de Brand Portal (agences/équipes externes), accélèrent le délai de mise sur le marché des ressources et réduisent le risque de non-conformité et d’accès non autorisé.
+La distribution des ressources vous permet d’acquérir, de contrôler et de distribuer en toute sécurité des ressources créatives approuvées à des tiers externes et aux utilisateurs professionnels internes sur tous les appareils. Cependant, la contribution aux ressources permet aux utilisateurs de Brand Portal de charger des ressources vers Brand Portal et de les publier sur Experience Manager Assets, sans avoir à accéder à l’environnement de création. La fonction de contribution est appelée **Approvisionnement Assets dans Brand Portal**. Dans son ensemble, cette approche améliore l’expérience Brand Portal globale de distribution des ressources et la contribution des utilisateurs de Brand Portal (agences/équipes externes), accélère la mise sur le marché des ressources et réduit le risque de non-conformité et d’accès non autorisé.
 Voir [Approvisionnement des ressources dans Brand Portal](brand-portal-asset-sourcing.md).
 
 L’environnement de portail basé sur un navigateur vous permet de charger, parcourir, rechercher, prévisualiser et exporter facilement des ressources dans des formats approuvés.
@@ -50,11 +43,11 @@ La configuration d’Adobe Experience Manager Assets avec Brand Portal permet
 >
 > * Brand Portal est en mode de maintenance. Toutes les innovations produits sont disponibles dans le [hub de contenus](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview).
 > * Si vous devez encore activer Brand Portal, contactez votre équipe représentante Adobe pour obtenir des détails sur votre cas d’utilisation et les autres exigences spécifiques.
-> * Brand Portal n’est pas disponible avec [Assets Prime](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/assets-prime) ou [Assets Ultimate](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview). Cependant, les clientes et clients Assets as a Cloud Service qui ont déjà accès à Brand Portal peuvent continuer à l’utiliser après leur transition vers Assets Ultimate.
+> * Brand Portal n’est pas disponible avec [Assets Prime](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/assets-prime) ou [Assets Ultimate](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview). Cependant, les clients Assets as a Cloud Service existants qui ont déjà accès à Brand Portal peuvent continuer à l’utiliser lorsqu’ils passent à Assets Ultimate.
 
 <!--Experience Manager Assets as a Cloud Service is automatically configured with Brand Portal by activating Brand Portal from the Cloud Manager. The activation workflow creates the required configurations at the backend and activates Brand Portal on the same IMS org as of the Experience Manager Assets as a Cloud Service instance.-->
 
-Cependant, Experience Manager Assets (On-Premise et Managed Service) est configuré avec Brand Portal à l’aide de Adobe Developer Console, qui fournit un jeton Adobe Identity Management Services (IMS) pour l’autorisation du client Brand Portal.
+Cependant, Experience Manager Assets (On-Premise et Managed Services) est configuré avec Brand Portal à l’aide de Adobe Developer Console, qui fournit un jeton Adobe Identity Management Services (IMS) pour l’autorisation du client Brand Portal.
 
 Pour plus d’informations, consultez [Configuration d’Experience Manager Assets avec Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
@@ -92,7 +85,7 @@ Le tableau suivant répertorie les tâches que peuvent réaliser les personnes q
 
 Brand Portal Experience Manager Assets permet aux [invités](#request-access-to-brand-portal) d’accéder au portail. Un utilisateur invité n’a pas besoin d’identifiants pour accéder au portail et a accès aux dossiers et aux collections publics. En tant qu’utilisateur invité, vous pouvez parcourir les détails des ressources et obtenir une vue complète des ressources des membres des dossiers et collections publics. Vous pouvez rechercher, télécharger et ajouter des ressources publiques à la collection [!UICONTROL Lightbox].
 
-Cependant, la session de personne invitée ne vous permet pas de créer des collections et des recherches enregistrées, et de les partager davantage. Lors d’une session d’invité, les utilisateurs ne peuvent ni accéder aux paramètres des dossiers et des collections, ni partager des ressources sous la forme de lien. Voici la liste des tâches que peut réaliser un utilisateur invité :
+Cependant, la session de personne invitée ne vous permet pas de créer des collections et des recherches enregistrées. Les utilisateurs d’une session de personne invitée ne peuvent pas accéder aux paramètres des dossiers et des collections et ne peuvent pas partager de ressources sous forme de lien. Voici la liste des tâches que peut réaliser un utilisateur invité :
 
 * [Exploration et accès aux ressources publiques](browse-assets-brand-portal.md)
 
@@ -153,7 +146,7 @@ En plus des tâches mentionnées ci-dessus, un auteur dans AEM Assets peut effe
 
 À compter de la version 6.4.3 de Brand Portal, les organisations peuvent disposer d’une autre URL (alias) pour chaque URL existante de leur client Brand Portal. L’URL d’alias peut être créée avec un autre préfixe dans l’URL.\
 Si le nom du client dépasse 32 caractères, un alias de client doit être créé.
-Notez que seul le préfixe de l’URL Brand Portal peut être personnalisé et non l’URL entière. Par exemple, une entreprise avec le domaine existant `geomettrix.brand-portal.adobe.com` peut demander et obtenir la création de `geomettrixinc.brand-portal.adobe.com`.
+Notez que seul le préfixe de l’URL Brand Portal peut être personnalisé, et non l’URL entière. Par exemple, une organisation avec des `geomettrix.brand-portal.adobe.com` de domaine existants peut obtenir `geomettrixinc.brand-portal.adobe.com` création sur demande.
 
 Cependant, l’instance d’auteur AEM peut être [configurée](../using/configure-aem-assets-with-brand-portal.md) uniquement avec l’URL d’ID du client et non avec l’URL (alternative) d’alias de client.
 
@@ -161,7 +154,7 @@ Cependant, l’instance d’auteur AEM peut être [configurée](../using/configu
 >
 >Pour obtenir un alias pour le nom du client dans une URL de portail existante, les organisations doivent contacter le service clientèle avec une demande de création d’alias de client. Tout d’abord, vérifiez si l’alias est disponible, puis créez l’alias pour traiter cette demande.
 >
->Pour remplacer ou supprimer l’ancien alias, le même processus doit être suivi.
+>Pour remplacer ou supprimer l’ancien alias, il faut suivre le même processus.
 
 ## Demande d’accès à Brand Portal {#request-access-to-brand-portal}
 
@@ -183,7 +176,7 @@ Pour demander l’accès, procédez comme suit :
 
    **Scénario 1**
 
-   1. Si vous disposez d’un [!UICONTROL Adobe ID], d’un [!UICONTROL Enterprise ID] ou d’un [!UICONTROL Federated ID], cliquez sur **[!UICONTROL Se connecter]**.
+   1. Si vous disposez d’une , d’une [!UICONTROL Enterprise ID] ou d’une [!UICONTROL Federated ID], cliquez sur **[!UICONTROL Se connecter]**.
 La page [!UICONTROL Connexion] s’ouvre.
 
    1. Indiquez vos informations d’identification  et cliquez sur **[!UICONTROL Connexion]**.
@@ -194,9 +187,9 @@ La page [!UICONTROL Connexion] s’ouvre.
 
    **Scénario 2**
 
-   1. Si vous ne possédez pas d’[!UICONTROL Adobe ID], pour en créer un, cliquez sur **[!UICONTROL Obtenir un Adobe ID]** dans la page [!UICONTROL Demander l’accès].
+   1. Si vous ne disposez pas d&#39;une , pour en créer une, cliquez sur **[!UICONTROL Obtenir une Adobe ID]** dans la page [!UICONTROL Demander l&#39;accès].
 La page [!UICONTROL Connexion] s’ouvre.
-   1. Cliquez sur **[!UICONTROL Obtenir un Adobe ID]**.
+   1. Cliquez sur **[!UICONTROL Obtenir une Adobe ID]**.
 La page [!UICONTROL S’inscrire] s’ouvre.
    1. Saisissez vos nom et prénom, e-mail et mot de passe.
    1. Sélectionnez **[!UICONTROL S’inscrire]**.
@@ -205,7 +198,7 @@ La page [!UICONTROL S’inscrire] s’ouvre.
 
    Vous êtes redirigé vers la page [!UICONTROL Demander l’accès].
 
-1. La page suivante affiche vos nom et e-mail utilisés pour la demande d’accès. Faites part de vos commentaires à l’administrateur, puis cliquez sur **[!UICONTROL Envoyer]**.
+1. La page suivante affiche vos nom et e-mail utilisés pour la demande d’accès. Laissez un commentaire à l’intention de l’administrateur et cliquez sur **[!UICONTROL Envoyer]**.
 
    ![](assets/bplogin-request-access.png)
 
@@ -222,7 +215,7 @@ Vous êtes redirigé vers la page d’accueil d’[Adobe [!UICONTROL Admin Cons
 
 ## Langues de Brand Portal {#brand-portal-language}
 
-Vous pouvez modifier la langue du Brand Portal à partir des [!UICONTROL Paramètres Experience Cloud d’Adobe].
+Vous pouvez modifier la langue de Brand Portal à partir de Adobe [!UICONTROL Paramètres d’Experience Cloud].
 
 ![Notification de demande d’accès](assets/BPLang.png)
 
@@ -232,7 +225,7 @@ Pour modifier la langue :
 
    ![Modifier le profil](assets/EditBPProfile.png)
 
-1. Sur la page [!UICONTROL Paramètres &#x200B;], sélectionnez une langue dans le menu déroulant [!UICONTROL Langue].
+1. Sur la page [!UICONTROL Paramètres Experience Cloud], sélectionnez une langue dans le menu déroulant [!UICONTROL Langue].
 
 ## Notification de maintenance de Brand Portal {#brand-portal-maintenance-notification}
 
@@ -254,4 +247,4 @@ Vous pouvez ignorer cette notification et continuer à utiliser Brand Portal. C
 * [Adobe Customer Support]()
 -->
 
-* [Forums AEM](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=fr)
+* [Forums AEM](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
