@@ -7,11 +7,20 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download, download-install, download assets
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
 TQID: https://experienceleague.adobe.com/RxwM021BfmZtMB1oi-EtwMuHinMTOKclwEUNjcQu6o4
-product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: bd0d2470-932c-4269-8eca-6d939b72d9efid: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
-subfeature_v2: id: cf50b0d2-df62-495c-a741-4fa0284ca4fcid: e00c7c12-7035-41fe-ad76-1ec82c8c3f01id: ee69dd13-2aba-4eb0-912b-399e82368d73
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2:
+  - id: cf50b0d2-df62-495c-a741-4fa0284ca4fc
+  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+  - id: ee69dd13-2aba-4eb0-912b-399e82368d73
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 10f42cf00fb054b38bb5edc4e088441c4a0206da
 workflow-type: tm+mt
 source-wordcount: 1957
@@ -220,7 +229,7 @@ Vous trouverez ci-dessous la procédure à suivre pour télécharger des ressour
 >
 >Pour prévisualiser ou télécharger des rendus dynamiques, activez Dynamic Media. Assurez-vous que le rendu Pyramid TIFF de la ressource existe dans l’instance d’auteur Experience Manager Assets où les ressources ont été publiées. Lorsqu’une ressource est publiée à partir d’Experience Manager Assets sur Brand Portal, son rendu Pyramid TIFF l’est également.
 
-Si l’[ administrateur ne vous a pas autorisé à accéder aux rendus originaux](../using/brand-portal-adding-users.md#main-pars-procedure-202029708) vous ne pouvez pas télécharger les rendus originaux des ressources sélectionnées.
+Si l’[&#x200B; administrateur ne vous a pas autorisé à accéder aux rendus originaux](../using/brand-portal-adding-users.md#main-pars-procedure-202029708) vous ne pouvez pas télécharger les rendus originaux des ressources sélectionnées.
 
 ![no-access-message](assets/no-access-message.png)
 
