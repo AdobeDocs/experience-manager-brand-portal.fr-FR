@@ -9,25 +9,32 @@ exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
 TQID: https://experienceleague.adobe.com/RxwM021BfmZtMB1oi-EtwMuHinMTOKclwEUNjcQu6o4
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
+    internal-label: Dynamic Media
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
 subfeature_v2:
   - id: cf50b0d2-df62-495c-a741-4fa0284ca4fc
+    internal-label: Hybrid mode
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
   - id: ee69dd13-2aba-4eb0-912b-399e82368d73
+    internal-label: Scene7 mode
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
 source-git-commit: 10f42cf00fb054b38bb5edc4e088441c4a0206da
 workflow-type: tm+mt
-source-wordcount: 1957
+source-wordcount: '1957'
 ht-degree: 65%
-
 ---
-
 # Télécharger des ressources {#download-assets-from-bp}
 
 Adobe Experience Manager Assets Brand Portal améliore l’expérience de téléchargement en permettant aux utilisateurs de télécharger simultanément plusieurs ressources et dossiers auxquels ils ont accès à partir de Brand Portal. Cela signifie que les ressources de marque approuvées peuvent être distribuées en toute sécurité pour une utilisation hors ligne. Lisez ce qui suit pour savoir comment télécharger des ressources (ressources approuvées) à partir de Brand Portal et en savoir plus sur les [performances de téléchargement](#expected-download-performance).
@@ -134,8 +141,8 @@ Si l’utilisateur a accès à des rendus, la boîte de dialogue **[!UICONTROL T
 * afficher tous les rendus disponibles de toutes les ressources dans la liste de téléchargement ;
 * Excluez les rendus de ressources qui ne sont pas nécessaires pour le téléchargement.
 * appliquer le même jeu de rendus à tous les types de ressource similaires en un seul clic ;
-* appliquer différents ensembles de rendus pour différents types de ressources ;
-* créez un dossier distinct pour chaque ressource ;
+* Appliquer différents ensembles de rendus pour différents types de ressources.
+* Créez un dossier distinct pour chaque ressource.
 * télécharger les ressources sélectionnées et leurs rendus.
 
 ![boîte-de-dialogue-télécharger](assets/download-dialog-box.png)
