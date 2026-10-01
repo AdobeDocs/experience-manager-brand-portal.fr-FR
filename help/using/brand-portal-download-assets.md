@@ -30,7 +30,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 10f42cf00fb054b38bb5edc4e088441c4a0206da
+source-git-commit: d2c6731ba328a0acc2d95354d2e2490f5cf0b320
 workflow-type: tm+mt
 source-wordcount: '1957'
 ht-degree: 65%
@@ -178,7 +178,7 @@ Vous trouverez ci-dessous la procédure à suivre pour télécharger des ressour
      >
      >Si les ressources que vous avez téléchargées incluent également des ressources sous licence, vous êtes redirigé vers la page **[!UICONTROL Gestion des droits d’auteur]**. Dans cette page, sélectionnez les ressources, cliquez d’abord sur **[!UICONTROL Accepter]**, puis sur **[!UICONTROL Télécharger]**. Si vous choisissez de ne pas accepter, les ressources sous licence ne sont pas téléchargées.
      > 
-     >Les ressources protégées par une licence sont accompagnées d’un [contrat de licence](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/administer/drm), ce qui est fait en définissant la [propriété de métadonnées](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/administer/drm) de la ressource dans Experience Manager Assets.
+     >Les ressources protégées par une licence sont accompagnées d’un [contrat de licence](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm), ce qui est fait en définissant la [propriété de métadonnées](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm) de la ressource dans Experience Manager Assets.
 
 
      ![ressource-sous-licence](assets/licensed-asset-new.png)
@@ -236,7 +236,7 @@ Vous trouverez ci-dessous la procédure à suivre pour télécharger des ressour
 >
 >Pour prévisualiser ou télécharger des rendus dynamiques, activez Dynamic Media. Assurez-vous que le rendu Pyramid TIFF de la ressource existe dans l’instance d’auteur Experience Manager Assets où les ressources ont été publiées. Lorsqu’une ressource est publiée à partir d’Experience Manager Assets sur Brand Portal, son rendu Pyramid TIFF l’est également.
 
-Si l’[&#x200B; administrateur ne vous a pas autorisé à accéder aux rendus originaux](../using/brand-portal-adding-users.md#main-pars-procedure-202029708) vous ne pouvez pas télécharger les rendus originaux des ressources sélectionnées.
+Si l’[ administrateur ne vous a pas autorisé à accéder aux rendus originaux](../using/brand-portal-adding-users.md#main-pars-procedure-202029708) vous ne pouvez pas télécharger les rendus originaux des ressources sélectionnées.
 
 ![no-access-message](assets/no-access-message.png)
 
