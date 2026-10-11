@@ -6,30 +6,35 @@ content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: 29b877f6-4200-4299-9b8d-81d88f4e8221
-TQID: https://experienceleague.adobe.com/JDFqy51bnJFV-WNbr9gA61jykF-DJXl90SF1Xn-WGJI
+TQID: 'https://experienceleague.adobe.com/JDFqy51bnJFV-WNbr9gA61jykF-DJXl90SF1Xn-WGJI'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 10f42cf00fb054b38bb5edc4e088441c4a0206da
+    internal-label: User
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 689
+source-wordcount: '689'
 ht-degree: 75%
-
 ---
-
 # Partage de collections {#share-collections}
 
 Une collection représente un groupe de ressources connexes stockées ensemble dans Adobe Experience Manager Assets Brand Portal. Les utilisateurs peuvent créer des collections dynamiques en [appliquant l’omni-recherche ou la recherche de facettes pour filtrer les ressources](brand-portal-searching.md) associées, les stocker ensemble pour y accéder facilement et les partager ensuite avec d’autres utilisateurs de Brand Portal.
 
 <!--The administrators can share and unshare a collection with the authorized Brand Portal users. Editors and viewers can view and share the collections created by them, shared with them, and public collections.-->
 
-Les collections sont partagées sous forme de lien par le biais d’un e-mail. Toute personne ayant accès au lien de partage peut ouvrir la collection. Toutefois, les e-mails partagés peuvent être transférés à n’importe qui. En outre, les [liens partagés](https://experienceleague.adobe.com/fr/docs/experience-manager-brand-portal/using/share/brand-portal-link-share) sont temporaires et accessibles pendant une durée limitée uniquement. Les utilisateurs et les utilisatrices peuvent également être invités en tant que membres permanents des collections. Il existe les types d’utilisateurs et d’utilisatrices suivants pour les collections :
+Les collections sont partagées sous forme de lien par le biais d’un e-mail. Toute personne ayant accès au lien de partage peut ouvrir la collection. Toutefois, les e-mails partagés peuvent être transférés à n’importe qui. En outre, les [liens partagés](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/share/brand-portal-link-share) sont temporaires et accessibles pendant une durée limitée uniquement. Les utilisateurs et les utilisatrices peuvent également être invités en tant que membres permanents des collections. Il existe les types d’utilisateurs et d’utilisatrices suivants pour les collections :
 
 * **Les administrateurs et les administratrices** peuvent partager et annuler le partage d’une collection avec les utilisateurs et les utilisatrices autorisés de Brand Portal. Ils peuvent inviter d’autres utilisateurs à rejoindre une collection spécifique et définir leur rôle dans cette collection. En outre, les administrateurs et administratrices peuvent créer des collections publiques.
 
@@ -59,7 +64,7 @@ Vous trouverez ci-dessous la procédure à suivre pour partager une collection a
 
      ![](assets/collection-console.png)
 
-1. Dans la boîte de dialogue **[!UICONTROL Paramètres de la collection]**, sélectionnez les utilisateurs avec qui vous voulez partager la collection et choisissez le rôle d’utilisateur pour qu’il corresponde à leur rôle global. Par exemple, affectez le rôle Éditeur à un éditeur global ou le rôle Observateur à un observateur global.
+1. Dans la boîte de dialogue **[!UICONTROL Paramètres de la collection]**, sélectionnez les utilisateurs avec qui vous voulez partager la collection et choisissez le rôle d’utilisateur pour qu’il corresponde à leur rôle global. Par exemple, affectez le rôle Éditeur à un éditeur global, et le rôle Observateur à un observateur global.
 
    Pour que la collection soit disponible pour l’ensemble des utilisateurs et utilisatrices, quel que soit le groupe auquel ils ou elles appartiennent et leur rôle, vous pouvez également la rendre publique en activant la case à cocher **[!UICONTROL Collection publique]**.
 

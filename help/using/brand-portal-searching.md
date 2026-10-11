@@ -6,26 +6,33 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-TQID: https://experienceleague.adobe.com/KzFwzaIiTMjBh9fMsgu2MQWTAOaOAm-yMtEFnv0WvXU
+TQID: 'https://experienceleague.adobe.com/KzFwzaIiTMjBh9fMsgu2MQWTAOaOAm-yMtEFnv0WvXU'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+    internal-label: Content structure
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 1361
-ht-degree: 53%
-
+source-wordcount: '1369'
+ht-degree: 52%
 ---
-
 # Recherche de ressources sur Brand Portal {#search-assets-on-brand-portal}
 
 La fonctionnalité de recherche Brand Portal vous permet de rechercher rapidement des ressources pertinentes à l’aide de l’omni-recherche et de la recherche à facettes qui utilise des filtres pour vous aider à affiner davantage encore votre recherche. Vous pouvez rechercher des ressources au niveau des fichiers ou des dossiers et enregistrer vos résultats de recherche sous forme de collections dynamiques.
@@ -36,7 +43,7 @@ La fonctionnalité de recherche Brand Portal vous permet de rechercher rapidemen
 >
 >Cependant, vous pouvez utiliser les [filtres de recherche pour obtenir la liste des collections pertinentes](#search-collection).
 
-## Recherche de ressources à l’aide de l’omni-recherche {#search-assets-using-omnisearch}
+## Recherche de ressources à l’aide d’OmniSearch {#search-assets-using-omnisearch}
 
 Pour rechercher des ressources sur Brand Portal :
 
@@ -88,7 +95,7 @@ Par exemple, utilisez les filtres standard suivants :
    >Pour les utilisateurs et utilisatrices ne disposant pas de droits d’administration, le [!UICONTROL navigateur de chemins d’accès] du panneau [!UICONTROL Filtre] affiche uniquement la structure de contenu des dossiers (et de leurs dossiers ancêtres) partagés avec eux.\
    >Pour les utilisateurs administrateurs, l’Explorateur de chemins d’accès permet d’accéder à n’importe quel dossier de Brand Portal.
 
-   * **[!UICONTROL Type de fichier]** pour spécifier le type (image, document, fichier multimédia, archive) du fichier de ressource que vous recherchez. En outre, vous pouvez réduire l’étendue de votre recherche. Par exemple, spécifiez le type MIME (TIFF, Bitmap, Images GIMP) de l’image ou le format (PDF ou MS® Word) des documents.
+   * **[!UICONTROL Type de fichier]** pour spécifier le type (image, document, fichier multimédia, archive) du fichier de ressource que vous recherchez. En outre, vous pouvez réduire la portée de votre recherche. Par exemple, spécifiez le type MIME (TIFF, Bitmap, Images GIMP) de l’image ou le format (PDF ou MS® Word) des documents.
    * **[!UICONTROL Taille de fichier]** pour rechercher des ressources en fonction de leur taille. Vous pouvez spécifier les limites inférieure et supérieure de la plage de tailles afin d’affiner votre recherche et déterminer l’unité de mesure à rechercher.
    * **[!UICONTROL État]** pour rechercher des ressources en fonction de leur état comme l’Approbation (approuvée, modifications requises, rejetée, en attente) et l’Expiration.
    * **[!UICONTROL Évaluation moyenne]** pour rechercher des ressources en fonction de leur évaluation.
@@ -103,7 +110,7 @@ Par exemple, utilisez les filtres standard suivants :
      [!UICONTROL Prédicat de propriété] prend en charge les recherches de texte pour les éléments suivants :
 
      **Expressions partielles**
-Pour permettre la recherche de ressources à l’aide d’expressions partielles dans le prédicat de propriété, cochez la case **[!UICONTROL Recherche partielle]** dans le formulaire de recherche. Cette méthode vous permet de rechercher les ressources souhaitées même si vous ne spécifiez pas les mots ou expressions exacts utilisés dans les métadonnées de la ressource.
+     Pour permettre la recherche de ressources à l’aide d’expressions partielles dans le prédicat de propriété, cochez la case **[!UICONTROL Recherche partielle]** dans le formulaire de recherche. Cette méthode vous permet de rechercher les ressources souhaitées même si vous ne spécifiez pas les mots ou expressions exacts utilisés dans les métadonnées de la ressource.
 
      >[!NOTE]
      >
@@ -114,15 +121,15 @@ Pour permettre la recherche de ressources à l’aide d’expressions partielles
      >* `jcr:content/metadata/dc:format`
 
      Vous pouvez :
-      * Spécifiez un mot apparaissant dans l’expression recherchée dans la facette du panneau Filtres. Par exemple, si vous recherchez le terme **climb** (et que le prédicat de propriété est mappé à la propriété `dc:title`), toutes les ressources contenant le mot **climb** dans leur titre sont renvoyées.
-      * Spécifiez une partie du mot apparaissant dans l’expression recherchée, ainsi qu’un caractère générique (&#42;) pour remplir les trous.
-Par exemple, la recherche de :
-         * **climb&#42;** renvoie toutes les ressources ayant des mots commençant par les caractères « climb » dans leur titre.
-         * **&#42;climb** renvoie toutes les ressources ayant des mots se terminant par « climb » dans leur titre.
-         * **&#42;climb&#42;** renvoie toutes les ressources ayant des mots comprenant les caractères « climb » dans leur titre.
+     * Spécifiez un mot apparaissant dans l’expression recherchée dans la facette du panneau Filtres. Par exemple, si vous recherchez le terme **climb** (et que le prédicat de propriété est mappé à la propriété `dc:title`), toutes les ressources contenant le mot **climb** dans leur titre sont renvoyées.
+     * Spécifiez une partie du mot apparaissant dans l’expression recherchée, ainsi qu’un caractère générique (&#42;) pour remplir les trous.
+       Par exemple, la recherche de :
+       * **climb&#42;** renvoie toutes les ressources ayant des mots commençant par les caractères « climb » dans leur titre.
+       * **&#42;climb** renvoie toutes les ressources ayant des mots se terminant par « climb » dans leur titre.
+       * **&#42;climb&#42;** renvoie toutes les ressources ayant des mots comprenant les caractères « climb » dans leur titre.
 
      **Texte non sensible à la casse**
-Vous pouvez autoriser une recherche non sensible à la casse dans le prédicat de propriété. Activez simplement la case **[!UICONTROL Ignorer la casse]** dans le formulaire de recherche. Par défaut, la recherche de texte dans le prédicat de propriété est sensible à la casse.
+     Vous pouvez autoriser une recherche non sensible à la casse dans le prédicat de propriété. Activez simplement la case **[!UICONTROL Ignorer la casse]** dans le formulaire de recherche. Par défaut, la recherche de texte dans le prédicat de propriété est sensible à la casse.
 
    >[!NOTE]
    >
@@ -138,15 +145,15 @@ Vous pouvez autoriser une recherche non sensible à la casse dans le prédicat d
 
 1. Vous pouvez facilement accéder à un élément du résultat de recherche et revenir à ce même résultat à l’aide du bouton Précédent de votre navigateur sans avoir à relancer la requête de recherche.
 
-## Enregistrement d’une recherche en tant que collection dynamique {#save-your-searches-as-smart-collection}
+## Enregistrement d’une recherche en tant que collecte dynamique {#save-your-searches-as-smart-collection}
 
 Vous pouvez enregistrer les paramètres de recherche sous la forme d’une collection dynamique afin de pouvoir répéter rapidement la même recherche sans avoir à redéfinir les mêmes paramètres ultérieurement. Cependant, vous ne pouvez pas appliquer de filtres de recherche dans une collection.
 
-Pour enregistrer les paramètres de recherche comme collection dynamique :
+Pour enregistrer les paramètres de recherche comme collecte dynamique :
 
 1. Cliquez sur **[!UICONTROL Enregistrer la collection dynamique]** et attribuez un nom à la collection dynamique.
 
-   Pour rendre la collection dynamique accessible à tous les utilisateurs, cochez la case **[!UICONTROL Public]**. Un message confirme que la collection dynamique a été créée et ajoutée à la liste de vos recherches enregistrées.
+   Pour rendre la collection dynamique accessible à tous les utilisateurs, cochez la case **[!UICONTROL Public]**. Un message confirme que la collecte dynamique a été créée et ajoutée à la liste de vos recherches enregistrées.
 
    >[!NOTE]
    >

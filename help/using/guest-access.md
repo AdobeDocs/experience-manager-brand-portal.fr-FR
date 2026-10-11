@@ -6,32 +6,40 @@ topic-tags: introduction
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
-TQID: https://experienceleague.adobe.com/oyNPb7pxN7VLKQJko76nRzM2H1xL7e-s3E--FDTREf0
+TQID: 'https://experienceleague.adobe.com/oyNPb7pxN7VLKQJko76nRzM2H1xL7e-s3E--FDTREf0'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+    internal-label: Insights
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 1051
+source-wordcount: '1056'
 ht-degree: 54%
-
 ---
-
 # Accès des invités à Brand Portal {#guest-access-to-brand-portal}
 
-Experience Manager Assets Brand Portal permet aux invités d’accéder au portail. Un utilisateur invité n’a pas besoin d’identifiants pour accéder au portail et a accès aux ressources (et aux collections) publiques du portail. Les utilisateurs ou les utilisatrices se trouvant dans une session d’invité peuvent ajouter des ressources à leur Lightbox (collection privée) et les télécharger jusqu’au terme de leur session, à moins que la personne invitée ne choisisse de [[!UICONTROL Terminer la session]](#exit-guest-session). Une session de personne invitée reste active pendant 15 minutes.
+Experience Manager Assets Brand Portal permet aux invités d’accéder au portail. Un utilisateur invité n’a pas besoin d’identifiants pour accéder au portail et a accès aux ressources (et aux collections) publiques du portail. Les utilisateurs ou les utilisatrices se trouvant dans une session d’invité peuvent ajouter des ressources à leur Lightbox (collection privée) et les télécharger jusqu’au terme de leur session, à moins que la personne invitée ne choisisse de [[!UICONTROL Terminer la session]](#exit-guest-session). Une session de visiteur ou visiteuse anonyme reste active pendant 15 minutes.
 
-La fonctionnalité d’accès des invités permet aux entreprises de [partager rapidement](../using/brand-portal-sharing-folders.md#how-to-share-folders) les ressources approuvées avec l’audience prévue à grande échelle sans avoir à les intégrer). À compter de la version 6.4.2, Brand Portal est capable de servir plusieurs utilisateurs invités simultanés sans dépasser 10 % du nombre total d’utilisateurs par entreprise. Autoriser l’accès des invités permet de gagner du temps dans le cadre de la gestion et de l’intégration de nombreux utilisateurs avec des fonctionnalités limitées sur Brand Portal.\
+La fonctionnalité d’accès des invités permet aux entreprises de [partager rapidement](../using/brand-portal-sharing-folders.md#how-to-share-folders) les ressources approuvées avec l’audience prévue à grande échelle sans avoir à les intégrer). À compter de la version 6.4.2, Brand Portal est capable de servir plusieurs utilisateurs ou utilisatrices invités simultanés, soit 10 % du quota total d’utilisateurs ou d’utilisatrices par entreprise. Autoriser l’accès des invités permet de gagner du temps dans le cadre de la gestion et de l’intégration de nombreux utilisateurs avec des fonctionnalités limitées sur Brand Portal.\
 Les entreprises peuvent activer (ou désactiver) l’accès des invités à leur compte Brand Portal à l’aide de l’option **[!UICONTROL Autoriser l’accès des invités]** des paramètres **[!UICONTROL Accès]** du panneau des outils d’administration.
 
 <!--
@@ -54,7 +62,7 @@ Pour accéder à Brand Portal de manière anonyme, sélectionnez **[!UICONTROL C
 Une session de personne invitée reste active pendant 15 minutes.
 Ce processus conserve l’état de la **[!UICONTROL Lightbox]** pendant 15 minutes à compter du début de la session. Ensuite, la session d’invité en cours redémarre, ce qui entraîne la perte de l’état de Lightbox.
 
-Par exemple, un utilisateur invité se connecte à Brand Portal à 15 h 00 et ajoute des ressources à **[!UICONTROL Lightbox]** pour les télécharger à 15 :05. Si l’utilisateur ne télécharge pas la collection **[!UICONTROL Lightbox]** (ou ses ressources) avant 15 :15 heures (dans les 15 minutes qui suivent la connexion), il doit redémarrer la session. Le **[!UICONTROL Lightbox]** est vide, ce qui signifie que les ressources chargées ne seront plus disponibles si la session a été perdue.
+Par exemple, un utilisateur invité se connecte à Brand Portal à 15 h 00 et ajoute des ressources à **[!UICONTROL Lightbox]** pour les télécharger à 15 h 05. Si l’utilisateur ne télécharge pas la collection **[!UICONTROL Lightbox]** (ou ses ressources) avant 15 h 15 (dans les 15 minutes qui suivent la connexion), il doit redémarrer la session. Le **[!UICONTROL Lightbox]** est vide, ce qui signifie que les ressources chargées ne seront plus disponibles si la session a été perdue.
 
 ## Sessions d’invités simultanées permises {#concurrent-guest-sessions-allowed}
 
@@ -122,11 +130,11 @@ Les utilisateurs invités peuvent accéder aux ressources publiques sur Brand P
 
 **Les utilisateurs invités ne peuvent pas** :
 
-* créer des collections et des recherches enregistrées, ni les partager ;
+* créer des collections et des recherches enregistrées, ou les partager davantage ;
 * accéder aux paramètres des dossiers et collections ;
 * partager des ressources sous la forme de liens.
 
-### Téléchargement de ressources au cours d’une session d’invité
+### Télécharger des ressources au cours d’une session d’invité
 
 Les utilisateurs invités peuvent télécharger directement les ressources partagées publiquement ou exclusivement avec les utilisateurs invités sur Brand Portal. Ils peuvent également ajouter des ressources à **[!UICONTROL Lightbox]** (collection publique) et télécharger la collection **[!UICONTROL Lightbox]** avant l’expiration de leur session.
 
@@ -137,7 +145,7 @@ Pour télécharger des ressources et des collections, utilisez l’icône Télé
 
 ![](assets/download-on-guest.png)
 
-Sélectionnez **[!UICONTROL Activer l’accélération des téléchargements]** dans la boîte de dialogue [!UICONTROL Télécharger] pour améliorer [&#x200B; les performances de téléchargement](../using/accelerated-download.md).
+Sélectionnez **[!UICONTROL Activer l’accélération des téléchargements]** dans la boîte de dialogue [!UICONTROL Télécharger] pour améliorer [ les performances de téléchargement](../using/accelerated-download.md).
 
 ## Quitter une session d’invité {#exit-guest-session}
 
@@ -147,4 +155,4 @@ Pour quitter une session d’invité, utilisez **[!UICONTROL Terminer la session
 
 ## Surveillance des activités des utilisateurs invités {#monitoring-guest-user-activities}
 
-Les administrateurs peuvent suivre l’interaction des utilisateurs invités avec Brand Portal. Les rapports générés dans Brand Portal peuvent fournir des informations clés sur les activités des personnes invitées. Par exemple, le rapport **[!UICONTROL Télécharger]** peut être utilisé pour suivre le nombre de ressources téléchargées par l’utilisateur invité. Le rapport **[!UICONTROL Connexions utilisateur]** peut indiquer la date de la dernière connexion de l’utilisateur invité au portail et la fréquence des connexions pendant une durée spécifiée.
+Les administrateurs peuvent su l’interaction des utilisateurs invités avec Brand Portal. Les rapports générés dans Brand Portal peuvent fournir des informations clés sur les activités des personnes invitées. Par exemple, le rapport **[!UICONTROL Télécharger]** peut être utilisé pour suivre le nombre de ressources téléchargées par l’utilisateur invité. Le rapport **[!UICONTROL Connexions utilisateur]** peut indiquer la date de la dernière connexion de l’utilisateur invité au portail et la fréquence des connexions pendant une durée spécifiée.

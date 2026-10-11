@@ -5,25 +5,31 @@ content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: d28cf927-60e8-437e-9cba-92f7e19020e7
-TQID: https://experienceleague.adobe.com/zcuaWI7GsV39hpBMfzoB9Oiep5IVgmmfz79J-cOm32g
+TQID: 'https://experienceleague.adobe.com/zcuaWI7GsV39hpBMfzoB9Oiep5IVgmmfz79J-cOm32g'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+    internal-label: Security
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 1108
+source-wordcount: '1112'
 ht-degree: 54%
-
 ---
-
 # Partage de dossiers sur Brand Portal {#share-folders}
 
 Les ressources doivent être publiées sur Brand Portal à partir d’une instance de création Experience Manager préconfigurée, car Brand Portal ne prend pas en charge l’ingestion des ressources.
@@ -40,7 +46,7 @@ La section suivante décrit le workflow de partage de dossiers et l’accès uti
 
 ### Partage de dossiers avec des groupes d’utilisateurs sur Brand Portal {#sharing-folders-with-user-groups-on-brand-portal}
 
-Les droits d’accès aux ressources d’un dossier dépendent des droits d’accès à son dossier parent, indépendamment des paramètres des dossiers enfants. Les [ACL](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/security/security) d’AEM régissent ce comportement, les dossiers enfants héritant des ACL de leurs dossiers parents. Supposons, par exemple, que le dossier A contienne le dossier B, qui contient le dossier C. Un groupe d’utilisateurs (ou plusieurs utilisateurs) disposant de droits d’accès sur le dossier A dispose alors des mêmes droits d’accès sur le dossier B et le dossier C. Le dossier B étant le dossier enfant de A hérite de ses listes de contrôle d’accès, et le dossier C étant le dossier enfant de B hérite de ses listes de contrôle d’accès.
+Les droits d’accès aux ressources d’un dossier dépendent des droits d’accès à son dossier parent, indépendamment des paramètres des dossiers enfants. Les [ACL](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/security) d’AEM régissent ce comportement, les dossiers enfants héritant des ACL de leurs dossiers parents. Supposons, par exemple, que le dossier A contienne le dossier B, qui contient le dossier C. Un groupe d’utilisateurs (ou plusieurs utilisateurs) disposant de droits d’accès sur le dossier A dispose alors des mêmes droits d’accès sur le dossier B et le dossier C. Le dossier B étant le dossier enfant de A hérite de ses listes de contrôle d’accès, et le dossier C étant le dossier enfant de B hérite de ses listes de contrôle d’accès.
 
 De même, les groupes d’utilisateurs (ou utilisateurs) disposant d’autorisations pour accéder uniquement au dossier B disposent des mêmes autorisations d’accès sur le dossier C, mais pas sur le dossier A. Adobe recommande d’organiser le contenu de sorte que les ressources les plus exposées soient placées dans des dossiers enfants, ce qui permet de restreindre l’accès des dossiers enfants jusqu’au dossier racine.
 

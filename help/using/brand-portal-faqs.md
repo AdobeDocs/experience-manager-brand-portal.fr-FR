@@ -5,25 +5,30 @@ content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: null
+discoiquuid:
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
-TQID: https://experienceleague.adobe.com/7CFDihMZL-A0aWNO37Gf4C-3l4YwqHd39lnl-PSI6NA
+TQID: 'https://experienceleague.adobe.com/7CFDihMZL-A0aWNO37Gf4C-3l4YwqHd39lnl-PSI6NA'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+    internal-label: User
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 1513
+source-wordcount: '1519'
 ht-degree: 97%
-
 ---
-
 # Questions fréquentes {#frequently-asked-questions}
 
 Les questions fréquentes relatives à Brand Portal sont axées sur les questions et problèmes que les utilisateurs et utilisatrices finaux peuvent avoir durant l’utilisation de la dernière version d’Experience Manager Assets Brand Portal 6.4.6 ou versions antérieures.
@@ -46,7 +51,7 @@ Le problème a été corrigé dans la version 6.5.5 de Experience Manager Assets
 
 **Réponse :** contactez votre administrateur ou administratrice Experience Manager Assets pour vérifier les configurations et vous assurer que votre client ou cliente Brand Portal a une configuration avec une seule instance de création Experience Manager Assets.
 
-Ce problème peut se produire lorsque vous avez configuré un client Brand Portal sur plusieurs instances de création Experience Manager Assets. Par exemple, l’administrateur ou l’administratrice configure le même client ou la même cliente Brand Portal sur l’instance de création Experience Manager Assets dans un environnement d’évaluation et de production. Dans ce cas, la publication de ressource se déclenche dans Brand Portal, mais l’instance de création Experience Manager Assets n’a pas pu importer la ressource, car l’agent de réplication ne reçoit pas le jeton de demande.
+Ce problème peut se produire lorsque vous avez configuré un client Brand Portal sur plusieurs instances de création Experience Manager Assets. Par exemple, l’administrateur ou l’administratrice configure le même client ou la même cliente Brand Portal sur l’instance de création Experience Manager Assets d’un environnement d’évaluation et d’un environnement de production. Dans ce cas, la publication de ressource se déclenche dans Brand Portal, mais l’instance de création Experience Manager Assets n’a pas pu importer la ressource, car l’agent de réplication ne reçoit pas le jeton de demande.
 
 
 **Question : je ne parviens pas à publier des ressources sur Brand Portal à partir d’Experience Manager Assets. Le journal de réplication indique que la connexion a expiré. Y a-t-il une solution rapide ?**
@@ -57,7 +62,7 @@ Effectuez les étapes suivantes pour configurer l’agent de réplication :
 
 1. Connectez-vous à votre instance de création Experience Manager Assets.
 1. Dans le panneau **Outils**, accédez à **[!UICONTROL Déploiement]** > **[!UICONTROL Réplication]**.
-1. Sur la page Réplication, cliquez sur **[!UICONTROL `Agents on author`]**. Vous voyez les quatre agents de réplication pour votre client Brand Portal.
+1. Sur la page Réplication, cliquez sur **[!UICONTROL `Agents on author`]**. Vous voyez les quatre agents de réplication pour votre tenant Brand Portal.
 1. Cliquez sur l’URL de l’agent de réplication pour ouvrir les détails le concernant.
 1. Cliquez sur **[!UICONTROL Modifier]** pour modifier les paramètres de l’agent de réplication.
 1. Dans les Paramètres d’agent, cliquez sur l’onglet **[!UICONTROL Étendu]**.
@@ -76,7 +81,7 @@ Effectuez les étapes suivantes pour configurer l’agent de réplication :
 
 **Question : ai-je perdu l’accès aux ressources et fonctionnalités existantes ou aux configurations que j’ai créées ?**
 
-**Réponse :** toutes les fonctionnalités et configurations existantes demeurent intactes. Les utilisateurs et utilisatrices finaux ne sont pas affectés. En outre, les contenus restent intacts.
+**Réponse :** toutes les fonctionnalités et configurations existantes demeurent intactes. Les utilisateurs et utilisatrices finaux ne sont pas affectés, et les contenus restent intacts.
 
 
 
@@ -95,7 +100,7 @@ Pour les mises à jour et les changements de versions, Adobe vous recommande de 
 
 **Question : dois-je intervenir en tant qu’utilisateur ou utilisatrice Brand Portal ?**
 
-**Réponse :** la version 6.4.5 de Brand Portal comprend une nouvelle fonctionnalité d’approvisionnement des ressources. L’administrateur ou administratrice doit configurer la fonction d’approvisionnement des ressources dans Experience Manager Assets afin d’activer la fonctionnalité pour les utilisateurs et utilisatrices de Brand Portal. Pour plus d’informations, consultez [Activation de la fonction d’approvisionnement des ressources](brand-portal-asset-sourcing.md).
+**Réponse :** la version 6.4.5 de Brand Portal comprend une nouvelle fonctionnalité d’approvisionnement des ressources. L’administrateur ou l’administratrice doit configurer la fonction d’approvisionnement des ressources dans Experience Manager Assets afin d’activer la fonctionnalité pour les utilisateurs et utilisatrices de Brand Portal. Pour plus d’informations, consultez [Activation de la fonction d’approvisionnement des ressources](brand-portal-asset-sourcing.md).
 
 
 
@@ -182,7 +187,7 @@ Ces utilisateurs accèdent au dossier **Contribution** et téléchargent le cont
 
 **Question : que se passe-t-il si un dossier en flux est publié d’Experience Manager Assets vers Brand Portal ?**
 
-**Réponse :** dans Experience Manager Assets, les journaux sont mis à jour pour chaque publication d’un dossier dans Brand Portal. Lors de la publication, toutes les ressources non publiées dans Brand Portal sont ajoutées à la file d’attente de réplication. Les fichiers ajoutés au dossier une fois le traitement de publication déclenché ne sont pas publiés dans Brand Portal. Lorsque un utilisateur ou une utilisatrice Experience Manager Assets republie le dossier, seules les ressources non publiées au préalable (et présentes dans la file d’attente de réplication) sont publiées dans Brand Portal. Ce processus s’applique aux dossiers publiés d’Experience Manager Assets vers Brand Portal et pour le dossier SHARED d’un dossier Contribution.
+**Réponse :** dans Experience Manager Assets, les journaux sont mis à jour pour chaque publication d’un dossier dans Brand Portal. Lors de la publication, toutes les ressources non publiées dans Brand Portal sont ajoutées à la file d’attente de réplication. Les ressources ajoutées au dossier une fois le traitement de publication déclenché ne sont pas publiées dans Brand Portal. Lorsqu’un utilisateur ou une utilisatrice Experience Manager Assets republie le dossier, seules les ressources non publiées au préalable (et présentes dans la file d’attente de réplication) sont publiées dans Brand Portal. Ce processus s’applique à tout dossier publié depuis Experience Manager Assets vers Brand Portal, ainsi qu’au dossier SHARED d’un dossier Contribution.
 
 **Question : qui dois-je contacter en cas de questions ?**
 

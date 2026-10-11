@@ -6,7 +6,7 @@ contentOwner: Vishabh Gupta
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download, download-install, download assets
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-TQID: https://experienceleague.adobe.com/RxwM021BfmZtMB1oi-EtwMuHinMTOKclwEUNjcQu6o4
+TQID: 'https://experienceleague.adobe.com/RxwM021BfmZtMB1oi-EtwMuHinMTOKclwEUNjcQu6o4'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -17,6 +17,8 @@ feature_v2:
     internal-label: Dynamic Media
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
     internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: cf50b0d2-df62-495c-a741-4fa0284ca4fc
     internal-label: Hybrid mode
@@ -30,7 +32,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: d2c6731ba328a0acc2d95354d2e2490f5cf0b320
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
 source-wordcount: '1957'
 ht-degree: 65%
@@ -118,7 +120,7 @@ Le tableau suivant montre si un utilisateur a accès aux rendus en fonction des 
 | ACTIVÉ | ACTIVÉ | ACTIVÉ | ACTIVÉ | Afficher et télécharger tous les rendus |
 | ACTIVÉ | ACTIVÉ | DÉSACTIVÉ | DÉSACTIVÉ | Afficher la ressource originale |
 | DÉSACTIVÉ | DÉSACTIVÉ | ACTIVÉ | ACTIVÉ | Afficher et télécharger la ressource d’origine |
-| ACTIVÉ | DÉSACTIVÉ | ACTIVÉ | ACTIVÉ | Afficher et télécharger les ressources d’origine et les rendus personnalisés |
+| ACTIVÉ | DÉSACTIVÉ | ACTIVÉ | ACTIVÉ | Afficher et télécharger la ressource d’origine et les rendus personnalisés |
 | DÉSACTIVÉ | ACTIVÉ | ACTIVÉ | ACTIVÉ | Afficher et télécharger les ressources d’origine et les rendus du système |
 | ACTIVÉ | DÉSACTIVÉ | DÉSACTIVÉ | DÉSACTIVÉ | Afficher la ressource originale |
 | DÉSACTIVÉ | ACTIVÉ | DÉSACTIVÉ | DÉSACTIVÉ | Afficher la ressource originale |
@@ -138,7 +140,7 @@ Les utilisateurs de Brand Portal peuvent télécharger plusieurs ressources, do
 
 Si l’utilisateur a accès à des rendus, la boîte de dialogue **[!UICONTROL Télécharger]** améliorée apparaît avec les fonctionnalités suivantes :
 
-* afficher tous les rendus disponibles de toutes les ressources dans la liste de téléchargement ;
+* afficher tous les rendus disponibles de n’importe quelle ressource dans la liste de téléchargement ;
 * Excluez les rendus de ressources qui ne sont pas nécessaires pour le téléchargement.
 * appliquer le même jeu de rendus à tous les types de ressource similaires en un seul clic ;
 * Appliquer différents ensembles de rendus pour différents types de ressources.
@@ -178,7 +180,7 @@ Vous trouverez ci-dessous la procédure à suivre pour télécharger des ressour
      >
      >Si les ressources que vous avez téléchargées incluent également des ressources sous licence, vous êtes redirigé vers la page **[!UICONTROL Gestion des droits d’auteur]**. Dans cette page, sélectionnez les ressources, cliquez d’abord sur **[!UICONTROL Accepter]**, puis sur **[!UICONTROL Télécharger]**. Si vous choisissez de ne pas accepter, les ressources sous licence ne sont pas téléchargées.
      > 
-     >Les ressources protégées par une licence sont accompagnées d’un [contrat de licence](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/administer/drm), ce qui est fait en définissant la [propriété de métadonnées](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/administer/drm) de la ressource dans Experience Manager Assets.
+     >Les ressources protégées par une licence sont accompagnées d’un [contrat de licence](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm), ce qui est fait en définissant la [propriété de métadonnées](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm) de la ressource dans Experience Manager Assets.
 
 
      ![ressource-sous-licence](assets/licensed-asset-new.png)
@@ -236,7 +238,7 @@ Vous trouverez ci-dessous la procédure à suivre pour télécharger des ressour
 >
 >Pour prévisualiser ou télécharger des rendus dynamiques, activez Dynamic Media. Assurez-vous que le rendu Pyramid TIFF de la ressource existe dans l’instance d’auteur Experience Manager Assets où les ressources ont été publiées. Lorsqu’une ressource est publiée à partir d’Experience Manager Assets sur Brand Portal, son rendu Pyramid TIFF l’est également.
 
-Si l’[&#x200B; administrateur ne vous a pas autorisé à accéder aux rendus originaux](../using/brand-portal-adding-users.md#main-pars-procedure-202029708) vous ne pouvez pas télécharger les rendus originaux des ressources sélectionnées.
+Si l’[ administrateur ne vous a pas autorisé à accéder aux rendus originaux](../using/brand-portal-adding-users.md#main-pars-procedure-202029708) vous ne pouvez pas télécharger les rendus originaux des ressources sélectionnées.
 
 ![no-access-message](assets/no-access-message.png)
 
@@ -256,7 +258,7 @@ Les utilisateurs peuvent prévisualiser différents rendus de ressources, sélec
 
 Vous trouverez ci-dessous la procédure à suivre pour télécharger des rendus de ressources à partir de la page des détails de la ressource :
 
-1. Connectez-vous à votre client de Brand Portal et cliquez sur la ressource pour ouvrir la page des détails de celle-ci.
+1. Connectez-vous à votre tenant Brand Portal et cliquez sur la ressource pour ouvrir la page des détails de celle-ci.
 1. Cliquez sur l’icône de recouvrement située à gauche et cliquez sur **[!UICONTROL Rendus]**.
 
    ![navigation-rendus](assets/rendition-navigation.png)
@@ -441,9 +443,9 @@ L’expérience de téléchargement de fichier peut varier pour les utilisateurs
 
 | Emplacement du client | Latence entre le client et le serveur | Vitesse de téléchargement prévue | Durée de téléchargement d’un fichier de 2 Go |
 |-------------------------|-----------------------------------|-------------------------|------------------------------------|
-| Ouest des Etats-Unis (Californie N.) | 18 millisecondes | 7,68 Mo/s. | 4 minutes |
+| Ouest des États-Unis (Californie N.) | 18 millisecondes | 7,68 Mo/s. | 4 minutes |
 | Ouest des Etats-Unis (Oregon) | 42 millisecondes | 3,84 Mo/s. | 9 minutes |
-| Est des Etats-Unis (Virginie N.) | 85 millisecondes | 1,61 Mo/s. | 21 minutes |
+| Est des États-Unis (Virginie N.) | 85 millisecondes | 1,61 Mo/s. | 21 minutes |
 | Asie-Pacifique (Tokyo) | 124 millisecondes | 1,13 Mo/s. | 30 minutes |
 | Noida | 275 millisecondes | 0,5 Mo/s. | 68 minutes |
 | Sydney | 175 millisecondes | 0,49 Mo/s. | 69 minutes |
@@ -453,4 +455,4 @@ L’expérience de téléchargement de fichier peut varier pour les utilisateurs
 
 >[!NOTE]
 >
->Les données citées sont observées dans les situations de test et peuvent varier pour des utilisateurs à des emplacements différents avec une latence et une bande passante différentes.
+>Les données citées sont observées dans des conditions de test et peuvent varier pour des utilisateurs et utilisatrices à des emplacements différents avec une latence et une bande passante différentes.
