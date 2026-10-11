@@ -229,7 +229,7 @@ Si l’accélération de téléchargement ne fonctionne pas, essayez les suggest
 
    Si les ports ne sont pas ouverts, demandez à votre équipe réseau de veiller à ce que les ports 33001 (à la fois TCP et UDP) ne soient pas bloqués dans le pare-feu.
 
-1. Si les ports sont ouverts, vérifiez si votre réseau n&#39;est pas lent en mesurant la bande passante disponible à l&#39;aide de [](https://www.speedtest.net/).
+1. Si les ports sont ouverts, vérifiez si votre réseau n&#39;est pas lent en mesurant la bande passante disponible à l&#39;aide de [&#128279;](https://www.speedtest.net/).
 
    Si la bande passante est faible (1 à 10 Mbit/s) ou en Kbit/s, utilisez les Préférences Aspera et essayez de limiter la bande passante en fonction de celle disponible.
 

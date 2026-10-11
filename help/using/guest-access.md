@@ -145,7 +145,7 @@ Pour télécharger des ressources et des collections, utilisez l’icône Télé
 
 ![](assets/download-on-guest.png)
 
-Sélectionnez **[!UICONTROL Activer l’accélération des téléchargements]** dans la boîte de dialogue [!UICONTROL Télécharger] pour améliorer [ les performances de téléchargement](../using/accelerated-download.md).
+Sélectionnez **[!UICONTROL Activer l’accélération des téléchargements]** dans la boîte de dialogue [!UICONTROL Télécharger] pour améliorer [&#x200B; les performances de téléchargement](../using/accelerated-download.md).
 
 ## Quitter une session d’invité {#exit-guest-session}
 
