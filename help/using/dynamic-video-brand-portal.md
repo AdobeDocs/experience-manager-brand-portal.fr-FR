@@ -6,29 +6,40 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: download-install
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
-TQID: https://experienceleague.adobe.com/LZ7QHhEUSQtnreqQNBHt89LDjuHGAEHKy-e4zh3xKjU
+TQID: 'https://experienceleague.adobe.com/LZ7QHhEUSQtnreqQNBHt89LDjuHGAEHKy-e4zh3xKjU'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
+    internal-label: Dynamic Media
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: b112da9a-40c7-4e3d-8f68-114cdbd87ae4
+    internal-label: Video encoding
   - id: cf50b0d2-df62-495c-a741-4fa0284ca4fc
+    internal-label: Hybrid mode
   - id: d17d085a-e808-49dd-b9a6-85a996b999bd
+    internal-label: Viewers
   - id: d8e79b3c-92b5-4c4d-a46c-5f16d63a14dc
+    internal-label: Viewer presets
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
   - id: ee69dd13-2aba-4eb0-912b-399e82368d73
+    internal-label: Scene7 mode
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4b423f850ccbdf8c2c2da14a7cd5ab844502883a
+    internal-label: User
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 1412
+source-wordcount: '1412'
 ht-degree: 40%
-
 ---
-
 # Prise en charge de la vidéo dynamique sur Brand Portal {#dynamic-video-support-on-brand-portal}
 
 Prévisualisez et lisez des vidéos de manière adaptative sur Brand Portal grâce à la prise en charge de Dynamic Media. Téléchargez également les rendus dynamiques à partir du portail et des liens partagés.
@@ -114,9 +125,9 @@ Si vous utilisez les fonctionnalités du mode Dynamic Media - **[!DNL Scene7]*
 
 ![Mappage un-à-un Auteur et Brand Portal](assets/BPDynamicMedia.png)
 
-### Détails de configuration identiques sur l’instance de création Experience Manager Author et Brand Portal
+### Détails de configuration identiques sur l’instance de création Experience Manager et Brand Portal
 
-Assurez-vous que les détails de la configuration soient identiques dans Brand Portal et dans la **[!UICONTROL Configuration Cloud Experience Manager]**. Les détails identiques de la configuration sont les suivants :
+Assurez-vous que les détails de la configuration soient identiques dans Brand Portal et dans la **[!UICONTROL Configuration Cloud Experience Manager]**. Les mêmes détails de configuration sont les suivants :
 
 * **[!UICONTROL Titre]**
 * **[!UICONTROL ID d’enregistrement]**
@@ -147,7 +158,7 @@ Si l’instance de création Experience Manager s’exécute en mode hybride Dyn
 >
 >Les [profils de codage vidéo](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/dynamic/video-profiles) ne sont pas publiés sur Brand Portal. Au lieu de cela, ils sont récupérés à partir du serveur **[!UICONTROL Scene7]**. Par conséquent, pour que les codes vidéo soient lus correctement dans Brand Portal, assurez-vous que les détails de configuration soient identiques à ceux de [Dynamic Media Cloud Services (mode [!DNL Scene7])](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services) dans votre instance de création Experience Manager.
 
-Pour définir les configurations Dynamic Media sur des clients Brand Portal :
+Pour définir les configurations Dynamic Media sur les locataires Brand Portal :
 
 1. Sélectionnez le logo Experience Manager pour accéder aux outils d’administration dans la barre d’outils supérieure de Brand Portal.
 1. Dans le panneau des outils d’administration, sélectionnez la vignette **[!UICONTROL Vidéo]**.

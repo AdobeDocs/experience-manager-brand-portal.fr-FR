@@ -1,31 +1,37 @@
 ---
-title: Dépannage des problèmes de publication en parallèle sur Brand Portal
+title: Résoudre les problèmes de publication en parallèle sur Brand Portal
 description: Dépannez la publication en parallèle.
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: brand-portal
 role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
-TQID: https://experienceleague.adobe.com/1Lui1NdyGzMArtIFPix9hzBzwBwtwfoxb8K3u4b9Aeo
+TQID: 'https://experienceleague.adobe.com/1Lui1NdyGzMArtIFPix9hzBzwBwtwfoxb8K3u4b9Aeo'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+    internal-label: Troubleshooting
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 953
+source-wordcount: '954'
 ht-degree: 50%
-
 ---
-
-# Dépannage des problèmes de publication en parallèle sur Brand Portal {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
+# Résoudre les problèmes de publication en parallèle sur Brand Portal {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
 Brand Portal est configuré avec Experience Manager Assets, de sorte que les ressources de marque approuvées soient automatiquement ingérées (ou publiées) à partir de l’instance de création Experience Manager Assets. Une fois [configuré](../using/configure-aem-assets-with-brand-portal.md), l’auteur Experience Manager utilise un agent de réplication pour répliquer une ou plusieurs ressources sélectionnées vers Brand Portal Cloud Service pour l’utilisation approuvée par les utilisateurs de Brand Portal. Plusieurs agents de réplication sont utilisés dans Experience Manager 6.2 SP1-CFP5, Experience Manager CFP 6.3.0.2 et les versions ultérieures pour permettre une publication parallèle à grande vitesse.
 
@@ -79,16 +85,16 @@ ii. Supprimer `/etc/cloudservices/mediaportal/<config_name>`
 
 1. Accédez à localhost:4502/useradmin :\
    i. Rechercher un utilisateur `mac-<tenantid>replication`
-ii. Supprimer cet utilisateur
+   ii. Supprimer cet utilisateur
 
-Maintenant, tout le système est nettoyé. Vous pouvez maintenant essayer de créer une configuration de service cloud tout en utilisant l’application JWT existante. Il n’est pas nécessaire de créer une application, mais vous devez mettre à jour la clé publique à partir de la configuration cloud créée.
+Maintenant, tout le système est nettoyé. Vous pouvez maintenant essayer de créer une configuration de service cloud tout en utilisant l’application JWT existante. Il n’est pas nécessaire de créer une application, mais vous devez mettre à jour la clé publique à partir de la configuration cloud nouvellement créée.
 
 >[!NOTE]
 >
 >Ne modifiez aucun paramètre généré automatiquement.
 
 
-## Problème de visibilité des clients d’applications JWT sur Developer Connection {#developer-connection-jwt-application-tenant-visibility-issue}
+## Problème de visibilité du tenant de l’application JWT sur Developer Connection {#developer-connection-jwt-application-tenant-visibility-issue}
 
 Si, sur `https://legacy-oauth.cloud.adobe.io/`, toutes les organisations (clients) pour lesquelles les utilisateurs actuels sont hébergés par l’administrateur système sont répertoriées. Si vous ne trouvez pas le nom de l’organisation ici ou si vous ne pouvez pas créer d’application pour un client requis ici, vérifiez si vous disposez des droits suffisants (d’administrateur système).
 
@@ -131,7 +137,7 @@ En fonction des erreurs, il est conseillé de consigner un ticket d’assistance
 
 ## Jeton de configuration Brand Portal IMS expiré {#token-expired}
 
-Si votre environnement Brand Portal s’arrête brusquement, il est possible que les configurations IMS ne fonctionnent pas correctement. Le système indique une configuration IMS non intègre et affiche un message d’erreur (similaire à ce qui suit) indiquant que votre jeton d’accès a expiré.
+Si votre environnement Brand Portal s’arrête brusquement, il est possible que les configurations IMS ne fonctionnent pas correctement. Le système indique une configuration IMS défaillante et affiche un message d’erreur (similaire à ce qui suit) indiquant que votre jeton d’accès a expiré.
 
 `com.adobe.granite.auth.oauth.AccessTokenProvider failed to get access token from authorization server status: 400 response: Unknown macro: {"error"}`
 

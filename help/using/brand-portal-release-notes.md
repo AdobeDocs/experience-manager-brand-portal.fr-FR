@@ -5,7 +5,7 @@ content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-TQID: https://experienceleague.adobe.com/e2-MbP-f0xwBB8JLpb-7V80uNP-0N8cCnJeCLJCfRm0
+TQID: 'https://experienceleague.adobe.com/e2-MbP-f0xwBB8JLpb-7V80uNP-0N8cCnJeCLJCfRm0'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
     internal-label: Experience Manager Assets
@@ -16,6 +16,8 @@ feature_v2:
     internal-label: Dynamic Media
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
     internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: a0cde32c-c339-4649-bd06-f1111bc952fc
     internal-label: Smart Crop
@@ -26,7 +28,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 10f42cf00fb054b38bb5edc4e088441c4a0206da
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
 source-wordcount: '1633'
 ht-degree: 93%
@@ -122,7 +124,7 @@ Les améliorations suivantes ont été apportées à cette version :
 Cette version comprend les correctifs suivants :
 
 * Les balises et libellés longs ne s’affichent pas correctement pour les filtres de recherche.
-* Impossible d’afficher les noms des rendus longs dans la boîte de dialogue Télécharger.
+* Impossible d’afficher les noms de rendu longs dans la boîte de dialogue Télécharger.
 * Impossible de prévisualiser les ressources vidéo en mode Carte.
 
 ### Version de mai 2023 {#may-2023}
@@ -159,7 +161,7 @@ Les améliorations suivantes ont été apportées à cette version :
 
   ![Informer l’administrateur ou l’administratrice de la contribution de ressources](assets/notify-admin.png)
 
-* Une utilisatrice ou un utilisateur sans autorisation ne peut pas demander l’accès à Brand Portal si le demande d’accès est désactivée.
+* Une utilisatrice ou un utilisateur sans autorisation ne peut pas demander l’accès à Brand Portal si la demande d’accès est désactivée.
 * Seules les organisations configurées pour Brand Portal sont visibles dans la liste du sélecteur de profil.
 
 **Problèmes connus**
@@ -175,7 +177,7 @@ Cette version présente les problèmes connus suivants :
 
 Cette version comprend des correctifs pour les problèmes critiques suivants :
 
-* Temps de réponse lent lors de la copie de fichiers volumineux de Brand Portal vers un outil tiers.
+* Temps de réponse lents lors de la copie de fichiers volumineux de Brand Portal vers un outil tiers.
 * Lorsque vous cochez la case Nombre de rendus, les cases permettant de sélectionner des rendus individuels sont désactivées.
 * Temps de réponse lent pour la recherche.
 
@@ -206,7 +208,7 @@ Cette version comprend des correctifs pour les problèmes critiques suivants :
 
 **Nouvelles fonctionnalités**
 
-Brand Portal exécute désormais des tâches automatiques toutes les douze heures afin de supprimer toutes les ressources Brand Portal publiées sur AEM. Par conséquent, vous n’avez pas besoin de supprimer manuellement les ressources du dossier Contribution pour que la taille du dossier reste inférieure à la limite de seuil.
+Brand Portal exécute désormais des tâches automatiques toutes les douze heures afin de supprimer toutes les ressources Brand Portal publiées sur AEM. Par conséquent, vous n’avez pas besoin de supprimer manuellement les ressources du dossier Contribution pour que la taille du dossier reste inférieure au seuil.
 
 **Problèmes critiques résolus**
 
@@ -214,9 +216,9 @@ Cette version comprend des correctifs pour les problèmes critiques suivants :
 
 * Lorsque vous téléchargez un dossier ou une collection contenant des ressources avec des balises de couleur, un fichier XML est également téléchargé.
 * Lorsque vous téléchargez une vidéo qui comprend des rendus, Brand Portal crée un fichier .ZIP non valide.
-* Lorsque vous créez des paramètres prédéfinis et des ressources sur l’auteur AEM, puis que vous les publiez sur Brand Portal, vous pouvez sélectionner des rendus dynamiques lors du téléchargement des ressources. Cependant, vous ne pouvez pas extraire le fichier .ZIP téléchargé. Ce problème empêche l’accès au contenu téléchargé.
+* Lorsque vous créez des paramètres prédéfinis et des ressources dans l’instance de création Adobe Experience Manager, puis que vous les publiez sur Brand Portal, vous pouvez sélectionner des rendus dynamiques lors du téléchargement des ressources. Cependant, vous ne pouvez pas extraire le fichier .ZIP téléchargé. Ce problème empêche l’accès au contenu téléchargé.
 * Problèmes lors du téléchargement de ressources vidéo à partir de certains dossiers disponibles dans Brand Portal.
-* Lorsque vous partagez l’URL du dossier Contribution à l’aide d’un e-mail, les rôles Observateur et Éditeur rencontrent des problèmes lors de l’accès à leur dossier parent à l’aide du chemin de navigation.
+* Lorsque vous partagez l’URL du dossier Contribution à l’aide d’un e-mail, les rôles Observateur et Éditeur rencontrent des problèmes lors de l’accès au dossier parent à l’aide du chemin de navigation.
 * L’approvisionnement du rapport publié affiche une heure de début de tâche incorrecte.
 
 ### Version de février 2022 {#feb-2022}

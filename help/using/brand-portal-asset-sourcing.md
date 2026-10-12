@@ -12,23 +12,28 @@ audience: author, marketer
 version: Experience Manager 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-TQID: https://experienceleague.adobe.com/52tECcTrEZL6eSx--nL07mGMJ94Tf7B6ZlHQ8BlqNvY
+TQID: 'https://experienceleague.adobe.com/52tECcTrEZL6eSx--nL07mGMJ94Tf7B6ZlHQ8BlqNvY'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+    internal-label: User
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 662
+source-wordcount: '662'
 ht-degree: 53%
-
 ---
-
 # Présentation de l’approvisionnement des ressources {#overview-asset-sourcing-in-bp}
 
 L’**approvisionnement des ressources** permet aux utilisateurs d’Experience Manager Assets (administrateurs/non-administrateurs) de créer des dossiers avec une propriété **Contribution des ressources** supplémentaire, en s’assurant que les nouveaux dossiers s’ouvrent lorsque des utilisateurs de Brand Portal envoient des ressources. Cela déclenche automatiquement un workflow, ce qui crée deux sous-dossiers supplémentaires, appelés **SHARED** et **NEW**, dans le dossier **Contribution** nouvellement créé. L’administrateur définit les exigences en chargeant un résumé relatif aux types de ressources à ajouter au dossier de contribution. Ils chargent un ensemble de ressources de base dans le dossier **SHARED**, fournissant ainsi aux utilisateurs de Brand Portal les informations de référence nécessaires. L’administrateur peut alors octroyer aux utilisateurs actifs de Brand Portal l’accès au dossier de contribution avant de publier le nouveau dossier **Contribution** sur Brand Portal. Lorsque l’utilisateur a terminé d’ajouter du contenu dans le dossier **NEW**, il peut republier le dossier de contribution dans l’environnement de création Experience Manager. Notez que l’importation du nouveau contenu publié dans Experience Manager Assets et la prise en compte de cette opération peuvent prendre quelques minutes.
@@ -39,7 +44,7 @@ En outre, toutes les fonctionnalités existantes restent inchangées. Les utilis
 
 >[!VIDEO](https://video.tv.adobe.com/v/33200/?captions=fre_fr&quality=12)
 
-## Conditions préalables {#prerequisites}
+## Prérequis {#prerequisites}
 
 * Instance Experience Manager Assets as a Cloud Service, Experience Manager Assets 6.5.2 ou version ultérieure.
 * Vérifiez que votre instance d’Experience Manager Assets est configurée avec Brand Portal. Consultez [Configuration d’Experience Manager Assets avec Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
@@ -107,7 +112,7 @@ Default URL: http:// localhost:4502/system/console/configMgr.
 
 ### Chargement de la liste des utilisateurs de Brand Portal {#upload-bp-user-list}
 
-Les administrateurs Experience Manager Assets peuvent charger le fichier de configuration des utilisateurs Brand Portal (au format .csv) contenant la liste des utilisateurs actifs de Brand Portal dans Experience Manager Assets pour leur permettre d’accéder à la fonctionnalité d’approvisionnement des ressources.
+Les administrateurs et administratrices Experience Manager Assets peuvent charger dans Experience Manager Assets le fichier de configuration des utilisateurs Brand Portal (au format .csv) contenant la liste des utilisatrices et utilisateurs actifs de Brand Portal pour leur permettre d’accéder à la fonctionnalité d’approvisionnement des ressources.
 
 Un dossier de contribution peut uniquement être partagé avec les utilisateurs actifs de Brand Portal définis dans la liste des utilisateurs. L’administrateur peut également ajouter de nouveaux utilisateurs dans le fichier de configuration et charger la liste modifiée des utilisateurs.
 
@@ -117,7 +122,7 @@ Un dossier de contribution peut uniquement être partagé avec les utilisateurs 
 
 >[!NOTE]
 >
->Le format du fichier CSV est le même que celui pris en charge dans Admin Console pour l’importation d’utilisateurs en bloc. Vous devez indiquer vos nom, prénom et adresse e-mail.
+>Le format du fichier CSV est le même que celui pris en charge dans Admin Console pour l’importation d’utilisateurs en bloc. L’adresse e-mail, le prénom et le nom sont obligatoires.
 
 Les administrateurs peuvent ajouter de nouveaux utilisateurs dans Admin Console. Accédez à [Gérer les utilisateurs](brand-portal-adding-users.md) pour plus d’informations. Après avoir ajouté des utilisateurs dans l’Admin Console, ces utilisateurs peuvent être ajoutés au fichier de configuration des utilisateurs de Brand Portal, puis recevoir l’autorisation d’accéder au dossier de contribution.
 

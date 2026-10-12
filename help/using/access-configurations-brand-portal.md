@@ -1,5 +1,5 @@
 ---
-title: Administration de l’accès des utilisateurs sur Brand Portal
+title: Administrer l’accès des utilisateurs et utilisatrices sur Brand Portal
 description: Configurez l’accès des invités et des nouveaux utilisateurs et utilisatrices sur Brand Portal.
 contentOwner: mgulati
 topic-tags: administration
@@ -7,27 +7,34 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 role: Admin
 exl-id: 27a9cd26-9bb3-473b-b1ac-37f77975c912
-TQID: https://experienceleague.adobe.com/SGJ5f5BOFd4Yiu2OiR9wyRU3wk-YlnGrX5Zm5JmPHuY
+TQID: 'https://experienceleague.adobe.com/SGJ5f5BOFd4Yiu2OiR9wyRU3wk-YlnGrX5Zm5JmPHuY'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: cda65036-5305-4f01-89da-9b3506ae8c50
+    internal-label: Administration
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+    internal-label: Administration
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 293
+source-wordcount: '293'
 ht-degree: 32%
-
 ---
-
-# Administration de l’accès des utilisateurs sur Brand Portal {#administer-user-access-on-brand-portal}
+# Administrer l’accès des utilisateurs et utilisatrices sur Brand Portal {#administer-user-access-on-brand-portal}
 
 À compter de la version 6.4.2, Adobe Experience Manager Assets Brand Portal autorise les administrateurs à configurer l’accès des invités et permet aux utilisateurs de demander l’accès sur le Brand Portal de leur entreprise. Ces configurations sont proposées sous forme de configurations de **[!UICONTROL Paramètres d’accès]** dans le panneau d’administration. Les deux paramètres sont désactivés par défaut.
 
@@ -40,7 +47,7 @@ ht-degree: 32%
 ## Autoriser l’accès des invités {#allow-guest-access}
 
 En autorisant l’accès des invités, les utilisateurs peuvent accéder aux ressources publiques sans avoir à se connecter à Brand Portal.
-Pour autoriser ce type d’accès, l’administrateur doit procéder comme suit :
+Pour autoriser l’accès des visiteurs et visiteuses anonymes, l’administrateur ou l’administratrice doit procéder comme suit :
 
 1. Sélectionnez le logo AEM pour accéder aux outils d’administration dans la barre d’outils supérieure.
 1. Dans le panneau Outils d’administration, sélectionnez **[!UICONTROL Accès]** pour ouvrir la page **[!UICONTROL Paramètres d’accès]**.
